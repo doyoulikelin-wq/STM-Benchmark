@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "tests": {
+    "passed": 126,
+    "subtests_passed": 171
+  },
+  "audits": {
+    "runs/profile_comparison_v020": {
+      "valid": true,
+      "files": 15795,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    "runs/relaxed_demo_series_v020": {
+      "valid": true,
+      "files": 41077,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    "results/v0.1.0": {
+      "valid": true,
+      "files": 43,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    "results/v0.2.0": {
+      "valid": true,
+      "files": 126,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    }
+  },
+  "postflight_writes": 0,
+  "postflight_scan_approach_feedback": [
+    0,
+    0,
+    0
+  ],
+  "source_note": "Demo and synthetic series retain their frozen source snapshots. Release CLI subsequently also treats nonzero cleanup_failures as failed evaluate/compare exit status; numerical environment and thresholds unchanged. Regression tests cover this reporting fix.",
+  "browser_visual_review": "Report JavaScript is checked separately; no browser rendering claim."
+}

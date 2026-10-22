@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "created": "2026-10-23T03:05:55.463+08:00",
+  "thresholds": {
+    "minimum_window_samples": 16,
+    "current_relative_error": 0.3,
+    "current_cv": 0.8,
+    "current_peak_ratio": 20.0,
+    "current_outlier_fraction": 0.001,
+    "z_rail_fraction": 0.01,
+    "z_drift_m_s": 2e-09,
+    "z_texture_std_m": 1e-12,
+    "z_texture_span_m": 5e-12,
+    "forward_backward_corr": 0.6,
+    "repeat_corr": 0.9,
+    "absolute_current_limit_A": 1e-06
+  },
+  "scope": "numerical_workflow_not_scientific_image_certification",
+  "source_hashes": {
+    "__init__.py": "56d8161524747fe1df14f8a7584cc6020140faab2776994d5dd003c9dbd82005",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "artifacts.py": "e5aa5da53123afe41bf57b43721f9a162d87f940258931867dc569cc28549c99",
+    "cli.py": "cb8e26c735f129aa8240d0fd93fbe37185d1a92ae001317a4bf2dd6e670c43c7",
+    "demo.py": "a2b2c13a4a63b7612fde5427379ad282a93ac8335eaee1d050156dde6acd2383",
+    "demo_catalog.json": "9c8c60c661c3728013ad46f9dbf8d68a2ffada1e33b27812d5dff2736121c335",
+    "demo_identity.py": "ba067c6a83f3aa8522317facb6f507d15bada1cc5f65730929963b8d8a513333",
+    "demo_wire.py": "67ea6352f665118bdafdbe168e340e8bfb61b3015763b960688de0173dcf856a",
+    "env.py": "cc92609ced117099b37f6983182e9c0ce2f514b83b7b7c8198f624a7af4fe4f0",
+    "metrics.py": "18212ddfea10ba51d173e76616aa5d015a376c87d46949dca733c18f5e2e2267",
+    "policies.py": "d679130de5b0d3271537e09811d5587808b2c4d63b0674f134df47901a8fefac",
+    "runner.py": "028af249d6cc345beb9d4a9de340e754a9e4ed6cfb62abc9a9cfd4babc9e0357",
+    "synthetic.py": "45d1a08d9358225f012206fa269a691615491781baf205f6bd94a125376a5183"
+  },
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "required_stable_windows": 2,
+  "required_detail_scans": 2,
+  "scientific_ground_truth": "unavailable",
+  "training": "none; frozen rule and random policies"
+}

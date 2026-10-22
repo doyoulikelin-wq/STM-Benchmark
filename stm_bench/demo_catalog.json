@@ -1,0 +1,463 @@
+{
+  "commands": [
+    {
+      "name": "AutoApproach.OnOffGet",
+      "module": "AutoApproach",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "H"
+      ],
+      "schema": true,
+      "page": 78,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "AutoApproach.OnOffSet",
+      "module": "AutoApproach",
+      "args": [
+        "On_Off"
+      ],
+      "inputs": [
+        "H"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 78,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "AutoApproach.Open",
+      "module": "AutoApproach",
+      "args": [],
+      "inputs": [],
+      "outputs": [],
+      "schema": true,
+      "page": 78,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Bias.Get",
+      "module": "Bias",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f"
+      ],
+      "schema": true,
+      "page": 38,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Current.Get",
+      "module": "Current",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f"
+      ],
+      "schema": true,
+      "page": 65,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Piezo.RangeGet",
+      "module": "Piezo",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f",
+        "f",
+        "f"
+      ],
+      "schema": true,
+      "page": 91,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.Action",
+      "module": "Scan",
+      "args": [
+        "Scan_action",
+        "Scan_direction"
+      ],
+      "inputs": [
+        "H",
+        "I"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 98,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.BufferGet",
+      "module": "Scan",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "i",
+        "*i",
+        "i",
+        "i"
+      ],
+      "schema": true,
+      "page": 100,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.BufferSet",
+      "module": "Scan",
+      "args": [
+        "Channel_indexes",
+        "Pixels",
+        "Lines"
+      ],
+      "inputs": [
+        "+*i",
+        "i",
+        "i"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 100,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.FrameDataGrab",
+      "module": "Scan",
+      "args": [
+        "Channel_index",
+        "Data_direction"
+      ],
+      "inputs": [
+        "I",
+        "I"
+      ],
+      "outputs": [
+        "i",
+        "*-c",
+        "i",
+        "i",
+        "2f",
+        "I"
+      ],
+      "schema": true,
+      "page": 104,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.FrameGet",
+      "module": "Scan",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f",
+        "f",
+        "f",
+        "f",
+        "f"
+      ],
+      "schema": true,
+      "page": 99,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.FrameSet",
+      "module": "Scan",
+      "args": [
+        "Center_X_m",
+        "Center_Y_m",
+        "Width_m",
+        "Height_m",
+        "Angle_deg"
+      ],
+      "inputs": [
+        "f",
+        "f",
+        "f",
+        "f",
+        "f"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 99,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.PropsGet",
+      "module": "Scan",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "I",
+        "I",
+        "I",
+        "i",
+        "*-c",
+        "i",
+        "*-c",
+        "i",
+        "i",
+        "*+c",
+        "i",
+        "*i",
+        "i",
+        "i",
+        "2c",
+        "I"
+      ],
+      "schema": true,
+      "page": 102,
+      "source": "manual_R14573_corrected",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.PropsSet",
+      "module": "Scan",
+      "args": [
+        "Continuous_scan",
+        "Bouncy_scan",
+        "Autosave",
+        "Series_name",
+        "Comment",
+        "Modules_names",
+        "Autopaste"
+      ],
+      "inputs": [
+        "I",
+        "I",
+        "I",
+        "+*c",
+        "+*c",
+        "+*c",
+        "I"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 101,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.SpeedGet",
+      "module": "Scan",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f",
+        "f",
+        "f",
+        "f",
+        "H",
+        "f"
+      ],
+      "schema": true,
+      "page": 103,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.SpeedSet",
+      "module": "Scan",
+      "args": [
+        "Forward_linear_speed_m_s",
+        "Backward_linear_speed_m_s",
+        "Forward_time_per_line_s",
+        "Backward_time_per_line_s",
+        "Keep_parameter_constant",
+        "Speed_ratio"
+      ],
+      "inputs": [
+        "f",
+        "f",
+        "f",
+        "f",
+        "H",
+        "f"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 103,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Scan.StatusGet",
+      "module": "Scan",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "I"
+      ],
+      "schema": true,
+      "page": 98,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Signals.NamesGet",
+      "module": "Signals",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "i",
+        "i",
+        "*+c"
+      ],
+      "schema": true,
+      "page": 219,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "Util.VersionGet",
+      "module": "Util",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "+*c",
+        "+*c",
+        "I",
+        "I"
+      ],
+      "schema": true,
+      "page": 279,
+      "source": "manual_R14573_corrected",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.GainGet",
+      "module": "ZCtrl",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f",
+        "f",
+        "f"
+      ],
+      "schema": true,
+      "page": 70,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.GainSet",
+      "module": "ZCtrl",
+      "args": [
+        "P_gain",
+        "Time_constant_s",
+        "I_gain"
+      ],
+      "inputs": [
+        "f",
+        "f",
+        "f"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 70,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.OnOffGet",
+      "module": "ZCtrl",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "I"
+      ],
+      "schema": true,
+      "page": 69,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.OnOffSet",
+      "module": "ZCtrl",
+      "args": [
+        "Z_Controller_status"
+      ],
+      "inputs": [
+        "I"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 68,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.SetpntGet",
+      "module": "ZCtrl",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f"
+      ],
+      "schema": true,
+      "page": 69,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.SetpntSet",
+      "module": "ZCtrl",
+      "args": [
+        "Z_Controller_setpoint"
+      ],
+      "inputs": [
+        "f"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 69,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.Withdraw",
+      "module": "ZCtrl",
+      "args": [
+        "Wait_until_finished",
+        "Timeout_ms"
+      ],
+      "inputs": [
+        "I",
+        "i"
+      ],
+      "outputs": [],
+      "schema": true,
+      "page": 73,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    },
+    {
+      "name": "ZCtrl.ZPosGet",
+      "module": "ZCtrl",
+      "args": [],
+      "inputs": [],
+      "outputs": [
+        "f"
+      ],
+      "schema": true,
+      "page": 68,
+      "source": "installed_sdk",
+      "profile": "Mimea V5e"
+    }
+  ],
+  "provenance": "D:/STM/tools/nanonis_diagnostics/catalog.json; official TCPProtocol_Mimea_V5e.pdf R14573"
+}

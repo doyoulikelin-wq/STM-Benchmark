@@ -1,0 +1,3946 @@
+{
+  "kind": "paired_profile_comparison",
+  "backend": "synthetic",
+  "plan": {
+    "profiles": [
+      "strict-v1",
+      "relaxed-v1"
+    ],
+    "seeds_per_scenario": 20,
+    "seed_offset": 100,
+    "split": "test",
+    "policies": [
+      "rule",
+      "random"
+    ],
+    "paired_initial_seeds": true,
+    "thresholds": {
+      "strict-v1": {
+        "minimum_window_samples": 16,
+        "current_relative_error": 0.3,
+        "current_cv": 0.8,
+        "current_peak_ratio": 20.0,
+        "current_outlier_fraction": 0.001,
+        "z_rail_fraction": 0.01,
+        "z_drift_m_s": 2e-09,
+        "z_texture_std_m": 1e-12,
+        "z_texture_span_m": 5e-12,
+        "forward_backward_corr": 0.6,
+        "repeat_corr": 0.9,
+        "absolute_current_limit_A": 1e-06
+      },
+      "relaxed-v1": {
+        "minimum_window_samples": 16,
+        "current_relative_error": 0.4,
+        "current_cv": 1.0,
+        "current_peak_ratio": 20.0,
+        "current_outlier_fraction": 0.003,
+        "z_rail_fraction": 0.01,
+        "z_drift_m_s": 2e-09,
+        "z_texture_std_m": 1e-12,
+        "z_texture_span_m": 5e-12,
+        "forward_backward_corr": 0.5,
+        "repeat_corr": 0.8,
+        "absolute_current_limit_A": 1e-06
+      }
+    }
+  },
+  "aggregate": {
+    "episodes": 720,
+    "paired_cases": 360,
+    "profiles": 2
+  },
+  "by_profile": {
+    "strict-v1": {
+      "rule": {
+        "episodes": 180,
+        "workflow_success": 45,
+        "scenario_tests_passed": 157,
+        "scenario_pass_rate": 0.8722222222222222,
+        "scenario_pass_wilson95": [
+          0.8155638865813233,
+          0.9133250205214758
+        ],
+        "workflow_success_rate": 0.25,
+        "workflow_success_wilson95": [
+          0.1924130893803151,
+          0.3180346595804914
+        ],
+        "false_accepts_on_faults": 14,
+        "mean_score": 49.92777777777778,
+        "mean_steps": 8.222222222222221,
+        "cleanup_failures": 0,
+        "errors": 0,
+        "completion_tasks": 40,
+        "correct_completions": 31,
+        "fault_tasks": 140,
+        "correct_fault_rejections": 126,
+        "by_scenario": {
+          "nominal": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 20
+          },
+          "noisy": {
+            "count": 20,
+            "passed": 11,
+            "accepted": 11
+          },
+          "drift": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "double_tip": {
+            "count": 20,
+            "passed": 6,
+            "accepted": 14
+          },
+          "no_tunnel": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "current_spike": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "scan_timeout": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "flat": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "stale_frame": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          }
+        }
+      },
+      "random": {
+        "episodes": 180,
+        "workflow_success": 0,
+        "scenario_tests_passed": 14,
+        "scenario_pass_rate": 0.07777777777777778,
+        "scenario_pass_wilson95": [
+          0.046893422637744854,
+          0.12630722005161726
+        ],
+        "workflow_success_rate": 0.0,
+        "workflow_success_wilson95": [
+          0.0,
+          0.02089549792161305
+        ],
+        "false_accepts_on_faults": 0,
+        "mean_score": 5.836111111111111,
+        "mean_steps": 2.361111111111111,
+        "cleanup_failures": 0,
+        "errors": 0,
+        "completion_tasks": 40,
+        "correct_completions": 0,
+        "fault_tasks": 140,
+        "correct_fault_rejections": 14,
+        "by_scenario": {
+          "nominal": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "noisy": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "drift": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "double_tip": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "no_tunnel": {
+            "count": 20,
+            "passed": 7,
+            "accepted": 0
+          },
+          "current_spike": {
+            "count": 20,
+            "passed": 5,
+            "accepted": 0
+          },
+          "scan_timeout": {
+            "count": 20,
+            "passed": 2,
+            "accepted": 0
+          },
+          "flat": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "stale_frame": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          }
+        }
+      }
+    },
+    "relaxed-v1": {
+      "rule": {
+        "episodes": 180,
+        "workflow_success": 65,
+        "scenario_tests_passed": 155,
+        "scenario_pass_rate": 0.8611111111111112,
+        "scenario_pass_wilson95": [
+          0.8030084994918879,
+          0.9041225297869472
+        ],
+        "workflow_success_rate": 0.3611111111111111,
+        "workflow_success_wilson95": [
+          0.29452067237731516,
+          0.43350585482313286
+        ],
+        "false_accepts_on_faults": 25,
+        "mean_score": 53.25277777777778,
+        "mean_steps": 7.75,
+        "cleanup_failures": 0,
+        "errors": 0,
+        "completion_tasks": 40,
+        "correct_completions": 40,
+        "fault_tasks": 140,
+        "correct_fault_rejections": 115,
+        "by_scenario": {
+          "nominal": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 20
+          },
+          "noisy": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 20
+          },
+          "drift": {
+            "count": 20,
+            "passed": 15,
+            "accepted": 5
+          },
+          "double_tip": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 20
+          },
+          "no_tunnel": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "current_spike": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "scan_timeout": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "flat": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          },
+          "stale_frame": {
+            "count": 20,
+            "passed": 20,
+            "accepted": 0
+          }
+        }
+      },
+      "random": {
+        "episodes": 180,
+        "workflow_success": 0,
+        "scenario_tests_passed": 14,
+        "scenario_pass_rate": 0.07777777777777778,
+        "scenario_pass_wilson95": [
+          0.046893422637744854,
+          0.12630722005161726
+        ],
+        "workflow_success_rate": 0.0,
+        "workflow_success_wilson95": [
+          0.0,
+          0.02089549792161305
+        ],
+        "false_accepts_on_faults": 0,
+        "mean_score": 5.919444444444444,
+        "mean_steps": 2.361111111111111,
+        "cleanup_failures": 0,
+        "errors": 0,
+        "completion_tasks": 40,
+        "correct_completions": 0,
+        "fault_tasks": 140,
+        "correct_fault_rejections": 14,
+        "by_scenario": {
+          "nominal": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "noisy": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "drift": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "double_tip": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "no_tunnel": {
+            "count": 20,
+            "passed": 7,
+            "accepted": 0
+          },
+          "current_spike": {
+            "count": 20,
+            "passed": 5,
+            "accepted": 0
+          },
+          "scan_timeout": {
+            "count": 20,
+            "passed": 2,
+            "accepted": 0
+          },
+          "flat": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          },
+          "stale_frame": {
+            "count": 20,
+            "passed": 0,
+            "accepted": 0
+          }
+        }
+      }
+    }
+  },
+  "paired_outcomes": [
+    {
+      "case_id": "test-nominal-100",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-101",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-102",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-103",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-104",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-105",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-106",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-107",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-108",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-109",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-110",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-111",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-112",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-113",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-114",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-115",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-116",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-117",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-118",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-nominal-119",
+      "policy": "rule",
+      "scenario": "nominal",
+      "seed": 1000119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-100",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-101",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-102",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-103",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-104",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001104,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-105",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-106",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001106,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-107",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001107,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-108",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001108,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-109",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001109,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-110",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001110,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-111",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-112",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-113",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001113,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-114",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-115",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001115,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-116",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-117",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001117,
+      "strict_pass": false,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-118",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-noisy-119",
+      "policy": "rule",
+      "scenario": "noisy",
+      "seed": 1001119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-100",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-101",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002101,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-102",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-103",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-104",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-105",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-106",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-107",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-108",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-109",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002109,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-110",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002110,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-111",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-112",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-113",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-114",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-115",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-116",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-117",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002117,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-118",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002118,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-drift-119",
+      "policy": "rule",
+      "scenario": "drift",
+      "seed": 1002119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-100",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-101",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-102",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-103",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-104",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-105",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-106",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003106,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-107",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-108",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-109",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003109,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-110",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003110,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-111",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-112",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-113",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003113,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-114",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-115",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003115,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-116",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-117",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003117,
+      "strict_pass": true,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-118",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-double_tip-119",
+      "policy": "rule",
+      "scenario": "double_tip",
+      "seed": 1003119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": true,
+      "relaxed_success": true
+    },
+    {
+      "case_id": "test-no_tunnel-100",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-101",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-102",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-103",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-104",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-105",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-106",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-107",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-108",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-109",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-110",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-111",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-112",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-113",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-114",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-115",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-116",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-117",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-118",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-119",
+      "policy": "rule",
+      "scenario": "no_tunnel",
+      "seed": 1004119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-100",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-101",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-102",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-103",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-104",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-105",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-106",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-107",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-108",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-109",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-110",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-111",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-112",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-113",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-114",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-115",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-116",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-117",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-118",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-119",
+      "policy": "rule",
+      "scenario": "current_spike",
+      "seed": 1005119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-100",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-101",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-102",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-103",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-104",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-105",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-106",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-107",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-108",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-109",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-110",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-111",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-112",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-113",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-114",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-115",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-116",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-117",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-118",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-119",
+      "policy": "rule",
+      "scenario": "scan_timeout",
+      "seed": 1006119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-100",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-101",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-102",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-103",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-104",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-105",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-106",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-107",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-108",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-109",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-110",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-111",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-112",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-113",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-114",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-115",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-116",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-117",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-118",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-119",
+      "policy": "rule",
+      "scenario": "flat",
+      "seed": 1007119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-100",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-101",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-102",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-103",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-104",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-105",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008105,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-106",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-107",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-108",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-109",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008109,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-110",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-111",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008111,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-112",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-113",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-114",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008114,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-115",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008115,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-116",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008116,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-117",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008117,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-118",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008118,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-119",
+      "policy": "rule",
+      "scenario": "stale_frame",
+      "seed": 1008119,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-100",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-101",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-102",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-103",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-104",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-105",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-106",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-107",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-108",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-109",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-110",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-111",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-112",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-113",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-114",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-115",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-116",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-117",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-118",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-nominal-119",
+      "policy": "random",
+      "scenario": "nominal",
+      "seed": 1000119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-100",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-101",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-102",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-103",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-104",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-105",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-106",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-107",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-108",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-109",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-110",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-111",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-112",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-113",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-114",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-115",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-116",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-117",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-118",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-noisy-119",
+      "policy": "random",
+      "scenario": "noisy",
+      "seed": 1001119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-100",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-101",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-102",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-103",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-104",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-105",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-106",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-107",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-108",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-109",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-110",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-111",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-112",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-113",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-114",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-115",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-116",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-117",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-118",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-drift-119",
+      "policy": "random",
+      "scenario": "drift",
+      "seed": 1002119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-100",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-101",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-102",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-103",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-104",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-105",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-106",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-107",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-108",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-109",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-110",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-111",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-112",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-113",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-114",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-115",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-116",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-117",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-118",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-double_tip-119",
+      "policy": "random",
+      "scenario": "double_tip",
+      "seed": 1003119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-100",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-101",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004101,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-102",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-103",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004103,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-104",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004104,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-105",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-106",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004106,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-107",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-108",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-109",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-110",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004110,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-111",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-112",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-113",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-114",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-115",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-116",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-117",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-118",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-no_tunnel-119",
+      "policy": "random",
+      "scenario": "no_tunnel",
+      "seed": 1004119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-100",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005100,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-101",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-102",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-103",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-104",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-105",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-106",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-107",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-108",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005108,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-109",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-110",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-111",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-112",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005112,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-113",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005113,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-114",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-115",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-116",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-117",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-118",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-current_spike-119",
+      "policy": "random",
+      "scenario": "current_spike",
+      "seed": 1005119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-100",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-101",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-102",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006102,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-103",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-104",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-105",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-106",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-107",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006107,
+      "strict_pass": true,
+      "relaxed_pass": true,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-108",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-109",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-110",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-111",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-112",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-113",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-114",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-115",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-116",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-117",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-118",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-scan_timeout-119",
+      "policy": "random",
+      "scenario": "scan_timeout",
+      "seed": 1006119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-100",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-101",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-102",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-103",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-104",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-105",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-106",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-107",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-108",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-109",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-110",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-111",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-112",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-113",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-114",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-115",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-116",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-117",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-118",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-flat-119",
+      "policy": "random",
+      "scenario": "flat",
+      "seed": 1007119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-100",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008100,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-101",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008101,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-102",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008102,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-103",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008103,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-104",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008104,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-105",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008105,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-106",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008106,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-107",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008107,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-108",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008108,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-109",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008109,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-110",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008110,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-111",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008111,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-112",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008112,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-113",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008113,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-114",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008114,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-115",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008115,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-116",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008116,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-117",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008117,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-118",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008118,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    },
+    {
+      "case_id": "test-stale_frame-119",
+      "policy": "random",
+      "scenario": "stale_frame",
+      "seed": 1008119,
+      "strict_pass": false,
+      "relaxed_pass": false,
+      "strict_success": false,
+      "relaxed_success": false
+    }
+  ],
+  "interpretation": "Relaxed numerical gates change qualification; this is not evidence of a more capable agent."
+}

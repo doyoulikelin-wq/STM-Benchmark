@@ -1,0 +1,317 @@
+[
+  {
+    "id": "test-nominal-0",
+    "scenario": "nominal",
+    "seed": 1000000,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-nominal-1",
+    "scenario": "nominal",
+    "seed": 1000001,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-nominal-2",
+    "scenario": "nominal",
+    "seed": 1000002,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-nominal-3",
+    "scenario": "nominal",
+    "seed": 1000003,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-nominal-4",
+    "scenario": "nominal",
+    "seed": 1000004,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-noisy-0",
+    "scenario": "noisy",
+    "seed": 1001000,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-noisy-1",
+    "scenario": "noisy",
+    "seed": 1001001,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-noisy-2",
+    "scenario": "noisy",
+    "seed": 1001002,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-noisy-3",
+    "scenario": "noisy",
+    "seed": 1001003,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-noisy-4",
+    "scenario": "noisy",
+    "seed": 1001004,
+    "split": "test",
+    "expected": "success"
+  },
+  {
+    "id": "test-drift-0",
+    "scenario": "drift",
+    "seed": 1002000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-drift-1",
+    "scenario": "drift",
+    "seed": 1002001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-drift-2",
+    "scenario": "drift",
+    "seed": 1002002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-drift-3",
+    "scenario": "drift",
+    "seed": 1002003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-drift-4",
+    "scenario": "drift",
+    "seed": 1002004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-double_tip-0",
+    "scenario": "double_tip",
+    "seed": 1003000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-double_tip-1",
+    "scenario": "double_tip",
+    "seed": 1003001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-double_tip-2",
+    "scenario": "double_tip",
+    "seed": 1003002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-double_tip-3",
+    "scenario": "double_tip",
+    "seed": 1003003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-double_tip-4",
+    "scenario": "double_tip",
+    "seed": 1003004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-no_tunnel-0",
+    "scenario": "no_tunnel",
+    "seed": 1004000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-no_tunnel-1",
+    "scenario": "no_tunnel",
+    "seed": 1004001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-no_tunnel-2",
+    "scenario": "no_tunnel",
+    "seed": 1004002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-no_tunnel-3",
+    "scenario": "no_tunnel",
+    "seed": 1004003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-no_tunnel-4",
+    "scenario": "no_tunnel",
+    "seed": 1004004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-current_spike-0",
+    "scenario": "current_spike",
+    "seed": 1005000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-current_spike-1",
+    "scenario": "current_spike",
+    "seed": 1005001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-current_spike-2",
+    "scenario": "current_spike",
+    "seed": 1005002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-current_spike-3",
+    "scenario": "current_spike",
+    "seed": 1005003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-current_spike-4",
+    "scenario": "current_spike",
+    "seed": 1005004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-scan_timeout-0",
+    "scenario": "scan_timeout",
+    "seed": 1006000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-scan_timeout-1",
+    "scenario": "scan_timeout",
+    "seed": 1006001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-scan_timeout-2",
+    "scenario": "scan_timeout",
+    "seed": 1006002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-scan_timeout-3",
+    "scenario": "scan_timeout",
+    "seed": 1006003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-scan_timeout-4",
+    "scenario": "scan_timeout",
+    "seed": 1006004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-flat-0",
+    "scenario": "flat",
+    "seed": 1007000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-flat-1",
+    "scenario": "flat",
+    "seed": 1007001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-flat-2",
+    "scenario": "flat",
+    "seed": 1007002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-flat-3",
+    "scenario": "flat",
+    "seed": 1007003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-flat-4",
+    "scenario": "flat",
+    "seed": 1007004,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-stale_frame-0",
+    "scenario": "stale_frame",
+    "seed": 1008000,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-stale_frame-1",
+    "scenario": "stale_frame",
+    "seed": 1008001,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-stale_frame-2",
+    "scenario": "stale_frame",
+    "seed": 1008002,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-stale_frame-3",
+    "scenario": "stale_frame",
+    "seed": 1008003,
+    "split": "test",
+    "expected": "reject"
+  },
+  {
+    "id": "test-stale_frame-4",
+    "scenario": "stale_frame",
+    "seed": 1008004,
+    "split": "test",
+    "expected": "reject"
+  }
+]

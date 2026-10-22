@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STM benchmark semantic action",
+  "oneOf": [
+    {"type":"object","required":["type"],"properties":{"type":{"enum":["approach","observe","survey","scan","accept","retract"]}},"additionalProperties":false},
+    {"type":"object","required":["type","params"],"properties":{"type":{"const":"configure"},"params":{"type":"object","minProperties":1,"properties":{"p_gain_m":{"type":"number"},"time_constant_s":{"type":"number"},"line_time_s":{"type":"number"},"setpoint_A":{"type":"number"}},"additionalProperties":false}},"additionalProperties":false},
+    {"type":"object","required":["type","roi"],"properties":{"type":{"const":"select_roi"},"roi":{"type":"object","required":["x","y","size"],"properties":{"x":{"type":"number","minimum":0,"maximum":1},"y":{"type":"number","minimum":0,"maximum":1},"size":{"type":"number","minimum":0.15,"maximum":0.5}},"additionalProperties":false}},"additionalProperties":false},
+    {"type":"object","required":["type","label"],"properties":{"type":{"const":"judge"},"label":{"enum":["good","noisy","flat","saturated","incomplete"]},"diagnosis":{"enum":["unknown","clean","double_tip","drift"]}},"additionalProperties":false}
+  ],
+  "$comment": "Stage masks, ROI containment and backend numeric limits are enforced at runtime. This schema describes the canonical type spelling."
+}

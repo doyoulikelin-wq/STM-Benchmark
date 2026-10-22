@@ -1,0 +1,16 @@
+{
+  "kind": "portable_curated_stm_benchmark_results",
+  "version": "0.2.0",
+  "created_utc": "2026-10-22T20:40:52.065075+00:00",
+  "absolute_json_paths_redacted": true,
+  "aggregate": {
+    "synthetic_episodes": 720,
+    "paired_cases": 360,
+    "demo_completed": 5,
+    "demo_successes": 5
+  },
+  "profile_comparison": "profile_comparison/summary.json",
+  "demo_series": "demo_series/summary.json",
+  "integrity": "Each manifest.json seals the exported files in its directory tree. Original full-run manifests are separately preserved as source_manifest.json; omitted or transformed files prevent full-source audit equivalence.",
+  "scope": "Synthetic tasks and same-session Nanonis Demo measurements; not real instrument scientific validation."
+}

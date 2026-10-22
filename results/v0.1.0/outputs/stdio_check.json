@@ -1,0 +1,59 @@
+{
+  "requests": 14,
+  "success": true,
+  "restored": true,
+  "summary": {
+    "backend": "synthetic",
+    "success": true,
+    "stages": {
+      "approach": true,
+      "stability": true,
+      "survey": true,
+      "roi": true,
+      "detail": true,
+      "repeatability": true,
+      "judgment": true,
+      "accepted": true
+    },
+    "score_parts": {
+      "approach": 10.0,
+      "stability": 15.0,
+      "survey": 15.0,
+      "roi": 15.0,
+      "detail": 15.0,
+      "repeatability": 15.0,
+      "judgment": 5.0,
+      "accepted": 10.0,
+      "invalid_actions": -0.0,
+      "wrong_judgments": -0.0,
+      "backend_faults": -0.0,
+      "step_cost": -1.1
+    },
+    "score": 98.9,
+    "steps": 11,
+    "invalid_actions": 0,
+    "terminated": true,
+    "localization_valid": true,
+    "scientific_localization_accuracy": null,
+    "truncated": false,
+    "termination_reason": "verified_task_success",
+    "judgments": [
+      {
+        "frame_id": "scan-000003",
+        "label": "good",
+        "metric_label": "good",
+        "agrees_with_metrics": true,
+        "diagnosis": "unknown",
+        "diagnosis_status": "unverified_agent_hypothesis"
+      }
+    ],
+    "repeatability": {
+      "confirmed": true,
+      "correlation": 0.99974082156491,
+      "distinct_acquisitions": true,
+      "same_context": true
+    },
+    "cleanup": null,
+    "last_error": null
+  }
+}

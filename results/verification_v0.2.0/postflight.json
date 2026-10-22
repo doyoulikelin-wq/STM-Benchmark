@@ -1,0 +1,96 @@
+{
+  "backend": "nanonis_demo",
+  "identity": {
+    "host_pid": 38324,
+    "sim_pid": 31916,
+    "host_created": 1792389598.655084,
+    "sim_created": 1792389603.2173164,
+    "host_exe": "[local path omitted]/Nanonis Mimea.exe",
+    "sim_exe": "[local path omitted]/Sim-Engine.exe",
+    "port": 6501,
+    "reciprocal_connections": 8,
+    "checked_at_unix": 1792701629.59929
+  },
+  "version": [
+    "Nanonis Mimea Software",
+    "Generic 5e",
+    15331,
+    15331
+  ],
+  "state": {
+    "Bias.Get": 2.0,
+    "ZCtrl.OnOffGet": 0,
+    "ZCtrl.SetpntGet": 5.00000006675716e-11,
+    "ZCtrl.GainGet": [
+      2.000000026702864e-10,
+      0.0010000000474974513,
+      1.9999998812636477e-07
+    ],
+    "Scan.FrameGet": [
+      0.0,
+      0.0,
+      1.4999999464748726e-08,
+      1.4999999464748726e-08,
+      0.0
+    ],
+    "Scan.BufferGet": [
+      2,
+      [
+        0,
+        89
+      ],
+      256,
+      256
+    ],
+    "Scan.SpeedGet": [
+      2.929687354935595e-07,
+      2.929687354935595e-07,
+      0.05119999870657921,
+      0.05119999870657921,
+      1,
+      1.0
+    ],
+    "Scan.PropsGet": [
+      0,
+      1,
+      2,
+      7,
+      "unnamed",
+      0,
+      "",
+      0,
+      0,
+      [],
+      0,
+      [],
+      0,
+      0,
+      {
+        "shape": [
+          0,
+          0
+        ],
+        "values": []
+      },
+      2
+    ],
+    "Scan.StatusGet": 0,
+    "Current.Get": -3.284266608671871e-11,
+    "ZCtrl.ZPosGet": 7.500000265281415e-07,
+    "Piezo.RangeGet": [
+      3.000000106112566e-06,
+      3.000000106112566e-06,
+      1.500000053056283e-06
+    ],
+    "AutoApproach.OnOffGet": 0
+  },
+  "channels": {
+    "current": 0,
+    "z": 30
+  },
+  "channel_names": {
+    "current": "Current (A)",
+    "z": "Z (m)"
+  },
+  "writes": 0
+}

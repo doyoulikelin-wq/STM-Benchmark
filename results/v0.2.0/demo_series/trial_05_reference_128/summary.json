@@ -1,0 +1,225 @@
+{
+  "backend": "nanonis_demo",
+  "success": true,
+  "profile": "relaxed-v1",
+  "stages": {
+    "approach": true,
+    "stability": true,
+    "survey": true,
+    "roi": true,
+    "detail": true,
+    "repeatability": true,
+    "judgment": true,
+    "accepted": true
+  },
+  "score_parts": {
+    "approach": 10.0,
+    "stability": 15.0,
+    "survey": 15.0,
+    "roi": 15.0,
+    "detail": 15.0,
+    "repeatability": 15.0,
+    "judgment": 5.0,
+    "accepted": 10.0,
+    "invalid_actions": -0.0,
+    "wrong_judgments": -0.0,
+    "backend_faults": -0.0,
+    "step_cost": -1.1
+  },
+  "score": 98.9,
+  "steps": 11,
+  "invalid_actions": 0,
+  "terminated": true,
+  "localization_valid": true,
+  "scientific_localization_accuracy": null,
+  "truncated": false,
+  "termination_reason": "verified_task_success",
+  "judgments": [
+    {
+      "frame_id": "detail_cfa2b6879176",
+      "label": "good",
+      "metric_label": "good",
+      "agrees_with_metrics": true,
+      "diagnosis": "unknown",
+      "diagnosis_status": "unverified_agent_hypothesis"
+    }
+  ],
+  "repeatability": {
+    "confirmed": true,
+    "correlation": 0.9991075235336193,
+    "distinct_acquisitions": true,
+    "same_context": true
+  },
+  "cleanup": {
+    "restored": true,
+    "backend": "nanonis_demo",
+    "write_count": 23,
+    "matches": {
+      "Bias.Get": true,
+      "ZCtrl.OnOffGet": true,
+      "ZCtrl.SetpntGet": true,
+      "ZCtrl.GainGet": true,
+      "Scan.FrameGet": true,
+      "Scan.BufferGet": true,
+      "Scan.SpeedGet": true,
+      "Scan.PropsGet": true
+    },
+    "initial": {
+      "Bias.Get": 2.0,
+      "ZCtrl.OnOffGet": 0,
+      "ZCtrl.SetpntGet": 5.00000006675716e-11,
+      "ZCtrl.GainGet": [
+        2.000000026702864e-10,
+        0.0010000000474974513,
+        1.9999998812636477e-07
+      ],
+      "Scan.FrameGet": [
+        0.0,
+        0.0,
+        1.4999999464748726e-08,
+        1.4999999464748726e-08,
+        0.0
+      ],
+      "Scan.BufferGet": [
+        2,
+        [
+          0,
+          89
+        ],
+        256,
+        256
+      ],
+      "Scan.SpeedGet": [
+        2.929687354935595e-07,
+        2.929687354935595e-07,
+        0.05119999870657921,
+        0.05119999870657921,
+        1,
+        1.0
+      ],
+      "Scan.PropsGet": [
+        0,
+        1,
+        2,
+        7,
+        "unnamed",
+        0,
+        "",
+        0,
+        0,
+        [],
+        0,
+        [],
+        0,
+        0,
+        {
+          "shape": [
+            0,
+            0
+          ],
+          "values": []
+        },
+        2
+      ],
+      "Scan.StatusGet": 0,
+      "Current.Get": -9.49285246763798e-13,
+      "ZCtrl.ZPosGet": 7.500000265281415e-07,
+      "Piezo.RangeGet": [
+        3.000000106112566e-06,
+        3.000000106112566e-06,
+        1.500000053056283e-06
+      ],
+      "AutoApproach.OnOffGet": 0
+    },
+    "final": {
+      "Bias.Get": 2.0,
+      "ZCtrl.OnOffGet": 0,
+      "ZCtrl.SetpntGet": 5.00000006675716e-11,
+      "ZCtrl.GainGet": [
+        2.000000026702864e-10,
+        0.0010000000474974513,
+        1.9999998812636477e-07
+      ],
+      "Scan.FrameGet": [
+        0.0,
+        0.0,
+        1.4999999464748726e-08,
+        1.4999999464748726e-08,
+        0.0
+      ],
+      "Scan.BufferGet": [
+        2,
+        [
+          0,
+          89
+        ],
+        256,
+        256
+      ],
+      "Scan.SpeedGet": [
+        2.929687354935595e-07,
+        2.929687354935595e-07,
+        0.05119999870657921,
+        0.05119999870657921,
+        1,
+        1.0
+      ],
+      "Scan.PropsGet": [
+        0,
+        1,
+        2,
+        7,
+        "unnamed",
+        0,
+        "",
+        0,
+        0,
+        [],
+        0,
+        [],
+        0,
+        0,
+        {
+          "shape": [
+            0,
+            0
+          ],
+          "values": []
+        },
+        2
+      ],
+      "Scan.StatusGet": 0,
+      "Current.Get": -6.453666160505245e-12,
+      "ZCtrl.ZPosGet": 7.500000265281415e-07,
+      "Piezo.RangeGet": [
+        3.000000106112566e-06,
+        3.000000106112566e-06,
+        1.500000053056283e-06
+      ],
+      "AutoApproach.OnOffGet": 0
+    },
+    "z_position_restored": false,
+    "note": "Configuration restored; physical/coarse tip position is not claimed reversible"
+  },
+  "last_error": null,
+  "seed": 0,
+  "scenario": "nominal",
+  "policy": "rule",
+  "case_id": "trial_05_reference_128",
+  "runtime_s": 241.0,
+  "total_reward": 98.90000000000002,
+  "error": null,
+  "cleanup_ok": true,
+  "frames": 3,
+  "fault_evidence": {
+    "image_labels": [
+      "good"
+    ],
+    "overcurrent": false,
+    "excess_z_drift": false,
+    "scan_attempt": true,
+    "unconfirmed_repeat": false
+  },
+  "expected_outcome": null,
+  "task_pass": true
+}
