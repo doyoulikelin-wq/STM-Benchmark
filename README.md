@@ -22,6 +22,12 @@
 
 最后一条会实际控制已核验的本机 Nanonis Demo，执行五个预先定义的参数组合。纯离线 CI 不连接设备。
 
+## Au(111) 针尖调理经验与技能
+
+[实机经验总结](docs/AU111_TIP_CONDITIONING_LESSONS.md) 区分诱导尝试、研究员示范、人工干预混杂与已验证修复闭环；这些观察不计入当前 synthetic / Demo 成绩。完整可移植 [技能包](skills/stm-au111-tip-conditioning/SKILL.md) 包含物理依据、本地经验、记录模板和离线校验工具；它不提供通用实机驱动，也不改变 Simulator 身份保护。
+
+[技能审查与待确认项](docs/TIP_SKILL_REVIEW.md) 列出 A–F 修订及尚未确认的动作预算、图文参数冲突。安装时复制整个 `skills/stm-au111-tip-conditioning/` 文件夹（包括 references、scripts、assets、agents），保留 `SKILL.md` 文件名。
+
 ## 开始运行
 
 需要 Python 3.11 或更高版本。所有命令在本工程目录执行，不依赖历史实验目录中的 Python 环境。

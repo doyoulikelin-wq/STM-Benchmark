@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "offline_record_only": true,
+  "event_id": null,
+  "session_id": null,
+  "state_segment_id": null,
+  "operator": null,
+  "created_utc": null,
+  "intent": "preparation",
+  "authorization": {
+    "confirmed": null,
+    "evidence": null,
+    "exclusive_writer_confirmed": null,
+    "commands": [],
+    "bounds": {
+      "voltage_V": [
+        null,
+        null
+      ],
+      "width_s": [
+        null,
+        null
+      ],
+      "preparation_current_A": [
+        null,
+        null
+      ],
+      "resting_bias_V": [
+        null,
+        null
+      ],
+      "x_m": [
+        null,
+        null
+      ],
+      "y_m": [
+        null,
+        null
+      ]
+    },
+    "target_id": null
+  },
+  "budget": {
+    "confirmed": null,
+    "evidence": null,
+    "max_actions_per_session": null,
+    "max_consecutive_failures": null,
+    "max_session_elapsed_s": null,
+    "max_action_elapsed_s": null,
+    "actions_attempted_before": 0,
+    "consecutive_failures_before": 0,
+    "actions_attempted_after": null,
+    "consecutive_failures_after": null,
+    "session_started_utc": null,
+    "stop_requested": false,
+    "repair_success_already_achieved": false,
+    "reservation_id": null,
+    "counter_evidence": {
+      "path": null,
+      "sha256": null
+    },
+    "stage_id": null,
+    "max_actions_per_stage": null,
+    "stage_actions_attempted_before": 0,
+    "stage_actions_attempted_after": null,
+    "failure_definition": null
+  },
+  "previous_action": {
+    "event_id": null,
+    "outcome": "unknown",
+    "evidence": null
+  },
+  "history": {
+    "checked_utc": null,
+    "evidence": null,
+    "manual_intervention_since_baseline": null,
+    "last_manual_intervention_utc": null,
+    "intervention_details": null
+  },
+  "baseline": {
+    "state_segment_id": null,
+    "snapshot": {
+      "path": null,
+      "sha256": null
+    },
+    "snapshot_utc": null,
+    "image": {
+      "path": null,
+      "sha256": null
+    },
+    "image_completed_utc": null,
+    "interval_native_review": {
+      "path": null,
+      "sha256": null
+    },
+    "native_reviewed_through_utc": null,
+    "fresh_verified_utc": null,
+    "max_age_s": null,
+    "full_configuration_verified": false,
+    "baseline_is_immediate": null,
+    "imaging_bias_V": null,
+    "imaging_setpoint_A": null,
+    "preparation_changes_review": null,
+    "signed_current_band_A": [
+      null,
+      null
+    ],
+    "stable_observation_s": null,
+    "required_stable_s": null,
+    "readback": {
+      "bias_V": null,
+      "setpoint_A": null,
+      "current_A": null,
+      "xy_m": [
+        null,
+        null
+      ],
+      "z_m": null,
+      "feedback_status": null,
+      "scan_idle": null,
+      "other_actions_idle": null,
+      "safetip_state": null,
+      "safetip_properties": {},
+      "gain_readback": {}
+    },
+    "z_limits_m": [
+      null,
+      null
+    ],
+    "z_margin_m": null
+  },
+  "prior_clipping": {
+    "status": "unknown",
+    "review": {
+      "path": null,
+      "sha256": null
+    },
+    "last_detected_utc": null,
+    "handled": false,
+    "resolution": null
+  },
+  "action": {
+    "command": "Bias.Pulse",
+    "voltage_V": null,
+    "width_s": null,
+    "preparation_current_A": null,
+    "resting_bias_V": null,
+    "mode": "absolute",
+    "wait_until_done": true,
+    "hold_z": true,
+    "xy_m": [
+      null,
+      null
+    ],
+    "preserve_safetip": true,
+    "retry_on_unknown": false,
+    "automatic_on": false,
+    "estimated_elapsed_s": null,
+    "rationale": null,
+    "hypothesis": null,
+    "alternative_explanations": [],
+    "physical_polarity": "unknown",
+    "physical_polarity_evidence": null,
+    "stage_id": null
+  },
+  "recording": {
+    "sample_rate_hz": null,
+    "sample_rate_basis": "unknown",
+    "channels": [
+      "Current",
+      "Bias",
+      "Z"
+    ],
+    "logger_verified_utc": null,
+    "logger_max_age_s": null,
+    "estimated_remaining_s": null,
+    "required_coverage_s": null,
+    "timing_alignment": "sequential_not_hard_synchronized",
+    "files": [],
+    "complete": null,
+    "gaps": [],
+    "platform_duration_s": null,
+    "platform_current_A": {
+      "min": null,
+      "median": null,
+      "max": null
+    },
+    "edge_current_A": {
+      "min": null,
+      "max": null
+    },
+    "z_hold_span_m": null,
+    "clipped_samples": null,
+    "clipped_duration_s": null,
+    "sampled_extrema_are_physical_bounds": false,
+    "module": null,
+    "unknown_chain_limitations": null,
+    "bandwidth_status": "unknown",
+    "range_status": "unknown",
+    "bandwidth_Hz": null,
+    "current_range_A": [
+      null,
+      null
+    ],
+    "configuration": {
+      "path": null,
+      "sha256": null
+    },
+    "configuration_readback": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "execution": {
+    "attempted": false,
+    "claim_utc": null,
+    "ack_utc": null,
+    "elapsed_s": null,
+    "ack_status": "not_attempted",
+    "native_end_known": null,
+    "bias_restored": null,
+    "feedback_restored": null,
+    "claim": {
+      "path": null,
+      "sha256": null
+    },
+    "ack": {
+      "path": null,
+      "sha256": null
+    },
+    "immediate_readback": {
+      "path": null,
+      "sha256": null
+    },
+    "final_readback": {
+      "path": null,
+      "sha256": null
+    },
+    "final_state": {
+      "bias_V": null,
+      "setpoint_A": null,
+      "current_A": null,
+      "xy_m": [
+        null,
+        null
+      ],
+      "z_m": null,
+      "feedback_status": null,
+      "scan_idle": null,
+      "other_actions_idle": null,
+      "safetip_state": null,
+      "safetip_properties": {},
+      "gain_readback": {}
+    },
+    "effective_stable_window_s": null,
+    "required_final_stable_s": null,
+    "timeout_or_stop_branch": null,
+    "observation_ended_utc": null,
+    "native_end_utc": null,
+    "feedback_restored_utc": null,
+    "reference_returned_utc": null,
+    "scan_started_utc": null,
+    "native_end_basis": "unknown",
+    "recovery_elapsed_s": null,
+    "recovery_z_span_m": null,
+    "recovery_z_observation_s": null,
+    "recovery_z_trend_m_per_s": null,
+    "reference_return_evidence": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "labels": {
+    "L0": {
+      "name": "命令已执行",
+      "status": "not_assessed",
+      "evidence": [],
+      "limitations": []
+    },
+    "L1": {
+      "name": "结状态响应",
+      "status": "not_assessed",
+      "evidence": [],
+      "limitations": []
+    },
+    "L2": {
+      "name": "成像改善",
+      "status": "not_assessed",
+      "evidence": [],
+      "limitations": []
+    },
+    "L3": {
+      "name": "任务可用",
+      "status": "not_assessed",
+      "evidence": [],
+      "limitations": []
+    },
+    "L4": {
+      "name": "化学洁净",
+      "status": "not_assessed",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  "decision": {
+    "verified_repair_cycle": false,
+    "before_bad_established": false,
+    "matched_imaging_conditions": false,
+    "independent_chemical_evidence": false,
+    "stop_reason": null,
+    "next_action": "none",
+    "chemical_evidence_method": null,
+    "task_criteria": null,
+    "matched_task_criteria": false,
+    "independent_recheck_without_intervention": false,
+    "recheck_evidence": {
+      "path": null,
+      "sha256": null
+    },
+    "recheck_completed_utc": null,
+    "causal_valid": null,
+    "causal_evidence": {
+      "path": null,
+      "sha256": null
+    },
+    "assessment_for_budget": "unassessed",
+    "success_criterion": null,
+    "success_evidence": {
+      "path": null,
+      "sha256": null
+    },
+    "desired_degradation_established": false
+  },
+  "provenance": {
+    "processing_scripts": [],
+    "notes": []
+  },
+  "target": {
+    "target_id": null,
+    "controller_identity": null,
+    "sample_id": null,
+    "tip_id": null,
+    "identity_evidence": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "recovery": {
+    "max_wait_s": null,
+    "required_stable_s": null,
+    "expected_bias_V": null,
+    "expected_setpoint_A": null,
+    "signed_current_band_A": [
+      null,
+      null
+    ],
+    "max_abs_z_trend_m_per_s": null,
+    "max_z_span_m": null,
+    "z_trend_window_s": null,
+    "timeout_policy": "stop_and_review_no_automatic_on_or_retry"
+  }
+}

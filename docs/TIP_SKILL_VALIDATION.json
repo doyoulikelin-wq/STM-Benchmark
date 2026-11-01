@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-01",
+  "scope": "Documentation and offline record consistency only; no instrument control or benchmark performance claim.",
+  "unit_test_groups": 24,
+  "unit_test_result": "passed",
+  "independent_checks": 30,
+  "independent_result": "passed",
+  "network_attempts_in_independent_tests": 0,
+  "hardware_commands_performed": 0,
+  "relative_links_checked": 24,
+  "historical_source_hashes_verified": 11,
+  "pending": [
+    "stage/session action limits",
+    "consecutive unsuccessful attempt limit",
+    "researcher slide3 actual Tip lift"
+  ],
+  "independent_cases": [
+    {
+      "case": "valid ready with binary32 readback",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true
+    },
+    {
+      "case": "valid completed observation",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true
+    },
+    {
+      "case": "no budget despite1nA negative pulse recipe",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "user manual action after earlier image",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "TipShaper cannot masquerade as supported Pulse",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "wrong target identity",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "stage budget exhausted",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "Z endpoint too near",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "NaN duration",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "bool duration",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "prepopulated result before attempting",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "prepopulated repair success before attempting",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "unknown ACK consumes counters",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "known ACK unassessed cannot reset failures",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "claimed successful cannot rest on ACK",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "changed SafeTip final state",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "missing finalZ",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "nativeend later than waitingACK",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "scan before observation complete",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "L3 lacks independent repeat",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "L3 supported with L4 not_assessed remains valid",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true
+    },
+    {
+      "case": "wrong evidenceSHA",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "observation timestamp1000s but elapsed claims30s",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "recovery duration0.001s but5s stable window",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "recovery Z observation500s within30s action",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "stage count exceeds total session count",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "prior failure count exceeds total attempts",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "unknown previous action prevents next",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "pulse-less preparation cannot invent20ms pulse",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true
+    },
+    {
+      "case": "CLI prepare receipt is offline-only and non-overwriting",
+      "passed": true
+    }
+  ],
+  "files": {
+    "README.md": "9f7c0ba6bd389fd732681145644efcad1960d72361c0fa276ecd1aff938a9b6c",
+    "docs/AU111_TIP_CONDITIONING_LESSONS.md": "f062641bcc1da0cbb87b8233b2f8f3722aaafeff92cbe1713608cf036ca190df",
+    "docs/TIP_SKILL_REVIEW.md": "6973aa0a5478b0aa244dbcce92c230689aa8b4fa48ed4d9ec022e6c08b2cd645",
+    "skills/stm-au111-tip-conditioning/SKILL.md": "8ff9a2c7855d8095ffd44e49e2a41ec319fa97c77d73878e3d611c7b35bb10c1",
+    "skills/stm-au111-tip-conditioning/agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+    "skills/stm-au111-tip-conditioning/assets/action-record.schema.json": "a6ba7eb00f6842e372b4cb2dab49e3677aab01442379fd752d7a4ff3e7bc5b85",
+    "skills/stm-au111-tip-conditioning/assets/action-record.template.json": "f0dfb3cfdffa8bbced379c244393c02a363cdc8f75eed8ef6ca43a7480aef20d",
+    "skills/stm-au111-tip-conditioning/references/execution-and-acquisition.md": "3c4c9a108550c3d42399f0bb9807e7f6e3e8a2ea704e688512c99ec740904f92",
+    "skills/stm-au111-tip-conditioning/references/local-au111-protocol.md": "b4d27c4076e018ead841d49e7e4e8e3319a6dde3e18cf4052175b801455e1e6a",
+    "skills/stm-au111-tip-conditioning/references/physics-and-evidence.md": "2be31e82c94cc07fc98376628db3019502773d9c8809edbd6fd753af4d6a1939",
+    "skills/stm-au111-tip-conditioning/references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+    "skills/stm-au111-tip-conditioning/references/record-and-local-context.md": "826143ab603754d2e60d5b28493198c3289954a17024d1f343a2abcadd1a6ba5",
+    "skills/stm-au111-tip-conditioning/scripts/action_record.py": "385fca12e92a05bdb981e5e559a1d432e263b633b513cead7d45ab4dc260fd18",
+    "skills/stm-au111-tip-conditioning/scripts/test_action_record.py": "f72c549b40221c131731a1e783ceaf22cca88e18e57e187386f98624e7743413"
+  }
+}
