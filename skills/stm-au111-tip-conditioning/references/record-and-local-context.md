@@ -5,15 +5,15 @@
 在本技能目录运行（Python 3 标准库；不访问仪器）：
 
 ```sh
-python3 scripts/action_record.py init event.json --event-id E_NEW --session-id S_NEW
-python3 scripts/action_record.py validate event.json --phase draft
-python3 scripts/action_record.py validate event.json --phase ready
-python3 scripts/action_record.py prepare event.json --output prepared.json
+python3 scripts/action_record.py init event.json --event-id E_NEW --session-id S_NEW --profile local-au111
+python3 scripts/action_record.py validate event.json --phase draft --require-profile local-au111
+python3 scripts/action_record.py validate event.json --phase ready --require-profile local-au111
+python3 scripts/action_record.py prepare event.json --output prepared.json --require-profile local-au111
 ```
 
-先按当前证据编辑 event.json。空模板可用于草稿，ready/prepare 会拒绝缺少授权、预算、合格起点等条件。`prepare` 仅写离线回执，`execution_permitted=false`；实际适配器须重新读回仪器、核验授权及防重放。历史复核可用 validate 的 `--at` 指定评估时间，不能将这个选项用于绕过真实发送前的新鲜性检查。
+本项目使用 `local-au111` profile 初始化，写入用户已确认的脉冲预算、无改善复核规则和 SafeTip 要求；事件/目标授权及实时证据仍须填写。本项目在 validate/prepare 上显式使用 `--require-profile local-au111`，拒绝误用 generic 记录。generic 空模板供其他已明确条件的实验使用，不能绕过本项目要求。先按当前证据编辑 event.json；ready/prepare 会拒绝缺少授权、必需预算、合格起点等条件。`prepare` 仅写离线回执，`execution_permitted=false`；实际适配器须重新读回仪器、核验授权及防重放。历史复核可用 validate 的 `--at` 指定评估时间，不能将这个选项用于绕过真实发送前的新鲜性检查。
 
-已知动作完成并补全结果后运行 `validate event.json --phase completed`。超时/结束未知的尝试仍保留原文件，用 draft 检查结构并明确 outcome；completed 拒绝这类记录不代表删除失败尝试或退还预算。这检查记录结构和一致性，不代表独立验证原始数据、科学判断或设备安全。当前工具只覆盖本机毫秒绝对 Hold 脉冲记录，不支持把 Tip Shaper/进针转换成可执行记录。其他动作需扩展相应字段/校验后使用；不得冒充 Bias.Pulse。
+已知动作完成并补全结果后运行 `validate event.json --phase completed --require-profile local-au111`。超时/结束未知的尝试仍保留原文件，用 draft 检查结构并明确 outcome；completed 拒绝这类记录不代表删除失败尝试或退还预算。这检查记录结构和一致性，不代表独立验证原始数据、科学判断或设备安全。当前工具只覆盖本机毫秒绝对 Hold 脉冲记录，不支持把 Tip Shaper/进针转换成可执行记录。其他动作需扩展相应字段/校验后使用；不得冒充 Bias.Pulse。
 
 - [JSON 模板](../assets/action-record.template.json)：复制后填值，未知字段保留 null/unknown，不填推测的数字。
 - [JSON Schema](../assets/action-record.schema.json)：字段类型和枚举。
@@ -25,7 +25,8 @@ python3 scripts/action_record.py prepare event.json --output prepared.json
 |---|---|
 | 身份、时间、状态段 | 目标、操作者、UTC时间、当前授权来源、源码版本和人工历史；时间源不同时保存对应关系/偏差 |
 | 任务和 before | 原始图、F/B、物理坐标/尺度、偏压/成像setpoint/速度/反馈/处理，失败模式、备选解释、有效基线与图后连续证据 |
-| action | 准备电流与成像电流分开；静息/目标偏压、绝对或相对、电极极性、时长、Hold、XY、理由及预算 |
+| action | 准备电流与成像电流分开；静息/目标偏压、绝对或相对、电极极性、时长、Hold、XY、策略 ID、理由及预算 |
+| pulse 计数与策略复核 | 累计 pulse 与总 actions 分开；连续无改善历史与已复核检查点分开。复核引用数据/hash、覆盖到哪次 pulse、理由和下一策略；ACK、换电压或改用 Tip Shaper 均不能清空累计 pulse |
 | execution | claim、发送、原始回包/错误码、已知结束或unknown；离线准备回执与真实执行claim分开 |
 | acquisition | 模块、实际dt、通道、量程/模拟带宽、文件hash/完整性、平台与边沿、采样极值及削顶/缺口 |
 | recovery | Bias/反馈读回、I/Z窗口/趋势、脉冲与移动后时间、漂移、稳定判据及等待上限 |

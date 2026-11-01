@@ -26,7 +26,7 @@
 
 [实机经验总结](docs/AU111_TIP_CONDITIONING_LESSONS.md) 区分诱导尝试、研究员示范、人工干预混杂与已验证修复闭环；这些观察不计入当前 synthetic / Demo 成绩。完整可移植 [技能包](skills/stm-au111-tip-conditioning/SKILL.md) 包含物理依据、本地经验、记录模板和离线校验工具；它不提供通用实机驱动，也不改变 Simulator 身份保护。
 
-[技能审查与待确认项](docs/TIP_SKILL_REVIEW.md) 列出 A–F 修订及尚未确认的动作预算、图文参数冲突。安装时复制整个 `skills/stm-au111-tip-conditioning/` 文件夹（包括 references、scripts、assets、agents），保留 `SKILL.md` 文件名。
+[技能审查与确认记录](docs/TIP_SKILL_REVIEW.md) 列出 A–F 修订，以及用户确认的脉冲预算、策略复核、SafeTip 和图文参数澄清。安装时复制整个 `skills/stm-au111-tip-conditioning/` 文件夹（包括 references、scripts、assets、agents），保留 `SKILL.md` 文件名。
 
 ## 开始运行
 

@@ -161,7 +161,8 @@
     "alternative_explanations": [],
     "physical_polarity": "unknown",
     "physical_polarity_evidence": null,
-    "stage_id": null
+    "stage_id": null,
+    "strategy_id": null
   },
   "recording": {
     "sample_rate_hz": null,
@@ -358,5 +359,6 @@
     "max_z_span_m": null,
     "z_trend_window_s": null,
     "timeout_policy": "stop_and_review_no_automatic_on_or_retry"
-  }
+  },
+  "profile": "generic"
 }

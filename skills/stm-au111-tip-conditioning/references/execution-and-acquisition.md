@@ -2,7 +2,7 @@
 
 ## 本包可直接使用的部分
 
-Python 3 标准库离线工具：`scripts/action_record.py`，模板 `assets/action-record.template.json`，字段约束 `assets/action-record.schema.json`。从技能目录执行 `python3 scripts/action_record.py --help` 查看 init/validate/prepare 的准确参数。工具没有 socket、仪器驱动或 GUI 操作；准备回执不发送命令、不读取设备、不获得许可，也不是防止设备重放的执行 claim。
+Python 3 标准库离线工具：`scripts/action_record.py`，模板 `assets/action-record.template.json`，字段约束 `assets/action-record.schema.json`。从技能目录执行 `python3 scripts/action_record.py --help` 查看 init/validate/prepare 的准确参数。本项目用 `init --profile local-au111` 选择当前本地规则，并在 validate/prepare 中加 `--require-profile local-au111`；generic profile 不能替代本项目规则。工具没有 socket、仪器驱动或 GUI 操作；准备回执不发送命令、不读取设备、不获得许可，也不是防止设备重放的执行 claim。
 
 这是一份流程技能加离线记录工具。**仓库的 `nanonis_demo` 后端只支持已核验的 Simulator，不能把实机地址传给它或绕过身份检查。** 当前包没有实机适配器；跨设备执行前必须找到、审阅并绑定当地适配器，记录脚本 SHA、协议版本、允许命令及真实目标。
 
@@ -36,7 +36,8 @@ Python 3 标准库离线工具：`scripts/action_record.py`，模板 `assets/act
 - `claim_persisted`：唯一事件 ID、精确命令、参数、授权范围、预读回和源码 SHA 已原子落盘。已有 claim 不重放；发送失败也不能仅因没 ACK 就复用 ID。
 - `acknowledged`：收到完整回包，记录错误码、内容和时间。仅在协议明确 wait-flag 的返回语义且无错误时，才能用 ACK 支持 `native_end_known`。
 - `unknown`：发送结果、命令结束、连接状态任一不明时分支到人工核查，不继续正常状态链，不发送自动 On 或第二次动作。
-- `recovery_checked`：已知结束后，独立确认 Bias/setpoint/反馈及恢复窗口；保留当前 SafeTip。协议未明确自动恢复的内容必须读取验证，不能以 ACK 代替。
+- `recovery_checked`：已知结束后，独立确认 Bias/setpoint/反馈及恢复窗口；本项目 local-au111 流程核对 SafeTip 仍为 Off，generic 流程按其已声明状态核对。协议未明确自动恢复的内容必须读取验证，不能以 ACK 代替。
+- 策略复核是继续规划的检查点，不是执行 claim：连续无改善的历史不清零，保存复核覆盖的累计 pulse 序号；跨电压、阶段或 Tip Shaper 都沿用同一 session pulse 总数。不能复用旧复核覆盖后来新的无改善段。
 - 实时每次发送前重新验证计数、范围、新鲜性及独占控制。离线 JSON 可以伪造/过期，所以本包校验器只检查自报记录一致性，不签发硬件许可或宣称“安全”。
 
 ## 恢复等待与故障处置

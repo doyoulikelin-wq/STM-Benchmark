@@ -274,6 +274,114 @@ class RecordTests(unittest.TestCase):
         self.assertFalse(data["attempt_budget_reservation"]["global_ledger_atomically_reserved"])
         self.assertEqual(data["command_for_review_only"], ["Bias.Pulse", [1, .02, -4, 1, 2]])
 
+    def local_record(self):
+        r = tool.apply_profile(copy.deepcopy(self.r), "local-au111")
+        r["action"]["strategy_id"] = "pulse-strategy-A"
+        return r
+
+    def local_history(self, r, pulses, total=None, boundary=0, pulse_boundary=None):
+        total = pulses if total is None else total
+        pulse_boundary = boundary if pulse_boundary is None else pulse_boundary
+        r["budget"].update(actions_attempted_before=total, consecutive_failures_before=total-boundary)
+        r["local_au111"].update(pulse_attempts_before=pulses, consecutive_no_improvement_before=pulses-pulse_boundary,
+            last_improvement_action_attempt_before=boundary,last_improvement_pulse_attempt_before=pulse_boundary)
+        if boundary:
+            r["local_au111"]["last_improvement_evidence"] = copy.deepcopy(self.ref)
+
+    def local_review(self, r, through, pulses=None, strategy="pulse-strategy-A"):
+        pulses=through if pulses is None else pulses
+        r["local_au111"]["strategy_review"].update(evidence=copy.deepcopy(self.ref), reviewed_utc=self.ts(-2),
+            reviewed_through_action_attempt=through, reviewed_through_pulse_attempt=pulses,
+            consecutive_no_improvement_at_review=pulses-r["local_au111"]["last_improvement_pulse_attempt_before"],
+            decision="continue_pulse", next_strategy_id=strategy, rationale="Synthetic strategy review, no automatic execution")
+
+    def test_local_init_policy_does_not_authorize_event_or_invent_shaper(self):
+        f=self.root/"local.json"
+        with contextlib.redirect_stdout(io.StringIO()), patch.object(tool,"utc_now",return_value=self.clock):
+            self.assertEqual(tool.main(["init",str(f),"--event-id","TEST","--session-id","TEST","--profile","local-au111"]),0)
+        r=tool.load_json(f);local=r["local_au111"]
+        self.assertEqual((local["max_pulses_per_session"],local["review_after_consecutive_no_improvement"],local["required_safetip_state"]),(6,2,"off"))
+        self.assertIsNone(r["budget"]["max_actions_per_session"])
+        self.assertIsNone(r["authorization"]["confirmed"])
+        self.assertTrue(self.check(r)[0])
+        self.assertIsNone(tool.load_json(tool.LOCAL_PROFILE)["default_tipshaper_displacement_m"])
+
+    def test_local_require_profile_and_generic_legacy_preservation(self):
+        legacy=copy.deepcopy(self.r);legacy.pop("profile");legacy["action"].pop("strategy_id",None)
+        self.assertFalse(self.check(legacy)[0])
+        self.assertTrue(tool.validate(legacy,"ready",base_dir=self.root,now=self.clock,required_profile="local-au111")[0])
+        legacy["baseline"]["readback"]["safetip_state"]="on"
+        self.assertFalse(self.check(legacy)[0])
+        r=self.local_record();r["baseline"]["readback"]["safetip_state"]="on"
+        self.assertTrue(any("SafeTip must already be Off" in e for e in self.check(r)[0]))
+        r["profile"]="generic"
+        self.assertTrue(any("downgraded" in e for e in self.check(r)[0]))
+
+    def test_local_two_without_improvement_requires_review_not_hard_stop(self):
+        r=self.local_record();self.local_history(r,2)
+        self.assertTrue(any("require strategy review" in e for e in self.check(r)[0]))
+        self.local_review(r,2)
+        self.assertEqual(self.check(r)[0],[])
+        self.local_history(r,3)
+        self.assertEqual(self.check(r)[0],[])
+        self.local_history(r,4)
+        self.assertTrue(any("require strategy review" in e for e in self.check(r)[0]))
+        self.local_review(r,4)
+        self.assertEqual(self.check(r)[0],[])
+
+    def test_local_six_pulse_cap_survives_new_strategy_and_other_actions(self):
+        r=self.local_record();self.local_history(r,5,total=7);self.local_review(r,7,pulses=5)
+        self.assertEqual(self.check(r)[0],[])  # Two other audited conditioning actions are not pulses.
+        self.local_history(r,6,total=8);self.local_review(r,8,pulses=6,strategy="new-voltage")
+        r["action"].update(strategy_id="new-voltage",voltage_V=-6,stage_id="new-stage")
+        r["budget"]["stage_id"]="new-stage"
+        self.assertTrue(any("six-pulse session cap" in e for e in self.check(r)[0]))
+        r["action"]["command"]="TipShaper.Start"
+        self.assertTrue(any("constant" in e for e in self.check(r)[0]))
+
+    def test_local_shaper_is_not_a_failed_pulse_and_can_establish_improvement_boundary(self):
+        r=self.local_record();self.local_history(r,1,total=2)
+        self.assertEqual(r["local_au111"]["consecutive_no_improvement_before"],1)
+        self.assertEqual(self.check(r)[0],[])  # A separate shaper attempt does not trigger the two-pulse review.
+        self.local_history(r,2,total=3)
+        self.assertTrue(any("require strategy review" in e for e in self.check(r)[0]))
+        self.local_review(r,3,pulses=2)
+        self.assertEqual(self.check(r)[0],[])
+        self.local_history(r,2,total=4,boundary=4,pulse_boundary=2)  # Evidenced external improvement, not a pulse reset.
+        self.assertTrue(any("improvement boundary" in e for e in self.check(r)[0]))  # Old review cannot cross it.
+        r["local_au111"]["strategy_review"]=tool.load_json(tool.LOCAL_PROFILE)["local_record_defaults"]["strategy_review"]
+        self.assertEqual(self.check(r)[0],[])
+        self.assertEqual(r["local_au111"]["pulse_attempts_before"],2)
+
+    def test_local_review_hash_time_boundary_and_decision(self):
+        r=self.local_record();self.local_history(r,2);self.local_review(r,2)
+        for change,phrase in [(lambda x:x["local_au111"]["strategy_review"]["evidence"].update(sha256="0"*64),"SHA256"),
+                (lambda x:x["local_au111"]["strategy_review"].update(reviewed_utc=self.ts(1)),"precede"),
+                (lambda x:x["local_au111"]["strategy_review"].update(reviewed_through_action_attempt=3),"future attempt"),
+                (lambda x:x["local_au111"]["strategy_review"].update(decision="consider_other_strategy"),"did not select"),
+                (lambda x:x["action"].update(strategy_id="unreviewed"),"differs")]:
+            bad=copy.deepcopy(r);change(bad)
+            self.assertTrue(any(phrase in e for e in self.check(bad)[0]))
+        self.local_history(r,5,boundary=3)  # Old review at attempt2 cannot cover new streak after improvement3.
+        self.assertTrue(any("improvement boundary" in e for e in self.check(r)[0]))
+
+    def test_local_counters_only_evidenced_improvement_can_reset_streak(self):
+        r=tool.apply_profile(self.completed(),"local-au111");r["action"]["strategy_id"]="pulse-strategy-A"
+        self.local_history(r,2);self.local_review(r,2)
+        r["budget"].update(actions_attempted_after=3,consecutive_failures_after=3)
+        r["local_au111"].update(pulse_attempts_after=3,consecutive_no_improvement_after=3,last_improvement_action_attempt_after=0,last_improvement_pulse_attempt_after=0)
+        self.assertEqual(self.check(r,"completed",self.clock+timedelta(seconds=60))[0],[])
+        bad=copy.deepcopy(r);bad["local_au111"]["pulse_attempts_after"]=0
+        self.assertTrue(any("cumulative pulse" in e for e in self.check(bad,"draft")[0]))
+        bad=copy.deepcopy(r);bad["local_au111"].update(consecutive_no_improvement_after=0,last_improvement_action_attempt_after=3,last_improvement_pulse_attempt_after=3)
+        self.assertTrue(any("only evidenced L2" in e for e in self.check(bad,"draft")[0]))
+        r["labels"]["L2"].update(status="supported",evidence=[copy.deepcopy(self.ref)])
+        r["local_au111"].update(consecutive_no_improvement_after=0,last_improvement_action_attempt_after=3,last_improvement_pulse_attempt_after=3)
+        self.assertEqual(self.check(r,"completed",self.clock+timedelta(seconds=60))[0],[])
+        self.assertEqual(r["budget"]["consecutive_failures_after"],3)  # Partial improvement is not L3 task success.
+        r["execution"].update(ack_status="unknown",native_end_known=None)
+        self.assertTrue(self.check(r,"completed",self.clock+timedelta(seconds=60))[0])
+
 
 if __name__ == "__main__":
     unittest.main()

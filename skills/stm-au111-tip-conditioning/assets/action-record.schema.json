@@ -714,6 +714,13 @@
             "null"
           ],
           "minLength": 1
+        },
+        "strategy_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "required": [
@@ -1621,6 +1628,163 @@
         "timeout_policy"
       ],
       "additionalProperties": false
+    },
+    "profile": {
+      "enum": [
+        "generic",
+        "local-au111"
+      ]
+    },
+    "local_au111": {
+      "type": "object",
+      "properties": {
+        "policy_version": {
+          "const": "2026-11-01"
+        },
+        "max_pulses_per_session": {
+          "const": 6
+        },
+        "review_after_consecutive_no_improvement": {
+          "const": 2
+        },
+        "required_safetip_state": {
+          "const": "off"
+        },
+        "last_improvement_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "strategy_review": {
+          "type": "object",
+          "properties": {
+            "evidence": {
+              "$ref": "#/$defs/artifact"
+            },
+            "reviewed_utc": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "reviewed_through_action_attempt": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "reviewed_through_pulse_attempt": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "consecutive_no_improvement_at_review": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "decision": {
+              "enum": [
+                null,
+                "continue_pulse",
+                "consider_other_strategy",
+                "stop"
+              ]
+            },
+            "next_strategy_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "rationale": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          },
+          "required": [
+            "evidence",
+            "reviewed_utc",
+            "reviewed_through_action_attempt",
+            "reviewed_through_pulse_attempt",
+            "consecutive_no_improvement_at_review",
+            "decision",
+            "next_strategy_id",
+            "rationale"
+          ],
+          "additionalProperties": false
+        },
+        "pulse_attempts_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "consecutive_no_improvement_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "last_improvement_action_attempt_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pulse_attempts_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "consecutive_no_improvement_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "last_improvement_action_attempt_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "last_improvement_pulse_attempt_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "last_improvement_pulse_attempt_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "policy_version",
+        "max_pulses_per_session",
+        "review_after_consecutive_no_improvement",
+        "required_safetip_state",
+        "last_improvement_evidence",
+        "strategy_review",
+        "pulse_attempts_before",
+        "consecutive_no_improvement_before",
+        "last_improvement_action_attempt_before",
+        "pulse_attempts_after",
+        "consecutive_no_improvement_after",
+        "last_improvement_action_attempt_after",
+        "last_improvement_pulse_attempt_before",
+        "last_improvement_pulse_attempt_after"
+      ],
+      "additionalProperties": false,
+      "description": "Local policy only; cumulative pulse count and consecutive no-improvement streak count Bias.Pulse, not total conditioning actions. Review checkpoints never reset counters and must follow the most recent evidenced imaging-improvement action and pulse boundaries."
     }
   },
   "required": [

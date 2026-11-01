@@ -20,6 +20,24 @@ import sys
 ASSETS = Path(__file__).resolve().parents[1] / "assets"
 SCHEMA = ASSETS / "action-record.schema.json"
 TEMPLATE = ASSETS / "action-record.template.json"
+LOCAL_PROFILE = ASSETS / "local-au111.profile.json"
+
+
+def apply_profile(record, name):
+    """Initialize only local policy values; never authorize an event or target."""
+    record["profile"] = name
+    if name == "local-au111":
+        policy = load_json(LOCAL_PROFILE)
+        if (policy["max_pulses_per_session"], policy["review_after_consecutive_no_improvement"],
+                policy["required_safetip_state"]) != (6, 2, "off"):
+            raise ValueError("Local policy differs from the user-confirmed 6/2/Off scope")
+        record["local_au111"] = policy["local_record_defaults"]
+        record["budget"].update(confirmed=True, evidence=policy["source"],
+            max_actions_per_session=None, max_actions_per_stage=None, max_consecutive_failures=None,
+            failure_definition="No ACK/strategy-change reset. The separate local L2 improvement streak triggers strategy review after two; pulse cap remains six.")
+    elif name != "generic":
+        raise ValueError("Unknown profile")
+    return record
 
 
 def load_json(path):
@@ -135,12 +153,22 @@ def structural_errors(value, schema, path="$", root=None):
     return errors
 
 
-def validate(record, phase="draft", *, base_dir=None, now=None):
+def validate(record, phase="draft", *, base_dir=None, now=None, required_profile=None):
     errors = structural_errors(record, load_json(SCHEMA))
     warnings = ["Offline record audit only; no hardware permission or live-state guarantee.",
                 "1 kHz only coarsely segments a 20–100 ms platform; neither 1 nor 2 kHz bounds fast-edge peaks."]
     if phase not in ("draft", "ready", "completed"):
         errors.append("Unknown validation phase")
+    if errors:
+        return errors, warnings
+    profile = record.get("profile", "generic")
+    local = record.get("local_au111") if profile == "local-au111" else None
+    if required_profile is not None and profile != required_profile:
+        errors.append("profile: required " + required_profile + "; do not bypass local policy with generic")
+    if profile == "local-au111" and local is None:
+        errors.append("profile: local-au111 policy record missing")
+    if profile != "local-au111" and "local_au111" in record:
+        errors.append("profile: local policy record cannot be downgraded to generic")
     if errors:
         return errors, warnings
     for section, fields in (("action", ("voltage_V", "width_s", "preparation_current_A", "resting_bias_V")),
@@ -161,6 +189,30 @@ def validate(record, phase="draft", *, base_dir=None, now=None):
         errors.append("budget: stage attempts exceed total session attempts")
     if counters["consecutive_failures_before"] > counters["actions_attempted_before"]:
         errors.append("budget: consecutive failures exceed total session attempts")
+    if local is not None:
+        total = counters["actions_attempted_before"]
+        boundary = local["last_improvement_action_attempt_before"]
+        pulse_boundary = local["last_improvement_pulse_attempt_before"]
+        if local["pulse_attempts_before"] > total:
+            errors.append("local-au111: pulse attempts exceed total conditioning attempts")
+        if (boundary > total or pulse_boundary > min(local["pulse_attempts_before"], boundary)
+                or local["consecutive_no_improvement_before"] != local["pulse_attempts_before"] - pulse_boundary
+                or local["consecutive_no_improvement_before"] > total - boundary):
+            errors.append("local-au111: no-improvement streak disagrees with last improvement boundary")
+        if ex["attempted"]:
+            improved = labels["L2"]["status"] == "supported"
+            if local["pulse_attempts_after"] != local["pulse_attempts_before"] + 1:
+                errors.append("local-au111: each claimed pulse consumes one cumulative pulse, even with unknown ACK")
+            expected_streak = 0 if improved else local["consecutive_no_improvement_before"] + 1
+            expected_boundary = total + 1 if improved else boundary
+            expected_pulse_boundary = local["pulse_attempts_before"] + 1 if improved else pulse_boundary
+            if (local["consecutive_no_improvement_after"] != expected_streak
+                    or local["last_improvement_action_attempt_after"] != expected_boundary
+                    or local["last_improvement_pulse_attempt_after"] != expected_pulse_boundary):
+                errors.append("local-au111: only evidenced L2 improvement resets its streak; review/ACK/strategy does not")
+        elif any(local[k] is not None for k in ("pulse_attempts_after", "consecutive_no_improvement_after",
+                                               "last_improvement_action_attempt_after", "last_improvement_pulse_attempt_after")):
+            errors.append("local-au111: result counters populated before an attempted pulse")
     if ex["claim_utc"] is not None or ex["ack_status"] != "not_attempted":
         if ex["attempted"] is not True:
             errors.append("execution: claimed/acknowledged event must count as attempted")
@@ -297,7 +349,10 @@ def validate(record, phase="draft", *, base_dir=None, now=None):
     present(budget["failure_definition"], "budget.failure_definition")
     present(budget["reservation_id"], "budget.reservation_id")
     artifact(budget["counter_evidence"], "budget.counter_evidence")
-    for key in ("max_actions_per_session", "max_actions_per_stage", "max_consecutive_failures", "max_session_elapsed_s", "max_action_elapsed_s"):
+    mandatory_limits = ("max_session_elapsed_s", "max_action_elapsed_s")
+    if local is None:
+        mandatory_limits += ("max_actions_per_session", "max_actions_per_stage", "max_consecutive_failures")
+    for key in mandatory_limits:
         present(budget[key], "budget." + key)
     present(budget["stage_id"], "budget.stage_id")
     need(a["stage_id"] == budget["stage_id"] and a["stage_id"] is not None, "budget: action stage mismatch")
@@ -308,6 +363,36 @@ def validate(record, phase="draft", *, base_dir=None, now=None):
         need(budget["stage_actions_attempted_before"] < budget["max_actions_per_stage"], "budget: stage action limit reached")
     if budget["max_consecutive_failures"] is not None:
         need(budget["consecutive_failures_before"] < budget["max_consecutive_failures"], "budget: consecutive failure limit reached")
+    if local is not None:
+        need(local["pulse_attempts_before"] < 6, "local-au111: six-pulse session cap reached; strategy changes cannot reset it")
+        need(state["safetip_state"] == "off", "local-au111: SafeTip must already be Off and read back; this tool cannot switch it")
+        present(a.get("strategy_id"), "action.strategy_id")
+        if local["last_improvement_action_attempt_before"]:
+            artifact(local["last_improvement_evidence"], "local_au111.last_improvement_evidence")
+        review = local["strategy_review"]
+        checkpoint = 0
+        if review["reviewed_through_action_attempt"] is not None:
+            artifact(review["evidence"], "local_au111.strategy_review.evidence")
+            reviewed = time_value(review["reviewed_utc"], "local_au111.strategy_review.reviewed_utc")
+            need(reviewed is not None and reviewed <= admission, "local-au111: review must precede this action/admission")
+            reviewed_action = review["reviewed_through_action_attempt"]
+            need(local["last_improvement_action_attempt_before"] < reviewed_action <= budget["actions_attempted_before"],
+                 "local-au111: review predates the improvement boundary or covers a future attempt")
+            reviewed_pulse = review["reviewed_through_pulse_attempt"]
+            nonpulse_before = budget["actions_attempted_before"] - local["pulse_attempts_before"]
+            need(reviewed_pulse is not None and max(0, reviewed_action-nonpulse_before) <= reviewed_pulse <= min(local["pulse_attempts_before"], reviewed_action),
+                 "local-au111: review pulse index missing or in the future")
+            checkpoint = review["consecutive_no_improvement_at_review"]
+            need(checkpoint is not None and reviewed_pulse is not None
+                 and checkpoint == reviewed_pulse - local["last_improvement_pulse_attempt_before"]
+                 and checkpoint <= local["consecutive_no_improvement_before"], "local-au111: review streak checkpoint inconsistent")
+            present(review["rationale"], "local_au111.strategy_review.rationale")
+            need(review["decision"] == "continue_pulse", "local-au111: review did not select a next pulse; other strategies need separate review/implementation")
+            need(review["next_strategy_id"] is not None and review["next_strategy_id"] == a.get("strategy_id"),
+                 "local-au111: next strategy differs from the recorded review")
+        if checkpoint is not None:
+            need(local["consecutive_no_improvement_before"] - checkpoint < 2,
+                 "local-au111: two further no-improvement attempts require strategy review, not automatic escalation")
     started = time_value(budget["session_started_utc"], "budget.session_started_utc")
     estimate = a["estimated_elapsed_s"]
     if present(estimate, "action.estimated_elapsed_s"):
@@ -481,6 +566,8 @@ def validate(record, phase="draft", *, base_dir=None, now=None):
         for key in ("claim", "ack", "immediate_readback", "final_readback", "reference_return_evidence"):
             artifact(ex[key], "execution." + key)
         final = ex["final_state"]
+        if local is not None:
+            need(final["safetip_state"] == "off", "local-au111: final SafeTip must remain Off")
         for key in ("xy_m", "safetip_state", "safetip_properties", "gain_readback"):
             need(final[key] == state[key], "execution: final " + key + " not preserved/restored")
         need(final["bias_V"] == float32(recovery["expected_bias_V"]) and final["setpoint_A"] == float32(recovery["expected_setpoint_A"]),
@@ -534,9 +621,11 @@ def main(argv=None):
     init.add_argument("output", type=Path)
     init.add_argument("--event-id", required=True)
     init.add_argument("--session-id", required=True)
+    init.add_argument("--profile", choices=("generic", "local-au111"), default="generic")
     for name in ("validate", "prepare"):
         cmd = sub.add_parser(name)
         cmd.add_argument("record", type=Path)
+        cmd.add_argument("--require-profile", choices=("generic", "local-au111"), help="Enforce the project policy rather than trusting a record's profile selection")
         if name == "validate":
             cmd.add_argument("--phase", choices=("draft", "ready", "completed"), default="draft")
             cmd.add_argument("--at", help="Historical audit clock (ISO8601); not a live-state check")
@@ -546,6 +635,7 @@ def main(argv=None):
     try:
         if args.command == "init":
             value = load_json(TEMPLATE)
+            apply_profile(value, args.profile)
             value.update(event_id=args.event_id, session_id=args.session_id, created_utc=utc_now().isoformat())
             write_new(args.output, value)
             print(json.dumps({"created": str(args.output), "configured": False, "hardware_commands_performed": 0}))
@@ -553,7 +643,7 @@ def main(argv=None):
         record = load_json(args.record)
         clock = stamp(args.at) if args.command == "validate" and args.at else utc_now()
         phase = "ready" if args.command == "prepare" else args.phase
-        errors, warnings = validate(record, phase, base_dir=args.record.parent, now=clock)
+        errors, warnings = validate(record, phase, base_dir=args.record.parent, now=clock, required_profile=args.require_profile)
         result = {"schema_version": "1.0", "phase": phase, "valid": not errors,
                   "evaluated_utc": clock.isoformat(), "errors": errors, "warnings": warnings,
                   "record_sha256": digest(args.record), "hardware_commands_performed": 0,
@@ -570,6 +660,10 @@ def main(argv=None):
                 "stage_id": record["budget"]["stage_id"],
                 "stage_consumed_count_if_claimed": record["budget"]["stage_actions_attempted_before"] + 1,
                 "consumes_even_if_ack_unknown": True, "global_ledger_atomically_reserved": False}
+            if record.get("profile") == "local-au111":
+                result["local_au111_policy"] = {"max_pulses_per_session": 6, "review_after_no_improvement": 2,
+                    "required_safetip": "off", "pulse_count_if_claimed": record["local_au111"]["pulse_attempts_before"] + 1,
+                    "strategy_review_executes_no_action": True, "tipshaper_executor_provided": False}
             write_new(args.output, result)
         print(json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False))
         return 1 if errors else 0
