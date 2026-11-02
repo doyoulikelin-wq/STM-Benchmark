@@ -1,0 +1,1677 @@
+{
+  "created_utc": "2026-11-02T18:28:11.374469+00:00",
+  "scope": "Completed local native frame comparison against older202 functional reference. No conditioning causality or automatic quality level.",
+  "actual_native_labels": {
+    "202": "202",
+    "observed": "205"
+  },
+  "sources": {
+    "202": [
+      {
+        "path": "../../session_02/baseline_segment03_confirm_full/analysis/quality_report.json",
+        "sha256": "d70c450cad99a3c5a32f8e331c0e64fcce98b1fb118ecc5896f98e1a1cbe0049"
+      },
+      {
+        "path": "../../session_02/baseline_segment03_confirm_full/analysis/analysis_planes.npz",
+        "sha256": "e9e59cb57ef4877184ffcc128d46fc2f035559b5fd8d93ba6b24736b767d0721"
+      },
+      {
+        "path": "../../session_02/baseline_segment03_confirm_full/outcome.json",
+        "sha256": "27d879a6f5d64d4af6d4c0b620177f5c7c8ed3fbf46d4acc6fdea638599a3d95"
+      }
+    ],
+    "205": [
+      {
+        "path": "../../session_02/after_preparation_recovery_P01_full/analysis/quality_report.json",
+        "sha256": "c0ffd52f93afc385bba8306e1d4e5949e1f3afdc88eb9d165057183cba833dfe"
+      },
+      {
+        "path": "../../session_02/after_preparation_recovery_P01_full/analysis/analysis_planes.npz",
+        "sha256": "6a5b2280fde4ead9d8ac76f70d2217237b39aae792b10a89400ad8bbf3bc4a88"
+      },
+      {
+        "path": "../../session_02/after_preparation_recovery_P01_full/outcome.json",
+        "sha256": "b4d7c5d05b222715a50614ed25733bac2f9a603b3389e184497c1d33917fcd75"
+      }
+    ]
+  },
+  "reference_partition_source": {
+    "path": "../compare201_202_offline/target_C2_reference_partition_supplement.json",
+    "sha256": "b4850a66cd5693fea0351a247e33fdf76b78e514ad9fbfe31d995a531b379550"
+  },
+  "regions": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          14.166666666666671,
+          19.375
+        ],
+        "y": [
+          1.6666666666666643,
+          5.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      }
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    }
+  ],
+  "same_header_imaging_settings": true,
+  "region_metrics": {
+    "C1_upper_isolated": {
+      "202": {
+        "F": {
+          "peak_rc": [
+            35,
+            100
+          ],
+          "peak_nominal_XY_nm": [
+            -4.0625,
+            17.604166666666664
+          ],
+          "perimeter_plane_peak_height_pm": 321.74185055485793,
+          "perimeter_plane_residual_MAD_pm": 21.30592336490277,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.291666666666667,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.319214280157496
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.30752533623186196
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            35,
+            99
+          ],
+          "peak_nominal_XY_nm": [
+            -4.270833333333332,
+            17.604166666666664
+          ],
+          "perimeter_plane_peak_height_pm": 309.2963972861469,
+          "perimeter_plane_residual_MAD_pm": 23.130752469249796,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.0833333333333335,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.28566733056725013
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.3067033570169997
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "205": {
+        "F": {
+          "peak_rc": [
+            30,
+            98
+          ],
+          "peak_nominal_XY_nm": [
+            -4.479166666666664,
+            18.645833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 277.5798472953426,
+          "perimeter_plane_residual_MAD_pm": 98.031655609332,
+          "halfheight_component_bbox_width_nm": {
+            "x": 5.208333333333334,
+            "y": 2.7083333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 15,
+              "nm": 3.125,
+              "touches_boundary": true,
+              "height_nm": 0.2628242369819134
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2588018653692643
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            29,
+            98
+          ],
+          "peak_nominal_XY_nm": [
+            -4.479166666666664,
+            18.854166666666664
+          ],
+          "perimeter_plane_peak_height_pm": 285.52822949201584,
+          "perimeter_plane_residual_MAD_pm": 68.6973344495805,
+          "halfheight_component_bbox_width_nm": {
+            "x": 5.208333333333334,
+            "y": 2.5
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 14,
+              "nm": 2.916666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.2446011313106311
+            },
+            "y": {
+              "pixels": 6,
+              "nm": 1.25,
+              "touches_boundary": false,
+              "height_nm": 0.2822469067117197
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "C2_right_upper": {
+      "202": {
+        "F": {
+          "peak_rc": [
+            105,
+            201
+          ],
+          "peak_nominal_XY_nm": [
+            16.97916666666667,
+            3.020833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 286.14649814237225,
+          "perimeter_plane_residual_MAD_pm": 15.574514005385508,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.3333333333333335,
+            "y": 1.875
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 15,
+              "nm": 3.125,
+              "touches_boundary": false,
+              "height_nm": 0.2290554755517462
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.26507627525299426
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            107,
+            201
+          ],
+          "peak_nominal_XY_nm": [
+            16.97916666666667,
+            2.6041666666666643
+          ],
+          "perimeter_plane_peak_height_pm": 301.52563139245103,
+          "perimeter_plane_residual_MAD_pm": 11.921747008150422,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.3333333333333335,
+            "y": 1.875
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 11,
+              "nm": 2.291666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.26356232261167634
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.29163673649132704
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "205": {
+        "F": {
+          "peak_rc": [
+            104,
+            200
+          ],
+          "peak_nominal_XY_nm": [
+            16.770833333333336,
+            3.2291666666666643
+          ],
+          "perimeter_plane_peak_height_pm": 406.13944655699186,
+          "perimeter_plane_residual_MAD_pm": 7.36628013568027,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.875,
+            "y": 1.6666666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.35845526178896137
+            },
+            "y": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.40193391342926077
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            104,
+            198
+          ],
+          "peak_nominal_XY_nm": [
+            16.35416666666667,
+            3.2291666666666643
+          ],
+          "perimeter_plane_peak_height_pm": 405.9415862954836,
+          "perimeter_plane_residual_MAD_pm": 7.506868299273935,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.875,
+            "y": 1.6666666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.3925464567400496
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.4040594505227091
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "C3_diagonal_edge": {
+      "202": {
+        "F": {
+          "peak_rc": [
+            53,
+            73
+          ],
+          "peak_nominal_XY_nm": [
+            -9.6875,
+            13.854166666666666
+          ],
+          "perimeter_plane_peak_height_pm": 450.4281871301288,
+          "perimeter_plane_residual_MAD_pm": 72.89847644738286,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.4583333333333335,
+            "y": 1.6666666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.36088690936428236
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.4206430223957227
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            48,
+            63
+          ],
+          "peak_nominal_XY_nm": [
+            -11.770833333333332,
+            14.895833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 330.45345873593135,
+          "perimeter_plane_residual_MAD_pm": 85.84831015517545,
+          "halfheight_component_bbox_width_nm": {
+            "x": 6.25,
+            "y": 0.625
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.27514503362110077
+            },
+            "y": {
+              "pixels": 3,
+              "nm": 0.625,
+              "touches_boundary": false,
+              "height_nm": 0.29160868985829325
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "205": {
+        "F": {
+          "peak_rc": [
+            55,
+            72
+          ],
+          "peak_nominal_XY_nm": [
+            -9.895833333333332,
+            13.4375
+          ],
+          "perimeter_plane_peak_height_pm": 376.1094564629133,
+          "perimeter_plane_residual_MAD_pm": 80.99500180224689,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.9583333333333335,
+            "y": 0.625
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.34349120994170335
+            },
+            "y": {
+              "pixels": 3,
+              "nm": 0.625,
+              "touches_boundary": false,
+              "height_nm": 0.3562623262821063
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            55,
+            71
+          ],
+          "peak_nominal_XY_nm": [
+            -10.104166666666666,
+            13.4375
+          ],
+          "perimeter_plane_peak_height_pm": 335.501384238853,
+          "perimeter_plane_residual_MAD_pm": 71.30624757224761,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.291666666666667,
+            "y": 0.625
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.2989468968798974
+            },
+            "y": {
+              "pixels": 3,
+              "nm": 0.625,
+              "touches_boundary": false,
+              "height_nm": 0.32719204285434955
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "D4_lower_object": {
+      "202": {
+        "F": {
+          "peak_rc": [
+            177,
+            171
+          ],
+          "peak_nominal_XY_nm": [
+            10.729166666666671,
+            -11.979166666666671
+          ],
+          "perimeter_plane_peak_height_pm": 290.74372002988014,
+          "perimeter_plane_residual_MAD_pm": 12.541345930085283,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.3333333333333335,
+            "y": 2.291666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2608410612703125
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2765399978317902
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            176,
+            169
+          ],
+          "peak_nominal_XY_nm": [
+            10.3125,
+            -11.770833333333336
+          ],
+          "perimeter_plane_peak_height_pm": 291.82887108687794,
+          "perimeter_plane_residual_MAD_pm": 13.101486065051056,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.5,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.277075540171964
+            },
+            "y": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2801348900776617
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "205": {
+        "F": {
+          "peak_rc": [
+            183,
+            174
+          ],
+          "peak_nominal_XY_nm": [
+            11.354166666666671,
+            -13.229166666666671
+          ],
+          "perimeter_plane_peak_height_pm": 210.88475881934698,
+          "perimeter_plane_residual_MAD_pm": 31.501823953987234,
+          "halfheight_component_bbox_width_nm": {
+            "x": 5.416666666666667,
+            "y": 1.875
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 26,
+              "nm": 5.416666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.18800823152236035
+            },
+            "y": {
+              "pixels": 5,
+              "nm": 1.0416666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2070221750292376
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            179,
+            168
+          ],
+          "peak_nominal_XY_nm": [
+            10.104166666666671,
+            -12.395833333333336
+          ],
+          "perimeter_plane_peak_height_pm": 181.6462775666139,
+          "perimeter_plane_residual_MAD_pm": 33.656299366725854,
+          "halfheight_component_bbox_width_nm": {
+            "x": 5.416666666666667,
+            "y": 0.8333333333333334
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 26,
+              "nm": 5.416666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.1702591070402093
+            },
+            "y": {
+              "pixels": 4,
+              "nm": 0.8333333333333334,
+              "touches_boundary": false,
+              "height_nm": 0.17992927953933702
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    }
+  },
+  "prior_mask_contrast_descriptors": {
+    "C1_upper_isolated": {
+      "F": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 78,
+        "prior202_mask_median_pm": 246.0616858078737,
+        "observed_same_mask_median_pm": 139.88156753956815,
+        "prior202_perimeter_MAD_pm": 21.30592336490277,
+        "observed_perimeter_MAD_pm": 98.03165560933202
+      },
+      "B": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 72,
+        "prior202_mask_median_pm": 238.208670697297,
+        "observed_same_mask_median_pm": 161.13070046131384,
+        "prior202_perimeter_MAD_pm": 23.130752469249796,
+        "observed_perimeter_MAD_pm": 68.6973344495805
+      }
+    },
+    "C2_right_upper": {
+      "F": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 94,
+        "prior202_mask_median_pm": 201.80908644003637,
+        "observed_same_mask_median_pm": 160.8030474718376,
+        "prior202_perimeter_MAD_pm": 15.574514005385508,
+        "observed_perimeter_MAD_pm": 7.366280135680269
+      },
+      "B": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 94,
+        "prior202_mask_median_pm": 202.90106063230695,
+        "observed_same_mask_median_pm": 177.3191113111352,
+        "prior202_perimeter_MAD_pm": 11.921747008150422,
+        "observed_perimeter_MAD_pm": 7.506868299273935
+      }
+    },
+    "C3_diagonal_edge": {
+      "F": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 40,
+        "prior202_mask_median_pm": 265.87115804647965,
+        "observed_same_mask_median_pm": 60.65681960734537,
+        "prior202_perimeter_MAD_pm": 72.89847644738286,
+        "observed_perimeter_MAD_pm": 80.99500180224689
+      },
+      "B": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 151,
+        "prior202_mask_median_pm": 201.57845119236129,
+        "observed_same_mask_median_pm": -9.418819649312127,
+        "prior202_perimeter_MAD_pm": 85.84831015517545,
+        "observed_perimeter_MAD_pm": 71.30624757224761
+      }
+    },
+    "D4_lower_object": {
+      "F": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 100,
+        "prior202_mask_median_pm": 195.46074923435697,
+        "observed_same_mask_median_pm": 106.8572249396027,
+        "prior202_perimeter_MAD_pm": 12.541345930085283,
+        "observed_perimeter_MAD_pm": 31.501823953987238
+      },
+      "B": {
+        "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 71,
+        "prior202_mask_median_pm": 198.55994230559304,
+        "observed_same_mask_median_pm": 130.20757353167767,
+        "prior202_perimeter_MAD_pm": 13.101486065051056,
+        "observed_perimeter_MAD_pm": 33.656299366725854
+      }
+    }
+  },
+  "metric_limit": "Unrestricted maximum may be row artifact/background. C3 includes edge and multiple objects: mask contrast is not calibrated individual height. New surface objects are allowed; actual task function requires manual review.",
+  "shared_shift_sensitivity": {
+    "best": {
+      "dy": -4,
+      "dx": -1,
+      "mean": 0.3528210140713693,
+      "individual": [
+        0.49618737199659807,
+        0.4895575683078595,
+        0.2880704340130108,
+        0.1374686819680087
+      ]
+    },
+    "limit_pixels": [
+      -4,
+      4
+    ],
+    "only_C1_C3_shared_across_FB": true,
+    "not_applied_to_display_or_metrics": true,
+    "not_a_pass_threshold": true
+  },
+  "global": {
+    "202": {
+      "raw_Z_FB": {
+        "paired_finite": 57600,
+        "raw_RMSE": 42.387238388459785,
+        "mean_offset": -1.213406905817591,
+        "offset_removed_RMS": 42.36986690893698,
+        "correlation": 0.9760349214604054
+      },
+      "pixel_current": {
+        "F": {
+          "minimum": -1382.5179889792594,
+          "maximum": -22.75851555821884,
+          "median": -99.34376585252203,
+          "RMS_about_mean": 12.269736445684975,
+          "minimum_stored_rc": [
+            46,
+            168
+          ],
+          "minimum_nominal_XY_nm": [
+            10.104166666666664,
+            15.3125
+          ],
+          "abs_ge400pA_count": 9,
+          "abs_ge1000pA_count": 2,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -522.293874816171,
+          "maximum": -51.81811577048556,
+          "median": -100.28667826733617,
+          "RMS_about_mean": 10.157958880263967,
+          "minimum_stored_rc": [
+            46,
+            168
+          ],
+          "minimum_nominal_XY_nm": [
+            10.104166666666664,
+            15.3125
+          ],
+          "abs_ge400pA_count": 10,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "manual_row_flags": {
+        "F": [
+          {
+            "stored_rows": [
+              4,
+              5
+            ],
+            "nominal_boundary_Y_nm": 23.958333333333336,
+            "quarter_delta_pm": [
+              55.354831829390605,
+              56.925131275420426,
+              59.85967277410964,
+              56.701310313655995
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              31,
+              32
+            ],
+            "nominal_boundary_Y_nm": 18.333333333333336,
+            "quarter_delta_pm": [
+              76.23413011970115,
+              65.9170495964645,
+              58.328453178546624,
+              -10.324185950594256
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              46,
+              47
+            ],
+            "nominal_boundary_Y_nm": 15.208333333333332,
+            "quarter_delta_pm": [
+              123.30403365012899,
+              96.66578648648283,
+              133.66374673751125,
+              91.08802601076604
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              47,
+              48
+            ],
+            "nominal_boundary_Y_nm": 15.0,
+            "quarter_delta_pm": [
+              -97.47225249157054,
+              -97.2093516793393,
+              -97.45093620949774,
+              2.9594104944408173
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              70,
+              71
+            ],
+            "nominal_boundary_Y_nm": 10.208333333333332,
+            "quarter_delta_pm": [
+              -53.33689045983192,
+              -58.900440080833505,
+              -53.1734656306071,
+              -56.08313813354471
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              73,
+              74
+            ],
+            "nominal_boundary_Y_nm": 9.583333333333332,
+            "quarter_delta_pm": [
+              54.48796969176328,
+              56.61249247168598,
+              56.80433901034121,
+              57.550408882889315
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              79,
+              80
+            ],
+            "nominal_boundary_Y_nm": 8.333333333333334,
+            "quarter_delta_pm": [
+              -56.779470014589606,
+              -57.70672828475654,
+              -11.159073665112373,
+              -57.17737394661526
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              81,
+              82
+            ],
+            "nominal_boundary_Y_nm": 7.916666666666666,
+            "quarter_delta_pm": [
+              61.028515574435005,
+              61.25233653619944,
+              51.53566462468007,
+              11.528555887707626
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              83,
+              84
+            ],
+            "nominal_boundary_Y_nm": 7.5,
+            "quarter_delta_pm": [
+              -93.46834417556238,
+              -74.53593298123451,
+              -42.63611685928481,
+              -69.13225547577895
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          }
+        ],
+        "B": [
+          {
+            "stored_rows": [
+              1,
+              2
+            ],
+            "nominal_boundary_Y_nm": 24.583333333333336,
+            "quarter_delta_pm": [
+              55.01732402990456,
+              58.59845941813546,
+              61.78169087434071,
+              58.470561725698644
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              30,
+              31
+            ],
+            "nominal_boundary_Y_nm": 18.541666666666664,
+            "quarter_delta_pm": [
+              148.73080544930417,
+              48.405723873656825,
+              69.79306022003584,
+              70.15543701527349
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              45,
+              46
+            ],
+            "nominal_boundary_Y_nm": 15.416666666666668,
+            "quarter_delta_pm": [
+              131.42553711986693,
+              127.60281720147759,
+              102.41052450510324,
+              35.60174377525982
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              70,
+              71
+            ],
+            "nominal_boundary_Y_nm": 10.208333333333332,
+            "quarter_delta_pm": [
+              -8.778755500316038,
+              -58.43503458891064,
+              -53.52518428480835,
+              -53.96927349465841
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              73,
+              74
+            ],
+            "nominal_boundary_Y_nm": 9.583333333333332,
+            "quarter_delta_pm": [
+              54.80416120917653,
+              56.31406452266674,
+              57.049476254178444,
+              57.92344381916337
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              79,
+              80
+            ],
+            "nominal_boundary_Y_nm": 8.333333333333334,
+            "quarter_delta_pm": [
+              -190.34729348277324,
+              -50.19984428145108,
+              -4.494182803682634,
+              -57.4438274725253
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              80,
+              81
+            ],
+            "nominal_boundary_Y_nm": 8.125,
+            "quarter_delta_pm": [
+              61.08891170697461,
+              60.534688373081735,
+              60.01243946229806,
+              3.0944136142352363
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              235,
+              236
+            ],
+            "nominal_boundary_Y_nm": -24.166666666666668,
+            "quarter_delta_pm": [
+              285.6523906302755,
+              289.64919351892604,
+              277.3070661987731,
+              318.16682621865766
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              236,
+              237
+            ],
+            "nominal_boundary_Y_nm": -24.375,
+            "quarter_delta_pm": [
+              -282.7853506914835,
+              -290.55158279334137,
+              -286.23858838727756,
+              -320.25226914811356
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              238,
+              239
+            ],
+            "nominal_boundary_Y_nm": -24.791666666666668,
+            "quarter_delta_pm": [
+              354.26239719527075,
+              352.86618071950215,
+              53.32978503247432,
+              51.7808018685173
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          }
+        ]
+      }
+    },
+    "205": {
+      "raw_Z_FB": {
+        "paired_finite": 57600,
+        "raw_RMSE": 60.58621708776204,
+        "mean_offset": 0.47385379570780767,
+        "offset_removed_RMS": 60.584364018991906,
+        "correlation": 0.9558636314279073
+      },
+      "pixel_current": {
+        "F": {
+          "minimum": -233.62581313968178,
+          "maximum": -18.111812397081373,
+          "median": -99.44761680813485,
+          "RMS_about_mean": 6.246357611748314,
+          "minimum_stored_rc": [
+            55,
+            67
+          ],
+          "minimum_nominal_XY_nm": [
+            -10.9375,
+            13.4375
+          ],
+          "abs_ge400pA_count": 0,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -903.6399406525675,
+          "maximum": -57.208120185503475,
+          "median": -100.29951869050535,
+          "RMS_about_mean": 11.685601796180034,
+          "minimum_stored_rc": [
+            147,
+            239
+          ],
+          "minimum_nominal_XY_nm": [
+            24.895833333333336,
+            -5.729166666666668
+          ],
+          "abs_ge400pA_count": 19,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "manual_row_flags": {
+        "F": [
+          {
+            "stored_rows": [
+              36,
+              37
+            ],
+            "nominal_boundary_Y_nm": 17.291666666666664,
+            "quarter_delta_pm": [
+              315.23583743364725,
+              277.56641429732554,
+              299.8525872044411,
+              0.5648814749292796
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              38,
+              39
+            ],
+            "nominal_boundary_Y_nm": 16.875,
+            "quarter_delta_pm": [
+              -289.02036319777835,
+              -257.16673235365306,
+              -233.09354446610087,
+              2.7355895326763857
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              45,
+              46
+            ],
+            "nominal_boundary_Y_nm": 15.416666666666668,
+            "quarter_delta_pm": [
+              5.7340798775840085,
+              339.1598113466898,
+              337.15608083184634,
+              329.0381300757872
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              47,
+              48
+            ],
+            "nominal_boundary_Y_nm": 15.0,
+            "quarter_delta_pm": [
+              -1.0125233984581428,
+              -313.3635573249194,
+              -319.1829023307946,
+              -283.41062829895236
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              48,
+              49
+            ],
+            "nominal_boundary_Y_nm": 14.791666666666668,
+            "quarter_delta_pm": [
+              17.394086171407253,
+              332.35991736546566,
+              332.5020259126177,
+              327.7165205872734
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              52,
+              53
+            ],
+            "nominal_boundary_Y_nm": 13.958333333333332,
+            "quarter_delta_pm": [
+              0.8313350008393172,
+              -282.02151725054136,
+              -296.4668510685442,
+              -328.64377885744034
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              56,
+              57
+            ],
+            "nominal_boundary_Y_nm": 13.125,
+            "quarter_delta_pm": [
+              0.6927791673660977,
+              304.00215678128006,
+              333.78100283698586,
+              373.96929997157713
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              57,
+              58
+            ],
+            "nominal_boundary_Y_nm": 12.916666666666668,
+            "quarter_delta_pm": [
+              -8.991918321044068,
+              -264.6096675107401,
+              -342.83687000424834,
+              -382.1867267106427
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              147,
+              148
+            ],
+            "nominal_boundary_Y_nm": -5.833333333333334,
+            "quarter_delta_pm": [
+              516.2625882348948,
+              519.4848995415668,
+              519.8259600547317,
+              516.0067928500212
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              152,
+              153
+            ],
+            "nominal_boundary_Y_nm": -6.875,
+            "quarter_delta_pm": [
+              -525.4428003809153,
+              -521.6449494582776,
+              -510.5285083573108,
+              -521.886533988436
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              154,
+              155
+            ],
+            "nominal_boundary_Y_nm": -7.291666666666668,
+            "quarter_delta_pm": [
+              344.40361673659936,
+              341.62184192609857,
+              413.5181086439843,
+              337.90215070439444
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              157,
+              158
+            ],
+            "nominal_boundary_Y_nm": -7.916666666666668,
+            "quarter_delta_pm": [
+              -95.39746770315105,
+              -90.99565545511723,
+              -16.964207816272392,
+              -88.28848763187125
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              162,
+              163
+            ],
+            "nominal_boundary_Y_nm": -8.958333333333332,
+            "quarter_delta_pm": [
+              93.99414580002485,
+              94.66205597163935,
+              120.17409289910574,
+              86.93845643392706
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              183,
+              184
+            ],
+            "nominal_boundary_Y_nm": -13.333333333333332,
+            "quarter_delta_pm": [
+              -170.56223100553325,
+              -334.96405649202643,
+              -335.3370914283005,
+              -328.65443699847674
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          }
+        ],
+        "B": [
+          {
+            "stored_rows": [
+              37,
+              38
+            ],
+            "nominal_boundary_Y_nm": 17.083333333333332,
+            "quarter_delta_pm": [
+              -287.59927772625815,
+              -312.0028679859388,
+              -231.58364115261065,
+              -2.255973186038318
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              38,
+              39
+            ],
+            "nominal_boundary_Y_nm": 16.875,
+            "quarter_delta_pm": [
+              278.8738129311241,
+              327.96165783111064,
+              317.0121942730475,
+              2.7888802378583932
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              41,
+              42
+            ],
+            "nominal_boundary_Y_nm": 16.25,
+            "quarter_delta_pm": [
+              -334.98537277409923,
+              -242.76047838611703,
+              -288.24942432947864,
+              0.4511946372076636
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              45,
+              46
+            ],
+            "nominal_boundary_Y_nm": 15.416666666666668,
+            "quarter_delta_pm": [
+              -6.977529665164184,
+              342.23646139253106,
+              355.4276872819173,
+              328.4057470409607
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              47,
+              48
+            ],
+            "nominal_boundary_Y_nm": 15.0,
+            "quarter_delta_pm": [
+              17.59659085109888,
+              -338.3000546364201,
+              -335.3868294198037,
+              -283.90800821398443
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              48,
+              49
+            ],
+            "nominal_boundary_Y_nm": 14.791666666666668,
+            "quarter_delta_pm": [
+              -16.978418670987594,
+              327.21558795856254,
+              332.15741268577403,
+              310.468095676697
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              52,
+              53
+            ],
+            "nominal_boundary_Y_nm": 13.958333333333332,
+            "quarter_delta_pm": [
+              1.7692514120426495,
+              -289.4040562750888,
+              -313.6442217055446,
+              -326.69689176145766
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              56,
+              57
+            ],
+            "nominal_boundary_Y_nm": 13.125,
+            "quarter_delta_pm": [
+              0.6714628852932947,
+              271.90338869331754,
+              312.47182619154046,
+              321.8971755813982
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              57,
+              58
+            ],
+            "nominal_boundary_Y_nm": 12.916666666666668,
+            "quarter_delta_pm": [
+              -6.227907078937278,
+              -237.37101173537667,
+              -317.6943152993772,
+              -328.5229865923611
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              79,
+              80
+            ],
+            "nominal_boundary_Y_nm": 8.333333333333334,
+            "quarter_delta_pm": [
+              -152.15562143566785,
+              -151.22836316550092,
+              -109.9031976536935,
+              -152.63168506862712
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              146,
+              147
+            ],
+            "nominal_boundary_Y_nm": -5.625,
+            "quarter_delta_pm": [
+              517.6090667191602,
+              520.4867647989886,
+              579.1420676359849,
+              522.6077348652325
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              152,
+              153
+            ],
+            "nominal_boundary_Y_nm": -6.875,
+            "quarter_delta_pm": [
+              -516.3016680853616,
+              -519.5772700972157,
+              -539.1385116126912,
+              -521.2577036672883
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              154,
+              155
+            ],
+            "nominal_boundary_Y_nm": -7.291666666666668,
+            "quarter_delta_pm": [
+              333.82008268745267,
+              334.28904089305433,
+              373.97995811261353,
+              335.85934033908416
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              157,
+              158
+            ],
+            "nominal_boundary_Y_nm": -7.916666666666668,
+            "quarter_delta_pm": [
+              -90.0790553259867,
+              -90.18208402267192,
+              -50.3312946875667,
+              -88.56915201249649
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              162,
+              163
+            ],
+            "nominal_boundary_Y_nm": -8.958333333333332,
+            "quarter_delta_pm": [
+              90.0506336165563,
+              88.43414889270207,
+              81.44240837282268,
+              88.49454502524168
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              175,
+              176
+            ],
+            "nominal_boundary_Y_nm": -11.666666666666668,
+            "quarter_delta_pm": [
+              -88.05045581539162,
+              -89.70602038971265,
+              -66.40021865678136,
+              -81.68044018930232
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              177,
+              178
+            ],
+            "nominal_boundary_Y_nm": -12.083333333333332,
+            "quarter_delta_pm": [
+              -0.8668621376273222,
+              71.55165349104209,
+              167.68098021202604,
+              113.99592381167167
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              180,
+              181
+            ],
+            "nominal_boundary_Y_nm": -12.708333333333332,
+            "quarter_delta_pm": [
+              -47.93321295437636,
+              -238.14195060367638,
+              -298.0655722240044,
+              -312.9621006792149
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              181,
+              182
+            ],
+            "nominal_boundary_Y_nm": -12.916666666666668,
+            "quarter_delta_pm": [
+              85.8584314755717,
+              158.9661735579284,
+              181.31274259758356,
+              193.85382188374933
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          },
+          {
+            "stored_rows": [
+              182,
+              183
+            ],
+            "nominal_boundary_Y_nm": -13.125,
+            "quarter_delta_pm": [
+              -168.46968264871975,
+              -252.36701617359358,
+              -215.22339466173435,
+              -216.2821033380169
+            ],
+            "meaning": "manual review only; morphology/temporal origin not identified"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "pooled_nm_limits": [
+      -0.23892962169967816,
+      0.42098961053648454
+    ],
+    "clipped_counts": {
+      "202F": {
+        "below": 217,
+        "above": 164,
+        "total": 57600
+      },
+      "202B": {
+        "below": 217,
+        "above": 161,
+        "total": 57600
+      },
+      "205F": {
+        "below": 1054,
+        "above": 951,
+        "total": 57600
+      },
+      "205B": {
+        "below": 816,
+        "above": 1028,
+        "total": 57600
+      }
+    }
+  },
+  "figures": [
+    {
+      "path": "fixed_objects_raw_FB.png",
+      "sha256": "912ae605b0de8043e586b7dae262e8cdf4d0de767d2cda39b4716de02ef59289"
+    },
+    {
+      "path": "full_shared_contrast.png",
+      "sha256": "99055fc671b1ba6006b9478fa8295f97be8938a6313877ecef60e2bcbf1ce6d8"
+    }
+  ],
+  "pure_function_reuse": {
+    "path": "local-archive:fd2d75192ab37bb6",
+    "sha256": "61201f20375bbe902896413924410532dc87af510d9f94d649e7baade517503a"
+  },
+  "script": {
+    "path": "local-archive:35c2199bd8d04118",
+    "sha256": "82f173632e963a00734525ab3bb3c7e878c2d6dee02c720c1ba5bde2e19c8140"
+  },
+  "image_function_impairment": "pending actual visual review",
+  "project_L0_L4": "not assigned by this script",
+  "_portable_export": {
+    "source_sha256": "9e3d6509ade2b9c8427399bab200f0486b3d8c887520a35daa51f46b27ac6bfc",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

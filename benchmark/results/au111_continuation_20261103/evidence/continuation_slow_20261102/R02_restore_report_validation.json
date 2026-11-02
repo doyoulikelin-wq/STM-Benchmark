@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-02T16:07:41.016069+00:00",
+  "method": "Offline HTML local link/image existence, exact source SHA and content checks; figures previously rendered and visually checked. No browser access or HTML rendering claimed.",
+  "local_links_checked": 13,
+  "files": [
+    {
+      "path": "R02_restore_report.html",
+      "sha256": "4e27956767df4e4cbe14d1da16a73b73ea67a207040495497d882d86192ba440"
+    },
+    {
+      "path": "R02_restore_report.json",
+      "sha256": "01eb9d092db9683e8cf4b602811b2bb251320fbc29699a8c07fbb0507446202d"
+    }
+  ],
+  "all_links_resolve": true,
+  "old_records_modified": false,
+  "new_hardware_commands": 0,
+  "_portable_export": {
+    "source_sha256": "bfab35968925ffdd7422f9a5246960d1a222cb5c1a3279d7fc052d39ec4f3d9b",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

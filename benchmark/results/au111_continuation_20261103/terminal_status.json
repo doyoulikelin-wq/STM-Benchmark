@@ -1,0 +1,66 @@
+{
+  "cutoff": "Historical confirmed terminal snapshot; not perpetually current",
+  "source": "evidence/continuation_slow_20261102/read_045_R03_stop_b/snapshot.json",
+  "source_original_sha256": "8754617a4fd199558afa113351b3acfb7e71f93f223bd1e34166e466cd4e527c",
+  "snapshot_end": {
+    "utc": "2026-11-02T18:46:59.624335+00:00",
+    "monotonic_ns": 1516664147803875
+  },
+  "selected_values": {
+    "Bias.Get": [
+      -1.0
+    ],
+    "Current.Get": [
+      -1.0772194941610636e-10
+    ],
+    "ZCtrl.SetpntGet": [
+      1.000000013351432e-10
+    ],
+    "ZCtrl.ZPosGet": [
+      -1.0361775082401437e-07
+    ],
+    "ZCtrl.OnOffGet": [
+      1
+    ],
+    "ZCtrl.StatusGet": [
+      2
+    ],
+    "Scan.StatusGet": [
+      0
+    ],
+    "AutoApproach.OnOffGet": [
+      0
+    ],
+    "SafeTip.OnOffGet": [
+      0
+    ],
+    "FolMe.XYPosGet": [
+      -2.5000000292152436e-08,
+      -2.5000000292152436e-08
+    ],
+    "DataLog.StatusGet": [
+      17,
+      "2026/11/3 0:08:12",
+      5,
+      17,
+      4.5,
+      17,
+      "2026/11/3 2:46:45",
+      108,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0300761.dat",
+      24500
+    ]
+  },
+  "native_R03_stopped": true,
+  "no_new_junction_action_after_A03_rejection": true,
+  "experimenter_question": "pending at cutoff",
+  "counts": {
+    "completed_full_attempts": 1,
+    "requested": 5,
+    "strict_successful_cycles": 0,
+    "remaining": 4,
+    "episode_pulses": 3,
+    "TipShaper_Start_in_increment": 0
+  },
+  "recorder_outcome_note": "Original recorder_failed_no_retry was caused by intentional SIGINT/known DataLog.Stop; independent terminal readbacks and archive reconcile recording closure. It is not evidence of a junction failure."
+}

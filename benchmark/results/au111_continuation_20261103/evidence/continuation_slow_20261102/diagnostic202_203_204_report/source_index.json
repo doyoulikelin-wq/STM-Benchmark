@@ -1,0 +1,99 @@
+{
+  "recorded_utc": "2026-11-02T18:06:20.086693+00:00",
+  "scope": "New local diagnostic narrative202203204; no hardware/Skill/Git/sharedstate changes.",
+  "report": {
+    "path": "REPORT.md",
+    "sha256": "b8a928f3380bb755da137ce450c7bf461104c5c4c8a11c15c30f4379ea732765"
+  },
+  "sources": {
+    "202_native": {
+      "path": "../../session_02/baseline_segment03_confirm_full/native/BM261029_00202.sxm",
+      "sha256": "c723c9fb50e500cfb85563d424fc235e393a44b4deae7995c5e25a7ed6beb8c4"
+    },
+    "203_native": {
+      "path": "../compare202_203_offline/native_review.json",
+      "sha256": "d309bc44c98f5acde9c264ad41701c6b56b51537db0f5ed784269556141774e0"
+    },
+    "204_native": {
+      "path": "../native204_completed_review/review.json",
+      "sha256": "b18246560715b1cd9faf191cde197994aa837eab77205c5e780e296368bf0d07"
+    },
+    "202_raw_full": {
+      "path": "../../session_02/baseline_segment03_confirm_full/analysis/Z_raw_globalplane_FB.png",
+      "sha256": "2187e136a85ee37531dd735d52cae2bb19d6481036788d20d138805ae6f754dd"
+    },
+    "203_raw_full": {
+      "path": "../../session_02/after_localization_I01_full/analysis/Z_raw_globalplane_FB.png",
+      "sha256": "cf542e4eb5f4c2193e8963d4a3da0b19ea3f9444f13bb2ade4bfe4236c30b58f"
+    },
+    "204_raw_full": {
+      "path": "../../session_02/pre_repair_A02_observed_full/analysis/Z_raw_globalplane_FB.png",
+      "sha256": "fbaabd70e1dffcfb0aff7fbe324757610736e51be160c5cd91f70906b186ef56"
+    },
+    "203_fixed_comparison": {
+      "path": "../compare202_203_offline/202_203_fixed_objects_raw_FB.png",
+      "sha256": "8dde36846ed9444d3c4670c657404d184de47de308a9f60f049ee16b65c37de8"
+    },
+    "204_fixed_comparison": {
+      "path": "../compare202_204_offline/fixed_objects_raw_FB.png",
+      "sha256": "327462268f219da4c9f1560f325a048f8f05e4f1533a502b3e85a73106a2203f"
+    },
+    "204_full_shared_contrast": {
+      "path": "../compare202_204_offline/full_shared_contrast.png",
+      "sha256": "e5cb0bcb2f5687cbaab09aaa517afff5b4a48f6055124454a3d2cd3ebfcaba77"
+    },
+    "204_current": {
+      "path": "../../session_02/pre_repair_A02_observed_full/analysis/Current_raw_FB.png",
+      "sha256": "e5bc58dc37abc0c1a324a6336a7450273eb71ec15b2083f39e31fcff8a75c8db"
+    },
+    "202_review": {
+      "path": "../compare201_202_offline/manual_functional_review.json",
+      "sha256": "ed28e9877f76593f49b5992ce347923c579d40e101981589f39d9d9e7d2d0c31"
+    },
+    "203_review": {
+      "path": "../compare202_203_offline/manual_review.json",
+      "sha256": "588fe212912d39c37266cf41a66a57b1c587286b6641f18ed57236c86d29b794"
+    },
+    "203_field_clarification": {
+      "path": "../compare202_203_offline/manual_review_L1_field_clarification.json",
+      "sha256": "a0e686bab2d1ff53c1573fc549a3537465abe45129034e716eba550d5e7b6d3d"
+    },
+    "post203_rest410_454": {
+      "path": "../post203_rest_blocks410_454_review/review.json",
+      "sha256": "846f25f4253bd8000b6d23a96f4f762f3f1dbd76417a29a4a87d3fe2cbacb521"
+    },
+    "204_review": {
+      "path": "../compare202_204_offline/manual_review.json",
+      "sha256": "9a8c7dd3d895791798b11dc8d3b4c098af6553b6fd9133aa44ab84fe91237ff5"
+    },
+    "204_measurements": {
+      "path": "../compare202_204_offline/image_measurements.json",
+      "sha256": "4226f493df2ec1b8dfb3ce4efd96523e846d0a9a3802781367b3bcf9c342f016"
+    },
+    "I01_precheck_rejection": {
+      "path": "../../session_02/induction_I01/outcome.json",
+      "sha256": "d7731975745ab2a2e072a10d60e081755d48893a1ba80306ba04a663776350f9"
+    },
+    "move_outcome": {
+      "path": "../../session_02/move_induction_I01/outcome.json",
+      "sha256": "13bb2f6be287b55d0e490763f5de97751d78950c91b0a5324110266de37496aa"
+    },
+    "first204_attempt_rejected": {
+      "path": "../../session_02/pre_repair_A02_full/outcome.json",
+      "sha256": "b3812dfd0847556ed8d5a5edffae4a7b33147da50e1dd5c5bc5e5bfb6515bc47"
+    }
+  },
+  "counts_unchanged": {
+    "complete_attempts": 1,
+    "requested": 5,
+    "remaining": 4,
+    "verified_successful_cycles": 0,
+    "source": "root current task count; no historical recount performed"
+  },
+  "links_verified": true,
+  "_portable_export": {
+    "source_sha256": "4eeb1cd8bc2f40f9a023a8cde1b8b5da61d1ca507dd8d02286ee2f6ed693b351",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

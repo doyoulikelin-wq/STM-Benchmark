@@ -1,0 +1,280 @@
+{
+  "recorded_utc": "2026-11-02T18:30:29.300401+00:00",
+  "scope": "Image-led local review ofactualcompleted205. Same50nm240²DOWN−1V100pA/.912s imaging settings; sixplanes345600f32bitmatched. No hardware/SMB/CUA/network.",
+  "sources": {
+    "latestbefore_comparison": {
+      "path": "image_measurements.json",
+      "sha256": "ba2ce797dc73c2640b3942255705235748cf577cf97db3d55daff1b92e6a0869"
+    },
+    "fixed202_comparison": {
+      "path": "../compare202_205_offline/image_measurements.json",
+      "sha256": "9e3d6509ade2b9c8427399bab200f0486b3d8c887520a35daa51f46b27ac6bfc"
+    },
+    "native_SXM": {
+      "path": "../../session_02/after_preparation_recovery_P01_full/native/BM261029_00205.sxm",
+      "sha256": "b0056330eed4b7ce1f642d094c9cde90ab0d8c2500958783ac45b04408a66364",
+      "bytes": 1383336
+    },
+    "quality_report": {
+      "path": "../../session_02/after_preparation_recovery_P01_full/analysis/quality_report.json",
+      "sha256": "c0ffd52f93afc385bba8306e1d4e5949e1f3afdc88eb9d165057183cba833dfe"
+    },
+    "outcome": {
+      "path": "../../session_02/after_preparation_recovery_P01_full/outcome.json",
+      "sha256": "b4d7c5d05b222715a50614ed25733bac2f9a603b3389e184497c1d33917fcd75"
+    },
+    "preparation_native": {
+      "path": "../P01_prepare_native_review/review_through589.json",
+      "sha256": "8cc5d61cfc793311bfb189be87ee232ffc438037d887735bb6a6e6f89ee96a42"
+    },
+    "recovery_native": {
+      "path": "../P01_recovery_native_review/review.json",
+      "sha256": "18fc69f759b9ee6ace44d02c3f147fc37ffe6c7a2ab18cded31b4e35390fc8b0"
+    }
+  },
+  "decision": {
+    "image_function_impairment": "supported_relative_to204_for_reliablefrozenC1/C3referenceimaging_andD4backgroundseparation",
+    "whole_frame_or_all_objects_unusable": false,
+    "remaining_function": "C2 and several other objects are clear; C1 primaryposition andcoarseedge remainlocatable. Regionalpresence detection ispartlyusable.",
+    "equivalent_reliable_reference_to204": "not_supported; longlineandwholewidthoffseteffects materiallyreducecurrentreferencequality",
+    "persistent_global_bad_tip": "not_established_bythissingleframe; local/temporalfeedbackoreffectivejunctionstate alternativesremain",
+    "chemical_clean": "unknown;notafunctionalprerequisite",
+    "atomic_resolution": "notestablished",
+    "plannedP01_pulse_executed": false,
+    "pulse_induction_success": false,
+    "repair_success": false,
+    "verified_cycle_increment": 0,
+    "automatic_project_L0_L4_change": false,
+    "instrument_admission": "notprovided"
+  },
+  "actual_visual_findings": [
+    "C1primaryprotrusionisstilldetectable,butitslowercontour/backgroundisintersectedbyseverallonglinesofcomparablecontrastinbothF/B.Thepositivepeakmustnotbeinterpretedasanintactisolatedoutline.",
+    "C3diagonaledgeisstillvisible,whileitsedgeprotrusionisbroadened/horizontallystreakedandbrokenacrossrowsinbothdirections.RelativeC3maskcontrastdropaloneisnotproofmaterialdisappeared;theactualrawshapeandlinesarethefunctionalissue.",
+    "C2localizationregionremainsclearandcompactinbothdirections.Itisnotaremoteindependentcontrol;changedheightorroundnessisnotautomaticallydegradation.",
+    "D4oldobjectpositionisembeddedinanewbroadoffsetband;F/Bdisagreementandline-edge-likeextremapreventrobustseparationoftheoldcompactobjectfrombackground.Nolabelofphysicalobjectremovalismade.",
+    "FullfieldhasanupperlineclusteraroundY+19..+13nm,andbroadcrosswidthoffsetsaroundY−6..−13nm;otherfieldpartsandobjectsremainusable.Thisisbeyondonlyonesmalllocalizedscratch,butnotproofeverywhereimagingfailed."
+  ],
+  "quantitative_descriptors": {
+    "raw_Z_FB_offset_removed_RMS_pm": {
+      "204": 28.30738618802379,
+      "205": 60.584364018991906
+    },
+    "C1_perimeter_MAD_pm_FB": {
+      "204": [
+        14.029561550740048,
+        12.93821727634024
+      ],
+      "205": [
+        98.03165560933202,
+        68.6973344495805
+      ]
+    },
+    "C1_width_limitation": "205 xhalfheightprofile touchesfrozenROIboundaryinbothdirectionsbecauseoflineconnection; donotcall3.125/2.917nm calibratedparticlewidth.",
+    "C2_205_peak_height_pm_FB": [
+      406.13944655699186,
+      405.9415862954836
+    ],
+    "D4_width_limitation": "Detected205xhalfheightspansentire26pixelROIinbothdirections;thisisaband/edgecontaminationdescriptor,notobjectwidth.",
+    "crosswidth_offsets_examples": [
+      {
+        "F_rows": [
+          147,
+          148
+        ],
+        "Y_boundary_nm": -5.833333333333334,
+        "quarter_delta_pm": [
+          516.2625882348948,
+          519.4848995415668,
+          519.8259600547317,
+          516.0067928500212
+        ]
+      },
+      {
+        "F_rows": [
+          152,
+          153
+        ],
+        "Y_boundary_nm": -6.875,
+        "quarter_delta_pm": [
+          -525.4428003809153,
+          -521.6449494582776,
+          -510.5285083573108,
+          -521.886533988436
+        ]
+      }
+    ],
+    "shared_shift_sensitivity": {
+      "best": {
+        "dy": 2,
+        "dx": 2,
+        "mean": 0.4077837414929067,
+        "individual": [
+          0.43137163288182434,
+          0.4423856293553858,
+          0.3487313711068211,
+          0.40864633262759553
+        ]
+      },
+      "limit_pixels": [
+        -4,
+        4
+      ],
+      "only_C1_C3_shared_across_FB": true,
+      "not_applied_to_display_or_metrics": true,
+      "not_a_pass_threshold": true
+    },
+    "current_pixels": {
+      "F": {
+        "minimum": -233.62581313968178,
+        "maximum": -18.111812397081373,
+        "median": -99.44761680813485,
+        "RMS_about_mean": 6.246357611748314,
+        "minimum_stored_rc": [
+          55,
+          67
+        ],
+        "minimum_nominal_XY_nm": [
+          -10.9375,
+          13.4375
+        ],
+        "abs_ge400pA_count": 0,
+        "abs_ge1000pA_count": 0,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      },
+      "B": {
+        "minimum": -903.6399406525675,
+        "maximum": -57.208120185503475,
+        "median": -100.29951869050535,
+        "RMS_about_mean": 11.685601796180034,
+        "minimum_stored_rc": [
+          147,
+          239
+        ],
+        "minimum_nominal_XY_nm": [
+          24.895833333333336,
+          -5.729166666666668
+        ],
+        "abs_ge400pA_count": 19,
+        "abs_ge1000pA_count": 0,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      }
+    },
+    "unchanged_202_fixed_reference_contrasts": {
+      "C1_upper_isolated": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 78,
+          "prior202_mask_median_pm": 246.0616858078737,
+          "observed_same_mask_median_pm": 139.88156753956815,
+          "prior202_perimeter_MAD_pm": 21.30592336490277,
+          "observed_perimeter_MAD_pm": 98.03165560933202
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 72,
+          "prior202_mask_median_pm": 238.208670697297,
+          "observed_same_mask_median_pm": 161.13070046131384,
+          "prior202_perimeter_MAD_pm": 23.130752469249796,
+          "observed_perimeter_MAD_pm": 68.6973344495805
+        }
+      },
+      "C2_right_upper": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 94,
+          "prior202_mask_median_pm": 201.80908644003637,
+          "observed_same_mask_median_pm": 160.8030474718376,
+          "prior202_perimeter_MAD_pm": 15.574514005385508,
+          "observed_perimeter_MAD_pm": 7.366280135680269
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 94,
+          "prior202_mask_median_pm": 202.90106063230695,
+          "observed_same_mask_median_pm": 177.3191113111352,
+          "prior202_perimeter_MAD_pm": 11.921747008150422,
+          "observed_perimeter_MAD_pm": 7.506868299273935
+        }
+      },
+      "C3_diagonal_edge": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 40,
+          "prior202_mask_median_pm": 265.87115804647965,
+          "observed_same_mask_median_pm": 60.65681960734537,
+          "prior202_perimeter_MAD_pm": 72.89847644738286,
+          "observed_perimeter_MAD_pm": 80.99500180224689
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 151,
+          "prior202_mask_median_pm": 201.57845119236129,
+          "observed_same_mask_median_pm": -9.418819649312127,
+          "prior202_perimeter_MAD_pm": 85.84831015517545,
+          "observed_perimeter_MAD_pm": 71.30624757224761
+        }
+      },
+      "D4_lower_object": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 100,
+          "prior202_mask_median_pm": 195.46074923435697,
+          "observed_same_mask_median_pm": 106.8572249396027,
+          "prior202_perimeter_MAD_pm": 12.541345930085283,
+          "observed_perimeter_MAD_pm": 31.501823953987238
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 71,
+          "prior202_mask_median_pm": 198.55994230559304,
+          "observed_same_mask_median_pm": 130.20757353167767,
+          "prior202_perimeter_MAD_pm": 13.101486065051056,
+          "observed_perimeter_MAD_pm": 33.656299366725854
+        }
+      }
+    },
+    "limits": "Originalgeometry/processing/±4pixelsharedshiftunchanged.NoafterROImovement,tunedthreshold,perobjectalignmentorlineflattening.Widerbandsandframechangeareactualobservations;metricsareadvisory,notautomaticqualitygates."
+  },
+  "causality": {
+    "immediate_full_before": 204,
+    "after": 205,
+    "intervening_actual_process": "Current-onlypreparation100→381.47pAstoppedonZgate,waiting,independentrecovery381.47→100pA,thenfullscan;noPulseorTipShaper.Start.",
+    "supported": "205isfunctionallymoreline-corruptedthanlatestfull204inseveralreferenceareasafterthiscompositeinterval.",
+    "not_identified": [
+      "Whichpartofpreparation/recovery/waiting/scanningcausedthechange",
+      "Persistentapexchangeversusfeedback/electronic/temporarystatechange",
+      "Chemicalcontaminantoratomicidentity"
+    ],
+    "important_caveat": "203→204alreadyshowedrecoverywithoutconditioning;time-dependentstatechangescannotbeexcluded.Nocausalclaimforanunexecutedpulseandnosuccessfuldirtyrepaircycle."
+  },
+  "native_scan_review": "pendingparentclosedarchiveorindependentlyprovidednativeauthority;imageverdictnotmadefromcurrentalone",
+  "figures": [
+    {
+      "path": "fixed_objects_raw_FB.png",
+      "sha256": "17df19b68f7359f2330d6e147bddf98e03566d850dd69f1dfdf375d0654aac5c"
+    },
+    {
+      "path": "full_shared_contrast.png",
+      "sha256": "ad8b04ac692e7fdef8a30f2eb17ad6b37229f8f7ed6161eed7bbd78a1dd45c5b"
+    },
+    {
+      "path": "../../session_02/after_preparation_recovery_P01_full/analysis/Z_raw_globalplane_FB.png",
+      "sha256": "0e4b4f979556de9f2fe38e14c7fde91bf97d2f8c7e3973e79d6b29aabbdb7bb2"
+    },
+    {
+      "path": "../../session_02/after_preparation_recovery_P01_full/analysis/Current_raw_FB.png",
+      "sha256": "e28a84260b45ae9a7287b966269d344c3fb5388dda7cc7d05ffb2581b70a561f"
+    },
+    {
+      "path": "../compare202_205_offline/fixed_objects_raw_FB.png",
+      "sha256": "912ae605b0de8043e586b7dae262e8cdf4d0de767d2cda39b4716de02ef59289"
+    }
+  ],
+  "figure_labels": "204comparisoncolumns204F,204B,205F,205B; fixed202comparisoncolumns202F,202B,205F,205B. RowsC1/C2/C3/D4arespatialregions,notadditionaltimepoints.Rawminusperimeterscalar,commonscalewithinrow,noalignment/smoothing. Fullcontrastviewusesdeclaredglobalplaneanddisplay-onlyclipping;originalrawfullpreserved.",
+  "QA": "Allfivefiguresactuallyviewed; noexistingcriterion/source/Skill/Git/sharedstatechanged.",
+  "_portable_export": {
+    "source_sha256": "6f5ecc8ccc80c9eec6f3ef4a18dbf16d4f633c1f8e98d5cafa4761d7841c886e",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "schema": "recovery_increment_v1",
+  "created_utc": "2026-11-02T16:32:26.102121+00:00",
+  "created_local": "2026-11-03T00:32:26.102262+08:00",
+  "scope": "Local records only. All device actions were performed by root. This snapshot includes recovery through fine02, later native rest review, and a running baseline claim; it does not close a new repair workflow.",
+  "counts": {
+    "requested_full_workflows": 5,
+    "completed_full_attempts": 1,
+    "strict_successful_cycles": 0,
+    "remaining_requested_full_attempts": 4,
+    "episode_conditioning_pulses_consumed": 3,
+    "new_pulses_in_current_five_workflow_batch": 2,
+    "R02_R03_additional_conditioning_pulses": 0,
+    "recovery_AA_attempts": 3,
+    "recovery_fine_attempts": 2,
+    "maximum_AA_host_windows_s": [
+      5,
+      30,
+      120
+    ],
+    "sum_maximum_host_windows_s": 155,
+    "actual_AA_search_durations_are_shorter_and_not_coarse_step_or_distance_limits": true,
+    "new_induction_count": 0,
+    "new_repair_count": 0,
+    "completed_new_R03_baseline_count": 1
+  },
+  "events": [
+    {
+      "event_id": "engage_R02_01",
+      "reason": "Initial single fine feedback re-engagement after known historical withdrawal; reached fine-Z margin without maintained tunneling, then known Withdraw/Home.",
+      "commands": [
+        {
+          "path": "../engage_R02_01/failure_withdraw.claim",
+          "relative_to_run": "continuation_slow_20261102/engage_R02_01/failure_withdraw.claim",
+          "sha256": "199f207d273b8ba7ad540a96bfdb0df0e24bd29a73a79b1316592735b5ebc114",
+          "bytes": 138,
+          "record": {
+            "utc": "2026-11-02T15:39:17.839094+00:00",
+            "monotonic_ns": 1505402433776750,
+            "command": "ZCtrl.Withdraw",
+            "args": [
+              1,
+              2000
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:39:17.839094+08:00"
+        },
+        {
+          "path": "../engage_R02_01/feedback_on.claim",
+          "relative_to_run": "continuation_slow_20261102/engage_R02_01/feedback_on.claim",
+          "sha256": "b9736f557834d03eb678fa306796eacf9c1b47dccf93f37dcd87a41c892eeb3d",
+          "bytes": 133,
+          "record": {
+            "utc": "2026-11-02T15:39:16.979681+00:00",
+            "monotonic_ns": 1505401574367625,
+            "command": "ZCtrl.OnOffSet",
+            "args": [
+              1
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:39:16.979681+08:00"
+        }
+      ],
+      "outcome": {
+        "utc": "2026-11-02T15:39:21.214578+00:00",
+        "monotonic_ns": 1505405809248833,
+        "status": "failed_after_known_On_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "Z_margin_or_range",
+        "withdraw_home_confirmed": true,
+        "on_attempted": true,
+        "on_zero_error_ack": true,
+        "withdraw_attempted": true
+      },
+      "outcome_local_time": "2026-11-02T23:39:21.214578+08:00",
+      "outcome_source": {
+        "path": "../engage_R02_01/outcome.json",
+        "relative_to_run": "continuation_slow_20261102/engage_R02_01/outcome.json",
+        "sha256": "7daa1eb4d2677ff1040404cc1d7976b649a6eaae59a382efaf76799fe5512ab1",
+        "bytes": 302
+      },
+      "benchmark_increment": {
+        "full_attempt": 0,
+        "successful_cycle": 0,
+        "conditioning_pulse": 0
+      }
+    },
+    {
+      "event_id": "AA_R02_01",
+      "reason": "One separately reviewed 5s host search after fine-range exhaustion; unchanged native Safe AA and motor settings.",
+      "commands": [
+        {
+          "path": "../AA_R02_01/autoapproach_start.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_01/autoapproach_start.claim",
+          "sha256": "e04b1f0ea9841d184de8b149b5e59bf6b271de92e5e7f0bdbb2adb6b4f945b3e",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T15:46:45.168230+00:00",
+            "monotonic_ns": 1505849760036500,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              1
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:46:45.168230+08:00"
+        },
+        {
+          "path": "../AA_R02_01/cleanup_autoapproach_stop.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_01/cleanup_autoapproach_stop.claim",
+          "sha256": "af11df15ebef5799c8980f9fa94ad309d23477d5bc1524352fbadd7663dd3e7e",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T15:46:49.668742+00:00",
+            "monotonic_ns": 1505854260413458,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              0
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:46:49.668742+08:00"
+        },
+        {
+          "path": "../AA_R02_01/failure_withdraw.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_01/failure_withdraw.claim",
+          "sha256": "ef9ef8800217d3802656004099bd57d0a5853695ec4e5a6843a63344d0d5264c",
+          "bytes": 138,
+          "record": {
+            "utc": "2026-11-02T15:46:51.843912+00:00",
+            "monotonic_ns": 1505856435521416,
+            "command": "ZCtrl.Withdraw",
+            "args": [
+              1,
+              2000
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:46:51.843912+08:00"
+        }
+      ],
+      "outcome": {
+        "utc": "2026-11-02T15:46:55.215552+00:00",
+        "monotonic_ns": 1505859807080458,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "5s_host_window_Stop_before_next_read",
+        "sampled_AutoOff_contiguous_s": 2.041580375051126,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.1235972500871867,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      },
+      "outcome_local_time": "2026-11-02T23:46:55.215552+08:00",
+      "outcome_source": {
+        "path": "../AA_R02_01/outcome.json",
+        "relative_to_run": "continuation_slow_20261102/AA_R02_01/outcome.json",
+        "sha256": "835e7009dcfd6345e1fee1b3ad425963d17176afa631253d546b36de9932ec09",
+        "bytes": 545
+      },
+      "benchmark_increment": {
+        "full_attempt": 0,
+        "successful_cycle": 0,
+        "conditioning_pulse": 0
+      }
+    },
+    {
+      "event_id": "AA_R02_02",
+      "reason": "One separately reviewed 30s host search after AA01 known Stop/Home; unchanged settings, not automatic retry.",
+      "commands": [
+        {
+          "path": "../AA_R02_02/autoapproach_start.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_02/autoapproach_start.claim",
+          "sha256": "c71f3177d63a6d4e7f8a54acf419b71dcbd4a9bf1aad9ee1d233720bd3f4e93e",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T15:53:58.817879+00:00",
+            "monotonic_ns": 1506283406875000,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              1
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:53:58.817879+08:00"
+        },
+        {
+          "path": "../AA_R02_02/cleanup_autoapproach_stop.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_02/cleanup_autoapproach_stop.claim",
+          "sha256": "d47ff1c4f167d3a6fdb92afec6102ae03188a671e2b18c39102c6ef49658457d",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T15:54:28.316622+00:00",
+            "monotonic_ns": 1506312905529208,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              0
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:54:28.316622+08:00"
+        },
+        {
+          "path": "../AA_R02_02/failure_withdraw.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R02_02/failure_withdraw.claim",
+          "sha256": "6252948baa6aa7a864db3250fe1905b0ef02fbdb59ec3e0253195f0bd18bc761",
+          "bytes": 138,
+          "record": {
+            "utc": "2026-11-02T15:54:30.548814+00:00",
+            "monotonic_ns": 1506315137716500,
+            "command": "ZCtrl.Withdraw",
+            "args": [
+              1,
+              2000
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-02T23:54:30.548814+08:00"
+        }
+      ],
+      "outcome": {
+        "utc": "2026-11-02T15:54:33.845482+00:00",
+        "monotonic_ns": 1506318434374333,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "30s_host_window_Stop_before_next_read",
+        "sampled_AutoOff_contiguous_s": 2.073720875196159,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.0532653329428285,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      },
+      "outcome_local_time": "2026-11-02T23:54:33.845482+08:00",
+      "outcome_source": {
+        "path": "../AA_R02_02/outcome.json",
+        "relative_to_run": "continuation_slow_20261102/AA_R02_02/outcome.json",
+        "sha256": "8a6ddcf0fe3b9f2706e9dae78240a76f4b60ffa940ea9da7254743c24bfe5280",
+        "bytes": 546
+      },
+      "benchmark_increment": {
+        "full_attempt": 0,
+        "successful_cycle": 0,
+        "conditioning_pulse": 0
+      }
+    },
+    {
+      "event_id": "AA_R03_03",
+      "reason": "New user history clarified prior Withdraw then +Z five or six presses; root separately authorized one 120s maximum host search, retaining both earlier attempts.",
+      "commands": [
+        {
+          "path": "../AA_R03_03/autoapproach_start.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R03_03/autoapproach_start.claim",
+          "sha256": "a45975be71a733a215bd5a7219f8791138cf98c82b6e2681a120c885f35bba16",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T16:09:58.783663+00:00",
+            "monotonic_ns": 1507243366157541,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              1
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-03T00:09:58.783663+08:00"
+        },
+        {
+          "path": "../AA_R03_03/cleanup_autoapproach_stop.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R03_03/cleanup_autoapproach_stop.claim",
+          "sha256": "934dfac8254ee23290ee32f5e3e24593155f1354b0982541eeacb80e471280ee",
+          "bytes": 140,
+          "record": {
+            "utc": "2026-11-02T16:10:08.519430+00:00",
+            "monotonic_ns": 1507253101697458,
+            "command": "AutoApproach.OnOffSet",
+            "args": [
+              0
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-03T00:10:08.519430+08:00"
+        },
+        {
+          "path": "../AA_R03_03/failure_withdraw.claim",
+          "relative_to_run": "continuation_slow_20261102/AA_R03_03/failure_withdraw.claim",
+          "sha256": "c257cb9158c32ceb483c2873614d2a0f320235442aa508280906cc8ece9dcfd9",
+          "bytes": 138,
+          "record": {
+            "utc": "2026-11-02T16:10:10.661056+00:00",
+            "monotonic_ns": 1507255243288625,
+            "command": "ZCtrl.Withdraw",
+            "args": [
+              1,
+              2000
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-03T00:10:10.661056+08:00"
+        }
+      ],
+      "outcome": {
+        "utc": "2026-11-02T16:10:14.188727+00:00",
+        "monotonic_ns": 1507258770911041,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "sampled_current_limit",
+        "sampled_AutoOff_contiguous_s": 2.0301856249570847,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.042220375034958,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      },
+      "outcome_local_time": "2026-11-03T00:10:14.188727+08:00",
+      "outcome_source": {
+        "path": "../AA_R03_03/outcome.json",
+        "relative_to_run": "continuation_slow_20261102/AA_R03_03/outcome.json",
+        "sha256": "229d72d68eecfc1d6b5ae1598ee5d847fa4e354386e0513ae515c4b943650c6d",
+        "bytes": 530
+      },
+      "benchmark_increment": {
+        "full_attempt": 0,
+        "successful_cycle": 0,
+        "conditioning_pulse": 0
+      }
+    },
+    {
+      "event_id": "engage_R03_02",
+      "reason": "One fine-only reconnect at the newly advanced coarse position after AA03 known cleanup and native review; no further motor operation.",
+      "commands": [
+        {
+          "path": "../engage_R03_02/feedback_on.claim",
+          "relative_to_run": "continuation_slow_20261102/engage_R03_02/feedback_on.claim",
+          "sha256": "e6ee36e27f1097c9c28a893445ac40345009d39297955920feb1c045865f43e5",
+          "bytes": 133,
+          "record": {
+            "utc": "2026-11-02T16:17:25.565853+00:00",
+            "monotonic_ns": 1507690145163375,
+            "command": "ZCtrl.OnOffSet",
+            "args": [
+              1
+            ],
+            "at_most_once": true
+          },
+          "local_time": "2026-11-03T00:17:25.565853+08:00"
+        }
+      ],
+      "outcome": {
+        "utc": "2026-11-02T16:17:55.805992+00:00",
+        "monotonic_ns": 1507720385215291,
+        "status": "tunneling_reestablished",
+        "stable": true,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "sampled_stable_s": 28.914113374892622,
+        "samples": 120,
+        "observation_elapsed_s": 30.238588833017275,
+        "on_attempted": true,
+        "on_zero_error_ack": true,
+        "withdraw_attempted": false
+      },
+      "outcome_local_time": "2026-11-03T00:17:55.805992+08:00",
+      "outcome_source": {
+        "path": "../engage_R03_02/outcome.json",
+        "relative_to_run": "continuation_slow_20261102/engage_R03_02/outcome.json",
+        "sha256": "398d74c2a1cb417019032b1db3a55d30bbc67d84c7d1aa774e924b98a4144b21",
+        "bytes": 336
+      },
+      "benchmark_increment": {
+        "full_attempt": 0,
+        "successful_cycle": 0,
+        "conditioning_pulse": 0
+      }
+    }
+  ],
+  "baseline": {
+    "event_id": "baseline_segment03_full",
+    "state": "runner_completed_native_and_image_review_pending_in_this_report",
+    "start_claim": {
+      "path": "../../session_02/baseline_segment03_full/scan_start.claim",
+      "relative_to_run": "session_02/baseline_segment03_full/scan_start.claim",
+      "sha256": "cf36d927a6443d379e8275425ae39c3849d062f0d1e3fac7c6c96bf96b7d4b94",
+      "bytes": 371
+    },
+    "start_utc": "2026-11-02T16:23:32.356990+00:00",
+    "start_local": "2026-11-03T00:23:32.356990+08:00",
+    "full_frame": {
+      "nm": [
+        50,
+        50
+      ],
+      "shape": [
+        240,
+        240
+      ],
+      "direction": "DOWN",
+      "line_time_per_direction_s": 0.9120000004768372,
+      "bias_V": -1,
+      "setpoint_pA": 100
+    },
+    "no_conditioning_in_this_action": true,
+    "native_SXM_and_six_plane_integrity": "Root archives and audits separately; not independently checked by this report",
+    "image_quality": "pending root and image-review verdict",
+    "not_counted_as_completed_repair": true,
+    "terminal_utc": "2026-11-02T16:30:56.853312+00:00",
+    "native_wait_end_utc": "2026-11-02T16:30:51.172754+00:00",
+    "native_wait_elapsed_s": 438.81261179200374,
+    "outcome": {
+      "path": "../../session_02/baseline_segment03_full/outcome.json",
+      "relative_to_run": "session_02/baseline_segment03_full/outcome.json",
+      "sha256": "6bbb4f92a770b8e99692310f47104e823754dedbaca58f50844e574707545f59",
+      "bytes": 4073
+    },
+    "frame_total_finite_values": 345600,
+    "native_filename": "BM261029_00201.sxm"
+  },
+  "native_reviews": {
+    "fine_R02_native_review": {
+      "path": "../fine_R02_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/fine_R02_native_review/review.json",
+      "sha256": "4e2e3e7593ea4ea4f5da1a433fe2bc6502729eed9a22ef7d50567d6d583ab11d",
+      "bytes": 11710
+    },
+    "AA_R02_01_native_review": {
+      "path": "../AA_R02_01_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/AA_R02_01_native_review/review.json",
+      "sha256": "70765d95294109e37699e62e7da9d68b070e225cb490d2db33307d531a5476cf",
+      "bytes": 16174
+    },
+    "AA_R02_02_native_review": {
+      "path": "../AA_R02_02_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/AA_R02_02_native_review/review.json",
+      "sha256": "4932d36f019d4c1b229daad16a37dbbdf397fb8eed493c9501dee9b72f232ff8",
+      "bytes": 41273
+    },
+    "AA_R03_03_native_review": {
+      "path": "../AA_R03_03_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/AA_R03_03_native_review/review.json",
+      "sha256": "e75c4e8a8d868739896f19672abd0dcc1e59ff025b68af9d65d7ae33f678e5e2",
+      "bytes": 22648
+    },
+    "fine_R03_02_native_review": {
+      "path": "../fine_R03_02_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/fine_R03_02_native_review/review.json",
+      "sha256": "7186d59cfe0616eb345b7f83a5961f7f5c25434b3af36aa26a9707bbeaef92b1",
+      "bytes": 33902
+    },
+    "R02_terminal_native_review": {
+      "path": "../R02_terminal_native_review/review.json",
+      "relative_to_run": "continuation_slow_20261102/R02_terminal_native_review/review.json",
+      "sha256": "09ddd091522b41e32ef812cb6d645ab154ba6e21df4cd5366d15d7cfb2e835a6",
+      "bytes": 2112
+    }
+  },
+  "recorders": {
+    "R02": {
+      "state": "known_stopped_and_terminal_archived",
+      "start": "2026/11/2 23:38:54",
+      "stop": "2026/11/2 23:58:13",
+      "blocks": 93,
+      "rows_per_channel": 2317400,
+      "finite_scalars": 13904400,
+      "stored_sample_duration_s": 1158.7,
+      "terminal_review": {
+        "path": "../R02_terminal_native_review/review.json",
+        "relative_to_run": "continuation_slow_20261102/R02_terminal_native_review/review.json",
+        "sha256": "09ddd091522b41e32ef812cb6d645ab154ba6e21df4cd5366d15d7cfb2e835a6",
+        "bytes": 2112
+      }
+    },
+    "R03": {
+      "state": "active_as_reported_by_root_at_snapshot",
+      "pid": 97475,
+      "native_start": "2026/11/3 0:08:12",
+      "duration_nominal": 21600,
+      "estimated_wall_s": 10800,
+      "estimate_not_verified_runtime_duration": true,
+      "READY": {
+        "path": "local-archive:7a1224ebbcc864ec",
+        "relative_to_run": "session_02/logger_03/READY.json",
+        "sha256": "f91ecfe1a886ad7609f5fa6e26bdad7dcbf6a76f4551e030edf6f7a562494dbb",
+        "bytes": 1889
+      },
+      "terminal_archive": "pending; do not include an actively written last block"
+    }
+  },
+  "limits": [
+    "0.5ms stored sample period does not establish analog bandwidth, true current peaks or loss-free continuity.",
+    "Block row concatenation/host counters do not provide exact hardware-command/pixel synchronization.",
+    "Software-floor samples are retained; censored peaks remain unknown.",
+    "Z is not an independent tip-sample gap measurement.",
+    "Fine02 sampled-current stability is not proof of settled Z, image usability, chemical cleanliness or repair.",
+    "Historical unknown-interruption evidence is not overwritten; later manual-history confirmation is a new addendum."
+  ],
+  "status_update_utc": "2026-11-02T16:33:54.720295+00:00",
+  "_portable_export": {
+    "source_sha256": "ce95c045f4491e1092b694f2881d208658820fe63c647c56068be0d4c17f2597",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

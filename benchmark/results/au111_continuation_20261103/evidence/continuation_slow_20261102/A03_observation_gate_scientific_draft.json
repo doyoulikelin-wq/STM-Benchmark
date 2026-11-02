@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-11-02T18:38:48.607605+00:00",
+  "status": "offline_scientific_draft_not_activated",
+  "scope": "Assess the justification for existing A03 pre-observation criteria; no source, threshold, state, Skill or hardware changes. No online claims or new numeric admission thresholds.",
+  "sources": [
+    {
+      "path": "local-archive:bc7221ef4dd8366f",
+      "sha256": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e"
+    },
+    {
+      "path": "local-archive:485175501827a95f",
+      "sha256": "bc5983116770665bf1415948e115e4e9192e958e7d23d978b25d7cc7cddfe619"
+    },
+    {
+      "path": "local-archive:6dd7ce8b5675cde1",
+      "sha256": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3"
+    },
+    {
+      "path": "local-archive:b2696bb9a32f72d7",
+      "sha256": "bd9e0c16cbdbe68972f5c02c433c2f68f88df2fe78fbe2f9dea26d0c6e9a95a1"
+    },
+    {
+      "path": "local-archive:b92f5d9f1be12519",
+      "sha256": "e1fa6b4e4f45ebaf8030e193e960dacf20f16a9cb73e5b06d1e79f1d44cdf43e"
+    },
+    {
+      "path": "local-archive:d8660c1ff5d7dbc0",
+      "sha256": "219bc1daf18e4e57141dc1c3a4a478f759b814ea842812e9fbe131082e0f323d"
+    },
+    {
+      "path": "native205_post302s_review/review.json",
+      "sha256": "b766605fe104ddcdf828dfdac6175a0b4f6d48af5b9f7ad69a7a02154eac00fb"
+    },
+    {
+      "path": "P01_recovery_native_review/interpretation.json",
+      "sha256": "45ca6adc647e8878ed052f43244d6e23320f9e3ce24e78044f896064747e11b5"
+    },
+    {
+      "path": "compare204_205_offline/manual_image_review.json",
+      "sha256": "6f5ecc8ccc80c9eec6f3ef4a18dbf16d4f633c1f8e98d5cafa4761d7841c886e"
+    }
+  ],
+  "bottom_line": {
+    "exact_30s_all_TCP_current_in_band_and_10pm_RMS": "Not demonstrated to be a universal or scientifically necessary physical safety boundary for this repair trajectory. They are frozen local engineering criteria for a reproducible, relatively quiet starting state.",
+    "possibly_overly_strict": "Yes, especially the requirement that every sparse TCP current sample across 30 s lies within +/-20%; its rejection probability depends on noise, sampling, correlation and duration. It can reject a functioning feedback state with finite stationary noise. This does not establish that all current-gate failures are harmless.",
+    "current_necessity": "A known, bounded and recoverable starting state remains necessary. Image impairment supplies a repair rationale, not a reason to ignore unresolved control instability.",
+    "existing_A03": "Retain and evaluate the currently frozen rules exactly. This draft does not change a rejection to acceptance or authorize a second attempt.",
+    "new_gate_possible": "A separate prospective engineering protocol can be justified by action-specific evidence and explicitly accepted uncertainty. Current evidence alone does not determine a new safe numeric limit."
+  },
+  "code_verified_semantics": {
+    "pre": "Run.observe(pre=True) calls guard(entry=True) on every observation throughout 30 s, hence every TCP current sample must be within [-120,-80] pA; last10 s Z is then fit for slope and detrended RMS. Final >=5 s current-band condition is redundant during successful pre-observation.",
+    "post_difference": "Post-observation does not apply the narrow current band at every sample; it uses the original sampled broad gate, persistent-fault check and final band/trend conditions. Pre and post are not identical statistics.",
+    "window": "trend selects the bracket including a sample at or before the last10 s cutoff, requires >=20 observations and gaps <=1 s. These are sequential TCP observations, not simultaneous 2 kHz data.",
+    "trajectory_from_local_frozen_plan": "50 ms Z averaging/switch-off delay; -0.9 nm over 0.2 s at initial -1 V because ChangeBias=False; lifting bias +2 V and 0.1 s settle; +5 nm from bottom over 1 s; restore bias, 0.1 s end wait and initial feedback. Nominal +4.1 nm relative starting level before feedback, not final feedback height or contact depth.",
+    "separate_constraints": "Full configuration/On2/idle/SafeOff/XY, software Z endpoint and full-trajectory margins, logger coverage, known ACK/end, one-shot budget and no replay remain distinct from narrow observation-noise tolerances."
+  },
+  "what_205_data_do_and_do_not_establish": {
+    "native_late30": "I -111.887 +/-28.393 pA (std); Z slope -0.356 pm/s, detrended RMS15.402 pm. Native late10 RMS14.879 pm. Post302.14 s has one isolated >=400 pA point and no >=1nA or exact software-floor match; only the immediate post-scan adjacent-1s median shift exceeded the descriptive100pm query.",
+    "different_observable": "Native late30 RMS15.4pm cannot be substituted into the code last10s sparse TCP metric. Windows, sampling and possible averaging/filtering differ. A native/TCP bandwidth and time-window mapping has not been demonstrated here.",
+    "not_safe_because_small_ratio": "15.4pm is arithmetically about1.7% of900pm, but commanded approach is not known clearance. Starting gap, surface response, feedback-off reference, atom rearrangement and absolute calibration are unknown; neither this ratio nor later+5nm withdrawal proves a safe approach.",
+    "absence_of_large_jump": "No late adjacent1s-median jump >=100pm in this finite interval lowers evidence for that specific persistent working-point behavior. It does not exclude shorter events, smaller switching, oscillation, changing electronic response, or a later jump. The100pm query is not a new acceptance limit.",
+    "averaging": "A 50ms Z average can reduce some fast components, depending on spectrum/correlation, but it does not guarantee a stable atomic configuration or suppress telegraph/slow drift. Need actual aligned measurements; cannot divide RMS by sqrt(number of samples) without independence evidence.",
+    "gate_vs_effect": "A low noise gate does not prove the -900pm trajectory safe, and passing it does not predict repair. Conversely an image failure does not establish that widening the gate is safe."
+  },
+  "legitimate_prospective_reassessment": [
+    "Define the gate purpose explicitly: known operational control, repeatable starting level and adequate remaining trajectory margin, not clean image or chemical cleanliness.",
+    "Use same-point, same setpoint/bias/gain stationary native and TCP windows, with actual time alignment and measured sampling/filtering. Preserve raw events while separately characterizing mean error, trend, fluctuation distribution, correlation, transitions and recovery.",
+    "Compare stationary-noise intervals with already observed true working-point jumps and unresolved failures. A rule should discriminate those modes rather than merely include the latest failing value.",
+    "For Z, distinguish smooth drift, bounded fluctuations and abrupt state changes; document uncertainty in the starting Z reference over the real averaging/switch-off interval and relative to actuator margins. This does not independently calibrate tip-sample gap.",
+    "Separate an observation criterion from a hard state/transport constraint. If any noise statistic is revised, specify its data stream, window, finite wait, acceptance interpretation, and unchanged unknown-ACK/limits/control/recording branches.",
+    "Freeze a new version, rationale and tests before a later attempt; preserve the original failed preflight and all action counts. Keep post-action recovery and full matched image/independent confirmation requirements explicit rather than silently loosening them along with entry."
+  ],
+  "insufficient_justifications": [
+    "It failed the existing rule, therefore choose a threshold just above the observed result.",
+    "The commanded displacement is much larger than the noise, or retract follows approach, therefore contact or overload cannot occur.",
+    "Mean current is near setpoint, therefore Z/tip state is stable.",
+    "No exact current floor or no>=100pm median jump means all relevant instability is absent.",
+    "Images require repair or user authorized conditioning, therefore existing instrumentation constraints no longer apply.",
+    "Previously successful low-current or different-location actions calibrate this state without comparable provenance.",
+    "Use pixel/TCP averages to erase faster excursions or treat an observation window as an allowed overload duration."
+  ],
+  "remaining_unknowns": [
+    "Absolute current tip-sample clearance and local approach response.",
+    "Current effective high-frequency and low-frequency transfer/averaging between native and TCP Z.",
+    "Whether present fluctuations are stationary measurement/control noise or changing junction configurations.",
+    "A calibrated relationship between an entry RMS tolerance and outcome of this mechanical trajectory."
+  ],
+  "new_numeric_gate": null,
+  "automatic_execution_permission": false,
+  "existing_frozen_gate_modified": false,
+  "historical_outcomes_relabelled": false,
+  "hardware_calls": 0,
+  "_portable_export": {
+    "source_sha256": "b5c56f5080780559061a8bf5cb852c2659d44b54205bfda48a822754173b4e19",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-02T17:09:42.379968+00:00",
+  "monotonic_ns": 1510826938577250,
+  "status": "rejected_before_start",
+  "session_id": "session_02",
+  "action_id": "I01",
+  "stage_intent": "induction_attempt",
+  "automatic_On": false,
+  "automatic_retry": false,
+  "old_preset_restored": false,
+  "pulse_count_reset": false,
+  "error": "Final current/Z stability gate failed",
+  "cleanup_withheld": "No known native end / unknown writer / closed transport; zero further commands",
+  "start_attempted": false,
+  "native_end_confirmed": false,
+  "writer_outcome_unknown": false,
+  "episode_shaper_claim_exists": false,
+  "requires_root_review": true,
+  "quality_effect": "not_assessed",
+  "_portable_export": {
+    "source_sha256": "d7731975745ab2a2e072a10d60e081755d48893a1ba80306ba04a663776350f9",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

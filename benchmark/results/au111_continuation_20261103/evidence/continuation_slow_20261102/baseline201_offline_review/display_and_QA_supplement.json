@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-02T16:39:45.416183+00:00",
+  "purpose": "Display-only contrast supplement, not numeric data transformation, ROI measurement or quality threshold",
+  "nm_color_limits": [
+    -0.2973305851946158,
+    0.3363883946862107
+  ],
+  "clipped_display_pixel_counts": {
+    "F": {
+      "below": 570,
+      "above": 554,
+      "total": 57600
+    },
+    "B": {
+      "below": 582,
+      "above": 598,
+      "total": 57600
+    }
+  },
+  "figures_visually_reviewed": [
+    "scan201_native_and_post.png",
+    "scan201_candidates_and_raw_row_profiles.png"
+  ],
+  "QA": "Units and phase labels legible, no overlap/truncation. C1/C2/C3 are development candidates, not active target/reference freeze. Full-range source retained.",
+  "interpretation_limit": "Post-scan Z change could include mechanical relaxation, local junction/sample dynamics and feedback effects; native values do not identify cause. No success or chemical-clean label.",
+  "_portable_export": {
+    "source_sha256": "534660763757e6d6606ba0153342d42d3f2cc396ce44eb995e55615834933505",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

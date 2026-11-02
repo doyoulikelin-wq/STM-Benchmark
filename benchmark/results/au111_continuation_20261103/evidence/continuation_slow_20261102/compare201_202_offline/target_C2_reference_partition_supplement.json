@@ -1,0 +1,135 @@
+{
+  "created_utc": "2026-11-02T16:51:47.444574+00:00",
+  "purpose": "Append root-selected intervention region and independent-reference partition to prior202 review; no source rewrite, hardware action or chemical label.",
+  "root_selection_record": "Parent explicitly selected prospective(+16.5,+2.5)nm near currentC2 for I01 exploratory induction, after accepting limited nanoscale functional baseline. This is recorded when received, not a claimed execution time.",
+  "source_manual_review": {
+    "path": "manual_functional_review.json",
+    "sha256": "ed28e9877f76593f49b5992ce347923c579d40e101981589f39d9d9e7d2d0c31"
+  },
+  "source_measurements": {
+    "path": "measurements.json",
+    "sha256": "ef3a3fb7b4fb0cf966163999ae4cc4a21716101c3518f56c068f4d480e16bc6c"
+  },
+  "selected_prospective_target": {
+    "nominal_XY_nm": [
+      16.5,
+      2.5
+    ],
+    "source_frame": 202,
+    "mapping": "DOWN angle0,50nm240: x=−25+(c+.5)*50/240,y=25−(r+.5)*50/240",
+    "fractional_rc": [
+      107.5,
+      198.7
+    ],
+    "bracketing_rc": [
+      [
+        107,
+        198
+      ],
+      [
+        107,
+        199
+      ],
+      [
+        108,
+        198
+      ],
+      [
+        108,
+        199
+      ]
+    ],
+    "straight_distance_from_nominal_corner_nm": 49.78453575157651,
+    "inside_C2_window": true,
+    "bracketing_height_above_local_C2_perimeter_plane_pm": {
+      "F": [
+        157.50412139347247,
+        197.07687712204347,
+        249.23627480779942,
+        271.613896330976
+      ],
+      "B": [
+        194.29610165350653,
+        194.57135333979636,
+        262.4858984135159,
+        178.00050715098337
+      ]
+    },
+    "interpretation": "Inside apparent protrusion flank; not proven apex maximum, known atom identity, chemical species or exact contact point.",
+    "uncertainty": "At least0.2083nm sampling plus drift/calibration/localization. Nominal distance is not an independent motion-calibration measurement."
+  },
+  "intervention_and_local_sample_zone": {
+    "id": "C2_right_upper",
+    "rc_half_open": [
+      92,
+      112,
+      188,
+      213
+    ],
+    "physical_edges_nm": {
+      "x": [
+        14.166666666666668,
+        19.375
+      ],
+      "y": [
+        1.6666666666666679,
+        5.833333333333332
+      ]
+    },
+    "exclude_as_independent_control": true,
+    "future_local_change_limit": "A new pit, material displacement or C2 shape change alone cannot establish tip-wide functional degradation."
+  },
+  "independent_references": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      },
+      "source_frame": 202,
+      "role": "spatially separate control for future task-function assessment; preserve existing line-artifact limitations"
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "source_frame": 202,
+      "role": "spatially separate control for future task-function assessment; preserve existing line-artifact limitations"
+    }
+  ],
+  "D4_role": "Additional descriptive remote-object diagnostic, not a newly tuned pass criterion.",
+  "history_limit": "No verified correspondence to old200 or originalblueobject. Old blue annotation supplies functional interpretation guidance, not calibrated current target coordinates.",
+  "supersession_scope": "The optional flat-patch target in manual_functional_review.json was explicitly unselected; this supplement records root choosingC2 instead. C2 changes role from comparison candidate to intervention zone; C1/C3 remain separate controls.",
+  "execution_status": "Not executed or attested by this offline supplement; root action claims/ACK/readbacks are authoritative.",
+  "_portable_export": {
+    "source_sha256": "b4850a66cd5693fea0351a247e33fdf76b78e514ad9fbfe31d995a531b379550",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

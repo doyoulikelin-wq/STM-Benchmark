@@ -1,0 +1,168 @@
+{
+  "utc": "2026-11-02T17:57:16.432529+00:00",
+  "monotonic_ns": 1513680973451791,
+  "status": "completed",
+  "completed_frame_confirmed": true,
+  "native_file_archived": false,
+  "native_file_post_audit_required": true,
+  "clean_tip_or_repair_claim": false,
+  "end_event": {
+    "utc": "2026-11-02T17:57:10.521936+00:00",
+    "monotonic_ns": 1513675062932916,
+    "values": [
+      0,
+      84,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00204.sxm"
+    ],
+    "elapsed_s": 438.76812166697346
+  },
+  "native_file_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00204.sxm",
+  "frames": [
+    {
+      "utc": "2026-11-02T17:57:10.926213+00:00",
+      "monotonic_ns": 1513675467202083,
+      "channel_index": 0,
+      "data_direction": 1,
+      "channel_name": "Current (A)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27758,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_0_1.f32be",
+        "sha256": "6d14189db9601f6ccd9c1d966e6076735c98e9d91ded894045f9382e55384012",
+        "bytes": 230400
+      },
+      "minimum": -6.523450668538544e-10,
+      "maximum": -1.6106527570003415e-11,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    },
+    {
+      "utc": "2026-11-02T17:57:10.986816+00:00",
+      "monotonic_ns": 1513675527808083,
+      "channel_index": 0,
+      "data_direction": 0,
+      "channel_name": "Current (A)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27779,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_0_0.f32be",
+        "sha256": "a62d27b886767cf62b009bb8476073f3110cac82fda85ca9122e286019ddfdc2",
+        "bytes": 230400
+      },
+      "minimum": -1.2582220820789303e-09,
+      "maximum": -5.561323623837211e-11,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    },
+    {
+      "utc": "2026-11-02T17:57:11.074295+00:00",
+      "monotonic_ns": 1513675615285083,
+      "channel_index": 30,
+      "data_direction": 1,
+      "channel_name": "Z (m)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27800,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_30_1.f32be",
+        "sha256": "0f49d0c81243402be9b98fba6df700275623fe7499ca10b35e69decab092785c",
+        "bytes": 230400
+      },
+      "minimum": -1.0632560787371403e-07,
+      "maximum": -1.0310704112725944e-07,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    },
+    {
+      "utc": "2026-11-02T17:57:11.133230+00:00",
+      "monotonic_ns": 1513675674222583,
+      "channel_index": 30,
+      "data_direction": 0,
+      "channel_name": "Z (m)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27821,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_30_0.f32be",
+        "sha256": "db831a4c75ff96a82296f4f9d031f823bb5dfd722161bb7f6bd818eb9675c770",
+        "bytes": 230400
+      },
+      "minimum": -1.0632611946448378e-07,
+      "maximum": -1.0329727473390449e-07,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    },
+    {
+      "utc": "2026-11-02T17:57:11.194733+00:00",
+      "monotonic_ns": 1513675735726041,
+      "channel_index": 89,
+      "data_direction": 1,
+      "channel_name": "LI Demod 2 Y (A)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27842,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_89_1.f32be",
+        "sha256": "43a718068dccf793ee8a0a71e76e41f41061ce7d6913e512333a5fcb876325d1",
+        "bytes": 230400
+      },
+      "minimum": -6.028358923160226e-10,
+      "maximum": 4.5197307008137955e-10,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    },
+    {
+      "utc": "2026-11-02T17:57:11.251587+00:00",
+      "monotonic_ns": 1513675792577541,
+      "channel_index": 89,
+      "data_direction": 0,
+      "channel_name": "LI Demod 2 Y (A)",
+      "rows": 240,
+      "columns": 240,
+      "scan_direction": 0,
+      "finite_values": 57600,
+      "total_values": 57600,
+      "wire_sequence": 27863,
+      "format": "original IEEE754 float32 big-endian row-major bytes",
+      "matrix": {
+        "path": "frames/channel_89_0.f32be",
+        "sha256": "2ab8590ec109b5e704a0e97d11cd6ef9e5871f82fc7f8174927c5eda54e2cd0c",
+        "bytes": 230400
+      },
+      "minimum": -4.3249223646846247e-10,
+      "maximum": 5.40173517027398e-10,
+      "acquisition_time": null,
+      "tcp_frame_id": null
+    }
+  ],
+  "nominal_seconds": 437.76000022888184,
+  "elapsed_seconds": 444.67893908405676,
+  "post_frame_logger_observation_s": 5.075546958018094,
+  "_portable_export": {
+    "source_sha256": "c3448e705abef2cc2c191df84a24de0a365234113cf1d6b2d422e12a4a192ba0",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

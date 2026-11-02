@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-02T16:52:48.074941+00:00",
+  "monotonic_ns": 1509812640045833,
+  "status": "uncertain_no_retry",
+  "stage_intent": "induction_localization",
+  "automatic_On": false,
+  "automatic_Withdraw": false,
+  "automatic_retry": false,
+  "pulse_count_reset": false,
+  "error": "[Errno 17] File exists: '/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_induction_I01/motion_0000.json'",
+  "Stop_ACK_plus_sampled_stationary_confirmed": true,
+  "move_attempted": true,
+  "asynchronous_move_ACK": true,
+  "writer_outcome_unknown": false,
+  "stop_attempted": true,
+  "stop_ACK": true,
+  "target_confirmed": true,
+  "stable5s_confirmed": false,
+  "high_frequency_XY_path_verified": false,
+  "_portable_export": {
+    "source_sha256": "13bb2f6be287b55d0e490763f5de97751d78950c91b0a5324110266de37496aa",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

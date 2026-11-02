@@ -1,0 +1,134 @@
+{
+  "recorded_utc": "2026-11-02T18:15:04.199336+00:00",
+  "sources": {
+    "through583": {
+      "path": "review.json",
+      "sha256": "80e0721324f86331ba92294ace56ff6c694f32dae0c0a08f476a47e7906db063"
+    },
+    "through589": {
+      "path": "review_through589.json",
+      "sha256": "8cc5d61cfc793311bfb189be87ee232ffc438037d887735bb6a6e6f89ee96a42"
+    },
+    "outcome": {
+      "path": "../../session_02/prepare_induction_P01/outcome.json",
+      "sha256": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9"
+    },
+    "plot_through589": {
+      "path": "prepare_six_steps_and_post_through589.png",
+      "sha256": "6c3266539fb638a1236e5cea974a5996190fc70e90abbcfa77cfc4571310dfce"
+    }
+  },
+  "writer_accounting": {
+    "known_setpoint_ACKs": 6,
+    "last_target_abs_pA": 381.46971692576415,
+    "pulse_executed": false,
+    "additional_writers_after_rejection_in_prepare_log": false,
+    "stop_meaning": "stopped_no_further_sets means script stopped issuing setters, not feedbackOff/Withdraw/ScanStop. Slow outcomes retainOn2 and nominalXY−25,−25nm."
+  },
+  "timing": {
+    "step6_counter_bracket": [
+      {
+        "utc": "2026-11-02T18:09:15.783819+00:00",
+        "native_s": 7262.75
+      },
+      {
+        "utc": "2026-11-02T18:09:16.347989+00:00",
+        "native_s": 7263.33
+      }
+    ],
+    "rejection_counter_bracket": [
+      {
+        "utc": "2026-11-02T18:09:19.646471+00:00",
+        "native_s": 7266.62
+      },
+      {
+        "utc": "2026-11-02T18:09:20.193882+00:00",
+        "native_s": 7267.17
+      }
+    ],
+    "rejection_bracket_peak": {
+      "native_s": 7266.888,
+      "current_pA": -1851.1421,
+      "Z_nm": -103.84105000000001
+    },
+    "limits": "Async hostcounter brackets do not identify exact causal sample or external/manual activity. Target itself was not among6highfrequencychannels."
+  },
+  "same_target_descriptive_windows": {
+    "pre_jump_same_target": {
+      "native_s": [
+        7265.5,
+        7266.5
+      ],
+      "Z_median_nm": -103.84698999999999,
+      "I_median_pA": -410.42514,
+      "I_mean_pA": -426.49373448999995,
+      "I_std_pA": 124.6132501177113
+    },
+    "early_high_excursion": {
+      "native_s": [
+        7267.0,
+        7267.5
+      ],
+      "Z_median_nm": -103.67497,
+      "I_median_pA": -401.1375,
+      "I_mean_pA": -418.72343233,
+      "I_std_pA": 124.3324829455343
+    },
+    "late_low_level": {
+      "native_s": [
+        7340,
+        7350
+      ],
+      "Z_median_nm": -103.91957,
+      "I_median_pA": -355.19648500000005,
+      "I_mean_pA": -444.096626756,
+      "I_std_pA": 213.37208631768195
+    },
+    "latest_high_excursion": {
+      "native_s": [
+        7359.5,
+        7360.0
+      ],
+      "Z_median_nm": -103.815265,
+      "I_median_pA": -381.267115,
+      "I_mean_pA": -397.82115453000006,
+      "I_std_pA": 86.11972066840687
+    },
+    "latest_final_halfsecond": {
+      "native_s": [
+        7362,
+        7362.5
+      ],
+      "Z_median_nm": -103.91723,
+      "I_median_pA": -341.49051499999996,
+      "I_mean_pA": -492.51891014,
+      "I_std_pA": 307.8780552455891
+    }
+  },
+  "interpretation": [
+    "Steps1–5 mostly show progressive negativeZ movement as current target rises. The initial interior ofstep6 likewise moves lower, withZmedian−103.839875nm versus immediateprestep−103.800215nm; this portion is compatible with ordinary feedback approach.",
+    "Near the laterstep6 rejection, a~1.85nA current excursion accompanies positiveZ response. Subsequent fixed-target381.47pA recording has repeated0.1–0.3nm excursions and returns to a lower working level near−103.92nm. The observed+175pm slowpoint is real corroborated dynamics, not one persistent+175pm stable offset.",
+    "Late low-levelZ is about80pm below the earlystep6 interior at the same target, but occasional higher excursions persist; this does not establish irreversible structure change. Creep, nonlinear/electronic response, feedback dynamics and effective junction configuration changes remain possible.",
+    "After script rejection,95.33s still show substantial current variability and repeatedZmotion. Last10sImean−445.77pA/std208.90pA andZRMS28.80pm; last5sZRMS38.10pm. This archive does not demonstrate recoveredquietoperation.",
+    "No software-floor matching or>=4nA sample occurs in577..589. Recordedminimum−2.09352nA is below the magnitude of the known~10nA softwarelimit; no observedrangehit. This is not a calibrated guarantee of analog linearity/no unseenpeak.",
+    "Absolute400pA is not a universal instabilitythreshold at381pA target. Targetrelative nativefluctuations andZmotion are independently reported; slow5s±20% observations do not prove every2kHzsample was insideband.",
+    "No new image was acquired: do notlabeltipdirty,chemicalcontamination,induction success,repair,orcompletedcycle fromthese waveforms. OriginalP01 pulse readiness is not supported by this record; any decrease-back protocol remains a separate reviewed action rather than automatic rollback."
+  ],
+  "endpoint_position_descriptor": {
+    "minZ_nm": -103.97456,
+    "readback_lower_limit_nm": -123.69999069505866,
+    "min_position_minus_lower_limit_nm": 19.725430695058662,
+    "interpretation": "Not near the stored lowerendpoint bythispositiondescriptor; noindependentactualmechanicalgapmeasurement."
+  },
+  "limits": [
+    "No highfrequencyXY channel; nominalfixedposition derives fromknowncommand/readbackhistory.",
+    "No hardware/network/SMB/CUA/transportimport inthisanalysis.",
+    "Source584..589 appendextends583; originalreviewnotmodified.",
+    "Projectevidencelevels/countersunchanged; descriptivewindowsselectedposthoc,notnewoperationalgates."
+  ],
+  "_portable_export": {
+    "source_sha256": "43f356e168ab8edd09c76fd4025972f0f6f1f0bc2ffb7819ee575a5e6e603b16",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

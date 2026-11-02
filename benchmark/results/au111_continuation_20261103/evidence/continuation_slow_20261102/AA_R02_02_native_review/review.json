@@ -1,0 +1,1437 @@
+{
+  "created_utc": "2026-11-02T15:58:25.933712+00:00",
+  "scope": "Offline local AA02 completed logs and closed R02 DAT72-82 only; no hardware/network/SMB/CUA/control imports",
+  "native_sources": [
+    {
+      "path": "local-archive:7d9c3f6bc36b13d1",
+      "sha256": "ef4a2ea948f1b23f8604c9781b1865db8bdc3344708b476a750a92a28bee7851"
+    },
+    {
+      "path": "local-archive:c461732be0784488",
+      "sha256": "fb918db5f7b83633f415f256ec6034e85c8b48750f9f390ae6a6dd0ce697699e"
+    },
+    {
+      "path": "local-archive:c54993154ff30f5c",
+      "sha256": "64813f11280e4a5b0c4f6b91c776b28f25d73a0353df969e8a184ce436c4c96c"
+    },
+    {
+      "path": "local-archive:3fc91b8392e476e8",
+      "sha256": "4342cf975e7eae7ca02d5beae439650e59a2c463fb45dfad3c5b5851ff5fdcab"
+    },
+    {
+      "path": "local-archive:175af4dac5f5cec2",
+      "sha256": "1d33b9ff0967abf2ee8d13f2da91d94a5588dd9f5ab01746968647561eb13744"
+    },
+    {
+      "path": "local-archive:59152606778a1af4",
+      "sha256": "40238efce0fea6cb0f2ef1b2bb9469aee306a25bf693d95ff0ec7718cd332fb9"
+    },
+    {
+      "path": "local-archive:eb8196f5785b6397",
+      "sha256": "513b82d01d15b4d3faec2546b5710ec59612d99ab3193cde28ba4296b48ce7b8"
+    },
+    {
+      "path": "local-archive:6aab7539be4bdb05",
+      "sha256": "5804ab1947f5e3152ee53799ab29aba70ee365d2fd3875018325214aeae9ad0e"
+    },
+    {
+      "path": "local-archive:41decd29c7a94b39",
+      "sha256": "0e3b53833394d93848676b590f23eae3b7b3b6eb269093fd0e26a541ca857986"
+    },
+    {
+      "path": "local-archive:5502be0ad7ee5d98",
+      "sha256": "b74f61c43c00c53bba3b98d48d45e68e5b0bbe52b7f460a908351014349bd14f"
+    },
+    {
+      "path": "local-archive:d6848404627a1cf9",
+      "sha256": "001db7c906018f4b6a75698d4133789edce0fe62e1f23e5513583eb2e19426b4"
+    }
+  ],
+  "sample_period_s": 0.0005,
+  "finite_values": 1650000,
+  "Bias_all_V": -1,
+  "whole_reviewed_interval": {
+    "native_s": [
+      887.5,
+      1025.0
+    ],
+    "samples": 275000,
+    "I_pA": {
+      "min": -473.06724999999994,
+      "max": 31.923093,
+      "mean": 0.07604479271894178,
+      "std": 4.953113995643427,
+      "abs_ge400_count": 31,
+      "abs_ge1000_count": 0,
+      "known_software_lower_level_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": -123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "all_nonHome_samples": {
+    "samples": 54175,
+    "I_pA": {
+      "min": -3.1222247,
+      "max": 4.4922156,
+      "mean": 0.34193826155118084,
+      "std": 0.8099710345396796,
+      "abs_ge400_count": 0,
+      "abs_ge1000_count": 0,
+      "known_software_lower_level_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": -123.69999,
+      "max": 123.69296000000001,
+      "first": 123.68797,
+      "last": -24.739998
+    }
+  },
+  "nonHome_excursions": [
+    {
+      "native_s": [
+        903.8415,
+        904.5155
+      ],
+      "samples": 1348,
+      "I_pA": {
+        "min": -0.8266926099999999,
+        "max": 1.4053629,
+        "mean": 0.42326206384666165,
+        "std": 0.31328789714358274,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -121.50012000000001,
+        "max": 123.68797,
+        "first": 123.68797,
+        "last": -23.507862
+      },
+      "index": 1,
+      "first_minimum_native_s": 904.5145,
+      "next_Home_native_s": 904.5155,
+      "Home_arrival_I_pA": -469.72975999999994,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        904.669,
+        905.4115
+      ],
+      "samples": 1485,
+      "I_pA": {
+        "min": -1.3372516,
+        "max": 2.2951031,
+        "mean": 0.3808027410947744,
+        "std": 0.5399256228033783,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -118.88974,
+        "max": 123.69198,
+        "first": 123.69198,
+        "last": -21.934763
+      },
+      "index": 2,
+      "first_minimum_native_s": 905.4105,
+      "next_Home_native_s": 905.4115,
+      "Home_arrival_I_pA": -463.8902,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        905.5655,
+        906.3075
+      ],
+      "samples": 1484,
+      "I_pA": {
+        "min": -1.7727374,
+        "max": 1.8313883000000002,
+        "mean": 0.3883831361594272,
+        "std": 0.5183826074271618,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -120.34511,
+        "max": 123.6883,
+        "first": 123.6883,
+        "last": -22.812619
+      },
+      "index": 3,
+      "first_minimum_native_s": 906.3065,
+      "next_Home_native_s": 906.3075,
+      "Home_arrival_I_pA": -466.29312,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        906.463,
+        907.2995
+      ],
+      "samples": 1673,
+      "I_pA": {
+        "min": -2.4133018,
+        "max": 3.0580425,
+        "mean": 0.34103223434393304,
+        "std": 0.9438179171520928,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -115.75421999999999,
+        "max": 123.69209000000001,
+        "first": 123.69209000000001,
+        "last": -20.051704
+      },
+      "index": 4,
+      "first_minimum_native_s": 907.2985,
+      "next_Home_native_s": 907.2995,
+      "Home_arrival_I_pA": -458.0496,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        907.4585,
+        908.2115
+      ],
+      "samples": 1506,
+      "I_pA": {
+        "min": -1.651125,
+        "max": 1.9606304,
+        "mean": 0.3779567425448539,
+        "std": 0.6136599140669753,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -116.41436,
+        "max": 123.69063,
+        "first": 123.69063,
+        "last": -20.459391
+      },
+      "index": 5,
+      "first_minimum_native_s": 908.2105,
+      "next_Home_native_s": 908.2115,
+      "Home_arrival_I_pA": -460.19741,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        908.352,
+        909.1395
+      ],
+      "samples": 1575,
+      "I_pA": {
+        "min": -1.8662738,
+        "max": 2.6330852,
+        "mean": 0.36385409161130605,
+        "std": 0.720412475750125,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -117.13414999999999,
+        "max": 123.69273,
+        "first": 123.69273,
+        "last": -20.877255
+      },
+      "index": 6,
+      "first_minimum_native_s": 909.1385,
+      "next_Home_native_s": 909.1395,
+      "Home_arrival_I_pA": -461.41657000000004,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        909.2845,
+        910.0835
+      ],
+      "samples": 1598,
+      "I_pA": {
+        "min": -2.2391986,
+        "max": 2.5639629,
+        "mean": 0.3592259970654568,
+        "std": 0.7508230550844037,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.87438999999999,
+        "max": 123.69271,
+        "first": 123.69271,
+        "last": -22.524709
+      },
+      "index": 7,
+      "first_minimum_native_s": 910.0825,
+      "next_Home_native_s": 910.0835,
+      "Home_arrival_I_pA": -466.10593,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        910.233,
+        911.044
+      ],
+      "samples": 1622,
+      "I_pA": {
+        "min": -2.7885151,
+        "max": 3.9815043999999995,
+        "mean": 0.34942219636549937,
+        "std": 0.8652993142115112,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -114.91469,
+        "max": 123.69261999999999,
+        "first": 123.69261999999999,
+        "last": -19.546809000000003
+      },
+      "index": 8,
+      "first_minimum_native_s": 911.043,
+      "next_Home_native_s": 911.044,
+      "Home_arrival_I_pA": -456.24156999999997,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        911.2025,
+        912.0675
+      ],
+      "samples": 1730,
+      "I_pA": {
+        "min": -2.7628804,
+        "max": 3.4268473,
+        "mean": 0.3396909927453295,
+        "std": 1.0426176213917513,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -118.33530999999999,
+        "max": 123.69176,
+        "first": 123.69176,
+        "last": -21.598694
+      },
+      "index": 9,
+      "first_minimum_native_s": 912.0665,
+      "next_Home_native_s": 912.0675,
+      "Home_arrival_I_pA": -463.04027,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        912.2075,
+        913.044
+      ],
+      "samples": 1673,
+      "I_pA": {
+        "min": -2.3638630000000003,
+        "max": 3.0150127,
+        "mean": 0.34607210587542736,
+        "std": 0.9416309129586575,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -116.17749,
+        "max": 123.6923,
+        "first": 123.6923,
+        "last": -20.307724
+      },
+      "index": 10,
+      "first_minimum_native_s": 913.043,
+      "next_Home_native_s": 913.044,
+      "Home_arrival_I_pA": -458.41306000000003,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        913.1975,
+        914.0035
+      ],
+      "samples": 1612,
+      "I_pA": {
+        "min": -2.020998,
+        "max": 2.8195474999999997,
+        "mean": 0.35719043728595345,
+        "std": 0.8043710043084102,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.13481999999999,
+        "max": 123.69124,
+        "first": 123.69124,
+        "last": -22.08605
+      },
+      "index": 11,
+      "first_minimum_native_s": 914.0025,
+      "next_Home_native_s": 914.0035,
+      "Home_arrival_I_pA": -464.6728,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        914.146,
+        914.9315
+      ],
+      "samples": 1571,
+      "I_pA": {
+        "min": -1.5997029,
+        "max": 2.2012613,
+        "mean": 0.3676314361490643,
+        "std": 0.6623112091357889,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -121.20815,
+        "max": 123.69055,
+        "first": 123.69055,
+        "last": -23.329042
+      },
+      "index": 12,
+      "first_minimum_native_s": 914.9305,
+      "next_Home_native_s": 914.9315,
+      "Home_arrival_I_pA": -468.79223,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        915.0885,
+        915.8915
+      ],
+      "samples": 1606,
+      "I_pA": {
+        "min": -2.1363545,
+        "max": 2.9580975,
+        "mean": 0.35925048923038605,
+        "std": 0.8243401023715089,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -114.97789,
+        "max": 123.69227,
+        "first": 123.69227,
+        "last": -19.588093
+      },
+      "index": 13,
+      "first_minimum_native_s": 915.8905,
+      "next_Home_native_s": 915.8915,
+      "Home_arrival_I_pA": -456.22217,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        916.0505,
+        916.9315
+      ],
+      "samples": 1762,
+      "I_pA": {
+        "min": -2.8880026,
+        "max": 3.8615704,
+        "mean": 0.3460211970236095,
+        "std": 1.1194569141855661,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -117.91848,
+        "max": 123.69071,
+        "first": 123.69071,
+        "last": -21.353869999999997
+      },
+      "index": 14,
+      "first_minimum_native_s": 916.9305,
+      "next_Home_native_s": 916.9315,
+      "Home_arrival_I_pA": -462.98551,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        917.087,
+        917.8755
+      ],
+      "samples": 1577,
+      "I_pA": {
+        "min": -1.8171404,
+        "max": 2.4995705999999998,
+        "mean": 0.3683097426431896,
+        "std": 0.7616486826498056,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -115.61509000000001,
+        "max": 123.69225,
+        "first": 123.69225,
+        "last": -19.969457
+      },
+      "index": 15,
+      "first_minimum_native_s": 917.8745,
+      "next_Home_native_s": 917.8755,
+      "Home_arrival_I_pA": -458.29329,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        918.034,
+        918.8355
+      ],
+      "samples": 1603,
+      "I_pA": {
+        "min": -2.1197224,
+        "max": 2.9886150000000002,
+        "mean": 0.35769963083896444,
+        "std": 0.8056065910093555,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -115.88607,
+        "max": 123.69075000000001,
+        "first": 123.69075000000001,
+        "last": -20.137994
+      },
+      "index": 16,
+      "first_minimum_native_s": 918.8345,
+      "next_Home_native_s": 918.8355,
+      "Home_arrival_I_pA": -458.20525,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        918.996,
+        919.8115
+      ],
+      "samples": 1631,
+      "I_pA": {
+        "min": -2.1815204,
+        "max": 3.0780318,
+        "mean": 0.3591529190562232,
+        "std": 0.82169661092973,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.06697,
+        "max": 123.69196000000001,
+        "first": 123.69196000000001,
+        "last": -22.033971
+      },
+      "index": 17,
+      "first_minimum_native_s": 919.8105,
+      "next_Home_native_s": 919.8115,
+      "Home_arrival_I_pA": -463.45533,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        919.983,
+        920.724
+      ],
+      "samples": 1482,
+      "I_pA": {
+        "min": -1.5282916,
+        "max": 2.2568034999999997,
+        "mean": 0.39202179626243583,
+        "std": 0.5117014179213191,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -118.8174,
+        "max": 123.69067000000001,
+        "first": 123.69067000000001,
+        "last": -21.891024
+      },
+      "index": 18,
+      "first_minimum_native_s": 920.723,
+      "next_Home_native_s": 920.724,
+      "Home_arrival_I_pA": -464.0936,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        920.897,
+        921.7005
+      ],
+      "samples": 1607,
+      "I_pA": {
+        "min": -3.0694295,
+        "max": 3.1434915,
+        "mean": 0.374151758729832,
+        "std": 0.7565036819711911,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -121.82034,
+        "max": 123.69129000000001,
+        "first": 123.69129000000001,
+        "last": -23.699175999999998
+      },
+      "index": 19,
+      "first_minimum_native_s": 921.6995,
+      "next_Home_native_s": 921.7005,
+      "Home_arrival_I_pA": -469.91283,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        921.8445,
+        922.6435
+      ],
+      "samples": 1598,
+      "I_pA": {
+        "min": -2.1665666000000003,
+        "max": 2.9930398,
+        "mean": 0.3754395588297497,
+        "std": 0.744961984146693,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -120.74956000000002,
+        "max": 123.69117,
+        "first": 123.69117,
+        "last": -23.050293999999997
+      },
+      "index": 20,
+      "first_minimum_native_s": 922.6425,
+      "next_Home_native_s": 922.6435,
+      "Home_arrival_I_pA": -467.47095,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        922.795,
+        923.6045
+      ],
+      "samples": 1619,
+      "I_pA": {
+        "min": -2.1517657000000003,
+        "max": 2.8760052,
+        "mean": 0.3698628847172637,
+        "std": 0.8411647685389917,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -115.88444,
+        "max": 123.69296000000001,
+        "first": 123.69296000000001,
+        "last": -20.135243
+      },
+      "index": 21,
+      "first_minimum_native_s": 923.6035,
+      "next_Home_native_s": 923.6045,
+      "Home_arrival_I_pA": -458.31615999999997,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        923.7625,
+        924.5314999999999
+      ],
+      "samples": 1538,
+      "I_pA": {
+        "min": -1.9039629,
+        "max": 2.8981303,
+        "mean": 0.38681871912622234,
+        "std": 0.6456559616532725,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -120.00234,
+        "max": 123.69050999999999,
+        "first": 123.69050999999999,
+        "last": -22.608445
+      },
+      "index": 22,
+      "first_minimum_native_s": 924.5305,
+      "next_Home_native_s": 924.5315,
+      "Home_arrival_I_pA": -465.78063999999995,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        924.681,
+        925.5554999999999
+      ],
+      "samples": 1749,
+      "I_pA": {
+        "min": -3.1112385,
+        "max": 3.8527197999999996,
+        "mean": 0.34184517306528306,
+        "std": 1.1045753105150533,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -117.89061,
+        "max": 123.69253,
+        "first": 123.69253,
+        "last": -21.324716
+      },
+      "index": 23,
+      "first_minimum_native_s": 925.5545,
+      "next_Home_native_s": 925.5555,
+      "Home_arrival_I_pA": -461.51014,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        925.713,
+        926.4675
+      ],
+      "samples": 1509,
+      "I_pA": {
+        "min": -2.1029376,
+        "max": 2.5941753,
+        "mean": 0.3891995700859112,
+        "std": 0.5925346349891987,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -118.21366,
+        "max": 123.69010000000002,
+        "first": 123.69010000000002,
+        "last": -21.529906999999998
+      },
+      "index": 24,
+      "first_minimum_native_s": 926.4665,
+      "next_Home_native_s": 926.4675,
+      "Home_arrival_I_pA": -462.56129,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        926.633,
+        927.475
+      ],
+      "samples": 1684,
+      "I_pA": {
+        "min": -2.1386432,
+        "max": 3.6368082999999998,
+        "mean": 0.35087878825611046,
+        "std": 0.9357377814744616,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.23147,
+        "max": 123.68988999999999,
+        "first": 123.68988999999999,
+        "last": -22.139115
+      },
+      "index": 25,
+      "first_minimum_native_s": 927.474,
+      "next_Home_native_s": 927.475,
+      "Home_arrival_I_pA": -465.33765999999997,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        927.626,
+        928.4354999999999
+      ],
+      "samples": 1619,
+      "I_pA": {
+        "min": -1.9436360000000001,
+        "max": 3.2734965000000003,
+        "mean": 0.3727923965342187,
+        "std": 0.8667679718931676,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.45208,
+        "max": 123.69215999999999,
+        "first": 123.69215999999999,
+        "last": -22.267816
+      },
+      "index": 26,
+      "first_minimum_native_s": 928.4345,
+      "next_Home_native_s": 928.4355,
+      "Home_arrival_I_pA": -463.98771,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        928.6005,
+        929.427
+      ],
+      "samples": 1653,
+      "I_pA": {
+        "min": -2.4078082999999997,
+        "max": 3.2779216,
+        "mean": 0.3558851381762916,
+        "std": 0.9635702786461395,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -116.48987,
+        "max": 123.69129000000001,
+        "first": 123.69129000000001,
+        "last": -20.490585000000003
+      },
+      "index": 27,
+      "first_minimum_native_s": 929.426,
+      "next_Home_native_s": 929.427,
+      "Home_arrival_I_pA": -458.62941,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        929.581,
+        930.34
+      ],
+      "samples": 1518,
+      "I_pA": {
+        "min": -1.9471454,
+        "max": 2.3617837,
+        "mean": 0.3923194540410408,
+        "std": 0.728711611905614,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -120.58058,
+        "max": 123.69042999999999,
+        "first": 123.69042999999999,
+        "last": -22.953030000000002
+      },
+      "index": 28,
+      "first_minimum_native_s": 930.3389999999999,
+      "next_Home_native_s": 930.34,
+      "Home_arrival_I_pA": -467.63621,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        930.499,
+        931.3635
+      ],
+      "samples": 1729,
+      "I_pA": {
+        "min": -3.0390647,
+        "max": 3.312101,
+        "mean": 0.3493248584342886,
+        "std": 1.0670547426282693,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -117.05680000000001,
+        "max": 123.69183000000001,
+        "first": 123.69183000000001,
+        "last": -20.829795
+      },
+      "index": 29,
+      "first_minimum_native_s": 931.3625,
+      "next_Home_native_s": 931.3635,
+      "Home_arrival_I_pA": -460.96263,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        931.51,
+        932.3235
+      ],
+      "samples": 1627,
+      "I_pA": {
+        "min": -2.0837117,
+        "max": 2.9111004,
+        "mean": 0.3618273102213276,
+        "std": 0.8706265217416047,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -115.24337,
+        "max": 123.69182,
+        "first": 123.69182,
+        "last": -19.742371000000002
+      },
+      "index": 30,
+      "first_minimum_native_s": 932.3225,
+      "next_Home_native_s": 932.3235,
+      "Home_arrival_I_pA": -456.51682,
+      "classification": "internal fine-Z reset, coarse pulse count unmeasured"
+    },
+    {
+      "native_s": [
+        932.4775,
+        935.571
+      ],
+      "samples": 6187,
+      "I_pA": {
+        "min": -3.1222247,
+        "max": 4.4922156,
+        "mean": 0.15836491835525812,
+        "std": 0.6969663336720214,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -123.69999,
+        "max": 123.69223000000001,
+        "first": 123.69223000000001,
+        "last": -24.739998
+      },
+      "index": 31,
+      "first_minimum_native_s": 933.3655,
+      "next_Home_native_s": 935.571,
+      "Home_arrival_I_pA": -473.06724999999994,
+      "classification": "last descent persists after Stop; final known Withdraw returns Home"
+    }
+  ],
+  "counts": {
+    "internal_fine_Z_returns": 30,
+    "final_commanded_Home_return": 1,
+    "all_absI_ge400_exactly_Home_arrival_samples": true,
+    "physical_coarse_motor_pulses": null
+  },
+  "last_low_endpoint": {
+    "Z_nm": -123.69999,
+    "first_sample_native_s": 933.3655,
+    "last_sample_native_s": 935.57,
+    "sample_occupancy_s": 2.205
+  },
+  "after_finalHome_1to10s": {
+    "native_s": [
+      936.571,
+      945.571
+    ],
+    "samples": 18000,
+    "I_pA": {
+      "min": -0.99194535,
+      "max": 1.2034892000000001,
+      "mean": 0.08172405783506417,
+      "std": 0.302392468489077,
+      "abs_ge400_count": 0,
+      "abs_ge1000_count": 0,
+      "known_software_lower_level_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": 123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "archive_final5s": {
+    "native_s": [
+      1020.0,
+      1025.0
+    ],
+    "samples": 10000,
+    "I_pA": {
+      "min": -1.1895466,
+      "max": 1.1316203,
+      "mean": 0.075982615156979,
+      "std": 0.31362646328774996,
+      "abs_ge400_count": 0,
+      "abs_ge1000_count": 0,
+      "known_software_lower_level_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": 123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "host_counter_anchors": [
+    {
+      "utc": "2026-11-02T15:53:57.120774+00:00",
+      "native_s": 902.13
+    },
+    {
+      "utc": "2026-11-02T15:53:57.702567+00:00",
+      "native_s": 902.7
+    },
+    {
+      "utc": "2026-11-02T15:53:58.249000+00:00",
+      "native_s": 903.26
+    },
+    {
+      "utc": "2026-11-02T15:53:58.794267+00:00",
+      "native_s": 903.81
+    },
+    {
+      "utc": "2026-11-02T15:53:59.320608+00:00",
+      "native_s": 904.33
+    },
+    {
+      "utc": "2026-11-02T15:53:59.879863+00:00",
+      "native_s": 904.89
+    },
+    {
+      "utc": "2026-11-02T15:54:00.418930+00:00",
+      "native_s": 905.42
+    },
+    {
+      "utc": "2026-11-02T15:54:00.953259+00:00",
+      "native_s": 905.97
+    },
+    {
+      "utc": "2026-11-02T15:54:01.474793+00:00",
+      "native_s": 906.48
+    },
+    {
+      "utc": "2026-11-02T15:54:02.025374+00:00",
+      "native_s": 907.04
+    },
+    {
+      "utc": "2026-11-02T15:54:02.549008+00:00",
+      "native_s": 907.55
+    },
+    {
+      "utc": "2026-11-02T15:54:03.088094+00:00",
+      "native_s": 908.09
+    },
+    {
+      "utc": "2026-11-02T15:54:03.609333+00:00",
+      "native_s": 908.62
+    },
+    {
+      "utc": "2026-11-02T15:54:04.155366+00:00",
+      "native_s": 909.17
+    },
+    {
+      "utc": "2026-11-02T15:54:04.689005+00:00",
+      "native_s": 909.69
+    },
+    {
+      "utc": "2026-11-02T15:54:05.206754+00:00",
+      "native_s": 910.21
+    },
+    {
+      "utc": "2026-11-02T15:54:05.761976+00:00",
+      "native_s": 910.77
+    },
+    {
+      "utc": "2026-11-02T15:54:06.320927+00:00",
+      "native_s": 911.33
+    },
+    {
+      "utc": "2026-11-02T15:54:06.841051+00:00",
+      "native_s": 911.85
+    },
+    {
+      "utc": "2026-11-02T15:54:07.357397+00:00",
+      "native_s": 912.37
+    },
+    {
+      "utc": "2026-11-02T15:54:07.880552+00:00",
+      "native_s": 912.89
+    },
+    {
+      "utc": "2026-11-02T15:54:08.438066+00:00",
+      "native_s": 913.44
+    },
+    {
+      "utc": "2026-11-02T15:54:08.963943+00:00",
+      "native_s": 913.97
+    },
+    {
+      "utc": "2026-11-02T15:54:09.494126+00:00",
+      "native_s": 914.49
+    },
+    {
+      "utc": "2026-11-02T15:54:10.031293+00:00",
+      "native_s": 915.04
+    },
+    {
+      "utc": "2026-11-02T15:54:10.587818+00:00",
+      "native_s": 915.6
+    },
+    {
+      "utc": "2026-11-02T15:54:11.107018+00:00",
+      "native_s": 916.11
+    },
+    {
+      "utc": "2026-11-02T15:54:11.636779+00:00",
+      "native_s": 916.64
+    },
+    {
+      "utc": "2026-11-02T15:54:12.159356+00:00",
+      "native_s": 917.17
+    },
+    {
+      "utc": "2026-11-02T15:54:12.716165+00:00",
+      "native_s": 917.73
+    },
+    {
+      "utc": "2026-11-02T15:54:13.248626+00:00",
+      "native_s": 918.25
+    },
+    {
+      "utc": "2026-11-02T15:54:13.778141+00:00",
+      "native_s": 918.78
+    },
+    {
+      "utc": "2026-11-02T15:54:14.297550+00:00",
+      "native_s": 919.31
+    },
+    {
+      "utc": "2026-11-02T15:54:14.841379+00:00",
+      "native_s": 919.85
+    },
+    {
+      "utc": "2026-11-02T15:54:15.379890+00:00",
+      "native_s": 920.38
+    },
+    {
+      "utc": "2026-11-02T15:54:15.909519+00:00",
+      "native_s": 920.91
+    },
+    {
+      "utc": "2026-11-02T15:54:16.468440+00:00",
+      "native_s": 921.47
+    },
+    {
+      "utc": "2026-11-02T15:54:17.020161+00:00",
+      "native_s": 922.03
+    },
+    {
+      "utc": "2026-11-02T15:54:17.539664+00:00",
+      "native_s": 922.54
+    },
+    {
+      "utc": "2026-11-02T15:54:18.063588+00:00",
+      "native_s": 923.07
+    },
+    {
+      "utc": "2026-11-02T15:54:18.598291+00:00",
+      "native_s": 923.6
+    },
+    {
+      "utc": "2026-11-02T15:54:19.150099+00:00",
+      "native_s": 924.16
+    },
+    {
+      "utc": "2026-11-02T15:54:19.691835+00:00",
+      "native_s": 924.7
+    },
+    {
+      "utc": "2026-11-02T15:54:20.224041+00:00",
+      "native_s": 925.23
+    },
+    {
+      "utc": "2026-11-02T15:54:20.750595+00:00",
+      "native_s": 925.76
+    },
+    {
+      "utc": "2026-11-02T15:54:21.316420+00:00",
+      "native_s": 926.32
+    },
+    {
+      "utc": "2026-11-02T15:54:21.833020+00:00",
+      "native_s": 926.85
+    },
+    {
+      "utc": "2026-11-02T15:54:22.385497+00:00",
+      "native_s": 927.39
+    },
+    {
+      "utc": "2026-11-02T15:54:22.912994+00:00",
+      "native_s": 927.92
+    },
+    {
+      "utc": "2026-11-02T15:54:23.486533+00:00",
+      "native_s": 928.49
+    },
+    {
+      "utc": "2026-11-02T15:54:24.008108+00:00",
+      "native_s": 929.02
+    },
+    {
+      "utc": "2026-11-02T15:54:24.526099+00:00",
+      "native_s": 929.53
+    },
+    {
+      "utc": "2026-11-02T15:54:25.056141+00:00",
+      "native_s": 930.06
+    },
+    {
+      "utc": "2026-11-02T15:54:25.608657+00:00",
+      "native_s": 930.62
+    },
+    {
+      "utc": "2026-11-02T15:54:26.153337+00:00",
+      "native_s": 931.17
+    },
+    {
+      "utc": "2026-11-02T15:54:26.682305+00:00",
+      "native_s": 931.69
+    },
+    {
+      "utc": "2026-11-02T15:54:27.209067+00:00",
+      "native_s": 932.22
+    },
+    {
+      "utc": "2026-11-02T15:54:27.794666+00:00",
+      "native_s": 932.8
+    },
+    {
+      "utc": "2026-11-02T15:54:28.316909+00:00",
+      "native_s": 933.33
+    },
+    {
+      "utc": "2026-11-02T15:54:28.852869+00:00",
+      "native_s": 933.85
+    },
+    {
+      "utc": "2026-11-02T15:54:29.381221+00:00",
+      "native_s": 934.38
+    },
+    {
+      "utc": "2026-11-02T15:54:29.967659+00:00",
+      "native_s": 934.97
+    },
+    {
+      "utc": "2026-11-02T15:54:30.507520+00:00",
+      "native_s": 935.52
+    },
+    {
+      "utc": "2026-11-02T15:54:31.035597+00:00",
+      "native_s": 936.05
+    },
+    {
+      "utc": "2026-11-02T15:54:31.552943+00:00",
+      "native_s": 936.56
+    },
+    {
+      "utc": "2026-11-02T15:54:32.109819+00:00",
+      "native_s": 937.12
+    },
+    {
+      "utc": "2026-11-02T15:54:32.676482+00:00",
+      "native_s": 937.68
+    },
+    {
+      "utc": "2026-11-02T15:54:33.200940+00:00",
+      "native_s": 938.21
+    },
+    {
+      "utc": "2026-11-02T15:54:33.720923+00:00",
+      "native_s": 938.73
+    },
+    {
+      "utc": "2026-11-02T15:54:34.268592+00:00",
+      "native_s": 939.28
+    },
+    {
+      "utc": "2026-11-02T15:54:34.815418+00:00",
+      "native_s": 939.82
+    },
+    {
+      "utc": "2026-11-02T15:54:35.361790+00:00",
+      "native_s": 940.37
+    },
+    {
+      "utc": "2026-11-02T15:54:35.907244+00:00",
+      "native_s": 940.91
+    }
+  ],
+  "commands": {
+    "autoapproach_start.claim": {
+      "path": "../AA_R02_02/autoapproach_start.claim",
+      "sha256": "c71f3177d63a6d4e7f8a54acf419b71dcbd4a9bf1aad9ee1d233720bd3f4e93e",
+      "record": {
+        "utc": "2026-11-02T15:53:58.817879+00:00",
+        "monotonic_ns": 1506283406875000,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          1
+        ],
+        "at_most_once": true
+      }
+    },
+    "autoapproach_start_ack.json": {
+      "path": "../AA_R02_02/autoapproach_start_ack.json",
+      "sha256": "7fa6a3390fe2283b1ed0a996e71ee2769af6332e354a9561b1d1a8e5493b7ea2",
+      "record": {
+        "utc": "2026-11-02T15:53:58.819273+00:00",
+        "monotonic_ns": 1506283408260083,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "cleanup_autoapproach_stop.claim": {
+      "path": "../AA_R02_02/cleanup_autoapproach_stop.claim",
+      "sha256": "d47ff1c4f167d3a6fdb92afec6102ae03188a671e2b18c39102c6ef49658457d",
+      "record": {
+        "utc": "2026-11-02T15:54:28.316622+00:00",
+        "monotonic_ns": 1506312905529208,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          0
+        ],
+        "at_most_once": true
+      }
+    },
+    "cleanup_autoapproach_stop_ack.json": {
+      "path": "../AA_R02_02/cleanup_autoapproach_stop_ack.json",
+      "sha256": "dc5860128e4e4f0d49041d8eaeec26a22019c113fe593bb1dd0cdd3308dccb90",
+      "record": {
+        "utc": "2026-11-02T15:54:28.317664+00:00",
+        "monotonic_ns": 1506312906571708,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "failure_withdraw.claim": {
+      "path": "../AA_R02_02/failure_withdraw.claim",
+      "sha256": "6252948baa6aa7a864db3250fe1905b0ef02fbdb59ec3e0253195f0bd18bc761",
+      "record": {
+        "utc": "2026-11-02T15:54:30.548814+00:00",
+        "monotonic_ns": 1506315137716500,
+        "command": "ZCtrl.Withdraw",
+        "args": [
+          1,
+          2000
+        ],
+        "at_most_once": true
+      }
+    },
+    "failure_withdraw_ack.json": {
+      "path": "../AA_R02_02/failure_withdraw_ack.json",
+      "sha256": "78598123c22586f4f4d2b04676c2e8eda121a67c3dc066af5422757601270eba",
+      "record": {
+        "utc": "2026-11-02T15:54:30.663246+00:00",
+        "monotonic_ns": 1506315252153166,
+        "command": "ZCtrl.Withdraw",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "outcome.json": {
+      "path": "../AA_R02_02/outcome.json",
+      "sha256": "8a6ddcf0fe3b9f2706e9dae78240a76f4b60ffa940ea9da7254743c24bfe5280",
+      "record": {
+        "utc": "2026-11-02T15:54:33.845482+00:00",
+        "monotonic_ns": 1506318434374333,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "30s_host_window_Stop_before_next_read",
+        "sampled_AutoOff_contiguous_s": 2.073720875196159,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.0532653329428285,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      }
+    }
+  },
+  "timing_limit": "DAT concatenated sample time and host logger counter anchors are consistent but not hardware command/sample hard synchronization. Actual coarse motor step pulses/displacement are not among recorded channels.",
+  "conclusions": [
+    "No signed100pA plateau is observed. All31 nonHome descent/dwell intervals together remain between -3.122 and +4.493pA; this supports failure to land, not transient stable tunneling.",
+    "Thirty internal Z reset cycles are visible, followed by a final descent that reaches the lower fine-Z endpoint near the host Stop and is subsequently returned Home by known Withdraw. This endpoint dwell is not a tunneling-state proof.",
+    "All31 absI>=400pA samples occur exactly at the first Home sample of these resets/Withdraw. No >=1nA or recorded known software lower-level sample occurs. Associated Z/current transients cannot be relabeled sustained pre-landing overload.",
+    "Known Stop/Withdraw ACK plus later constant Home/nearzero current support completed retraction in this archive.",
+    "No automatic extension is proposed. Root has stopped further approach and requested the prior manual coarse-retraction history; records alone do not determine remaining mechanical gap or safe additional travel."
+  ],
+  "figure": {
+    "path": "AA02_search_and_Home_returns.png",
+    "sha256": "1a534ecd9d1f67f2951c9c360ad5dcd6ca563e03641e08cf7cec7ce485ece078"
+  },
+  "source": {
+    "path": "local-archive:18f0dc457207d9d8",
+    "sha256": "e50842025d2143bda85153e5796a7bd44090b09419289be3c494461827506cde"
+  },
+  "script_sha256": "351418cc73590d0cc996dff3398ae7aa79c35aeb89193b4ded97daf6d636e385",
+  "_portable_export": {
+    "source_sha256": "4932d36f019d4c1b229daad16a37dbbdf397fb8eed493c9501dee9b72f232ff8",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

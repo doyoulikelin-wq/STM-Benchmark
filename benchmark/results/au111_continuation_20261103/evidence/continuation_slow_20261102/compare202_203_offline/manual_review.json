@@ -1,0 +1,273 @@
+{
+  "created_utc": "2026-11-02T17:40:58.660370+00:00",
+  "scope": "Manual scientific review of completed full203, same-settings202 reference, actual rawF/B/crop/fullcontrast figures and closednative. No hardware action, no frozen criteria modification.",
+  "decision": {
+    "frame203_task_function": "impaired_for_previously_supported_nanometer_object_discrimination",
+    "L1_functional_impairment_at203": "supported",
+    "coarse_terrace_edge_visibility": "partly_retained",
+    "chemical_dirty": "unknown",
+    "unique_apex_or_sample_mechanism": "not_identified",
+    "intentional_I01_induction_executed": false,
+    "repair_executed_in_this_interval": false,
+    "successful_cycle_increment": 0,
+    "203_as_immediate_future_action_baseline": "not_supported_after_observed_postscan_state_changes; retain as diagnostic failure frame"
+  },
+  "primary_image_evidence": [
+    "In both203 directions, the prior C1 compact protrusion no longer has a reliable separated positive shape; horizontal positive/negative line structure occupies the same patch. This is a task-level readability loss, not just a changed absoluteZ or color scale.",
+    "C3 retains the coarse diagonal terrace edge but the previously distinguishable protrusions near it lose contrast and are interrupted by long rows. D4, a remote diagnostic region, also loses the prior positive object outline.",
+    "C2 at the localized target is degraded as well, but C2 alone is not the basis of the whole-task judgment; C1/C3 are independent spatial references.",
+    "Large multiple-region row offsets persist across F/B. For example203F row126→127 has about−461/−465/−463pm in the first three column quarters;203B row125→126 similarly−437/−438/−442pm. Nearby restoration rows have opposite offsets. A physical diagonal edge alone cannot explain these scan-axis offsets.",
+    "No row subtraction or smoothing was used to establish this conclusion. Full-range raw images plus fixedrawcrops with sharedrowcolor limits were actually viewed. The global-plane contrast image only changes displayrange, with clipping counts preserved."
+  ],
+  "quantitative_support_not_new_threshold": {
+    "C1_prior202_mask_median_pm": {
+      "202_F_B": [
+        246.0616858078737,
+        238.208670697297
+      ],
+      "203_F_B": [
+        20.490576141519057,
+        2.909804405931027
+      ],
+      "203_perimeter_MAD_F_B_pm": [
+        21.624953784617624,
+        26.230306892334433
+      ]
+    },
+    "C3_prior202_high_contrast_region_median_pm": {
+      "202_F_B": [
+        265.87115804647965,
+        201.57845119236129
+      ],
+      "203_F_B": [
+        42.49633732231928,
+        44.910461138698565
+      ],
+      "note": "Mixed edge/object region; not a calibrated object-height measurement."
+    },
+    "D4_prior202_mask_median_pm": {
+      "202_F_B": [
+        195.46074923435697,
+        198.55994230559304
+      ],
+      "203_F_B": [
+        34.64661564171223,
+        40.959863939264096
+      ]
+    },
+    "raw_FB_offset_removed_RMS_pm": {
+      "202": 42.36986690893698,
+      "203": 88.98628648381317
+    },
+    "shared_rigid_shift_sensitivity": {
+      "best": {
+        "dy": 3,
+        "dx": -2,
+        "mean": 0.5319002232152801,
+        "individual": [
+          0.21810189451698703,
+          0.3350168779490815,
+          0.7671854788267936,
+          0.8072966415682581
+        ]
+      },
+      "limit_pixels": [
+        -4,
+        4
+      ],
+      "only_C1_C3_shared_across_FB": true,
+      "not_applied_to_display_or_metrics": true,
+      "not_a_pass_threshold": true
+    },
+    "method_limit": "Prior202mask contrast is a diagnostic descriptor introduced here from the BEFORE frame, not a newly adopted pass cutoff. Unrestricted203maximum may be a lineartifact; no forced replacement peak or width is called an object."
+  },
+  "native_context": {
+    "scan_core": {
+      "native_s_half_open": [
+        3866.1,
+        4303.9
+      ],
+      "samples": 875600,
+      "I_pA": {
+        "min": -9995.721599999999,
+        "max": -3.9338397999999994,
+        "mean": -100.42496937358098,
+        "median": -99.61590600000001,
+        "std": 30.20838406733884,
+        "abs_ge400": 281,
+        "abs_ge1000": 76,
+        "abs_ge4000": 10,
+        "known_software_lower_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 4236.369,
+        "block": 339,
+        "zero_based_row": 22738
+      },
+      "Z_nm": {
+        "min": -106.57069,
+        "max": -103.46128,
+        "first": -106.19368,
+        "last": -105.56441,
+        "median": -105.94591000000001,
+        "slope_pm_s": 0.8847438306074087,
+        "linear_residual_RMS_pm": 138.7828262859823,
+        "max_adjacent_pm": 175.53999999999803
+      },
+      "Z_scope": "raster/positioning contributes; not stationary drift/noise"
+    },
+    "post_all": {
+      "native_s_half_open": [
+        4304.99,
+        5112.5
+      ],
+      "samples": 1615020,
+      "I_pA": {
+        "min": -6187.7645,
+        "max": -3.1934832,
+        "mean": -118.6174548193163,
+        "median": -108.79414,
+        "std": 54.782842273244576,
+        "abs_ge400": 13347,
+        "abs_ge1000": 24,
+        "abs_ge4000": 1,
+        "known_software_lower_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 4308.0285,
+        "block": 345,
+        "zero_based_row": 16057
+      },
+      "Z_nm": {
+        "min": -104.7042,
+        "max": -103.48723000000001,
+        "first": -104.70315,
+        "last": -103.55131999999999,
+        "median": -103.71946,
+        "slope_pm_s": 0.45420633881471373,
+        "linear_residual_RMS_pm": 63.49697637240041,
+        "max_adjacent_pm": 169.03999999999542
+      },
+      "Z_scope": "nominal stationary endpoint; high-frequencyXY not acquired"
+    },
+    "latest30": {
+      "native_s_half_open": [
+        5082.5,
+        5112.5
+      ],
+      "samples": 60000,
+      "I_pA": {
+        "min": -330.13592,
+        "max": -40.562564,
+        "mean": -117.69176042241665,
+        "median": -114.272505,
+        "std": 30.98966196621944,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "known_software_lower_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 5103.529500000001,
+        "block": 409,
+        "zero_based_row": 7059
+      },
+      "Z_nm": {
+        "min": -103.6159,
+        "max": -103.51373,
+        "first": -103.55216999999999,
+        "last": -103.55131999999999,
+        "median": -103.56041,
+        "slope_pm_s": -0.11117142484365035,
+        "linear_residual_RMS_pm": 13.23656514223178,
+        "max_adjacent_pm": 35.089999999996735
+      },
+      "Z_scope": "nominal stationary endpoint; high-frequencyXY not acquired"
+    },
+    "latest10": {
+      "native_s_half_open": [
+        5102.5,
+        5112.5
+      ],
+      "samples": 20000,
+      "I_pA": {
+        "min": -330.13592,
+        "max": -40.562564,
+        "mean": -120.16988236185,
+        "median": -116.936615,
+        "std": 35.19825865123792,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "known_software_lower_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 5103.529500000001,
+        "block": 409,
+        "zero_based_row": 7059
+      },
+      "Z_nm": {
+        "min": -103.6159,
+        "max": -103.51373,
+        "first": -103.56607000000001,
+        "last": -103.55131999999999,
+        "median": -103.56060500000001,
+        "slope_pm_s": -0.26539902482916145,
+        "linear_residual_RMS_pm": 15.437679382650948,
+        "max_adjacent_pm": 29.15000000000134
+      },
+      "Z_scope": "nominal stationary endpoint; high-frequencyXY not acquired"
+    },
+    "last_post_exceedance_native_s": {
+      "400": 5071.79,
+      "1000": 4821.947,
+      "4000": 4308.0285
+    },
+    "post_state_change_boundaries_native_s": [
+      4308,
+      4822
+    ],
+    "interpretation": "Current scan transients and postscan working-point changes corroborate a dynamic imaging/junction problem but do not replace image-function evidence.203 minimum is near acquisition lower range without an exactfloor match; absence of matchingfloor is not proof of no analogoverload. Later rest is not uniformly quiet."
+  },
+  "causal_accounting": [
+    "202→203 includes one knownXY localization, knownStop after a recording-name collision, waiting, separatecustom0 speed restoration, a30s shaper precheck rejected before anyPropsSet/Start, and diagnostic rastering. No900pm shaping or conditioningpulse occurred.",
+    "The earlier targetZ fluctuations were already present before the rejected precheck. The new203image degradation cannot be attributed to an unexecuted shaper.",
+    "A localC2 surface alteration alone cannot establish or explain all remote image changes. Effective junction/apex evolution, feedback interactions with objects and electronics remain possible, with ongoing drift/relaxation mixed in. No unique microscopic cause is assigned.",
+    "Post203 has further persistent working-point changes, including~173pm near native4822s. Thus203 is a diagnostic failure image, not guaranteed to represent the state immediately before a future repair. Root has selected a new full204 to capture the then-current state; its result is not predicted here."
+  ],
+  "future_comparison_scope": "Retain original C1/C3 fixedwindows as remote task references and C2 as localization zone. Compare currentcompleteframe to202functionalbaseline without insisting on unchangedmaterialshape; assess separability, recognizableedges, widespreadlinecorruption, sharedreplication/blur andF/B. Do not treat any nonzero texture as failure or chemistry as a prerequisite.",
+  "source_reviews": {
+    "image_measurements": {
+      "path": "image_measurements.json",
+      "sha256": "f6832a7b62c4cd65935abe9ab6fb37ede3c3b7959da9921988c23f5bedd699f1"
+    },
+    "native_review": {
+      "path": "native_review.json",
+      "sha256": "d309bc44c98f5acde9c264ad41701c6b56b51537db0f5ed784269556141774e0"
+    },
+    "I01_precheck": {
+      "path": "local-archive:6a2c1da75cbfab1d",
+      "sha256": "a8fcf87c60aa7444b3fc1790d03ab5278a31179fedf1cd6e26495e172483ae7f"
+    },
+    "reference_partition": {
+      "path": "../compare201_202_offline/target_C2_reference_partition_supplement.json",
+      "sha256": "b4850a66cd5693fea0351a247e33fdf76b78e514ad9fbfe31d995a531b379550"
+    }
+  },
+  "figures": [
+    {
+      "path": "202_203_fixed_objects_raw_FB.png",
+      "sha256": "8dde36846ed9444d3c4670c657404d184de47de308a9f60f049ee16b65c37de8"
+    },
+    {
+      "path": "202_203_full_shared_contrast.png",
+      "sha256": "5ed009dfb0c67f0daf119f4801ce5e760257a9d97f522966a8dc7f8a8d043849"
+    }
+  ],
+  "figure_QA": "Actual fullrawF/B, fullcurrentF/B, fixedcrops and sharedcontrast inspected. Crops: columns202F,202B,203F,203B; rowsC1/C2/C3/D4 are spatial ROIs. No mislabeled repairbefore/after; no glyph or overlap issue affects interpretation.",
+  "_portable_export": {
+    "source_sha256": "588fe212912d39c37266cf41a66a57b1c587286b6641f18ed57236c86d29b794",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "recorded_utc": "2026-11-02T18:34:33.387304+00:00",
+  "scope": "Supplement to frozen manual 205 image assessment. Local completed evidence only; no instrument admission or historical-label revision.",
+  "sources": {
+    "frozen_image_verdict": {
+      "path": "manual_image_review.json",
+      "sha256": "6f5ecc8ccc80c9eec6f3ef4a18dbf16d4f633c1f8e98d5cafa4761d7841c886e"
+    },
+    "native_through_closed692": {
+      "path": "../native205_post302s_review/review.json",
+      "sha256": "b766605fe104ddcdf828dfdac6175a0b4f6d48af5b9f7ad69a7a02154eac00fb"
+    },
+    "previous_native_through673": {
+      "path": "local-archive:e739b3c8ce1881a6",
+      "sha256": "1636c870e9008100aaaa589b68a9adddccb01e697130608fd8900ffc45d54daa"
+    }
+  },
+  "final_image_function_verdict": {
+    "image_function_impairment": "supported relative to 204 for reliable C1/C3 reference morphology and D4 background separation",
+    "retained_function": "C2 and other objects remain identifiable; C1 primary location and coarse diagonal edge remain visible. Not whole-field failure.",
+    "specific_defects": [
+      "C1 lower contour and adjacent background intersected by comparable-height horizontal lines in both directions.",
+      "C3 edge-associated protrusion has horizontal streaking and disrupted outline in both directions.",
+      "D4 reference is embedded in a broad offset band with substantial F/B disagreement."
+    ],
+    "role_of205": "Valid completed image evidence of task-related impairment, usable as a documented pre-repair observation subject to intervening-state continuity and fresh action-specific checks. This file supplies no hardware permission.",
+    "uniform_drift_or_object_loss": "Not established. C3 apparent location/shape change may include local object/response changes. The fixed mask contrast drop is not proof that material disappeared.",
+    "registration_limit": "The existing diagnostic searches one shared +/-4 pixel translation across C1/C3 and F/B; it is not whole-image phase correlation, is not applied to displays or metrics, and does not establish uniform physical drift. Individual objects were not independently shifted. Long full-width bands cannot be explained away by a rigid translation.",
+    "no_chemical_or_atom_claim": true,
+    "persistent_global_bad_tip": "not established by one frame",
+    "project_L0_L4_auto_upgrade": false,
+    "successful_cycle_increment": 0
+  },
+  "native_evidence": {
+    "provenance": "Parent-generated fixed-source native review was read and its SHA independently verified; no new native analysis in this supplement.",
+    "closed_block_limit": 692,
+    "Bias_V": -1,
+    "scan_core": {
+      "native_s_half_open": [
+        7909.28,
+        8347.3
+      ],
+      "samples": 876040,
+      "scope": "Raster/positioning contributes; not stationary drift",
+      "I_pA": {
+        "min": -2646.0645,
+        "max": -4.4289876,
+        "mean": -100.63267108603966,
+        "median": -99.658629,
+        "std": 14.658806362635795,
+        "abs_ge400": 161,
+        "abs_ge1000": 6,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 8178.849,
+        "block": 655,
+        "zero_based_row": 7698
+      },
+      "Z_nm": {
+        "min": -106.16602,
+        "max": -102.82657999999999,
+        "median": -105.77722,
+        "slope_pm_s": 0.5148951284336281,
+        "linear_residual_RMS_pm": 192.69583139047631,
+        "max_adjacent_pm": 133.43000000000416
+      }
+    },
+    "post_coverage_s": 302.1399999999994,
+    "post": {
+      "native_s_half_open": [
+        8347.86,
+        8650.0
+      ],
+      "samples": 604280,
+      "scope": "Nominal stationary endpoint from commands/slow readbacks; high-frequency XY absent",
+      "I_pA": {
+        "min": -407.12336,
+        "max": -36.909149,
+        "mean": -111.0566545246773,
+        "median": -107.907225,
+        "std": 25.906527263509762,
+        "abs_ge400": 1,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 8373.1425,
+        "block": 670,
+        "zero_based_row": 21285
+      },
+      "Z_nm": {
+        "min": -104.3018,
+        "max": -103.52088,
+        "median": -103.58772,
+        "slope_pm_s": 0.21314057650161333,
+        "linear_residual_RMS_pm": 48.17737186803521,
+        "max_adjacent_pm": 43.75000000000284
+      }
+    },
+    "post_last30": {
+      "native_s_half_open": [
+        8620.0,
+        8650.0
+      ],
+      "samples": 60000,
+      "scope": "Nominal stationary endpoint from commands/slow readbacks; high-frequency XY absent",
+      "I_pA": {
+        "min": -303.38176000000004,
+        "max": -41.563843,
+        "mean": -111.88717598113334,
+        "median": -108.1361,
+        "std": 28.39262163156057,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 8637.4245,
+        "block": 691,
+        "zero_based_row": 24849
+      },
+      "Z_nm": {
+        "min": -103.66167999999999,
+        "max": -103.53716,
+        "median": -103.59607,
+        "slope_pm_s": -0.3560458225895542,
+        "linear_residual_RMS_pm": 15.401797133868321,
+        "max_adjacent_pm": 34.06999999999982
+      }
+    },
+    "post_last10": {
+      "native_s_half_open": [
+        8640.0,
+        8650.0
+      ],
+      "samples": 20000,
+      "scope": "Nominal stationary endpoint from commands/slow readbacks; high-frequency XY absent",
+      "I_pA": {
+        "min": -235.11609,
+        "max": -55.064973,
+        "mean": -110.75692322925,
+        "median": -108.023045,
+        "std": 22.81394980908751,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 8640.035,
+        "block": 692,
+        "zero_based_row": 5070
+      },
+      "Z_nm": {
+        "min": -103.6415,
+        "max": -103.54223,
+        "median": -103.59758,
+        "slope_pm_s": 0.07196220051600828,
+        "linear_residual_RMS_pm": 14.87875006041784,
+        "max_adjacent_pm": 23.359999999996717
+      }
+    },
+    "post_over400_last_native_s": 8373.1425,
+    "post_over400_relative_to_conservative_end_s": 25.282499999999345,
+    "only_adjacent1s_Z_median_change_ge100pm": {
+      "native_boundary_s": 8349,
+      "change_pm": 291.4299999999912,
+      "context": "Immediate post-scan positioning/relaxation; this 100 pm query is descriptive, not an admission threshold."
+    },
+    "interpretation": "The 302.14 s observed post interval has one isolated 407.123 pA sample and no >=1 nA samples or exact software-floor match. No later >=100 pm adjacent-1 s median jump was detected in this interval. Residual Z noise remains about 15.4 pm over the final 30 s; this is not proof of fully static junction geometry or unchanged tip. The earlier 203 late working-point change occurred after a longer delay, so absence here does not exclude future change."
+  },
+  "mechanism_assessment": {
+    "supported_observations": [
+      "Multiple regions have line-dependent offsets and disrupted contours while C2 remains clear.",
+      "The approximately 0.52 nm change at a common row boundary extends across all four X quarters; this exceeds only a local object outline change.",
+      "Image quality declined despite smaller SXM current-pixel variation than 204."
+    ],
+    "compatible_not_identified": [
+      "Temporally changing effective junction response or tip state during raster.",
+      "Feedback or scanner/electronic response to local topography, followed by row-spanning recovery/offset.",
+      "Local object rearrangement or contrast change at C3, alongside separate line artifacts.",
+      "Motion/creep and drift contribute but a single common translation does not reproduce the observed bands."
+    ],
+    "not_demonstrated": [
+      "Chemical contamination or transfer direction.",
+      "A unique microscopic atom/apex mechanism.",
+      "Intentional pulse-induced degradation: no Pulse or TipShaper.Start occurred."
+    ],
+    "causal_interval": "204 -> current preparation to 381.47 pA stopped at Z gate -> waiting -> separate return to 100 pA -> 205. Each stage and elapsed time/scanning remain confounded.",
+    "future_repair_causality_limit": "203 -> 204 improved without conditioning. Any subsequent improvement needs a genuine immediate before, matched after and independent no-conditioning evidence; even then spontaneous recovery remains a stated alternative, not erased by post hoc success labels."
+  },
+  "preservation": {
+    "frozen_manual_unchanged": true,
+    "thresholds_and_ROIs_unchanged": true,
+    "sources_and_figures_unchanged": true,
+    "no_hardware_or_shared_state_write": true
+  },
+  "_portable_export": {
+    "source_sha256": "c913fd3db12ba8a915ae6c88a226920e6a1c5a39f30557e9331a3c1a85cfd2ea",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

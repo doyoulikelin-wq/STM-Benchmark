@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-02T16:17:25.139925+00:00",
+  "decision": "one_fine_Z_reconnect_test_at_changed_coarse_position",
+  "source": {
+    "path": "local-archive:a6e7274b5aa29f16",
+    "sha256": "74bbc304b95417669624a8f5144fe481894393e370c4073a2bb350eaf56fc0cf"
+  },
+  "AA03_native": {
+    "path": "AA_R03_03_native_review/review.json",
+    "sha256": "e75c4e8a8d868739896f19672abd0dcc1e59ff025b68af9d65d7ae33f678e5e2"
+  },
+  "AA03_outcome": {
+    "path": "AA_R03_03/outcome.json",
+    "sha256": "229d72d68eecfc1d6b5ae1598ee5d847fa4e354386e0513ae515c4b943650c6d"
+  },
+  "current_reference": {
+    "path": "local-archive:076b0421ee1cf470",
+    "sha256": "4a7cdf666c702a04ce54a2c188eb0724668c33395dfd6246ae4bbfff8c0c86ca"
+  },
+  "validation": {
+    "path": "local-archive:a45834b5964a0d66",
+    "sha256": "9073a294eee5deee157f8d43837454457a8895c772057ae04c8270d56692e11e"
+  },
+  "reason": "AA03 reached a conductive junction inside fineZ range but triggered currentgate; rawcurrent clipped and not stable beforeWithdraw. KnownStop/Home and subsequent openjunction are verified. A single finefeedback reconnect now tests recovery at the new coarse position without further motor movement. Historical engage_02 success after AA cleanup is only precedent, not guarantee. No relaxation of current/Z/unknownwriter limits.",
+  "limitations": "AA03 did not establish stable100pA; tip state after approach not known. This action is recovery testing, not intentionaldirtyinduction or repair. Full currentimage baseline remains required.",
+  "bounds": {
+    "one_On": 1,
+    "fine_ordinal": 2,
+    "prior_fine_attempts": 1,
+    "prior_AA_attempts": 3,
+    "further_coarse": 0,
+    "Bias_V": -1,
+    "setpoint_A": 1e-10,
+    "SafeTip": "Off",
+    "observation_s": 30,
+    "last_stable_I_s": 5,
+    "signed_I_band_A": [
+      -1.2e-10,
+      -8e-11
+    ],
+    "sampled_absI_gate_A": 4e-10,
+    "physical_Z_endpoint_margin_m": 2e-09,
+    "on_failure": "Preserve known conditionalWithdraw/Home outcome, no additional automatic On or coarse"
+  },
+  "postsuccess_before_scan": "Root separately inspect actual native current/Z recovery. Report last10s and20s fixedXY Z slope/step structure; 30s and Iband alone not proof of settledZ. No scan until reviewed.",
+  "temperature_K": null,
+  "no_claim_of_clean_or_contact_depth": true,
+  "_portable_export": {
+    "source_sha256": "3c6e63b22ed8d97577b31c1b5bba04343fe207ed09effa15226e0a47b18340d4",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

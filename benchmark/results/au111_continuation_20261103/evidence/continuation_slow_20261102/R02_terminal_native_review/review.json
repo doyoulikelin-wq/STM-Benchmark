@@ -1,0 +1,55 @@
+{
+  "scope": "Complete R02 native archive through independently confirmed terminal. Root-only source read, local new writes; no device commands.",
+  "receipt": {
+    "path": "receipt.json",
+    "sha256": "6f4746038589b689175fe47d6d2e46fd9c4764f6c8f454bd766d20f67dbcaa34",
+    "bytes": 62473
+  },
+  "source": {
+    "path": "local-archive:3b2ef9c24cfcc776",
+    "sha256": "57511fe8895a1637c404152e6889db2d4ddf72f2e5344386eaeec52aad3f8061",
+    "bytes": 13510
+  },
+  "block_count": 93,
+  "new_files": 11,
+  "total_rows_per_channel": 2317400,
+  "finite_scalars": 13904400,
+  "sample_header_dt_s": 0.0005,
+  "row_duration_s": 1158.7,
+  "native_nominal_elapsed_units": 2317.400001525879,
+  "native_half_elapsed_minus_row_duration_s": 7.629394076502649e-07,
+  "all_expected_indices_sha_bytes_rows_header_columns_finite_verified": true,
+  "per_channel_min": {
+    "Current (A)": -4.7306725e-10,
+    "Bias (V)": -1.0,
+    "Z (m)": -1.2369999e-07,
+    "Z Control signal (A)": 1.5397831e-13,
+    "Z Error signal (A)": -8.1089635e-10,
+    "Z SafeTip signal (A)": 1.5397831e-13
+  },
+  "per_channel_max": {
+    "Current (A)": 3.1923093e-11,
+    "Bias (V)": -1.0,
+    "Z (m)": 1.2369999e-07,
+    "Z Control signal (A)": 4.7306725e-10,
+    "Z Error signal (A)": 9.6267536e-11,
+    "Z SafeTip signal (A)": 4.7306725e-10
+  },
+  "abs_I_ge_pA_samples": {
+    "400": 38,
+    "1000": 0,
+    "4000": 0
+  },
+  "historical_software_floor_matching_samples": 0,
+  "qualification": [
+    "The stored0.5ms interval is not the analog bandwidth or true-peak bound.",
+    "Whole-record extrema mix preparations, interventions and scans; no phase attribution or image-quality verdict is implied.",
+    "No missing numbered block detected; this does not prove hardware timestamp/analog no-drop behavior.",
+    "Original outcome and incremental receipt are not overwritten. Segment gap/new baseline must be recorded separately."
+  ],
+  "_portable_export": {
+    "source_sha256": "09ddd091522b41e32ef812cb6d645ab154ba6e21df4cd5366d15d7cfb2e835a6",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

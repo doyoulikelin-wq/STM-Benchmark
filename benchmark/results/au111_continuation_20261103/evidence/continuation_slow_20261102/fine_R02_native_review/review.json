@@ -1,0 +1,347 @@
+{
+  "created_utc": "2026-11-02T15:44:32.044753+00:00",
+  "scope": "Offline local completed fine logs and closedR02blocks1-9 only; no SMB/instrument/GUI/network",
+  "native_sources": [
+    {
+      "path": "local-archive:0fcdcc642b23e2fb",
+      "sha256": "84c14907309770000b3a55080a300d7c16952181c01efef6461d4e9db991934f"
+    },
+    {
+      "path": "local-archive:c6a56e49468bc000",
+      "sha256": "3345576c8c8eaa8dddb94b47bfcef36b78f11c134ba2d268ad635783edc7724c"
+    },
+    {
+      "path": "local-archive:68d7d55d2646d9fd",
+      "sha256": "dfd5d135b13cd3b1ca7348a2bd9f693c2be5a0da50bd9a1ce33662f9d18f0eed"
+    },
+    {
+      "path": "local-archive:1cba743f22447474",
+      "sha256": "69deeb19aab052444b2d0c1f7e6e0dc931fa6c3875297dec18f62ddfc494a392"
+    },
+    {
+      "path": "local-archive:3cb82fafb0df6d79",
+      "sha256": "de7acccb29f55f465723859e06e4128d7a91a93eb6276760d03fec7dd35956c3"
+    },
+    {
+      "path": "local-archive:91900a99400075f4",
+      "sha256": "4bd267117077a38032cc504eb3d0cc8f17b70b6c4a7590539a31fdfe158c6d53"
+    },
+    {
+      "path": "local-archive:ef67b1cd779b4ce7",
+      "sha256": "5572d14ad63ed69b47ef383696c5dc032d6416d37b872285158b3b64cf29da20"
+    },
+    {
+      "path": "local-archive:ef0dbd0cc36c9ab6",
+      "sha256": "8b8600b548b546485432505ade41807ffc2533e808503ee209e7d217ea920e7a"
+    },
+    {
+      "path": "local-archive:549e117a96eac650",
+      "sha256": "4e29d257a025bfe90a71b83d1c837b4374fbcee91b57e0add81f708511097192"
+    }
+  ],
+  "finite_values": 1350000,
+  "sample_period_s": 0.0005,
+  "Bias_V_all": -1,
+  "observed_trajectory": {
+    "first_nonHome_native_s": 22.002,
+    "first_low_endpoint_s": 22.681,
+    "last_low_endpoint_s": 22.860500000000002,
+    "low_endpoint_sample_occupancy_s": 0.18,
+    "first_returnedHome_s": 22.8615,
+    "return_current_pA": -472.621,
+    "return_file": 2,
+    "return_row_zero_based": 20723
+  },
+  "phases": {
+    "pre5s": {
+      "native_s": [
+        17.002,
+        22.002
+      ],
+      "samples": 10000,
+      "I_pA": {
+        "min": -1.0792256,
+        "max": 1.1622905,
+        "mean": 0.0669744366028772,
+        "std": 0.3011669057045509,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999
+      }
+    },
+    "fine_descent_and_low_hold_excluding_withdraw_transition": {
+      "native_s": [
+        22.002,
+        22.861
+      ],
+      "samples": 1718,
+      "I_pA": {
+        "min": -0.7833577,
+        "max": 1.4641092999999998,
+        "mean": 0.34840090097911525,
+        "std": 0.33472636970943664,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": -123.69999,
+        "max": 123.68696,
+        "first": 123.68696,
+        "last": -123.69999
+      }
+    },
+    "low_hold": {
+      "native_s": [
+        22.681,
+        22.861
+      ],
+      "samples": 360,
+      "I_pA": {
+        "min": -0.7833577,
+        "max": 0.85391031,
+        "mean": 0.059372942113777784,
+        "std": 0.300054501487384,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": -123.69999,
+        "max": -123.69999,
+        "first": -123.69999,
+        "last": -123.69999
+      }
+    },
+    "withdraw_transition": {
+      "native_s": [
+        22.858500000000003,
+        22.8715
+      ],
+      "samples": 25,
+      "I_pA": {
+        "min": -472.621,
+        "max": 1.3910198,
+        "mean": -18.955911192439995,
+        "std": 92.60767986147683,
+        "abs_ge400_count": 1,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": -123.69999,
+        "max": 123.69999,
+        "first": -123.69999,
+        "last": 123.69999
+      }
+    },
+    "afterHome1to10s": {
+      "native_s": [
+        23.8615,
+        32.8615
+      ],
+      "samples": 18000,
+      "I_pA": {
+        "min": -1.1967183,
+        "max": 1.1586283,
+        "mean": 0.06971930796239106,
+        "std": 0.3055778628847063,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999
+      }
+    },
+    "last5s_archived": {
+      "native_s": [
+        107.5,
+        112.5
+      ],
+      "samples": 10000,
+      "I_pA": {
+        "min": -1.1396503999999998,
+        "max": 1.1708353,
+        "mean": 0.0677845565208897,
+        "std": 0.3021483827031194,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_count": 0,
+        "within_signed_minus120_minus80_count": 0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999
+      }
+    }
+  },
+  "host_counter_anchors": [
+    {
+      "utc": "2026-11-02T15:39:15.340579+00:00",
+      "native_s": 20.35
+    },
+    {
+      "utc": "2026-11-02T15:39:15.883114+00:00",
+      "native_s": 20.89
+    },
+    {
+      "utc": "2026-11-02T15:39:16.430866+00:00",
+      "native_s": 21.439999999999998
+    },
+    {
+      "utc": "2026-11-02T15:39:16.972635+00:00",
+      "native_s": 21.98
+    },
+    {
+      "utc": "2026-11-02T15:39:17.520915+00:00",
+      "native_s": 22.53
+    },
+    {
+      "utc": "2026-11-02T15:39:18.041099+00:00",
+      "native_s": 23.05
+    },
+    {
+      "utc": "2026-11-02T15:39:18.560957+00:00",
+      "native_s": 23.57
+    },
+    {
+      "utc": "2026-11-02T15:39:19.080104+00:00",
+      "native_s": 24.09
+    },
+    {
+      "utc": "2026-11-02T15:39:19.649111+00:00",
+      "native_s": 24.65
+    },
+    {
+      "utc": "2026-11-02T15:39:20.170130+00:00",
+      "native_s": 25.18
+    },
+    {
+      "utc": "2026-11-02T15:39:20.690515+00:00",
+      "native_s": 25.69
+    },
+    {
+      "utc": "2026-11-02T15:39:21.207863+00:00",
+      "native_s": 26.22
+    },
+    {
+      "utc": "2026-11-02T15:39:21.753731+00:00",
+      "native_s": 26.77
+    },
+    {
+      "utc": "2026-11-02T15:39:22.298459+00:00",
+      "native_s": 27.31
+    },
+    {
+      "utc": "2026-11-02T15:39:22.841353+00:00",
+      "native_s": 27.85
+    }
+  ],
+  "commands": {
+    "feedback_on.claim": {
+      "path": "../engage_R02_01/feedback_on.claim",
+      "sha256": "b9736f557834d03eb678fa306796eacf9c1b47dccf93f37dcd87a41c892eeb3d",
+      "data": {
+        "utc": "2026-11-02T15:39:16.979681+00:00",
+        "monotonic_ns": 1505401574367625,
+        "command": "ZCtrl.OnOffSet",
+        "args": [
+          1
+        ],
+        "at_most_once": true
+      }
+    },
+    "feedback_on_ack.json": {
+      "path": "../engage_R02_01/feedback_on_ack.json",
+      "sha256": "a0d0d1bffbd202d71aebfe603a1bf384f2d143dc9f8b0d7efae0e2adc4afb5be",
+      "data": {
+        "utc": "2026-11-02T15:39:16.980791+00:00",
+        "monotonic_ns": 1505401575477833,
+        "command": "ZCtrl.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "failure_withdraw.claim": {
+      "path": "../engage_R02_01/failure_withdraw.claim",
+      "sha256": "199f207d273b8ba7ad540a96bfdb0df0e24bd29a73a79b1316592735b5ebc114",
+      "data": {
+        "utc": "2026-11-02T15:39:17.839094+00:00",
+        "monotonic_ns": 1505402433776750,
+        "command": "ZCtrl.Withdraw",
+        "args": [
+          1,
+          2000
+        ],
+        "at_most_once": true
+      }
+    },
+    "failure_withdraw_ack.json": {
+      "path": "../engage_R02_01/failure_withdraw_ack.json",
+      "sha256": "09561b83f06ee772046a0a723bd9c9981d2891fb5dfbafcedf321dcb6c4a306d",
+      "data": {
+        "utc": "2026-11-02T15:39:17.957735+00:00",
+        "monotonic_ns": 1505402552425208,
+        "command": "ZCtrl.Withdraw",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "outcome.json": {
+      "path": "../engage_R02_01/outcome.json",
+      "sha256": "7daa1eb4d2677ff1040404cc1d7976b649a6eaae59a382efaf76799fe5512ab1",
+      "data": {
+        "utc": "2026-11-02T15:39:21.214578+00:00",
+        "monotonic_ns": 1505405809248833,
+        "status": "failed_after_known_On_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "Z_margin_or_range",
+        "withdraw_home_confirmed": true,
+        "on_attempted": true,
+        "on_zero_error_ack": true,
+        "withdraw_attempted": true
+      }
+    }
+  },
+  "archive_fix_independent_review": {
+    "path": "local-archive:ad11c8d4b801dc58",
+    "sha256": "66ee712baf270cbd387d26dac8569db99e7333bc38dab034b718badfdf68666b",
+    "review": "The relative or absolute READY start.claim path is normalized then required to resolve exactly to fixed LOGGER/start.claim; READY checksum and source/session/segment/nativeStart checks retained. Other closed-only/double-read/localhash/terminalexcluded behavior unchanged. No relaxation tootherclaim/start identity.",
+    "execution_by_reviewer": false
+  },
+  "figure": {
+    "path": "fine_no_tunneling_and_home.png",
+    "sha256": "de45f5611ed6223852d421574a47837003c259938bfe6b79f8f98d6bc2757715"
+  },
+  "script_sha256": "bd1b131db77f79b5ebc2b66582f7ee079045d2ab54d19dd45203752dfb42cf84",
+  "conclusion": [
+    "Within this fineZtravel no signed100pA tunneling plateau was recorded; current remained nearzero even atlowerendpoint. This supports the reported failure, not a successful engagement.",
+    "The only absI>=400pA sample occurs at commanded Home arrival; do not attribute it to pre-withdraw junction overload.",
+    "KnownACK Withdraw and subsequent fixedHome/nearzero current support completed retraction in archivedwindow.",
+    "No diagnosis of unique mechanical gap, tip identity or cause from zero current alone. Root owns fresh state and any nextapproach decision; this review doesnot authorize a move or repeat."
+  ],
+  "_portable_export": {
+    "source_sha256": "4e2e3e7593ea4ea4f5da1a433fe2bc6502729eed9a22ef7d50567d6d583ab11d",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

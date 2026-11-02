@@ -1,0 +1,57 @@
+> Portable export of a dated source. Original SHA-256: `11da10c7ce7b573976abd497ee4be41b19e32ed75fedfe8bcc923784ef7f906c`. Local links were remapped; historical conclusions were not updated. See the package README for the final cutoff.
+
+# R02/R03 恢复增量记录：fine02 已重新建立隧穿，完整基线采集已完成，判图待补
+
+本版初稿生成于 **2026-11-03T00:32:26.102262+08:00**。它是旧报告之后的新版本，原 R02/R03 动作、波形审查和历史报告均未改写。现场动作由 root 执行；本报告仅读取本地归档。
+
+**计数保持 1/5 次完整修前—干预—修后尝试、0 次严格成功闭环，尚余 4 次完整尝试。** 本轮恢复包含 2 次独立 fine On、3 次独立 AA 搜索；没有新增脉冲、TipShaper 或诱导。恢复隧穿不计作修针成功。此前 episode 已消耗的 3 次脉冲保留。
+
+## 实际动作与决策
+
+下表为北京时间（UTC+8）；完整 UTC、命令 claim/ACK、哈希及结果见 [事件账本](event_ledger.json)。AA 的 5/30/120 秒是各次主机搜索上限，不是实际运行总时长、原生粗步数或机械位移上限；三次分别审阅授权，未自动循环。
+
+| 事件 | 实际主命令 / 终态时间 | 决策与实测结果 |
+|---|---|---|
+| R02 fine01 | 11-02 23:39:16.980 → 23:39:21.215 | 细 Z 到余量门槛仍无持续隧穿；已知 Withdraw 后确认 Home。原生约 −472.6 pA 单点在回 Home 时，不作落地证据。 |
+| R02 AA01，5 s 上限 | 23:46:45.168 → 23:46:55.216 | 未落地；已知 Stop/Withdraw/Home。原生 5 次内部细 Z 复位及末段下降，不等于 5 个已测粗步。 |
+| R02 AA02，30 s 上限 | 23:53:58.818 → 23:54:33.845 | 未落地；31 个非 Home 区间电流 −3.122…+4.493 pA。已知 Stop/Withdraw/Home，然后等人工历史。 |
+| 人工历史补足 | 11-03 00:01:54 记录 | 用户原文“先withdraw了，然后+z了五六下”，描述原 20:47 操作；并非当前新动作。每次按键时长、粗步与距离未知。 |
+| R03 AA03，120 s 上限 | 00:09:58.784 → 00:10:14.189 | 原生进入有明显电流/反馈响应的结区，但慢读 −2.894 nA 触发 400 pA 软件门槛；随后已知 Stop/Withdraw/Home。搜索未跑满 120 s。 |
+| R03 fine02 | 00:17:25.566 → 00:17:55.806 | 在 AA03 后新的粗位置仅开反馈一次，120 次读回/30.239 s 观察，返回 tunneling_reestablished；未再 Withdraw、无粗进针。 |
+| 新完整基线 | 2026-11-03T00:23:32.356990+08:00 开始 | **terminal_outcome_available_not_reviewed_in_this_snapshot**。50×50 nm、240×240、DOWN、−1 V/100 pA、每方向 0.912 s，未调理；完整图/六平面一致性及图像判断仍待终态。 |
+
+AA03 的延长搜索依据是新增人工粗退历史，并未把换 logger 当作清零搜索或脉冲预算。fine02 的依据是 AA03 已到有导电响应的新粗位置且已明确撤回；再次 fine 仅检验重新接近，不能倒称 AA03 已稳定。参见 [AA03 决策](../AA_R03_03_root_decision.json)、[fine02 决策](../fine_R03_root_decision.json)、[完整基线决策](../baseline_R03_root_decision.json)。
+
+交付前状态补注（2026-11-03T00:33:54.720708+08:00）：本地 ../../session_02/baseline_segment03_full/outcome.json 已给出 completed；旧 running 版本完整保存在 [snapshot_baseline_running](snapshot_baseline_running/REPORT.md)。本补注只确认采集终态，不代替原生位匹配、图像功能判读或诱导准入。
+
+## 电流、Z 与恢复证据
+
+**AA03 不能被概括为一个无害的慢读尖峰。** 原生保留 70 个已知软件量程下限样点（−9.9994768 nA），分成 36/1/1/32 点四组；按 0.5 ms 为 35 ms 样点占用量，真实负峰被截断而未知。此数值不是允许过载时长，也不证明模拟链的精确饱和机制。撤回前末 0.5 s 的电流均值/标准差约 −145.67/56.87 pA、Z 斜率 +213.91 pm/s，不能称已经稳定。撤回后 Home 固定、电流近零。[AA03 正式原生审查](../AA_R03_03_native_review/review.json)。
+
+**fine02 重新建立了导电反馈结区，但最初 30 s 的 stable=true 只是既定慢读入场/终态规则。** 原生闭块 44–65 共 550,000 行/通道、3,300,000 个有限数值、275 s，Bias 均 −1 V；最大已采电流幅值 275.917 pA，未见 ≥400 pA 或量程下限点。该最大值在后续静置而非最初落地，不能作为真实峰上限。
+
+| 原生描述窗口 | I 均值 / 标准差（pA） | Z 斜率（pm/s） | Z 去线性 RMS（pm） |
+|---|---:|---:|---:|
+| 30 s 动作观察的末 20 s，近似主机对齐 | −104.500 / 10.717 | +31.945 | 36.348 |
+| 同观察的末 10 s | −104.216 / 11.494 | +24.843 | 25.504 |
+| 额外静置后，归档末 30 s | −107.727 / 17.871 | +1.251 | 8.447 |
+| 额外静置后，归档末 10 s | −108.471 / 19.842 | +1.230 | 8.648 |
+
+额外静置降低了 Z 趋势，仍有电流噪声和残余漂移。末 30 s 原生电流落在 −120…−80 pA 的比例为 73.958%，不能把慢读的通过扩大为每个 0.5 ms 样点均在带内。窗口是原生审查中的描述性诊断，未追加或追溯修改脚本门槛。[fine02 正式原生审查](../fine_R03_02_native_review/review.json)。
+
+[查看 AA03 落地、恢复与撤回波形](../AA_R03_03_native_review/AA03_landing_recovery_then_withdraw.png) · [查看 fine02 进入与后续静置波形](../fine_R03_02_native_review/fine02_entry_and_rest.png)。
+
+## 记录覆盖与交接
+
+R02 已有意停止并以两份独立 Stop 读回核对：23:38:54–23:58:13；93 块、2,317,400 行/通道、13,904,400 个有限数值，存储采样时长 1158.7 s。[R02 终段归档审查](../R02_terminal_native_review/review.json)。R03 在 00:08:12 开始新有限段，21600 名义单位；按既往比例预计约 10800 s 墙钟，尚非本段实测总时长。两段之间有明确记录空档，不拼接宣称无缝。
+
+基线终态已保存；后续待 root 完成原生 SXM/六平面核对、图像功能判断与空间对象；若决定诱导，单独的目标、参数、理由、claim、实际结果；之后完整诱导后/修前、修后与复核图。**当前没有新增完整修针流程或成功闭环。** 当前温度未新测，不能沿用扫描注释中的历史 2.916 K；针尖材料仍未知。
+
+本版不操作设备、不修改任何冻结控制源码或历史证据。0.5 ms 数据不是模拟带宽或真实峰上限；每点无独立硬件时间戳，不声称跨块无间隙或命令/像素硬同步，Z 也不是独立间隙传感器。
+
+## 文件与发布状态
+
+- [本版来源及 SHA-256 索引](source_manifest.json)；[机器可读事件与计数](event_ledger.json)。
+- [GitHub 增量候选清单](github_increment_candidate.json)仅为本地准备，未 commit/push。完整 2 kHz DAT 与 wire/raw_capture 不纳入候选上传，保留本地路径与既有归档审计。
+- 既有发布 commit d2b1be7b049f66f7803f49270f440083f0b9d295 与 CI success 保留；本版 R02/R03 新证据尚未发布。[旧发布 receipt](../../../omitted-evidence.md#archive-c797a62ba4c71c0a)。
+- 当前工作状态见 [continuation LIVE_STATE](../../../omitted-evidence.md#archive-7e12c8cba6694e94)、[batch_state](../../../../au111_five_sessions_20261102/evidence/batch_state.json)；本次覆盖前状态原样保存在 [state_before 索引](state_before/index.json)。

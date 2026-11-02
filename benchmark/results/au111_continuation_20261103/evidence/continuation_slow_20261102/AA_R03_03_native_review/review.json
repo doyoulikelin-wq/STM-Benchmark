@@ -1,0 +1,654 @@
+{
+  "created_utc": "2026-11-02T16:14:40.054805+00:00",
+  "scope": "Local closed R03 DAT1-13 and completed AA03 logs only; no network, SMB, CUA, hardware commands or control imports",
+  "native_sources": [
+    {
+      "path": "local-archive:c422d7a0226b35b2",
+      "sha256": "2b729f7e30e61193eb0dde37306fd9a3c7b7331b4999bb3fe2c4449c694f6a8f"
+    },
+    {
+      "path": "local-archive:3a00229d2d40a408",
+      "sha256": "81e557f06bff58d68e45aa3eacf834c25058d414e1f8c7605acac5b74c53102e"
+    },
+    {
+      "path": "local-archive:f77ac9acb9f62aa1",
+      "sha256": "6802541001bb09886a21908066eb9cbf047d229621f1bb7121152692a5ff2827"
+    },
+    {
+      "path": "local-archive:1ca8ea08615434e2",
+      "sha256": "3544d8cf3e661eccef99c670ecfde15cf621c67e367dc9457cdf8ce8a28965c2"
+    },
+    {
+      "path": "local-archive:2f023cd8eb92b860",
+      "sha256": "9e1cb09e2d596eb226ba657634c7ef57272a9497ee25b8f382c3abc56f7f61ae"
+    },
+    {
+      "path": "local-archive:7241a6cbc86f988f",
+      "sha256": "db6e8d94be19e4c11532e73fea15817fd6154f157a43c114e2083f3a570ba881"
+    },
+    {
+      "path": "local-archive:1fef45975421567d",
+      "sha256": "dccf8f317732d3575aef1522bcb0d5861f948f8da81236cc6cd8c4d129923c16"
+    },
+    {
+      "path": "local-archive:ea24fd242ee94f00",
+      "sha256": "54ba292259d4e7723c4fb0d785d965dc1422cdf0fcd7bced11757f1776bcf431"
+    },
+    {
+      "path": "local-archive:01d33e9f8f71981d",
+      "sha256": "c0480f9ec245010e6f540ae0ede3def1da243df02b310c39365d69c37d5c0d79"
+    },
+    {
+      "path": "local-archive:cbba1ed64d895ddb",
+      "sha256": "e6ce868e37489063a46026e65810ca14127609693fec4ad5bcc458b08a29e29d"
+    },
+    {
+      "path": "local-archive:80a072e37c6e3370",
+      "sha256": "e461319eded900a291ad83055d81ffbfce50fb7296594e6371456eb5f114b64f"
+    },
+    {
+      "path": "local-archive:6067c0a35205aa26",
+      "sha256": "e4227370bab283105dc59eafb11e368231937deea99314af9bdb128976acea7f"
+    },
+    {
+      "path": "local-archive:02c49ffeb3b7041d",
+      "sha256": "113d2b895b3b93d0c1d03776d99fc5feb0d6e81747933fe69fea372744ee2448"
+    }
+  ],
+  "sample_period_s": 0.0005,
+  "finite_values": 1950000,
+  "Bias_all_V": -1,
+  "whole_archived": {
+    "native_s": [
+      0,
+      162.5
+    ],
+    "samples": 325000,
+    "I_pA": {
+      "min": -9999.4768,
+      "max": 31.837338,
+      "mean": -6.268678752528999,
+      "median": 0.08349414499999999,
+      "std": 166.7987010546139,
+      "abs_ge400_count": 602,
+      "abs_ge1000_count": 228,
+      "abs_ge4000_count": 99,
+      "known_software_lower_level_count": 70,
+      "signed_target_band_fraction": 0.0027815384615384616,
+      "longest_contiguous_target_band_occupancy_s": 0.0015
+    },
+    "Z_nm": {
+      "min": -121.44821999999999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999,
+      "linear_slope_pm_s": -132.37063600722533,
+      "detrended_RMS_pm": 39899.8888319623
+    }
+  },
+  "phases": {
+    "pre_search": {
+      "native_s": [
+        100.0,
+        105.7
+      ],
+      "samples": 11400,
+      "I_pA": {
+        "min": -0.94464302,
+        "max": 1.2552165,
+        "mean": 0.0808741458558492,
+        "median": 0.0798320045,
+        "std": 0.3038667486274071,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.0,
+        "longest_contiguous_target_band_occupancy_s": 0.0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999,
+        "linear_slope_pm_s": 1.8120080908408827e-11,
+        "detrended_RMS_pm": 3.0241104553092037e-11
+      }
+    },
+    "early_search_including_internal_resets": {
+      "native_s": [
+        105.7805,
+        114.3785
+      ],
+      "samples": 17196,
+      "I_pA": {
+        "min": -949.9316899999999,
+        "max": 31.837338,
+        "mean": -0.21909808949618045,
+        "median": 0.33648484,
+        "std": 17.52256071295097,
+        "abs_ge400_count": 14,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.0,
+        "longest_contiguous_target_band_occupancy_s": 0.0
+      },
+      "Z_nm": {
+        "min": -121.44821999999999,
+        "max": 123.69999,
+        "first": 123.68624999999999,
+        "last": 123.69999,
+        "linear_slope_pm_s": -820.9543609175266,
+        "detrended_RMS_pm": 76651.52585976504
+      }
+    },
+    "landing_and_early_overshoot": {
+      "native_s": [
+        115.1335,
+        115.4
+      ],
+      "samples": 533,
+      "I_pA": {
+        "min": -9999.4768,
+        "max": 17.504605,
+        "mean": -2097.3752669657224,
+        "median": -376.66958,
+        "std": 3432.3258655929367,
+        "abs_ge400_count": 259,
+        "abs_ge1000_count": 175,
+        "abs_ge4000_count": 97,
+        "known_software_lower_level_count": 70,
+        "signed_target_band_fraction": 0.04127579737335835,
+        "longest_contiguous_target_band_occupancy_s": 0.0005
+      },
+      "Z_nm": {
+        "min": -111.53835000000001,
+        "max": -103.5822,
+        "first": -111.41588999999999,
+        "last": -108.28852,
+        "linear_slope_pm_s": -136.45528434138157,
+        "detrended_RMS_pm": 1335.5031418273634
+      }
+    },
+    "decaying_recovery_0": {
+      "native_s": [
+        115.4,
+        115.9
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -4367.3598,
+        "max": -22.328006000000002,
+        "mean": -336.24599053000003,
+        "median": -216.50784499999997,
+        "std": 416.2207740935012,
+        "abs_ge400_count": 228,
+        "abs_ge1000_count": 49,
+        "abs_ge4000_count": 2,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.134,
+        "longest_contiguous_target_band_occupancy_s": 0.001
+      },
+      "Z_nm": {
+        "min": -108.33966,
+        "max": -107.80894,
+        "first": -108.33479,
+        "last": -107.84751,
+        "linear_slope_pm_s": 846.908870589001,
+        "detrended_RMS_pm": 30.023419196640464
+      }
+    },
+    "decaying_recovery_1": {
+      "native_s": [
+        116.0,
+        116.5
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -894.7866300000001,
+        "max": -33.657351,
+        "mean": -201.622422441,
+        "median": -171.184665,
+        "std": 118.67155543381205,
+        "abs_ge400_count": 61,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.16,
+        "longest_contiguous_target_band_occupancy_s": 0.0015
+      },
+      "Z_nm": {
+        "min": -107.80899,
+        "max": -107.56148999999999,
+        "first": -107.80512,
+        "last": -107.57131,
+        "linear_slope_pm_s": 410.37165993165024,
+        "detrended_RMS_pm": 10.488125948377384
+      }
+    },
+    "decaying_recovery_2": {
+      "native_s": [
+        116.5,
+        117.0
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -659.54098,
+        "max": -49.433409,
+        "mean": -170.573005602,
+        "median": -159.115025,
+        "std": 79.4489110183206,
+        "abs_ge400_count": 14,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.193,
+        "longest_contiguous_target_band_occupancy_s": 0.0015
+      },
+      "Z_nm": {
+        "min": -107.58938,
+        "max": -107.42846,
+        "first": -107.57231,
+        "last": -107.43373,
+        "linear_slope_pm_s": 279.92754980767694,
+        "detrended_RMS_pm": 6.454353893521093
+      }
+    },
+    "prewithdraw_fixed_half_second": {
+      "native_s": [
+        117.0,
+        117.5
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -426.74037,
+        "max": -43.832368,
+        "mean": -145.67054600100002,
+        "median": -137.75082,
+        "std": 56.86774763325635,
+        "abs_ge400_count": 1,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.267,
+        "longest_contiguous_target_band_occupancy_s": 0.0015
+      },
+      "Z_nm": {
+        "min": -107.45176000000001,
+        "max": -107.32708000000001,
+        "first": -107.43247000000001,
+        "last": -107.32985,
+        "linear_slope_pm_s": 213.90849378845033,
+        "detrended_RMS_pm": 6.357436125806751
+      }
+    },
+    "prewithdraw_fixed_200ms": {
+      "native_s": [
+        117.4,
+        117.6
+      ],
+      "samples": 400,
+      "I_pA": {
+        "min": -283.32669999999996,
+        "max": -54.411742,
+        "mean": -135.438549675,
+        "median": -134.280735,
+        "std": 45.45196412164631,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.3,
+        "longest_contiguous_target_band_occupancy_s": 0.0015
+      },
+      "Z_nm": {
+        "min": -107.35779,
+        "max": -107.30628,
+        "first": -107.35008,
+        "last": -107.32694,
+        "linear_slope_pm_s": 176.50468377940553,
+        "detrended_RMS_pm": 6.088875675001092
+      }
+    },
+    "prewithdraw_fixed_90ms": {
+      "native_s": [
+        117.55,
+        117.64
+      ],
+      "samples": 180,
+      "I_pA": {
+        "min": -263.26413,
+        "max": -57.609223,
+        "mean": -134.49119770555555,
+        "median": -131.717425,
+        "std": 45.29695503732984,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.3111111111111111,
+        "longest_contiguous_target_band_occupancy_s": 0.001
+      },
+      "Z_nm": {
+        "min": -107.32798,
+        "max": -107.29605000000001,
+        "first": -107.32109,
+        "last": -107.31081,
+        "linear_slope_pm_s": 94.60277580611209,
+        "detrended_RMS_pm": 5.745572820157342
+      }
+    },
+    "afterHome_1to10s": {
+      "native_s": [
+        118.652,
+        127.652
+      ],
+      "samples": 18000,
+      "I_pA": {
+        "min": -1.1576557,
+        "max": 1.4023112,
+        "mean": 0.098597887918958,
+        "median": 0.09936326300000001,
+        "std": 0.30757134518882423,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.0,
+        "longest_contiguous_target_band_occupancy_s": 0.0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999,
+        "linear_slope_pm_s": -3.131204096855326e-11,
+        "detrended_RMS_pm": 8.154051586950215e-11
+      }
+    },
+    "last5s_archived": {
+      "native_s": [
+        157.5,
+        162.5
+      ],
+      "samples": 10000,
+      "I_pA": {
+        "min": -1.1158467,
+        "max": 1.1879252,
+        "mean": 0.08731342525186539,
+        "median": 0.089597634,
+        "std": 0.30677061312416837,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "known_software_lower_level_count": 0,
+        "signed_target_band_fraction": 0.0,
+        "longest_contiguous_target_band_occupancy_s": 0.0
+      },
+      "Z_nm": {
+        "min": 123.69999,
+        "max": 123.69999,
+        "first": 123.69999,
+        "last": 123.69999,
+        "linear_slope_pm_s": 0.0,
+        "detrended_RMS_pm": 0.0
+      }
+    }
+  },
+  "software_lower_level_runs": [
+    {
+      "native_first_s": 115.142,
+      "native_last_s": 115.15950000000001,
+      "samples": 36,
+      "sample_occupancy_s": 0.018000000000000002,
+      "block_first": 10,
+      "row_first_zero_based": 5284,
+      "Z_first_nm": -111.10301,
+      "Z_last_nm": -104.69612
+    },
+    {
+      "native_first_s": 115.182,
+      "native_last_s": 115.182,
+      "samples": 1,
+      "sample_occupancy_s": 0.0005,
+      "block_first": 10,
+      "row_first_zero_based": 5364,
+      "Z_first_nm": -109.42748,
+      "Z_last_nm": -109.42748
+    },
+    {
+      "native_first_s": 115.1975,
+      "native_last_s": 115.1975,
+      "samples": 1,
+      "sample_occupancy_s": 0.0005,
+      "block_first": 10,
+      "row_first_zero_based": 5395,
+      "Z_first_nm": -109.26706,
+      "Z_last_nm": -109.26706
+    },
+    {
+      "native_first_s": 115.202,
+      "native_last_s": 115.2175,
+      "samples": 32,
+      "sample_occupancy_s": 0.016,
+      "block_first": 10,
+      "row_first_zero_based": 5404,
+      "Z_first_nm": -109.45845,
+      "Z_last_nm": -103.78378
+    }
+  ],
+  "software_lower_level_samples": 70,
+  "software_lower_level_nominal_occupancy_s": 0.035,
+  "timing_landmarks": {
+    "first_descriptive_beyond_minus10pA_in_final_descent_s": 115.1335,
+    "minimum_final_descent_Z_nm": -111.53835,
+    "minimum_final_descent_native_s": 115.135,
+    "final_Home_native_s": 117.652,
+    "internal_fine_Z_resets_before_last_descent": 9
+  },
+  "slow_nativeAA0_observations": [
+    {
+      "path": "local-archive:f7cfea77178f725e",
+      "sha256": "84007f3ffdae3cb0e09b01b3d8f7cff4086f48c5a07504c15cccbb47dab3a2e6",
+      "utc": "2026-11-02T16:10:08.519179+00:00",
+      "sequential_not_atomic": true,
+      "values": {
+        "Current.Get": [
+          -2.893709050155735e-09
+        ],
+        "AutoApproach.OnOffGet": [
+          0
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "ZCtrl.ZPosGet": [
+          -1.0828016172581556e-07
+        ]
+      }
+    }
+  ],
+  "host_counter_anchors": [
+    {
+      "utc": "2026-11-02T16:10:06.188879+00:00",
+      "native_s": 113.17
+    },
+    {
+      "utc": "2026-11-02T16:10:06.712372+00:00",
+      "native_s": 113.7
+    },
+    {
+      "utc": "2026-11-02T16:10:07.265754+00:00",
+      "native_s": 114.24
+    },
+    {
+      "utc": "2026-11-02T16:10:07.798725+00:00",
+      "native_s": 114.77
+    },
+    {
+      "utc": "2026-11-02T16:10:08.323898+00:00",
+      "native_s": 115.3
+    },
+    {
+      "utc": "2026-11-02T16:10:08.845172+00:00",
+      "native_s": 115.82
+    },
+    {
+      "utc": "2026-11-02T16:10:09.399617+00:00",
+      "native_s": 116.37
+    },
+    {
+      "utc": "2026-11-02T16:10:09.945828+00:00",
+      "native_s": 116.93
+    },
+    {
+      "utc": "2026-11-02T16:10:10.483919+00:00",
+      "native_s": 117.46
+    },
+    {
+      "utc": "2026-11-02T16:10:11.027591+00:00",
+      "native_s": 118.0
+    },
+    {
+      "utc": "2026-11-02T16:10:11.583404+00:00",
+      "native_s": 118.56
+    },
+    {
+      "utc": "2026-11-02T16:10:12.105650+00:00",
+      "native_s": 119.09
+    },
+    {
+      "utc": "2026-11-02T16:10:12.625309+00:00",
+      "native_s": 119.6
+    }
+  ],
+  "commands": {
+    "autoapproach_start.claim": {
+      "path": "../AA_R03_03/autoapproach_start.claim",
+      "sha256": "a45975be71a733a215bd5a7219f8791138cf98c82b6e2681a120c885f35bba16",
+      "record": {
+        "utc": "2026-11-02T16:09:58.783663+00:00",
+        "monotonic_ns": 1507243366157541,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          1
+        ],
+        "at_most_once": true
+      }
+    },
+    "autoapproach_start_ack.json": {
+      "path": "../AA_R03_03/autoapproach_start_ack.json",
+      "sha256": "695831ed352b48a1118b9f8ac5a604c770a46e36fcd0daa9cedd07a9b33c8fde",
+      "record": {
+        "utc": "2026-11-02T16:09:58.784742+00:00",
+        "monotonic_ns": 1507243367235833,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "cleanup_autoapproach_stop.claim": {
+      "path": "../AA_R03_03/cleanup_autoapproach_stop.claim",
+      "sha256": "934dfac8254ee23290ee32f5e3e24593155f1354b0982541eeacb80e471280ee",
+      "record": {
+        "utc": "2026-11-02T16:10:08.519430+00:00",
+        "monotonic_ns": 1507253101697458,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          0
+        ],
+        "at_most_once": true
+      }
+    },
+    "cleanup_autoapproach_stop_ack.json": {
+      "path": "../AA_R03_03/cleanup_autoapproach_stop_ack.json",
+      "sha256": "3444fbf03fcbaf11c40dad9c83e707a8de410ab93a39edf84eb5d74a8b97b33e",
+      "record": {
+        "utc": "2026-11-02T16:10:08.520681+00:00",
+        "monotonic_ns": 1507253102948083,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "failure_withdraw.claim": {
+      "path": "../AA_R03_03/failure_withdraw.claim",
+      "sha256": "c257cb9158c32ceb483c2873614d2a0f320235442aa508280906cc8ece9dcfd9",
+      "record": {
+        "utc": "2026-11-02T16:10:10.661056+00:00",
+        "monotonic_ns": 1507255243288625,
+        "command": "ZCtrl.Withdraw",
+        "args": [
+          1,
+          2000
+        ],
+        "at_most_once": true
+      }
+    },
+    "failure_withdraw_ack.json": {
+      "path": "../AA_R03_03/failure_withdraw_ack.json",
+      "sha256": "781439ff326844a8521ddc813bdea934af9a282b8bf03e0da20dbe45a1e34ca6",
+      "record": {
+        "utc": "2026-11-02T16:10:10.779157+00:00",
+        "monotonic_ns": 1507255361399041,
+        "command": "ZCtrl.Withdraw",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "outcome.json": {
+      "path": "../AA_R03_03/outcome.json",
+      "sha256": "229d72d68eecfc1d6b5ae1598ee5d847fa4e354386e0513ae515c4b943650c6d",
+      "record": {
+        "utc": "2026-11-02T16:10:14.188727+00:00",
+        "monotonic_ns": 1507258770911041,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "sampled_current_limit",
+        "sampled_AutoOff_contiguous_s": 2.0301856249570847,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.042220375034958,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      }
+    }
+  },
+  "measurement_limits": [
+    "0.5ms stored data are not analog bandwidth/true-peak measurement. Matching lower-level values indicate censoring of the recorded current; true maximum magnitude cannot be recovered.",
+    "AA state is only available through sequential slow readback, not the native six-channel record. Native onset/AAOff/hostStop cannot be declared hard synchronized.",
+    "The fixed tail windows are descriptive post hoc windows, not new universal safety thresholds or substitutes for preplanned recovery criteria.",
+    "Internal Z resets do not measure coarse pulse count or displacement."
+  ],
+  "conclusion": [
+    "Unlike AA01/AA02, AA03 reached a substantial junction-current/feedback response and the slow trace observed nativeAA0+On2. This supports reaching a conducting feedback junction, not proof of chemical state or mechanical atom-scale contact.",
+    "The initial response contains70 samples at the known software lower level in four groups (36,1,1,32), and228 samples|I|>=1nA in the whole archive. Do not reduce it to a single harmless current getter spike.",
+    "The current excursions decay andZ approaches a new level, but stable-100pA recovery before Withdraw is NOT demonstrated. In117.0–117.5s,Imean−145.67pA/std56.87pA andZslope+213.91pm/s; only26.7% of samples lie in−120..−80pA and longest contiguous occupancy is1.5ms. In117.4–117.6s,Imean−135.44pA/std45.45pA andZslope+176.50pm/s.",
+    "The known cleanup withdrew at117.652s native; afterwardHome is constant and current returns nearzero. This is a known stopped, withdrawn state, not maintained stable tunneling.",
+    "A later fine-only reconnect would test the newly advanced coarse position; these records do not themselves establish that it is already stable or free from overshoot. No additionalAA, fineOn or conditioning is authorized or executed by this review."
+  ],
+  "figure": {
+    "path": "AA03_landing_recovery_then_withdraw.png",
+    "sha256": "0fa688efa3c02fadaf80d989ce8009b64f9ef02eff27d2b0dc8ce0278c190c3b"
+  },
+  "source": {
+    "path": "local-archive:7efc5991657fd282",
+    "sha256": "99dd35357871d61aea6dc053b76b9e65926e50d8e66ff1e4be21db5681fdadd3"
+  },
+  "script_sha256": "c955b9f345c3ec1857297e2d433b04e0791532c9cd612e9db3dadbd2d6181996",
+  "_portable_export": {
+    "source_sha256": "e75c4e8a8d868739896f19672abd0dcc1e59ff025b68af9d65d7ae33f678e5e2",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

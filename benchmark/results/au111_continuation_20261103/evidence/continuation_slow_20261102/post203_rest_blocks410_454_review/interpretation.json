@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-02T17:45:04.559677+00:00",
+  "review": {
+    "path": "review.json",
+    "sha256": "846f25f4253bd8000b6d23a96f4f762f3f1dbd76417a29a4a87d3fe2cbacb521"
+  },
+  "finding": "This bounded archive has no sustained >=400pA run, no >=1nA sample, and no new >=0.1nm adjacent-1s-median working-point jump. It still contains intermittent current noise with a negative mean offset and measurable Z residual.",
+  "last_ge400_to_archive_end_s": 185.7449999999999,
+  "ten_second_Z_median_range_pm": 30.55499999999256,
+  "limits": [
+    "No claim of quiet recovery or future behavior; prior post203 large shifts and activity remain part of the history.",
+    "A proposed sparse slowpoll current entry rule is an engineering diagnostic admission rule, not proof every2kHz sample is inside that current band or a validated physical safety limit.",
+    "No authorization/admission, new threshold, conditioning, repair success, or evidence-level change follows from this offline review.",
+    "pre_repair_A02_full rejected before Start. No204 image exists in the reviewed evidence."
+  ],
+  "_portable_export": {
+    "source_sha256": "720fb88db9c28368761ddd4ba99b63b46a7eb38e89930f7ca535c17a4a531fe8",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

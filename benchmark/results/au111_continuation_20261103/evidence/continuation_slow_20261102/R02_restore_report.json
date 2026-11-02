@@ -1,0 +1,202 @@
+{
+  "schema": "R02-restore-historical-checkpoint-v1",
+  "created_utc": "2026-11-02T16:07:41.014266+00:00",
+  "report_scope": "R02 closed record only; no new experiment or instrument command",
+  "conclusion": "Fine and both bounded SafeAA attempts did not establish tunneling. Known Stop/Withdraw/Home outcomes and independent post-stop readbacks are retained. No new full image, induction or repair outcome was produced.",
+  "endpoint": {
+    "capture_start_utc": "2026-11-02T15:58:30.897667+00:00",
+    "capture_end_utc": "2026-11-02T15:58:31.020296+00:00",
+    "capture_end_local": "2026-11-02T23:58:31.020296+08:00",
+    "Bias_V": -1.0,
+    "setpoint_A": 1.000000013351432e-10,
+    "Current_A": 4.852911624528104e-14,
+    "Z_m": 1.2369999069505866e-07,
+    "XY_m": [
+      -2.5000000292152436e-08,
+      -2.5000000292152436e-08
+    ],
+    "feedback_OnOff": 0,
+    "feedback_status": 1,
+    "Scan": 0,
+    "AutoApproach": 0,
+    "SafeTip": 0,
+    "native_start_identity": "2026/11/2 23:38:54",
+    "native_stop_identity": "2026/11/2 23:58:13",
+    "historical_snapshot_not_live": true
+  },
+  "attempts": [
+    {
+      "name": "Fine On",
+      "host_start_utc": "2026-11-02T15:39:16.979681+00:00",
+      "host_start_local": "2026-11-02T23:39:16.979681+08:00",
+      "outcome_utc": "2026-11-02T15:39:21.214578+00:00",
+      "outcome_local": "2026-11-02T23:39:21.214578+08:00",
+      "host_window_budget_s": null,
+      "outcome_source": {
+        "path": "engage_R02_01/outcome.json",
+        "sha256": "7daa1eb4d2677ff1040404cc1d7976b649a6eaae59a382efaf76799fe5512ab1"
+      },
+      "established_tunneling": false,
+      "known_Withdraw_and_Home": true
+    },
+    {
+      "name": "Safe AA01",
+      "host_start_utc": "2026-11-02T15:46:45.168230+00:00",
+      "host_start_local": "2026-11-02T23:46:45.168230+08:00",
+      "outcome_utc": "2026-11-02T15:46:55.215552+00:00",
+      "outcome_local": "2026-11-02T23:46:55.215552+08:00",
+      "host_window_budget_s": 5,
+      "outcome_source": {
+        "path": "AA_R02_01/outcome.json",
+        "sha256": "835e7009dcfd6345e1fee1b3ad425963d17176afa631253d546b36de9932ec09"
+      },
+      "established_tunneling": false,
+      "known_Withdraw_and_Home": true,
+      "host_start_to_Stop_claim_s": 4.500376958,
+      "known_Stop_ACK": true,
+      "AutoOff_contiguous_s": 2.041580375051126,
+      "Off1Home_contiguous_s": 3.1235972500871867
+    },
+    {
+      "name": "Safe AA02",
+      "host_start_utc": "2026-11-02T15:53:58.817879+00:00",
+      "host_start_local": "2026-11-02T23:53:58.817879+08:00",
+      "outcome_utc": "2026-11-02T15:54:33.845482+00:00",
+      "outcome_local": "2026-11-02T23:54:33.845482+08:00",
+      "host_window_budget_s": 30,
+      "outcome_source": {
+        "path": "AA_R02_02/outcome.json",
+        "sha256": "8a6ddcf0fe3b9f2706e9dae78240a76f4b60ffa940ea9da7254743c24bfe5280"
+      },
+      "established_tunneling": false,
+      "known_Withdraw_and_Home": true,
+      "host_start_to_Stop_claim_s": 29.498654208,
+      "known_Stop_ACK": true,
+      "AutoOff_contiguous_s": 2.073720875196159,
+      "Off1Home_contiguous_s": 3.0532653329428285
+    }
+  ],
+  "counts": {
+    "requested_full_workflows": 5,
+    "completed_full_attempts_before_and_after_R02": 1,
+    "remaining_requested": 4,
+    "successful_closed_cycles": 0,
+    "R02_new_complete_attempts": 0,
+    "R02_new_inductions": 0,
+    "R02_new_pulses_or_shapers": 0,
+    "R02_new_scans": 0,
+    "R02_new_repair_cycles": 0,
+    "interpretation": "One complete attempt is a process-completion count, not one verified successful dirty-repair-usable cycle. Prior historical image labels are not revised.",
+    "provenance_note": "Root task explicitly preserves1/5 and4remaining; mutable batch_state has completed_full_attempts1/remaining_requested4/successful_cycles0 alongside legacy complete_workflows0. This checkpoint reports the explicit full-attempt counter and does not rewrite the mixed historical fields."
+  },
+  "full_native_audit": {
+    "block_count": 93,
+    "total_rows_per_channel": 2317400,
+    "finite_scalars": 13904400,
+    "sample_header_dt_s": 0.0005,
+    "row_duration_s": 1158.7,
+    "all_expected_indices_sha_bytes_rows_header_columns_finite_verified": true,
+    "abs_I_ge_pA_samples": {
+      "400": 38,
+      "1000": 0,
+      "4000": 0
+    },
+    "historical_software_floor_matching_samples": 0
+  },
+  "native_phase_synthesis": {
+    "nonHome_fine_I_pA_range": [
+      -0.7833577,
+      1.4641093
+    ],
+    "nonHome_AA01_I_pA_range": [
+      -2.2807025,
+      3.0906961
+    ],
+    "nonHome_AA02_I_pA_range": [
+      -3.1222247,
+      4.4922156
+    ],
+    "target_current_plateau_observed": false,
+    "all_record_absI_ge400_samples": 38,
+    "phase_count_sum": {
+      "fine_Home": 1,
+      "AA01_Home": 6,
+      "AA02_Home": 31
+    },
+    "interpretation": "All38 threshold samples are accounted for by separately reviewed Home-return transients; they do not establish surface tunneling or sustained junction overload. This threshold is descriptive, not an analog safe limit."
+  },
+  "manual_history": {
+    "verbatim": "先withdraw了，然后+z了五六下",
+    "recorded_utc": "2026-11-02T16:01:54.811938+00:00",
+    "recorded_time_is_not_original_event_time": true,
+    "interpretation": "Reported historical20:47 sequence: Withdraw then+Z5–6 button operations. Number of steps perpress, hold time and calibrated displacement unknown; not equivalent to5–6 motor steps or a known retrace distance."
+  },
+  "recording_closure_note": "Original logger outcome retains recorder_failed_no_retry/Recorder termination requested and native_stop_confirmed false at that time. Subsequent independent read016/read017 and terminal archive establish stoppedR02; original outcome is not silently rewritten.",
+  "future_preparation_only": "R03 and a separately reviewed120s host-window candidate are preparation outside this checkpoint. No R03 execution, successful approach or restored baseline is asserted here.",
+  "limitations": [
+    "0.5ms stored interval is not analog bandwidth or a true-peak bound.",
+    "Host request/ACK and logger counters are not hard native-to-command synchronization.",
+    "Z waveform cycles do not directly measure coarse motor pulses or physical tip-sample gap.",
+    "No fresh image was acquired inR02; current tip imaging quality and material state are unassessed."
+  ],
+  "sources": {
+    "fine": {
+      "path": "fine_R02_native_review/review.json",
+      "sha256": "4e2e3e7593ea4ea4f5da1a433fe2bc6502729eed9a22ef7d50567d6d583ab11d"
+    },
+    "AA5": {
+      "path": "AA_R02_01_native_review/review.json",
+      "sha256": "70765d95294109e37699e62e7da9d68b070e225cb490d2db33307d531a5476cf"
+    },
+    "AA30": {
+      "path": "AA_R02_02_native_review/review.json",
+      "sha256": "4932d36f019d4c1b229daad16a37dbbdf397fb8eed493c9501dee9b72f232ff8"
+    },
+    "terminal": {
+      "path": "R02_terminal_native_review/review.json",
+      "sha256": "09ddd091522b41e32ef812cb6d645ab154ba6e21df4cd5366d15d7cfb2e835a6"
+    },
+    "terminal_receipt": {
+      "path": "R02_terminal_native_review/receipt.json",
+      "sha256": "6f4746038589b689175fe47d6d2e46fd9c4764f6c8f454bd766d20f67dbcaa34"
+    },
+    "coarse_history": {
+      "path": "new_user_guidance/coarse_positive_z_5to6_confirmation.json",
+      "sha256": "6670720d1d491d21a4fc8e65c8072a5055cf73d63282c8ce6d8123ed1da9b65c"
+    },
+    "endpoint": {
+      "path": "read_017_R02_stop_confirm/snapshot.json",
+      "sha256": "af811436960e8f2c1d3e7359474c8ec1730543f49530b6c4da3522cff017155f"
+    },
+    "logger_outcome_at_time": {
+      "path": "../session_02/logger_02/outcome.json",
+      "sha256": "1074fe53fd4e301db38e4ec9ca837e401f3285a656abbf2fc0a42b4c15e2abda"
+    },
+    "batch_state_read_at_report_build": {
+      "path": "../../../au111_five_sessions_20261102/evidence/batch_state.json",
+      "sha256": "63387be43830dda3d6314b9f101034a0c28ab10e3558349c96628adb3bc50451"
+    }
+  },
+  "figures": [
+    {
+      "path": "fine_R02_native_review/fine_no_tunneling_and_home.png",
+      "sha256": "de45f5611ed6223852d421574a47837003c259938bfe6b79f8f98d6bc2757715",
+      "caption": "Fine On：细 Z 到达下限，未记录到 100 pA 平台。−472.6 pA 单点与已知 Withdraw 返回 Home 同时出现。三轴横坐标均为 R02 拼接原生秒数。"
+    },
+    {
+      "path": "AA_R02_01_native_review/AA01_search_and_Home_returns.png",
+      "sha256": "162a8007e456e79ba0871c0be0fb76be3c77ea91ba42391e8a179b703cd80679",
+      "caption": "AA01（5 s 主机窗口）：5 次内部细 Z 复位，第 6 次下降后由已知 Withdraw 回 Home；没有隧穿平台。中图完整显示电流峰，底图仅显示 ±5 pA 细节。"
+    },
+    {
+      "path": "AA_R02_02_native_review/AA02_search_and_Home_returns.png",
+      "sha256": "1a534ecd9d1f67f2951c9c360ad5dcd6ca563e03641e08cf7cec7ce485ece078",
+      "caption": "AA02（30 s 主机窗口）：30 次内部细 Z 复位，第 31 次下降后回 Home；没有隧穿平台。中图完整显示电流峰，底图仅显示 ±6 pA 细节。内部 Z 复位次数不是已验证的粗马达步数。"
+    }
+  ],
+  "_portable_export": {
+    "source_sha256": "01eb9d092db9683e8cf4b602811b2bb251320fbc29699a8c07fbb0507446202d",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

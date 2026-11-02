@@ -1,0 +1,93 @@
+{
+  "schema": "R03-A03-corner-repair-admission-v1",
+  "case_id": "R03_A03_corner_repair_after205",
+  "episode_id": "continuing_20261101_1939",
+  "session_id": "session_02",
+  "action_id": "A03",
+  "recording_segment_id": "R03",
+  "root_reviewed_one_shaper": true,
+  "exclusive_root_writer": true,
+  "stop_requested": false,
+  "unresolved_previous_writer": false,
+  "manual_intervention_since_baseline": false,
+  "stage_intent": "repair_attempt",
+  "automatic_strategy_chain": false,
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "documented_legacy_pulse_count": 3,
+  "pulse_count_reset": false,
+  "max_pulses_per_episode": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "shaper_attempts_before": 0,
+  "shaper_ordinal": 1,
+  "P01_pulse_executed": false,
+  "I01_shaper_Start_count": 0,
+  "P01_prepare_completed": false,
+  "P01_current_recovery_completed": true,
+  "shaper": {
+    "props_set": [
+      0.05,
+      2,
+      2.0,
+      -9e-10,
+      0.2,
+      2.0,
+      0.1,
+      5e-09,
+      1.0,
+      0.1,
+      1
+    ],
+    "start": [
+      1,
+      5000
+    ]
+  },
+  "imaging_setpoint_A": 1e-10,
+  "preparation_to1nA_permitted": false,
+  "Pulse_permitted": false,
+  "target_m": [
+    -2.5e-08,
+    -2.5e-08
+  ],
+  "target_id": "current full50nm corner; no XY movement",
+  "reason": "Actual205 C1/C3 contour/background impairment in full raw F/B compared204. One existing expert900pm mechanical conditioning trajectory at currentcorner tests restoration of effective junction/tip function, awayfromfrozenC1/C3 andwithoutfurthercurrentpreparation. Time/surface/feedback alternatives remain; no claim planned P01Pulse executed or induction succeeded.",
+  "functional_image_plan": {
+    "path": "local-archive:8486042138686c38",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "baseline_outcome": {
+    "path": "after_preparation_recovery_P01_full/outcome.json",
+    "sha256": "b4d7c5d05b222715a50614ed25733bac2f9a603b3389e184497c1d33917fcd75"
+  },
+  "baseline_quality": {
+    "path": "after_preparation_recovery_P01_full/analysis/quality_report.json",
+    "sha256": "c0ffd52f93afc385bba8306e1d4e5949e1f3afdc88eb9d165057183cba833dfe"
+  },
+  "baseline_review": {
+    "path": "local-archive:e90c993b71ecf992",
+    "sha256": "31a3f80f5049b3ce5134e95633f818227a088b4949a81152709da3fba9715b9f"
+  },
+  "baseline_completed_monotonic_ns": 1515485217673916,
+  "baseline_native_review": {
+    "path": "local-archive:868770a56fda533d",
+    "sha256": "4bcb8fc31f6482f90fa2c5c0cc4b96878e1c01ccf5d6e85717da089d9e366fa8"
+  },
+  "authorization_decision": {
+    "path": "local-archive:e334cd12f7068472",
+    "sha256": "ac32b3f4f7a77069c720045986989926e7bbe5f82307347016b680c71000ede2"
+  },
+  "repair_effect": "not_assessed",
+  "origin": "documented_current_bad_state",
+  "cause": "current_only_preparation_recovery_scan_history_mechanism_unknown",
+  "induced_cycle": false,
+  "post_repair_full_required": true,
+  "max_shapers_this_repair": 1,
+  "max_moves_this_repair": 0,
+  "baseline_reviewed_impaired": true,
+  "_portable_export": {
+    "source_sha256": "51c65ccdc4153c01d2d77e2cde369a5faae0dc5efd9a97cc7759afa0bbaf9475",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

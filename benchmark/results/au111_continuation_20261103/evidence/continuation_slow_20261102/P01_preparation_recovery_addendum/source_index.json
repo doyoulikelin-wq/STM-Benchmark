@@ -1,0 +1,57 @@
+{
+  "recorded_utc": "2026-11-02T18:23:36.877065+00:00",
+  "cutoff": "CompletedP01preparationrecovery, nativeclosed620; nextfullframe notread/notassessed",
+  "report": {
+    "path": "REPORT.md",
+    "sha256": "c9b43e438c1ef7906f5f58a6780a3e954fe079e002d5a5b1fdf2db99952481ba"
+  },
+  "sources": {
+    "prepare_outcome": {
+      "path": "../../session_02/prepare_induction_P01/outcome.json",
+      "sha256": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9"
+    },
+    "prepare_native": {
+      "path": "../P01_prepare_native_review/review_through589.json",
+      "sha256": "8cc5d61cfc793311bfb189be87ee232ffc438037d887735bb6a6e6f89ee96a42"
+    },
+    "prepare_interpretation": {
+      "path": "../P01_prepare_native_review/interpretation_through589.json",
+      "sha256": "43f356e168ab8edd09c76fd4025972f0f6f1f0bc2ffb7819ee575a5e6e603b16"
+    },
+    "prepare_figure": {
+      "path": "../P01_prepare_native_review/prepare_six_steps_and_post_through589.png",
+      "sha256": "6c3266539fb638a1236e5cea974a5996190fc70e90abbcfa77cfc4571310dfce"
+    },
+    "recovery_outcome": {
+      "path": "../../session_02/recover_prepare_induction_P01_01/outcome.json",
+      "sha256": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938"
+    },
+    "recovery_native": {
+      "path": "../P01_recovery_native_review/review.json",
+      "sha256": "18fc69f759b9ee6ace44d02c3f147fc37ffe6c7a2ab18cded31b4e35390fc8b0"
+    },
+    "recovery_interpretation": {
+      "path": "../P01_recovery_native_review/interpretation.json",
+      "sha256": "45ca6adc647e8878ed052f43244d6e23320f9e3ce24e78044f896064747e11b5"
+    },
+    "recovery_figure": {
+      "path": "../P01_recovery_native_review/decreasing_setpoints_and_final100pA.png",
+      "sha256": "d6255cc0ea9a7ab387562b003b5a03c7358612f5fc2957339be2b1af32cfb676"
+    },
+    "prior_full204_review": {
+      "path": "../compare202_204_offline/manual_review.json",
+      "sha256": "9a8c7dd3d895791798b11dc8d3b4c098af6553b6fd9133aa44ab84fe91237ff5"
+    }
+  },
+  "notes": [
+    "NoSkill/Git/sharedstatechange",
+    "Earlier583prepareversionpreserved",
+    "Onlyexplicitboundednativewindowsaudited; interveningunexaminedgapnotinventedcontinuousreview",
+    "Countsunchanged; currentonlyprocessnotpulseafter"
+  ],
+  "_portable_export": {
+    "source_sha256": "ddf3952c51288c883563a6e65eb57e321e791126ae02addd0f2b8f2564c82e26",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

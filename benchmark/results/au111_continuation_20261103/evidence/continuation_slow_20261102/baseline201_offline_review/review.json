@@ -1,0 +1,1705 @@
+{
+  "created_utc": "2026-11-02T16:39:16.032347+00:00",
+  "scope": "Offline completed local201 image and fixed closedDAT73..111 only. No hardware/network/SMB/CUA/control imports.",
+  "image_sources": [
+    {
+      "path": "../../session_02/baseline_segment03_full/analysis/quality_report.json",
+      "sha256": "e21a54313e109f6b13e2c80dbf803ed7d05bc9f98c7402795626259c388fbb78"
+    },
+    {
+      "path": "../../session_02/baseline_segment03_full/analysis/analysis_planes.npz",
+      "sha256": "e733a0b518d288208a23c468fd71ea8404ec1d0f2857817124b2b47225d42a9b"
+    },
+    {
+      "path": "../../session_02/baseline_segment03_full/native/BM261029_00201.sxm",
+      "sha256": "c7df6426519e54fbdcc5586ce1c321b207fb62741294b1e3f7424d86a401f5cf"
+    }
+  ],
+  "source_figure": {
+    "path": "../../session_02/baseline_segment03_full/analysis/Z_raw_globalplane_FB.png",
+    "sha256": "f1adc426c7aec032e2c102d1749c8c5e592566bc99ff6af96d97455ede21557f"
+  },
+  "native_sources": [
+    {
+      "path": "local-archive:102bc4ac6ac1a76c",
+      "sha256": "b96a319c1a4b338d20e0d1796bd5bfc0e69c529e1fa649c9454e9b36732d2133"
+    },
+    {
+      "path": "local-archive:4e7d394ae8b18753",
+      "sha256": "c99a77296ce5851c33794c63f7901b686e4b3bc8063517b476a33d8d5deaaf08"
+    },
+    {
+      "path": "local-archive:539b737df90c8edd",
+      "sha256": "886b3d6c92cf7f8247594eeb701e74a94403fe8da886f99f6288f4967d50d61a"
+    },
+    {
+      "path": "local-archive:07add8412c80f114",
+      "sha256": "908c536f873b72be2a61e2b6dfa4f3797996aaa37cc73746e17c68381289e80b"
+    },
+    {
+      "path": "local-archive:cc288a2a83ee9b70",
+      "sha256": "69b368ec6ce6be061d092577b0be0693a2d28d7772988d119fc793c82375283b"
+    },
+    {
+      "path": "local-archive:16ef02c870c8bea8",
+      "sha256": "5a7ce40f59f4e5a340012defd4005f154f4964e6be458c0f825ec57cbb9eae37"
+    },
+    {
+      "path": "local-archive:8a3387e4edee8401",
+      "sha256": "6538466078b9e2c4241fd25e963e16c652b6ff45a62c1de3a50a9faeca4bbe90"
+    },
+    {
+      "path": "local-archive:b0edf507748c0218",
+      "sha256": "dc32658fd5b733ee96bf8df67d33d43c78a0fc6aa607bcef26ada654e60eab3c"
+    },
+    {
+      "path": "local-archive:11eb455cd7537a00",
+      "sha256": "8a580f1ee4ad8a4a954dfeddda6f56d804a2ac68c7cfb34931f08a5fed04075d"
+    },
+    {
+      "path": "local-archive:a6acd201faeab4a3",
+      "sha256": "146cadfc3a92e689be57b9b285947ad215701dab41af8cc788b2fcc0768ad35f"
+    },
+    {
+      "path": "local-archive:43b68e249e59ed57",
+      "sha256": "14c87cf950934f513dcd0fe5efde4131e1667527c8dcb4226f5c28608ec04d5e"
+    },
+    {
+      "path": "local-archive:6b564bd53f0c8a12",
+      "sha256": "62460191fb2aeb33487b356ea8860399d946a0038adcd041a6343d1c6990829f"
+    },
+    {
+      "path": "local-archive:2981b991357009d6",
+      "sha256": "1040051905428a3f91721d84000500cf2188f4a9a0930ebcfc8ccd2e5d64f73f"
+    },
+    {
+      "path": "local-archive:512b29ab0731a588",
+      "sha256": "4a02d918d24658b3967bec29c40315b84ecb92cccceaf1f8c0fbb3fa39dd238c"
+    },
+    {
+      "path": "local-archive:35a6253e63194cbc",
+      "sha256": "eddb10b9ee8711fedf2ef4614e7b42a7243e9a3b9b259bae96a106f37c1457e4"
+    },
+    {
+      "path": "local-archive:b608a08732f96619",
+      "sha256": "fc051f1663cbae6a93b08c4d7fbcd16ca91bf81e810ffa965a979e9acff95810"
+    },
+    {
+      "path": "local-archive:0d97277f90bfb20f",
+      "sha256": "cdf2b1871c74ac8b28abf04b373c0e4a1427338182a0e99b55419670a891a6f0"
+    },
+    {
+      "path": "local-archive:14bf76790c180e9f",
+      "sha256": "48e5a2edaea24a1c8a296a6e100b3567fb300ad8d1b763edba60c7a13f3f1d77"
+    },
+    {
+      "path": "local-archive:7e60e727410f8207",
+      "sha256": "020db8aa92b81de7ed90f834c67a5d136fbd897448d5fe2cf88e1e4449bbb3a0"
+    },
+    {
+      "path": "local-archive:b83e8e3990731b45",
+      "sha256": "cf3913a19ab24f4dc573384ff1ed554b436b3971b47968481a51a9fdee58a7d7"
+    },
+    {
+      "path": "local-archive:a92f24caaec42635",
+      "sha256": "a8c395a730f703400de7a994189b3604190334e5d8cb45852a6ef027cf9438fe"
+    },
+    {
+      "path": "local-archive:152a91018fe0e2b4",
+      "sha256": "6a8802dc9c84838e601d92645c52dd7e3f2ee0085146f99270b2eae7d2a85a19"
+    },
+    {
+      "path": "local-archive:1cca62f0c6d96509",
+      "sha256": "d2deae6fa2b3d59b5c2b7dd0aae99d89f3f4b8e9c51dc9ed7391c63b048e838b"
+    },
+    {
+      "path": "local-archive:1e7a41be4fc561dd",
+      "sha256": "883f5b231595436f6f3f803ea3348d4529c8bd9b8e32b9782ccf4769cf48c655"
+    },
+    {
+      "path": "local-archive:4a615e80669742be",
+      "sha256": "6183194d30d8b2990b9ff951aab72335a8977e87c00adacf85579d8d35e62425"
+    },
+    {
+      "path": "local-archive:5a72ad208b258677",
+      "sha256": "e94c4af1d62f5f133f5d3e62dce6a906b5e1d0c9456c5eb72002b9c94ff88015"
+    },
+    {
+      "path": "local-archive:7616b4abeb00a07f",
+      "sha256": "561b2a2ce0e2d7b7f76338f7fc3c6884dbc3c98bd6eae9d827e3ac660ecc69ca"
+    },
+    {
+      "path": "local-archive:37ad155c96a1b36b",
+      "sha256": "5dd422d340d57cc98b67bded9ce0c9546c8c4849a40b6a5cdab95a22bd5ecf29"
+    },
+    {
+      "path": "local-archive:7f7d7ad77d7a0912",
+      "sha256": "3da936a3e10ddcb6d3d16389ce7d13bd71a5937205a01869d2c1117898ecd556"
+    },
+    {
+      "path": "local-archive:4863c07247458803",
+      "sha256": "bba3828db6830b42d948e7ec4d4f4f39716410c27aa45a029b3eeefcb38e8c0b"
+    },
+    {
+      "path": "local-archive:0e8e5371ef373f7b",
+      "sha256": "6c2b9625aeb6698f245cd76efbb3dea296b712bd4e933f99b472a402354c34b6"
+    },
+    {
+      "path": "local-archive:99607a1370b6258f",
+      "sha256": "1c200a799b0bbb1e628eca895915ce558fa8d19f0ce97407cf6bae6b4d106a2c"
+    },
+    {
+      "path": "local-archive:8ecf05372e62ae05",
+      "sha256": "a90e0f65629028da1c259f217a0f75b62082380105eaa3704acd55189e8461be"
+    },
+    {
+      "path": "local-archive:05542d3e9b06d907",
+      "sha256": "6577609a6a8ddaa166b1a72ee692511a55340374e8e0d0e7c9d2c1d6f3575a9c"
+    },
+    {
+      "path": "local-archive:dde500f4eeedb85d",
+      "sha256": "0adffee5073144bd0f2073efca4819eb44d31dd13dad34df80e537b52ba3a919"
+    },
+    {
+      "path": "local-archive:cbf7a3b81871207d",
+      "sha256": "8787487bbac335a71fa13d9f401ca5a1320f721391ad5726e07d0ddfc2aab63c"
+    },
+    {
+      "path": "local-archive:34b39304a39d34b0",
+      "sha256": "2f5bdaedf5216d213aaa5ee1eeac9773cff5fc2b8cc1485672fbe04c429fa18c"
+    },
+    {
+      "path": "local-archive:5b3bc5f37acfc520",
+      "sha256": "f59931f5644b94a4851d042ffc5f9bb716ce7d0af95dbfe2ba5e54f910f21916"
+    },
+    {
+      "path": "local-archive:12041aa1bdb7685c",
+      "sha256": "fd6cc6776f9d4cfddf9cdae4c968d4dfe68838bb0f9433465943f474f40ebe2d"
+    }
+  ],
+  "finite_native_scalars": 5850000,
+  "native_sample_period_s": 0.0005,
+  "all_reviewed_Bias_V": -1,
+  "phase_statistics": {
+    "pre_start_counter_safe": {
+      "native_s_half_open": [
+        900,
+        918.83
+      ],
+      "samples": 37660,
+      "I_pA": {
+        "min": -192.35394000000002,
+        "max": -60.419586,
+        "mean": -107.86122588595327,
+        "median": -106.20007,
+        "std": 18.27064842528063,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 911.861,
+          "block": 73,
+          "zero_based_row": 23722
+        }
+      },
+      "Z_nm": {
+        "min": -104.87281,
+        "max": -104.79773,
+        "first": -104.83864,
+        "last": -104.80871,
+        "linear_slope_pm_s": 0.7805878991192148,
+        "linear_residual_RMS_pm": 8.45955026012709,
+        "max_adjacent_sample_change_pm": 18.88000000001
+      },
+      "Z_trend_interpretation": "stationary-position diagnostic; residual creep/noise, not a pass threshold"
+    },
+    "start_boundary": {
+      "native_s_half_open": [
+        918.83,
+        919.95
+      ],
+      "samples": 2240,
+      "I_pA": {
+        "min": -274.37955,
+        "max": -19.183474,
+        "mean": -103.03882222410714,
+        "median": -100.90755999999999,
+        "std": 21.331674136871708,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 919.362,
+          "block": 74,
+          "zero_based_row": 13724
+        }
+      },
+      "Z_nm": {
+        "min": -107.85266,
+        "max": -103.92596,
+        "first": -104.81631,
+        "last": -107.84353,
+        "linear_slope_pm_s": -3771.397281270705,
+        "linear_residual_RMS_pm": 758.6542604270722,
+        "max_adjacent_sample_change_pm": 67.36000000000786
+      },
+      "Z_trend_interpretation": "moving/transition interval: topography or positioning contributes; NOT stationary drift/noise"
+    },
+    "scan_core_counter_safe": {
+      "native_s_half_open": [
+        919.95,
+        1357.62
+      ],
+      "samples": 875340,
+      "I_pA": {
+        "min": -3220.489,
+        "max": -2.5764180000000003,
+        "mean": -101.16478295582677,
+        "median": -99.79565099999999,
+        "std": 23.044608047068547,
+        "abs_ge400_count": 674,
+        "abs_ge1000_count": 97,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1356.7735,
+          "block": 109,
+          "zero_based_row": 13547
+        }
+      },
+      "Z_nm": {
+        "min": -108.12407,
+        "max": -104.25036,
+        "first": -107.84299,
+        "last": -107.20053,
+        "linear_slope_pm_s": 2.7903216451941586,
+        "linear_residual_RMS_pm": 151.27699917249774,
+        "max_adjacent_sample_change_pm": 142.3599999999965
+      },
+      "Z_trend_interpretation": "moving/transition interval: topography or positioning contributes; NOT stationary drift/noise"
+    },
+    "end_boundary": {
+      "native_s_half_open": [
+        1357.62,
+        1358.19
+      ],
+      "samples": 1140,
+      "I_pA": {
+        "min": -219.58951,
+        "max": -75.71728,
+        "mean": -105.06217367105263,
+        "median": -101.182445,
+        "std": 15.256285586935185,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1358.0505,
+          "block": 109,
+          "zero_based_row": 16101
+        }
+      },
+      "Z_nm": {
+        "min": -107.20353,
+        "max": -105.30734,
+        "first": -107.20084999999999,
+        "last": -105.32347,
+        "linear_slope_pm_s": 3917.373931254408,
+        "linear_residual_RMS_pm": 336.7708794384308,
+        "max_adjacent_sample_change_pm": 32.18000000001098
+      },
+      "Z_trend_interpretation": "moving/transition interval: topography or positioning contributes; NOT stationary drift/noise"
+    },
+    "early_post_and_positioning": {
+      "native_s_half_open": [
+        1358.19,
+        1359
+      ],
+      "samples": 1620,
+      "I_pA": {
+        "min": -192.79858000000002,
+        "max": -64.882932,
+        "mean": -107.13163549382715,
+        "median": -105.96370999999999,
+        "std": 14.535176274611254,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1358.7335,
+          "block": 109,
+          "zero_based_row": 17467
+        }
+      },
+      "Z_nm": {
+        "min": -105.33122,
+        "max": -104.88380000000001,
+        "first": -105.31978000000001,
+        "last": -104.89721999999999,
+        "linear_slope_pm_s": 543.2743693430972,
+        "linear_residual_RMS_pm": 24.98380875143482,
+        "max_adjacent_sample_change_pm": 12.449999999986971
+      },
+      "Z_trend_interpretation": "moving/transition interval: topography or positioning contributes; NOT stationary drift/noise"
+    },
+    "post_to_archive_end": {
+      "native_s_half_open": [
+        1359,
+        1387.5
+      ],
+      "samples": 57000,
+      "I_pA": {
+        "min": -228.37322,
+        "max": -58.72539999999999,
+        "mean": -107.77960170019297,
+        "median": -106.542935,
+        "std": 16.21158508050733,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1374.208,
+          "block": 110,
+          "zero_based_row": 23416
+        }
+      },
+      "Z_nm": {
+        "min": -104.91484,
+        "max": -104.59092,
+        "first": -104.89384,
+        "last": -104.61314,
+        "linear_slope_pm_s": 6.341807873333184,
+        "linear_residual_RMS_pm": 31.74513005208237,
+        "max_adjacent_sample_change_pm": 19.290000000012242
+      },
+      "Z_trend_interpretation": "stationary-position diagnostic; residual creep/noise, not a pass threshold"
+    },
+    "archive_last20s": {
+      "native_s_half_open": [
+        1367.5,
+        1387.5
+      ],
+      "samples": 40000,
+      "I_pA": {
+        "min": -228.37322,
+        "max": -58.72539999999999,
+        "mean": -107.75900548290001,
+        "median": -106.53691,
+        "std": 16.201847509008296,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1374.208,
+          "block": 110,
+          "zero_based_row": 23416
+        }
+      },
+      "Z_nm": {
+        "min": -104.71535,
+        "max": -104.59092,
+        "first": -104.70649,
+        "last": -104.61314,
+        "linear_slope_pm_s": 2.94090359467651,
+        "linear_residual_RMS_pm": 11.968563523521803,
+        "max_adjacent_sample_change_pm": 19.290000000012242
+      },
+      "Z_trend_interpretation": "stationary-position diagnostic; residual creep/noise, not a pass threshold"
+    },
+    "archive_last10s": {
+      "native_s_half_open": [
+        1377.5,
+        1387.5
+      ],
+      "samples": 20000,
+      "I_pA": {
+        "min": -172.15772,
+        "max": -67.518428,
+        "mean": -107.36929537760001,
+        "median": -106.477935,
+        "std": 12.9920919064838,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "abs_ge4000_count": 0,
+        "software_lower_matching_count": 0,
+        "min_event": {
+          "native_s": 1377.6555,
+          "block": 111,
+          "zero_based_row": 5311
+        }
+      },
+      "Z_nm": {
+        "min": -104.64797,
+        "max": -104.59092,
+        "first": -104.62742,
+        "last": -104.61314,
+        "linear_slope_pm_s": 1.0717237847324976,
+        "linear_residual_RMS_pm": 8.204580429907695,
+        "max_adjacent_sample_change_pm": 15.269999999986794
+      },
+      "Z_trend_interpretation": "stationary-position diagnostic; residual creep/noise, not a pass threshold"
+    }
+  },
+  "host_counter_anchors": [
+    {
+      "utc": "2026-11-02T16:23:31.304217+00:00",
+      "monotonic_ns": 1508055880986416,
+      "native_s_from_completed_block_and_counter": 918.27
+    },
+    {
+      "utc": "2026-11-02T16:23:31.864447+00:00",
+      "monotonic_ns": 1508056441215083,
+      "native_s_from_completed_block_and_counter": 918.83
+    },
+    {
+      "utc": "2026-11-02T16:23:32.391542+00:00",
+      "monotonic_ns": 1508056968309958,
+      "native_s_from_completed_block_and_counter": 919.36
+    },
+    {
+      "utc": "2026-11-02T16:23:32.973594+00:00",
+      "monotonic_ns": 1508057550359916,
+      "native_s_from_completed_block_and_counter": 919.95
+    },
+    {
+      "utc": "2026-11-02T16:23:33.496710+00:00",
+      "monotonic_ns": 1508058073477208,
+      "native_s_from_completed_block_and_counter": 920.46
+    },
+    {
+      "utc": "2026-11-02T16:23:34.084470+00:00",
+      "monotonic_ns": 1508058661230708,
+      "native_s_from_completed_block_and_counter": 921.06
+    },
+    {
+      "utc": "2026-11-02T16:23:34.613733+00:00",
+      "monotonic_ns": 1508059190489875,
+      "native_s_from_completed_block_and_counter": 921.58
+    },
+    {
+      "utc": "2026-11-02T16:30:50.087646+00:00",
+      "monotonic_ns": 1508494661486500,
+      "native_s_from_completed_block_and_counter": 1357.06
+    },
+    {
+      "utc": "2026-11-02T16:30:50.635568+00:00",
+      "monotonic_ns": 1508495209390416,
+      "native_s_from_completed_block_and_counter": 1357.62
+    },
+    {
+      "utc": "2026-11-02T16:30:51.220663+00:00",
+      "monotonic_ns": 1508495794469916,
+      "native_s_from_completed_block_and_counter": 1358.19
+    },
+    {
+      "utc": "2026-11-02T16:30:51.739391+00:00",
+      "monotonic_ns": 1508496313185750,
+      "native_s_from_completed_block_and_counter": 1358.72
+    },
+    {
+      "utc": "2026-11-02T16:30:52.257686+00:00",
+      "monotonic_ns": 1508496831478708,
+      "native_s_from_completed_block_and_counter": 1359.23
+    },
+    {
+      "utc": "2026-11-02T16:30:52.799062+00:00",
+      "monotonic_ns": 1508497372841291,
+      "native_s_from_completed_block_and_counter": 1359.78
+    },
+    {
+      "utc": "2026-11-02T16:30:53.372168+00:00",
+      "monotonic_ns": 1508497945936166,
+      "native_s_from_completed_block_and_counter": 1360.35
+    },
+    {
+      "utc": "2026-11-02T16:30:53.904329+00:00",
+      "monotonic_ns": 1508498478088375,
+      "native_s_from_completed_block_and_counter": 1360.88
+    }
+  ],
+  "timing_limit": "Counter/status values and RPC completion are asynchronous. Core/boundary separation is conservative host-counter attribution, not hardware-trigger synchronization. Nominal row mapping uses~919.34s plus1.824s/row, for line-level consistency only.",
+  "scan_events": [
+    {
+      "path": "../../session_02/baseline_segment03_full/scan_start.claim",
+      "sha256": "cf36d927a6443d379e8275425ae39c3849d062f0d1e3fac7c6c96bf96b7d4b94"
+    },
+    {
+      "path": "local-archive:06747ba144f9d7f6",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    {
+      "path": "../../session_02/baseline_segment03_full/outcome.json",
+      "sha256": "6bbb4f92a770b8e99692310f47104e823754dedbaca58f50844e574707545f59"
+    },
+    {
+      "path": "local-archive:08e2d19cb63e932a",
+      "sha256": "2d04358741dbbf641f5c759d97db632a977fa6303b80c468e8558d1d47fc9bcb"
+    }
+  ],
+  "image_summary": {
+    "raw_Z_FB": {
+      "paired_finite": 57600,
+      "raw_RMSE": 45.89233702325706,
+      "mean_offset": -3.1965552427237753,
+      "offset_removed_RMS": 45.78087626986214,
+      "correlation": 0.9928846133313167
+    },
+    "pixel_current": {
+      "F": {
+        "minimum": -582.7205384889567,
+        "maximum": -22.555231987686497,
+        "median": -99.44821008356364,
+        "RMS_about_mean": 12.583573551324703,
+        "minimum_stored_rc": [
+          212,
+          71
+        ],
+        "minimum_nominal_XY_nm": [
+          -10.104166666666666,
+          -19.270833333333336
+        ],
+        "abs_ge400pA_count": 9,
+        "abs_ge1000pA_count": 0,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      },
+      "B": {
+        "minimum": -677.784661728964,
+        "maximum": -52.71649783367138,
+        "median": -100.34078082310494,
+        "RMS_about_mean": 11.976674622196038,
+        "minimum_stored_rc": [
+          227,
+          0
+        ],
+        "minimum_nominal_XY_nm": [
+          -24.895833333333332,
+          -22.395833333333336
+        ],
+        "abs_ge400pA_count": 11,
+        "abs_ge1000pA_count": 0,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      }
+    },
+    "existing_fullwidth_manual_flags": {
+      "F": [
+        {
+          "stored_rows": [
+            86,
+            87
+          ],
+          "nominal_boundary_Y_nm": 6.875,
+          "quarter_delta_pm": [
+            73.65130727521318,
+            71.51257364057528,
+            71.42020308492647,
+            8.37374614093278
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            125,
+            126
+          ],
+          "nominal_boundary_Y_nm": -1.25,
+          "quarter_delta_pm": [
+            152.4576020983659,
+            159.03367511782562,
+            167.26886542528518,
+            57.99805080641818
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            141,
+            142
+          ],
+          "nominal_boundary_Y_nm": -4.583333333333334,
+          "quarter_delta_pm": [
+            -122.11032185405202,
+            -223.04647018245305,
+            -165.76606753915257,
+            -8.114398042380344
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            151,
+            152
+          ],
+          "nominal_boundary_Y_nm": -6.666666666666666,
+          "quarter_delta_pm": [
+            106.02363431644335,
+            72.3403559277358,
+            46.799897290839,
+            65.84244260920968
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            152,
+            153
+          ],
+          "nominal_boundary_Y_nm": -6.875,
+          "quarter_delta_pm": [
+            164.75354414069443,
+            193.24275513099565,
+            182.58816680827294,
+            180.26469206233742
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            153,
+            154
+          ],
+          "nominal_boundary_Y_nm": -7.083333333333334,
+          "quarter_delta_pm": [
+            -200.42989490320906,
+            -196.98376263477257,
+            -139.41559018348926,
+            -186.84076508179714
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            189,
+            190
+          ],
+          "nominal_boundary_Y_nm": -14.583333333333332,
+          "quarter_delta_pm": [
+            -109.9067503673723,
+            -54.33165028989606,
+            -40.36238010485249,
+            -55.16298529073538
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            215,
+            216
+          ],
+          "nominal_boundary_Y_nm": -20.0,
+          "quarter_delta_pm": [
+            214.49508835758024,
+            155.71188782814716,
+            125.86198749886535,
+            49.87654733668023
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            216,
+            217
+          ],
+          "nominal_boundary_Y_nm": -20.208333333333332,
+          "quarter_delta_pm": [
+            -333.2516484988446,
+            -323.16194165105117,
+            -151.23546859285852,
+            -98.5487247362471
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            220,
+            221
+          ],
+          "nominal_boundary_Y_nm": -21.041666666666668,
+          "quarter_delta_pm": [
+            221.57209400575084,
+            348.0558063984063,
+            13.447021274259896,
+            270.1696644180629
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            222,
+            223
+          ],
+          "nominal_boundary_Y_nm": -21.458333333333332,
+          "quarter_delta_pm": [
+            298.91467079323775,
+            -235.72965801577084,
+            -231.35271476348862,
+            -253.72060008521657
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            228,
+            229
+          ],
+          "nominal_boundary_Y_nm": -22.708333333333332,
+          "quarter_delta_pm": [
+            -63.04290423031489,
+            278.7174935292569,
+            206.64003841375234,
+            74.38316629304609
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            230,
+            231
+          ],
+          "nominal_boundary_Y_nm": -23.125,
+          "quarter_delta_pm": [
+            -87.9758488281368,
+            -298.3924218824541,
+            -173.88757100889052,
+            -199.53461105615133
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            233,
+            234
+          ],
+          "nominal_boundary_Y_nm": -23.75,
+          "quarter_delta_pm": [
+            -51.90159413359652,
+            -53.717030823463574,
+            -56.32827537738194,
+            -23.46567384847731
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            234,
+            235
+          ],
+          "nominal_boundary_Y_nm": -23.958333333333332,
+          "quarter_delta_pm": [
+            61.42997222013946,
+            58.46345629834104,
+            54.53415496958769,
+            12.633449841814581
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        }
+      ],
+      "B": [
+        {
+          "stored_rows": [
+            85,
+            86
+          ],
+          "nominal_boundary_Y_nm": 7.083333333333334,
+          "quarter_delta_pm": [
+            72.88036840691348,
+            74.72422680621094,
+            87.9403216913488,
+            91.21237098952406
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            125,
+            126
+          ],
+          "nominal_boundary_Y_nm": -1.25,
+          "quarter_delta_pm": [
+            113.4345950504212,
+            117.88614528995822,
+            117.7014041786606,
+            66.52456363553938
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            150,
+            151
+          ],
+          "nominal_boundary_Y_nm": -6.458333333333334,
+          "quarter_delta_pm": [
+            216.15775835925888,
+            224.69137661573768,
+            71.6049441962241,
+            174.04033769707894
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            151,
+            152
+          ],
+          "nominal_boundary_Y_nm": -6.666666666666666,
+          "quarter_delta_pm": [
+            -95.11325060884701,
+            -147.17116414431075,
+            -144.89387467619963,
+            -87.9794015418156
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            185,
+            186
+          ],
+          "nominal_boundary_Y_nm": -13.75,
+          "quarter_delta_pm": [
+            14.097167877480388,
+            -115.6301721039199,
+            -100.19007845585293,
+            -116.81677847263927
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            186,
+            187
+          ],
+          "nominal_boundary_Y_nm": -13.958333333333332,
+          "quarter_delta_pm": [
+            36.04583298510988,
+            59.77085493213963,
+            68.42881816737645,
+            55.01732402990456
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            211,
+            212
+          ],
+          "nominal_boundary_Y_nm": -19.166666666666668,
+          "quarter_delta_pm": [
+            101.99840971836238,
+            110.70966365878121,
+            41.05515927221859,
+            57.621463156465325
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            219,
+            220
+          ],
+          "nominal_boundary_Y_nm": -20.833333333333332,
+          "quarter_delta_pm": [
+            152.33680983328668,
+            253.2409837385785,
+            226.49260245088954,
+            -5.8122395785176195
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            222,
+            223
+          ],
+          "nominal_boundary_Y_nm": -21.458333333333332,
+          "quarter_delta_pm": [
+            -170.2495922017988,
+            -278.7352570976509,
+            -245.77317958573985,
+            -244.7784197556757
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            227,
+            228
+          ],
+          "nominal_boundary_Y_nm": -22.5,
+          "quarter_delta_pm": [
+            75.75451377306308,
+            88.6579698544665,
+            59.84190920571564,
+            39.08340318048431
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            229,
+            230
+          ],
+          "nominal_boundary_Y_nm": -22.916666666666668,
+          "quarter_delta_pm": [
+            209.61721247658716,
+            -62.311045212481986,
+            142.14762700248684,
+            250.2602569620649
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            230,
+            231
+          ],
+          "nominal_boundary_Y_nm": -23.125,
+          "quarter_delta_pm": [
+            -322.0286259875138,
+            -295.9197331620089,
+            -223.4941121059819,
+            -246.0183168295771
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            238,
+            239
+          ],
+          "nominal_boundary_Y_nm": -24.791666666666668,
+          "quarter_delta_pm": [
+            -47.92255481333996,
+            -54.441784413938876,
+            -50.71498776487715,
+            -54.6123146705213
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        }
+      ]
+    },
+    "selected_raw_quarter_row_changes": [
+      {
+        "direction": "F",
+        "stored_rows": [
+          85,
+          86
+        ],
+        "boundary_Y_nm": 7.083333333333332,
+        "quarter_raw_median_delta_pm": [
+          3.709033080667723,
+          1.3962164757685969,
+          2.5366375666635577,
+          86.39844395474938
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          86,
+          87
+        ],
+        "boundary_Y_nm": 6.875,
+        "quarter_raw_median_delta_pm": [
+          73.65130727521318,
+          71.51257364057528,
+          71.42020308492647,
+          8.37374614093278
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          125,
+          126
+        ],
+        "boundary_Y_nm": -1.25,
+        "quarter_raw_median_delta_pm": [
+          152.4576020983659,
+          159.03367511782562,
+          167.26886542528518,
+          57.99805080641818
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          140,
+          141
+        ],
+        "boundary_Y_nm": -4.375,
+        "quarter_raw_median_delta_pm": [
+          -2.675193400136777,
+          228.25119572189578,
+          207.36123929054884,
+          2.6005864128819667
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          141,
+          142
+        ],
+        "boundary_Y_nm": -4.583333333333332,
+        "quarter_raw_median_delta_pm": [
+          -122.11032185405202,
+          -223.04647018245305,
+          -165.76606753915257,
+          -8.114398042380344
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          150,
+          151
+        ],
+        "boundary_Y_nm": -6.458333333333332,
+        "quarter_raw_median_delta_pm": [
+          18.737011941993842,
+          11.603162874962436,
+          -131.2479014359269,
+          18.4385839929746
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          151,
+          152
+        ],
+        "boundary_Y_nm": -6.666666666666668,
+        "quarter_raw_median_delta_pm": [
+          106.02363431644335,
+          72.3403559277358,
+          46.799897290839,
+          65.84244260920968
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          152,
+          153
+        ],
+        "boundary_Y_nm": -6.875,
+        "quarter_raw_median_delta_pm": [
+          164.75354414069443,
+          193.24275513099565,
+          182.58816680827294,
+          180.26469206233742
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          153,
+          154
+        ],
+        "boundary_Y_nm": -7.083333333333336,
+        "quarter_raw_median_delta_pm": [
+          -200.42989490320906,
+          -196.98376263477257,
+          -139.41559018348926,
+          -186.84076508179714
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          185,
+          186
+        ],
+        "boundary_Y_nm": -13.75,
+        "quarter_raw_median_delta_pm": [
+          -118.37997249131149,
+          -32.31548362236936,
+          -45.993431285751285,
+          -113.4523586188152
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          186,
+          187
+        ],
+        "boundary_Y_nm": -13.958333333333336,
+        "quarter_raw_median_delta_pm": [
+          -19.181101151843905,
+          -53.00293537402467,
+          91.39000667346409,
+          57.22711193811847
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          189,
+          190
+        ],
+        "boundary_Y_nm": -14.583333333333336,
+        "quarter_raw_median_delta_pm": [
+          -109.9067503673723,
+          -54.33165028989606,
+          -40.36238010485249,
+          -55.16298529073538
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          211,
+          212
+        ],
+        "boundary_Y_nm": -19.166666666666664,
+        "quarter_raw_median_delta_pm": [
+          -2.383870878475136,
+          28.830271503466065,
+          28.467894708228414,
+          74.4506678529433
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          215,
+          216
+        ],
+        "boundary_Y_nm": -20.0,
+        "quarter_raw_median_delta_pm": [
+          214.49508835758024,
+          155.71188782814716,
+          125.86198749886535,
+          49.87654733668023
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          216,
+          217
+        ],
+        "boundary_Y_nm": -20.208333333333336,
+        "quarter_raw_median_delta_pm": [
+          -333.2516484988446,
+          -323.16194165105117,
+          -151.23546859285852,
+          -98.5487247362471
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          219,
+          220
+        ],
+        "boundary_Y_nm": -20.833333333333336,
+        "quarter_raw_median_delta_pm": [
+          3.240074875066057,
+          3.1228353236656403,
+          182.15473573945928,
+          -5.751843445978011
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          220,
+          221
+        ],
+        "boundary_Y_nm": -21.041666666666664,
+        "quarter_raw_median_delta_pm": [
+          221.57209400575084,
+          348.0558063984063,
+          13.447021274259896,
+          270.1696644180629
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          222,
+          223
+        ],
+        "boundary_Y_nm": -21.458333333333336,
+        "quarter_raw_median_delta_pm": [
+          298.91467079323775,
+          -235.72965801577084,
+          -231.35271476348862,
+          -253.72060008521657
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          228,
+          229
+        ],
+        "boundary_Y_nm": -22.708333333333336,
+        "quarter_raw_median_delta_pm": [
+          -63.04290423031489,
+          278.7174935292569,
+          206.64003841375234,
+          74.38316629304609
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          230,
+          231
+        ],
+        "boundary_Y_nm": -23.125,
+        "quarter_raw_median_delta_pm": [
+          -87.9758488281368,
+          -298.3924218824541,
+          -173.88757100889052,
+          -199.53461105615133
+        ]
+      },
+      {
+        "direction": "F",
+        "stored_rows": [
+          238,
+          239
+        ],
+        "boundary_Y_nm": -24.791666666666664,
+        "quarter_raw_median_delta_pm": [
+          9.180212146020494,
+          11.887379969266476,
+          3.879563337250147,
+          -55.997873005253496
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          85,
+          86
+        ],
+        "boundary_Y_nm": 7.083333333333332,
+        "quarter_raw_median_delta_pm": [
+          72.88036840691348,
+          74.72422680621094,
+          87.9403216913488,
+          91.21237098952406
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          86,
+          87
+        ],
+        "boundary_Y_nm": 6.875,
+        "quarter_raw_median_delta_pm": [
+          24.552804234190262,
+          19.205970147595508,
+          -12.583711850311374,
+          11.436185332058812
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          125,
+          126
+        ],
+        "boundary_Y_nm": -1.25,
+        "quarter_raw_median_delta_pm": [
+          113.4345950504212,
+          117.88614528995822,
+          117.7014041786606,
+          66.52456363553938
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          140,
+          141
+        ],
+        "boundary_Y_nm": -4.375,
+        "quarter_raw_median_delta_pm": [
+          -90.24603286889032,
+          20.037305148434825,
+          185.34507262302213,
+          17.024603948812
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          141,
+          142
+        ],
+        "boundary_Y_nm": -4.583333333333332,
+        "quarter_raw_median_delta_pm": [
+          -16.09734567864507,
+          -15.46496264381858,
+          -7.119638212316204,
+          -22.726709403286804
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          150,
+          151
+        ],
+        "boundary_Y_nm": -6.458333333333332,
+        "quarter_raw_median_delta_pm": [
+          216.15775835925888,
+          224.69137661573768,
+          71.6049441962241,
+          174.04033769707894
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          151,
+          152
+        ],
+        "boundary_Y_nm": -6.666666666666668,
+        "quarter_raw_median_delta_pm": [
+          -95.11325060884701,
+          -147.17116414431075,
+          -144.89387467619963,
+          -87.9794015418156
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          152,
+          153
+        ],
+        "boundary_Y_nm": -6.875,
+        "quarter_raw_median_delta_pm": [
+          -37.00151296470722,
+          -10.949463558063144,
+          112.54996934439987,
+          182.9754125992622
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          153,
+          154
+        ],
+        "boundary_Y_nm": -7.083333333333336,
+        "quarter_raw_median_delta_pm": [
+          1.6129320101754274,
+          2.739142246355186,
+          -20.225598973411252,
+          -188.48922422876058
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          185,
+          186
+        ],
+        "boundary_Y_nm": -13.75,
+        "quarter_raw_median_delta_pm": [
+          14.097167877480388,
+          -115.6301721039199,
+          -100.19007845585293,
+          -116.81677847263927
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          186,
+          187
+        ],
+        "boundary_Y_nm": -13.958333333333336,
+        "quarter_raw_median_delta_pm": [
+          36.04583298510988,
+          59.77085493213963,
+          68.42881816737645,
+          55.01732402990456
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          189,
+          190
+        ],
+        "boundary_Y_nm": -14.583333333333336,
+        "quarter_raw_median_delta_pm": [
+          49.97957603336545,
+          -48.52296342505724,
+          14.740209053343278,
+          -28.71658466574445
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          211,
+          212
+        ],
+        "boundary_Y_nm": -19.166666666666664,
+        "quarter_raw_median_delta_pm": [
+          101.99840971836238,
+          110.70966365878121,
+          41.05515927221859,
+          57.621463156465325
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          215,
+          216
+        ],
+        "boundary_Y_nm": -20.0,
+        "quarter_raw_median_delta_pm": [
+          -252.60860070375202,
+          -4.405364961712621,
+          74.83791364393255,
+          44.085624040235416
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          216,
+          217
+        ],
+        "boundary_Y_nm": -20.208333333333336,
+        "quarter_raw_median_delta_pm": [
+          33.84315050425357,
+          -11.947776101806085,
+          -73.17169092857512,
+          -93.80940468872723
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          219,
+          220
+        ],
+        "boundary_Y_nm": -20.833333333333336,
+        "quarter_raw_median_delta_pm": [
+          152.33680983328668,
+          253.2409837385785,
+          226.49260245088954,
+          -5.8122395785176195
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          220,
+          221
+        ],
+        "boundary_Y_nm": -21.041666666666664,
+        "quarter_raw_median_delta_pm": [
+          -93.39373718830757,
+          17.58948542374128,
+          5.996980689815246,
+          236.2483542128757
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          222,
+          223
+        ],
+        "boundary_Y_nm": -21.458333333333336,
+        "quarter_raw_median_delta_pm": [
+          -170.2495922017988,
+          -278.7352570976509,
+          -245.77317958573985,
+          -244.7784197556757
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          228,
+          229
+        ],
+        "boundary_Y_nm": -22.708333333333336,
+        "quarter_raw_median_delta_pm": [
+          12.793321957360604,
+          283.28273060651554,
+          24.709123636057484,
+          -50.953019581356784
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          230,
+          231
+        ],
+        "boundary_Y_nm": -23.125,
+        "quarter_raw_median_delta_pm": [
+          -322.0286259875138,
+          -295.9197331620089,
+          -223.4941121059819,
+          -246.0183168295771
+        ]
+      },
+      {
+        "direction": "B",
+        "stored_rows": [
+          238,
+          239
+        ],
+        "boundary_Y_nm": -24.791666666666664,
+        "quarter_raw_median_delta_pm": [
+          -47.92255481333996,
+          -54.441784413938876,
+          -50.71498776487715,
+          -54.6123146705213
+        ]
+      }
+    ]
+  },
+  "fixed_prior_ROI_status": {
+    "BG1": "N/A as quiet-background gate: current diagonal edge traverses this historical rectangle; preserve original measurements.",
+    "BG2": "N/A as quiet-background gate: current step/edge structure traverses this historical rectangle; preserve original measurements.",
+    "historical_object_windows": "Not established as the same sample objects after manual retraction, coarse approach and possible lateral displacement. Do not force identity or score missing old objects as tip failure."
+  },
+  "development_reference_candidates": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity"
+    },
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity"
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity"
+    }
+  ],
+  "induction_target": null,
+  "functional_assessment": {
+    "upper_nanoscale_features": "Several protrusions and diagonal step remain independently visible in both directions.",
+    "task_relevant_limitation": "Distributed long horizontal changes and background offsets, especially lower half, impair broad-area background/height stability beyond one isolated particle tail. Some horizontal boundaries could be real sample morphology; persistence and F/B alone do not identify mechanism.",
+    "current_fullframe_usable_status": "not_yet_verified; same-settings independent full confirmation chosen by root is appropriate diagnostic",
+    "global_dirty_tip": "not_established",
+    "chemical_clean": "unknown",
+    "atomic_resolution": "not_assessed",
+    "new_successful_cycle": false
+  },
+  "old200_and_blueguide": {
+    "prior201_relationship": "Same nominal scan settings but intervening manual Withdraw/+Z5–6 presses, AA/fine recovery, time and possible lateral shift. Not a matched causal repair pair.",
+    "spatial_correspondence": "Terrace/object layouts differ; no verified single shared translation identifying multiple objects has been established. Old blue-box nominal coordinates are not a current target.",
+    "source_old200": {
+      "path": "../../../../au111_five_sessions_20261102/evidence/session_02/before_full/analysis_full/analysis_planes.npz",
+      "sha256": "8cf93687ffe0a1b89c42a4d2220138c0af49090ae24743e58953661dba243444"
+    },
+    "source_blueguide": {
+      "path": "../../../../au111_five_sessions_20261102/evidence/continuation_slow_20261102/new_user_guidance/user_blue_box_original_20261102.jpg",
+      "sha256": "ed33347f817d323230e6ea015ec9945f7bca6421b053a05f64fa17f437e7ae86"
+    }
+  },
+  "alternative_explanations": [
+    "Real terrace edges and heterogeneous local particles contribute to morphology and can provoke direction-dependent feedback response.",
+    "Transient effective junction/apex changes or object-associated feedback lag can create long row offsets; current and Z alone do not identify the atomistic mechanism.",
+    "Residual creep/drift after coarse approach and fine engagement can change apparent location/background slope; it does not by itself explain every abrupt one-row change.",
+    "Electronic/feedback disturbances remain possible; no direct independent noise-source measurement here."
+  ],
+  "conclusions": [
+    "201 contains genuine task-relevant long-row/background irregularities while retaining upper-field nanoscale object visibility. It is not appropriate to collapse these observations into either all-tip-bad or verified-clean.",
+    "The native scan has current transients without measured4nA events or the known software-floor value in the reviewed core. Later rest lacks>=400pA events, but contains measurable current fluctuations and residual Z drift.",
+    "The no-conditioning complete repeat can test reproducibility of localized structures versus shifting row offsets. Do not select an induction point from the historical blue JPEG or count a repair cycle from201.",
+    "Candidate upper references are development annotations only; exact usability/background suitability and reference independence must be checked in the repeat before freezing."
+  ],
+  "processing_and_criteria": "No new pass threshold. Existing manual row flags retained. Image/function is primary; spikes are contextual native evidence. New native windows and candidate regions are explicit diagnostic descriptors, not retroactive safety limits.",
+  "figures": [
+    {
+      "path": "scan201_native_and_post.png",
+      "sha256": "2975d7945b0f18f5911e1993db5e7dc8556ed2f0ccff06ee33d29d03d1cffd7c"
+    },
+    {
+      "path": "scan201_candidates_and_raw_row_profiles.png",
+      "sha256": "6ae38d153ffcbe0dd4d73b6b251a9fad93f0e6ac775ea5e1838a3d4f95c92d91"
+    }
+  ],
+  "script": {
+    "path": "local-archive:837a576aa5983170",
+    "sha256": "1cb234a982dc576436880f1bc352f2076b8d0a0deae0ffd91b4737c7449be17a"
+  },
+  "_portable_export": {
+    "source_sha256": "6646ae1064400e00cc1137184f8fa4dca65dd6795c420ea296b331ee056b8604",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

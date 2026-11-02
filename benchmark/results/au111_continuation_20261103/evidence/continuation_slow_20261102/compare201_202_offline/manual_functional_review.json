@@ -1,0 +1,327 @@
+{
+  "created_utc": "2026-11-02T16:49:39.160053+00:00",
+  "scope": "Manual scientific judgment of completed201/202 and actual generated full/crop/native figures. No new action or criteria mutation.",
+  "measurement_source": {
+    "path": "measurements.json",
+    "sha256": "ef3a3fb7b4fb0cf966163999ae4cc4a21716101c3518f56c068f4d480e16bc6c"
+  },
+  "decision": {
+    "nano_object_and_edge_discrimination": "usable_with_local_and_dynamic_artifact_limitations",
+    "reference_source_frame": 202,
+    "independent_object_reappearance_supported": true,
+    "global_tip_imaging_failure_demonstrated": false,
+    "precision_shape_or_background_height_metrology": "not_validated",
+    "atomic_resolution": "not_established",
+    "chemical_clean": "unknown",
+    "repair_success_claim": false,
+    "new_induction_attempt": false,
+    "successful_cycle_increment": 0
+  },
+  "basis": [
+    "C1, C2 and the C3 diagonal edge/object arrangement appear in both201 and202, independently in F/B. They remain distinguishable from adjacent backgrounds and separated neighboring structures.",
+    "C1 remains~0.31–0.32nm high in202. Three-pixel median horizontal halfheight width changes2.50→2.08nm; 202 contains row interruptions, so apparent outline is not invariant.",
+    "C2 remains identifiable but lower and horizontally broader: local-plane peak~0.38→0.29–0.30nm; halfheight connected-component x-extent1.88→3.33nm. This real apparent-response/shape change is recorded, not dismissed by frame correlation. It does not uniformly affect all separated objects in the same manner.",
+    "C3 preserves the diagonal terrace boundary and two distinguishable nearby protrusions despite new rows crossing the patch. The step is not treated as dirt.",
+    "The201 lower-field large row offsets do not simply recur at the same physical Y;202 adds upper-field rows and two lower-edge B offsets. This weakens a purely static-step explanation for all bands and supports a temporal/feedback/junction contribution; it does not uniquely identify an apex change or chemical contamination.",
+    "The independent repeats support a limited nanoscale identification task, not a perfect complete field or precise quantitative widths. Existing row/background artifacts remain part of the reference evidence and future comparison."
+  ],
+  "prospective_reference_record": {
+    "basis": "Freeze202 as current limited-function baseline if root chooses the induction branch. Use201 as independent object/edge corroboration, not identical-shape truth.",
+    "regions": [
+      {
+        "id": "C1_upper_isolated",
+        "rc_half_open": [
+          20,
+          44,
+          90,
+          115
+        ],
+        "role": "upper isolated protrusion plus nearby background",
+        "nominal_edges_nm": {
+          "x": [
+            -6.25,
+            -1.0416666666666679
+          ],
+          "y": [
+            15.833333333333334,
+            20.833333333333332
+          ]
+        },
+        "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+        "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+        "physical_edges_nm": {
+          "x": [
+            -6.25,
+            -1.0416666666666643
+          ],
+          "y": [
+            15.833333333333332,
+            20.833333333333332
+          ]
+        }
+      },
+      {
+        "id": "C2_right_upper",
+        "rc_half_open": [
+          92,
+          112,
+          188,
+          213
+        ],
+        "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+        "nominal_edges_nm": {
+          "x": [
+            14.166666666666664,
+            19.375
+          ],
+          "y": [
+            1.6666666666666679,
+            5.833333333333332
+          ]
+        },
+        "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+        "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+        "physical_edges_nm": {
+          "x": [
+            14.166666666666671,
+            19.375
+          ],
+          "y": [
+            1.6666666666666643,
+            5.833333333333332
+          ]
+        }
+      },
+      {
+        "id": "C3_diagonal_edge",
+        "rc_half_open": [
+          40,
+          72,
+          30,
+          90
+        ],
+        "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+        "nominal_edges_nm": {
+          "x": [
+            -18.75,
+            -6.25
+          ],
+          "y": [
+            10.0,
+            16.666666666666664
+          ]
+        },
+        "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+        "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+        "physical_edges_nm": {
+          "x": [
+            -18.75,
+            -6.25
+          ],
+          "y": [
+            10.0,
+            16.666666666666664
+          ]
+        }
+      }
+    ],
+    "additional_diagnostic_region": {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    },
+    "future_decision_rules": [
+      "Compare full raw F/B and common-scale crops; allow changed material objects and do not require identical pixel values or a single peak.",
+      "Track object/background separability, directional boundary readability, common replication/blur across separated objects, and spatial extent/persistence of row offsets. A new pit or localized scar alone is not a globally dirty tip.",
+      "C1/C2 apparent size and C3 edge shape are descriptive reference values with acknowledged row artifacts. Do not use arbitrary strict fractional-size or correlation pass thresholds.",
+      "Old BG1/BG2 remain N/A as quiet-background gates because they intersect present real edges. Do not silently move those old windows or use their roughness as proof of tip failure.",
+      "One shared rigid translation may assist feature correspondence; do not independently align each feature/direction to manufacture repeatability. Preserve original unaligned images.",
+      "An induction must first demonstrate task-relevant functional degradation in a complete frame before calling the next action repair. Absence of such degradation is an induction attempt, not a successful dirty→repair→usable cycle."
+    ]
+  },
+  "optional_current_frame_target_candidate": {
+    "not_selected_or_authorized_by_this_review": true,
+    "source": "202 morphology only; not verified historical blue-JPEG coordinates",
+    "nominal_pixel_center_rc": [
+      153,
+      196
+    ],
+    "nominal_XY_nm": [
+      15.9375,
+      -6.979166666666668
+    ],
+    "patch_rc_half_open": [
+      147,
+      160,
+      190,
+      203
+    ],
+    "patch_descriptors": {
+      "F": {
+        "single_patch_plane_residual_RMS_pm": 5.475144060315165,
+        "raw_range_pm": 38.88800392815028,
+        "max_raw_adjacent_row_median_delta_pm": 13.415046851150692,
+        "current_pixel_min_max_pA": [
+          -102.0808437779408,
+          -95.5426501803025
+        ]
+      },
+      "B": {
+        "single_patch_plane_residual_RMS_pm": 6.327258943965113,
+        "raw_range_pm": 40.4014599553193,
+        "max_raw_adjacent_row_median_delta_pm": 15.980106127244653,
+        "current_pixel_min_max_pA": [
+          -102.96571234524876,
+          -97.475902349764
+        ]
+      }
+    },
+    "why": "Current right terrace patch appears away from C1/C2/C3 and D4 protrusions. Approximate distance to C2~10nm and D4~8nm; contact/site mixing still possible. This only suggests a location for root review, not a physical clean area or guaranteed repeatable landing.",
+    "uncertainty": "At least one0.2083nm pixel plus drift/calibration/localization error. Historical blue-image mapping remains unverified; root must explicitly choose the new202 target if used."
+  },
+  "native_202_summary": {
+    "core": {
+      "native_s": [
+        1692.51,
+        2130.22
+      ],
+      "samples": 875420,
+      "I_pA": {
+        "min": -8539.1783,
+        "max": -2.7203081,
+        "mean": -100.54138270062211,
+        "median": -99.73034200000001,
+        "std": 21.200345976283838,
+        "abs_ge400": 310,
+        "abs_ge1000": 34,
+        "abs_ge4000": 4,
+        "software_lower_count": 0
+      },
+      "minimum_event": {
+        "native_s": 1777.0145,
+        "block": 143,
+        "zero_based_row": 4029
+      },
+      "Z_nm": {
+        "min": -107.22286,
+        "max": -104.14695999999999,
+        "first": -106.83821,
+        "last": -105.98301,
+        "linear_slope_pm_s": 1.0590497233758474,
+        "linear_residual_RMS_pm": 139.4931057601924,
+        "max_adjacent_pm": 141.40999999999337
+      },
+      "Z_scope": "raster/positioning contributes, not stationary noise"
+    },
+    "post": {
+      "native_s": [
+        2131.36,
+        2150
+      ],
+      "samples": 37280,
+      "I_pA": {
+        "min": -230.81570000000002,
+        "max": -53.998077,
+        "mean": -108.50654278154506,
+        "median": -106.89946,
+        "std": 18.72999648947915,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_lower_count": 0
+      },
+      "minimum_event": {
+        "native_s": 2138.268,
+        "block": 172,
+        "zero_based_row": 1536
+      },
+      "Z_nm": {
+        "min": -104.76643,
+        "max": -104.42443,
+        "first": -104.75648,
+        "last": -104.47316,
+        "linear_slope_pm_s": 9.668791767425338,
+        "linear_residual_RMS_pm": 27.22366884175078,
+        "max_adjacent_pm": 24.36000000000149
+      },
+      "Z_scope": "stationary endpoint descriptive interval"
+    },
+    "last10": {
+      "native_s": [
+        2140,
+        2150
+      ],
+      "samples": 20000,
+      "I_pA": {
+        "min": -214.35999999999999,
+        "max": -63.76492399999999,
+        "mean": -108.35228715945,
+        "median": -106.862075,
+        "std": 17.50573823803323,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_lower_count": 0
+      },
+      "minimum_event": {
+        "native_s": 2149.8945,
+        "block": 172,
+        "zero_based_row": 24789
+      },
+      "Z_nm": {
+        "min": -104.52355999999999,
+        "max": -104.42443,
+        "first": -104.49609,
+        "last": -104.47316,
+        "linear_slope_pm_s": 3.4004912241612626,
+        "linear_residual_RMS_pm": 11.425104582438513,
+        "max_adjacent_pm": 17.269999999982133
+      },
+      "Z_scope": "stationary endpoint descriptive interval"
+    },
+    "interpretation": "Four>=4nA stored samples include−8.539178nA at native1777.0145s, block143,row4029. No sample matches known software lower. Maximum true analog transient is unknown. Later archived18.64s has no>=400pA but residual Z relaxation; final10s+3.400pm/s and11.425pm residual are descriptive, not proof of settled geometry or admission permission.",
+    "coarse_image_timing": "Largest recorded transient is line-level compatible with upper row46–47 where202 image current minimum at(r46,c168) and row offsets occur. Native/logger/startposition timing does not permit a hard pixel-to-sample assignment."
+  },
+  "causal_limits": [
+    "No conditioning occurred between201/202. Changes therefore cannot be credited to a new repair.",
+    "Current object positions are corroborated between201/202, not proved identical to old200 or the user blue JPEG after manual coarse motion and recovery.",
+    "Finite-bandwidth feedback lag, local feature interactions, evolving effective junction/apex, creep and electronic disturbances remain competing or combined causes. No unique microscopic mechanism is assigned.",
+    "The image decision permits a limited functional baseline despite imperfections; it does not override root fresh current/Z/endpoints/logger checks for any future action."
+  ],
+  "figures": [
+    {
+      "path": "201_202_fixed_objects_raw_FB.png",
+      "sha256": "ce45e37e9ca8fb299610aa2537a2ba2b5e5f2987cdbc9ac4e43c27dc6be18948"
+    },
+    {
+      "path": "201_202_globalplane_shared_contrast.png",
+      "sha256": "fcbb0d2d0a8394ac41c1b3bf4846916d63e4ecd83fcdafd9a39941599caf51cf"
+    },
+    {
+      "path": "202_native_and_post.png",
+      "sha256": "889e9498a47bf93911b282ee5d277a4b747b140a574e57de20056df2c63e1c40"
+    }
+  ],
+  "visual_QA": "All three actual figures viewed. Full/crop physical axes, source scan numbers and no-conditioning provenance correct. Crop columns201F,201B,202F,202B; rows C1,C2,C3,D4 are spatial regions, not time. Full-range originals retained; color clipping counts are recorded in measurements.json.",
+  "counting": "No new complete intervention attempt or successful cycle from these two baseline diagnostics; continuing prior pulse history remains3 and existing batch counts remainunchanged.",
+  "_portable_export": {
+    "source_sha256": "ed28e9877f76593f49b5992ce347923c579d40e101981589f39d9d9e7d2d0c31",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

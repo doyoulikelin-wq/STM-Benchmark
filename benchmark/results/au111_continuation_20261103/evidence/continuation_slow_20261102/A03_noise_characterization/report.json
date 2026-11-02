@@ -1,0 +1,630 @@
+{
+  "created_utc": "2026-11-02T18:45:21.190949+00:00",
+  "scope": "Only two local closed-DAT windows; descriptive noise characterization, no source/guard changes or action permission.",
+  "source": {
+    "path": "local-archive:f3fd1f212ce48510",
+    "sha256": "47000255416bd5ca5e470b796de522d6565a3f4fe63ce34e90605735e9a9d795"
+  },
+  "receipt": {
+    "path": "../native_R03_cutoff732_for_publication.json",
+    "sha256": "764e57649ccfccf8d5f7ed42de0cb49a882642e2af8962030acf65b4d59f4bdd"
+  },
+  "A03_sources": [
+    {
+      "path": "../../session_02/repair_A03/outcome.json",
+      "sha256": "96fa9eded57c36514ec77071127df01fde60dd9285ce0f595d64cf0dee42b5b1"
+    },
+    {
+      "path": "local-archive:4fa5346dbbfcef65",
+      "sha256": "67e0739d0056df51404415d8c85f21c807c07dd6e836aba24b1645ebc08461e2"
+    },
+    {
+      "path": "../../session_02/repair_A03/pre30s_samples.json",
+      "sha256": "386d6180e9e7cf7be37281a229aa567f52fb73d7e22ccd9f11c162814a1b6a8b"
+    },
+    {
+      "path": "../../session_02/repair_A03/pre30s_summary.json",
+      "sha256": "6ebc1e11a05b5e838d538a24645c81c0511ed0665a9f64c809e889a9c7773e9a"
+    },
+    {
+      "path": "local-archive:dabe0942fffd948f",
+      "sha256": "77dfa81309be7df98345dcc336507d2e1c8328051ae8a69519d775572be8d4ff"
+    }
+  ],
+  "A03_counter_mapping": {
+    "first_capture_start": {
+      "utc": "2026-11-02T18:38:37.420902+00:00",
+      "monotonic_ns": 1516161947253958
+    },
+    "last_capture_end": {
+      "utc": "2026-11-02T18:39:07.330917+00:00",
+      "monotonic_ns": 1516191857162916
+    },
+    "all_16_action_status_anchors": [
+      {
+        "utc": "2026-11-02T18:38:37.330155+00:00",
+        "monotonic_ns": 1516161856507791,
+        "block": 722,
+        "rows_in_current_block": 23580,
+        "nominal_native_s": 9024.29
+      },
+      {
+        "utc": "2026-11-02T18:38:37.551566+00:00",
+        "monotonic_ns": 1516162077918791,
+        "block": 722,
+        "rows_in_current_block": 24000,
+        "nominal_native_s": 9024.5
+      },
+      {
+        "utc": "2026-11-02T18:38:39.776844+00:00",
+        "monotonic_ns": 1516164303188208,
+        "block": 723,
+        "rows_in_current_block": 3440,
+        "nominal_native_s": 9026.72
+      },
+      {
+        "utc": "2026-11-02T18:38:42.004574+00:00",
+        "monotonic_ns": 1516166530912041,
+        "block": 723,
+        "rows_in_current_block": 7860,
+        "nominal_native_s": 9028.93
+      },
+      {
+        "utc": "2026-11-02T18:38:44.136845+00:00",
+        "monotonic_ns": 1516168663173875,
+        "block": 723,
+        "rows_in_current_block": 12140,
+        "nominal_native_s": 9031.07
+      },
+      {
+        "utc": "2026-11-02T18:38:46.282415+00:00",
+        "monotonic_ns": 1516170808740250,
+        "block": 723,
+        "rows_in_current_block": 16460,
+        "nominal_native_s": 9033.23
+      },
+      {
+        "utc": "2026-11-02T18:38:48.319422+00:00",
+        "monotonic_ns": 1516172845734625,
+        "block": 723,
+        "rows_in_current_block": 20520,
+        "nominal_native_s": 9035.26
+      },
+      {
+        "utc": "2026-11-02T18:38:50.427094+00:00",
+        "monotonic_ns": 1516174953398958,
+        "block": 723,
+        "rows_in_current_block": 24760,
+        "nominal_native_s": 9037.38
+      },
+      {
+        "utc": "2026-11-02T18:38:52.617336+00:00",
+        "monotonic_ns": 1516177143634333,
+        "block": 724,
+        "rows_in_current_block": 4100,
+        "nominal_native_s": 9039.55
+      },
+      {
+        "utc": "2026-11-02T18:38:54.748294+00:00",
+        "monotonic_ns": 1516179274583666,
+        "block": 724,
+        "rows_in_current_block": 8400,
+        "nominal_native_s": 9041.7
+      },
+      {
+        "utc": "2026-11-02T18:38:56.781405+00:00",
+        "monotonic_ns": 1516181307687458,
+        "block": 724,
+        "rows_in_current_block": 12460,
+        "nominal_native_s": 9043.73
+      },
+      {
+        "utc": "2026-11-02T18:38:58.884363+00:00",
+        "monotonic_ns": 1516183410644625,
+        "block": 724,
+        "rows_in_current_block": 16640,
+        "nominal_native_s": 9045.82
+      },
+      {
+        "utc": "2026-11-02T18:39:00.927881+00:00",
+        "monotonic_ns": 1516185454151583,
+        "block": 724,
+        "rows_in_current_block": 20740,
+        "nominal_native_s": 9047.87
+      },
+      {
+        "utc": "2026-11-02T18:39:03.070585+00:00",
+        "monotonic_ns": 1516187596847541,
+        "block": 724,
+        "rows_in_current_block": 25000,
+        "nominal_native_s": 9050.0
+      },
+      {
+        "utc": "2026-11-02T18:39:05.102593+00:00",
+        "monotonic_ns": 1516189628846958,
+        "block": 725,
+        "rows_in_current_block": 4100,
+        "nominal_native_s": 9052.05
+      },
+      {
+        "utc": "2026-11-02T18:39:07.199354+00:00",
+        "monotonic_ns": 1516191725608791,
+        "block": 725,
+        "rows_in_current_block": 8280,
+        "nominal_native_s": 9054.14
+      }
+    ],
+    "selected_inner_anchor_endpoints": [
+      {
+        "utc": "2026-11-02T18:38:37.551566+00:00",
+        "monotonic_ns": 1516162077918791,
+        "block": 722,
+        "rows_in_current_block": 24000,
+        "nominal_native_s": 9024.5
+      },
+      {
+        "utc": "2026-11-02T18:39:07.199354+00:00",
+        "monotonic_ns": 1516191725608791,
+        "block": 725,
+        "rows_in_current_block": 8280,
+        "nominal_native_s": 9054.14
+      }
+    ],
+    "method": "Use first/last action DataLog status counters whose host completion times are inside observed pre30s; no wall-clock concatenation or sub-sample synchronization claim."
+  },
+  "method": {
+    "sampling_Hz": 2000.0,
+    "sample_period_s": 0.0005,
+    "header_has_per_sample_timestamps": false,
+    "nominal_counter_seconds": "(DAT_index-1)*25000*0.0005 + row*0.0005",
+    "PSD": "Mean of Hann-windowed, individually linear-detrended 4000-row (2s) one-sided periodograms, 2000-row hop, density normalization fs*sum(Hann**2). Never crosses DAT boundaries. Resolution0.5Hz, Nyquist1000Hz. Edge rows without full segment are omitted only from PSD.",
+    "RMS": "Raw RMS about window mean excludes DC level; also report whole-window linear residual RMS using nominal counter seconds. No smoothing before raw statistics.",
+    "50ms": "Nonoverlapping means of100 consecutive samples, anchored to each DAT row0, only full blocks; no block crosses DAT boundary. Offline filtered signal, not native/controller averaging equivalence."
+  },
+  "results": {
+    "A03_pre30_inner_counter_window": {
+      "nominal_native_s_half_open": [
+        9024.5,
+        9054.14
+      ],
+      "nominal_duration_s": 29.639999999999418,
+      "samples_per_channel": 59280,
+      "DAT_fragments": [
+        {
+          "DAT_index": 722,
+          "selected_rows_half_open": [
+            24000,
+            25000
+          ],
+          "selected_count": 1000,
+          "complete_50ms_rows_half_open": [
+            24000,
+            25000
+          ]
+        },
+        {
+          "DAT_index": 723,
+          "selected_rows_half_open": [
+            0,
+            25000
+          ],
+          "selected_count": 25000,
+          "complete_50ms_rows_half_open": [
+            0,
+            25000
+          ]
+        },
+        {
+          "DAT_index": 724,
+          "selected_rows_half_open": [
+            0,
+            25000
+          ],
+          "selected_count": 25000,
+          "complete_50ms_rows_half_open": [
+            0,
+            25000
+          ]
+        },
+        {
+          "DAT_index": 725,
+          "selected_rows_half_open": [
+            0,
+            8280
+          ],
+          "selected_count": 8280,
+          "complete_50ms_rows_half_open": [
+            0,
+            8200
+          ]
+        }
+      ],
+      "I_pA": {
+        "mean": -110.41229349856613,
+        "min": -269.71783,
+        "max": -48.612336,
+        "RMS_about_mean": 25.473852187478794,
+        "linear_detrended_RMS": 25.470601187799584,
+        "linear_slope_per_nominal_second": -0.047563011044400555,
+        "PSD": {
+          "segments": 25,
+          "strongest_positive_bin_Hz": 330.5,
+          "strongest_bin_PSD": 566.5337745563943,
+          "top_separated_local_maxima": [
+            {
+              "frequency_Hz": 330.5,
+              "PSD_unit_squared_per_Hz": 566.5337745563943
+            },
+            {
+              "frequency_Hz": 699.5,
+              "PSD_unit_squared_per_Hz": 61.74201565168022
+            },
+            {
+              "frequency_Hz": 998.5,
+              "PSD_unit_squared_per_Hz": 7.101783476872376
+            },
+            {
+              "frequency_Hz": 803.5,
+              "PSD_unit_squared_per_Hz": 5.754781096152337
+            },
+            {
+              "frequency_Hz": 189.5,
+              "PSD_unit_squared_per_Hz": 4.969339992134125
+            }
+          ],
+          "integrated_band_power_unit_squared": {
+            "0_10_Hz": 1.3071353743511647,
+            "10_40_Hz": 0.7144490406788275,
+            "40_60_Hz": 1.401485153229796,
+            "60_90_Hz": 1.8094621734522394,
+            "90_110_Hz": 2.8608376092537,
+            "110_200_Hz": 7.3992708145130415,
+            "200_500_Hz": 514.3999783956559,
+            "500_1000_Hz": 141.81825390019216
+          }
+        }
+      },
+      "Z_pm": {
+        "mean": -103626.2559385965,
+        "min": -103674.92,
+        "max": -103569.75,
+        "RMS_about_mean": 14.627822264438748,
+        "linear_detrended_RMS": 14.619473264526686,
+        "linear_slope_per_nominal_second": -0.05775272872105252,
+        "PSD": {
+          "segments": 25,
+          "strongest_positive_bin_Hz": 330.5,
+          "strongest_bin_PSD": 68.02263751488455,
+          "top_separated_local_maxima": [
+            {
+              "frequency_Hz": 330.5,
+              "PSD_unit_squared_per_Hz": 68.02263751488455
+            },
+            {
+              "frequency_Hz": 6.0,
+              "PSD_unit_squared_per_Hz": 31.2082530315878
+            },
+            {
+              "frequency_Hz": 8.0,
+              "PSD_unit_squared_per_Hz": 23.613766980860472
+            },
+            {
+              "frequency_Hz": 0.5,
+              "PSD_unit_squared_per_Hz": 21.4868087501584
+            },
+            {
+              "frequency_Hz": 2.5,
+              "PSD_unit_squared_per_Hz": 8.932368641935971
+            }
+          ],
+          "integrated_band_power_unit_squared": {
+            "0_10_Hz": 111.65965005656219,
+            "10_40_Hz": 5.868496656642957,
+            "40_60_Hz": 2.339004374329442,
+            "60_90_Hz": 2.670607414727041,
+            "90_110_Hz": 2.436175680665174,
+            "110_200_Hz": 2.562211607812242,
+            "200_500_Hz": 60.9124360497823,
+            "500_1000_Hz": 1.6011149136460103
+          }
+        }
+      },
+      "Z_50ms_nonoverlapping_DAT_local_block_means_pm": {
+        "mean": -103626.26253513513,
+        "min": -103654.552,
+        "max": -103596.03589999997,
+        "RMS_about_mean": 10.770509949589615,
+        "linear_detrended_RMS": 10.758576437026981,
+        "linear_slope_per_nominal_second": -0.05931936304948373
+      },
+      "Z_50ms_blocks": 592,
+      "rows_omitted_from_50ms_comparison": 80,
+      "Z_raw_same_rows_as_50ms_blocks_RMS_about_mean_pm": 14.631815732061774,
+      "Z_50ms_to_raw_same_rows_centered_RMS_ratio": 0.7361020769273957
+    },
+    "late205_native8845_8875": {
+      "nominal_native_s_half_open": [
+        8845.0,
+        8875.0
+      ],
+      "nominal_duration_s": 30.0,
+      "samples_per_channel": 60000,
+      "DAT_fragments": [
+        {
+          "DAT_index": 708,
+          "selected_rows_half_open": [
+            15000,
+            25000
+          ],
+          "selected_count": 10000,
+          "complete_50ms_rows_half_open": [
+            15000,
+            25000
+          ]
+        },
+        {
+          "DAT_index": 709,
+          "selected_rows_half_open": [
+            0,
+            25000
+          ],
+          "selected_count": 25000,
+          "complete_50ms_rows_half_open": [
+            0,
+            25000
+          ]
+        },
+        {
+          "DAT_index": 710,
+          "selected_rows_half_open": [
+            0,
+            25000
+          ],
+          "selected_count": 25000,
+          "complete_50ms_rows_half_open": [
+            0,
+            25000
+          ]
+        }
+      ],
+      "I_pA": {
+        "mean": -112.71407703533335,
+        "min": -283.30913,
+        "max": -44.620179,
+        "RMS_about_mean": 32.86139646106764,
+        "linear_detrended_RMS": 32.82863425266464,
+        "linear_slope_per_nominal_second": -0.16939698843606393,
+        "PSD": {
+          "segments": 26,
+          "strongest_positive_bin_Hz": 330.5,
+          "strongest_bin_PSD": 978.9273692926306,
+          "top_separated_local_maxima": [
+            {
+              "frequency_Hz": 330.5,
+              "PSD_unit_squared_per_Hz": 978.9273692926306
+            },
+            {
+              "frequency_Hz": 699.0,
+              "PSD_unit_squared_per_Hz": 76.35728849089324
+            },
+            {
+              "frequency_Hz": 661.0,
+              "PSD_unit_squared_per_Hz": 8.627505049974552
+            },
+            {
+              "frequency_Hz": 803.5,
+              "PSD_unit_squared_per_Hz": 7.909016415011139
+            },
+            {
+              "frequency_Hz": 998.5,
+              "PSD_unit_squared_per_Hz": 7.657726263927935
+            }
+          ],
+          "integrated_band_power_unit_squared": {
+            "0_10_Hz": 2.3211014448428617,
+            "10_40_Hz": 0.7889859312124284,
+            "40_60_Hz": 1.5141772617875886,
+            "60_90_Hz": 4.115627370278508,
+            "90_110_Hz": 4.699443213835764,
+            "110_200_Hz": 8.406576541668917,
+            "200_500_Hz": 841.5056228432206,
+            "500_1000_Hz": 173.93474480312824
+          }
+        }
+      },
+      "Z_pm": {
+        "mean": -103615.3361555,
+        "min": -103674.35,
+        "max": -103554.99,
+        "RMS_about_mean": 17.455995454899934,
+        "linear_detrended_RMS": 17.44483108597303,
+        "linear_slope_per_nominal_second": 0.07207826334058004,
+        "PSD": {
+          "segments": 26,
+          "strongest_positive_bin_Hz": 330.5,
+          "strongest_bin_PSD": 115.8093818073792,
+          "top_separated_local_maxima": [
+            {
+              "frequency_Hz": 330.5,
+              "PSD_unit_squared_per_Hz": 115.8093818073792
+            },
+            {
+              "frequency_Hz": 0.5,
+              "PSD_unit_squared_per_Hz": 42.20400100769216
+            },
+            {
+              "frequency_Hz": 8.0,
+              "PSD_unit_squared_per_Hz": 23.77301739498736
+            },
+            {
+              "frequency_Hz": 95.0,
+              "PSD_unit_squared_per_Hz": 4.284226410441178
+            },
+            {
+              "frequency_Hz": 85.5,
+              "PSD_unit_squared_per_Hz": 4.07134759486243
+            }
+          ],
+          "integrated_band_power_unit_squared": {
+            "0_10_Hz": 107.3266576233688,
+            "10_40_Hz": 6.642634608840467,
+            "40_60_Hz": 2.8068278608181103,
+            "60_90_Hz": 5.193117650664951,
+            "90_110_Hz": 5.033746863582489,
+            "110_200_Hz": 2.8550900963598673,
+            "200_500_Hz": 98.32794877103481,
+            "500_1000_Hz": 1.6411128533758106
+          }
+        }
+      },
+      "Z_50ms_nonoverlapping_DAT_local_block_means_pm": {
+        "mean": -103615.33615549999,
+        "min": -103643.79870000001,
+        "max": -103578.38270000002,
+        "RMS_about_mean": 12.71496726685322,
+        "linear_detrended_RMS": 12.69963264696462,
+        "linear_slope_per_nominal_second": 0.0720855336265431
+      },
+      "Z_50ms_blocks": 600,
+      "rows_omitted_from_50ms_comparison": 0,
+      "Z_raw_same_rows_as_50ms_blocks_RMS_about_mean_pm": 17.455995454899934,
+      "Z_50ms_to_raw_same_rows_centered_RMS_ratio": 0.728401155906815
+    }
+  },
+  "DAT_sources": [
+    {
+      "path": "local-archive:581b2579aa4733c6",
+      "sha256": "80a5c036e7ec7cbba2277c5d3fe01e80674232f1cf791859437ef2d45a692d4f",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:38:25\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:110d8edf263502d6",
+      "sha256": "f44f844021f88fe88ee44946643dc3a50ef6296876bebcf4f3a7ffab352c99c3",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:38:37\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:a87fd53a71a257b0",
+      "sha256": "7b0962d80d2c3d49b602126ea0cdd17788e44b4222c9294e4a53e6b9cde74a54",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:38:50\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:4c797ddd66e3562a",
+      "sha256": "5afd290562145ebbaecb207b34af856c6bc44659cd944823e2e4500486fcfcc3",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:39:02\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:e1194b647eb85787",
+      "sha256": "6df6939668d5928604e42c9200d40b14e2435c881b7c86acfa1d0839ca490350",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:35:30\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:49a33fb26e5eb4ee",
+      "sha256": "eccbb9dbe36ab225bdba12e36d2c432aa539b47399945e8d50bcc9eee061e95e",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:35:42\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    },
+    {
+      "path": "local-archive:b6af521d36dde9bb",
+      "sha256": "3595c3390c40744792eb0dbbb2a1d039ff9090beadbe67b3c1cb5b491946a442",
+      "rows": 25000,
+      "columns": 6,
+      "header": [
+        "Experiment\tContinuous Data\t",
+        "Saved Date\t03.11.2026 02:35:55\t",
+        "User\t\t",
+        "Sample Period (ms)\t5.000E-1\t",
+        "Comment01\tSafeTipOff event record; DataLog commands only; junction action audited separately.\t",
+        "",
+        "[DATA]",
+        "Current (A)\tBias (V)\tZ (m)\tZ Control signal (A)\tZ Error signal (A)\tZ SafeTip signal (A)"
+      ]
+    }
+  ],
+  "recorded_original_slow_Get_gate_summary_unchanged": {
+    "window_s": 10.136306165950373,
+    "Z_slope_m_per_s": -1.0292086770471133e-13,
+    "Z_detrended_RMS_m": 1.373321332429655e-11,
+    "I_mean_A": -1.1203496086327726e-10,
+    "I_std_A": 3.0504370563208308e-12,
+    "samples": 68,
+    "elapsed_s": 30.01374362502247,
+    "final_band_s": 29.804740957915783
+  },
+  "limits": [
+    "Block order and host-status counters do not prove gap-free acquisition; native DAT has no per-sample timestamps.",
+    "Selected A03 inner-counter window approximates most of actual pre30s, not an exactly synchronized reproduction of sequential slow Current.Get/ZPosGet.",
+    "PSD frequencies do not identify mechanical, electronic, mains, feedback or other causes.",
+    "A03 slow-Get criterion and native/50ms-derived metrics have different acquisition and filtering; no substitution into original gate and no new numeric permission.",
+    "Averaging changes bandwidth and may hide excursions; it does not prove a stable junction, contact safety, tip quality, repair or a completed cycle."
+  ],
+  "_portable_export": {
+    "source_sha256": "1eab79ebc2457b3f8324b03b11999025c9d186b6e3ea4d2fb3b9b2352a396d3b",
+    "path_basis": "Included paths relative to this JSON; local-archive IDs in omitted-evidence.json; embedded original hashes remain original provenance.",
+    "scientific_values_changed": false
+  }
+}

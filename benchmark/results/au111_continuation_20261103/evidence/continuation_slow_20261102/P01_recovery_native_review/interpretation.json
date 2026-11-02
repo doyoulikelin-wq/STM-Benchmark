@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-11-02T18:19:49.505360+00:00",
+  "sources": {
+    "recovery_native": {
+      "path": "review.json",
+      "sha256": "18fc69f759b9ee6ace44d02c3f147fc37ffe6c7a2ab18cded31b4e35390fc8b0"
+    },
+    "earlier_prepare_interpretation": {
+      "path": "../P01_prepare_native_review/interpretation_through589.json",
+      "sha256": "43f356e168ab8edd09c76fd4025972f0f6f1f0bc2ffb7819ee575a5e6e603b16"
+    },
+    "recovery_outcome": {
+      "path": "../../session_02/recover_prepare_induction_P01_01/outcome.json",
+      "sha256": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938"
+    },
+    "plot": {
+      "path": "decreasing_setpoints_and_final100pA.png",
+      "sha256": "d6255cc0ea9a7ab387562b003b5a03c7358612f5fc2957339be2b1af32cfb676"
+    }
+  },
+  "status": "Six knownACK decreasing setpoints to100pA; recovery command sequence completed. No pulse/induction/repair success conclusion.",
+  "waveform_findings": [
+    "Before thisreturn, the final10s at381.47pA were already calmer than the earlierpreparepost: I−396.056±21.866pA, Z residual5.860pm. Large earlierexcursions weakened before the lowering sequence; do not attribute all improvement to return.",
+    "The first305pA stage includes an additional negativeZ movement (interiormedian−103.7853 vs prior−103.7327nm). Later decreasingcurrent stages show generally increasingZ: −103.7790,−103.7595,−103.7347,−103.7064,−103.6920nm. Thus the whole sequence is not a perfectly reversible single I(z) curve.",
+    "No>=1nA orsoftware-floor sample appears in the reviewed614..620 range. Highestsequence magnitude is506.276pA nearfirstdecrease; fixed400pA is not a universal failure criterion whiletarget isstill381/305pA.",
+    "Final30s beforeoutcome: I−100.584±11.018pA,range−160.193..−62.529pA; Zslope−.0495pm/s/residual11.136pm. Latest10s: I−100.208±6.088pA, Zslope+.0524pm/s/residual10.695pm. No>=400pA nor>=0.1nm adjacent1s-median jumps atfinaltarget.",
+    "Large0.1–0.3nm excursions fromearlierprepare are not reproduced in thisfinal100pA window. Residualnoise remains; sparse/averagedslow10s9.8995pm is not the same measurement as2kHz10.3–10.7pm residual. Native samples occasionally leave±20% despite slowguard passing. No new raw-band threshold is substituted.",
+    "At100pA, latest30s Zmedian−103.69191nm is close to preprepare100pA median−103.69989nm (~+7.98pm), but separated bytime,noise,andunobservedmaterialstate. This does not prove exact reversibility or unchangedtip.",
+    "Earlierprepare anomalies remain partofthefullrecord. Freshmatchedfullimage, notcurrentmean, will assesscurrenttaskfunction. No pulseafter label, intentionaldirty-state label, repair-success label orcycleincrement."
+  ],
+  "post_outcome_observation_s": 9.98,
+  "physical_mechanism": "Not uniquely identified; preexisting intermittentjunction/feedback dynamics plus setpoint response/relaxation remain possible.",
+  "limits": [
+    "This is a closed archived window, not a perpetual realtime state.",
+    "No highfrequencyXY; no atom/chemistry or actual gap identification.",
+    "No hardware/network/SMB/CUA/transportimports; originalreview and previousprepare evidence unchanged."
+  ],
+  "_portable_export": {
+    "source_sha256": "45ca6adc647e8878ed052f43244d6e23320f9e3ce24e78044f896064747e11b5",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

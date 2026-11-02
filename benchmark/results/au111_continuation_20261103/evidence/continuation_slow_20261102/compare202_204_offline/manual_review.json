@@ -1,0 +1,458 @@
+{
+  "recorded_utc": "2026-11-02T18:04:50.173999+00:00",
+  "scope": "Completed204 full50nm240²DOWN, same imaging settings as202/203. Local offline image-led task assessment; no hardware/network/SMB/CUA, no new thresholds.",
+  "sources": {
+    "image_measurements": {
+      "path": "image_measurements.json",
+      "sha256": "4226f493df2ec1b8dfb3ce4efd96523e846d0a9a3802781367b3bcf9c342f016"
+    },
+    "quality_report": {
+      "path": "../../session_02/pre_repair_A02_observed_full/analysis/quality_report.json",
+      "sha256": "8d4c3583202e745a9a0cd14c3f1ae9966382a9682f20a2bd4811fbe0c552f466"
+    },
+    "outcome": {
+      "path": "../../session_02/pre_repair_A02_observed_full/outcome.json",
+      "sha256": "c3448e705abef2cc2c191df84a24de0a365234113cf1d6b2d422e12a4a192ba0"
+    },
+    "native_waveform_review": {
+      "path": "../native204_completed_review/review.json",
+      "sha256": "b18246560715b1cd9faf191cde197994aa837eab77205c5e780e296368bf0d07"
+    },
+    "prior203_review": {
+      "path": "../compare202_203_offline/manual_review.json",
+      "sha256": "588fe212912d39c37266cf41a66a57b1c587286b6641f18ed57236c86d29b794"
+    },
+    "prior203_field_clarification": {
+      "path": "../compare202_203_offline/manual_review_L1_field_clarification.json",
+      "sha256": "a0e686bab2d1ff53c1573fc549a3537465abe45129034e716eba550d5e7b6d3d"
+    }
+  },
+  "decision": {
+    "nanoscale_object_and_edge_identification": "supported_with_local_limitations_in_this_frame",
+    "image_function_impairment": "203 broad impairment is not retained as a current whole-frame label; local line/variance defects remain",
+    "repair_needed_for_current_nanoscale_identification_demonstrated": false,
+    "chemical_clean": "unknown; not required for this limited functional judgment",
+    "atomic_resolution": "not established",
+    "long_term_reproducible_stability": "not established by this single restored frame and212.05s post window",
+    "automatic_project_L0_L4_change": false,
+    "repair_success": false,
+    "successful_cycle_increment": 0,
+    "instrument_admission": "not provided by offline analysis"
+  },
+  "actual_visual_observations": [
+    "C1: compact positive protrusion clearly separated from background in both204F/B, where203 was line-dominated.202→204 apparent shape and peak location differ; atomic/material identity is not established or required.",
+    "C3: diagonal terrace boundary and its edge protrusion are clear in both204F/B. Smaller features/contours are not identical to202. C3 contains an edge and must not be reduced to one peak-size truth.",
+    "C2: localized object readily visible in both directions. It is a localization/action-site region, not an independent remote control. No TipShaper.Start was executed there.",
+    "D4: main object visible in both directions; lines remain below it nearY−13.5..−15nm. Additional lower-field lines nearY−17 and−22.5nm limit background/preciseheight use but do not erase all objects.",
+    "A whole-width offset boundary nearY+9.6nm and another nearY−20nm accompany visibly greater middle-region current variance.204 is not a uniformly quiet/artifact-free field.",
+    "Multiple objects recover usable contrast while major203 line corruption reduces. Current spikes/counts do not override image task function, but remain physical recovery and causality evidence."
+  ],
+  "fixed_descriptors": {
+    "prior202_mask_contrast": {
+      "C1_upper_isolated": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 78,
+          "prior202_mask_median_pm": 246.0616858078737,
+          "observed_same_mask_median_pm": 169.78882469005185,
+          "prior202_perimeter_MAD_pm": 21.30592336490277,
+          "observed_perimeter_MAD_pm": 14.029561550740048
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 72,
+          "prior202_mask_median_pm": 238.208670697297,
+          "observed_same_mask_median_pm": 196.67445922230797,
+          "prior202_perimeter_MAD_pm": 23.130752469249796,
+          "observed_perimeter_MAD_pm": 12.93821727634024
+        }
+      },
+      "C2_right_upper": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 94,
+          "prior202_mask_median_pm": 201.80908644003637,
+          "observed_same_mask_median_pm": 165.7020534265854,
+          "prior202_perimeter_MAD_pm": 15.574514005385508,
+          "observed_perimeter_MAD_pm": 8.508768534479042
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 94,
+          "prior202_mask_median_pm": 202.90106063230695,
+          "observed_same_mask_median_pm": 163.02607225618715,
+          "prior202_perimeter_MAD_pm": 11.921747008150422,
+          "observed_perimeter_MAD_pm": 9.236354722807746
+        }
+      },
+      "C3_diagonal_edge": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 40,
+          "prior202_mask_median_pm": 265.87115804647965,
+          "observed_same_mask_median_pm": 173.60013778189654,
+          "prior202_perimeter_MAD_pm": 72.89847644738286,
+          "observed_perimeter_MAD_pm": 68.54374838409498
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 151,
+          "prior202_mask_median_pm": 201.57845119236129,
+          "observed_same_mask_median_pm": 112.14267155824587,
+          "prior202_perimeter_MAD_pm": 85.84831015517545,
+          "observed_perimeter_MAD_pm": 66.35944568664871
+        }
+      },
+      "D4_lower_object": {
+        "F": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 100,
+          "prior202_mask_median_pm": 195.46074923435697,
+          "observed_same_mask_median_pm": 89.31161199308946,
+          "prior202_perimeter_MAD_pm": 12.541345930085283,
+          "observed_perimeter_MAD_pm": 9.105247338318122
+        },
+        "B": {
+          "mask_definition": "202 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+          "mask_pixels": 71,
+          "prior202_mask_median_pm": 198.55994230559304,
+          "observed_same_mask_median_pm": 124.2564461300475,
+          "prior202_perimeter_MAD_pm": 13.101486065051056,
+          "observed_perimeter_MAD_pm": 11.153024597313214
+        }
+      }
+    },
+    "C1_204_peak_height_pm_FB": [
+      340.8292013912728,
+      343.53411700853087
+    ],
+    "C1_204_3pixel_profile_x_halfheight_nm_FB": [
+      2.291666666666667,
+      2.5
+    ],
+    "sampling_pitch_nm": 0.20833333333333334,
+    "raw_FB_offset_removed_RMS_pm": {
+      "202": 42.36986690893698,
+      "203": 88.98628648381317,
+      "204": 28.30738618802379
+    },
+    "shared_rigid_shift_sensitivity": {
+      "best": {
+        "dy": -3,
+        "dx": -2,
+        "mean": 0.8718039142491019,
+        "individual": [
+          0.8915234754947153,
+          0.8849623719089977,
+          0.8619268869692931,
+          0.8488029226234015
+        ]
+      },
+      "limit_pixels": [
+        -4,
+        4
+      ],
+      "only_C1_C3_shared_across_FB": true,
+      "not_applied_to_display_or_metrics": true,
+      "not_a_pass_threshold": true
+    },
+    "current_pixel": {
+      "F": {
+        "minimum": -652.3450668538544,
+        "maximum": -16.106527570003415,
+        "median": -108.52394677351995,
+        "RMS_about_mean": 30.57007910809472,
+        "minimum_stored_rc": [
+          77,
+          162
+        ],
+        "minimum_nominal_XY_nm": [
+          8.854166666666664,
+          8.854166666666668
+        ],
+        "abs_ge400pA_count": 36,
+        "abs_ge1000pA_count": 0,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      },
+      "B": {
+        "minimum": -1258.2220820789303,
+        "maximum": -55.61323623837211,
+        "median": -111.33020200171373,
+        "RMS_about_mean": 30.34018424385857,
+        "minimum_stored_rc": [
+          228,
+          0
+        ],
+        "minimum_nominal_XY_nm": [
+          -24.895833333333332,
+          -22.604166666666664
+        ],
+        "abs_ge400pA_count": 36,
+        "abs_ge1000pA_count": 2,
+        "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+      }
+    },
+    "row_flags": {
+      "F": [
+        {
+          "stored_rows": [
+            73,
+            74
+          ],
+          "nominal_boundary_Y_nm": 9.583333333333332,
+          "quarter_delta_pm": [
+            84.13891805503226,
+            81.5205680737563,
+            86.02185630479653,
+            83.32534662258695
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            202,
+            203
+          ],
+          "nominal_boundary_Y_nm": -17.291666666666668,
+          "quarter_delta_pm": [
+            -52.74713998915104,
+            -288.6721972572559,
+            -65.43032782246883,
+            0.8029132914089132
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            215,
+            216
+          ],
+          "nominal_boundary_Y_nm": -20.0,
+          "quarter_delta_pm": [
+            69.09672833899094,
+            70.98677201611281,
+            79.15090804999636,
+            67.87459483348357
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            227,
+            228
+          ],
+          "nominal_boundary_Y_nm": -22.5,
+          "quarter_delta_pm": [
+            171.74528466057382,
+            160.72476682893466,
+            159.42092090881488,
+            153.77565887320088
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            228,
+            229
+          ],
+          "nominal_boundary_Y_nm": -22.708333333333332,
+          "quarter_delta_pm": [
+            -158.54695334382995,
+            -146.66312608824228,
+            -146.36114542554424,
+            -136.2217005862476
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        }
+      ],
+      "B": [
+        {
+          "stored_rows": [
+            72,
+            73
+          ],
+          "nominal_boundary_Y_nm": 9.791666666666668,
+          "quarter_delta_pm": [
+            109.08962622124818,
+            80.27001285881852,
+            81.64136033883551,
+            -0.21316282072803006
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            190,
+            191
+          ],
+          "nominal_boundary_Y_nm": -14.791666666666668,
+          "quarter_delta_pm": [
+            20.957457991244155,
+            -162.85284232253616,
+            -166.98820104465995,
+            -162.94876559186378
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            214,
+            215
+          ],
+          "nominal_boundary_Y_nm": -19.791666666666668,
+          "quarter_delta_pm": [
+            70.08083002801868,
+            64.31477572732547,
+            69.15001904417295,
+            -1.1866063687193673
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            228,
+            229
+          ],
+          "nominal_boundary_Y_nm": -22.708333333333332,
+          "quarter_delta_pm": [
+            -149.22107993697864,
+            -152.71695019691833,
+            -161.49570569723437,
+            -146.52812296844786
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        },
+        {
+          "stored_rows": [
+            229,
+            230
+          ],
+          "nominal_boundary_Y_nm": -22.916666666666668,
+          "quarter_delta_pm": [
+            -48.07887421520718,
+            -52.224891078367364,
+            -56.918025848062825,
+            -58.058446938957786
+          ],
+          "meaning": "manual review only; morphology/temporal origin not identified"
+        }
+      ]
+    },
+    "limits": "Prior202-pixel masks are sensitive to translation/shape change even when objects remain clear. Actual204 peaks were visually checked. No fixed object-size truth or quality cutoff introduced. C3 mask contains edge plus objects."
+  },
+  "native_interpretation": {
+    "source_summary": "Scan core:13201 samples>=400pA,368>=1nA and1>=4nA; min−4.8937903nA; no exact known software-floor sample. No exact floor does not prove analog linearity or bound unseen true peaks.",
+    "post_coverage_s": 212.05000000000018,
+    "post_min_pA": -409.53838,
+    "post_ge400_samples": 1,
+    "post_ge1000_samples": 0,
+    "post_last30": {
+      "native_s_half_open": [
+        6720.0,
+        6750.0
+      ],
+      "samples": 60000,
+      "scope": "Nominal stationary endpoint from commands/slow readbacks; high-frequency XY absent",
+      "I_pA": {
+        "min": -239.29897,
+        "max": -54.046601,
+        "mean": -108.556255893,
+        "median": -106.530045,
+        "std": 19.494960570790703,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 6747.2295,
+        "block": 540,
+        "zero_based_row": 19459
+      },
+      "Z_nm": {
+        "min": -103.72581,
+        "max": -103.63586,
+        "median": -103.68294,
+        "slope_pm_s": 0.14788311106337335,
+        "linear_residual_RMS_pm": 12.146475907808522,
+        "max_adjacent_pm": 25.430000000000064
+      }
+    },
+    "post_last10": {
+      "native_s_half_open": [
+        6740.0,
+        6750.0
+      ],
+      "samples": 20000,
+      "scope": "Nominal stationary endpoint from commands/slow readbacks; high-frequency XY absent",
+      "I_pA": {
+        "min": -239.29897,
+        "max": -54.046601,
+        "mean": -109.72159150224999,
+        "median": -106.938445,
+        "std": 23.77395894692022,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "abs_ge4000": 0,
+        "software_floor_matching_count": 0
+      },
+      "minimum_event": {
+        "native_s": 6747.2295,
+        "block": 540,
+        "zero_based_row": 19459
+      },
+      "Z_nm": {
+        "min": -103.72581,
+        "max": -103.63586,
+        "median": -103.68177,
+        "slope_pm_s": -0.15215416693652561,
+        "linear_residual_RMS_pm": 13.288492531796821,
+        "max_adjacent_pm": 25.430000000000064
+      }
+    },
+    "end_relaxation": "Endboundary includes positioning-relatedZ motion. Continued earlypostZ motion has declining slopes(+23.32pm/s at6540..6544, +7.95 at6549..6559, +.148last30). Compatible with postpositioning creep/feedback relaxation; not a uniquely established mechanical cause.",
+    "persistent_shift_comparison": "Only>=0.1nm adjacent1s-median post candidate at6539s immediately afterend. No later comparable candidate in212.05s.203 additional persistent change occurred about517s afterend, beyond204 observation length; delayed recurrence remains untested.",
+    "limits": "No highfrequencyXY; asynchronous hostcounter mapping. Z is working-point position, not independently measured gap. Tailcurrent offset and residualnoise remain; no blanket stable/action-permit statement."
+  },
+  "causality": {
+    "performed_between202_and204": "Localization movement, waiting, speed recovery, rejected prechecks, diagnostic fullscans203/204. No new pulse or TipShaper.Start.",
+    "supported": "Effective imaging response is state-dependent and can recover without new conditioning.203 remains historically impaired;204 supplies a newer observed functional state.",
+    "compatible_alternatives": [
+      "Reversible effective apex/junction configuration or adsorbate/electronic-state changes",
+      "Scan/surface-interaction-mediated change at a local object with response at other regions",
+      "Feedback/electrical-noise or relaxation effects, potentially combined with drift and real local morphology change"
+    ],
+    "not_identified": [
+      "Chemical contaminant identity",
+      "Specific transferred atoms/contact mechanism",
+      "Exact time/cause of recovery",
+      "Atomic resolution or general metrology validity"
+    ],
+    "cannot_count_as": "Intentional dirty-induction success, pulse repair success, or completed dirty→repair→usable cycle"
+  },
+  "figures": [
+    {
+      "path": "fixed_objects_raw_FB.png",
+      "sha256": "327462268f219da4c9f1560f325a048f8f05e4f1533a502b3e85a73106a2203f"
+    },
+    {
+      "path": "full_shared_contrast.png",
+      "sha256": "e5cb0bcb2f5687cbaab09aaa517afff5b4a48f6055124454a3d2cd3ebfcaba77"
+    },
+    {
+      "path": "../../session_02/pre_repair_A02_observed_full/analysis/Z_raw_globalplane_FB.png",
+      "sha256": "fbaabd70e1dffcfb0aff7fbe324757610736e51be160c5cd91f70906b186ef56"
+    },
+    {
+      "path": "../../session_02/pre_repair_A02_observed_full/analysis/Current_raw_FB.png",
+      "sha256": "e5bc58dc37abc0c1a324a6336a7450273eb71ec15b2083f39e31fcff8a75c8db"
+    }
+  ],
+  "figure_semantics": "Cropcolumns202F,202B,204F,204B; rowsC1,C2,C3,D4 are spatial regions. Same scale within row; rawZ minus perimeter scalar median, no alignment/smoothing/rowflatten. Fullsharedcontrast removes one global plane with disclosed display-only clipping; original rawfull retained.",
+  "review_completion": "All4 referenced actual images visually inspected; native authority read/hash verified. No existing evidence, skill, controlthreshold or sharedstate changed.",
+  "_portable_export": {
+    "source_sha256": "9a8c7dd3d895791798b11dc8d3b4c098af6553b6fd9133aa44ab84fe91237ff5",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

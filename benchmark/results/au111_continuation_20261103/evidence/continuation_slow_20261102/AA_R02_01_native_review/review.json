@@ -1,0 +1,498 @@
+{
+  "created_utc": "2026-11-02T15:50:40.616532+00:00",
+  "scope": "Offline immutable local blocks 38-41 and completed AA01 logs; no hardware, SMB, CUA, network or hardware-module import",
+  "native_sources": [
+    {
+      "path": "local-archive:3a15763a4be3c921",
+      "sha256": "c53ed45b4e604344de97dba40fc6cb20a581cf7c30cfb0bd840879853533ef90"
+    },
+    {
+      "path": "local-archive:58f2c9685572301c",
+      "sha256": "d8372d0a7a38b2755957c30b7a497affa2007b8fad2257c9c8dfb3ccc89acc69"
+    },
+    {
+      "path": "local-archive:210c532aba8c7f8b",
+      "sha256": "dda051e53e260a4a8f43d59e8d0d945016b91e348b760539f11c08c2d3bbeea5"
+    },
+    {
+      "path": "local-archive:003b428bd744acb2",
+      "sha256": "27c7763477e6f1adac12dc790a8af753fdae9c83d7e32c3ff9efae433ea68cf3"
+    }
+  ],
+  "sample_period_s": 0.0005,
+  "finite_values": 600000,
+  "Bias_V_all": -1,
+  "whole_archive_window": {
+    "native_s": [
+      462.5,
+      512.5
+    ],
+    "samples": 100000,
+    "I_pA": {
+      "min": -471.8933,
+      "max": 29.764892000000003,
+      "mean": 0.06300032480742614,
+      "std": 3.6269318243974964,
+      "abs_ge400": 6,
+      "abs_ge1000": 0,
+      "software_lower_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": -123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "nonHome_excursions": [
+    {
+      "native_s": [
+        470.1935,
+        470.852
+      ],
+      "samples": 1317,
+      "I_pA": {
+        "min": -1.1736775000000002,
+        "max": 1.5680216,
+        "mean": 0.41760296489283216,
+        "std": 0.3018570345852721,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -116.02665,
+        "max": 123.68597999999999,
+        "first": 123.68597999999999,
+        "last": -20.220311000000002
+      },
+      "index": 1,
+      "first_minimum_s": 470.851,
+      "next_Home_native_s": 470.852,
+      "Home_arrival_I_pA": -458.33584,
+      "classification": "internal AutoApproach fine-Z reset; physical coarse motor count not recorded"
+    },
+    {
+      "native_s": [
+        471.014,
+        471.8435
+      ],
+      "samples": 1659,
+      "I_pA": {
+        "min": -2.2807025,
+        "max": 3.0906960999999997,
+        "mean": 0.3497818206707294,
+        "std": 0.9045932180928826,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -117.24695,
+        "max": 123.69199,
+        "first": 123.69199,
+        "last": -20.945532
+      },
+      "index": 2,
+      "first_minimum_s": 471.8425,
+      "next_Home_native_s": 471.8435,
+      "Home_arrival_I_pA": -461.5591,
+      "classification": "internal AutoApproach fine-Z reset; physical coarse motor count not recorded"
+    },
+    {
+      "native_s": [
+        471.9965,
+        472.78749999999997
+      ],
+      "samples": 1582,
+      "I_pA": {
+        "min": -1.8322468,
+        "max": 2.8518961999999997,
+        "mean": 0.3642816114178066,
+        "std": 0.7192143663507089,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -120.03439000000002,
+        "max": 123.69198,
+        "first": 123.69198,
+        "last": -22.62559
+      },
+      "index": 3,
+      "first_minimum_s": 472.7865,
+      "next_Home_native_s": 472.7875,
+      "Home_arrival_I_pA": -466.04598000000004,
+      "classification": "internal AutoApproach fine-Z reset; physical coarse motor count not recorded"
+    },
+    {
+      "native_s": [
+        472.9485,
+        473.6995
+      ],
+      "samples": 1502,
+      "I_pA": {
+        "min": -1.4388752,
+        "max": 1.9403361,
+        "mean": 0.3842246441026432,
+        "std": 0.5615775716944655,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -119.84693000000001,
+        "max": 123.69178,
+        "first": 123.69178,
+        "last": -22.507388
+      },
+      "index": 4,
+      "first_minimum_s": 473.6985,
+      "next_Home_native_s": 473.6995,
+      "Home_arrival_I_pA": -465.90864000000005,
+      "classification": "internal AutoApproach fine-Z reset; physical coarse motor count not recorded"
+    },
+    {
+      "native_s": [
+        473.858,
+        474.59499999999997
+      ],
+      "samples": 1474,
+      "I_pA": {
+        "min": -1.8580340999999998,
+        "max": 2.3585795,
+        "mean": 0.38176576835892123,
+        "std": 0.5144223700040083,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -118.87368,
+        "max": 123.69037000000002,
+        "first": 123.69037000000002,
+        "last": -21.926231
+      },
+      "index": 5,
+      "first_minimum_s": 474.594,
+      "next_Home_native_s": 474.595,
+      "Home_arrival_I_pA": -464.04003,
+      "classification": "internal AutoApproach fine-Z reset; physical coarse motor count not recorded"
+    },
+    {
+      "native_s": [
+        474.744,
+        476.866
+      ],
+      "samples": 4244,
+      "I_pA": {
+        "min": -2.1668719,
+        "max": 2.4711895,
+        "mean": 0.1758378142326343,
+        "std": 0.6001216033628539,
+        "abs_ge400": 0,
+        "abs_ge1000": 0,
+        "software_lower_count": 0,
+        "signed_target_band_count": 0
+      },
+      "Z_nm": {
+        "min": -123.69999,
+        "max": 123.69210000000001,
+        "first": 123.69210000000001,
+        "last": -24.739998
+      },
+      "index": 6,
+      "first_minimum_s": 475.57,
+      "next_Home_native_s": 476.866,
+      "Home_arrival_I_pA": -471.8933,
+      "classification": "last descent persists after host Stop; known final Withdraw returns Home"
+    }
+  ],
+  "after_finalHome_1to10s": {
+    "native_s": [
+      477.866,
+      486.866
+    ],
+    "samples": 18000,
+    "I_pA": {
+      "min": -1.1782551,
+      "max": 1.2106608,
+      "mean": 0.05916641462293911,
+      "std": 0.3055948289005068,
+      "abs_ge400": 0,
+      "abs_ge1000": 0,
+      "software_lower_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": 123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "archive_final5s": {
+    "native_s": [
+      507.5,
+      512.5
+    ],
+    "samples": 10000,
+    "I_pA": {
+      "min": -0.9568500499999999,
+      "max": 1.2456034,
+      "mean": 0.0710391488878291,
+      "std": 0.2971748461751545,
+      "abs_ge400": 0,
+      "abs_ge1000": 0,
+      "software_lower_count": 0,
+      "signed_target_band_count": 0
+    },
+    "Z_nm": {
+      "min": 123.69999,
+      "max": 123.69999,
+      "first": 123.69999,
+      "last": 123.69999
+    }
+  },
+  "host_counter_anchors": [
+    {
+      "utc": "2026-11-02T15:46:44.417610+00:00",
+      "native_s": 469.42
+    },
+    {
+      "utc": "2026-11-02T15:46:44.988548+00:00",
+      "native_s": 470.0
+    },
+    {
+      "utc": "2026-11-02T15:46:45.534428+00:00",
+      "native_s": 470.54
+    },
+    {
+      "utc": "2026-11-02T15:46:46.069150+00:00",
+      "native_s": 471.07
+    },
+    {
+      "utc": "2026-11-02T15:46:46.634953+00:00",
+      "native_s": 471.65
+    },
+    {
+      "utc": "2026-11-02T15:46:47.151047+00:00",
+      "native_s": 472.16
+    },
+    {
+      "utc": "2026-11-02T15:46:47.705346+00:00",
+      "native_s": 472.72
+    },
+    {
+      "utc": "2026-11-02T15:46:48.230540+00:00",
+      "native_s": 473.25
+    },
+    {
+      "utc": "2026-11-02T15:46:48.750026+00:00",
+      "native_s": 473.76
+    },
+    {
+      "utc": "2026-11-02T15:46:49.295315+00:00",
+      "native_s": 474.3
+    },
+    {
+      "utc": "2026-11-02T15:46:49.840964+00:00",
+      "native_s": 474.85
+    },
+    {
+      "utc": "2026-11-02T15:46:50.379695+00:00",
+      "native_s": 475.39
+    },
+    {
+      "utc": "2026-11-02T15:46:50.919399+00:00",
+      "native_s": 475.92
+    },
+    {
+      "utc": "2026-11-02T15:46:51.452878+00:00",
+      "native_s": 476.46
+    },
+    {
+      "utc": "2026-11-02T15:46:52.022092+00:00",
+      "native_s": 477.02
+    },
+    {
+      "utc": "2026-11-02T15:46:52.551741+00:00",
+      "native_s": 477.57
+    },
+    {
+      "utc": "2026-11-02T15:46:53.098127+00:00",
+      "native_s": 478.11
+    },
+    {
+      "utc": "2026-11-02T15:46:53.629437+00:00",
+      "native_s": 478.64
+    },
+    {
+      "utc": "2026-11-02T15:46:54.175453+00:00",
+      "native_s": 479.18
+    },
+    {
+      "utc": "2026-11-02T15:46:54.711227+00:00",
+      "native_s": 479.71
+    },
+    {
+      "utc": "2026-11-02T15:46:55.242288+00:00",
+      "native_s": 480.25
+    },
+    {
+      "utc": "2026-11-02T15:46:55.765096+00:00",
+      "native_s": 480.77
+    },
+    {
+      "utc": "2026-11-02T15:46:56.343944+00:00",
+      "native_s": 481.34
+    },
+    {
+      "utc": "2026-11-02T15:46:56.888141+00:00",
+      "native_s": 481.89
+    }
+  ],
+  "timing_limit": "Native sample time from block headers/index; host counter anchors show approximate alignment only, not hard command-to-sample synchronization. No direct coarse-motor position/pulse channel.",
+  "commands": {
+    "autoapproach_start.claim": {
+      "path": "../AA_R02_01/autoapproach_start.claim",
+      "sha256": "e04b1f0ea9841d184de8b149b5e59bf6b271de92e5e7f0bdbb2adb6b4f945b3e",
+      "record": {
+        "utc": "2026-11-02T15:46:45.168230+00:00",
+        "monotonic_ns": 1505849760036500,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          1
+        ],
+        "at_most_once": true
+      }
+    },
+    "autoapproach_start_ack.json": {
+      "path": "../AA_R02_01/autoapproach_start_ack.json",
+      "sha256": "309c4af4a867e8b03babbebc03a964432cc71563a759f1b35870fe684fd55892",
+      "record": {
+        "utc": "2026-11-02T15:46:45.170678+00:00",
+        "monotonic_ns": 1505849762483208,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "cleanup_autoapproach_stop.claim": {
+      "path": "../AA_R02_01/cleanup_autoapproach_stop.claim",
+      "sha256": "af11df15ebef5799c8980f9fa94ad309d23477d5bc1524352fbadd7663dd3e7e",
+      "record": {
+        "utc": "2026-11-02T15:46:49.668742+00:00",
+        "monotonic_ns": 1505854260413458,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          0
+        ],
+        "at_most_once": true
+      }
+    },
+    "cleanup_autoapproach_stop_ack.json": {
+      "path": "../AA_R02_01/cleanup_autoapproach_stop_ack.json",
+      "sha256": "8346720fe99587bbd4509a6579dd21537fc67102e92cfe17ee5dc14c9351d15c",
+      "record": {
+        "utc": "2026-11-02T15:46:49.669732+00:00",
+        "monotonic_ns": 1505854261403250,
+        "command": "AutoApproach.OnOffSet",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "failure_withdraw.claim": {
+      "path": "../AA_R02_01/failure_withdraw.claim",
+      "sha256": "ef9ef8800217d3802656004099bd57d0a5853695ec4e5a6843a63344d0d5264c",
+      "record": {
+        "utc": "2026-11-02T15:46:51.843912+00:00",
+        "monotonic_ns": 1505856435521416,
+        "command": "ZCtrl.Withdraw",
+        "args": [
+          1,
+          2000
+        ],
+        "at_most_once": true
+      }
+    },
+    "failure_withdraw_ack.json": {
+      "path": "../AA_R02_01/failure_withdraw_ack.json",
+      "sha256": "5b055e70aa4d5dbe273c1967e57a7d1a61edba30e0fadf14b6e4c08f70f36104",
+      "record": {
+        "utc": "2026-11-02T15:46:51.962435+00:00",
+        "monotonic_ns": 1505856554046291,
+        "command": "ZCtrl.Withdraw",
+        "values": [],
+        "warning": ""
+      }
+    },
+    "outcome.json": {
+      "path": "../AA_R02_01/outcome.json",
+      "sha256": "835e7009dcfd6345e1fee1b3ad425963d17176afa631253d546b36de9932ec09",
+      "record": {
+        "utc": "2026-11-02T15:46:55.215552+00:00",
+        "monotonic_ns": 1505859807080458,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "error": "5s_host_window_Stop_before_next_read",
+        "sampled_AutoOff_contiguous_s": 2.041580375051126,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.1235972500871867,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      }
+    }
+  },
+  "static_independent_review": {
+    "source": "local-archive:9ba68cf0a9afabb8",
+    "sha256": "9499a0c3d4127424aa3113e959fcec371bf0a4e1e2005a53b1db00da424b4e70",
+    "parent_sha256": "50e3cdacd80d05ae235c9b9b96c98d0587a7fd04152eb4b0cfc7bf5206f1ea5f",
+    "unchanged_AST": {
+      "Client": true,
+      "q": true,
+      "capture": true,
+      "same": true,
+      "home": true,
+      "check": true
+    },
+    "author_test_audit": {
+      "path": "local-archive:dfa866ca36827e36",
+      "sha256": "6a043d434c08f4c4d14508a7535030934cabdec5980bdf717e97a1d403b23e63",
+      "reported_fake_tests_passed": 18,
+      "independently_rerun": false
+    },
+    "finding": "No new concrete binding/claim/unknown-ACK blocker found. Exact R02 source, recording identity, READY/start bytes and native start tied together; global exclusive claim retained. This is source review, not certification of physical range or native timeout."
+  },
+  "conclusions": [
+    "No signed100pA plateau in any nonHome excursion. All six nonHome intervals have sub-4pA measured current; failure to land is supported.",
+    "Five search-internal fine-Z resets and one final commanded return to Home are observed. Their negative current impulses are associated with these resets, not sustained tunneling; they must not be relabeled pre-landing persistent overload.",
+    "No >=1nA or software-range-limit samples in the reviewed interval. Final Home is constant and current returns near zero.",
+    "These records do not establish the number, amplitude or physical travel of coarse motor steps; five internal Z resets are not a verified five-step motor budget.",
+    "No observed persistent-current failure in this completed window is a specific new scientific blocker to root considering one finite additional search window. It does not guarantee landing or safe displacement; further decisions require fresh state, retained native Safe settings and an explicit total search budget. No automatic extension/retry is authorized by this review."
+  ],
+  "figure": {
+    "path": "AA01_search_and_Home_returns.png",
+    "sha256": "162a8007e456e79ba0871c0be0fb76be3c77ea91ba42391e8a179b703cd80679"
+  },
+  "script_sha256": "51dde1122e36f56e6684b1c004eec5361e281f3a9dd726a14ea154886ce844f8",
+  "_portable_export": {
+    "source_sha256": "70765d95294109e37699e62e7da9d68b070e225cb490d2db33307d531a5476cf",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

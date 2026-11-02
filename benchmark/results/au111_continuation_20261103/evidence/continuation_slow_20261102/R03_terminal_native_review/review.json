@@ -1,0 +1,55 @@
+{
+  "scope": "Complete R03 native archive through independently confirmed terminal. Root-only source read, local new writes; no device commands.",
+  "receipt": {
+    "path": "receipt.json",
+    "sha256": "5f087b3accd5dbe1a0f4b0429bafde55906d6b84c981d4a2325e19ab7495f332",
+    "bytes": 504022
+  },
+  "source": {
+    "path": "local-archive:9fa961a082717ff4",
+    "sha256": "250bae5d7d5e4463195be83646af04d05837c2db58064b1866d9204cd3e2d314",
+    "bytes": 14814
+  },
+  "block_count": 761,
+  "new_files": 29,
+  "total_rows_per_channel": 19024500,
+  "finite_scalars": 114147000,
+  "sample_header_dt_s": 0.0005,
+  "row_duration_s": 9512.25,
+  "native_nominal_elapsed_units": 19024.5,
+  "native_half_elapsed_minus_row_duration_s": 0.0,
+  "all_expected_indices_sha_bytes_rows_header_columns_finite_verified": true,
+  "per_channel_min": {
+    "Current (A)": -9.9994768e-09,
+    "Bias (V)": -1.0,
+    "Z (m)": -1.2144822e-07,
+    "Z Control signal (A)": 1.7226602e-13,
+    "Z Error signal (A)": -1.1207749e-09,
+    "Z SafeTip signal (A)": 1.7226602e-13
+  },
+  "per_channel_max": {
+    "Current (A)": 3.1837338e-11,
+    "Bias (V)": -1.0,
+    "Z (m)": 1.2369999e-07,
+    "Z Control signal (A)": 9.9994768e-09,
+    "Z Error signal (A)": 6.4058941e-10,
+    "Z SafeTip signal (A)": 9.9994768e-09
+  },
+  "abs_I_ge_pA_samples": {
+    "400": 386432,
+    "1000": 12916,
+    "4000": 115
+  },
+  "historical_software_floor_matching_samples": 70,
+  "qualification": [
+    "The stored0.5ms interval is not the analog bandwidth or true-peak bound.",
+    "Whole-record extrema mix preparations, interventions and scans; no phase attribution or image-quality verdict is implied.",
+    "No missing numbered block detected; this does not prove hardware timestamp/analog no-drop behavior.",
+    "Original outcome and incremental receipt are not overwritten. Segment gap/new baseline must be recorded separately."
+  ],
+  "_portable_export": {
+    "source_sha256": "8f6d73fb2dd6be8708496f0fcdafb7d47325d9b109fc4cedc967301f9cc97fcb",
+    "path_basis": "Included paths relative to this JSON; local-archive IDs in omitted-evidence.json; embedded original hashes remain original provenance.",
+    "scientific_values_changed": false
+  }
+}

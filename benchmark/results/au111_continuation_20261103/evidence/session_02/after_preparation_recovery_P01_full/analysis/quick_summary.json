@@ -1,0 +1,28 @@
+{
+  "source": {
+    "path": "../native/BM261029_00205.sxm",
+    "sha256": "b0056330eed4b7ce1f642d094c9cde90ab0d8c2500958783ac45b04408a66364",
+    "bytes": 1383336
+  },
+  "actual_speed": {
+    "profile": "fast",
+    "actual_header_direction_line_s": [
+      0.912,
+      0.912
+    ],
+    "nominal_pixel_ms": [
+      3.8,
+      3.8
+    ],
+    "nominal_active_frame_s": 437.76
+  },
+  "native_TCP_wire_bitmatch": true,
+  "float32_values": 345600,
+  "report": "quality_report.json",
+  "quality_verdict": "pending",
+  "_portable_export": {
+    "source_sha256": "89d21c0ead458365bc2911a3acce1ddfc6521faa72cb97665c73c695825d52ac",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

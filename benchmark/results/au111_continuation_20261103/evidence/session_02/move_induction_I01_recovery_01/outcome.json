@@ -1,0 +1,121 @@
+{
+  "utc": "2026-11-02T16:59:52.294504+00:00",
+  "monotonic_ns": 1510236856909000,
+  "status": "known_stopped_move_stable_custom0_restored",
+  "XY_repeated": false,
+  "automatic_On": false,
+  "automatic_Withdraw": false,
+  "automatic_retry": false,
+  "original_move_status_preserved": true,
+  "pre_metrics": {
+    "span_s": 5.075075667118654,
+    "samples": 35,
+    "last_values": {
+      "Current.Get": [
+        -9.970051867425056e-11
+      ],
+      "ZCtrl.ZPosGet": [
+        -1.0641539205380468e-07
+      ],
+      "ZCtrl.OnOffGet": [
+        1
+      ],
+      "ZCtrl.StatusGet": [
+        2
+      ],
+      "Scan.StatusGet": [
+        0
+      ],
+      "Bias.Get": [
+        -1.0
+      ],
+      "ZCtrl.SetpntGet": [
+        1.000000013351432e-10
+      ],
+      "SafeTip.OnOffGet": [
+        0
+      ],
+      "AutoApproach.OnOffGet": [
+        0
+      ],
+      "BiasSpectr.StatusGet": [
+        0
+      ],
+      "ZSpectr.StatusGet": [
+        0
+      ],
+      "FolMe.PSOnOffGet": [
+        0
+      ],
+      "FolMe.XYPosGet": [
+        1.6499999588859282e-08,
+        2.4999999848063226e-09
+      ],
+      "SafeTip.SignalGet": [
+        9.970051867425056e-11
+      ]
+    }
+  },
+  "post_metrics": {
+    "span_s": 5.04683812498115,
+    "samples": 34,
+    "last_values": {
+      "Current.Get": [
+        -9.981664800262635e-11
+      ],
+      "ZCtrl.ZPosGet": [
+        -1.0641515757470188e-07
+      ],
+      "ZCtrl.OnOffGet": [
+        1
+      ],
+      "ZCtrl.StatusGet": [
+        2
+      ],
+      "Scan.StatusGet": [
+        0
+      ],
+      "Bias.Get": [
+        -1.0
+      ],
+      "ZCtrl.SetpntGet": [
+        1.000000013351432e-10
+      ],
+      "SafeTip.OnOffGet": [
+        0
+      ],
+      "AutoApproach.OnOffGet": [
+        0
+      ],
+      "BiasSpectr.StatusGet": [
+        0
+      ],
+      "ZSpectr.StatusGet": [
+        0
+      ],
+      "FolMe.PSOnOffGet": [
+        0
+      ],
+      "FolMe.XYPosGet": [
+        1.6499999588859282e-08,
+        2.4999999848063226e-09
+      ],
+      "SafeTip.SignalGet": [
+        9.981664800262635e-11
+      ]
+    }
+  },
+  "actual_target_m": [
+    1.6499999588859282e-08,
+    2.4999999848063226e-09
+  ],
+  "stable_after_s": 5.04683812498115,
+  "restore_attempted": true,
+  "restore_ACK": true,
+  "writer_outcome_unknown": false,
+  "_portable_export": {
+    "source_sha256": "3b22024791031c17861a10657a37785bfd5da15b7c40d352bcfeb326c73c2659",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

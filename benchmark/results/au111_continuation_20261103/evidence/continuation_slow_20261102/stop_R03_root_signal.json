@@ -1,0 +1,90 @@
+{
+  "utc": "2026-11-02T18:46:44.783927+00:00",
+  "monotonic_ns": 1516649307591166,
+  "pid": 97475,
+  "verified_command": "local-archive:50285e426b683e1a",
+  "command_identity_check": "Exact ps command equals joined launch argv; all launch args contain no whitespace. Initial shlex parse was inapplicable to unquoted ps UNC backslashes; failed before any signal/receipt.",
+  "action": "SIGINT owned R03 logger; only its claimed DataLog.Stop cleanup, no junction command",
+  "reason": "A03 rejected before any writer on frozen Z-RMS gate; experimenter criterion question pending. Close native segment and retain complete progress; all conditioning/scanning idle.",
+  "latest_status": {
+    "utc": "2026-11-02T18:46:44.708123+00:00",
+    "monotonic_ns": 1516649231659708,
+    "kind": "datalog_status",
+    "label": "acquiring",
+    "raw_values": [
+      17,
+      "2026/11/3 0:08:12",
+      5,
+      17,
+      3.059999942779541,
+      0,
+      "",
+      108,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0300761.dat",
+      23360
+    ],
+    "parsed": {
+      "start": "2026/11/3 0:08:12",
+      "elapsed_s": 19023.05999994278,
+      "stop": "",
+      "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0300761.dat",
+      "points_counter": 23360
+    }
+  },
+  "latest_junction_observation": {
+    "utc": "2026-11-02T18:46:44.735802+00:00",
+    "monotonic_ns": 1516649259332583,
+    "kind": "dynamic_state_poll",
+    "values": {
+      "Bias.Get": [
+        -1.0
+      ],
+      "Current.Get": [
+        -1.08654571451261e-10
+      ],
+      "ZCtrl.SetpntGet": [
+        1.000000013351432e-10
+      ],
+      "ZCtrl.ZPosGet": [
+        -1.0362574442979167e-07
+      ],
+      "ZCtrl.OnOffGet": [
+        1
+      ],
+      "ZCtrl.StatusGet": [
+        2
+      ],
+      "Scan.StatusGet": [
+        0
+      ],
+      "BiasSpectr.StatusGet": [
+        0
+      ],
+      "ZSpectr.StatusGet": [
+        0
+      ],
+      "AutoApproach.OnOffGet": [
+        0
+      ],
+      "SafeTip.OnOffGet": [
+        0
+      ],
+      "SafeTip.PropsGet": [
+        0,
+        1,
+        4.999999858590343e-10
+      ]
+    },
+    "unavailable": {},
+    "coherent_snapshot": false,
+    "interpretation": "observed_only_no_junction_failure_diagnosis"
+  },
+  "signal": 2,
+  "no_junction_writer_active": true,
+  "original_failure_style_outcome_will_be_preserved": true,
+  "_portable_export": {
+    "source_sha256": "7940e26c685c69d95cad0050bc70a2556de9f09d5d62ca05e2c828144b3fe2e2",
+    "path_basis": "Included paths relative to this JSON; local-archive IDs in omitted-evidence.json; embedded original hashes remain original provenance.",
+    "scientific_values_changed": false
+  }
+}

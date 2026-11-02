@@ -1,0 +1,226 @@
+{
+  "created_utc": "2026-11-02T18:42:37.561966+00:00",
+  "scope": "Local closed records only; no control imports, hardware/network/SMB/CUA or source mutation",
+  "actual_outcome": {
+    "utc": "2026-11-02T18:39:07.437975+00:00",
+    "monotonic_ns": 1516191964241958,
+    "status": "rejected_before_start",
+    "session_id": "session_02",
+    "action_id": "A03",
+    "stage_intent": "repair_attempt",
+    "automatic_On": false,
+    "automatic_retry": false,
+    "old_preset_restored": false,
+    "pulse_count_reset": false,
+    "error": "Final current/Z stability gate failed",
+    "cleanup_withheld": "No known native end / unknown writer / closed transport; zero further commands",
+    "start_attempted": false,
+    "native_end_confirmed": false,
+    "writer_outcome_unknown": false,
+    "episode_shaper_claim_exists": false,
+    "requires_root_review": true,
+    "quality_effect": "not_assessed"
+  },
+  "source_evidence": [
+    {
+      "path": "local-archive:b92f5d9f1be12519",
+      "sha256": "e1fa6b4e4f45ebaf8030e193e960dacf20f16a9cb73e5b06d1e79f1d44cdf43e",
+      "bytes": 20724
+    },
+    {
+      "path": "local-archive:ea762a5e437b1e17",
+      "sha256": "3d9d75b89b3b0412738c5caaab398991feeceb7e8448c328b74f2c92ae0e4bed",
+      "bytes": 10266
+    },
+    {
+      "path": "../session_02/repair_A03/outcome.json",
+      "sha256": "96fa9eded57c36514ec77071127df01fde60dd9285ce0f595d64cf0dee42b5b1",
+      "bytes": 611
+    },
+    {
+      "path": "local-archive:ea3410779074e442",
+      "sha256": "ddf07dd678d3eb6ef4f2b7852cc5c0e789ee13e94246ddf03cbb2ba388584a66",
+      "bytes": 29035
+    },
+    {
+      "path": "../session_02/repair_A03/pre30s_summary.json",
+      "sha256": "6ebc1e11a05b5e838d538a24645c81c0511ed0665a9f64c809e889a9c7773e9a",
+      "bytes": 261
+    },
+    {
+      "path": "../session_02/repair_A03/pre30s_samples.json",
+      "sha256": "386d6180e9e7cf7be37281a229aa567f52fb73d7e22ccd9f11c162814a1b6a8b",
+      "bytes": 16277
+    },
+    {
+      "path": "local-archive:dabe0942fffd948f",
+      "sha256": "77dfa81309be7df98345dcc336507d2e1c8328051ae8a69519d775572be8d4ff",
+      "bytes": 3655900
+    },
+    {
+      "path": "local-archive:d18b4bc780315673",
+      "sha256": "92e59b755b4d5be3d584fed0577835230563c67032f9fe0f068349f6321e19e4",
+      "bytes": 5541
+    },
+    {
+      "path": "local-archive:c6df35c25c7cee50",
+      "sha256": "3b340fd603b813ec9b482595e6928fed0b607595354dbf4e7707f0e65d1766de",
+      "bytes": 6059
+    },
+    {
+      "path": "local-archive:594d2fe8b8e2d3c3",
+      "sha256": "2c92334ecd6443c6a6b57aaa99b64efec2a1b1aed1ac17f023a6dad7fe9d039b",
+      "bytes": 209
+    },
+    {
+      "path": "../session_02/repair_R03_A03_corner.admission.json",
+      "sha256": "51c65ccdc4153c01d2d77e2cde369a5faae0dc5efd9a97cc7759afa0bbaf9475",
+      "bytes": 3588
+    },
+    {
+      "path": "local-archive:868770a56fda533d",
+      "sha256": "4bcb8fc31f6482f90fa2c5c0cc4b96878e1c01ccf5d6e85717da089d9e366fa8",
+      "bytes": 4298
+    },
+    {
+      "path": "native205_post302s_review/review.json",
+      "sha256": "b766605fe104ddcdf828dfdac6175a0b4f6d48af5b9f7ad69a7a02154eac00fb",
+      "bytes": 90663
+    }
+  ],
+  "gate_result": {
+    "reason": "Z detrended RMS exceeds frozen10pm criterion; current band and Z slope passed",
+    "pre_window_elapsed_s": 30.01374362502247,
+    "all_saved_sample_span_s": 29.804740957915783,
+    "all_saved_samples": 195,
+    "all_saved_current_in_minus120_minus80_pA": true,
+    "all_saved_current_minmax_pA": [
+      -119.30198495768707,
+      -106.54840204571414
+    ],
+    "last_window_s": 10.136306165950373,
+    "last_window_samples": 68,
+    "last_window_current_mean_pA": -112.03496086327726,
+    "last_window_current_std_pA": 3.0504370563208307,
+    "Z_slope_pm_s": -0.10292086770471133,
+    "Z_detrended_RMS_pm": 13.73321332429655,
+    "RMS_limit_pm": 10,
+    "recomputed_summary_matches": true
+  },
+  "no_action_evidence": {
+    "tcp_exchanges": 3425,
+    "all_request_header_sha_and_command_match": true,
+    "all_requests_getters": true,
+    "observed_error_status_counts": {
+      "ok": 3425
+    },
+    "command_counts": {
+      "DataLog.StatusGet": 16,
+      "DataLog.ChsGet": 16,
+      "DataLog.PropsGet": 16,
+      "Util.RTFreqGet": 31,
+      "Util.RTOversamplGet": 31,
+      "Util.AcqPeriodGet": 31,
+      "Current.Get": 196,
+      "ZCtrl.ZPosGet": 196,
+      "ZCtrl.OnOffGet": 196,
+      "ZCtrl.StatusGet": 196,
+      "Scan.StatusGet": 196,
+      "Bias.Get": 196,
+      "ZCtrl.SetpntGet": 196,
+      "SafeTip.OnOffGet": 196,
+      "AutoApproach.OnOffGet": 196,
+      "BiasSpectr.StatusGet": 196,
+      "ZSpectr.StatusGet": 196,
+      "FolMe.PSOnOffGet": 196,
+      "FolMe.XYPosGet": 196,
+      "SafeTip.SignalGet": 196,
+      "Scan.FrameGet": 15,
+      "Scan.BufferGet": 15,
+      "Scan.SpeedGet": 15,
+      "Scan.PropsGet": 15,
+      "SafeTip.PropsGet": 15,
+      "ZCtrl.GainGet": 15,
+      "ZCtrl.LimitsEnabledGet": 15,
+      "ZCtrl.LimitsGet": 15,
+      "ZCtrl.TipLiftGet": 15,
+      "ZCtrl.SwitchOffDelayGet": 15,
+      "ZCtrl.HomePropsGet": 15,
+      "FolMe.SpeedGet": 15,
+      "Current.GainsGet": 15,
+      "TipShaper.PropsGet": 15,
+      "BiasSpectr.PropsGet": 15,
+      "BiasSpectr.LimitsGet": 15,
+      "BiasSpectr.TimingGet": 15,
+      "BiasSpectr.AdvPropsGet": 15,
+      "ZSpectr.PropsGet": 15,
+      "ZSpectr.TimingGet": 15,
+      "ZSpectr.RangeGet": 15,
+      "ZSpectr.RetractGet": 15,
+      "ZSpectr.AdvPropsGet": 15,
+      "BiasSpectr.ChsGet": 15,
+      "ZSpectr.ChsGet": 15,
+      "BiasSpectr.AltZCtrlGet": 15,
+      "BiasSpectr.ZOffRevertGet": 15,
+      "BiasSpectr.SafeCond1Get": 15,
+      "BiasSpectr.SafeCond2Get": 15,
+      "ZSpectr.Retract2ndGet": 15,
+      "ZSpectr.RetractDelayGet": 15,
+      "Util.VersionGet": 15,
+      "Util.SessionPathGet": 15,
+      "Signals.NamesGet": 15,
+      "LockIn.ModOnOffGet": 30
+    },
+    "writer_requests": 0,
+    "configure_Start_restore_Withdraw_Pulse_requests": 0,
+    "expected_absent_claims": [
+      "local-archive:335283f4589d8aa4",
+      "local-archive:17e23bdb79b66d35",
+      "local-archive:7fd8e1b0e43de1eb",
+      "local-archive:61e5150ce333a954",
+      "local-archive:d486edab2bd115cd",
+      "local-archive:77349889ae1bdcdf",
+      "local-archive:177d710fca29766a"
+    ],
+    "stage_admission_reserved_but_not_execution": {
+      "path": "local-archive:15f7befdd3b30148",
+      "sha256": "ce24e44ea057d70a3e4b9c767ea0e738861e36db7a68667a7ec8831728ebcb82"
+    },
+    "all195_sequential_pre_polls_On2_BiasMinus1_SafeOff_Scan0": true
+  },
+  "limitations": [
+    "The30s TCP sequence is not a high-bandwidth waveform and not proof of physical tip-sample gap.",
+    "Z is controller/scanner output; native reported≈15–17pm noise and TCP13.733pm use different sampling/windows and do not independently validate physical gap or safe contact.",
+    "Status0 is recorded as not running; standalone zero is not a universal proof of no paused scan.",
+    "This is a rejected software preparation window, not a failed physical Shaper action or evidence of physical damage."
+  ],
+  "counts": {
+    "full_attempts": 1,
+    "requested_full_attempts": 5,
+    "strict_successes": 0,
+    "remaining_full_attempts": 4,
+    "pulse_count": 3,
+    "pulse_cap": 6,
+    "episode_shaper_Start_count": 0,
+    "A03_count_increment": {
+      "full_attempt": 0,
+      "pulse": 0,
+      "shaper_Start": 0
+    }
+  },
+  "state_as_of_outcome": "No subsequent action authorized by this report; root awaiting expert response. Passive logger is separate.",
+  "prospective_changes_only_if_reviewed": [
+    "First resolve the expert statement scope: ordinary current fluctuation does not alone validate measured Z-control noise, physical gap, or the open-feedback trajectory. Current and Z criteria are separate.",
+    "Record actual expert wording/date/instrument conditions and scientific rationale; choose a prospective action-specific Z-noise criterion/window/measurement basis. No new threshold is proposed or implemented here. Do not relabel the existing13.733pm result as passing10pm.",
+    "If an RMS criterion is revised, explicitly decide whether it applies to pre-action admission, post-action recovery, or both. Existing observe() uses one final current/Z check for both; change only the selected condition and corresponding plan/manifest metadata in a new version. Current band, slope, endpoint/trajectory margins, sampled400pA, ownership, source/READY bindings, unknown ACK and cleanup remain unless separately reviewed.",
+    "Preserve this rejected source/outcome and consumed stage-admission reservation. A newly selected finite precheck needs a distinct source/output/admission/stage identity, linked to this known no-write outcome; keep the single shared episode shaper_01 Start budget and all3 pulses/cap6. Do not delete/reuse an old claim or silently rerunA03.",
+    "Review baseline205-to-new-action gap and native recovery again if needed; require fresh full read and new actual pre-window. Expert acceptance of typical noise is not permission to ignore unknown recovery or changes in task state.",
+    "Before any execution, freeze the change rationale/diff/SHA and targeted boundary/unknown-ACK/no-replay tests; root reviews and selects one attempt. Do not modify Skill or frozen evidence from this offline review."
+  ],
+  "numbers_modified_or_proposed": false,
+  "_portable_export": {
+    "source_sha256": "164d4f2fdfd13651483d471347e06178f79c5e9e7dbcb897d712068cf9e82f22",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

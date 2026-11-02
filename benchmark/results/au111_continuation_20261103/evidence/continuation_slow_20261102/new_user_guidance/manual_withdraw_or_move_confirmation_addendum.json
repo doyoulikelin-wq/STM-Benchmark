@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-02T15:53:58.384683+00:00",
+  "question_original": "刚才约20:47:42，是否有人手动退针、点Home或移动XY？程序当时正在返回100pA后观察，读到反馈关闭、Z=Home、XY=(0,0)。请说明实际操作，以便判断原因并保留正确的修前修后历史。",
+  "user_answer_verbatim": "是，刚才有人手动退针或移动",
+  "scope": "Reply to historical20:47:42 question; confirms manual withdrawal or movement category, does not specify exact button/command sequence. Not taken as a newcurrent intervention or stop request.",
+  "history_handling": "Append only. Existing unknown-at-time audits and prior broader manual confirmation remain byte-identical. No causal post-image for oldpulse; newR02baseline required.",
+  "_portable_export": {
+    "source_sha256": "bd5409aec645e7c31d8794eec8b19dec7f73157c9bfdcbbaa907193a27a0bd4d",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "created_utc": "2026-11-02T18:46:45.820241+00:00",
+  "scope": "Actual compact claims and ACK summaries; does not execute commands. UTC claim/ACK timestamps remain separate. Source outcome semantics preserved.",
+  "events": [
+    {
+      "event": "continuation_slow_20261102/engage_R02_01",
+      "outcome": "evidence/continuation_slow_20261102/engage_R02_01/outcome.json",
+      "outcome_original_sha256": "7daa1eb4d2677ff1040404cc1d7976b649a6eaae59a382efaf76799fe5512ab1",
+      "status": "failed_after_known_On_ack",
+      "outcome_utc": "2026-11-02T15:39:21.214578+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "ZCtrl.Withdraw",
+          "args": [
+            1,
+            2000
+          ],
+          "claim_utc": "2026-11-02T15:39:17.839094+00:00",
+          "claim_monotonic_ns": 1505402433776750,
+          "claim_original_sha256": "199f207d273b8ba7ad540a96bfdb0df0e24bd29a73a79b1316592735b5ebc114",
+          "claim": "evidence/continuation_slow_20261102/engage_R02_01/failure_withdraw.claim",
+          "ack": {
+            "utc": "2026-11-02T15:39:17.957735+00:00",
+            "monotonic_ns": 1505402552425208,
+            "command": "ZCtrl.Withdraw",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "09561b83f06ee772046a0a723bd9c9981d2891fb5dfbafcedf321dcb6c4a306d",
+          "ack_path": "evidence/continuation_slow_20261102/engage_R02_01/failure_withdraw_ack.json"
+        },
+        {
+          "command": "ZCtrl.OnOffSet",
+          "args": [
+            1
+          ],
+          "claim_utc": "2026-11-02T15:39:16.979681+00:00",
+          "claim_monotonic_ns": 1505401574367625,
+          "claim_original_sha256": "b9736f557834d03eb678fa306796eacf9c1b47dccf93f37dcd87a41c892eeb3d",
+          "claim": "evidence/continuation_slow_20261102/engage_R02_01/feedback_on.claim",
+          "ack": {
+            "utc": "2026-11-02T15:39:16.980791+00:00",
+            "monotonic_ns": 1505401575477833,
+            "command": "ZCtrl.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "a0d0d1bffbd202d71aebfe603a1bf384f2d143dc9f8b0d7efae0e2adc4afb5be",
+          "ack_path": "evidence/continuation_slow_20261102/engage_R02_01/feedback_on_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "continuation_slow_20261102/AA_R02_01",
+      "outcome": "evidence/continuation_slow_20261102/AA_R02_01/outcome.json",
+      "outcome_original_sha256": "835e7009dcfd6345e1fee1b3ad425963d17176afa631253d546b36de9932ec09",
+      "status": "failed_after_known_Start_ack",
+      "outcome_utc": "2026-11-02T15:46:55.215552+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            1
+          ],
+          "claim_utc": "2026-11-02T15:46:45.168230+00:00",
+          "claim_monotonic_ns": 1505849760036500,
+          "claim_original_sha256": "e04b1f0ea9841d184de8b149b5e59bf6b271de92e5e7f0bdbb2adb6b4f945b3e",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_01/autoapproach_start.claim",
+          "ack": {
+            "utc": "2026-11-02T15:46:45.170678+00:00",
+            "monotonic_ns": 1505849762483208,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "309c4af4a867e8b03babbebc03a964432cc71563a759f1b35870fe684fd55892",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_01/autoapproach_start_ack.json"
+        },
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            0
+          ],
+          "claim_utc": "2026-11-02T15:46:49.668742+00:00",
+          "claim_monotonic_ns": 1505854260413458,
+          "claim_original_sha256": "af11df15ebef5799c8980f9fa94ad309d23477d5bc1524352fbadd7663dd3e7e",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_01/cleanup_autoapproach_stop.claim",
+          "ack": {
+            "utc": "2026-11-02T15:46:49.669732+00:00",
+            "monotonic_ns": 1505854261403250,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "8346720fe99587bbd4509a6579dd21537fc67102e92cfe17ee5dc14c9351d15c",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_01/cleanup_autoapproach_stop_ack.json"
+        },
+        {
+          "command": "ZCtrl.Withdraw",
+          "args": [
+            1,
+            2000
+          ],
+          "claim_utc": "2026-11-02T15:46:51.843912+00:00",
+          "claim_monotonic_ns": 1505856435521416,
+          "claim_original_sha256": "ef9ef8800217d3802656004099bd57d0a5853695ec4e5a6843a63344d0d5264c",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_01/failure_withdraw.claim",
+          "ack": {
+            "utc": "2026-11-02T15:46:51.962435+00:00",
+            "monotonic_ns": 1505856554046291,
+            "command": "ZCtrl.Withdraw",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "5b055e70aa4d5dbe273c1967e57a7d1a61edba30e0fadf14b6e4c08f70f36104",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_01/failure_withdraw_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "continuation_slow_20261102/AA_R02_02",
+      "outcome": "evidence/continuation_slow_20261102/AA_R02_02/outcome.json",
+      "outcome_original_sha256": "8a6ddcf0fe3b9f2706e9dae78240a76f4b60ffa940ea9da7254743c24bfe5280",
+      "status": "failed_after_known_Start_ack",
+      "outcome_utc": "2026-11-02T15:54:33.845482+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            1
+          ],
+          "claim_utc": "2026-11-02T15:53:58.817879+00:00",
+          "claim_monotonic_ns": 1506283406875000,
+          "claim_original_sha256": "c71f3177d63a6d4e7f8a54acf419b71dcbd4a9bf1aad9ee1d233720bd3f4e93e",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_02/autoapproach_start.claim",
+          "ack": {
+            "utc": "2026-11-02T15:53:58.819273+00:00",
+            "monotonic_ns": 1506283408260083,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "7fa6a3390fe2283b1ed0a996e71ee2769af6332e354a9561b1d1a8e5493b7ea2",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_02/autoapproach_start_ack.json"
+        },
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            0
+          ],
+          "claim_utc": "2026-11-02T15:54:28.316622+00:00",
+          "claim_monotonic_ns": 1506312905529208,
+          "claim_original_sha256": "d47ff1c4f167d3a6fdb92afec6102ae03188a671e2b18c39102c6ef49658457d",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_02/cleanup_autoapproach_stop.claim",
+          "ack": {
+            "utc": "2026-11-02T15:54:28.317664+00:00",
+            "monotonic_ns": 1506312906571708,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "dc5860128e4e4f0d49041d8eaeec26a22019c113fe593bb1dd0cdd3308dccb90",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_02/cleanup_autoapproach_stop_ack.json"
+        },
+        {
+          "command": "ZCtrl.Withdraw",
+          "args": [
+            1,
+            2000
+          ],
+          "claim_utc": "2026-11-02T15:54:30.548814+00:00",
+          "claim_monotonic_ns": 1506315137716500,
+          "claim_original_sha256": "6252948baa6aa7a864db3250fe1905b0ef02fbdb59ec3e0253195f0bd18bc761",
+          "claim": "evidence/continuation_slow_20261102/AA_R02_02/failure_withdraw.claim",
+          "ack": {
+            "utc": "2026-11-02T15:54:30.663246+00:00",
+            "monotonic_ns": 1506315252153166,
+            "command": "ZCtrl.Withdraw",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "78598123c22586f4f4d2b04676c2e8eda121a67c3dc066af5422757601270eba",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R02_02/failure_withdraw_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "continuation_slow_20261102/AA_R03_03",
+      "outcome": "evidence/continuation_slow_20261102/AA_R03_03/outcome.json",
+      "outcome_original_sha256": "229d72d68eecfc1d6b5ae1598ee5d847fa4e354386e0513ae515c4b943650c6d",
+      "status": "failed_after_known_Start_ack",
+      "outcome_utc": "2026-11-02T16:10:14.188727+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            1
+          ],
+          "claim_utc": "2026-11-02T16:09:58.783663+00:00",
+          "claim_monotonic_ns": 1507243366157541,
+          "claim_original_sha256": "a45975be71a733a215bd5a7219f8791138cf98c82b6e2681a120c885f35bba16",
+          "claim": "evidence/continuation_slow_20261102/AA_R03_03/autoapproach_start.claim",
+          "ack": {
+            "utc": "2026-11-02T16:09:58.784742+00:00",
+            "monotonic_ns": 1507243367235833,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "695831ed352b48a1118b9f8ac5a604c770a46e36fcd0daa9cedd07a9b33c8fde",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R03_03/autoapproach_start_ack.json"
+        },
+        {
+          "command": "AutoApproach.OnOffSet",
+          "args": [
+            0
+          ],
+          "claim_utc": "2026-11-02T16:10:08.519430+00:00",
+          "claim_monotonic_ns": 1507253101697458,
+          "claim_original_sha256": "934dfac8254ee23290ee32f5e3e24593155f1354b0982541eeacb80e471280ee",
+          "claim": "evidence/continuation_slow_20261102/AA_R03_03/cleanup_autoapproach_stop.claim",
+          "ack": {
+            "utc": "2026-11-02T16:10:08.520681+00:00",
+            "monotonic_ns": 1507253102948083,
+            "command": "AutoApproach.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "3444fbf03fcbaf11c40dad9c83e707a8de410ab93a39edf84eb5d74a8b97b33e",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R03_03/cleanup_autoapproach_stop_ack.json"
+        },
+        {
+          "command": "ZCtrl.Withdraw",
+          "args": [
+            1,
+            2000
+          ],
+          "claim_utc": "2026-11-02T16:10:10.661056+00:00",
+          "claim_monotonic_ns": 1507255243288625,
+          "claim_original_sha256": "c257cb9158c32ceb483c2873614d2a0f320235442aa508280906cc8ece9dcfd9",
+          "claim": "evidence/continuation_slow_20261102/AA_R03_03/failure_withdraw.claim",
+          "ack": {
+            "utc": "2026-11-02T16:10:10.779157+00:00",
+            "monotonic_ns": 1507255361399041,
+            "command": "ZCtrl.Withdraw",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "781439ff326844a8521ddc813bdea934af9a282b8bf03e0da20dbe45a1e34ca6",
+          "ack_path": "evidence/continuation_slow_20261102/AA_R03_03/failure_withdraw_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "continuation_slow_20261102/engage_R03_02",
+      "outcome": "evidence/continuation_slow_20261102/engage_R03_02/outcome.json",
+      "outcome_original_sha256": "398d74c2a1cb417019032b1db3a55d30bbc67d84c7d1aa774e924b98a4144b21",
+      "status": "tunneling_reestablished",
+      "outcome_utc": "2026-11-02T16:17:55.805992+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "ZCtrl.OnOffSet",
+          "args": [
+            1
+          ],
+          "claim_utc": "2026-11-02T16:17:25.565853+00:00",
+          "claim_monotonic_ns": 1507690145163375,
+          "claim_original_sha256": "e6ee36e27f1097c9c28a893445ac40345009d39297955920feb1c045865f43e5",
+          "claim": "evidence/continuation_slow_20261102/engage_R03_02/feedback_on.claim",
+          "ack": {
+            "utc": "2026-11-02T16:17:25.567159+00:00",
+            "monotonic_ns": 1507690146466000,
+            "command": "ZCtrl.OnOffSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "3513a4048b35f033fbe5776ff83fd0bef43658cee0340522e59447609146a976",
+          "ack_path": "evidence/continuation_slow_20261102/engage_R03_02/feedback_on_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/move_induction_I01",
+      "outcome": "evidence/session_02/move_induction_I01/outcome.json",
+      "outcome_original_sha256": "13bb2f6be287b55d0e490763f5de97751d78950c91b0a5324110266de37496aa",
+      "status": "uncertain_no_retry",
+      "outcome_utc": "2026-11-02T16:52:48.074941+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "FolMe.Stop",
+          "args": [],
+          "claim_utc": "2026-11-02T16:52:47.641898+00:00",
+          "claim_monotonic_ns": 1509812206996250,
+          "claim_original_sha256": "4f6c96f334f84b7860daa10debcfdfdcce85477ce1bb1e1a0898e658f808c41f",
+          "claim": "evidence/session_02/move_induction_I01/conditional_stop.claim",
+          "ack": {
+            "utc": "2026-11-02T16:52:47.642955+00:00",
+            "monotonic_ns": 1509812208052875,
+            "command": "FolMe.Stop",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "7009557475e54c5a8f45c0cc1a60fca28e6246b22c95c986fce8fc0a2c68b232",
+          "ack_path": "evidence/session_02/move_induction_I01/conditional_stop_ack.json"
+        },
+        {
+          "command": "FolMe.XYPosSet",
+          "args": [
+            1.65e-08,
+            2.5e-09,
+            0
+          ],
+          "claim_utc": "2026-11-02T16:52:21.609078+00:00",
+          "claim_monotonic_ns": 1509786174265750,
+          "claim_original_sha256": "85a27ae8e7f7e78d4ec4414b4144aa09d52629a8b1766d73fafca2efab04578b",
+          "claim": "evidence/session_02/move_induction_I01/move.claim",
+          "ack": {
+            "utc": "2026-11-02T16:52:21.610172+00:00",
+            "monotonic_ns": 1509786175359166,
+            "command": "FolMe.XYPosSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "1e5d2c548aad899bacfc81db141debd42c3cc447ebb7b2d9128364aecffab494",
+          "ack_path": "evidence/session_02/move_induction_I01/move_ack.json"
+        },
+        {
+          "command": "FolMe.SpeedSet",
+          "args": [
+            1.999999943436137e-09,
+            1
+          ],
+          "claim_utc": "2026-11-02T16:52:21.396552+00:00",
+          "claim_monotonic_ns": 1509785961741250,
+          "claim_original_sha256": "3117fbe7ade9d994544ee65f4d342441893b57bbeba6d26bccd1665e3452dff6",
+          "claim": "evidence/session_02/move_induction_I01/set_custom_speed.claim",
+          "ack": {
+            "utc": "2026-11-02T16:52:21.399539+00:00",
+            "monotonic_ns": 1509785964727916,
+            "command": "FolMe.SpeedSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "5de0c8acee393b43251021686a3519cd66ed67d57c1c680331eaf30af559557e",
+          "ack_path": "evidence/session_02/move_induction_I01/set_custom_speed_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/induction_I01",
+      "outcome": "evidence/session_02/induction_I01/outcome.json",
+      "outcome_original_sha256": "d7731975745ab2a2e072a10d60e081755d48893a1ba80306ba04a663776350f9",
+      "status": "rejected_before_start",
+      "outcome_utc": "2026-11-02T17:09:42.379968+00:00",
+      "actual_writer_claims": [],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/pre_repair_A02_full",
+      "outcome": "evidence/session_02/pre_repair_A02_full/outcome.json",
+      "outcome_original_sha256": "b3812dfd0847556ed8d5a5edffae4a7b33147da50e1dd5c5bc5e5bfb6515bc47",
+      "status": "rejected_before_start",
+      "outcome_utc": "2026-11-02T17:40:34.337459+00:00",
+      "actual_writer_claims": [],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/prepare_induction_P01",
+      "outcome": "evidence/session_02/prepare_induction_P01/outcome.json",
+      "outcome_original_sha256": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9",
+      "status": "stopped_no_further_sets",
+      "outcome_utc": "2026-11-02T18:09:20.014298+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.2499999646475857e-10
+          ],
+          "claim_utc": "2026-11-02T18:08:47.087885+00:00",
+          "claim_monotonic_ns": 1514371624652166,
+          "claim_original_sha256": "75f617ac6335b4349dc6d5795b85c4bccf93af0fbe801ae9fdc4fbb2a031af7d",
+          "claim": "evidence/session_02/prepare_induction_P01/step_01.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_01_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.5624999905039516e-10
+          ],
+          "claim_utc": "2026-11-02T18:08:52.305748+00:00",
+          "claim_monotonic_ns": 1514376842499916,
+          "claim_original_sha256": "ba45b7f56700f7738ee3795bf3ce05f1011e98af7d9b1fb82c18f7a9c42dc191",
+          "claim": "evidence/session_02/prepare_induction_P01/step_02.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_02_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.953125022824409e-10
+          ],
+          "claim_utc": "2026-11-02T18:09:00.171626+00:00",
+          "claim_monotonic_ns": 1514384708349375,
+          "claim_original_sha256": "037922cdff6d6faecf38b13a8aaf309254916c8a95a06740863e66fdc0c5dba9",
+          "claim": "evidence/session_02/prepare_induction_P01/step_03.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_03_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            2.441406243836042e-10
+          ],
+          "claim_utc": "2026-11-02T18:09:05.396931+00:00",
+          "claim_monotonic_ns": 1514389933638750,
+          "claim_original_sha256": "54acb537949dc07adf51b6bfba55cadfe118026933e6d6e5dcb5e81c460bb441",
+          "claim": "evidence/session_02/prepare_induction_P01/step_04.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_04_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            3.051757735406113e-10
+          ],
+          "claim_utc": "2026-11-02T18:09:10.605876+00:00",
+          "claim_monotonic_ns": 1514395142564958,
+          "claim_original_sha256": "cee860ca4c3c6d635466bb0beaa12c33677daf0d1fe3fe6656357982ab544450",
+          "claim": "evidence/session_02/prepare_induction_P01/step_05.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_05_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            3.8146971692576415e-10
+          ],
+          "claim_utc": "2026-11-02T18:09:15.802098+00:00",
+          "claim_monotonic_ns": 1514400338770458,
+          "claim_original_sha256": "9d52c9f94000f769fc81888c81c168f60553468b877ae5a5fccaba2e18b1960c",
+          "claim": "evidence/session_02/prepare_induction_P01/step_06.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/prepare_induction_P01/step_06_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/recover_prepare_induction_P01_01",
+      "outcome": "evidence/session_02/recover_prepare_induction_P01_01/outcome.json",
+      "outcome_original_sha256": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938",
+      "status": "completed",
+      "outcome_utc": "2026-11-02T18:17:12.882100+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            3.051757735406113e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:10.058586+00:00",
+          "claim_monotonic_ns": 1514814592593416,
+          "claim_original_sha256": "90cda33c315dd706bacde884218cb8fc9688650c5b5476d0bced884f34eedbf2",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_01.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_01_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            2.441406243836042e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:15.684308+00:00",
+          "claim_monotonic_ns": 1514820218279333,
+          "claim_original_sha256": "af0f40f54fc2dd667d9f620548ec92d5c2414777f42c452188551473ae663aa7",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_02.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_02_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.953125022824409e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:20.992522+00:00",
+          "claim_monotonic_ns": 1514825526457708,
+          "claim_original_sha256": "46702cb3376c094f59c202835f589d975df536ade89bd235bc2ad4484830d15e",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_03.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_03_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.5624999905039516e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:26.478062+00:00",
+          "claim_monotonic_ns": 1514831011970833,
+          "claim_original_sha256": "cc4b8de9be85517344d2ea5b12c4eec4a90c3827b45d96e5325d83f34cdc20da",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_04.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_04_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.2499999646475857e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:31.957452+00:00",
+          "claim_monotonic_ns": 1514836491340750,
+          "claim_original_sha256": "45514940a7aa31a429dd881da5b8de3286b568b2fbb03f4c2d9599902f5b27a3",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_05.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_05_ack.json"
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.000000013351432e-10
+          ],
+          "claim_utc": "2026-11-02T18:16:37.479307+00:00",
+          "claim_monotonic_ns": 1514842013169583,
+          "claim_original_sha256": "8ac2160261c6273538ae72ab87a4790371f7de0cd30c3ee335ba8fa69b84b8e4",
+          "claim": "evidence/session_02/recover_prepare_induction_P01_01/step_06.claim",
+          "ack": {
+            "utc": null,
+            "monotonic_ns": null,
+            "command": "ZCtrl.SetpntSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": false,
+          "ack_original_sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51",
+          "ack_path": "evidence/session_02/recover_prepare_induction_P01_01/step_06_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/repair_A03",
+      "outcome": "evidence/session_02/repair_A03/outcome.json",
+      "outcome_original_sha256": "96fa9eded57c36514ec77071127df01fde60dd9285ce0f595d64cf0dee42b5b1",
+      "status": "rejected_before_start",
+      "outcome_utc": "2026-11-02T18:39:07.437975+00:00",
+      "actual_writer_claims": [],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    },
+    {
+      "event": "session_02/move_induction_I01_recovery_01",
+      "outcome": "evidence/session_02/move_induction_I01_recovery_01/outcome.json",
+      "outcome_original_sha256": "3b22024791031c17861a10657a37785bfd5da15b7c40d352bcfeb326c73c2659",
+      "status": "known_stopped_move_stable_custom0_restored",
+      "outcome_utc": "2026-11-02T16:59:52.294504+00:00",
+      "actual_writer_claims": [
+        {
+          "command": "FolMe.SpeedSet",
+          "args": [
+            5.48245608911202e-08,
+            0
+          ],
+          "claim_utc": "2026-11-02T16:59:46.909948+00:00",
+          "claim_monotonic_ns": 1510231472446000,
+          "claim_original_sha256": "ac58df24e45e083536720ab4542b6005c07f0e003a600e000d44e6848cc21772",
+          "claim": "evidence/session_02/move_induction_I01_recovery_01/restore_speed.claim",
+          "ack": {
+            "utc": "2026-11-02T16:59:46.911450+00:00",
+            "monotonic_ns": 1510231473949250,
+            "command": "FolMe.SpeedSet",
+            "values": [],
+            "warning": ""
+          },
+          "ack_timestamp_present": true,
+          "ack_original_sha256": "53208cb298694b1f28a0805767c1fb45a923e650a6527a2f2970ec32cfc46bdb",
+          "ack_path": "evidence/session_02/move_induction_I01_recovery_01/restore_speed_ack.json"
+        }
+      ],
+      "no_writer_claim_does_not_alone_prove_no_command": "A03 no-action independent 3425 request-header audit supplied separately; no timestamps invented for timestamp-less ACK files."
+    }
+  ],
+  "counts": {
+    "completed_full_attempts": 1,
+    "requested": 5,
+    "remaining": 4,
+    "strict_successful_cycles": 0,
+    "episode_pulses_consumed": 3,
+    "new_pulses_in_R02_R03": 0,
+    "new_TipShaper_Start": 0,
+    "successful_inductions_in_this_increment": 0
+  }
+}

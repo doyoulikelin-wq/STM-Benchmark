@@ -1,0 +1,266 @@
+{
+  "recording_segment_id": "R02",
+  "logger_directory": "local-archive:c8ab2bcc5abc61d4",
+  "logger_source": {
+    "path": "local-archive:33b4629e41417771",
+    "sha256": "c6573d7a932530d34f89daad1239d7abcd7bc0c90dc2ee16fe621df0327d80c0",
+    "bytes": 28638
+  },
+  "ready": {
+    "utc": "2026-11-02T15:38:55.587414+00:00",
+    "monotonic_ns": 1505380182210250,
+    "session_id": "session_02",
+    "recording_segment_id": "R02",
+    "source_path": "local-archive:33b4629e41417771",
+    "source_sha256": "c6573d7a932530d34f89daad1239d7abcd7bc0c90dc2ee16fe621df0327d80c0",
+    "role": "fullcycle_native_logger",
+    "ready": true,
+    "basename": "dl_goal30_FIVE1102_SESSION_02_R02",
+    "output_directory": "local-archive:c8ab2bcc5abc61d4",
+    "native_start_identity": "2026/11/2 23:38:54",
+    "native_status": {
+      "start": "2026/11/2 23:38:54",
+      "elapsed_s": 1.0,
+      "stop": "",
+      "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0200269.dat",
+      "points_counter": 1080
+    },
+    "profile": {
+      "DataLog.ChsGet": [
+        6,
+        [
+          0,
+          24,
+          30,
+          98,
+          99,
+          100
+        ]
+      ],
+      "DataLog.PropsGet": [
+        1,
+        2,
+        0,
+        0.0,
+        1,
+        33,
+        "dl_goal30_FIVE1102_SESSION_02_R02",
+        83,
+        "SafeTipOff event record; DataLog commands only; junction action audited separately."
+      ],
+      "Util.RTFreqGet": [
+        20000.0
+      ],
+      "Util.RTOversamplGet": [
+        10
+      ],
+      "Util.AcqPeriodGet": [
+        0.019999999552965164
+      ]
+    },
+    "start_claim": {
+      "path": "start.claim",
+      "sha256": "f4d99ee144c3ee2f25ee93ef032944845174725c9d8aa5215013a1ba79093475",
+      "bytes": 446
+    },
+    "native_duration_s": 7200,
+    "nominal_remaining_setting_units": 7199.0,
+    "actual_remaining_seconds": null,
+    "duration_warning": "1200nominal previously covered600wall.7200nominal extrapolates to3600wall; native header/timing and all-stage overlap require audit. Nominal remaining units are not guaranteed wall coverage.",
+    "freshness_required": "Root checks this record and latest datalog_status <=2s old, no outcome.json, and process alive immediately before its own action. READY alone is not ongoing proof.",
+    "no_hardware_trigger_or_atomic_alignment": true,
+    "junction_actions_permitted_by_recorder": false
+  },
+  "terminal_raw": [
+    18,
+    "2026/11/2 23:38:54",
+    0,
+    38,
+    37.400001525878906,
+    18,
+    "2026/11/2 23:58:13",
+    108,
+    "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200093.dat",
+    17400
+  ],
+  "terminal_index": 93,
+  "terminal_rows": 17400,
+  "nominal_elapsed": 2317.400001525879,
+  "snapshot_refs": [
+    {
+      "path": "local-archive:5b3a20ae5e6f73bb",
+      "sha256": "4f4f1628470d0292b3dd149405c3a1046d81b7638284c13786f0aa04e91d8255",
+      "bytes": 6075
+    },
+    {
+      "path": "../read_017_R02_stop_confirm/snapshot.json",
+      "sha256": "af811436960e8f2c1d3e7359474c8ec1730543f49530b6c4da3522cff017155f",
+      "bytes": 6077
+    }
+  ],
+  "snapshot_gap_s": 1.249494708,
+  "logger_refs": {
+    "READY.json": {
+      "path": "local-archive:ee324094203c4bde",
+      "sha256": "9a392f8f8ac5a49b2716bcfd236edecd675b5573ab3d8c3bd1a55f724af1ec26",
+      "bytes": 1857
+    },
+    "start.claim": {
+      "path": "local-archive:3c333873323afdb6",
+      "sha256": "f4d99ee144c3ee2f25ee93ef032944845174725c9d8aa5215013a1ba79093475",
+      "bytes": 446
+    },
+    "manifest.json": {
+      "path": "local-archive:b93365530de4b54c",
+      "sha256": "5e1c19331a2b210a5ec7843489960c963e6cf97006bd338152b797d52884759e",
+      "bytes": 6962
+    },
+    "outcome.json": {
+      "path": "../../session_02/logger_02/outcome.json",
+      "sha256": "1074fe53fd4e301db38e4ec9ca837e401f3285a656abbf2fc0a42b4c15e2abda",
+      "bytes": 12027
+    },
+    "events.jsonl": {
+      "path": "local-archive:e11914e5b48f9b65",
+      "sha256": "9b0462428450a3329f77652b4f6adf204e86f97f4b51c2572e44252e4bb6a0a3",
+      "bytes": 33180203
+    }
+  },
+  "original_outcome": {
+    "utc": "2026-11-02T15:58:13.678876+00:00",
+    "monotonic_ns": 1506538266106583,
+    "status": "recorder_failed_no_retry",
+    "start_attempted": true,
+    "ready_written": true,
+    "junction_writes": 0,
+    "automatic_retry": false,
+    "automatic_reconnect": false,
+    "native_files_archived": false,
+    "file_content_validated": false,
+    "hard_realtime_alignment_proven": false,
+    "stop_attempted": true,
+    "preflight_mode": "withdraw",
+    "session_id": "session_02",
+    "recording_segment_id": "R02",
+    "source_path": "local-archive:33b4629e41417771",
+    "source_sha256": "c6573d7a932530d34f89daad1239d7abcd7bc0c90dc2ee16fe621df0327d80c0",
+    "role": "fullcycle_native_logger",
+    "start_acknowledged": true,
+    "error": "RuntimeError: Recorder termination requested",
+    "junction_failure_diagnosis": "not_made",
+    "native_stop_confirmed": false,
+    "observed_last_paths": [
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0200269.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200001.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200002.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200003.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200004.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200005.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200006.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200007.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200008.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200009.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200010.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200011.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200012.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200013.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200014.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200015.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200016.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200017.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200018.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200019.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200020.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200021.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200022.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200023.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200024.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200025.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200026.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200027.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200028.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200029.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200030.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200031.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200032.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200033.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200034.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200035.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200036.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200037.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200038.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200039.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200040.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200041.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200042.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200043.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200044.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200045.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200046.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200047.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200048.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200049.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200050.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200051.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200052.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200053.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200054.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200055.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200056.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200057.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200058.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200059.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200060.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200061.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200062.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200063.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200064.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200065.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200066.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200067.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200068.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200069.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200070.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200071.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200072.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200073.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200074.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200075.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200076.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200077.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200078.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200079.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200080.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200081.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200082.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200083.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200084.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200085.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200086.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200087.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200088.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200089.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200090.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200091.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200092.dat",
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0200093.dat"
+    ],
+    "all_file_paths_known": false,
+    "must_check_native_ui_if_unconfirmed": true
+  },
+  "writer_names": [
+    "DataLog.ChsSet",
+    "DataLog.PropsSet",
+    "DataLog.Start",
+    "DataLog.Stop"
+  ],
+  "DataLog_Stop_acknowledged": true,
+  "independent_native_stop_confirmed": true,
+  "termination_label": "explicit_Stop_recorded",
+  "qualification": "Full stopped readbacks reconcile the native terminal identity. Original outcome is preserved. No junction or return success inferred.",
+  "_portable_export": {
+    "source_sha256": "d07b72e17f5ce57a0ed1d3877dead6ea02891f42d99faeef3ed6b1f3fd86d3fb",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

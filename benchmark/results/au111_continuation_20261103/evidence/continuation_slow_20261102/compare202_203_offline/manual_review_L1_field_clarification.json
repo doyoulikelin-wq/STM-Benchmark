@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-11-02T17:43:58.614914+00:00",
+  "source": {
+    "path": "manual_review.json",
+    "sha256": "588fe212912d39c37266cf41a66a57b1c587286b6641f18ed57236c86d29b794"
+  },
+  "clarification": "decision.L1_functional_impairment_at203 is a field-naming error, not project evidence level L1. Read it as the separate image_function_impairment=supported statement. Project L1 denotes synchronized junction-state response. No project L0-L4 status is upgraded by this field. The original frozen JSON, images, measurements, and criteria remain unchanged.",
+  "future_field": "image_function_impairment",
+  "image_function_impairment": "supported",
+  "_portable_export": {
+    "source_sha256": "a0e686bab2d1ff53c1573fc549a3537465abe45129034e716eba550d5e7b6d3d",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

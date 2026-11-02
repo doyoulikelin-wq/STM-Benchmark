@@ -1,0 +1,59 @@
+{
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "package_sha256",
+      "files": 241,
+      "passed": true
+    },
+    {
+      "name": "source_export_records",
+      "files": 227
+    },
+    {
+      "name": "portable_JSON_paths",
+      "rewritten_paths": 440
+    },
+    {
+      "name": "document_links",
+      "files": 14,
+      "links": 205
+    },
+    {
+      "name": "original_complete_SXM",
+      "count": 5,
+      "TCP_reverification": "not performed; raw TCP streams omitted, original bitmatch audit retained"
+    },
+    {
+      "name": "counts_and_actual_writer_summary",
+      "events": 12
+    },
+    {
+      "name": "initial_frozen_DataLog_manifest",
+      "blocks": {
+        "R02": 93,
+        "R03": 732
+      },
+      "raw_bytes_included": false,
+      "hash_basis": "root frozen receipt; this portable check cannot hash omitted DataLog"
+    },
+    {
+      "name": "excluded_vendor_runtime_rawdump_types",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "payload_files": 241,
+  "payload_bytes": 46410903,
+  "limits": [
+    "Verifies exported bytes and paths, not instrument correctness or missing raw TCP bitmatches.",
+    "Source hashes are original provenance; exported JSON/document hashes differ by declared path transformations.",
+    "No online or hardware calls."
+  ],
+  "verification_utc": "2026-11-02T18:51:49.835293+00:00",
+  "package_manifest_sha256": "d6b0fd82eb260ea909b9ae8ae97405da491e9d29fa0d685340d302f62bf38a46",
+  "content_preservation_audit_sha256": "b7afea7a310891dcfe45b9dca7d9030690be33a5767b36a43f24751adbf9b116",
+  "top_README_sha256": "af90197d4842fff42de2189871ebb3f48e5d1a9ec1e2347ab6bd125519720523",
+  "repository_Step04_reference_sha256": "22d7b05d4d3ac2aeaaf882e1e00f4d8f349a4c883cf6c823f9d4eb59b0291e7b",
+  "terminal_addendum_blocks": 761
+}

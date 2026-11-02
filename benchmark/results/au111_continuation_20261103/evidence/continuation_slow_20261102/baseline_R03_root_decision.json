@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-11-02T16:23:27.029329+00:00",
+  "purpose": "one new full R03 baseline, not conditioning",
+  "source_sha256": "626aff60cfa553d233ed25685f6aa82fdb50754b08b8f2f232af265be1bb3527",
+  "fine_outcome_sha256": "398d74c2a1cb417019032b1db3a55d30bbc67d84c7d1aa774e924b98a4144b21",
+  "fresh_snapshot_sha256": "e6071ba1ead9d551300c6f8dca26e8c2c1b874da6a6ca040651ab39622d48bde",
+  "native_closed_receipt_sha256": "4940a325287ae5fb01713cf191543e6c61b4007e5afb4db66621564611d613cc",
+  "native_review": "Independent local review closed blocks44..65: no >=400pA from fine approach through812.5s; additional230s rest last30s I -107.73 +/-17.87pA, Z slope1.251pm/s and detrended RMS8.447pm. Residual drift/noise retained, no pristine-tip claim.",
+  "user_scope": "same region full image before bounded induction; SafeTipOff",
+  "instrument_writer": "root only",
+  "scan": "50nm square 240x240 DOWN -1V100pA .912s/direction, unchanged gains",
+  "no_retry": true,
+  "_portable_export": {
+    "source_sha256": "3f2f350693b90c6d764efd02e290eb6772a51bf239117badc5885fc6a8d44163",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}

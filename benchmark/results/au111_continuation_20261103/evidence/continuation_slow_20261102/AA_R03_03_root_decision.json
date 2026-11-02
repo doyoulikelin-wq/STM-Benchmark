@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-02T16:09:58.282996+00:00",
+  "decision": "one_additional_120s_host_native_Safe_AA_after_new_coarse_history",
+  "source": {
+    "path": "local-archive:7efc5991657fd282",
+    "sha256": "99dd35357871d61aea6dc053b76b9e65926e50d8e66ff1e4be21db5681fdadd3"
+  },
+  "new_information": {
+    "path": "new_user_guidance/coarse_positive_z_5to6_confirmation.json",
+    "sha256": "6670720d1d491d21a4fc8e65c8072a5055cf73d63282c8ce6d8123ed1da9b65c"
+  },
+  "previous_AA02_native": {
+    "path": "AA_R02_02_native_review/review.json",
+    "sha256": "4932d36f019d4c1b229daad16a37dbbdf397fb8eed493c9501dee9b72f232ff8"
+  },
+  "previous_AA02_outcome": {
+    "path": "AA_R02_02/outcome.json",
+    "sha256": "8a6ddcf0fe3b9f2706e9dae78240a76f4b60ffa940ea9da7254743c24bfe5280"
+  },
+  "UI_root_reviewed": {
+    "path": "local-archive:f0046057338c1fc9",
+    "sha256": "0a776ec645ab8ba756657bf2cf4468156efb1db836462afb334f23cc30602c80"
+  },
+  "logger_READY": {
+    "path": "local-archive:7a1224ebbcc864ec",
+    "sha256": "f91ecfe1a886ad7609f5fa6e26bdad7dcbf6a76f4551e030edf6f7a562494dbb"
+  },
+  "offline_validation": {
+    "path": "local-archive:54d1b7c98db34a7f",
+    "sha256": "fe44ee5cfbb22454a19867f08bbcd2caab4b9be68097bb06258aeedd0c292651"
+  },
+  "reason": "Userclarified actual coarse +Z afterWithdraw; prior fine/shortAA showed no native tunneling. Select one longer finiteSafeAA using unchanged motor parameters. Buttoncount is not calibrated distance and opposite step sizes are not assumed equal. No repeated open-ended approach.",
+  "root_review": "Complete ancestry AA state machine and all new diff read. NewactualR03 recording identity frozen runtime and continuously verified; same unknownwriter lock, nativeAutoOff and post30s/last5s recovery separate from command ACK.",
+  "parameters": {
+    "Bias_V": -1,
+    "setpoint_A": 1e-10,
+    "SafeTip": "Off",
+    "mode": "Safe",
+    "motor_Hz_V": [
+      200,
+      199.89999389648438
+    ],
+    "per_cycle_pulses": 1,
+    "wait_ms": 20,
+    "direction": "Z-",
+    "host_search_deadline_s": 120,
+    "normal_deadline_s": 180,
+    "separate_known_cleanup_budget_s": 20,
+    "logger_entry_coverage_estimate_min_s": 205
+  },
+  "budgets": {
+    "this_attempt_max": 1,
+    "prior_AA_attempts": 2,
+    "current_AA_ordinal": 3,
+    "total_search_windows_nominal_s": 155,
+    "next_on_failure": "stop and request local operator assessment; no automatic repeat"
+  },
+  "conditioning_pulses_unchanged": 3,
+  "induction_or_repair": false,
+  "temperature_K": null,
+  "_portable_export": {
+    "source_sha256": "b879e5a7d83eb5b854e61e04c06ed96213d079a502eee4a9978c913d8481b89b",
+    "path_basis": "Rewritten included paths resolve relative to this JSON; local-archive IDs resolve in omitted-evidence.json. Embedded scientific source hashes still refer to the original local bytes, not transformed exports.",
+    "scientific_values_changed": false
+  }
+}
