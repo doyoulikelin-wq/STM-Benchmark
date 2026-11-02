@@ -1,0 +1,63 @@
+{
+  "_status": "ACTIVE frozen single candidate; not execution proof",
+  "schema": "local-au111-continuing-pulse-v1",
+  "episode_id": "continuing_20261101_1939",
+  "session_id": "session_01",
+  "action_id": "A01",
+  "profile": "local-au111",
+  "max_pulses_per_episode": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "required_safetip": "off",
+  "pulse_attempts_before": 1,
+  "pulse_ordinal": 2,
+  "legacy_evidence": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/conditioning_session_001_pulse01.claim": "e5e9c8352950310b1255f717690b1db88d20ea92abe26fc2db5a9b98f10089e1",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/pulse_001/outcome.json": "895775b2d8816481343c04afd39c71811a1d604f59dfb7a2d1d72ac7396efb58",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/conditioning_session_001.result.json": "782d9e365066f40500cbb23c065307448153eb9d1e25a8752ecfb90df96fc590"
+  },
+  "stop_requested": false,
+  "unresolved_previous_execution": false,
+  "manual_intervention_since_before": false,
+  "exclusive_root_writer": true,
+  "target_id": "Au111 full196 endpoint(-25,-25)nm",
+  "reason": "Full196 has cross-field transient bands0.16-0.36nm despite background pass; prior-4V/20ms only partial improvement. One-5V20ms candidate with unchangedHold/preparation; compare full matched after image.",
+  "full_before_reviewed": true,
+  "action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -5.0,
+      1,
+      2
+    ],
+    "resting_bias_V": -1.0,
+    "preparation_current_A": 1e-09,
+    "imaging_current_A": 1e-10
+  },
+  "full_before_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/full_before_root_review.json",
+    "sha256": "badcedf260785f7bc39d21148706b978be105f1b71e1b850565f59b015eb69f0"
+  },
+  "history_and_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/history_and_native_review_A01.json",
+    "sha256": "0dd1087f5060aeeddcc932d67cfa93c1d8271f7bec6051cdaaeeb931544bcf7f"
+  },
+  "authorization_decision": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/authorization_decision_A01.json",
+    "sha256": "5824ea1b58e05c028c02254c149db1c6311896fbab05935bc821831d23cf2b7c"
+  },
+  "preparation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/outcome.json",
+    "sha256": "3a10e648080ad8d49435ebd730c91a05552fe880362e3c524e7ef74f8b1e2d50"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "previous_new_pulses": [],
+  "consecutive_no_improvement_before": 0,
+  "strategy_review": null,
+  "recorded_utc": "2026-11-02T00:39:00.582158+00:00",
+  "preparation_native_screening_note": "Root received independent closed67-75 review: no >=4nA or historical flat endpoint; sampled min-1.5852963nA and maxadjacentZ13.73pm retained. Last10 nativeI fluctuations may exceed +/-25% briefly; slow state guards are not instantaneous gates. Detailed audit retained separately."
+}

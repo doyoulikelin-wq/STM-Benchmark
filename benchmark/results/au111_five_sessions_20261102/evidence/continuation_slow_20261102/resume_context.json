@@ -1,0 +1,20 @@
+{
+  "manual_history": "User confirmed scans/approach/retract/movement only; no pulse/shaper/tip/sample replacement since198",
+  "user_instruction": "Slow-scan diagnostic then remaining four conditioning workflows; full before/after; gradual Skill changes",
+  "initial_state": "Off1 Home, -1V100pA SafeTipOff",
+  "root_only_writer": true,
+  "skill_modification_authorized": true,
+  "prior_full_attempts": 1,
+  "remaining_requested": 4,
+  "temperature_K": null,
+  "temperature_note": "No fresh temperature visible in initial RustDesk desktop",
+  "source_adapter": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/engage_finez_100pA_once.py",
+  "adaptation_scope": {
+    "OLD = ROOT.parent / 'stm_tip_benchmark_goal_20261030'": "OLD = ROOT.parents[1] / 'stm_tip_benchmark_goal_20261030'",
+    "REF = ROOT / 'read_001/snapshot.json'": "REF = ROOT / 'read_001_initial/snapshot.json'",
+    "LOGGER = OLD / 'validation_20261101_logger_engage'": "LOGGER = ROOT.parent / 'session_02/logger'",
+    "ROOT.parent/'stm_tip_control_test_20261028/": "ROOT.parents[1]/'stm_tip_control_test_20261028/",
+    "2936292403fd485b90cf85b05a9b43a6816950b7a2c2d14d6796188e96867da4": "7c1944f66e17711e9b7447fa000d84f0b94349ab5855be054e589af2bac0bab8",
+    "duration in (240,1200)": "duration == 7200"
+  }
+}

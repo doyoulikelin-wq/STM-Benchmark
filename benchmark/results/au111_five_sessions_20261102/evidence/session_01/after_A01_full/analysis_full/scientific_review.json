@@ -1,0 +1,499 @@
+{
+  "recorded_utc": "2026-11-02T00:55:33.248057+00:00",
+  "scope": "Completed full197 versus actual full196; offline human image review, no new action",
+  "sources": {
+    "native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/native/BM261029_00197.sxm",
+      "sha256": "ffe533012d6069e59619bcd943512e926e86fccc966d9423696be9150b3b85cb",
+      "bytes": 1383336
+    },
+    "quality_report": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/quality_report.json",
+      "sha256": "5dcbb1e72ca21c8ef4335b51bbc1107c8447d16802f0e844b0cce98ea70abc6b"
+    },
+    "before_quality": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+      "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8"
+    },
+    "frozen_plan": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/offline_image_plan.md",
+      "sha256": "ba862f18995b44bea37f43dd73260d74355dfcd0e2ef374f2e32897d161d6dca"
+    },
+    "raw_and_plane_figure": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/Z_raw_globalplane_FB.png",
+      "sha256": "86b9f1a6dcbe1ef3e2b6ee887275aea62861dc240ccce6595954780d81d7d352"
+    }
+  },
+  "quality_verdict": {
+    "L2": "supported",
+    "L2_scope": "Large raw whole-line excursions and F/B error decreased in matched full frame after preparation+pulse+return compound intervention; pulse-only mechanism not established.",
+    "L3": "not_supported",
+    "L3_reason": "Only one post frame; residual acquisition-dependent background row offsets remain. No strict whole-frame pass or independent sustained-use confirmation yet.",
+    "provisional_nanoscale_feature_usability_candidate": true,
+    "strict_full_frame_pass": false,
+    "task_relevant_bad_state": "residual_background_stability_defect; substantially improved",
+    "L4": "unknown",
+    "successful_cycle": false
+  },
+  "observed_improvement": {
+    "full_width_50pm_review_flags_before_FB": [
+      6,
+      3
+    ],
+    "after_FB": [
+      0,
+      0
+    ],
+    "raw_FB_offset_removed_RMS_pm_before_after": [
+      31.424930128499014,
+      16.70170392453127
+    ],
+    "manual": "Large ~170–360pm bands nearY−8/−23nm in196 are absent in197; fixed protrusions and real diagonal edge remain identifiable. Both fixed BG patches retain background role and pass original numeric limits."
+  },
+  "residuals": {
+    "middle_weak_band": "Y≈−0.4..−1.7nm shows shared background shifts ~+20..22pm followed by ~−12..14pm across several fixed column quarters; F/B changes occur at different rows. These are not declared failure merely for being nonzero; they are reproducible raw-acquisition residuals in background and block an unconditional whole-field-stability claim under the frozen plan.",
+    "lower_weak_lines": "Y≈−22..−23nm some ~10–16pm shifts; actual morphology and partial-quarter edges distinguished from common shifts.",
+    "selected_raw_metrics": {
+      "F": [
+        {
+          "stored_rows": [
+            121,
+            122
+          ],
+          "boundary_Y_nm": -0.41666666666666785,
+          "quarter_median_pixel_difference_pm": [
+            5.048406137575512,
+            4.437339384821826,
+            23.90621034464857,
+            17.703172261462896
+          ]
+        },
+        {
+          "stored_rows": [
+            122,
+            123
+          ],
+          "boundary_Y_nm": -0.625,
+          "quarter_median_pixel_difference_pm": [
+            21.309176645445405,
+            17.770673821360106,
+            4.32720526077901,
+            2.7640112421067897
+          ]
+        },
+        {
+          "stored_rows": [
+            123,
+            124
+          ],
+          "boundary_Y_nm": -0.8333333333333321,
+          "quarter_median_pixel_difference_pm": [
+            1.2505552149377763,
+            -1.1084466677857563,
+            1.5845103007450234,
+            -29.547919666583766
+          ]
+        },
+        {
+          "stored_rows": [
+            124,
+            125
+          ],
+          "boundary_Y_nm": -1.0416666666666679,
+          "quarter_median_pixel_difference_pm": [
+            20.747847884194925,
+            21.323387500160607,
+            19.36228954946273,
+            37.45626031559368
+          ]
+        },
+        {
+          "stored_rows": [
+            125,
+            126
+          ],
+          "boundary_Y_nm": -1.25,
+          "quarter_median_pixel_difference_pm": [
+            -12.153833495176514,
+            -13.574918966696714,
+            -12.672529692281387,
+            -14.175327578413999
+          ]
+        },
+        {
+          "stored_rows": [
+            126,
+            127
+          ],
+          "boundary_Y_nm": -1.4583333333333321,
+          "quarter_median_pixel_difference_pm": [
+            0.5222489107836736,
+            -0.4405364961712621,
+            1.6058265828178264,
+            11.787903986260062
+          ]
+        },
+        {
+          "stored_rows": [
+            127,
+            128
+          ],
+          "boundary_Y_nm": -1.6666666666666679,
+          "quarter_median_pixel_difference_pm": [
+            -11.720402426362853,
+            -11.290524071227992,
+            -12.0579102258489,
+            -14.360068689711625
+          ]
+        },
+        {
+          "stored_rows": [
+            226,
+            227
+          ],
+          "boundary_Y_nm": -22.291666666666664,
+          "quarter_median_pixel_difference_pm": [
+            -2.163602630389505,
+            -0.6252776074688882,
+            -0.8490985692333197,
+            -0.08171241461241152
+          ]
+        },
+        {
+          "stored_rows": [
+            227,
+            228
+          ],
+          "boundary_Y_nm": -22.5,
+          "quarter_median_pixel_difference_pm": [
+            -15.96234255885065,
+            -12.452261444195756,
+            -1.1226575225009583,
+            -1.6555645743210334
+          ]
+        },
+        {
+          "stored_rows": [
+            228,
+            229
+          ],
+          "boundary_Y_nm": -22.708333333333336,
+          "quarter_median_pixel_difference_pm": [
+            -1.4033219031261979,
+            -0.4831690603168681,
+            12.370549029583344,
+            11.880274541908875
+          ]
+        },
+        {
+          "stored_rows": [
+            230,
+            231
+          ],
+          "boundary_Y_nm": -23.125,
+          "quarter_median_pixel_difference_pm": [
+            -15.258905250448151,
+            -10.256684390697046,
+            -12.69739868803299,
+            -12.20357148667972
+          ]
+        }
+      ],
+      "B": [
+        {
+          "stored_rows": [
+            121,
+            122
+          ],
+          "boundary_Y_nm": -0.41666666666666785,
+          "quarter_median_pixel_difference_pm": [
+            21.547208461925038,
+            20.474288930927287,
+            22.314594616545946,
+            16.470380614919122
+          ]
+        },
+        {
+          "stored_rows": [
+            122,
+            123
+          ],
+          "boundary_Y_nm": -0.625,
+          "quarter_median_pixel_difference_pm": [
+            1.0871303857129533,
+            -1.0516032489249483,
+            0.5151434834260726,
+            3.3644198538240744
+          ]
+        },
+        {
+          "stored_rows": [
+            123,
+            124
+          ],
+          "boundary_Y_nm": -0.8333333333333321,
+          "quarter_median_pixel_difference_pm": [
+            21.177726239329786,
+            21.390889060057816,
+            22.094326368460315,
+            -29.629632081196178
+          ]
+        },
+        {
+          "stored_rows": [
+            124,
+            125
+          ],
+          "boundary_Y_nm": -1.0416666666666679,
+          "quarter_median_pixel_difference_pm": [
+            -10.960121699099545,
+            -13.596235248769517,
+            -12.69384597435419,
+            35.08660029183375
+          ]
+        },
+        {
+          "stored_rows": [
+            125,
+            126
+          ],
+          "boundary_Y_nm": -1.25,
+          "quarter_median_pixel_difference_pm": [
+            1.0622613899613498,
+            0.007105427357601002,
+            0.21316282072803006,
+            -15.95168441781425
+          ]
+        },
+        {
+          "stored_rows": [
+            126,
+            127
+          ],
+          "boundary_Y_nm": -1.4583333333333321,
+          "quarter_median_pixel_difference_pm": [
+            -12.20357148667972,
+            -13.365308859647484,
+            -11.006306976923952,
+            10.548006912358687
+          ]
+        },
+        {
+          "stored_rows": [
+            127,
+            128
+          ],
+          "boundary_Y_nm": -1.6666666666666679,
+          "quarter_median_pixel_difference_pm": [
+            1.3002932064409833,
+            -0.9521272659185342,
+            3.041122909053229,
+            -14.424017535930034
+          ]
+        },
+        {
+          "stored_rows": [
+            226,
+            227
+          ],
+          "boundary_Y_nm": -22.291666666666664,
+          "quarter_median_pixel_difference_pm": [
+            -15.422330079672975,
+            -13.638867812915123,
+            -1.1119993814645568,
+            -0.4547473508864641
+          ]
+        },
+        {
+          "stored_rows": [
+            227,
+            228
+          ],
+          "boundary_Y_nm": -22.5,
+          "quarter_median_pixel_difference_pm": [
+            -1.3145040611561853,
+            1.9539925233402755,
+            -0.9592326932761353,
+            1.4210854715202004
+          ]
+        },
+        {
+          "stored_rows": [
+            228,
+            229
+          ],
+          "boundary_Y_nm": -22.708333333333336,
+          "quarter_median_pixel_difference_pm": [
+            12.189360631964519,
+            10.693668173189508,
+            12.459366871553357,
+            12.69384597435419
+          ]
+        },
+        {
+          "stored_rows": [
+            230,
+            231
+          ],
+          "boundary_Y_nm": -23.125,
+          "quarter_median_pixel_difference_pm": [
+            0.6359357485052897,
+            -5.709210881832405,
+            -13.510970120478305,
+            -13.081091765343444
+          ]
+        }
+      ]
+    }
+  },
+  "fixed_background_metrics": [
+    {
+      "name": "BG1 central terrace",
+      "checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      },
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 8.81656206870829,
+          "Z_single_patch_plane_residual_RMS_pm": 5.863104575904217,
+          "max_adjacent_raw_row_median_delta_pm": 6.021849685566849,
+          "I_pixel_min_max_pA": [
+            -104.73205636074567,
+            -97.28295946587195
+          ],
+          "I_pixel_median_pA": -100.13199644443027,
+          "I_pixel_RMS_about_mean_pA": 1.0951597279976693,
+          "plane_coeff_nm": [
+            -102.36417943862853,
+            0.0007482398771887593,
+            -0.0002872119065691868
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 8.635926131599692,
+          "Z_single_patch_plane_residual_RMS_pm": 5.973243307782429,
+          "max_adjacent_raw_row_median_delta_pm": 5.236699962551938,
+          "I_pixel_min_max_pA": [
+            -104.91343904739381,
+            -96.69708089798945
+          ],
+          "I_pixel_median_pA": -100.27255414879477,
+          "I_pixel_RMS_about_mean_pA": 1.0581705469824596,
+          "plane_coeff_nm": [
+            -102.36368660600675,
+            0.0007133213318289875,
+            -0.00027072238927546737
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 2.634861191936173,
+          "mean_offset_removed_RMS_pm": 2.5540509241574347
+        }
+      }
+    },
+    {
+      "name": "BG2 right terrace",
+      "checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      },
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 7.861920729426821,
+          "Z_single_patch_plane_residual_RMS_pm": 7.48681128968426,
+          "max_adjacent_raw_row_median_delta_pm": 1.4566126083082054,
+          "I_pixel_min_max_pA": [
+            -104.89319829387611,
+            -96.96804470493703
+          ],
+          "I_pixel_median_pA": -100.07271400436224,
+          "I_pixel_RMS_about_mean_pA": 1.2636859053916671,
+          "plane_coeff_nm": [
+            -102.3807381927958,
+            -0.00025878297666932196,
+            -0.00013020894380112526
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 7.695108777271555,
+          "Z_single_patch_plane_residual_RMS_pm": 7.391234048696489,
+          "max_adjacent_raw_row_median_delta_pm": 1.5134560271690134,
+          "I_pixel_min_max_pA": [
+            -103.78832515645087,
+            -96.93345431882605
+          ],
+          "I_pixel_median_pA": -100.36191322448929,
+          "I_pixel_RMS_about_mean_pA": 1.193376313075677,
+          "plane_coeff_nm": [
+            -102.38120466666936,
+            -0.00022573547375624096,
+            -0.00011780413006385937
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 3.819778255628985,
+          "mean_offset_removed_RMS_pm": 3.8167768303881475
+        }
+      }
+    }
+  ],
+  "pixel_current": {
+    "F": {
+      "minimum": -1838.5911682017309,
+      "maximum": -58.76021891282335,
+      "median": -99.9587183858619,
+      "RMS_about_mean": 15.904065320717054,
+      "minimum_stored_rc": [
+        189,
+        157
+      ],
+      "minimum_nominal_XY_nm": [
+        7.8125,
+        -14.479166666666664
+      ],
+      "abs_ge400pA_count": 12,
+      "abs_ge1000pA_count": 5,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    },
+    "B": {
+      "minimum": -2335.616811066643,
+      "maximum": -53.40167544276575,
+      "median": -100.24566246547018,
+      "RMS_about_mean": 17.833198127959967,
+      "minimum_stored_rc": [
+        190,
+        156
+      ],
+      "minimum_nominal_XY_nm": [
+        7.604166666666664,
+        -14.6875
+      ],
+      "abs_ge400pA_count": 10,
+      "abs_ge1000pA_count": 6,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    }
+  },
+  "native_review": "Await independent phase audit; image pixel peaks1.84/2.34nA and higher RMS15.90/17.83pA cannot alone classify tip bad or cap native transients. Peaks are spatially near a lower-field object/edge region; feedback/topography-related origin remains possible.",
+  "next_step_image_judgment": "A no-additional-conditioning complete matching confirmation has information value and is preferred to declaring shaper necessary from these pixels. It tests persistence/weak-band location. If confirmation passes but197 remains non-passing, do not count197+confirmation as two strict passing frames.",
+  "limits": [
+    "No new chemical, material transfer or single-apex claim.",
+    "Stable visual morphology is not required; feature quality and background stability are the target.",
+    "No threshold/window changed after seeing197; flags0 is not an automatic pass.",
+    "Compound preparation+pulse+return and intervening time/scanning remain the causal unit."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-11-02T12:00:57.080088+00:00",
+  "scope": "Local source adaptation, static review and fake tests only. No instrument/SMB/CUA; original frozen files unchanged.",
+  "files": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_slow_down_once.py",
+      "sha256": "9c42e343e098b9130ff1b7ff10e9c558ea30ce99da0561050d8bd4cc81b8045b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/config_full50nm_speed_once.py",
+      "sha256": "81e0aee3b29d5bbc57fb0a2d98aeb95d7fd976c935dfe2ebc02315b92f97ee7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_slow_down_once.py.source.diff",
+      "sha256": "21a0cad9fdfbeeac35dde871c9c449d3347d777499276e0d7c2b85b4fd9db0f8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/config_full50nm_speed_once.py.source.diff",
+      "sha256": "07d0823474dd01169934948565881c18d1ea1a9ec9b2f40e01ff5f0a56e736e7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/test_scan_full50nm_slow_offline.py",
+      "sha256": "44949a08e016d30224d182ec8d15cb7c22f6aa220785e4dc2663d21b74eb4b28"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/test_config_full50nm_speed_offline.py",
+      "sha256": "fde7211245272efdbfa699d6bb732fc2b9eb40b70ec17ae4c595533c3a2145cf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_slow_offline_test_results.json",
+      "sha256": "39a85f4e06732cd8ff8be08a9c54908bbbc8fc1e7ac8818ca16322250c1b0079"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/config_full50nm_speed_offline_test_results.json",
+      "sha256": "3bdb48a26f8bd73f820fe7fbfd24a14ea30c40892a69e33280d3ac9ec20a0b3d"
+    }
+  ],
+  "source_anchors": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/config_full50nm_once.py",
+      "sha256": "fe744715ece4f4a083f789c1ae0c217308ad6f5de7b91db1e948cede5beaac20"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/scan_full50nm_down_once.py",
+      "sha256": "9dabd50835abd8996ec4c23a52c286121b4b55c021351eb78e0c5abfd5c5b207"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/logger_fullcycle_once.py",
+      "sha256": "f6a3a1b38b06123effc02c0c33599185f30b018d2378416311930815400557fa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/action_bindings.py",
+      "sha256": "8e4ff0a546073eac21bf76cf1655195ca9c1a5ee2f4b11e74345dee36d4c1bb0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_001_initial/snapshot.json",
+      "sha256": "7c1944f66e17711e9b7447fa000d84f0b94349ab5855be054e589af2bac0bab8"
+    }
+  ],
+  "actual_change": {
+    "Scan.SpeedSet_slow_args": [
+      2.74122804455601e-08,
+      2.74122804455601e-08,
+      1.8240000009536743,
+      1.8240000009536743,
+      2,
+      1.0
+    ],
+    "Scan.SpeedGet_slow_expected": [
+      2.74122804455601e-08,
+      2.74122804455601e-08,
+      1.8240000009536743,
+      1.8240000009536743,
+      1,
+      1.0
+    ],
+    "FolMe.SpeedGet_slow_expected": [
+      2.74122804455601e-08,
+      0
+    ],
+    "nominal_frame_s": 875.5200004577637,
+    "deadline_after_start_s": 890.5200004577637,
+    "admission_estimated_logger_remaining_s": 925.5200004577637,
+    "full_frame": "50x50nm, 240x240, DOWN, six planes",
+    "other_parameters": "-1V100pA/SafeOff/P-T/gains/all other frozen fields unchanged",
+    "restore_fast": "Explicit independent invocation; exact original .9120000004768372s and5.48245608911202e-8m/s, no automatic inverse"
+  },
+  "interfaces": {
+    "config": "config_full50nm_speed_once.py --mode slow|restore-fast; default plan-only; execute additionally requires session/output/logger/fresh/source hashes",
+    "scanner": "scan_full50nm_slow_down_once.py; default plan-only; execute requires original explicit session/event/output/logger/fresh/source hashes",
+    "session": "session_02",
+    "logger": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger",
+    "diagnostic_output": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full",
+    "claim_root": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims",
+    "roles": "configure_slow,restore_fast,configure_slow_after_A01..A06,restore_fast_before_A01..A06; scanner slow_diagnostic_full,before_full,after_A01..A06_full,confirm_A01..A06_full"
+  },
+  "preservation": {
+    "AST_unchanged_from_fast": [
+      "Client entire class",
+      "Run entire class including logger_guard,write,cleanup,frames,execute",
+      "guard",
+      "local_path",
+      "reserve_attempt"
+    ],
+    "scanner_test_cases_passed": 15,
+    "config_test_cases_passed": 19,
+    "extra_actual_default_scanner_main_without_Client_or_Run": true,
+    "socket_DNS_attempts": 0,
+    "independent_review": "benchmark_scan_runner read exact source diffs and config critical paths; no new blocking issue reported; no source edits or hardware imports by reviewer."
+  },
+  "state_at_anchor_only": {
+    "feedback": "Off/status1",
+    "Z": "Home +123.7nm",
+    "entry_admitted": false,
+    "next_requirement": "Root must independently establish stable engagement and acquire fresh <=180s hash-bound On2 readback; no On/coarse writer exists in these adapters."
+  },
+  "compatibility": {
+    "logger": "Existing logger_fullcycle_once.py reused unchanged;7200nominal and min((7200-elapsed)/2,3600-hostage) estimate unchanged; fresh same identity/profile and progress required throughout. New session_02 output required.",
+    "action_adapters": "Existing prepare/pulse/return import the frozen fast scanner and reject slow state. Explicit restore-fast + fresh exact readback before old action stages. Reconfigure slow after return if matching slow before/after. No pulse-budget reset by speed or output change; action_bindings untouched.",
+    "fast_baseline": "Original fast scanner can run with a fresh stable fast state, unused event/output/claim and active new session logger.198 is historical context after intervening withdrawal/moves, not a strict same-state comparison.",
+    "coverage": "A slow scan needs >=925.52s estimated logger coverage at initial admission. This is not whole-session coverage proof; root budgets review and all later phases. Three slow frames plus other phases can approach an hour; no action admitted beyond available remaining coverage."
+  },
+  "monitoring_policy": "No new automatic native saturation/temporal threshold has been implemented. Existing sampled400pA gate and2nm endpoint margin remain. Proposed raw-event/duration/recovery classification is separate documentation, not a hardware protection bound or retroactive erasure of198.",
+  "readiness": "Offline tested and source frozen for root review. Not directly executable in withdrawn anchor state. Live readback/quantization/ownership/logger continuity still require execution-time checks; no live validation claimed."
+}

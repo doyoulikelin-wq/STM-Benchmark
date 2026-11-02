@@ -1,0 +1,337 @@
+{
+  "created_utc": "2026-11-02T11:56:22.152815+00:00",
+  "status": "prospective offline analysis plan; no new resumed scan has been read; root selects/acquires all hardware actions",
+  "changes_only": [
+    "new analysis_plan.md",
+    "new analysis_plan.json"
+  ],
+  "purpose": "single-variable scan-speed diagnostic, then evaluate four requested full conditioning attempts without promising four successful cycles",
+  "geometry": {
+    "frame_nm": [
+      50,
+      50
+    ],
+    "center_nm": [
+      0,
+      0
+    ],
+    "pixels_lines": [
+      240,
+      240
+    ],
+    "angle_deg": 0,
+    "slow_scan_direction": "down",
+    "bias_V": -1,
+    "imaging_setpoint_pA": 100,
+    "pixel_pitch_nm": 0.20833333333333334
+  },
+  "candidate_speed": {
+    "prior_direction_line_s": 0.912,
+    "slow_direction_line_s": 1.824,
+    "prior_nominal_pixel_ms": 3.8,
+    "slow_nominal_pixel_ms": 7.6,
+    "prior_active_frame_s": 437.76,
+    "slow_active_frame_s": 875.52,
+    "label": "candidate settings require actual readback; time change also changes averaging/exposure and cannot isolate servo lag alone"
+  },
+  "other_settings": "read back and retain actual gain/P,T,Current range,channels,filtering,direction,geometry and setpoint; SafeTip state belongs to root authorization, not this analysis",
+  "reference_eligibility": "198 is prior matched-geometry historical reference, not automatically immediate fresh fast baseline; after-pause history, elapsed time, moves, tip actions and unknown gaps must be explicit. No extra fast scan is authorized by this plan.",
+  "fixed_regions": [
+    {
+      "name": "BG1",
+      "rc_half_open": [
+        75,
+        95,
+        65,
+        125
+      ],
+      "role": "previous fixed background; mark NA if occupied; do not move",
+      "physical_edges_nm": {
+        "x": [
+          -11.458333333333334,
+          1.0416666666666679
+        ],
+        "y": [
+          5.208333333333332,
+          9.375
+        ]
+      }
+    },
+    {
+      "name": "BG2",
+      "rc_half_open": [
+        78,
+        98,
+        140,
+        190
+      ],
+      "role": "previous independent fixed background; mark NA if occupied; do not move",
+      "physical_edges_nm": {
+        "x": [
+          4.166666666666668,
+          14.583333333333336
+        ],
+        "y": [
+          4.583333333333332,
+          8.75
+        ]
+      }
+    },
+    {
+      "name": "left_compound_object",
+      "rc_half_open": [
+        95,
+        120,
+        12,
+        42
+      ],
+      "role": "F/B nanometer-object visibility; compound form allowed",
+      "physical_edges_nm": {
+        "x": [
+          -22.5,
+          -16.25
+        ],
+        "y": [
+          0.0,
+          5.208333333333332
+        ]
+      }
+    },
+    {
+      "name": "right_isolated_object",
+      "rc_half_open": [
+        98,
+        119,
+        145,
+        171
+      ],
+      "role": "separated reference object; F/B boundary readability",
+      "physical_edges_nm": {
+        "x": [
+          5.208333333333332,
+          10.625
+        ],
+        "y": [
+          0.20833333333333215,
+          4.583333333333332
+        ]
+      }
+    },
+    {
+      "name": "diagonal_edge_object",
+      "rc_half_open": [
+        112,
+        137,
+        180,
+        208
+      ],
+      "role": "terrace edge/object separation; physical edge is not a whole-line artifact",
+      "physical_edges_nm": {
+        "x": [
+          12.5,
+          18.333333333333336
+        ],
+        "y": [
+          -3.541666666666668,
+          1.6666666666666679
+        ]
+      }
+    },
+    {
+      "name": "198_local_particle_and_surround",
+      "rc_half_open": [
+        180,
+        208,
+        140,
+        175
+      ],
+      "role": "prospective candidate region based only on prior198; no assertion new object identity or hard native synchronization",
+      "physical_edges_nm": {
+        "x": [
+          4.166666666666668,
+          11.458333333333336
+        ],
+        "y": [
+          -18.333333333333336,
+          -12.5
+        ]
+      }
+    },
+    {
+      "name": "198_local_edge_focus",
+      "rc_half_open": [
+        194,
+        200,
+        145,
+        165
+      ],
+      "role": "historic edge/tail focus retained even if new frame shifts; no automatic re-centering",
+      "physical_edges_nm": {
+        "x": [
+          5.208333333333332,
+          9.375
+        ],
+        "y": [
+          -16.666666666666664,
+          -15.416666666666664
+        ]
+      }
+    }
+  ],
+  "whole_field_columns_half_open": [
+    [
+      0,
+      60
+    ],
+    [
+      60,
+      120
+    ],
+    [
+      120,
+      180
+    ],
+    [
+      180,
+      240
+    ]
+  ],
+  "historical_attention_rows_half_open": {
+    "weak198_shared_offset": [
+      116,
+      130
+    ],
+    "strong196_mid_band": [
+      150,
+      165
+    ],
+    "local198": [
+      180,
+      208
+    ],
+    "strong196_low_band": [
+      225,
+      237
+    ]
+  },
+  "processing": {
+    "raw": "preserve absolute F/B; optional one common constant per acquired frame shared by F/B for display only",
+    "plane": "separate one global plane per full F/B; raw mandatory alongside",
+    "forbidden_for_verdict": [
+      "line detrending",
+      "smoothing",
+      "filling missing pixels",
+      "independent per-object/per-direction registration"
+    ],
+    "alignment": "none in primary analysis; if drift prevents fixed-ROI interpretation, mark correspondence uncertain/NA; no posthoc optimized re-centering to pass"
+  },
+  "legacy_flags": "All old BG numeric tolerances and 3-of-4 quarters >=50pm flags are retained as descriptive legacy checks, not safety limits or automatic new functional pass/fail. Preserve smaller measured common line offsets and state their effect on the current task.",
+  "native_statistics": {
+    "streams": "SXM averaged pixels and native samples kept separate",
+    "mandatory": [
+      "actual dt/channels/finite completion/sha",
+      "native min/max plus software-range bounds readback",
+      "isolated and consecutive range-limit sample runs without filling gaps",
+      "event/sample counts at prior descriptive 400pA/1nA/4nA bins, exposure seconds and events/scan or per crossed feature",
+      "native I/Z local traces and post-event recovery descriptors",
+      "pre/scan/post intervals plus ambiguous boundary intervals"
+    ],
+    "offline_windows": "fixed-time 4ms (nominal8 samples at2kHz) and 8ms(16 samples) summaries on every stream if dt permits; also report per-pixel nominal dwell separately. A rolling window is not exact reconstruction of SXM averaging.",
+    "threshold_policy": "No new allowed overload duration, recovery time, max current or safety margin inferred; all durations are sampled bounds, not physical waveform duration guarantees. Missing recovery/range evidence remains unknown.",
+    "recovery": "report I median/RMS and Z residual/trend in fixed 10ms/100ms/1s/5s windows when available, with XY and ongoing-scan context; if windows overlap other events or motion, label contaminated. No successful-recovery boolean from these unvalidated windows."
+  },
+  "functional_outputs": {
+    "nanometer_object_visibility": "supported/not_supported/unknown: at least two predesignated separated objects or a reliable edge remain interpretable in raw F/B with surrounding background; real shape changes and compound forms allowed. Record spatial scope. An independently reliable reference losing task-relevant detail may establish a defect without requiring all objects to fail.",
+    "local_tracking": "improved/unchanged/worse/inconclusive for preregistered particle/edge; report tail shape, direction dependence, raw F/B residual and event context, not identity claim",
+    "background_height_metrology": "separate from object visibility; measured common ~10pm offsets can limit ~10pm height inference without invalidating nanometer recognition",
+    "atomic_resolution": "not_assessed/not_established at50nm240 grid; 0.2083nm pitch alone and nanometer objects cannot demonstrate atomic periodicity/resolution; no mandatory chemical-clean prerequisite",
+    "longer_stability_L3": "requires separately acquired no-conditioning matched repeat supporting the explicitly scoped task; one slow frame is candidate only. Legacy196-198 labels remain immutable."
+  },
+  "decision_table": [
+    {
+      "finding": "same local edge less direction-dependent tail and lower native event burden, global objects retained",
+      "interpretation": "supports speed-dependent tracking contribution; particle changes/time remain alternatives; increased pixel averaging alone cannot explain native improvement",
+      "not_claim": "chemical clean, pulse repair, universal safe speed"
+    },
+    {
+      "finding": "SXM I RMS/peaks decline but native isolated peaks/events remain comparable",
+      "interpretation": "consistent with increased pixel averaging; no demonstrated suppression of underlying transient",
+      "not_claim": "no overload or repaired apex"
+    },
+    {
+      "finding": "same physical contour persists in F/B at slow speed without subsequent broad quality loss",
+      "interpretation": "supports local surface/edge contribution; does not uniquely exclude tip response",
+      "not_claim": "known particle identity or mechanical contact"
+    },
+    {
+      "finding": "offsets occur at different physical Y/time or persist broadly after a local event",
+      "interpretation": "supports temporal response/state contribution requiring explicit limits; drift/feedback/environment remain alternatives",
+      "not_claim": "unique tip-switch mechanism"
+    },
+    {
+      "finding": "new sample/feature changes or significant history gap",
+      "interpretation": "report descriptive comparison with reduced causality; no fresh immediate before assumption",
+      "not_claim": "speed-only causal result"
+    }
+  ],
+  "four_attempt_accounting": "slow diagnosis adds zero conditioning attempts and zero repair cycles. Each later actual conditioning requires its own full before and full after at matched settings plus known action/recovery. No-conditioning full confirmation may also be next before if continuity/parameters remain valid, with identical source SHA and no extra independent-image count. If already usable, do not relabel as bad or force a repair; prior induction authorization must be instantiated by root as a separate bounded induction with a real post-induction bad full frame. Four requested attempts need not be four independent or successful cycles; continuing episode/cumulative pulse budget not reset.",
+  "analysis_entry": {
+    "generic_parser": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/analyze_local_sxm.py",
+      "sha256": "c496abc8d08f33fb4fb908032519bd5eeda88d0d8b3fbbf9566b5e7fcc669a1e"
+    },
+    "command_template": "PYTHONPATH=/Users/maxlin/Desktop/Nanonis/work/ag110_plot_dependencies MPLBACKEND=Agg /Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/analyze_local_sxm.py LOCAL_COMPLETED.sxm --expected-sha256 ROOT_VERIFIED_SHA --capture-dir LOCAL_COMPLETED_RUN --output NEW_LOCAL_ANALYSIS --z-channel 30 --current-channel 0",
+    "capture_contract": "root must declare completed/archive-ready; all six240² planes exact native/TCP/wire bitmatch and finite; header actual geometry/speed/gains and readonly snapshots checked separately",
+    "pure_helpers": [
+      "analyze_local_sxm.read_sxm/verify_capture/analyze",
+      "compare_local_scan_directions.load/quarter_metrics/patch_metrics",
+      "analyze_full50nm_local.descriptors/plot only if called as pure routines with verified240² arrays; do not call its fixed-speed run on slow data"
+    ],
+    "old_fixed_entry_limit": "analyze_full50nm_local.run rejects line times other than .912s; compare_full50nm_local.run and common.compare reject changed line times. Do not edit frozen scripts, header or report hash to evade these checks.",
+    "pair_entry_status": "generic per-frame archive parser is executable as-is; speed-change paired adapter must be separately frozen or use documented pure-array descriptor/layout workflow. No new comparator code is delivered under current plan-only write scope.",
+    "labels": "prior fast / new slow, rawF/B; never before repair / after repair for speed diagnosis"
+  },
+  "sources": {
+    "root_review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/ROOT_REVIEW.txt",
+      "sha256": "0182cd7ea82e68b5b1ffe574774545c1216d5b48c1812480c53e11bc299b5008"
+    },
+    "old_plan": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/offline_image_plan.md",
+      "sha256": "ba862f18995b44bea37f43dd73260d74355dfcd0e2ef374f2e32897d161d6dca"
+    },
+    "prior198_review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/scientific_review.json",
+      "sha256": "2b92b648605eff2db2eb1efa940f32f99567c1eb2b454d202ddf1f1ed24bd6d6"
+    },
+    "prior_joint": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_IMAGE_JOINT_196_197_198.json",
+      "sha256": "b7af786e8c91f8fcd633e74f1de66bc01c929b6d0751a9935a3b8c3dadbd598f"
+    },
+    "parser": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/analyze_local_sxm.py",
+      "sha256": "c496abc8d08f33fb4fb908032519bd5eeda88d0d8b3fbbf9566b5e7fcc669a1e"
+    },
+    "common_metrics": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/compare_local_scan_directions.py",
+      "sha256": "85afeaa6acc5040a7912a705ed8581c2fa0bcc4901e53e14f2f3786a5b0124df"
+    },
+    "fixed_analyzer": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/analyze_full50nm_local.py",
+      "sha256": "700cadd73412251d04ad6ffb4c29749ea0343a8a5ced044b2c6798e53e6f971e"
+    },
+    "fixed_comparator": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/compare_full50nm_local.py",
+      "sha256": "46cef26a5d18ab12db16e1f4cedf732f309918b5bc3f42b897cbfdbe597ba942"
+    },
+    "layout": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/full50nm_comparison_layout.json",
+      "sha256": "49152b19f515e4db2f3f099072b53a9719b363730df55c85c69f51e6fc6cf1a8"
+    },
+    "skill": {
+      "path": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/SKILL.md",
+      "sha256": "6f430637a1bb2ba6cc4c4007f6fc499f85b3f07ee2a40bc1021398a7468e59f3"
+    }
+  },
+  "results": "pending; no successful image, intervention or hardware permission asserted"
+}

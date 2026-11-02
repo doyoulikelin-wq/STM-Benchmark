@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-11-02T15:19:27.566822+00:00",
+  "source_install_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step03_install_review.json",
+    "sha256": "06ea3d6e8fffdcdb9c4c2cdf7eeafc43e17687d729b1e651d368922c4e29b099"
+  },
+  "source_entry_sha256": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e",
+  "source_files": [
+    {
+      "relative": "SKILL.md",
+      "installed_sha256": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e",
+      "repository_sha256": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e",
+      "byte_identical": true
+    },
+    {
+      "relative": "references/local-au111-protocol.md",
+      "installed_sha256": "cef6cb5977c88fb148b1e6b04f2ccf1535d1abf98182a002a5763d882f331ab5",
+      "repository_sha256": "440865d135796185e0c47bdc2f6a8e1976306272dc96fb580d5b0b0fbd9a9a9b",
+      "byte_identical": false
+    },
+    {
+      "relative": "references/record-and-local-context.md",
+      "installed_sha256": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+      "repository_sha256": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+      "byte_identical": true
+    },
+    {
+      "relative": "references/execution-and-acquisition.md",
+      "installed_sha256": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3",
+      "repository_sha256": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3",
+      "byte_identical": true
+    },
+    {
+      "relative": "references/physics-and-evidence.md",
+      "installed_sha256": "bc5983116770665bf1415948e115e4e9192e958e7d23d978b25d7cc7cddfe619",
+      "repository_sha256": "bc5983116770665bf1415948e115e4e9192e958e7d23d978b25d7cc7cddfe619",
+      "byte_identical": true
+    },
+    {
+      "relative": "references/primary-literature.md",
+      "installed_sha256": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+      "repository_sha256": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+      "byte_identical": true
+    },
+    {
+      "relative": "agents/openai.yaml",
+      "installed_sha256": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+      "repository_sha256": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+      "byte_identical": true
+    },
+    {
+      "relative": "scripts/action_record.py",
+      "installed_sha256": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+      "repository_sha256": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+      "byte_identical": true
+    },
+    {
+      "relative": "scripts/test_action_record.py",
+      "installed_sha256": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+      "repository_sha256": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+      "byte_identical": true
+    },
+    {
+      "relative": "assets/action-record.schema.json",
+      "installed_sha256": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+      "repository_sha256": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+      "byte_identical": true
+    },
+    {
+      "relative": "assets/local-au111.profile.json",
+      "installed_sha256": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+      "repository_sha256": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+      "byte_identical": true
+    },
+    {
+      "relative": "assets/action-record.template.json",
+      "installed_sha256": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59",
+      "repository_sha256": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59",
+      "byte_identical": true
+    }
+  ],
+  "only_export_transformation": "local-au111-protocol historical evidence hrefs changed from Mac absolute paths to repository-relative curated evidence; scientific text/scripts/profile unchanged",
+  "link_mapping": [
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/slow199_full_offline_review/review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/slow199_full_offline_review/review.json",
+      "evidence_sha256": "571580c980f1c462bda89af10a0a1fcf735b053e9e47330eca2516f73c6e2c48"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/fast200_full_offline_review/review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/fast200_full_offline_review/review.json",
+      "evidence_sha256": "7f146f26ec6d30fce2c295888835e3259893bce78d246f222fdf264c3cf394e1"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/full_before_root_review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/session_02/full_before_root_review.json",
+      "evidence_sha256": "ec6d24efa2abd3df0320036dd2a21f203c26aef0919b0b4508e84ea323c03c7e"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/pulse_A01_native_review/review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/pulse_A01_native_review/review.json",
+      "evidence_sha256": "f17c977916649e28e2cd956be7e7af448fa1413b8a9f79ca0b9a6d948131eb30"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/return_A01_interruption_review/review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/return_A01_interruption_review/review.json",
+      "evidence_sha256": "ddc94dd0caa29269bdb6ade11ea632a3591f49c0f2e0dcdeac1460761f2da358"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/unexpected_withdraw_root_review.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/unexpected_withdraw_root_review.json",
+      "evidence_sha256": "cbcb67354e6d2d3172f3ab67026ad9916402c809accaf21f150b8cc1fe54f3d6"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_blue_box_original_20261102.jpg",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/new_user_guidance/user_blue_box_original_20261102.jpg",
+      "evidence_sha256": "ed33347f817d323230e6ea015ec9945f7bca6421b053a05f64fa17f437e7ae86"
+    },
+    {
+      "installed_link": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+      "repository_relative_link": "../../../benchmark/results/au111_five_sessions_20261102/evidence/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+      "evidence_sha256": "2a4ed8ecf64b45ca7221d3045292f166671f8b1d8abd2d6371c0bba99a01a64d"
+    }
+  ],
+  "installed_files_modified_by_export": false,
+  "git_commit_push_performed": false
+}

@@ -1,0 +1,42 @@
+{
+  "name": "local-au111",
+  "version": "2026-11-01",
+  "source": "User instruction in the current benchmark/skill conversation, 2026-11-01: at most five or six pulses per session (hard cap six); review strategy after two consecutive pulses without improvement; new conditioning protocol requires SafeTip Off. Review may consider another voltage or TipShaper but authorizes no automatic action.",
+  "counter_scope": "pulse_attempts counts Bias.Pulse only; budget.actions_attempted counts all conditioning attempts including separately audited TipShaper. Changing strategy or reviewing does not reset either cumulative counter. The no-improvement streak counts pulses only; a separately evidenced improvement updates action and pulse boundaries without resetting cumulative pulse count.",
+  "max_pulses_per_session": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "required_safetip_state": "off",
+  "default_tipshaper_displacement_m": null,
+  "live_adapter_provided": false,
+  "local_record_defaults": {
+    "policy_version": "2026-11-01",
+    "max_pulses_per_session": 6,
+    "review_after_consecutive_no_improvement": 2,
+    "required_safetip_state": "off",
+    "pulse_attempts_before": 0,
+    "pulse_attempts_after": null,
+    "consecutive_no_improvement_before": 0,
+    "consecutive_no_improvement_after": null,
+    "last_improvement_action_attempt_before": 0,
+    "last_improvement_action_attempt_after": null,
+    "last_improvement_evidence": {
+      "path": null,
+      "sha256": null
+    },
+    "strategy_review": {
+      "evidence": {
+        "path": null,
+        "sha256": null
+      },
+      "reviewed_utc": null,
+      "reviewed_through_action_attempt": null,
+      "reviewed_through_pulse_attempt": null,
+      "consecutive_no_improvement_at_review": null,
+      "decision": null,
+      "next_strategy_id": null,
+      "rationale": null
+    },
+    "last_improvement_pulse_attempt_before": 0,
+    "last_improvement_pulse_attempt_after": null
+  }
+}

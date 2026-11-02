@@ -1,0 +1,1085 @@
+{
+  "created_utc": "2026-11-02T01:16:11.246734+00:00",
+  "created_CST": "2026-11-02T09:16:11.246734+08:00",
+  "report_scope": "S1 one complete compound conditioning attempt with full196 before, full197 after and full198 no-conditioning confirmation. L0/L1/L2 supported; original strict full-field L3 not supported, L4 unknown. Requested five workflows remain incomplete; further hardware held pending experimenter information after scan-period software-range events. Owned native logger intentionally stopped and all229 local blocks archived; final whole229-block hash/header/shape/finite audit passed and linked.",
+  "requested_workflows": 5,
+  "included_complete_workflows": 1,
+  "included_successful_closed_cycles": 0,
+  "new_batch_known_ended_pulses": 1,
+  "continuing_episode_pulses_consumed": 2,
+  "completion_rule": "Full actual before + actual audited conditioning/recovery + full actual after + corresponding records; successful closure separately requires supported functional improvement and independent no-conditioning confirmation.",
+  "sample": "Au(111)",
+  "tip_material": "unknown",
+  "current_temperature_K": null,
+  "controller": "root only; this author performed no instrument operations",
+  "settings": {
+    "frame_nm": [
+      50,
+      50
+    ],
+    "center_nm": [
+      0,
+      0
+    ],
+    "pixels_lines": [
+      240,
+      240
+    ],
+    "scan_direction": "DOWN",
+    "bias_V": -1,
+    "imaging_setpoint_pA": 100,
+    "line_s_each": 0.9120000004768372,
+    "nominal_frame_s": 437.76000022888184,
+    "SafeTip": "Off"
+  },
+  "sessions": [
+    {
+      "slot": 1,
+      "session_id": "session_01",
+      "status": "complete_attempt_strict_cycle_not_supported_hardware_held_pending_experimenter",
+      "episode_id": "continuing_20261101_1939",
+      "complete_workflow": true,
+      "successful_closed_cycle": false,
+      "before": {
+        "native": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native/BM261029_00196.sxm",
+          "sha256": "6d9b308f9a73e97b948896e2ff59b20b2c970877cb6c21c5562c5fe35ab4ac70",
+          "bytes": 1383336
+        },
+        "data_integrity": {
+          "capture": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full",
+          "completed_outcome": true,
+          "native_TCP_wire_bitmatch": true,
+          "matched_float32_values": 345600,
+          "planes": [
+            {
+              "channel": 30,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 30,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            }
+          ],
+          "successful_end_events": [
+            {
+              "utc": "2026-11-02T00:29:44.125419+00:00",
+              "monotonic_ns": 1450828843868625,
+              "kind": "wait_end",
+              "values": [
+                0,
+                84,
+                "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00196.sxm"
+              ],
+              "elapsed_s": 438.35749170789495
+            }
+          ],
+          "capture_outcome_sha256": "d66361643b15da140e059510f92dbcde29197b38fa41ac788a383a6640b26bc5"
+        },
+        "task_relevant_bad_state": "supported",
+        "full_frame": [
+          "50x50nm",
+          "240x240",
+          "DOWN",
+          "-1V",
+          "100pA",
+          "0.912s/direction"
+        ],
+        "image_pixel_extrema_pA": {
+          "F": -790.8897980968277,
+          "B": -1016.0918773038929
+        },
+        "raw_FB_plane_figure": "session_01/before_full/analysis_full/Z_raw_globalplane_FB.png",
+        "current_figure": "session_01/before_full/analysis_full/Current_raw_FB.png",
+        "row_offset_figure": "session_01/before_full/analysis_full/all_quarter_row_offsets.png"
+      },
+      "action": {
+        "id": "A01",
+        "reason": "Previous -4V/20ms compound treatment gave partial improvement without stable whole-frame recovery. Fresh196 still has 0.16-0.36nm cross-field transient bands. Select one -5V/20ms candidate within expert range while retaining width/Hold/preparation. This is an explicit single choice, not an automatic ladder.",
+        "fixed_XY_nm": [
+          -25,
+          -25
+        ],
+        "compound_intervention": true,
+        "prepare": {
+          "command": "ZCtrl.SetpntSet",
+          "targets_pA": [
+            125,
+            156.25,
+            195.3125,
+            244.140625,
+            305.17578125,
+            381.4697265625,
+            476.837158203125,
+            596.0464477539062,
+            745.0580596923828,
+            931.3225746154785,
+            1000
+          ],
+          "attempted": 11,
+          "acknowledged": 11,
+          "end_utc": "2026-11-02T00:36:41.655804+00:00",
+          "elapsed_s": 95.79427920794114,
+          "final_statistics": {
+            "samples": 60,
+            "duration_s": 10.009030000073835,
+            "Z_slope_pm_s": -0.4209205931150164,
+            "Z_detrended_rms_pm": 2.0216409918814753,
+            "tail_bracket_includes_last_sample_at_or_before_cutoff": true,
+            "sequential_host_times_not_native_sample_times": true,
+            "last5s_all_sampled_current_in_band": true,
+            "Z_gates_passed": true
+          }
+        },
+        "pulse": {
+          "requested_command": "Bias.Pulse",
+          "requested_args": [
+            1,
+            0.02,
+            -5.0,
+            1,
+            2
+          ],
+          "claim_utc": "2026-11-02T00:39:30.915570+00:00",
+          "ack_utc": "2026-11-02T00:39:30.947076+00:00",
+          "known_end": true,
+          "output_utc": "2026-11-02T00:40:01.529581+00:00",
+          "episode_ordinal": 2,
+          "new_batch_pulse_number": 1,
+          "pre_state_statistics": {
+            "window_s": 10.046717582968995,
+            "samples": 61,
+            "Z_slope_m_per_s": -8.556831003073366e-14,
+            "Z_detrended_RMS_m": 2.4986501513056143e-12,
+            "Z_span_m": 1.496403001510771e-11,
+            "I_mean_A": -1.002488385564633e-09,
+            "I_std_A": 1.045747740072912e-12,
+            "I_min_A": -1.0045153597815215e-09,
+            "I_max_A": -1.0005198891605005e-09,
+            "brackets_last10s": true,
+            "elapsed_s": 30.024892000015825,
+            "final_band_s": 29.839335707947612
+          },
+          "post_state_statistics": {
+            "window_s": 10.07632283307612,
+            "samples": 63,
+            "Z_slope_m_per_s": 1.0089411149109592e-12,
+            "Z_detrended_RMS_m": 6.071899921322985e-12,
+            "Z_span_m": 2.983568947456661e-11,
+            "I_mean_A": -1.081507800423182e-09,
+            "I_std_A": 2.4573408214597552e-11,
+            "I_min_A": -1.1108191033670778e-09,
+            "I_max_A": -1.02651132039e-09,
+            "brackets_last10s": true,
+            "elapsed_s": 30.170645333826542,
+            "final_band_s": 29.706278125056997
+          },
+          "actual_native_waveform_review": {
+            "source": {
+              "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/native_quick_review/review.json",
+              "relative_path": "session_01/pulse_A01/native_quick_review/review.json",
+              "sha256": "c0e23da1ad90124bf12ac7fa9cd4a7648b6329a23da52d5d3aba5f2d51a7f497",
+              "bytes": 21555
+            },
+            "exact_minus5_samples": 39,
+            "sample_interval_s": 0.0005,
+            "plateau_sample_center_span_ms": 19.0,
+            "historical_negative_floor_samples": 87,
+            "after_bias_restored_floor_samples": 48,
+            "Z_Hold_range_pm": 0.0,
+            "Z_max_release_change_nm": 4.418569000000006,
+            "true_peak_unknown": true,
+            "analog_bandwidth_unknown": true,
+            "continuous_gapfree_not_proven": true
+          }
+        },
+        "return": {
+          "command": "ZCtrl.SetpntSet",
+          "targets_pA": [
+            931.3225746154785,
+            745.0580596923828,
+            596.0464477539062,
+            476.837158203125,
+            381.4697265625,
+            305.17578125,
+            244.140625,
+            195.3125,
+            156.25,
+            125,
+            100
+          ],
+          "attempted": 11,
+          "acknowledged": 11,
+          "end_utc": "2026-11-02T00:45:09.437556+00:00",
+          "elapsed_s": 96.61997795803472,
+          "final_target_A": 1.000000013351432e-10,
+          "final_statistics": {
+            "samples": 65,
+            "duration_s": 10.109771250048652,
+            "Z_slope_pm_s": -0.16942753421427095,
+            "Z_detrended_rms_pm": 4.627032870780408,
+            "tail_bracket_includes_last_sample_at_or_before_cutoff": true,
+            "sequential_host_times_not_native_sample_times": true,
+            "last5s_all_sampled_current_in_band": true,
+            "Z_gates_passed": true
+          }
+        }
+      },
+      "after_full": {
+        "status": "completed_and_native_TCP_wire_verified",
+        "source": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/native/BM261029_00197.sxm",
+          "sha256": "ffe533012d6069e59619bcd943512e926e86fccc966d9423696be9150b3b85cb",
+          "bytes": 1383336
+        },
+        "end_event": {
+          "utc": "2026-11-02T00:52:43.605711+00:00",
+          "monotonic_ns": 1452208318770958,
+          "values": [
+            0,
+            84,
+            "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00197.sxm"
+          ],
+          "elapsed_s": 438.7540424170438
+        },
+        "analysis": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/quality_report.json",
+        "analysis_sha256": "5dcbb1e72ca21c8ef4335b51bbc1107c8447d16802f0e844b0cce98ea70abc6b",
+        "matched_parameter_review": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/matched_parameter_review.json",
+        "paired_review": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/compare_before196/fixed_comparison_review.json",
+        "caption_only_receipt": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/compare_before196_captioned/caption_only_receipt.json",
+        "raw_FB_plane_figure": "session_01/after_A01_full/analysis_full/Z_raw_globalplane_FB.png",
+        "paired_raw_absolute": "session_01/after_A01_full/compare_before196_captioned/raw_Z_physicalY.png",
+        "paired_global_plane": "session_01/after_A01_full/compare_before196_captioned/global_plane_Z_physicalY.png",
+        "paired_raw_single_constant": "session_01/after_A01_full/compare_before196/raw_Z_single_constant_offset.png",
+        "manual": {
+          "root_review": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/post197_root_preliminary_review.json",
+          "independent_review": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/scientific_review.json",
+          "L2": "supported",
+          "L3": "not_established",
+          "strict_full_frame_pass": false
+        },
+        "metrics": {
+          "review_flags_before_FB": [
+            6,
+            3
+          ],
+          "review_flags_after_FB": [
+            0,
+            0
+          ],
+          "raw_FB_RMS_pm_before_after": [
+            31.425456412101607,
+            16.701726206099536
+          ],
+          "current_pixel_minima_pA": {
+            "F": -1838.5911682017309,
+            "B": -2335.616811066643
+          }
+        },
+        "limits": "Improvement and increased current-pixel excursions coexist; no automatic successful cycle; waveform attribution audited separately."
+      },
+      "confirmation": {
+        "status": "completed_and_native_TCP_wire_verified",
+        "source": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/native/BM261029_00198.sxm",
+          "sha256": "72e8ed1c48a35c0833455caf4ab2ce27e6d70faadca12927dbab172217d59273",
+          "bytes": 1383336
+        },
+        "end_event": {
+          "utc": "2026-11-02T01:03:09.876240+00:00",
+          "monotonic_ns": 1452834586904958,
+          "values": [
+            0,
+            84,
+            "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00198.sxm"
+          ],
+          "elapsed_s": 438.7991901249625
+        },
+        "analysis": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/quality_report.json",
+        "analysis_sha256": "9e06f6845fcde1bbfa89268c23f847c571cd8fd42677a6fb36f69639765f718b",
+        "integrity": {
+          "capture": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full",
+          "completed_outcome": true,
+          "native_TCP_wire_bitmatch": true,
+          "matched_float32_values": 345600,
+          "planes": [
+            {
+              "channel": 30,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 30,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            }
+          ],
+          "successful_end_events": [
+            {
+              "utc": "2026-11-02T01:03:09.876057+00:00",
+              "monotonic_ns": 1452834586720166,
+              "kind": "wait_end",
+              "values": [
+                0,
+                84,
+                "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00198.sxm"
+              ],
+              "elapsed_s": 438.7991901249625
+            }
+          ],
+          "capture_outcome_sha256": "76083dcc711ba8f3645aaa16a481d1fb99de177df9bbbfc550a5ea4cc2a3cf6f"
+        },
+        "root_reported_no_additional_conditioning": true,
+        "end197_to_start198_s": 187.468691583,
+        "46_static_fields_exact": true,
+        "same_direction_unregistered_fullfield": {
+          "F": {
+            "z": {
+              "units": "pm",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 28.858990012518387,
+              "RMSE": 35.034888993437185,
+              "mean_offset_removed_RMS": 19.864595194461685,
+              "correlation": 0.9880348382202642,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            },
+            "p": {
+              "units": "pm",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 4.953108145855367e-11,
+              "RMSE": 12.682918701325844,
+              "mean_offset_removed_RMS": 12.682918701325844,
+              "correlation": 0.9876209008025107,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            },
+            "I": {
+              "units": "pA",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 0.33509482527228285,
+              "RMSE": 16.08344446488103,
+              "mean_offset_removed_RMS": 16.079953274589695,
+              "correlation": 0.1346003942359914,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            }
+          },
+          "B": {
+            "z": {
+              "units": "pm",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 28.690239073370094,
+              "RMSE": 34.97394055718192,
+              "mean_offset_removed_RMS": 20.00116746617963,
+              "correlation": 0.98791674478655,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            },
+            "p": {
+              "units": "pm",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 5.784992633077006e-11,
+              "RMSE": 12.85746714104154,
+              "mean_offset_removed_RMS": 12.857467141041539,
+              "correlation": 0.9875044138413234,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            },
+            "I": {
+              "units": "pA",
+              "same_pixel_pairs": 57600,
+              "mean_after_minus_prior": 0.2029011446584842,
+              "RMSE": 26.37657514117741,
+              "mean_offset_removed_RMS": 26.37579472364149,
+              "correlation": 0.06978737151432732,
+              "no_registration": true,
+              "not_acceptance_threshold": true
+            }
+          }
+        },
+        "raw_FB_plane_figure": "session_01/confirm_A01_full/analysis_full/Z_raw_globalplane_FB.png",
+        "paired_global_plane": "session_01/confirm_A01_full/compare_post197_captioned/global_plane_Z_physicalY.png",
+        "paired_raw_absolute": "session_01/confirm_A01_full/compare_post197_captioned/raw_Z_physicalY.png",
+        "review_flags_FB": [
+          0,
+          0
+        ],
+        "current_pixel_minima_pA": {
+          "F": -808.8055780675063,
+          "B": -3139.3851962491226
+        },
+        "manual_verdict": "pending in this report snapshot; no automatic L3/count increase",
+        "combined_result": "Strict original full-field success not supported; narrower nanoscale object distinguishability and large-band suppression retained.",
+        "manual_review": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/scientific_review.json",
+          "relative_path": "session_01/confirm_A01_full/analysis_full/scientific_review.json",
+          "sha256": "2b92b648605eff2db2eb1efa940f32f99567c1eb2b454d202ddf1f1ed24bd6d6",
+          "bytes": 14872
+        }
+      },
+      "L0": "supported",
+      "L1": "supported",
+      "L2": "supported",
+      "L3": "not_supported",
+      "L4": "unknown",
+      "limits": [
+        "Do not attribute combined preparation/pulse/return to pulse alone.",
+        "No separate remote conditioning/return move selected; local surface-change confound remains.",
+        "Current pixels, slow state readbacks, native sample peaks and true transient maxima are distinct.",
+        "Current.CalibrGet unavailable; physical amplifier range/bandwidth unknown.",
+        "Z is a working coordinate, not an independent gap sensor.",
+        "Temperature unknown; historical image comment is not current thermometer."
+      ],
+      "root_joint_verdict": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_root_joint_verdict.json",
+        "relative_path": "session_01/A01_root_joint_verdict.json",
+        "sha256": "91ee01808372ca08934ae5a5d793341fefa08b33004bb02800c7df878a15277b",
+        "bytes": 2761
+      },
+      "scan198_electrical_anomaly": {
+        "software_range_review": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/software_range_reconciliation.json",
+          "relative_path": "session_01/confirm198_native_phase_review/software_range_reconciliation.json",
+          "sha256": "869b80747fd8c362299a15af74b9072c37415dfc53b0bf795109994116562c79",
+          "bytes": 14359
+        },
+        "native_review": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/final_review_index.json",
+          "relative_path": "session_01/confirm198_native_phase_review/final_review_index.json",
+          "sha256": "4be3e4b71fbf8a3dbbd8cccfd8ac8e89327b8411fc07c05bcfee6374a07d7457",
+          "bytes": 1842
+        },
+        "software_lower_A": -9.999476802136087e-09,
+        "native_min_A": -9.9994768e-09,
+        "same_at_DAT_text_precision": true,
+        "separate_matching_events": 2,
+        "samples_each": 1,
+        "separation_s": 5.482,
+        "not_commanded_pulse_events": true,
+        "not_proof_of_continuous_1ms_plateau": true,
+        "true_peak_analog_range_bandwidth_unknown": true,
+        "scan_core_s": 438.19,
+        "scan_abs_current_ge400pA_samples": 43,
+        "post_last30s": {
+          "range_half_open": [
+            {
+              "global_zero_index": 5090000,
+              "block": 204,
+              "block_zero_index": 15000,
+              "nominal_header_axis_s": 2545.0
+            },
+            {
+              "global_zero_index": 5150000,
+              "block": 207,
+              "block_zero_index": 0,
+              "nominal_header_axis_s": 2575.0
+            }
+          ],
+          "rows": 60000,
+          "header_duration_s": 30.0,
+          "current_min_pA": -111.87436,
+          "min_location": {
+            "global_zero_index": 5114944,
+            "block": 205,
+            "block_zero_index": 14944,
+            "nominal_header_axis_s": 2557.472
+          },
+          "current_max_pA": -88.798184,
+          "current_mean_pA": -99.73664489528332,
+          "current_RMS_about_mean_pA": 3.146611541181435,
+          "abs_current_ge_pA_counts": {
+            "400": 0,
+            "1000": 0,
+            "4000": 0,
+            "9990": 0
+          },
+          "historical_negative_rail_matching_count": 0,
+          "Z_min_max_nm": [
+            -101.96472,
+            -101.94081
+          ],
+          "Z_slope_pm_s": -0.4059223298621977,
+          "Z_detrended_RMS_pm": 2.186983394791046,
+          "max_adjacent_abs_Z_pm": 4.169999999998254,
+          "max_Z_jump_later_location": {
+            "global_zero_index": 5144776,
+            "block": 206,
+            "block_zero_index": 19776,
+            "nominal_header_axis_s": 2572.388
+          },
+          "adjacent_abs_Z_ge100pm_count": 0,
+          "outside_minus100pA_pm20pct_count": 0
+        }
+      },
+      "unexecuted_candidates": {
+        "TipShaper": {
+          "reviewed": true,
+          "hardware_executed": false,
+          "action_count": 0,
+          "source_review": {
+            "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/shaper_root_source_review.json",
+            "relative_path": "shaper_root_source_review.json",
+            "sha256": "abb44c2dc28ae93a98df645a9e1919c7d48229b4df449bb17f7db1a9720b95e5",
+            "bytes": 1001
+          },
+          "offline_tests": {
+            "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/shaper_full50nm_offline_audit.json",
+            "relative_path": "shaper_full50nm_offline_audit.json",
+            "sha256": "d2fa5713a3849ac0e01d0d4e9f15758f89ff1afde880a19a04d5605fb7f90fbf",
+            "bytes": 375
+          },
+          "inactive_ledger_only": true,
+          "candidate_code_not_execution_evidence": true
+        }
+      }
+    },
+    {
+      "slot": 2,
+      "session_id": "session_02",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 3,
+      "session_id": "session_03",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 4,
+      "session_id": "session_04",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 5,
+      "session_id": "session_05",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    }
+  ],
+  "skill_handling": {
+    "original_skill_modified": false,
+    "practice_log_path": "skill_practice_log.md",
+    "source_hash_record": "skill_source_hashes_before.json",
+    "user_override": "Full before/after images instead of short-strip-first guidance",
+    "not_selected": [
+      "remote conditioning point with independent move/return",
+      "TipShaper",
+      "external oscilloscope/Hi-Res capture",
+      "independent tip chemistry measurement"
+    ],
+    "unavailable_or_not_proven": [
+      "analog current range/bandwidth",
+      "continuous gapfree timestamps",
+      "fresh temperature",
+      "chemical composition"
+    ],
+    "after_hash_record": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_source_hashes_after.json",
+      "relative_path": "skill_source_hashes_after.json",
+      "sha256": "638f95a01014dac44a7246c9d2d4ce438e6592adefe4f18e2b244640828e357e",
+      "bytes": 1434
+    },
+    "all_12_files_unchanged": true,
+    "stop_basis": {
+      "source": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/SKILL.md",
+      "line": 58,
+      "quote": "异常停止： Z 到限位/越过本次余量、扫描中电流饱和、持续失稳、采集失败或状态不明时，停止后续调理和升级。",
+      "application": "Root applied scan-saturation stop provision to two software-output-limit samples while physical overload mechanism/accepted transient behavior remains unresolved. This holds further conditioning; it does not assert a measured physical peak or automatically withdraw."
+    }
+  },
+  "source_index": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/batch_state.json",
+      "relative_path": "batch_state.json",
+      "sha256": "75f855c97ea8e5b725956a273e13657bbe461af759adc99d6d60bcec1a6604c2",
+      "bytes": 2719
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_source_hashes_before.json",
+      "relative_path": "skill_source_hashes_before.json",
+      "sha256": "29627b1b1baa242c39d0aebb879e6918949783c3961a3653c2a3a6756dace00a",
+      "bytes": 1535
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_practice_log.md",
+      "relative_path": "skill_practice_log.md",
+      "sha256": "20947015ceedcf0e2f162e5953835018cc2e974972e7c92bf4546d54ca462174",
+      "bytes": 45272
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/full50nm_comparison_layout.json",
+      "relative_path": "full50nm_comparison_layout.json",
+      "sha256": "49152b19f515e4db2f3f099072b53a9719b363730df55c85c69f51e6fc6cf1a8",
+      "bytes": 2008
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/authorization_decision_A01.json",
+      "relative_path": "session_01/authorization_decision_A01.json",
+      "sha256": "5824ea1b58e05c028c02254c149db1c6311896fbab05935bc821831d23cf2b7c",
+      "bytes": 2606
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/action_A01.ledger.json",
+      "relative_path": "session_01/action_A01.ledger.json",
+      "sha256": "f77e57fdaf7ec044737ecd1203ec2f2d2159de6c8f7c992e6d8c2f6962028ae9",
+      "bytes": 3123
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/outcome.json",
+      "relative_path": "session_01/before_full/outcome.json",
+      "sha256": "d66361643b15da140e059510f92dbcde29197b38fa41ac788a383a6640b26bc5",
+      "bytes": 4073
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native_receipt.json",
+      "relative_path": "session_01/before_full/native_receipt.json",
+      "sha256": "2535c383a8dcacb14fc26db5ef03372ece3dce506e738a35208956d57a03cf1f",
+      "bytes": 560
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+      "relative_path": "session_01/before_full/analysis_full/quality_report.json",
+      "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8",
+      "bytes": 266354
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/scientific_review.json",
+      "relative_path": "session_01/before_full/analysis_full/scientific_review.json",
+      "sha256": "cfe93bfb290e59523d2be69f5cb8137aa0cb5315a6306cbb729f866fb4702819",
+      "bytes": 25689
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before196_native_phase_review/final_review.json",
+      "relative_path": "session_01/before196_native_phase_review/final_review.json",
+      "sha256": "5c05f387ffdd25219bd525ee59adce3e114e10728e3909cfc7785248479a114b",
+      "bytes": 5115
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/outcome.json",
+      "relative_path": "session_01/prepare_A01/outcome.json",
+      "sha256": "3a10e648080ad8d49435ebd730c91a05552fe880362e3c524e7ef74f8b1e2d50",
+      "bytes": 6141
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/native_quick_review/READOUT.txt",
+      "relative_path": "session_01/prepare_A01/native_quick_review/READOUT.txt",
+      "sha256": "38a65fd223973531976cb0de62786f787751f3eb8d8b109efe34bd63de48c360",
+      "bytes": 590
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse.claim",
+      "relative_path": "session_01/pulse_A01/pulse.claim",
+      "sha256": "2cfee40cf220c6fcc333ce40ee7bb233f63e9c3cc154983789557360f2941ec9",
+      "bytes": 226
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse_ack.json",
+      "relative_path": "session_01/pulse_A01/pulse_ack.json",
+      "sha256": "597a12e086d4f9fbe43a18799f14bd3514606d17caafe4cc9caa9ae3dae1d4ce",
+      "bytes": 123
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/outcome.json",
+      "relative_path": "session_01/pulse_A01/outcome.json",
+      "sha256": "5ddb9a68caa9e329bb11a3e102a00dbe1e7314b55f9746b7948c5058f23d9d45",
+      "bytes": 1309
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/outcome.json",
+      "relative_path": "session_01/return_A01/outcome.json",
+      "sha256": "db2d66620aa777f38bb41fa9055921a3c9a2f7ea930c7d88ba0ba9aefdc5c6e8",
+      "bytes": 6142
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/outcome.json",
+      "relative_path": "session_01/after_A01_full/outcome.json",
+      "sha256": "476e32d4cbf45f45fe765d738a39467a23bfb56132204cc9d997f56128716a6f",
+      "bytes": 4073
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/quality_report.json",
+      "relative_path": "session_01/after_A01_full/analysis_full/quality_report.json",
+      "sha256": "5dcbb1e72ca21c8ef4335b51bbc1107c8447d16802f0e844b0cce98ea70abc6b",
+      "bytes": 263060
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/scientific_review.json",
+      "relative_path": "session_01/after_A01_full/analysis_full/scientific_review.json",
+      "sha256": "4a1981a2327b92a595afa7308d2484f745b8a636f919a40553adf93434026cde",
+      "bytes": 15760
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/post197_root_preliminary_review.json",
+      "relative_path": "session_01/post197_root_preliminary_review.json",
+      "sha256": "b76789aa92793482dc97f41ee6dd2802a26e91f7ad4aadb4616de86f5d174dc4",
+      "bytes": 1208
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/matched_parameter_review.json",
+      "relative_path": "session_01/after_A01_full/analysis_full/matched_parameter_review.json",
+      "sha256": "bd8ac1b5ad8a251d94712f855932573fb21ff03a791843fa791bacb28c88ed27",
+      "bytes": 2891
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/compare_before196/fixed_comparison_review.json",
+      "relative_path": "session_01/after_A01_full/compare_before196/fixed_comparison_review.json",
+      "sha256": "0d5f6e0642db83a072015e7e4a3573226ba977acc71df5cef12eb7905b79c7da",
+      "bytes": 473392
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/compare_before196_captioned/caption_only_receipt.json",
+      "relative_path": "session_01/after_A01_full/compare_before196_captioned/caption_only_receipt.json",
+      "sha256": "78693dcbb7345742fbcec70684eeaa2beb3914dbb7962ca49f5b71765e46d870",
+      "bytes": 5023
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/outcome.json",
+      "relative_path": "session_01/confirm_A01_full/outcome.json",
+      "sha256": "76083dcc711ba8f3645aaa16a481d1fb99de177df9bbbfc550a5ea4cc2a3cf6f",
+      "bytes": 4073
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/quality_report.json",
+      "relative_path": "session_01/confirm_A01_full/analysis_full/quality_report.json",
+      "sha256": "9e06f6845fcde1bbfa89268c23f847c571cd8fd42677a6fb36f69639765f718b",
+      "bytes": 263086
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/matched_repeat_review.json",
+      "relative_path": "session_01/confirm_A01_full/analysis_full/matched_repeat_review.json",
+      "sha256": "bc09ee9285579b6e2d1db3227c81c334759b410e1ab2a11bdc1f1146d7c209b2",
+      "bytes": 5319
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/fixed_comparison_review.json",
+      "relative_path": "session_01/confirm_A01_full/compare_post197/fixed_comparison_review.json",
+      "sha256": "88dc3612c22246eff3bc023d1aa3e923583e8da2860e0255155013342da8bf35",
+      "bytes": 470086
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/caption_only_receipt.json",
+      "relative_path": "session_01/confirm_A01_full/compare_post197_captioned/caption_only_receipt.json",
+      "sha256": "7c021e754a9e4f0519bfa4fb4d23d25535c3a94ab93c9f1cd62fb85bfbd8deb9",
+      "bytes": 5048
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_root_joint_verdict.json",
+      "relative_path": "session_01/A01_root_joint_verdict.json",
+      "sha256": "91ee01808372ca08934ae5a5d793341fefa08b33004bb02800c7df878a15277b",
+      "bytes": 2761
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_IMAGE_JOINT_196_197_198.json",
+      "relative_path": "session_01/A01_IMAGE_JOINT_196_197_198.json",
+      "sha256": "b7af786e8c91f8fcd633e74f1de66bc01c929b6d0751a9935a3b8c3dadbd598f",
+      "bytes": 7889
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/scientific_review.json",
+      "relative_path": "session_01/confirm_A01_full/analysis_full/scientific_review.json",
+      "sha256": "2b92b648605eff2db2eb1efa940f32f99567c1eb2b454d202ddf1f1ed24bd6d6",
+      "bytes": 14872
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/native_quick_review/review.json",
+      "relative_path": "session_01/pulse_A01/native_quick_review/review.json",
+      "sha256": "c0e23da1ad90124bf12ac7fa9cd4a7648b6329a23da52d5d3aba5f2d51a7f497",
+      "bytes": 21555
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/native_phase_review/review.json",
+      "relative_path": "session_01/return_A01/native_phase_review/review.json",
+      "sha256": "2a922b873986621fc32d06d0ab43fb309bd85f33280a6a460e59921d72303a1f",
+      "bytes": 44313
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after197_native_phase_review/review.json",
+      "relative_path": "session_01/after197_native_phase_review/review.json",
+      "sha256": "cac047d03d85429243b887e37c5be6912d3c96a7b3e78574c2eaed86bdd1d11b",
+      "bytes": 25797
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/final_review_index.json",
+      "relative_path": "session_01/confirm198_native_phase_review/final_review_index.json",
+      "sha256": "4be3e4b71fbf8a3dbbd8cccfd8ac8e89327b8411fc07c05bcfee6374a07d7457",
+      "bytes": 1842
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/software_range_reconciliation.json",
+      "relative_path": "session_01/confirm198_native_phase_review/software_range_reconciliation.json",
+      "sha256": "869b80747fd8c362299a15af74b9072c37415dfc53b0bf795109994116562c79",
+      "bytes": 14359
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/two_events_plot_receipt.json",
+      "relative_path": "session_01/confirm198_native_phase_review/two_events_plot_receipt.json",
+      "sha256": "6e747704557797637c89a8d7caa84cb7bbcff6656f1b4dfca051a387bea667c2",
+      "bytes": 803
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_012_signal_currentrange/snapshot.json",
+      "relative_path": "read_012_signal_currentrange/snapshot.json",
+      "sha256": "a11417cd3855ecf4cd04a626717c6e28e9c4988cd78bd067fb566dbf3bd3c44e",
+      "bytes": 838
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_013_after_logger_stop/snapshot.json",
+      "relative_path": "read_013_after_logger_stop/snapshot.json",
+      "sha256": "d55d9a81a89acf273e0165d89a0884906202136e14a04818f016f7065b16da29",
+      "bytes": 6066
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_014_stop_confirm/snapshot.json",
+      "relative_path": "read_014_stop_confirm/snapshot.json",
+      "sha256": "a1d2f6c1632cbdd38b433196f0ed1dc7830e589c91e0537027b428b916d33660",
+      "bytes": 6064
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/logger_root_intentional_stop.json",
+      "relative_path": "session_01/logger_root_intentional_stop.json",
+      "sha256": "e446f0aae5c8871d7e38b71f0ce291f6d0c7690c7046c05317f39cc5fea1b36f",
+      "bytes": 464
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native_receipt.json",
+      "relative_path": "session_01/native_receipt.json",
+      "sha256": "6887dafce6373a707282ef24d79ce24a2f03331891c0df48e420182b750d3da1",
+      "bytes": 171760
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_source_hashes_after.json",
+      "relative_path": "skill_source_hashes_after.json",
+      "sha256": "638f95a01014dac44a7246c9d2d4ce438e6592adefe4f18e2b244640828e357e",
+      "bytes": 1434
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/shaper_root_source_review.json",
+      "relative_path": "shaper_root_source_review.json",
+      "sha256": "abb44c2dc28ae93a98df645a9e1919c7d48229b4df449bb17f7db1a9720b95e5",
+      "bytes": 1001
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/shaper_full50nm_offline_audit.json",
+      "relative_path": "shaper_full50nm_offline_audit.json",
+      "sha256": "d2fa5713a3849ac0e01d0d4e9f15758f89ff1afde880a19a04d5605fb7f90fbf",
+      "bytes": 375
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/metadata_source_path_reconciliation.json",
+      "relative_path": "session_01/metadata_source_path_reconciliation.json",
+      "sha256": "4bf7dd51d039a1618d2ad89f8b4f6089f6ca5895927b63b89f768d215787587b",
+      "bytes": 3229
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/review.json",
+      "relative_path": "session_01/final_native_record_review/review.json",
+      "sha256": "38996fb501acb9741827bf0559dccfe81775c394c69124c9e025e3c5bf6e4c67",
+      "bytes": 126043
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/intentional_stop_reconciliation.json",
+      "relative_path": "session_01/final_native_record_review/intentional_stop_reconciliation.json",
+      "sha256": "eeaa13b05548f12fac72ea9515ab333316e51a406a39dc63601481431845b64a",
+      "bytes": 6889
+    }
+  ],
+  "future_slots_not_execution_claims": true,
+  "workflow_count_basis": "Root explicitly adjudicated this complete B196-action-P197 attempt as1; independent no-conditioning confirmation is not a new workflow.",
+  "complete_full_frames_included": 3,
+  "task_status": {
+    "requested_workflows": 5,
+    "complete_attempts": 1,
+    "remaining_workflows": 4,
+    "successful_closed_cycles": 0,
+    "status": "incomplete_waiting_experimenter_information",
+    "not_abandoned": true,
+    "not_all_completed": true,
+    "hardware_followup": "No further conditioning or escalation pending experimental interpretation of scan-period software-limit-reaching samples, accepted transients and physical preamplifier model/gain. Root has asked asynchronously. Resumption needs fresh state and new logger because old record is intentionally closed.",
+    "root_authority": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_root_joint_verdict.json",
+      "relative_path": "session_01/A01_root_joint_verdict.json",
+      "sha256": "91ee01808372ca08934ae5a5d793341fefa08b33004bb02800c7df878a15277b",
+      "bytes": 2761
+    }
+  },
+  "final_state_checkpoint": {
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_014_stop_confirm/snapshot.json",
+      "relative_path": "read_014_stop_confirm/snapshot.json",
+      "sha256": "a1d2f6c1632cbdd38b433196f0ed1dc7830e589c91e0537027b428b916d33660",
+      "bytes": 6064
+    },
+    "utc": "2026-11-02T01:09:19.170398+00:00",
+    "sequential_not_atomic": true,
+    "Bias_V": -1.0,
+    "setpoint_A": 1.000000013351432e-10,
+    "sampled_current_A": -9.967598274540634e-11,
+    "Z_m": -1.01983658851168e-07,
+    "feedback_on": 1,
+    "Z_status": 2,
+    "Scan_status": 0,
+    "SafeTip_on": 0,
+    "XY_m": [
+      -2.5000000292152436e-08,
+      -2.5000000292152436e-08
+    ],
+    "native_start": "2026/11/2 8:21:18",
+    "native_stop": "2026/11/2 9:08:52",
+    "last_block": 229,
+    "last_counter": 7660,
+    "independent_stop_confirmed_by_read013_and014": true,
+    "owned_SIGINT_and_single_DataLog_Stop_intent": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/logger_root_intentional_stop.json",
+      "relative_path": "session_01/logger_root_intentional_stop.json",
+      "sha256": "e446f0aae5c8871d7e38b71f0ce291f6d0c7690c7046c05317f39cc5fea1b36f",
+      "bytes": 464
+    },
+    "native_receipt": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native_receipt.json",
+      "relative_path": "session_01/native_receipt.json",
+      "sha256": "6887dafce6373a707282ef24d79ce24a2f03331891c0df48e420182b750d3da1",
+      "bytes": 171760
+    },
+    "archived_blocks": 229,
+    "expected_rows_per_channel": 5707660,
+    "header_sample_sum_s": 2853.83,
+    "whole229_hash_shape_finite_audit": "passed",
+    "not_gapfree_proof": true,
+    "no_claim_of_later_live_state": true,
+    "verified_rows_per_channel": 5707660,
+    "verified_finite_scalars": 34245960,
+    "all_block_indices_present_unique": true,
+    "final_native_review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/review.json",
+      "relative_path": "session_01/final_native_record_review/review.json",
+      "sha256": "38996fb501acb9741827bf0559dccfe81775c394c69124c9e025e3c5bf6e4c67",
+      "bytes": 126043
+    },
+    "intentional_stop_reconciliation": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/intentional_stop_reconciliation.json",
+      "relative_path": "session_01/final_native_record_review/intentional_stop_reconciliation.json",
+      "sha256": "eeaa13b05548f12fac72ea9515ab333316e51a406a39dc63601481431845b64a",
+      "bytes": 6889
+    },
+    "native_final30s": {
+      "duration_s": 30,
+      "rows": 60000,
+      "I_min_max_pA": [
+        -107.11498,
+        -92.191282
+      ],
+      "I_mean_pA": -99.67851470833332,
+      "I_RMS_about_mean_pA": 1.35107945525345,
+      "I_outside_minus100pA_pm20pct_count": 0,
+      "Z_slope_pm_s": -0.02856429723793504,
+      "Z_detrended_RMS_pm": 1.0993168309324266,
+      "max_adjacent_Z_pm": 2.570000000006985
+    },
+    "software_floor_samples_total": 89,
+    "software_floor_assignment": {
+      "pulse_A01": 87,
+      "scan198": 2,
+      "elsewhere": 0
+    },
+    "nonrest_Bias_samples_all_one_pulse": 41,
+    "natural_timed7200_completion": false,
+    "original_failure_style_outcome_preserved": true
+  }
+}

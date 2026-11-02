@@ -1,0 +1,163 @@
+{
+  "recorded_utc": "2026-11-02T12:00:26.826988+00:00",
+  "scope": "Offline narrow Step01 installed Skill update and conflict-checked local repo synchronization. No hardware/network/CUA/SMB; no push or commit. No old report/practice modification. Later measured results require a new versioned step.",
+  "authorization": "Root relays user2026-11-02 explicit instruction to update Skill progressively and continue experiment. Existing SafeTipOff/6pulse cap/2-no-improvement strategy review remain applicable; no new default Ti or overload duration invented.",
+  "read_before_edit": [
+    "skill-creator/SKILL.md",
+    "SKILL.md",
+    "references/local-au111-protocol.md",
+    "references/record-and-local-context.md",
+    "references/execution-and-acquisition.md",
+    "references/physics-and-evidence.md",
+    "references/primary-literature.md",
+    "agents/openai.yaml",
+    "scripts/action_record.py",
+    "scripts/test_action_record.py",
+    "assets/action-record.schema.json",
+    "assets/local-au111.profile.json",
+    "assets/action-record.template.json"
+  ],
+  "source_inputs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/ROOT_REVIEW.txt",
+      "sha256": "0182cd7ea82e68b5b1ffe574774545c1216d5b48c1812480c53e11bc299b5008",
+      "bytes": 5950
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/source_extract.json",
+      "sha256": "fb88f3d6c1b84b34ea33b54f9357fe6a1b9ecbf75c98213810f70fb02911bc99",
+      "bytes": 3999
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/root_review_receipt.json",
+      "sha256": "5d532192f4759167a7525fb88a77101d0b76404dbfa259a2167dfed397c24087",
+      "bytes": 7791
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/independent_image_review.json",
+      "sha256": "75df78165d2f49f7205192307a53aeb080462c5754893587dd920db51d1e975b",
+      "bytes": 8763
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/official_help_extract/Reference/Z-Controller/Z-Controller.clean.txt",
+      "sha256": "5eb845c94fbf9624674741d3ab1437fd0e1d5588d8d3735467238bb8940e2985",
+      "bytes": 5448
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/expert_response_review/official_help_extract/Reference/Z-Controller/Z-Controller-Config.clean.txt",
+      "sha256": "686605bf93e63003a752157d3a67abed7e80df7344c6b741f740ea0809721e43",
+      "bytes": 4333
+    }
+  ],
+  "source_limits": "Body read from provided XML extract; expert image observations and model specifications use root/independent reviewed records. Official P/I/P/T definition additionally read from local same-version help extract. No new internet fetch. Screenshot198/199 provenance conflict retained.",
+  "installed_root": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning",
+  "backup_root": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_before",
+  "after_snapshot_root": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_after",
+  "before_hashes": {
+    "SKILL.md": "fbafd84b86afdb6cbe6683b5e5de6dd1f1a6d1cb8b0dd903be8541cf818c18dc",
+    "references/local-au111-protocol.md": "dc19ebd3287869b7d58df8c916b1fd46161f15afe6cb9521a9074f1e94ed2643",
+    "references/record-and-local-context.md": "0ea9b618b9aac9900d0af94bee10e0f34743b08167a022e7cf66337094e5ceaa",
+    "references/execution-and-acquisition.md": "8ed647bf2f10857618550ba7100f3346101c25d141f744162f4ed5b7e467199b",
+    "references/physics-and-evidence.md": "a13dad1b4f0f33f30738489ce644aadb792e842e29ccc638be79d9812ddd9ee1",
+    "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+    "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+    "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+    "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+    "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+    "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+    "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+  },
+  "after_hashes": {
+    "SKILL.md": "6f430637a1bb2ba6cc4c4007f6fc499f85b3f07ee2a40bc1021398a7468e59f3",
+    "references/local-au111-protocol.md": "d339b1ccbc1eac03c640be22def1f238b127742ac52a05dbc56749f0ee7666cd",
+    "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+    "references/execution-and-acquisition.md": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3",
+    "references/physics-and-evidence.md": "e74e929869c0f10ff662600ee1ed6eb335a03640ca7733e2090d4373b20192e1",
+    "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+    "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+    "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+    "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+    "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+    "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+    "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/local-au111-protocol.md",
+    "references/record-and-local-context.md",
+    "references/execution-and-acquisition.md",
+    "references/physics-and-evidence.md"
+  ],
+  "unchanged_other_files": [
+    "references/primary-literature.md",
+    "agents/openai.yaml",
+    "scripts/action_record.py",
+    "scripts/test_action_record.py",
+    "assets/action-record.schema.json",
+    "assets/local-au111.profile.json",
+    "assets/action-record.template.json"
+  ],
+  "diff": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step01.diff",
+    "sha256": "7b945f525883b085195b696a48d24976f37bd384a529229e04b359cf2da85daf",
+    "bytes": 20182
+  },
+  "repo_diff": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_repository.diff",
+    "sha256": "aacdd2d5593f2f3e7f04af3dfb7b100affbce02017d0c0872954405f07c3f5b7",
+    "bytes": 22221
+  },
+  "repo_root": "/Users/maxlin/Desktop/Nanonis/work/benchmark_skill_revision_20261101/repository",
+  "repo_clean_and_exact_old_mirror_before": true,
+  "repo_after_exact_installed": true,
+  "repo_git_status": " M skills/stm-au111-tip-conditioning/SKILL.md\n M skills/stm-au111-tip-conditioning/references/execution-and-acquisition.md\n M skills/stm-au111-tip-conditioning/references/local-au111-protocol.md\n M skills/stm-au111-tip-conditioning/references/physics-and-evidence.md\n M skills/stm-au111-tip-conditioning/references/record-and-local-context.md\n",
+  "repo_HEAD_unchanged": true,
+  "pushed": false,
+  "committed": false,
+  "rationale": {
+    "SKILL.md": "Spatial/time/recovery/function review for isolated range events; persistent instability and unknown state stop preserved. Full before/after user requirement prevails. Speed/T optimization separate from repair success.",
+    "references/local-au111-protocol.md": "Single maintained source of photographed preamp nominal model/specs; effective response remains unmeasured. Expert source conflict, scope-specific incremental authorization and unvalidated single-variable candidate are recorded.",
+    "references/physics-and-evidence.md": "Four-domain diagnostic reasoning; local feedback/particle alternatives; PI formula and T change implications; no invented default.",
+    "references/execution-and-acquisition.md": "Raw and window statistics both retained; no protection delay/inferred overload allowance or implicit adapter guard change. Known/owned cleanup preconditions retained.",
+    "references/record-and-local-context.md": "Record local transients and optimization separately; explains unchanged pulse prior_clipping audit vs scan diagnostic scope."
+  },
+  "validation": {
+    "skill_creator_quick_validate": "passed: Skill is valid!",
+    "quick_validate_initial_dependency_issue": "Systempython lackedPyYAML; final run used existing local uv cache via PYTHONPATH, no install/network.",
+    "yaml_cache": "/Users/maxlin/.cache/uv/archive-v0/C93YLhk9tMfWYmjdRtCXm",
+    "existing_offline_behavior_tests": 31,
+    "tests_passed": 31,
+    "test_command": "python3 -B -m unittest discover -s /Users/maxlin/.codex/skills/stm-au111-tip-conditioning/scripts -p test_action_record.py",
+    "test_network_guard": "Existing tests patch socket/create_connection/getaddrinfo to raise",
+    "independent_review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step01_independent_review.json",
+      "sha256": "6243738e3bee4480fe5c86fbdf69349baf480e8bb883470c773d3cf514706aba",
+      "bytes": 1537
+    },
+    "relative_links_checked": 20,
+    "missing_relative_links": [],
+    "model_specs_only_in": [
+      "references/local-au111-protocol.md"
+    ],
+    "profile_and_schema_and_script_hashes_unchanged": true,
+    "invariants": {
+      "SafeTip": "Off",
+      "pulse_cap": 6,
+      "review_after_no_improvement": 2,
+      "tipshaper_default": null,
+      "unknown_ACK_replay": false,
+      "new_overload_time_limit": null,
+      "new_Ti_default": null
+    }
+  },
+  "protected_old_artifacts": {
+    "FIVE_WORKFLOWS_REPORT.html": {
+      "sha256": "d83750ac5747aa63dce59e7f13036c9aaaa94e42b4fa6ca1d7b1063ed9205b84",
+      "unchanged": true
+    },
+    "skill_practice_log.md": {
+      "sha256": "20947015ceedcf0e2f162e5953835018cc2e974972e7c92bf4546d54ca462174",
+      "unchanged": true
+    }
+  }
+}

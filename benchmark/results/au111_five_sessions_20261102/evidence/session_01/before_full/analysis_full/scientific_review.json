@@ -1,0 +1,824 @@
+{
+  "recorded_utc": "2026-11-02T00:32:47.481711+00:00",
+  "scope": "Independent offline human review of completed fresh full before196; not old195 or a pulse-before/after comparison",
+  "sources": {
+    "native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native/BM261029_00196.sxm",
+      "sha256": "6d9b308f9a73e97b948896e2ff59b20b2c970877cb6c21c5562c5fe35ab4ac70",
+      "bytes": 1383336
+    },
+    "quality_report": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+      "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8"
+    },
+    "frozen_plan": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/offline_image_plan.md",
+      "sha256": "ba862f18995b44bea37f43dd73260d74355dfcd0e2ef374f2e32897d161d6dca"
+    },
+    "visuals": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/Z_raw_globalplane_FB.png",
+        "sha256": "7087da677b49ac3a14854f89f5e91af2de1388f36964242616ea6545c64b219d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/Current_raw_FB.png",
+        "sha256": "069e84bf850be556a4824fa9dd420c48afbdecac72d4924d30e75f637b47d55b"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/all_quarter_row_offsets.png",
+        "sha256": "ed063f03bc504c10373d1cafddba00c1895abd1cac90ad616e94a392e31287f4"
+      }
+    ]
+  },
+  "integrity": {
+    "six_plane_native_TCP_wire_bitmatch": true,
+    "float32_values": 345600,
+    "finite": true
+  },
+  "quality_verdict": {
+    "task_relevant_bad_state": "supported",
+    "task": "Reliable full50x50nm imaging of nanometer features and background without unexplained whole-line offsets",
+    "L2": "not_assessed",
+    "L3": "not_supported",
+    "L4": "unknown",
+    "successful_cycle": false,
+    "new_conditioning_attempt": false,
+    "reason": "Multiple raw line excursions cross independent background regions and both sides of the real diagonal terrace boundary, sometimes cutting objects; they change row/column timing between F/B. Numerically quiet central BG does not make the entire frame usable."
+  },
+  "manual_findings": [
+    {
+      "label": "large transient band near Y -8nm",
+      "F_rows": [
+        158,
+        161
+      ],
+      "B_rows": [
+        157,
+        161
+      ],
+      "observed": "F rise +162.6..175.6pm in all four column quarters at158->159, a second rise mainly left3quarters at159->160, then -169.7..-293.5pm return at160->161. B excursion starts one row earlier in left3quarters; right quarter changes later.",
+      "inference": "Spatially broad acquisition-dependent offset is better supported than one static straight surface ridge; does not identify whether tip, local surface-triggered junction response, feedback, mechanics or electronics initiated it."
+    },
+    {
+      "label": "large transient band near Y -23nm",
+      "F_rows": [
+        229,
+        234
+      ],
+      "B_rows": [
+        229,
+        234
+      ],
+      "observed": "F231->232 all-quarter +351.2..364.4pm and232->233 -291.3..-303.6pm; B first left-quarter rise at230->231, then right-half rise at231->232 while left falls. A single >=3quarter flag does not capture this split-time B event.",
+      "inference": "Forward/backward fast-axis timing mismatch across columns argues against treating the entire bright line as a static sample contour."
+    },
+    {
+      "label": "additional lower-field thinner bands",
+      "rows_inspected": [
+        188,
+        207
+      ],
+      "observed": "Multiple shorter segments and whole/partial-background shifts are visible around Y -14..-18nm; e.g. F206->207 left3quarter about-60pm. Some quarter row medians are influenced by protrusions/terrace occupancy, so median pixel differences and actual raw images were checked.",
+      "inference": "Remaining full-field stability defect; not a requirement that every actual sample feature be smooth or single-peaked."
+    }
+  ],
+  "fixed_backgrounds": [
+    {
+      "name": "BG1 central terrace",
+      "stored_rc_half_open": [
+        75,
+        95,
+        65,
+        125
+      ],
+      "background_role": "retained: no new large protrusion occupies fixed patch; low-contrast structure is not assumed atomically featureless",
+      "numeric_checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      },
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 8.439729770894399,
+          "Z_single_patch_plane_residual_RMS_pm": 5.584298258208648,
+          "max_adjacent_raw_row_median_delta_pm": 6.103562100179261,
+          "I_pixel_min_max_pA": [
+            -103.38037370605235,
+            -96.74658990599383
+          ],
+          "I_pixel_median_pA": -99.82109583361876,
+          "I_pixel_RMS_about_mean_pA": 1.0454113939628458,
+          "plane_coeff_nm": [
+            -102.36138407063909,
+            0.0006723338789094548,
+            -0.0002887992953671135
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 8.24985301176321,
+          "Z_single_patch_plane_residual_RMS_pm": 5.545742169509754,
+          "max_adjacent_raw_row_median_delta_pm": 9.64561763794336,
+          "I_pixel_min_max_pA": [
+            -105.0039846739459,
+            -96.57653843309078
+          ],
+          "I_pixel_median_pA": -99.88950985806433,
+          "I_pixel_RMS_about_mean_pA": 1.0895317667191642,
+          "plane_coeff_nm": [
+            -102.36075709670091,
+            0.0006542532374962842,
+            -0.0002773605148477429
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 3.3002837104156506,
+          "mean_offset_removed_RMS_pm": 3.2036815669031062
+        }
+      },
+      "scope_limit": "Both are above +4.58nm Y; they do not cover the lower-Y band defects."
+    },
+    {
+      "name": "BG2 right terrace",
+      "stored_rc_half_open": [
+        78,
+        98,
+        140,
+        190
+      ],
+      "background_role": "retained: no new large protrusion occupies fixed patch; low-contrast structure is not assumed atomically featureless",
+      "numeric_checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      },
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 7.706935786585223,
+          "Z_single_patch_plane_residual_RMS_pm": 7.3675104175893855,
+          "max_adjacent_raw_row_median_delta_pm": 2.7995383788947947,
+          "I_pixel_min_max_pA": [
+            -104.40068254347068,
+            -96.52798699244514
+          ],
+          "I_pixel_median_pA": -99.69884640081972,
+          "I_pixel_RMS_about_mean_pA": 1.2175914481814936,
+          "plane_coeff_nm": [
+            -102.37907555396252,
+            -0.00022348406834548927,
+            -0.0001288227969012725
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 7.498620514035184,
+          "Z_single_patch_plane_residual_RMS_pm": 7.263765912008928,
+          "max_adjacent_raw_row_median_delta_pm": 4.668265773943858,
+          "I_pixel_min_max_pA": [
+            -105.16296167217831,
+            -96.04998740808668
+          ],
+          "I_pixel_median_pA": -100.05951622815701,
+          "I_pixel_RMS_about_mean_pA": 1.2626052904018161,
+          "plane_coeff_nm": [
+            -102.37926591397411,
+            -0.00015901380129193615,
+            -0.0001122994454528703
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 4.3007596039207305,
+          "mean_offset_removed_RMS_pm": 4.220511882227526
+        }
+      },
+      "scope_limit": "Both are above +4.58nm Y; they do not cover the lower-Y band defects."
+    }
+  ],
+  "fixed_objects": [
+    {
+      "name": "left compound protrusion",
+      "stored_rc_half_open": [
+        95,
+        120,
+        12,
+        42
+      ],
+      "assessment": "Present and distinguishable in both directions. Compound shape alone is not proof of multiple apexes or contamination."
+    },
+    {
+      "name": "right protrusion",
+      "stored_rc_half_open": [
+        98,
+        119,
+        145,
+        171
+      ],
+      "assessment": "Present and distinguishable against its background in both directions; no claim of known atomic or chemical identity."
+    },
+    {
+      "name": "edge/compound region",
+      "stored_rc_half_open": [
+        112,
+        137,
+        180,
+        208
+      ],
+      "assessment": "Real oblique terrace boundary and adjacent protrusion remain distinguishable. Local line texture/direction difference warrants quality comparison; the real step itself is not classified dirty."
+    }
+  ],
+  "selected_raw_row_metrics": {
+    "F": [
+      {
+        "stored_rows": [
+          157,
+          158
+        ],
+        "nominal_boundary_Y_nm": -7.916666666666664,
+        "quarter_row_median_difference_pm": [
+          1.3677947663381929,
+          -1.6484591469634324,
+          1.7266188478970435,
+          -3.417710559006082
+        ],
+        "quarter_median_pixel_difference_pm": [
+          0.15987211554602254,
+          -1.7550405573274475,
+          1.5631940186722204,
+          -3.723243935382925
+        ]
+      },
+      {
+        "stored_rows": [
+          158,
+          159
+        ],
+        "nominal_boundary_Y_nm": -8.125,
+        "quarter_row_median_difference_pm": [
+          171.6209396818158,
+          170.1820906419016,
+          162.57217794191092,
+          175.55024101056915
+        ],
+        "quarter_median_pixel_difference_pm": [
+          170.1678797871864,
+          170.56223100553325,
+          168.1570438449853,
+          174.64074630879622
+        ]
+      },
+      {
+        "stored_rows": [
+          159,
+          160
+        ],
+        "nominal_boundary_Y_nm": -8.333333333333336,
+        "quarter_row_median_difference_pm": [
+          160.52226214924303,
+          154.40448919434857,
+          134.25349720819213,
+          36.44373691713554
+        ],
+        "quarter_median_pixel_difference_pm": [
+          164.39827277281438,
+          151.8287717772182,
+          127.613475342514,
+          37.758240978291724
+        ]
+      },
+      {
+        "stored_rows": [
+          160,
+          161
+        ],
+        "nominal_boundary_Y_nm": -8.541666666666664,
+        "quarter_row_median_difference_pm": [
+          -293.4896770057094,
+          -285.126589005813,
+          -260.64483904519875,
+          -169.65628901743912
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -297.46516361228714,
+          -281.6094024638005,
+          -253.33335429422732,
+          -169.5177331839659
+        ]
+      },
+      {
+        "stored_rows": [
+          193,
+          194
+        ],
+        "nominal_boundary_Y_nm": -15.416666666666664,
+        "quarter_row_median_difference_pm": [
+          -2.2808421817899216,
+          -2.234656903965515,
+          40.952130575533374,
+          -2.8173019472887972
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -1.0622613899613498,
+          -3.069544618483633,
+          -2.8705926524708048,
+          -3.0517810500896303
+        ]
+      },
+      {
+        "stored_rows": [
+          196,
+          197
+        ],
+        "nominal_boundary_Y_nm": -16.041666666666664,
+        "quarter_row_median_difference_pm": [
+          -0.03552713678800501,
+          -0.26290081223123707,
+          29.118041311448906,
+          40.47251422889531
+        ],
+        "quarter_median_pixel_difference_pm": [
+          1.0516032489249483,
+          0.15987211554602254,
+          0.6430411758628907,
+          39.34275127903675
+        ]
+      },
+      {
+        "stored_rows": [
+          199,
+          200
+        ],
+        "nominal_boundary_Y_nm": -16.666666666666664,
+        "quarter_row_median_difference_pm": [
+          -52.370552339198184,
+          -53.38662845133513,
+          -1.3038459201197838,
+          -0.8064660050877137
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -48.9208673570829,
+          -54.424020845544874,
+          -3.1228353236656403,
+          -0.23092638912203256
+        ]
+      },
+      {
+        "stored_rows": [
+          202,
+          203
+        ],
+        "nominal_boundary_Y_nm": -17.291666666666664,
+        "quarter_row_median_difference_pm": [
+          -2.2950530365051236,
+          1.5489831639570184,
+          -1.4033219031261979,
+          -0.7389644451905042
+        ],
+        "quarter_median_pixel_difference_pm": [
+          0.21671553440683056,
+          0.27000623958883807,
+          -1.7266188478970435,
+          -0.09237055564881302
+        ]
+      },
+      {
+        "stored_rows": [
+          206,
+          207
+        ],
+        "nominal_boundary_Y_nm": -18.125,
+        "quarter_row_median_difference_pm": [
+          -60.94325044614379,
+          -61.92024670781393,
+          -59.689142517527216,
+          -37.87192781601334
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -61.06048999754421,
+          -62.74447628129565,
+          -60.396132539608516,
+          -36.95532768688281
+        ]
+      },
+      {
+        "stored_rows": [
+          229,
+          230
+        ],
+        "nominal_boundary_Y_nm": -22.916666666666664,
+        "quarter_row_median_difference_pm": [
+          -1.7621459846850485,
+          -2.1387336346379016,
+          -67.21379008922668,
+          -66.94733656331664
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -0.8810729923425242,
+          -2.69650968220958,
+          -65.72520305780927,
+          -65.07505645458878
+        ]
+      },
+      {
+        "stored_rows": [
+          230,
+          231
+        ],
+        "nominal_boundary_Y_nm": -23.125,
+        "quarter_row_median_difference_pm": [
+          -72.02416441032256,
+          -61.174176835265826,
+          1.6129320101754274,
+          1.1688428003253648
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -67.22444823026308,
+          -34.98357159514853,
+          1.1795009413617663,
+          0.15631940186722204
+        ]
+      },
+      {
+        "stored_rows": [
+          231,
+          232
+        ],
+        "nominal_boundary_Y_nm": -23.333333333333336,
+        "quarter_row_median_difference_pm": [
+          355.1505756149709,
+          351.2177215725387,
+          363.9115675468929,
+          364.355656756743
+        ],
+        "quarter_median_pixel_difference_pm": [
+          356.8665363218315,
+          361.577434659921,
+          361.0729493175313,
+          368.2067983845627
+        ]
+      },
+      {
+        "stored_rows": [
+          232,
+          233
+        ],
+        "nominal_boundary_Y_nm": -23.541666666666664,
+        "quarter_row_median_difference_pm": [
+          -291.3154162342835,
+          -293.30848860809056,
+          -303.55806757143,
+          -303.5722784261452
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -295.27313927246723,
+          -298.4634761560301,
+          -301.11024784673646,
+          -301.89895028343017
+        ]
+      },
+      {
+        "stored_rows": [
+          233,
+          234
+        ],
+        "nominal_boundary_Y_nm": -23.75,
+        "quarter_row_median_difference_pm": [
+          2.398081733190338,
+          -2.8705926524708048,
+          -44.931169895789935,
+          -44.785508634959115
+        ],
+        "quarter_median_pixel_difference_pm": [
+          4.160227717875387,
+          -2.9807267765136203,
+          -45.62039634947723,
+          -45.353942823567195
+        ]
+      }
+    ],
+    "B": [
+      {
+        "stored_rows": [
+          157,
+          158
+        ],
+        "nominal_boundary_Y_nm": -7.916666666666664,
+        "quarter_row_median_difference_pm": [
+          172.85373132835957,
+          210.99211267028295,
+          269.24240614789596,
+          -2.2595258997171186
+        ],
+        "quarter_median_pixel_difference_pm": [
+          171.43619857051817,
+          210.76118628116092,
+          244.99513529008254,
+          -3.694822225952521
+        ]
+      },
+      {
+        "stored_rows": [
+          158,
+          159
+        ],
+        "nominal_boundary_Y_nm": -8.125,
+        "quarter_row_median_difference_pm": [
+          5.609734898825991,
+          -34.0349970429088,
+          -93.10952009400353,
+          173.56782677779847
+        ],
+        "quarter_median_pixel_difference_pm": [
+          6.092903959142859,
+          -33.661962106634746,
+          -103.590025446465,
+          173.15926470473642
+        ]
+      },
+      {
+        "stored_rows": [
+          159,
+          160
+        ],
+        "nominal_boundary_Y_nm": -8.333333333333336,
+        "quarter_row_median_difference_pm": [
+          -139.8063886881573,
+          -139.58256772639288,
+          -55.25890856006299,
+          42.952308376698056
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -139.85612667966052,
+          -139.17045293965202,
+          -51.92291041566932,
+          41.91846869616711
+        ]
+      },
+      {
+        "stored_rows": [
+          160,
+          161
+        ],
+        "nominal_boundary_Y_nm": -8.541666666666664,
+        "quarter_row_median_difference_pm": [
+          3.034017481695628,
+          2.3163693185779266,
+          -83.80851568290382,
+          -175.1736533606163
+        ],
+        "quarter_median_pixel_difference_pm": [
+          1.4814816040598089,
+          1.858069254012662,
+          -82.14584568122518,
+          -170.69368141164887
+        ]
+      },
+      {
+        "stored_rows": [
+          193,
+          194
+        ],
+        "nominal_boundary_Y_nm": -15.416666666666664,
+        "quarter_row_median_difference_pm": [
+          -41.310954657092225,
+          -45.01643502408115,
+          -0.8526512829121202,
+          -2.1174173525650986
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -40.735415041126544,
+          -42.795988974830834,
+          -2.653877118063974,
+          -1.3713474800169934
+        ]
+      },
+      {
+        "stored_rows": [
+          196,
+          197
+        ],
+        "nominal_boundary_Y_nm": -16.041666666666664,
+        "quarter_row_median_difference_pm": [
+          49.35785113957536,
+          51.92291041566932,
+          39.07274503944791,
+          -1.7621459846850485
+        ],
+        "quarter_median_pixel_difference_pm": [
+          46.782133722444996,
+          51.947779411420925,
+          -0.6110667527536862,
+          -2.0534685063466895
+        ]
+      },
+      {
+        "stored_rows": [
+          199,
+          200
+        ],
+        "nominal_boundary_Y_nm": -16.666666666666664,
+        "quarter_row_median_difference_pm": [
+          3.986144747614162,
+          3.0517810500896303,
+          1.9682033780554775,
+          1.98596694644948
+        ],
+        "quarter_median_pixel_difference_pm": [
+          3.7765346405649325,
+          4.035882739117369,
+          1.708855279503041,
+          1.737276988933445
+        ]
+      },
+      {
+        "stored_rows": [
+          202,
+          203
+        ],
+        "nominal_boundary_Y_nm": -17.291666666666664,
+        "quarter_row_median_difference_pm": [
+          -40.70699333169614,
+          -39.040770616338705,
+          8.263612016889965,
+          -1.70174985214544
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -37.694292132073315,
+          -36.990854823670816,
+          4.877875880993088,
+          -0.4476419235288631
+        ]
+      },
+      {
+        "stored_rows": [
+          206,
+          207
+        ],
+        "nominal_boundary_Y_nm": -18.125,
+        "quarter_row_median_difference_pm": [
+          4.206412995699793,
+          10.935252703347942,
+          -27.498003873915877,
+          -26.81233013390738
+        ],
+        "quarter_median_pixel_difference_pm": [
+          8.782308213994838,
+          9.78772618509538,
+          -27.288393766866648,
+          -28.453683853513212
+        ]
+      },
+      {
+        "stored_rows": [
+          229,
+          230
+        ],
+        "nominal_boundary_Y_nm": -22.916666666666664,
+        "quarter_row_median_difference_pm": [
+          -72.02771712400136,
+          -60.683902347591356,
+          -66.6844357510854,
+          -65.9774457290041
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -67.81419870094396,
+          -61.22036211309023,
+          -66.56719619968499,
+          -65.77138833563367
+        ]
+      },
+      {
+        "stored_rows": [
+          230,
+          231
+        ],
+        "nominal_boundary_Y_nm": -23.125,
+        "quarter_row_median_difference_pm": [
+          358.2769636523153,
+          257.09567808007705,
+          -9.265477274311706,
+          -9.904965736495797
+        ],
+        "quarter_median_pixel_difference_pm": [
+          351.56588751306117,
+          3.6983749396313215,
+          -7.482015007553855,
+          -8.86402062860725
+        ]
+      },
+      {
+        "stored_rows": [
+          231,
+          232
+        ],
+        "nominal_boundary_Y_nm": -23.333333333333336,
+        "quarter_row_median_difference_pm": [
+          -296.88607128264266,
+          -184.06609569865395,
+          373.54652704379987,
+          374.00482710836513
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -290.0293338825577,
+          -37.978509226377355,
+          369.98670793764177,
+          371.745301208648
+        ]
+      },
+      {
+        "stored_rows": [
+          232,
+          233
+        ],
+        "nominal_boundary_Y_nm": -23.541666666666664,
+        "quarter_row_median_difference_pm": [
+          1.3322676295501878,
+          -17.777779248717707,
+          -302.35014492063783,
+          -302.2968542154558
+        ],
+        "quarter_median_pixel_difference_pm": [
+          13.308465440786676,
+          -11.954881529163686,
+          -299.3694181441242,
+          -301.19906568870647
+        ]
+      },
+      {
+        "stored_rows": [
+          233,
+          234
+        ],
+        "nominal_boundary_Y_nm": -23.75,
+        "quarter_row_median_difference_pm": [
+          23.863577780502965,
+          -47.58504701385391,
+          -44.433789980757865,
+          -45.33973196885199
+        ],
+        "quarter_median_pixel_difference_pm": [
+          -41.8296508541971,
+          -45.563552930616424,
+          -47.03437639363983,
+          -46.139092546582106
+        ]
+      }
+    ]
+  },
+  "pixel_current": {
+    "F": {
+      "minimum": -790.8897980968277,
+      "maximum": -58.75345349126704,
+      "median": -99.76890494312052,
+      "RMS_about_mean": 6.987357444790951,
+      "minimum_stored_rc": [
+        157,
+        160
+      ],
+      "minimum_nominal_XY_nm": [
+        8.4375,
+        -7.8125
+      ],
+      "abs_ge400pA_count": 6,
+      "abs_ge1000pA_count": 0,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    },
+    "B": {
+      "minimum": -1016.0918773038929,
+      "maximum": -58.07994016282514,
+      "median": -100.03893546883802,
+      "RMS_about_mean": 7.660075029883113,
+      "minimum_stored_rc": [
+        231,
+        43
+      ],
+      "minimum_nominal_XY_nm": [
+        -15.9375,
+        -23.229166666666664
+      ],
+      "abs_ge400pA_count": 4,
+      "abs_ge1000pA_count": 1,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    }
+  },
+  "native_waveform_review": "Pending independent authority; pixel extrema are averaged image-stream values and cannot bound faster native current or establish ADC clipping. No native peak invented here.",
+  "alternatives_and_limits": [
+    "Actual diagonal terrace edge and compound objects are real visible morphology candidates; their presence/shape alone does not establish bad tip.",
+    "Adsorbate or apex rearrangement, sample-local interaction triggering a global feedback/Z offset, feedback transient/overshoot, electrical or mechanical disturbance are still possible.",
+    "Gradual drift alone does not naturally explain abrupt same-sign line-wide jumps followed by return, but slow drift can contribute to object correspondence.",
+    "Native/TCP/wire bitmatch rules out mismatch between these saved streams; it cannot prove that the measured signal is free of instrumental artifacts.",
+    "F/B agreement or high whole-image correlation is not sufficient because the same band can affect both.",
+    "No chemical contamination/contact/material-transfer identity has been established."
+  ],
+  "next_comparison_criteria": "Keep the frozen full-frame plan: before196 versus one completed matched full post and separate no-conditioning full repeat if a candidate becomes usable. Compare functional line stability, all four quarters, the two fixed BG patches and retained object/edge resolution. Allow genuine local morphology changes; do not require identical pixels or all objects single peaks.",
+  "conditioning_candidate_support": "Image evidence supports considering one bounded conditioning attempt for the observed full-field instability. This is not execution admission: root must first review native history, recovery, current state, existing authorization and cumulative budget; no automatic escalation."
+}

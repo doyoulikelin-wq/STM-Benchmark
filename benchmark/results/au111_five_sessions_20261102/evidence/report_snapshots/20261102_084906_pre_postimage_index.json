@@ -1,0 +1,451 @@
+{
+  "created_utc": "2026-11-02T00:49:06.961870+00:00",
+  "created_CST": "2026-11-02T08:49:06.961870+08:00",
+  "report_scope": "Evidence snapshot; five requested slots, not five completed workflows. No live/remote reads. Actual post image explicitly excluded until root archives and supplies SHA.",
+  "requested_workflows": 5,
+  "included_complete_workflows": 0,
+  "included_successful_closed_cycles": 0,
+  "new_batch_known_ended_pulses": 1,
+  "continuing_episode_pulses_consumed": 2,
+  "completion_rule": "Full actual before + actual audited conditioning/recovery + full actual after + corresponding records; successful closure separately requires supported functional improvement and independent no-conditioning confirmation.",
+  "sample": "Au(111)",
+  "tip_material": "unknown",
+  "current_temperature_K": null,
+  "controller": "root only; this author performed no instrument operations",
+  "settings": {
+    "frame_nm": [
+      50,
+      50
+    ],
+    "center_nm": [
+      0,
+      0
+    ],
+    "pixels_lines": [
+      240,
+      240
+    ],
+    "scan_direction": "DOWN",
+    "bias_V": -1,
+    "imaging_setpoint_pA": 100,
+    "line_s_each": 0.9120000004768372,
+    "nominal_frame_s": 437.76000022888184,
+    "SafeTip": "Off"
+  },
+  "sessions": [
+    {
+      "slot": 1,
+      "session_id": "session_01",
+      "status": "before_and_intervention_complete_post_image_not_yet_included_in_this_snapshot",
+      "episode_id": "continuing_20261101_1939",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": {
+        "native": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native/BM261029_00196.sxm",
+          "sha256": "6d9b308f9a73e97b948896e2ff59b20b2c970877cb6c21c5562c5fe35ab4ac70",
+          "bytes": 1383336
+        },
+        "data_integrity": {
+          "capture": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full",
+          "completed_outcome": true,
+          "native_TCP_wire_bitmatch": true,
+          "matched_float32_values": 345600,
+          "planes": [
+            {
+              "channel": 30,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 30,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 0,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "F",
+              "values": 57600,
+              "bitwise_equal": true
+            },
+            {
+              "channel": 89,
+              "direction": "B",
+              "values": 57600,
+              "bitwise_equal": true
+            }
+          ],
+          "successful_end_events": [
+            {
+              "utc": "2026-11-02T00:29:44.125419+00:00",
+              "monotonic_ns": 1450828843868625,
+              "kind": "wait_end",
+              "values": [
+                0,
+                84,
+                "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00196.sxm"
+              ],
+              "elapsed_s": 438.35749170789495
+            }
+          ],
+          "capture_outcome_sha256": "d66361643b15da140e059510f92dbcde29197b38fa41ac788a383a6640b26bc5"
+        },
+        "task_relevant_bad_state": "supported",
+        "full_frame": [
+          "50x50nm",
+          "240x240",
+          "DOWN",
+          "-1V",
+          "100pA",
+          "0.912s/direction"
+        ],
+        "image_pixel_extrema_pA": {
+          "F": -790.8897980968277,
+          "B": -1016.0918773038929
+        },
+        "raw_FB_plane_figure": "session_01/before_full/analysis_full/Z_raw_globalplane_FB.png",
+        "current_figure": "session_01/before_full/analysis_full/Current_raw_FB.png",
+        "row_offset_figure": "session_01/before_full/analysis_full/all_quarter_row_offsets.png"
+      },
+      "action": {
+        "id": "A01",
+        "reason": "Previous -4V/20ms compound treatment gave partial improvement without stable whole-frame recovery. Fresh196 still has 0.16-0.36nm cross-field transient bands. Select one -5V/20ms candidate within expert range while retaining width/Hold/preparation. This is an explicit single choice, not an automatic ladder.",
+        "fixed_XY_nm": [
+          -25,
+          -25
+        ],
+        "compound_intervention": true,
+        "prepare": {
+          "command": "ZCtrl.SetpntSet",
+          "targets_pA": [
+            125,
+            156.25,
+            195.3125,
+            244.140625,
+            305.17578125,
+            381.4697265625,
+            476.837158203125,
+            596.0464477539062,
+            745.0580596923828,
+            931.3225746154785,
+            1000
+          ],
+          "attempted": 11,
+          "acknowledged": 11,
+          "end_utc": "2026-11-02T00:36:41.655804+00:00",
+          "elapsed_s": 95.79427920794114,
+          "final_statistics": {
+            "samples": 60,
+            "duration_s": 10.009030000073835,
+            "Z_slope_pm_s": -0.4209205931150164,
+            "Z_detrended_rms_pm": 2.0216409918814753,
+            "tail_bracket_includes_last_sample_at_or_before_cutoff": true,
+            "sequential_host_times_not_native_sample_times": true,
+            "last5s_all_sampled_current_in_band": true,
+            "Z_gates_passed": true
+          }
+        },
+        "pulse": {
+          "requested_command": "Bias.Pulse",
+          "requested_args": [
+            1,
+            0.02,
+            -5.0,
+            1,
+            2
+          ],
+          "claim_utc": "2026-11-02T00:39:30.915570+00:00",
+          "ack_utc": "2026-11-02T00:39:30.947076+00:00",
+          "known_end": true,
+          "output_utc": "2026-11-02T00:40:01.529581+00:00",
+          "episode_ordinal": 2,
+          "new_batch_pulse_number": 1,
+          "pre_state_statistics": {
+            "window_s": 10.046717582968995,
+            "samples": 61,
+            "Z_slope_m_per_s": -8.556831003073366e-14,
+            "Z_detrended_RMS_m": 2.4986501513056143e-12,
+            "Z_span_m": 1.496403001510771e-11,
+            "I_mean_A": -1.002488385564633e-09,
+            "I_std_A": 1.045747740072912e-12,
+            "I_min_A": -1.0045153597815215e-09,
+            "I_max_A": -1.0005198891605005e-09,
+            "brackets_last10s": true,
+            "elapsed_s": 30.024892000015825,
+            "final_band_s": 29.839335707947612
+          },
+          "post_state_statistics": {
+            "window_s": 10.07632283307612,
+            "samples": 63,
+            "Z_slope_m_per_s": 1.0089411149109592e-12,
+            "Z_detrended_RMS_m": 6.071899921322985e-12,
+            "Z_span_m": 2.983568947456661e-11,
+            "I_mean_A": -1.081507800423182e-09,
+            "I_std_A": 2.4573408214597552e-11,
+            "I_min_A": -1.1108191033670778e-09,
+            "I_max_A": -1.02651132039e-09,
+            "brackets_last10s": true,
+            "elapsed_s": 30.170645333826542,
+            "final_band_s": 29.706278125056997
+          },
+          "actual_native_waveform_review": "not incorporated in this report snapshot; do not substitute requested voltage/duration or slow Current.Get for native sample peaks"
+        },
+        "return": {
+          "command": "ZCtrl.SetpntSet",
+          "targets_pA": [
+            931.3225746154785,
+            745.0580596923828,
+            596.0464477539062,
+            476.837158203125,
+            381.4697265625,
+            305.17578125,
+            244.140625,
+            195.3125,
+            156.25,
+            125,
+            100
+          ],
+          "attempted": 11,
+          "acknowledged": 11,
+          "end_utc": "2026-11-02T00:45:09.437556+00:00",
+          "elapsed_s": 96.61997795803472,
+          "final_target_A": 1.000000013351432e-10,
+          "final_statistics": {
+            "samples": 65,
+            "duration_s": 10.109771250048652,
+            "Z_slope_pm_s": -0.16942753421427095,
+            "Z_detrended_rms_pm": 4.627032870780408,
+            "tail_bracket_includes_last_sample_at_or_before_cutoff": true,
+            "sequential_host_times_not_native_sample_times": true,
+            "last5s_all_sampled_current_in_band": true,
+            "Z_gates_passed": true
+          }
+        }
+      },
+      "after_full": {
+        "status": "root reported acquisition started; no actual after native source included",
+        "source": null,
+        "analysis": null,
+        "paired_raw_plane": null
+      },
+      "confirmation": {
+        "status": "not_yet_included",
+        "source": null
+      },
+      "L0": "supported_by_claim_ACK_and_known_end_outcome",
+      "L1": "native_review_pending_in_this_snapshot",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown",
+      "limits": [
+        "Do not attribute combined preparation/pulse/return to pulse alone.",
+        "No separate remote conditioning/return move selected; local surface-change confound remains.",
+        "Current pixels, slow state readbacks, native sample peaks and true transient maxima are distinct.",
+        "Current.CalibrGet unavailable; physical amplifier range/bandwidth unknown.",
+        "Z is a working coordinate, not an independent gap sensor.",
+        "Temperature unknown; historical image comment is not current thermometer."
+      ]
+    },
+    {
+      "slot": 2,
+      "session_id": "session_02",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 3,
+      "session_id": "session_03",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 4,
+      "session_id": "session_04",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    },
+    {
+      "slot": 5,
+      "session_id": "session_05",
+      "status": "planned_only_no_execution_evidence_in_this_snapshot",
+      "complete_workflow": false,
+      "successful_closed_cycle": false,
+      "before": null,
+      "action": null,
+      "after_full": null,
+      "confirmation": null,
+      "L0": "not_assessed",
+      "L1": "not_assessed",
+      "L2": "not_assessed",
+      "L3": "not_assessed",
+      "L4": "unknown"
+    }
+  ],
+  "skill_handling": {
+    "original_skill_modified": false,
+    "practice_log_path": "skill_practice_log.md",
+    "source_hash_record": "skill_source_hashes_before.json",
+    "user_override": "Full before/after images instead of short-strip-first guidance",
+    "not_selected": [
+      "remote conditioning point with independent move/return",
+      "TipShaper",
+      "external oscilloscope/Hi-Res capture",
+      "independent tip chemistry measurement"
+    ],
+    "unavailable_or_not_proven": [
+      "analog current range/bandwidth",
+      "continuous gapfree timestamps",
+      "fresh temperature",
+      "chemical composition"
+    ]
+  },
+  "source_index": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/batch_state.json",
+      "relative_path": "batch_state.json",
+      "sha256": "9453d75f530e5e6ce9846bb8ed26769d745d39255523c0baf7d6241f6d06370c",
+      "bytes": 2551
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_source_hashes_before.json",
+      "relative_path": "skill_source_hashes_before.json",
+      "sha256": "29627b1b1baa242c39d0aebb879e6918949783c3961a3653c2a3a6756dace00a",
+      "bytes": 1535
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_practice_log.md",
+      "relative_path": "skill_practice_log.md",
+      "sha256": "dfbc617c07c86e60fdfdd7445b11530074982c264f81b36bfc9303493f5a3f5d",
+      "bytes": 30045
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/full50nm_comparison_layout.json",
+      "relative_path": "full50nm_comparison_layout.json",
+      "sha256": "49152b19f515e4db2f3f099072b53a9719b363730df55c85c69f51e6fc6cf1a8",
+      "bytes": 2008
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/authorization_decision_A01.json",
+      "relative_path": "session_01/authorization_decision_A01.json",
+      "sha256": "5824ea1b58e05c028c02254c149db1c6311896fbab05935bc821831d23cf2b7c",
+      "bytes": 2606
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/action_A01.ledger.json",
+      "relative_path": "session_01/action_A01.ledger.json",
+      "sha256": "f77e57fdaf7ec044737ecd1203ec2f2d2159de6c8f7c992e6d8c2f6962028ae9",
+      "bytes": 3123
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/outcome.json",
+      "relative_path": "session_01/before_full/outcome.json",
+      "sha256": "d66361643b15da140e059510f92dbcde29197b38fa41ac788a383a6640b26bc5",
+      "bytes": 4073
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native_receipt.json",
+      "relative_path": "session_01/before_full/native_receipt.json",
+      "sha256": "2535c383a8dcacb14fc26db5ef03372ece3dce506e738a35208956d57a03cf1f",
+      "bytes": 560
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+      "relative_path": "session_01/before_full/analysis_full/quality_report.json",
+      "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8",
+      "bytes": 266354
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/scientific_review.json",
+      "relative_path": "session_01/before_full/analysis_full/scientific_review.json",
+      "sha256": "cfe93bfb290e59523d2be69f5cb8137aa0cb5315a6306cbb729f866fb4702819",
+      "bytes": 25689
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before196_native_phase_review/final_review.json",
+      "relative_path": "session_01/before196_native_phase_review/final_review.json",
+      "sha256": "5c05f387ffdd25219bd525ee59adce3e114e10728e3909cfc7785248479a114b",
+      "bytes": 5115
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/outcome.json",
+      "relative_path": "session_01/prepare_A01/outcome.json",
+      "sha256": "3a10e648080ad8d49435ebd730c91a05552fe880362e3c524e7ef74f8b1e2d50",
+      "bytes": 6141
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/native_quick_review/READOUT.txt",
+      "relative_path": "session_01/prepare_A01/native_quick_review/READOUT.txt",
+      "sha256": "38a65fd223973531976cb0de62786f787751f3eb8d8b109efe34bd63de48c360",
+      "bytes": 590
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse.claim",
+      "relative_path": "session_01/pulse_A01/pulse.claim",
+      "sha256": "2cfee40cf220c6fcc333ce40ee7bb233f63e9c3cc154983789557360f2941ec9",
+      "bytes": 226
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse_ack.json",
+      "relative_path": "session_01/pulse_A01/pulse_ack.json",
+      "sha256": "597a12e086d4f9fbe43a18799f14bd3514606d17caafe4cc9caa9ae3dae1d4ce",
+      "bytes": 123
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/outcome.json",
+      "relative_path": "session_01/pulse_A01/outcome.json",
+      "sha256": "5ddb9a68caa9e329bb11a3e102a00dbe1e7314b55f9746b7948c5058f23d9d45",
+      "bytes": 1309
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/outcome.json",
+      "relative_path": "session_01/return_A01/outcome.json",
+      "sha256": "db2d66620aa777f38bb41fa9055921a3c9a2f7ea930c7d88ba0ba9aefdc5c6e8",
+      "bytes": 6142
+    }
+  ],
+  "future_slots_not_execution_claims": true
+}

@@ -1,0 +1,82 @@
+{
+  "document_only": true,
+  "execution_permitted": false,
+  "hardware_commands_performed": 0,
+  "global_claim_created": false,
+  "purpose": "Evidence checklist to attach to existing audited action ledgers; not a controller/ledger substitute or new authorization.",
+  "session_id": null,
+  "episode_id": null,
+  "existing_ledger_path": null,
+  "existing_ledger_sha256": null,
+  "inherited_pulse_count": null,
+  "user_authorization_ref": null,
+  "history_since_prior_frame": null,
+  "phase_before": {
+    "full_frame_required": true,
+    "native_SXM": null,
+    "SHA256": null,
+    "capture_path": null,
+    "native_TCP_wire_bitmatch": null,
+    "settings_readback": null,
+    "start_end_utc": null,
+    "task_failure_definition": null,
+    "actual_bad_state_established": null,
+    "history_and_native_interval_review": null
+  },
+  "phase_action": {
+    "selected_action": null,
+    "frozen_existing_ledger_ref": null,
+    "rationale_alternatives": null,
+    "requested_and_actual_parameters": null,
+    "preparation_current_separate_from_imaging": true,
+    "persistent_claim_ref": null,
+    "command_ACK_native_end_refs": null,
+    "unknown_outcome": null,
+    "raw_current_Bias_Z_and_blocks": null,
+    "range_events_and_gaps": null,
+    "windows_are_diagnostic_not_protection_delay": true
+  },
+  "phase_recovery": {
+    "Bias_setpoint_feedback_Z_endpoint_readback": null,
+    "actual_observation_duration": null,
+    "I_Z_trends_and_raw_peaks": null,
+    "reference_return_time": null,
+    "scan_start_time": null,
+    "confounds": null
+  },
+  "phase_after": {
+    "full_frame_required": true,
+    "native_SXM": null,
+    "SHA256": null,
+    "matching_before_parameters": null,
+    "complete_raw_FB_globalplane_current_refs": null,
+    "predefined_object_and_background_assessment": null,
+    "causal_interpretation": null
+  },
+  "phase_confirmation": {
+    "no_extra_conditioning": null,
+    "same_parameters": null,
+    "full_frame_ref": null,
+    "independent_task_evidence": null,
+    "actual_interframe_delay": null
+  },
+  "assessment": {
+    "L0": "not_assessed",
+    "L1": "not_assessed",
+    "L2": "not_assessed",
+    "L3": "not_assessed",
+    "L4": "unknown",
+    "complete_workflow": false,
+    "successful_repair_cycle": false,
+    "parameter_optimization_separate": true,
+    "cycle_count_increment": 0,
+    "next_or_stop_reason": null
+  },
+  "invariants": [
+    "Use existing cumulative episode budget; new folder never resets pulse count.",
+    "Complete before and after must have matching scan speed. Changing speed/T alone is diagnostic optimization, not repair.",
+    "An earlier confirmation can be referenced as next before only with same hash and reviewed continuity; do not invent another independent frame or label an already usable state bad.",
+    "Never prefill unexecuted actions, successful labels or true peak bounds.",
+    "Root alone controls hardware; this template emits no commands."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-02T12:36:38.467287+00:00",
+  "manual_history": "User confirmed only scans/approach/retract/movement since198; no tip/sample replacement or pulse/shaper. Since200 ended, only root readonly range/state; no intervening junction writes.",
+  "root_reengagement": "Fine1->knownWithdraw; AA1 landed->knownStop/Withdraw after oldgate; Fine2 established. Slow199 then SpeedSet restorefast then fast200; no conditioning in continuation.",
+  "native_record": "session02 logger nativeStart19:55:22 active; closedfiles copied; all actions and scans inside this segment; current postscan state known stable, no unresolved execution.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/resume_context.json",
+      "sha256": "27f3f6f775ee7d7c10997f36ef166ba4451ef97c6481ff5677f4d98b28fa8399"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_02/outcome.json",
+      "sha256": "17afdebb0a4c6f52d910e8a5aa2aa98f5f307458ab453778541db33308e161ea"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_range_001/snapshot.json",
+      "sha256": "bce493d292e539c08bed4da8b9a83261db0258c6286c99376d0d261b1f08b391"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_007_before_prepare/snapshot.json",
+      "sha256": "9d6d34f18661bbafed0baf9d84c41e87dfed05b0f52e88d702a61eea2240dbf2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/outcome.json",
+      "sha256": "d15a8820b079763cc319b7a49a3e2fb1a534377b861e1de0cea00722b2f6af6d"
+    }
+  ],
+  "counter_policy": "Carry prior continuing episode pulse count2 conservatively; nextpulseordinal3. New acquisition/session slot does not reset6 cap. Prior pulse2 L2supported so no-improvementstreak0; current new-local-state limitations explicit."
+}

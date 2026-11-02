@@ -1,0 +1,3519 @@
+{
+  "scope": "Final complete root-copied local native archive audit, blocks1..229. No SMB/instrument access.",
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/audit_final_native_record.py",
+    "sha256": "34663e527b8c08f9a6d4d8e7aa348eae2217769fc2f12a3331fb159699cf4498"
+  },
+  "frozen_receipt_sha256": "6887dafce6373a707282ef24d79ce24a2f03331891c0df48e420182b750d3da1",
+  "all_files_sha_bytes_rows_header_columns_finite_verified": true,
+  "no_missing_or_duplicate_block_indices": true,
+  "block_count": 229,
+  "full_blocks25000rows": 228,
+  "terminal_rows": 7660,
+  "total_rows_per_channel": 5707660,
+  "total_finite_scalars": 34245960,
+  "dt_header_s": 0.0005,
+  "duration_by_rows_s": 2853.83,
+  "stored_interval_not_analog_bandwidth": true,
+  "native_start_identity": "2026/11/2 8:21:18",
+  "native_stop_identity": "2026/11/2 9:08:52",
+  "channel_names": [
+    "Current (A)",
+    "Bias (V)",
+    "Z (m)",
+    "Z Control signal (A)",
+    "Z Error signal (A)",
+    "Z SafeTip signal (A)"
+  ],
+  "files": [
+    {
+      "block": 1,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100001.dat",
+      "sha256": "7d1630432594a516db204a08c3af5b5b9d852bf891aa09544d993b8acf4dc466",
+      "bytes": 2163211,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:21:23",
+      "I_min_max_pA": [
+        -127.85169,
+        -78.292053
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 2,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100002.dat",
+      "sha256": "ae9523f4bf0bdb394035a4df4b76e426c89b91eb31fb787995665814f3124713",
+      "bytes": 2163407,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:21:30",
+      "I_min_max_pA": [
+        -120.72308,
+        -82.687038
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 3,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100003.dat",
+      "sha256": "47076b3e78b92d5b8bb19b5fecca76cd49410905560a0e66445a44f741348213",
+      "bytes": 2163467,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:21:43",
+      "I_min_max_pA": [
+        -118.37094,
+        -84.496118
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 4,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100004.dat",
+      "sha256": "75a8b94bf44d42998fa69dcad0a3962676cc931930f89d5f9dc8ce3da556fb97",
+      "bytes": 2163703,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:21:55",
+      "I_min_max_pA": [
+        -115.74430000000001,
+        -86.688809
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 5,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100005.dat",
+      "sha256": "4492d0646b58658c5c61af62878e3a3728d56ce2783f8d5090d0c6b433486cc5",
+      "bytes": 2163531,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:22:08",
+      "I_min_max_pA": [
+        -116.92396000000001,
+        -85.77649000000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 6,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100006.dat",
+      "sha256": "3518440e6316de2a383d506087c7271f015efdae609278e903f40a81359338ca",
+      "bytes": 2163800,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:22:20",
+      "I_min_max_pA": [
+        -112.42322,
+        -65.416381
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 7,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100007.dat",
+      "sha256": "e1e40bf4c01d799c5e8ab0e518065eaadc45426dbc63dfcb7b17e89441719ce9",
+      "bytes": 2163521,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:22:33",
+      "I_min_max_pA": [
+        -131.52951,
+        -81.114011
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 8,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100008.dat",
+      "sha256": "ed5a02c27ec2e3a1a891613524426ea58cf11b3fe1748c9c0474c9ee3720c114",
+      "bytes": 2163786,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:22:45",
+      "I_min_max_pA": [
+        -127.44886,
+        -82.648437
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 9,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100009.dat",
+      "sha256": "af97c4f6aab0a984d9904a7f22fe1af47fe0f608411822ff2926e2b9bcfff3a7",
+      "bytes": 2163904,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:22:58",
+      "I_min_max_pA": [
+        -109.70317999999999,
+        -89.95602199999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 10,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100010.dat",
+      "sha256": "01b206396f350e2ddacb309fb73911a5f6adf83ce7e3cee883244d7636bb24a0",
+      "bytes": 2163795,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:23:10",
+      "I_min_max_pA": [
+        -247.27625999999998,
+        -34.534882
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 11,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100011.dat",
+      "sha256": "d82511a6581bf71be19ad5976de8f1f162eb3db3c7a5ef7519b0dc3054420251",
+      "bytes": 2163732,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:23:23",
+      "I_min_max_pA": [
+        -1072.2583,
+        -13.747377
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 12,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100012.dat",
+      "sha256": "c8239dfcfd16bcc57aeae36135c4b7b7cfb3130a097faa71463f6d36a35c67a7",
+      "bytes": 2164010,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:23:35",
+      "I_min_max_pA": [
+        -165.10434999999998,
+        -61.934478
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 13,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100013.dat",
+      "sha256": "097468aa6f4f84d095cf295abadd1800b0ec2e3d1e718d11a9ed3a42e1c23d37",
+      "bytes": 2163404,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:23:48",
+      "I_min_max_pA": [
+        -215.98141,
+        -51.895720000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 14,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100014.dat",
+      "sha256": "eef5a08af0e2ed15d196d8fece9a9760435bc18377fab2b5899697c7e2f48ec4",
+      "bytes": 2163705,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:24:00",
+      "I_min_max_pA": [
+        -135.94480000000001,
+        -39.622774
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 15,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100015.dat",
+      "sha256": "2ff5b3d59004dabc9fb9b52e76e6516e4c7807129fbff23e0f9e70062590bfa3",
+      "bytes": 2163761,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:24:13",
+      "I_min_max_pA": [
+        -1199.1995,
+        -10.185824
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 16,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100016.dat",
+      "sha256": "1b8b57e308ee80fb3359010b63582190888e412d352ab0f27277fda7052a7502",
+      "bytes": 2163430,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:24:25",
+      "I_min_max_pA": [
+        -280.5714,
+        -51.286898
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 17,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100017.dat",
+      "sha256": "fc81a1e5717e9ea09da294985ea6b9bbc6838166c90e13e12a5119df8a95cb49",
+      "bytes": 2163738,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:24:38",
+      "I_min_max_pA": [
+        -160.32606,
+        -69.50955099999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 18,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100018.dat",
+      "sha256": "431a94944208cdeb5ca6a82674b424c97ec3143b6da9418fdf0f7c2d2933f63e",
+      "bytes": 2163399,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:24:50",
+      "I_min_max_pA": [
+        -135.921,
+        -76.26965
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 19,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100019.dat",
+      "sha256": "0efa40844c78fc56257a67f04634e67f23376f2321ee5fea1849929c6cfa61a6",
+      "bytes": 2163693,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:25:03",
+      "I_min_max_pA": [
+        -131.60062000000002,
+        -75.06909
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 20,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100020.dat",
+      "sha256": "be95ec3572b84ae70decce8476320fca34be0f9b8847d5e0fb6973fc88633f75",
+      "bytes": 2163425,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:25:15",
+      "I_min_max_pA": [
+        -155.26989,
+        -57.920349
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 21,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100021.dat",
+      "sha256": "2ab6484f4d54f78184b72ad2cdb98ecb6b94480137eea226d5bbfaf240b9a16c",
+      "bytes": 2163335,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:25:28",
+      "I_min_max_pA": [
+        -252.55366999999998,
+        -24.465303
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 22,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100022.dat",
+      "sha256": "7b43b0609473f92ebfda81ede4911f1d214a47c2be4a19acb0d28970537d2fb5",
+      "bytes": 2163621,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:25:40",
+      "I_min_max_pA": [
+        -540.1189499999999,
+        -48.108947
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 23,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100023.dat",
+      "sha256": "00846ef24a6fd1aeb2c4eef6c3ecac20266d936fe7775b706e41a218e7a71b5f",
+      "bytes": 2163622,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:25:53",
+      "I_min_max_pA": [
+        -932.5195100000001,
+        -16.68149
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 24,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100024.dat",
+      "sha256": "38f8cecd6d897a2cc81fcf321e572a9beb7731fc7330f7a6aaea85d09941181d",
+      "bytes": 2163750,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:26:05",
+      "I_min_max_pA": [
+        -616.30229,
+        -14.841126999999998
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 25,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100025.dat",
+      "sha256": "76de6b81cbb2d85269a45eaf86110bc89ede4fb72ba5181d9aa6deade987d181",
+      "bytes": 2163421,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:26:18",
+      "I_min_max_pA": [
+        -437.54053,
+        -5.704622100000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 26,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100026.dat",
+      "sha256": "ddd64f0efb672d9f2d5bd71ddc90bf5c47024ef287f00fff8544a01095cff1c3",
+      "bytes": 2163525,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:26:30",
+      "I_min_max_pA": [
+        -163.89096,
+        -57.747161
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 27,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100027.dat",
+      "sha256": "fa4727e8153c3d9b27cfc3f46a2c31d38e13b84395dfc763ff861c8374321ba1",
+      "bytes": 2163852,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:26:43",
+      "I_min_max_pA": [
+        -246.43215,
+        -33.424805
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 28,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100028.dat",
+      "sha256": "0b0a500a84f55893abc298120aa3922ea903594a0741de43d34c793f5407b192",
+      "bytes": 2163380,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:26:55",
+      "I_min_max_pA": [
+        -382.41971,
+        -34.827394
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 29,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100029.dat",
+      "sha256": "b6fa022f65395fbca76e5f542dacbc7094b6cd35652f5788abab89863b735b3b",
+      "bytes": 2163502,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:27:08",
+      "I_min_max_pA": [
+        -3520.8914,
+        -12.174348
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 30,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100030.dat",
+      "sha256": "aae367b837d4c28f56ef7140b2a7594ee0a7f443cd083b7db09d6700f946e15c",
+      "bytes": 2163486,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:27:20",
+      "I_min_max_pA": [
+        -303.28989,
+        -30.438509
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 31,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100031.dat",
+      "sha256": "87b6dee67eb4e357e75400d1a6ee6fcefb424aa395a83a922ceae84bc7ee55c2",
+      "bytes": 2163861,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:27:33",
+      "I_min_max_pA": [
+        -157.69132000000002,
+        -68.53710699999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 32,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100032.dat",
+      "sha256": "fe882f8594c198ca089d48f3cc3950bf9da1cec22eec9d92f06174129b1cba04",
+      "bytes": 2163365,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:27:45",
+      "I_min_max_pA": [
+        -291.87619,
+        -35.906802
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 33,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100033.dat",
+      "sha256": "1fd067b1d80673582c52fff413704a226d738df165555974bad20b755495534d",
+      "bytes": 2163511,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:27:58",
+      "I_min_max_pA": [
+        -2984.4303,
+        -17.688112999999998
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 34,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100034.dat",
+      "sha256": "8ddb47677f00d093a2269bf633b396f6d5d45162e31d51833b96f0f795e8d7d6",
+      "bytes": 2163841,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:28:10",
+      "I_min_max_pA": [
+        -1651.925,
+        -11.05237
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 35,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100035.dat",
+      "sha256": "a0b8e57b4d269983dfe4cf2adcab5c540f36948f783447f7de176e6e2f86f4f8",
+      "bytes": 2163554,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:28:23",
+      "I_min_max_pA": [
+        -307.3396,
+        -26.740541999999998
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 36,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100036.dat",
+      "sha256": "c3bcfd0be63cfcbc84822942bd81f821e17942e3964e18a8b17b2dbfde7d1be2",
+      "bytes": 2163889,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:28:35",
+      "I_min_max_pA": [
+        -379.88704,
+        -35.346039
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 37,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100037.dat",
+      "sha256": "05a7f8c6175052b6c6e903e2a5429e6a0fe9ead89810eb60243256d61d91beb1",
+      "bytes": 2163870,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:28:48",
+      "I_min_max_pA": [
+        -183.93749,
+        -52.181825
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 38,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100038.dat",
+      "sha256": "2f7ff4f89d1be1cb76700d4f38ed087cdd8a8f4c489d238b3d64b801a544ebbd",
+      "bytes": 2163737,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:29:00",
+      "I_min_max_pA": [
+        -163.15121,
+        -69.204371
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 39,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100039.dat",
+      "sha256": "a9f346897b1481ff0525c051a258fd377436758402d66dcd093b5a6c163f630a",
+      "bytes": 2163438,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:29:13",
+      "I_min_max_pA": [
+        -291.83667,
+        -41.688202000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 40,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100040.dat",
+      "sha256": "2a579b2b69fd75a09b3006b3e9e1479122aafa960c67cb163c11f9bea670f2ed",
+      "bytes": 2163484,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:29:25",
+      "I_min_max_pA": [
+        -6678.7234,
+        -1.1251545
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 41,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100041.dat",
+      "sha256": "37f4937f65b8eb364907621db4d86304f0e48faae1053288870e378a68d78f98",
+      "bytes": 2163748,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:29:38",
+      "I_min_max_pA": [
+        -1972.3367,
+        -39.016849
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 42,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100042.dat",
+      "sha256": "ff548f53e2191a8714bfb96c8deb845c298b26af856e2013101d855597c58784",
+      "bytes": 2163511,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:29:50",
+      "I_min_max_pA": [
+        -144.46851,
+        -66.715057
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 43,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100043.dat",
+      "sha256": "7888d6132b61234e7ca0b1f7cf89cc6d3a2c33b5ad6d9f111f10d0104956d2f0",
+      "bytes": 2163958,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:30:03",
+      "I_min_max_pA": [
+        -128.33173,
+        -76.467555
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 44,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100044.dat",
+      "sha256": "9f98ea2e98020478b1fa349dee1f4f4e7ec54e0ee440c407432e4592b4ec057a",
+      "bytes": 2164001,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:30:15",
+      "I_min_max_pA": [
+        -128.06531,
+        -77.322357
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 45,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100045.dat",
+      "sha256": "523726f6dfc44ca8ec8411a70aa57789e8f04f01a993f005c0de27feb7251763",
+      "bytes": 2164076,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:30:28",
+      "I_min_max_pA": [
+        -124.22269,
+        -77.199219
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 46,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100046.dat",
+      "sha256": "9613ab3034ceddca76f5dbe28c17ef55aab7547174a0397cd46457b3603148c5",
+      "bytes": 2164039,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:30:40",
+      "I_min_max_pA": [
+        -124.82128999999999,
+        -79.753384
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 47,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100047.dat",
+      "sha256": "5b04a42c748d808609c896764403b2b93a7e7937a18740d69ce36d8a0c70487c",
+      "bytes": 2164063,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:30:53",
+      "I_min_max_pA": [
+        -122.15604,
+        -80.628934
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 48,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100048.dat",
+      "sha256": "3afd1ec02fc89778dbe04bfca3d37015df73e2456872ec0d1c226b10133ac692",
+      "bytes": 2164245,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:31:05",
+      "I_min_max_pA": [
+        -117.63103999999998,
+        -83.04394
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 49,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100049.dat",
+      "sha256": "e3768c6edb042dad88714832f3322b9aa6cfe660bd37f870e778832ac2ffda9f",
+      "bytes": 2164510,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:31:18",
+      "I_min_max_pA": [
+        -117.40231,
+        -83.20996000000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 50,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100050.dat",
+      "sha256": "db05b1ecbc479ae689e8811356cfef2dff88ec5eab9adecacc90764c851e813c",
+      "bytes": 2164526,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:31:30",
+      "I_min_max_pA": [
+        -117.49737,
+        -84.892239
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 51,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100051.dat",
+      "sha256": "8d5947dc833d9d6d82a84628aa1e68ff9f4157c3197abd987b5d23a3ac75ac59",
+      "bytes": 2165093,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:31:43",
+      "I_min_max_pA": [
+        -114.3591,
+        -85.405696
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 52,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100052.dat",
+      "sha256": "340ddd6e230e932c0a5136ccbc0d13d6a6f01e99475206860e821e1995f93e15",
+      "bytes": 2165179,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:31:55",
+      "I_min_max_pA": [
+        -121.83331,
+        -86.18771
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 53,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100053.dat",
+      "sha256": "7c7d54d6e34d06f2a2abace2638df6b8b9b8f92e18359c91fae7f514644073a2",
+      "bytes": 2164000,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:32:08",
+      "I_min_max_pA": [
+        -119.0051,
+        -83.48690500000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 54,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100054.dat",
+      "sha256": "046f969ae578b3edb95eeca9bdd9897d2778dd3eea13c0ab68a62585d7d2a79f",
+      "bytes": 2164208,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:32:20",
+      "I_min_max_pA": [
+        -115.20322,
+        -85.628477
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 55,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100055.dat",
+      "sha256": "34f4efde6a0b80ced548e2c246a921bed2622eb2db01428268d43d274a6739c5",
+      "bytes": 2164337,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:32:33",
+      "I_min_max_pA": [
+        -114.59744,
+        -85.04742
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 56,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100056.dat",
+      "sha256": "eedd81082c763f9f7101960832b7eb27330b934003810f22d559fcc0ad26277b",
+      "bytes": 2164853,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:32:45",
+      "I_min_max_pA": [
+        -113.30166999999999,
+        -85.132568
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 57,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100057.dat",
+      "sha256": "17267b5f59c5fd556529ce090661326d8815a3a5c44e63adebfc461a5ba13826",
+      "bytes": 2164768,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:32:58",
+      "I_min_max_pA": [
+        -113.63462,
+        -87.461823
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 58,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100058.dat",
+      "sha256": "c750dc6340914ff77e0b54d44c63385e14a4294655521546f275c75e7040c145",
+      "bytes": 2164914,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:33:10",
+      "I_min_max_pA": [
+        -115.96279999999999,
+        -87.76226299999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 59,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100059.dat",
+      "sha256": "4526ddd9d301930d4819ca0d99876f49943304687a4a1491241e1f79c2da8f0d",
+      "bytes": 2165014,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:33:23",
+      "I_min_max_pA": [
+        -110.94281,
+        -85.900995
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 60,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100060.dat",
+      "sha256": "88dcf5be63de1a7e7a9ed6ee0a30d0887b272a550262a1c184482f5ab1c4c02c",
+      "bytes": 2164951,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:33:35",
+      "I_min_max_pA": [
+        -112.729,
+        -88.43303900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 61,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100061.dat",
+      "sha256": "09c581ef40ed3641948d7fc45b995667b36ac739dbfc4afea88a5050d11970e3",
+      "bytes": 2164754,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:33:48",
+      "I_min_max_pA": [
+        -113.08072,
+        -87.72473
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 62,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100062.dat",
+      "sha256": "f4e149106df4bd66824c19963b556b28c2b584e61a4d5c17874193acda4c8437",
+      "bytes": 2164805,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:34:00",
+      "I_min_max_pA": [
+        -111.35357,
+        -88.018613
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 63,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100063.dat",
+      "sha256": "8ccb0db5ff9b96ebfec4c69b8a3585e9cade7ac10f553b67f235c651ed1c6b38",
+      "bytes": 2165609,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:34:13",
+      "I_min_max_pA": [
+        -110.04758,
+        -89.491241
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 64,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100064.dat",
+      "sha256": "beb413eaf9fd867549d872bfa33ced2191c30da3f78dd751d61d0870874abe7e",
+      "bytes": 2165414,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:34:25",
+      "I_min_max_pA": [
+        -111.95706,
+        -88.628202
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 65,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100065.dat",
+      "sha256": "202b9b251ac3c00c93aa25f1d30a86ee241494a58ae4955a60f3bc4483868d84",
+      "bytes": 2164798,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:34:38",
+      "I_min_max_pA": [
+        -111.72605,
+        -89.151728
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 66,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100066.dat",
+      "sha256": "932300585dae7c2f252a0abf5b6e4ac90c0e02645846da63a956501f75ec3a8d",
+      "bytes": 2164827,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:34:50",
+      "I_min_max_pA": [
+        -112.0628,
+        -89.57683899999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 67,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100067.dat",
+      "sha256": "7e2d1f7e3617ec9e0b79deb32c9d1cf40eec69ee980edf307971d5d0ba88a9ab",
+      "bytes": 2164682,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:35:03",
+      "I_min_max_pA": [
+        -137.31748,
+        -76.200067
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 68,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100068.dat",
+      "sha256": "c4c4328d657a3c6e6b27638670958ae1f9d89ee21f61d6d6f727837b81305226",
+      "bytes": 2163423,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:35:15",
+      "I_min_max_pA": [
+        -253.90178999999998,
+        -115.13471
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 69,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100069.dat",
+      "sha256": "525e08d646ea7f0613fdace899c58d7fab04bac31845497c2da8d699604197f5",
+      "bytes": 2163356,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:35:28",
+      "I_min_max_pA": [
+        -457.27105,
+        -194.95038
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 70,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100070.dat",
+      "sha256": "ada83b190379bb5d0b99046ac7bd3835ceeca59fefc7ffddcf221f2793179ee5",
+      "bytes": 2163248,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:35:40",
+      "I_min_max_pA": [
+        -646.04166,
+        -355.37243
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 71,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100071.dat",
+      "sha256": "713c42e069498104441809e772c5835d21111c9bcf29a62a5e6f7f43ef70a57e",
+      "bytes": 2162786,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:35:53",
+      "I_min_max_pA": [
+        -1195.5861,
+        -567.3898
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 72,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100072.dat",
+      "sha256": "8edd3b2489a49272fdf97eb6ead4514814fdaed505d90d2bbef304c05f25e804",
+      "bytes": 2125695,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:36:05",
+      "I_min_max_pA": [
+        -1178.1136000000001,
+        -851.3738599999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 73,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100073.dat",
+      "sha256": "c369d5286c93b899b29792730f5312328d229b4f0cc715ca18da3a444fe7bbb1",
+      "bytes": 2124345,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:36:18",
+      "I_min_max_pA": [
+        -1367.4472,
+        -720.84544
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 74,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100074.dat",
+      "sha256": "c3842a452d6bad44d60f559a2ad3ee2639c1e4e3069af9c65607769f7ab71d9e",
+      "bytes": 2124886,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:36:30",
+      "I_min_max_pA": [
+        -1585.2963,
+        -770.00606
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 75,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100075.dat",
+      "sha256": "943cf808f662c3544fe2d2a23fd7c511534d8db35cf573615555ce02dc25522d",
+      "bytes": 2125596,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:36:43",
+      "I_min_max_pA": [
+        -1327.4359,
+        -720.624
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 76,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100076.dat",
+      "sha256": "a39e5ec3e3783bf61fd5f7c5063dcec07a172eb65bbd091e38b587e51a6e4428",
+      "bytes": 2125500,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:36:55",
+      "I_min_max_pA": [
+        -1337.3178,
+        -697.7768900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 77,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100077.dat",
+      "sha256": "c07108b920792bac55242885ce424761458ba1315e1f25a8474c53150b848908",
+      "bytes": 2125250,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:37:08",
+      "I_min_max_pA": [
+        -1275.009,
+        -719.25393
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 78,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100078.dat",
+      "sha256": "7343f77f661c5fc62d09fed722f05bc815aa7ac242284bee9db1cf5751bfd493",
+      "bytes": 2124818,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:37:20",
+      "I_min_max_pA": [
+        -1573.9288,
+        -646.16279
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 79,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100079.dat",
+      "sha256": "375311a3022cd9a3805e4489020e5f806f865373e6d1d26fbad4b61f1a36b8d8",
+      "bytes": 2124441,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:37:33",
+      "I_min_max_pA": [
+        -1579.6583,
+        -627.35467
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 80,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100080.dat",
+      "sha256": "a60fe437b973477101eb09481f1e599fa1212f68a6d74483e2e08cf0d8101ceb",
+      "bytes": 2124681,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:37:45",
+      "I_min_max_pA": [
+        -1554.1313,
+        -617.52986
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 81,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100081.dat",
+      "sha256": "02785c42f2af9ba49e931bf70539070fc63bbdc0f12c0d776eec0a27cf464b92",
+      "bytes": 2124596,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:37:58",
+      "I_min_max_pA": [
+        -1548.7485,
+        -631.63341
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 82,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100082.dat",
+      "sha256": "53aa632cf723ad9b035f28f44afe38d5893e38c2cdd223d29634ea800a0a2bf3",
+      "bytes": 2124950,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:38:10",
+      "I_min_max_pA": [
+        -1505.4351,
+        -614.23366
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 83,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100083.dat",
+      "sha256": "62a65dd7b62b8e64a639abdb24e07d876f7864af913b613f60502a36bce45766",
+      "bytes": 2125052,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:38:23",
+      "I_min_max_pA": [
+        -1562.9603,
+        -613.72107
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 84,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100084.dat",
+      "sha256": "dc33034c18a9424c3ecdd2cd65602092335125931f1ff63bd9026ae8f3f31790",
+      "bytes": 2124465,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:38:35",
+      "I_min_max_pA": [
+        -1549.4125000000001,
+        -619.0284399999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 85,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100085.dat",
+      "sha256": "a1b5f0657edae55e1f311b0d51b7f23a8651c2225c489250bbd5768560a146d5",
+      "bytes": 2123970,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:38:48",
+      "I_min_max_pA": [
+        -1448.6394,
+        -628.30258
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 86,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100086.dat",
+      "sha256": "4256106c0a37c2070472d2809b37b70b12b228318139d3cd15c0193c964abcd1",
+      "bytes": 2124306,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:39:00",
+      "I_min_max_pA": [
+        -1534.2426999999998,
+        -634.09267
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 87,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100087.dat",
+      "sha256": "f02a60cd9d444d1b1bb0aed109719ae4a6dbab5cf95fa794814e64971ad7b233",
+      "bytes": 2124199,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:39:13",
+      "I_min_max_pA": [
+        -1532.9547,
+        -611.44889
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 88,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100088.dat",
+      "sha256": "d898ba09b8b35c18ac1b99bf135420c9cf8b780d57c1a01a0aa9b6c5343c776b",
+      "bytes": 2118807,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:39:25",
+      "I_min_max_pA": [
+        -9999.4768,
+        15.519283999999999
+      ],
+      "matching_negative_software_limit_samples": 87
+    },
+    {
+      "block": 89,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100089.dat",
+      "sha256": "8831e232596b519b8ef731f0db04d9874d6e3800dc9efbe2368f8196cc210506",
+      "bytes": 2104766,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:39:38",
+      "I_min_max_pA": [
+        -1604.8715,
+        -701.74294
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 90,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100090.dat",
+      "sha256": "c1dd24e939bd6c9673da3191061c50d4bb9031d35d7cc50080cca843f4ca0544",
+      "bytes": 2102998,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:39:50",
+      "I_min_max_pA": [
+        -1433.4101,
+        -827.04477
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 91,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100091.dat",
+      "sha256": "1859f720e8cb01e2b89f408c1b9256b2dd7aaafc4a5ea681655baac58b651b6f",
+      "bytes": 2106840,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:40:03",
+      "I_min_max_pA": [
+        -1425.0965999999999,
+        -797.5105
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 92,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100092.dat",
+      "sha256": "2edc0cc9f40818c489301d510d2bafd25b03e5387430afd8088a685ce47ad766",
+      "bytes": 2106216,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:40:15",
+      "I_min_max_pA": [
+        -1475.0296999999998,
+        -797.45033
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 93,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100093.dat",
+      "sha256": "553d25add94a2285a4a77e4c70d222f1cb8dc526bfefd20978cf700951e0c71d",
+      "bytes": 2105243,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:40:28",
+      "I_min_max_pA": [
+        -1393.5892000000001,
+        -833.0632899999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 94,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100094.dat",
+      "sha256": "60bb2ee337b4d17573c726c2ea1feb02bcfa8048e12f7aa87842eb217a8821d7",
+      "bytes": 2111757,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:40:40",
+      "I_min_max_pA": [
+        -1614.2956,
+        -754.65617
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 95,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100095.dat",
+      "sha256": "c881708627b22e2285009841fb8d9a55a265d758fe45d3d996905046d83af363",
+      "bytes": 2111092,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:40:53",
+      "I_min_max_pA": [
+        -1324.3031,
+        -834.08092
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 96,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100096.dat",
+      "sha256": "15836203b9ad80e3d3e1585ed879ea269b99103a7f21df014b648c59808ea659",
+      "bytes": 2107129,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:41:05",
+      "I_min_max_pA": [
+        -1415.6334,
+        -797.18349
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 97,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100097.dat",
+      "sha256": "945ad5593e639867a754229ff4a98f3d994c5a2c6d4c98ce5d4f7a9537d58e4f",
+      "bytes": 2106826,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:41:18",
+      "I_min_max_pA": [
+        -1326.8541,
+        -860.63001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 98,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100098.dat",
+      "sha256": "c486d518d6c7bbdde63d8c7115c5c12081fde09868967023e8fc5cd44543d506",
+      "bytes": 2108424,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:41:30",
+      "I_min_max_pA": [
+        -1302.4398,
+        -874.00032
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 99,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100099.dat",
+      "sha256": "13eba41010adc598e2cb8c124b46707a2dff0c9b1267a28b44a2bac951d0ee2c",
+      "bytes": 2110419,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:41:43",
+      "I_min_max_pA": [
+        -1342.2076,
+        -838.89873
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 100,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100100.dat",
+      "sha256": "2d14c62534e8c4519de74af9fd34bca504986910ad16bf2825b665d0c8ece8bd",
+      "bytes": 2121996,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:41:55",
+      "I_min_max_pA": [
+        -1388.152,
+        -809.52189
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 101,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100101.dat",
+      "sha256": "3fbf782e3da85cd970dc4e31542405271e3ad72449f8765dca1a025b7015ce40",
+      "bytes": 2121412,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:42:08",
+      "I_min_max_pA": [
+        -1267.0501,
+        -818.1151900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 102,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100102.dat",
+      "sha256": "1d91b242c58acee902010f1045559f8f7d58a00abc11fb0ecc2e6e66f7bde849",
+      "bytes": 2121947,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:42:20",
+      "I_min_max_pA": [
+        -1236.8742,
+        -819.79656
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 103,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100103.dat",
+      "sha256": "ba356e6b0f0dfffca15cefe1a5f48659f2d01c64aa33f919690a7b3d1ae5e0fd",
+      "bytes": 2121905,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:42:33",
+      "I_min_max_pA": [
+        -1342.866,
+        -793.37981
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 104,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100104.dat",
+      "sha256": "294a4d0eb813c35810d2ba66c86bb2bfdd8d91ba7ac9d78a73e33c7b694ec552",
+      "bytes": 2121739,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:42:45",
+      "I_min_max_pA": [
+        -1514.423,
+        -704.82647
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 105,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100105.dat",
+      "sha256": "2db7825aec4fa26265bf70de14c41e48dd87631c874996b6a119e7610e60da3e",
+      "bytes": 2120722,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:42:58",
+      "I_min_max_pA": [
+        -1370.251,
+        -742.23339
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 106,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100106.dat",
+      "sha256": "806b52b425997f22b573bb58678b59d3be3c6e1cb2fa7ece65bd73f349ea9f99",
+      "bytes": 2118322,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:43:10",
+      "I_min_max_pA": [
+        -1259.4232,
+        -816.70132
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 107,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100107.dat",
+      "sha256": "9cec920164ab64734fac326ce949d081ff5cf308479be42551b5acc7330e626a",
+      "bytes": 2122331,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:43:23",
+      "I_min_max_pA": [
+        -1378.5462,
+        -756.75699
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 108,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100108.dat",
+      "sha256": "eeca3a53d76af9d0d9569b0f38c78593ab9db437b745ba854e4f8b6df83280ef",
+      "bytes": 2153727,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:43:35",
+      "I_min_max_pA": [
+        -1112.6156999999998,
+        -603.12999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 109,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100109.dat",
+      "sha256": "33227f0a437b775127bf6b11b9b7d51dcd9bbe1e3ded0fd1b97b779b91c8b09c",
+      "bytes": 2162587,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:43:48",
+      "I_min_max_pA": [
+        -973.7365400000001,
+        -324.73399
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 110,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100110.dat",
+      "sha256": "7c92bd34ff582ee5f9ac94dd426560784e79d22752bbe3f2e262b4095e58708b",
+      "bytes": 2162247,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:44:00",
+      "I_min_max_pA": [
+        -533.84547,
+        -195.13012
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 111,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100111.dat",
+      "sha256": "e7665c7cc18df165a781fd284f61eaeb5145b02c360639d9af96d06539a9a920",
+      "bytes": 2162160,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:44:13",
+      "I_min_max_pA": [
+        -431.18631,
+        -128.23177
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 112,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100112.dat",
+      "sha256": "65b68169e74c30bee0fa6457b84ba5fb502ebef2d8c4e46b828b386cca001dcd",
+      "bytes": 2162166,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:44:25",
+      "I_min_max_pA": [
+        -248.78627,
+        -83.369263
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 113,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100113.dat",
+      "sha256": "f2af8ea4bca371fc064274534f5d8ccafcf915472f3511046b7fccf911685506",
+      "bytes": 2162273,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:44:38",
+      "I_min_max_pA": [
+        -163.46782,
+        -77.73740000000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 114,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100114.dat",
+      "sha256": "5cf46f8f84f0e986d11f901ed5c31273717536a8e7e94fa9852cded9f34fd3f6",
+      "bytes": 2162223,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:44:50",
+      "I_min_max_pA": [
+        -157.86389,
+        -81.159024
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 115,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100115.dat",
+      "sha256": "7dcfe2ac1fd9213d297fb1996768b99c3291b2f2c21cfe87df6a5a61157c7ac5",
+      "bytes": 2162240,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:45:03",
+      "I_min_max_pA": [
+        -168.21972,
+        -79.35223300000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 116,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100116.dat",
+      "sha256": "79e9b6ba4cf0d71a93cf5748771ac052807dfb4c15561f05913cf87a3a4b0361",
+      "bytes": 2162550,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:45:15",
+      "I_min_max_pA": [
+        -182.01228999999998,
+        -60.641908
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 117,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100117.dat",
+      "sha256": "d739e83c928416cd6e0727c25319ae348f22fe9efc66f0d35b2f422fd23fbf34",
+      "bytes": 2163522,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:45:28",
+      "I_min_max_pA": [
+        -117.36416,
+        -85.39517000000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 118,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100118.dat",
+      "sha256": "cfaf01136532c67033bdc709650b30270ff14f35362eae321f1f686f7f68ad10",
+      "bytes": 2163516,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:45:40",
+      "I_min_max_pA": [
+        -147.58236,
+        -66.110804
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 119,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100119.dat",
+      "sha256": "bc7131f85276da1ed2429c01c6c0dfc6bf1a0d07f4b89a171584f303badd8ef6",
+      "bytes": 2163247,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:45:53",
+      "I_min_max_pA": [
+        -122.60404,
+        -82.422145
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 120,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100120.dat",
+      "sha256": "06df564700018f6bea94309dc49433b48348396407b6560bcc48d345dae9f91b",
+      "bytes": 2163502,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:46:05",
+      "I_min_max_pA": [
+        -180.06907999999999,
+        -58.092926
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 121,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100121.dat",
+      "sha256": "0247b1b2c716ff2291521e79e5c48e038afffebcfce7ddb70cd274d740ce8be7",
+      "bytes": 2163516,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:46:18",
+      "I_min_max_pA": [
+        -251.95049,
+        -42.55292
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 122,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100122.dat",
+      "sha256": "2d902d8d1b15a35f79b1129b680e573fd7cd1ac6ba2c7c7b0e10510ecfe25265",
+      "bytes": 2163472,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:46:30",
+      "I_min_max_pA": [
+        -226.05755,
+        -53.606231
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 123,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100123.dat",
+      "sha256": "ab2f94cbcf878288bca81a20db5348fca292347ba4885e4e1d18dbac391df89a",
+      "bytes": 2163661,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:46:43",
+      "I_min_max_pA": [
+        -480.70397999999994,
+        -32.860842999999996
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 124,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100124.dat",
+      "sha256": "c33965ce2d84f8c0bfc674dc10f2a7f0f9053904bba17dd3f8f063190c8a6be7",
+      "bytes": 2163703,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:46:55",
+      "I_min_max_pA": [
+        -157.31412,
+        -62.763335999999995
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 125,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100125.dat",
+      "sha256": "ecb24108362974f184c64d5a61dd3a8600c1d7bd44730ae19945633fc4453ef9",
+      "bytes": 2163487,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:47:08",
+      "I_min_max_pA": [
+        -137.45463999999998,
+        -78.47653100000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 126,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100126.dat",
+      "sha256": "774c81cee9de9b5c8d0d05e973d43a06ef4310e786e8fa9c042ca3f6a19f4742",
+      "bytes": 2163520,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:47:20",
+      "I_min_max_pA": [
+        -323.25419999999997,
+        -41.265994
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 127,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100127.dat",
+      "sha256": "c3ea9f556473efe5f07e6e0fb45541eef9384156614f662cb8eab5b6d5053dc0",
+      "bytes": 2163423,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:47:33",
+      "I_min_max_pA": [
+        -150.26211999999998,
+        -69.272886
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 128,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100128.dat",
+      "sha256": "2e7669126853160adebfab44b8d6ee4ebf4167a9edd33d02c072a6aa249892e2",
+      "bytes": 2163351,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:47:45",
+      "I_min_max_pA": [
+        -146.22571,
+        -72.505918
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 129,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100129.dat",
+      "sha256": "697bf3e39f4aded275856eeae1d40d3c08d943fb2b9a8b7687308d33e553d742",
+      "bytes": 2163284,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:47:58",
+      "I_min_max_pA": [
+        -126.32322,
+        -73.70632599999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 130,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100130.dat",
+      "sha256": "34f04667171c1b7dbb8079cc844b7305c146039e6458e89cc34bfa09abd763fa",
+      "bytes": 2163487,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:48:10",
+      "I_min_max_pA": [
+        -131.67904,
+        -75.89504699999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 131,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100131.dat",
+      "sha256": "300a402942648ff88af63def888a7d50d1250570fb243e4c7de6e5343962a00e",
+      "bytes": 2163367,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:48:23",
+      "I_min_max_pA": [
+        -214.42013,
+        -59.418609000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 132,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100132.dat",
+      "sha256": "802b86925b00d113d9992963d33649b183db2625648b3078cc2f7e23b24208d4",
+      "bytes": 2163299,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:48:35",
+      "I_min_max_pA": [
+        -276.98055,
+        -49.220857
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 133,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100133.dat",
+      "sha256": "cf212d3579ed884e1cfc8f498ccc0d5b9e6861a586c127e539b02bb263439532",
+      "bytes": 2163210,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:48:48",
+      "I_min_max_pA": [
+        -519.3856499999999,
+        -23.320436
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 134,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100134.dat",
+      "sha256": "19d5557f022e6e374f4aef4cd92a620e94dc7e62502bd42dca9bda612143d81d",
+      "bytes": 2163312,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:49:00",
+      "I_min_max_pA": [
+        -615.5561600000001,
+        -26.232728
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 135,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100135.dat",
+      "sha256": "b1383900c0370397c638fa2c36e1623a9fe02323762e068f23e33590cbdf174e",
+      "bytes": 2163407,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:49:13",
+      "I_min_max_pA": [
+        -543.3996,
+        -18.774995
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 136,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100136.dat",
+      "sha256": "28bce3d7c9c9a35f96a0587268b677bdd361f88dc4055cdaed029d971389a6f0",
+      "bytes": 2163534,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:49:25",
+      "I_min_max_pA": [
+        -170.08969,
+        -58.429990000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 137,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100137.dat",
+      "sha256": "a8823c171a318ef2f1699a9e86fc135ae51061784466863325f355b4f83eea00",
+      "bytes": 2163695,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:49:38",
+      "I_min_max_pA": [
+        -140.59598,
+        -72.65835200000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 138,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100138.dat",
+      "sha256": "e99f725f45758ca04fa8a275c3612b6f0c0b249c1720346d7b7b92eb18ac9d08",
+      "bytes": 2163272,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:49:50",
+      "I_min_max_pA": [
+        -588.2209700000001,
+        -38.423736
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 139,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100139.dat",
+      "sha256": "b1038009021fbc8c845ce279cc29ce405bf1f26582f086186f0d19dc1a25650c",
+      "bytes": 2163833,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:50:03",
+      "I_min_max_pA": [
+        -154.8901,
+        -64.161496
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 140,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100140.dat",
+      "sha256": "d7ac56c192523b57774d96c33b2e8aeba116917ec9b78a87ce0f49967928e37d",
+      "bytes": 2164088,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:50:15",
+      "I_min_max_pA": [
+        -784.88277,
+        -34.861725
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 141,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100141.dat",
+      "sha256": "1046b06e6247785c83b97fb6e9f22cece0545e66aa52a593db324f2616330b71",
+      "bytes": 2163791,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:50:28",
+      "I_min_max_pA": [
+        -178.13182999999998,
+        -64.16806
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 142,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100142.dat",
+      "sha256": "df6234aa9dc87b4ca0ba2966acb6acb629e46a11a42be88609c2868fa3fdf8aa",
+      "bytes": 2163680,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:50:40",
+      "I_min_max_pA": [
+        -199.31316,
+        -47.543153000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 143,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100143.dat",
+      "sha256": "169e61cf8a7655a0829fe59ac93ae3169787ca03fdc2a6a5111d2dd9710a12ea",
+      "bytes": 2163430,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:50:53",
+      "I_min_max_pA": [
+        -277.19554,
+        -33.798953
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 144,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100144.dat",
+      "sha256": "c694d9a07962273bc76decbdf54c564a0a8d8336b5d3ec90d5dab172b163b4c9",
+      "bytes": 2163248,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:51:05",
+      "I_min_max_pA": [
+        -9984.67,
+        12.600584
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 145,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100145.dat",
+      "sha256": "248e4200d7bd03e9eef35617196f0006235ff0ada79a7f5c111264bdbbfc2e34",
+      "bytes": 2163522,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:51:18",
+      "I_min_max_pA": [
+        -6768.1594000000005,
+        -20.231294000000002
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 146,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100146.dat",
+      "sha256": "245ea36c788077fc2db4f0bf3fe4dcd616a9ecb585bea3066b853dba9831bec4",
+      "bytes": 2163559,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:51:30",
+      "I_min_max_pA": [
+        -1284.5851,
+        -16.865358
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 147,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100147.dat",
+      "sha256": "d15f5123ae032393e4d66a9bc2c64b679a8c4dae9198062fd27115c7a9a47270",
+      "bytes": 2163337,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:51:43",
+      "I_min_max_pA": [
+        -195.1382,
+        -61.013306
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 148,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100148.dat",
+      "sha256": "e312e92c699e41e0dfc6497f5d47982891564f2a67d36890564cd1bfcf94ba95",
+      "bytes": 2163432,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:51:55",
+      "I_min_max_pA": [
+        -198.81588,
+        -57.858246
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 149,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100149.dat",
+      "sha256": "99745c26980f6b3b7bbe548bdec41850b7dacc616db404621b2dcfe653851fbf",
+      "bytes": 2163417,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:52:08",
+      "I_min_max_pA": [
+        -596.4569899999999,
+        -29.517030999999996
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 150,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100150.dat",
+      "sha256": "736e19379b3d9bb681f388ec1d17462d85a0d19360c4b6e17df9f496e582caf9",
+      "bytes": 2163316,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:52:20",
+      "I_min_max_pA": [
+        -364.55775,
+        -15.02103
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 151,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100151.dat",
+      "sha256": "f9362adfbd201a049d2f5f8361ef942fcbd64813a39f824eba76b50f4e8630ef",
+      "bytes": 2163363,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:52:33",
+      "I_min_max_pA": [
+        -2976.4002,
+        -26.380282
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 152,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100152.dat",
+      "sha256": "21f4efd35bdaaef9f99dadb05f7607f9e980f5da046cc2966d4fc64cd9752ffe",
+      "bytes": 2164240,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:52:45",
+      "I_min_max_pA": [
+        -119.13541,
+        -87.621729
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 153,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100153.dat",
+      "sha256": "f8a6677800f5af25ec74120cfd25784e81fe50367dda358df54df30292c08b5b",
+      "bytes": 2163939,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:52:58",
+      "I_min_max_pA": [
+        -115.28622,
+        -86.314053
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 154,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100154.dat",
+      "sha256": "209e49d17aef623d6aa00e486576fd36b3802606eb5bc1aaeeb51a9848a57858",
+      "bytes": 2163565,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:53:10",
+      "I_min_max_pA": [
+        -119.49688,
+        -82.305412
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 155,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100155.dat",
+      "sha256": "ac94ac45fdc71cb872eb76297b1e04e05b48f0a33f1acdf21162b1bccf0f82c0",
+      "bytes": 2163794,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:53:23",
+      "I_min_max_pA": [
+        -114.95557,
+        -87.654689
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 156,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100156.dat",
+      "sha256": "b7418cb0feb15d3b0283e2ebf19b6f692dbeab506a348df97fe88335c89fc622",
+      "bytes": 2163815,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:53:35",
+      "I_min_max_pA": [
+        -111.3464,
+        -88.646361
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 157,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100157.dat",
+      "sha256": "3e4ae1c9d642b35742bdefe3cf9e8d67bbe6fcf015c50c6f17046ab18dbf6c7c",
+      "bytes": 2164071,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:53:48",
+      "I_min_max_pA": [
+        -110.72293,
+        -90.237089
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 158,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100158.dat",
+      "sha256": "67a2d4cb19bac3e232be71ed96acec28e6e6bed6ad309943314ad364f48a3667",
+      "bytes": 2164510,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:54:00",
+      "I_min_max_pA": [
+        -108.59066,
+        -91.819732
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 159,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100159.dat",
+      "sha256": "a799c92c120f6771c76b18c850a9b11bc56b619de54a8cbac9683dc58006b913",
+      "bytes": 2163985,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:54:13",
+      "I_min_max_pA": [
+        -110.29262999999999,
+        -90.361142
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 160,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100160.dat",
+      "sha256": "c598a87c0725b5ca989df46d5aac74f25368fc6fc76f01047c82dcbe441db58e",
+      "bytes": 2163697,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:54:25",
+      "I_min_max_pA": [
+        -116.66118999999999,
+        -86.830869
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 161,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100161.dat",
+      "sha256": "be38b449f3c987221e9e8ffcf4e1f4982bb7ffe0836808e3863564c558cbfcbe",
+      "bytes": 2163993,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:54:38",
+      "I_min_max_pA": [
+        -112.92309,
+        -89.136164
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 162,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100162.dat",
+      "sha256": "4a4174473c8612c0720efd3ffc0f3525a74984eedbec6d144bc05a07eee796fc",
+      "bytes": 2164104,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:54:50",
+      "I_min_max_pA": [
+        -111.43887,
+        -89.580808
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 163,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100163.dat",
+      "sha256": "59a344d85b691d90f05f4f519aaeac592aee8db56c3dd4d87f6b69a42b2675a1",
+      "bytes": 2164218,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:55:03",
+      "I_min_max_pA": [
+        -111.13080000000001,
+        -89.137996
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 164,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100164.dat",
+      "sha256": "01d73fbd5f1b0bad03ede5d42fa1b802ee34aa183047f5c1399e014521081f1f",
+      "bytes": 2164168,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:55:15",
+      "I_min_max_pA": [
+        -115.51388,
+        -85.335655
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 165,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100165.dat",
+      "sha256": "843e2bce98114d817e843f8d6113ecf6727b1109cec85916bf7bf703779d2376",
+      "bytes": 2163960,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:55:28",
+      "I_min_max_pA": [
+        -112.70016,
+        -88.788726
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 166,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100166.dat",
+      "sha256": "cf19e487930e772ad49b7dc58ede862b3c3777345b357710145fc04c7d694415",
+      "bytes": 2163865,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:55:40",
+      "I_min_max_pA": [
+        -142.99374,
+        -67.03838900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 167,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100167.dat",
+      "sha256": "1a79f5459d442a4305cc8c94cda7e8c4ebcc021c97709d0239edd3a59cb4bd80",
+      "bytes": 2163475,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:55:53",
+      "I_min_max_pA": [
+        -116.14453,
+        -86.088983
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 168,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100168.dat",
+      "sha256": "814eb4d6b9f445471e1f27f4769e72ae9d313f3c285c2f737d04faccbd47a043",
+      "bytes": 2164065,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:56:05",
+      "I_min_max_pA": [
+        -122.04221,
+        -82.70077
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 169,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100169.dat",
+      "sha256": "10124588e2f1dbd0032dc57a7b91d7f44cf0e2d62bdd851fc5ffef3f02c917ff",
+      "bytes": 2163562,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:56:18",
+      "I_min_max_pA": [
+        -116.50753999999999,
+        -85.482295
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 170,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100170.dat",
+      "sha256": "10f55d537f552e9411b89740db904628b68d3e07fe9fb48f71659f4df7b5ef83",
+      "bytes": 2163216,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:56:30",
+      "I_min_max_pA": [
+        -131.59253,
+        -74.397245
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 171,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100171.dat",
+      "sha256": "a9055423202b2d7480df6c3199caf71a684543ca48f29bb64126377076c779ce",
+      "bytes": 2163325,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:56:43",
+      "I_min_max_pA": [
+        -192.38247,
+        -61.325042
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 172,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100172.dat",
+      "sha256": "10834ae8adf3224383af9f06bf5fc49f67d192eba4a325144fa643470c98fafd",
+      "bytes": 2163446,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:56:55",
+      "I_min_max_pA": [
+        -176.44955000000002,
+        -56.201599
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 173,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100173.dat",
+      "sha256": "cb480aacbfdf4da5f8fa8168ed70c9dd383a15b64df13130f5578c76ee1699b3",
+      "bytes": 2163490,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:57:08",
+      "I_min_max_pA": [
+        -173.37171,
+        -64.134031
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 174,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100174.dat",
+      "sha256": "cf7b2e89c9af17487e970a1b30e69b336dce5518933b727f9e3eabf1417dd18b",
+      "bytes": 2163385,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:57:20",
+      "I_min_max_pA": [
+        -170.90573,
+        -62.672242000000004
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 175,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100175.dat",
+      "sha256": "bbb9a9791884b429fb2ad923a40159ce4876cb28f8db15eb37e3383d4a9e06a8",
+      "bytes": 2163605,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:57:33",
+      "I_min_max_pA": [
+        -117.65590999999999,
+        -82.326472
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 176,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100176.dat",
+      "sha256": "6b27354fb7f0ed722a286f680abfda3a46d86d27b2f42f08788f011fdeaabfd9",
+      "bytes": 2163323,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:57:45",
+      "I_min_max_pA": [
+        -217.76286,
+        -55.029113
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 177,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100177.dat",
+      "sha256": "558000345c624aa0b7e22b1966de466cb56081d77f8d84e488b2b1b4dc125c66",
+      "bytes": 2163579,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:57:58",
+      "I_min_max_pA": [
+        -174.41631,
+        -61.94515700000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 178,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100178.dat",
+      "sha256": "3e272384b1c83723dad063604cd72f30d83707d0f31e70f3f998dc91757dac2e",
+      "bytes": 2163268,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:58:10",
+      "I_min_max_pA": [
+        -133.35004,
+        -75.602691
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 179,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100179.dat",
+      "sha256": "bb30bee522b7c702e32335e9abeee074a8b8acaf08fd2bcca2ffccc783c3166b",
+      "bytes": 2163990,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:58:23",
+      "I_min_max_pA": [
+        -112.0181,
+        -88.92391699999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 180,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100180.dat",
+      "sha256": "0c39f6fd67b1e9e3288add065410a6ffa615c1e815dbf8c79faa463ae1eda7e9",
+      "bytes": 2163829,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:58:35",
+      "I_min_max_pA": [
+        -132.19556,
+        -81.67324500000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 181,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100181.dat",
+      "sha256": "2bc8d32b394de127ff265b76067a31e2f87950030f92343a51b8248fb516baeb",
+      "bytes": 2163494,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:58:48",
+      "I_min_max_pA": [
+        -236.44206,
+        -56.90045
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 182,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100182.dat",
+      "sha256": "c99d60e99f6ad302b5502a567a4fb10cdfc67c0e073eb2ba80e1b602fd9935e6",
+      "bytes": 2163464,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:59:00",
+      "I_min_max_pA": [
+        -195.16109999999998,
+        -54.464995
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 183,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100183.dat",
+      "sha256": "ffa57fc1b6b41485faeb4d45f9795311497298a4681b2e69d2353329f638c814",
+      "bytes": 2163550,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:59:13",
+      "I_min_max_pA": [
+        -237.49765999999997,
+        -55.672425
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 184,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100184.dat",
+      "sha256": "99122e76aef969e43257ecbafedf0f5970fd6c13e539dfa59147cb27578a32a6",
+      "bytes": 2163511,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:59:25",
+      "I_min_max_pA": [
+        -552.10109,
+        -23.738832000000002
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 185,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100185.dat",
+      "sha256": "f42f1d5db0e089fedc8bf5cee4d528177651a180e1844997d194fa9935cb152f",
+      "bytes": 2163863,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:59:38",
+      "I_min_max_pA": [
+        -422.41985,
+        -10.101289999999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 186,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100186.dat",
+      "sha256": "0aae13275089c163f26f9df37fe688f00e30a8fa10d37bba71a6b2a066838bfd",
+      "bytes": 2163540,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 08:59:50",
+      "I_min_max_pA": [
+        -183.15503,
+        -56.763121999999996
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 187,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100187.dat",
+      "sha256": "46a6b99403d584e535e61f4ffede458924bb4ef8cbd33cdb1888eac1be2ef474",
+      "bytes": 2163562,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:00:03",
+      "I_min_max_pA": [
+        -138.23788,
+        -70.807922
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 188,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100188.dat",
+      "sha256": "705f8824f76ea2c9bc7117f219617ba94f43f144a3fa5726d1af1f7e41ab581f",
+      "bytes": 2163256,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:00:15",
+      "I_min_max_pA": [
+        -416.0699,
+        -41.670962
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 189,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100189.dat",
+      "sha256": "98c09c1ec8f5e453b6e773be90e113f817d2cb8d0173b5210bd18ea1f14f0b8a",
+      "bytes": 2163540,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:00:28",
+      "I_min_max_pA": [
+        -196.49746,
+        -57.673158
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 190,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100190.dat",
+      "sha256": "aaec5d52fffe92cc0b9303a5a0bee96c5318925b4a7eff92fe75f4f7b7c9d562",
+      "bytes": 2163355,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:00:40",
+      "I_min_max_pA": [
+        -130.16355,
+        -76.872522
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 191,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100191.dat",
+      "sha256": "e8f8f7ff1ac3fe0d17bedab195067757b1cd12c9630de9d6913d9d5d6285e4ef",
+      "bytes": 2163386,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:00:53",
+      "I_min_max_pA": [
+        -338.85647,
+        -45.239076
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 192,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100192.dat",
+      "sha256": "057a5d9729e25d7a1e65e827769765a078b4c99c3a03b262a3e270a93c2c765d",
+      "bytes": 2163425,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:01:05",
+      "I_min_max_pA": [
+        -212.36202,
+        -54.693725
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 193,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100193.dat",
+      "sha256": "20bffc3778492c22ae15ff89b5cd28ead7ab1af0391026110b5edb77be586a4c",
+      "bytes": 2163411,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:01:18",
+      "I_min_max_pA": [
+        -250.2708,
+        -54.618501
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 194,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100194.dat",
+      "sha256": "fb443a08239e776d41a68845bccecc376cc95fcbffd7c2262fa4c9c58ad3de06",
+      "bytes": 2163550,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:01:30",
+      "I_min_max_pA": [
+        -406.66834,
+        -24.178283999999998
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 195,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100195.dat",
+      "sha256": "2ffabcadcec33a57e48545da0ec929d0ff9d64702c8bd02ea25962d8efb9edad",
+      "bytes": 2163860,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:01:43",
+      "I_min_max_pA": [
+        -9999.4768,
+        9.1447735
+      ],
+      "matching_negative_software_limit_samples": 2
+    },
+    {
+      "block": 196,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100196.dat",
+      "sha256": "d96caed43d333eb9d3f39ac166dd14a74f53c45e83b5ea72e2be28edb60d1294",
+      "bytes": 2163929,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:01:55",
+      "I_min_max_pA": [
+        -1428.2151,
+        -16.185426
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 197,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100197.dat",
+      "sha256": "0b6659d2910e1c3c0c196f3f2f9e5f0b69f878ea3bca37afc8aed2e7aa011201",
+      "bytes": 2163800,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:02:08",
+      "I_min_max_pA": [
+        -397.28085,
+        -58.759123
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 198,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100198.dat",
+      "sha256": "77a7ac09fa1fa12fd18c62cea96d6383d0fd9a029b37b2413cffd9f8a3c50b16",
+      "bytes": 2163727,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:02:20",
+      "I_min_max_pA": [
+        -160.55798000000001,
+        -61.138121999999996
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 199,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100199.dat",
+      "sha256": "20ea33cb3a0738c91df01d71b527da5da2988f0b55de337f2c1674ca30b836be",
+      "bytes": 2163900,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:02:33",
+      "I_min_max_pA": [
+        -280.09242,
+        -48.110627
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 200,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100200.dat",
+      "sha256": "9307dd05c71abcb48dda3cd886f736bdc847e363f70b734223db292d565dd3c6",
+      "bytes": 2164208,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:02:45",
+      "I_min_max_pA": [
+        -361.26169,
+        -9.1724874
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 201,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100201.dat",
+      "sha256": "14355ce8e14d282ee5430a3049e0a3fdae8de24428e15b0a9fda4c79fa76f412",
+      "bytes": 2163929,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:02:58",
+      "I_min_max_pA": [
+        -488.52383,
+        -29.660462
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 202,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100202.dat",
+      "sha256": "27e4375cdbab58d13b5c72b14aa4c8337a2dbe34d4b10b92acfb4000dd32bc6b",
+      "bytes": 2163782,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:03:10",
+      "I_min_max_pA": [
+        -158.0682,
+        -88.315397
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 203,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100203.dat",
+      "sha256": "bb109afeab0ece014bd8216ae5d93339a54f56b7de8bf18d1315afcf68f28f04",
+      "bytes": 2164068,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:03:23",
+      "I_min_max_pA": [
+        -113.70709000000001,
+        -87.989165
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 204,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100204.dat",
+      "sha256": "5d0da277060b8607e521ec0dffff52ca57e0680631207a892904e8e288670266",
+      "bytes": 2163775,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:03:35",
+      "I_min_max_pA": [
+        -112.49233000000001,
+        -89.013637
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 205,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100205.dat",
+      "sha256": "5d2fa7ae0c76774dc3ebc6a5a78f2092c1ca9323a418f08f63f7feeeb23e4cc7",
+      "bytes": 2164130,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:03:48",
+      "I_min_max_pA": [
+        -111.87436,
+        -88.97838700000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 206,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100206.dat",
+      "sha256": "7767b79faa57560d7a6df77ab4e6457244818ee1b9d9bed6ac26a510fddbd8db",
+      "bytes": 2163827,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:04:00",
+      "I_min_max_pA": [
+        -111.32321,
+        -88.798184
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 207,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100207.dat",
+      "sha256": "4113c8766cb4189db8e1e540a84d1b0327586d81c52ffa6af0c5619cd30ac6e0",
+      "bytes": 2164073,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:04:13",
+      "I_min_max_pA": [
+        -109.26144,
+        -90.489775
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 208,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100208.dat",
+      "sha256": "43fecaa0e39d217adf3e58c5ec7b1591003e61f5075d1f0459b927850eeb5046",
+      "bytes": 2163620,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:04:25",
+      "I_min_max_pA": [
+        -116.15062999999999,
+        -86.963312
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 209,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100209.dat",
+      "sha256": "470430e995ec2754834c2865bbe059fa24e1a1f96d57e536369edcc52c918ce5",
+      "bytes": 2163815,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:04:38",
+      "I_min_max_pA": [
+        -114.15494,
+        -88.761561
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 210,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100210.dat",
+      "sha256": "2c5900ec7e3f6a26422a0f0bc1df32804f4717faf2ca5b4fcd90c900650b1666",
+      "bytes": 2164993,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:04:50",
+      "I_min_max_pA": [
+        -107.29366999999999,
+        -92.43129900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 211,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100211.dat",
+      "sha256": "602db891c1486626f60cb82f1316bcb63f06f4ad3caff32e08c4549f69ef5776",
+      "bytes": 2165676,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:05:03",
+      "I_min_max_pA": [
+        -105.48062,
+        -94.804498
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 212,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100212.dat",
+      "sha256": "9eddc17523836e32f6f5ad89944faebba421810a52fb3cf094fe113642c3a3a8",
+      "bytes": 2164793,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:05:15",
+      "I_min_max_pA": [
+        -107.67468,
+        -92.772186
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 213,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100213.dat",
+      "sha256": "64e6002515631c5f59ed19d6e06a003dd46c3ca56b82fc5cecccc11d3161f5ca",
+      "bytes": 2165403,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:05:28",
+      "I_min_max_pA": [
+        -105.54089,
+        -94.644285
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 214,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100214.dat",
+      "sha256": "0e7dd33210b3d23ac4149b4cc3eacfde1fbfe54dd144d7a51ecaf39403f0f857",
+      "bytes": 2164833,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:05:40",
+      "I_min_max_pA": [
+        -114.15723,
+        -87.881591
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 215,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100215.dat",
+      "sha256": "92831dcf1d1304f10d207c08ef4d8726e1f3ee773ebe01ba704ceb0839dadef7",
+      "bytes": 2163457,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:05:53",
+      "I_min_max_pA": [
+        -115.56972999999999,
+        -86.829648
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 216,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100216.dat",
+      "sha256": "9585369d70a1ee4b7842564d0c85fc909e18b1021bf7aca4c4234c7076ffce30",
+      "bytes": 2164623,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:06:05",
+      "I_min_max_pA": [
+        -106.65127,
+        -93.49437900000001
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 217,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100217.dat",
+      "sha256": "6ac449c0a877e18b32b153796862bf7f274270fd1c285acf3930c10054285e23",
+      "bytes": 2165865,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:06:18",
+      "I_min_max_pA": [
+        -105.17911,
+        -93.81329
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 218,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100218.dat",
+      "sha256": "44685b783b69f63fa67c36c23b5a7ba501101c63a9bbacda249e7ead191314ca",
+      "bytes": 2164786,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:06:30",
+      "I_min_max_pA": [
+        -107.34005,
+        -92.994196
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 219,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100219.dat",
+      "sha256": "b3b629ef520ed76b18553f575f54478d20cbcda70abd659cf5bccb3f374c4477",
+      "bytes": 2163913,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:06:43",
+      "I_min_max_pA": [
+        -110.89886,
+        -90.515713
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 220,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100220.dat",
+      "sha256": "02ddb04313b09f6e03940b9432e12d24104b27471aae8d64a1389b76a5d99c3e",
+      "bytes": 2164528,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:06:55",
+      "I_min_max_pA": [
+        -108.64574999999999,
+        -92.031674
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 221,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100221.dat",
+      "sha256": "57550aeaee28eb0d85efb9e729043c363308acb5edf5cc1a838d98c25f2da0be",
+      "bytes": 2165273,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:07:08",
+      "I_min_max_pA": [
+        -106.10607999999999,
+        -93.52520799999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 222,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100222.dat",
+      "sha256": "be71fd6f5373c3351f4753be30733e250c56e1a371d7838731154d6858116548",
+      "bytes": 2164535,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:07:20",
+      "I_min_max_pA": [
+        -107.09302,
+        -92.909666
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 223,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100223.dat",
+      "sha256": "65b867125090f6bdb817fed3c18d18ece6b3f228047c00e8303023fdd97b9cab",
+      "bytes": 2165186,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:07:33",
+      "I_min_max_pA": [
+        -106.23333,
+        -93.925742
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 224,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100224.dat",
+      "sha256": "2148b59eddbf4037919573167106f38417bc853049d88b47f1bc3d2821eb5a01",
+      "bytes": 2164784,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:07:45",
+      "I_min_max_pA": [
+        -110.84469,
+        -89.873012
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 225,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100225.dat",
+      "sha256": "5add67c3579c82cedebf7a0581d8fba39d510dbe1e6337301879cf5f3d247f21",
+      "bytes": 2164488,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:07:58",
+      "I_min_max_pA": [
+        -108.01388,
+        -91.25057699999999
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 226,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100226.dat",
+      "sha256": "8c2d8e7f3fd38ef4472b53f2aee313195b96309290ec7127d98b18101fd34285",
+      "bytes": 2164672,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:08:10",
+      "I_min_max_pA": [
+        -107.36706,
+        -92.163055
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 227,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100227.dat",
+      "sha256": "96145f2b17188b3176fe6699eeedb915ba594cc53212c6d9dd29e6623a34927e",
+      "bytes": 2165559,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:08:23",
+      "I_min_max_pA": [
+        -105.16369,
+        -94.416468
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 228,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100228.dat",
+      "sha256": "10ae729f63f221d253bb29a49b365c4c863d3e78fc3adbf61e12acf9e889f92c",
+      "bytes": 2166402,
+      "rows": 25000,
+      "finite_scalars": 150000,
+      "saved_date_text": "02.11.2026 09:08:35",
+      "I_min_max_pA": [
+        -103.92377,
+        -95.942955
+      ],
+      "matching_negative_software_limit_samples": 0
+    },
+    {
+      "block": 229,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100229.dat",
+      "sha256": "b7522e13dc37a0e188ac37210c04baa372b55a00ecd572e8c009b52d6aa68654",
+      "bytes": 663568,
+      "rows": 7660,
+      "finite_scalars": 45960,
+      "saved_date_text": "02.11.2026 09:08:48",
+      "I_min_max_pA": [
+        -107.11498,
+        -92.191282
+      ],
+      "matching_negative_software_limit_samples": 0
+    }
+  ],
+  "whole_record_current_min_max_pA": [
+    -9999.4768,
+    15.519283999999999
+  ],
+  "whole_record_Z_min_max_nm": [
+    -102.68992,
+    -97.706291
+  ],
+  "abs_I_ge_pA_samples": {
+    "400": 1000744,
+    "1000": 533356,
+    "4000": 114,
+    "9990": 89
+  },
+  "software_negative_limit_total_samples": 89,
+  "software_negative_limit_distribution": {
+    "commanded_pulse_A01": 87,
+    "uncommanded_confirm198_scan": 2,
+    "elsewhere_in_record": 0
+  },
+  "negative_limit_global_indices": [
+    2184964,
+    2184965,
+    2184966,
+    2184967,
+    2184968,
+    2184969,
+    2184970,
+    2184971,
+    2184972,
+    2184973,
+    2184974,
+    2184975,
+    2184976,
+    2184977,
+    2184978,
+    2184979,
+    2184980,
+    2184981,
+    2184982,
+    2184983,
+    2184984,
+    2184985,
+    2184986,
+    2184987,
+    2184988,
+    2184989,
+    2184990,
+    2184991,
+    2184992,
+    2184993,
+    2184994,
+    2184995,
+    2184996,
+    2184997,
+    2184998,
+    2184999,
+    2185000,
+    2185001,
+    2185002,
+    2185003,
+    2185004,
+    2185005,
+    2185006,
+    2185007,
+    2185008,
+    2185009,
+    2185010,
+    2185011,
+    2185012,
+    2185013,
+    2185014,
+    2185015,
+    2185016,
+    2185017,
+    2185018,
+    2185019,
+    2185020,
+    2185021,
+    2185022,
+    2185023,
+    2185024,
+    2185025,
+    2185026,
+    2185027,
+    2185028,
+    2185029,
+    2185030,
+    2185031,
+    2185032,
+    2185033,
+    2185034,
+    2185035,
+    2185036,
+    2185037,
+    2185038,
+    2185039,
+    2185040,
+    2185041,
+    2185042,
+    2185043,
+    2185044,
+    2185045,
+    2185046,
+    2185047,
+    2185048,
+    2185049,
+    2185050,
+    4860976,
+    4871940
+  ],
+  "nonrest_bias_samples": 41,
+  "nonrest_bias_global_indices": [
+    2184962,
+    2184963,
+    2184964,
+    2184965,
+    2184966,
+    2184967,
+    2184968,
+    2184969,
+    2184970,
+    2184971,
+    2184972,
+    2184973,
+    2184974,
+    2184975,
+    2184976,
+    2184977,
+    2184978,
+    2184979,
+    2184980,
+    2184981,
+    2184982,
+    2184983,
+    2184984,
+    2184985,
+    2184986,
+    2184987,
+    2184988,
+    2184989,
+    2184990,
+    2184991,
+    2184992,
+    2184993,
+    2184994,
+    2184995,
+    2184996,
+    2184997,
+    2184998,
+    2184999,
+    2185000,
+    2185001,
+    2185002
+  ],
+  "bias_value_counts": {
+    "-1.0": 5707619,
+    "-5.0": 39,
+    "-3.8": 1,
+    "-2.2": 1
+  },
+  "max_adjacent_Z_pm": 271.4099999999946,
+  "max_adjacent_Z_later_global_index": 2185067,
+  "last30s": {
+    "duration_s": 30,
+    "rows": 60000,
+    "I_min_max_pA": [
+      -107.11498,
+      -92.191282
+    ],
+    "I_mean_pA": -99.67851470833332,
+    "I_RMS_about_mean_pA": 1.35107945525345,
+    "I_outside_minus100pA_pm20pct_count": 0,
+    "Z_slope_pm_s": -0.02856429723793504,
+    "Z_detrended_RMS_pm": 1.0993168309324266,
+    "max_adjacent_Z_pm": 2.570000000006985
+  },
+  "last5s": {
+    "duration_s": 5,
+    "rows": 10000,
+    "I_min_max_pA": [
+      -107.11498,
+      -92.191282
+    ],
+    "I_mean_pA": -99.692460477,
+    "I_RMS_about_mean_pA": 1.8769259643091243,
+    "I_outside_minus100pA_pm20pct_count": 0,
+    "Z_slope_pm_s": -0.009045723330421234,
+    "Z_detrended_RMS_pm": 1.122686316740513,
+    "max_adjacent_Z_pm": 2.570000000006985
+  },
+  "stage_coverage": {
+    "before_full": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/scan_start.claim",
+        "sha256": "901ba02af89bfd388fb8588ddf46187a1a1686169d353529601be6effe4c1efa"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/outcome.json",
+        "sha256": "d66361643b15da140e059510f92dbcde29197b38fa41ac788a383a6640b26bc5"
+      },
+      "start_utc": "2026-11-02T00:22:25.766091+00:00",
+      "outcome_utc": "2026-11-02T00:29:50.123481+00:00",
+      "outcome_status": "completed"
+    },
+    "prepare_A01": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/manifest.json",
+        "sha256": "b37174a3d05c90f2f38dfae43c54dbe29ed36ccdf10731dff306ad1b43642b67"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/outcome.json",
+        "sha256": "3a10e648080ad8d49435ebd730c91a05552fe880362e3c524e7ef74f8b1e2d50"
+      },
+      "start_utc": "2026-11-02T00:35:05.861093+00:00",
+      "outcome_utc": "2026-11-02T00:36:41.655804+00:00",
+      "outcome_status": "completed"
+    },
+    "pulse_A01": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse.claim",
+        "sha256": "2cfee40cf220c6fcc333ce40ee7bb233f63e9c3cc154983789557360f2941ec9"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/outcome.json",
+        "sha256": "5ddb9a68caa9e329bb11a3e102a00dbe1e7314b55f9746b7948c5058f23d9d45"
+      },
+      "start_utc": "2026-11-02T00:39:30.915570+00:00",
+      "outcome_utc": "2026-11-02T00:40:01.529581+00:00",
+      "outcome_status": "single_pulse_knownend_30s_observed"
+    },
+    "return_A01": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/manifest.json",
+        "sha256": "357f817182a068f38271bc199b8419b30c953da3685e02ec0902ba79b57b0ce8"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/outcome.json",
+        "sha256": "db2d66620aa777f38bb41fa9055921a3c9a2f7ea930c7d88ba0ba9aefdc5c6e8"
+      },
+      "start_utc": "2026-11-02T00:43:32.817146+00:00",
+      "outcome_utc": "2026-11-02T00:45:09.437556+00:00",
+      "outcome_status": "completed"
+    },
+    "after_A01_full": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/scan_start.claim",
+        "sha256": "f8e91fefc8a731cf249173410a0be134a06468bdc4faec2130b5fd33013e16a8"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/outcome.json",
+        "sha256": "476e32d4cbf45f45fe765d738a39467a23bfb56132204cc9d997f56128716a6f"
+      },
+      "start_utc": "2026-11-02T00:45:24.849760+00:00",
+      "outcome_utc": "2026-11-02T00:52:49.616131+00:00",
+      "outcome_status": "completed"
+    },
+    "confirm_A01_full": {
+      "start_record": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/scan_start.claim",
+        "sha256": "94ec0bd7b9047ab3451186b99ab6ecfe2e578cb2d69da5d3cb3077ed90459ca6"
+      },
+      "outcome": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/outcome.json",
+        "sha256": "76083dcc711ba8f3645aaa16a481d1fb99de177df9bbbfc550a5ea4cc2a3cf6f"
+      },
+      "start_utc": "2026-11-02T00:55:51.075200+00:00",
+      "outcome_utc": "2026-11-02T01:03:15.771097+00:00",
+      "outcome_status": "completed"
+    }
+  },
+  "intentional_stop_reconciliation": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/intentional_stop_reconciliation.json",
+    "sha256": "eeaa13b05548f12fac72ea9515ab333316e51a406a39dc63601481431845b64a"
+  },
+  "interpretation": [
+    "All expected file indices/rows match terminal stopped counter; same native stream spans full before196,prepare,pulse,return,fullafter197,fullconfirm198. No missing archived block is detected.",
+    "This is complete archive of an intentionally shortened2853.83s record, not successful natural7200nominal/3600wall completion.",
+    "File continuity/count consistency is evidence for coverage; no per-sample hardware timestamp or analog no-drop/no-overload theorem is asserted.",
+    "89software-lower-limit-matching samples are exactly87duringpulse and2duringconfirm198; no additionalmatching floor observed elsewhere.",
+    "Current/Z aggregate extremes mix deliberate intervention and scanning; they are not a standalone image-quality or stationary-noise score.",
+    "No successful repair cycle or chemical cleanliness is inferred. Original failure-style recorder outcome remains preserved."
+  ]
+}

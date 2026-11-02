@@ -1,0 +1,162 @@
+{
+  "created_utc": "2026-11-02T01:05:59.616153+00:00",
+  "scope": "Completed197 post versus completed198 no-conditioning full repeat; no new repair attempt",
+  "46_static_fields_exact": true,
+  "fields": [
+    "Bias.Get",
+    "ZCtrl.SetpntGet",
+    "SafeTip.OnOffGet",
+    "AutoApproach.OnOffGet",
+    "BiasSpectr.StatusGet",
+    "ZSpectr.StatusGet",
+    "FolMe.PSOnOffGet",
+    "Scan.FrameGet",
+    "Scan.BufferGet",
+    "Scan.SpeedGet",
+    "Scan.PropsGet",
+    "SafeTip.PropsGet",
+    "ZCtrl.GainGet",
+    "ZCtrl.LimitsEnabledGet",
+    "ZCtrl.LimitsGet",
+    "ZCtrl.TipLiftGet",
+    "ZCtrl.SwitchOffDelayGet",
+    "ZCtrl.HomePropsGet",
+    "FolMe.SpeedGet",
+    "Current.GainsGet",
+    "TipShaper.PropsGet",
+    "BiasSpectr.PropsGet",
+    "BiasSpectr.LimitsGet",
+    "BiasSpectr.TimingGet",
+    "BiasSpectr.AdvPropsGet",
+    "ZSpectr.PropsGet",
+    "ZSpectr.TimingGet",
+    "ZSpectr.RangeGet",
+    "ZSpectr.RetractGet",
+    "ZSpectr.AdvPropsGet",
+    "BiasSpectr.ChsGet",
+    "ZSpectr.ChsGet",
+    "BiasSpectr.AltZCtrlGet",
+    "BiasSpectr.ZOffRevertGet",
+    "BiasSpectr.SafeCond1Get",
+    "BiasSpectr.SafeCond2Get",
+    "ZSpectr.Retract2ndGet",
+    "ZSpectr.RetractDelayGet",
+    "Util.VersionGet",
+    "Util.SessionPathGet",
+    "Signals.NamesGet",
+    "Util.RTFreqGet",
+    "Util.RTOversamplGet",
+    "Util.AcqPeriodGet",
+    "LockIn.ModOnOffGet[1]",
+    "LockIn.ModOnOffGet[2]"
+  ],
+  "before_snapshot_sha256": "0753a9d27a2c7dae97606a402bfb939029ee9ad07701fde2c803cbfb98edb54d",
+  "after_snapshot_sha256": "3369e08c64afeec22d033f0b002478fbb0240b85018875e5457defdfd3cb8f50",
+  "post197_native_end": {
+    "utc": "2026-11-02T00:52:43.605711+00:00",
+    "monotonic_ns": 1452208318770958,
+    "values": [
+      0,
+      84,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00197.sxm"
+    ],
+    "elapsed_s": 438.7540424170438
+  },
+  "confirm198_start_claim": {
+    "utc": "2026-11-02T00:55:51.075200+00:00",
+    "monotonic_ns": 1452395787462541,
+    "command": "Scan.Action",
+    "args": [
+      0,
+      0
+    ],
+    "at_most_once": true,
+    "source_sha256": "9dabd50835abd8996ec4c23a52c286121b4b55c021351eb78e0c5abfd5c5b207",
+    "static_reference_sha256": "9de72fc487ed050909cd0e8f1ba5f1dd328f5b314d9ee82ad12337f7229e5a71",
+    "session_id": "session_01",
+    "event_id": "confirm_A01_full"
+  },
+  "confirm198_native_end": {
+    "utc": "2026-11-02T01:03:09.876240+00:00",
+    "monotonic_ns": 1452834586904958,
+    "values": [
+      0,
+      84,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00198.sxm"
+    ],
+    "elapsed_s": 438.7991901249625
+  },
+  "end197_to_start198_s": 187.468691583,
+  "same_direction_unregistered_fullfield": {
+    "F": {
+      "z": {
+        "units": "pm",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 28.858990012518387,
+        "RMSE": 35.034888993437185,
+        "mean_offset_removed_RMS": 19.864595194461685,
+        "correlation": 0.9880348382202642,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      },
+      "p": {
+        "units": "pm",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 4.953108145855367e-11,
+        "RMSE": 12.682918701325844,
+        "mean_offset_removed_RMS": 12.682918701325844,
+        "correlation": 0.9876209008025107,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      },
+      "I": {
+        "units": "pA",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 0.33509482527228285,
+        "RMSE": 16.08344446488103,
+        "mean_offset_removed_RMS": 16.079953274589695,
+        "correlation": 0.1346003942359914,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      }
+    },
+    "B": {
+      "z": {
+        "units": "pm",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 28.690239073370094,
+        "RMSE": 34.97394055718192,
+        "mean_offset_removed_RMS": 20.00116746617963,
+        "correlation": 0.98791674478655,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      },
+      "p": {
+        "units": "pm",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 5.784992633077006e-11,
+        "RMSE": 12.85746714104154,
+        "mean_offset_removed_RMS": 12.857467141041539,
+        "correlation": 0.9875044138413234,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      },
+      "I": {
+        "units": "pA",
+        "same_pixel_pairs": 57600,
+        "mean_after_minus_prior": 0.2029011446584842,
+        "RMSE": 26.37657514117741,
+        "mean_offset_removed_RMS": 26.37579472364149,
+        "correlation": 0.06978737151432732,
+        "no_registration": true,
+        "not_acceptance_threshold": true
+      }
+    }
+  },
+  "intervening_actions": "Root reports no further conditioning; native reposition at scan start is retained as normal movement, not no-motion proof.",
+  "limits": [
+    "Whole-field repeat metrics mix real morphology, local evolution, drift, line offsets and detector/control noise.",
+    "Fixed same-pixel comparison is not drift corrected; no alignment optimized for acceptance.",
+    "Raw/plane/imaging pixels do not bound native transient current or independently determine current clipping."
+  ]
+}

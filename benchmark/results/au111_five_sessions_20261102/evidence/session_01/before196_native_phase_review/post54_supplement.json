@@ -1,0 +1,96 @@
+{
+  "scope": "Conservative after196 fixedXY postwindow within54root-copiedclosedblocks; not later live state or complete7200logger",
+  "source_receipt": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native_before196_54blocks_review/receipt_at_review.json",
+  "source_receipt_sha256": "21d9047fc5b5beda646b11d2f6f5bee41746caed9c63a2c7302c03c6a5ce901a",
+  "script_sha256": "0b157788bd80f445ba4b5690aa33334b9cf205265d16a5af4af13ea6c80f78f0",
+  "initial_phase_review_sha256": "508bd6cf5dfe88e2866e62d80c42f41c7f98de81456fb9e2042362ea41f900aa",
+  "all54block_audit_sha256": "dec20b08b00f7dcf77bbf8dae50d5a86fefcd70a7ce94b9f6f10cf737d639d6c",
+  "post_global_sample_range_half_open": [
+    1011780,
+    1350000
+  ],
+  "post": {
+    "rows": 338220,
+    "nominal_duration_s": 169.11,
+    "sample_center_span_s": 169.1095,
+    "I_min_max_pA": [
+      -152.40247,
+      -66.715057
+    ],
+    "I_mean_pA": -99.79369599793625,
+    "I_RMS_about_mean_pA": 4.143076815816773,
+    "abs_I_ge_pA_counts": {
+      "400": 0,
+      "1000": 0,
+      "9990": 0
+    },
+    "I_outside_minus120_to_minus80pA_samples": 1574,
+    "historical_negative_rail_samples": 0,
+    "bias_min_max_V": [
+      -1.0,
+      -1.0
+    ],
+    "Z_linear_slope_pm_per_s": -0.05455788478366714,
+    "Z_detrended_RMS_pm": 2.811141122465602,
+    "Z_range_pm": 40.48999999999069,
+    "max_adjacent_abs_Z_pm": 15.669999999998254
+  },
+  "last30s": {
+    "rows": 60000,
+    "nominal_duration_s": 30.0,
+    "sample_center_span_s": 29.9995,
+    "I_min_max_pA": [
+      -121.83331,
+      -83.48690500000001
+    ],
+    "I_mean_pA": -99.72896496025001,
+    "I_RMS_about_mean_pA": 2.9942110551974266,
+    "abs_I_ge_pA_counts": {
+      "400": 0,
+      "1000": 0,
+      "9990": 0
+    },
+    "I_outside_minus120_to_minus80pA_samples": 1,
+    "historical_negative_rail_samples": 0,
+    "bias_min_max_V": [
+      -1.0,
+      -1.0
+    ],
+    "Z_linear_slope_pm_per_s": -0.044384000472218715,
+    "Z_detrended_RMS_pm": 1.4432070501115404,
+    "Z_range_pm": 25.080000000001746,
+    "max_adjacent_abs_Z_pm": 7.420000000012806
+  },
+  "last10s": {
+    "rows": 20000,
+    "nominal_duration_s": 10.0,
+    "sample_center_span_s": 9.9995,
+    "I_min_max_pA": [
+      -114.12945,
+      -85.628477
+    ],
+    "I_mean_pA": -99.71803812145,
+    "I_RMS_about_mean_pA": 2.759163092977395,
+    "abs_I_ge_pA_counts": {
+      "400": 0,
+      "1000": 0,
+      "9990": 0
+    },
+    "I_outside_minus120_to_minus80pA_samples": 0,
+    "historical_negative_rail_samples": 0,
+    "bias_min_max_V": [
+      -1.0,
+      -1.0
+    ],
+    "Z_linear_slope_pm_per_s": 0.009058965230817038,
+    "Z_detrended_RMS_pm": 1.335348835448588,
+    "Z_range_pm": 11.34000000001106,
+    "max_adjacent_abs_Z_pm": 5.120000000009895
+  },
+  "limitations": [
+    "Native samples outside slow100pA\u00b120%band remain counted, not hidden; native RMS differs from integratedCurrent.Get guard",
+    "Zfit is descriptive engineering observation, not proof of no creep or unchanged apex",
+    "No historical identical rail does not prove analog chain unsaturated or establish truepeak upperbound",
+    "Nextaction admission requires independent freshstate/source/authorization/logger guards"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-11-02T12:36:38.467287+00:00",
+  "scan": "BM261029_00200.sxm",
+  "role": "Full fast diagnostic scan now prospectively selected as pre-intervention baseline for an exploratory local-quality conditioning attempt",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/outcome.json",
+      "sha256": "d15a8820b079763cc319b7a49a3e2fb1a534377b861e1de0cea00722b2f6af6d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/native_copy_receipt.json",
+      "sha256": "491e4e57a89702179102c42507f7bc5095c76bf15e32c5d45f4270a1b1bbb8f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/analysis_full/quality_report.json",
+      "sha256": "bf777e98e79fda9672d888a75a17b4a78158536adfbf1c37ee29462f71daafcd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_006_after_fast/snapshot.json",
+      "sha256": "e87b50e6afd50eab3f2333ce8759a1dbd474e9099c83fecbea3856e565192bb8"
+    }
+  ],
+  "root_images_actually_viewed": [
+    "Z raw F/B",
+    "global-plane F/B"
+  ],
+  "observed": "Most nanometer objects distinguishable; 199 long nonlocal stripes greatly diminish without conditioning. Persistent local jagged/short-line response near x~4.3,y~+2.8nm and right-edge x~18,y~-6nm; F/B local image current high. Not evidence of globally unusable tip or chemical dirt.",
+  "native_review_prior_to_decision": "Independent reviewer inspected4 separated floor points1878.6365/1880.4595/1882.2835/1884.1005s, spacing~1.824s consistent with repeated passage of local feature; post2126..2162.5s no>=400pA, lateZslope~0.233pm/s. Formal review to be linked separately, raw files remain immutable.",
+  "diagnostic_target": {
+    "primary_xy_nm": [
+      4.3,
+      2.8
+    ],
+    "primary_roi_rc_half_open": [
+      99,
+      115,
+      132,
+      153
+    ],
+    "secondary_xy_nm": [
+      18,
+      -6
+    ],
+    "secondary_roi_rc_half_open": [
+      139,
+      168,
+      195,
+      219
+    ],
+    "control": "Other separated objects and broad background; do not reuse occupied old BG1/step BG2 as clean-background failure"
+  },
+  "criteria_frozen_before_preparation": "At matched0.912s speed compare local F/B short tails/jagged edges, repeated native range events and Z responses, preservation of distant object visibility and absence of broad new artifacts. Object morphology may change; do not require identical pixels. Report improvement/unchanged/worse/inconclusive; no automatic L3 or chemical-clean claim.",
+  "hypotheses": [
+    "Local sample protrusion/particle interaction and feedback following",
+    "Metastable tip/junction configuration contributing to local repeated response"
+  ],
+  "alternative_not_excluded": [
+    "Time-dependent recovery and creep",
+    "Particle motion or local electronic/surface response"
+  ],
+  "intervention_justification": "User/expert previously requested conditioning if repeated down-scan interaction remains. Both full scans show local artifact, fast200 repeated lines/range events make one bounded exploratory pulse informative; no assertion sole mechanism proven."
+}

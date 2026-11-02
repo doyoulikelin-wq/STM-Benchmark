@@ -1,0 +1,195 @@
+{
+  "recorded_utc": "2026-11-02T01:07:37.448048+00:00",
+  "episode": "continuing_20261101_1939",
+  "session_slot": "session_01",
+  "action": "A01",
+  "counts_context": "This slot adds one−5V/20ms pulse; cumulative episode pulses2 including yesterday; no shaper performed in this image interval. No counting five slots as five independent cycles.",
+  "scans": {
+    "196": {
+      "quality_report": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+        "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8"
+      },
+      "native": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native/BM261029_00196.sxm",
+        "sha256": "6d9b308f9a73e97b948896e2ff59b20b2c970877cb6c21c5562c5fe35ab4ac70",
+        "bytes": 1383336
+      },
+      "raw_global_plane": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/Z_raw_globalplane_FB.png",
+        "sha256": "7087da677b49ac3a14854f89f5e91af2de1388f36964242616ea6545c64b219d"
+      },
+      "flags_FB": [
+        6,
+        3
+      ],
+      "raw_FB_offset_removed_RMS_pm": 31.424930128499014,
+      "pixel_current": {
+        "F": {
+          "minimum": -790.8897980968277,
+          "maximum": -58.75345349126704,
+          "median": -99.76890494312052,
+          "RMS_about_mean": 6.987357444790951,
+          "minimum_stored_rc": [
+            157,
+            160
+          ],
+          "minimum_nominal_XY_nm": [
+            8.4375,
+            -7.8125
+          ],
+          "abs_ge400pA_count": 6,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -1016.0918773038929,
+          "maximum": -58.07994016282514,
+          "median": -100.03893546883802,
+          "RMS_about_mean": 7.660075029883113,
+          "minimum_stored_rc": [
+            231,
+            43
+          ],
+          "minimum_nominal_XY_nm": [
+            -15.9375,
+            -23.229166666666664
+          ],
+          "abs_ge400pA_count": 4,
+          "abs_ge1000pA_count": 1,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      }
+    },
+    "197": {
+      "quality_report": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/quality_report.json",
+        "sha256": "5dcbb1e72ca21c8ef4335b51bbc1107c8447d16802f0e844b0cce98ea70abc6b"
+      },
+      "native": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/native/BM261029_00197.sxm",
+        "sha256": "ffe533012d6069e59619bcd943512e926e86fccc966d9423696be9150b3b85cb",
+        "bytes": 1383336
+      },
+      "raw_global_plane": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/Z_raw_globalplane_FB.png",
+        "sha256": "86b9f1a6dcbe1ef3e2b6ee887275aea62861dc240ccce6595954780d81d7d352"
+      },
+      "flags_FB": [
+        0,
+        0
+      ],
+      "raw_FB_offset_removed_RMS_pm": 16.70170392453127,
+      "pixel_current": {
+        "F": {
+          "minimum": -1838.5911682017309,
+          "maximum": -58.76021891282335,
+          "median": -99.9587183858619,
+          "RMS_about_mean": 15.904065320717054,
+          "minimum_stored_rc": [
+            189,
+            157
+          ],
+          "minimum_nominal_XY_nm": [
+            7.8125,
+            -14.479166666666664
+          ],
+          "abs_ge400pA_count": 12,
+          "abs_ge1000pA_count": 5,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -2335.616811066643,
+          "maximum": -53.40167544276575,
+          "median": -100.24566246547018,
+          "RMS_about_mean": 17.833198127959967,
+          "minimum_stored_rc": [
+            190,
+            156
+          ],
+          "minimum_nominal_XY_nm": [
+            7.604166666666664,
+            -14.6875
+          ],
+          "abs_ge400pA_count": 10,
+          "abs_ge1000pA_count": 6,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      }
+    },
+    "198": {
+      "quality_report": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/quality_report.json",
+        "sha256": "9e06f6845fcde1bbfa89268c23f847c571cd8fd42677a6fb36f69639765f718b"
+      },
+      "native": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/native/BM261029_00198.sxm",
+        "sha256": "72e8ed1c48a35c0833455caf4ab2ce27e6d70faadca12927dbab172217d59273",
+        "bytes": 1383336
+      },
+      "raw_global_plane": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/Z_raw_globalplane_FB.png",
+        "sha256": "1fd77372c45a83b9b4572996fc0fd184ffbe512377483dad68a60699dfc831df"
+      },
+      "flags_FB": [
+        0,
+        0
+      ],
+      "raw_FB_offset_removed_RMS_pm": 16.312884612013434,
+      "pixel_current": {
+        "F": {
+          "minimum": -808.8055780675063,
+          "maximum": -54.652032899227265,
+          "median": -99.852418000701,
+          "RMS_about_mean": 5.3357164802144625,
+          "minimum_stored_rc": [
+            196,
+            158
+          ],
+          "minimum_nominal_XY_nm": [
+            8.020833333333336,
+            -15.9375
+          ],
+          "abs_ge400pA_count": 1,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -3139.3851962491226,
+          "maximum": -50.271193458018004,
+          "median": -100.1348969020821,
+          "RMS_about_mean": 20.717807345624024,
+          "minimum_stored_rc": [
+            195,
+            157
+          ],
+          "minimum_nominal_XY_nm": [
+            7.8125,
+            -15.729166666666664
+          ],
+          "abs_ge400pA_count": 7,
+          "abs_ge1000pA_count": 5,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      }
+    }
+  },
+  "review196": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/scientific_review.json",
+    "sha256": "cfe93bfb290e59523d2be69f5cb8137aa0cb5315a6306cbb729f866fb4702819"
+  },
+  "review197": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/scientific_review.json",
+    "sha256": "4a1981a2327b92a595afa7308d2484f745b8a636f919a40553adf93434026cde"
+  },
+  "review198": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/scientific_review.json",
+    "sha256": "2b92b648605eff2db2eb1efa940f32f99567c1eb2b454d202ddf1f1ed24bd6d6"
+  },
+  "L2": "supported",
+  "L3": "not_supported_for_frozen_full_field_task",
+  "L4": "unknown",
+  "complete_before_action_after_evidence": "present; action/native execution authorities maintained separately byroot",
+  "successful_cycle": false,
+  "manual_summary": "Strong whole-line artifacts improved and the improvement persists197→198 without conditioning; nanometer features remain distinguishable. Small acquisition-dependent background offsets and local tail remain, so no unconditional whole-field stable-height claim. This is not a statement that the entire image is unusable or that any nonzero row difference demands conditioning."
+}

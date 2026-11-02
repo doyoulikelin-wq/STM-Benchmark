@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-11-02T12:36:38.467287+00:00",
+  "source_authorization": "User current request continue remaining4 full conditioning trials; historical pulse−4..−7V20..100ms at1nA hold, contact allowed, SafeTipOff, cap6, reviewafter2noimprovement.",
+  "selected_one_action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -5.0,
+      1,
+      2
+    ]
+  },
+  "preparation": "Existing verified11step100pA→1nA; fullraw recording, step/readback/stabilityguards retained",
+  "imaging": "Full50nm240²DOWN at−1V100pA and.912s/direction before200 andafter; no shortstrip substitution",
+  "action_location_nm": [
+    -25,
+    -25
+  ],
+  "reason": "Use previously informative−5V20ms local recipe as a bounded replication, no amplitude escalation solely to hit current target. Current location is~40nm from primary diagnostic object; retain sameXY/no lateral move beforepulse. Possible material redistribution at pulse location acknowledged.",
+  "interpretation": "Exploratory local-quality conditioning, not proof chemical dirt or guaranteed repair; record prepared1nA and return100pA as compound protocol",
+  "one_pulse_budget": 1,
+  "episode_pulse_ordinal": 3,
+  "max_per_episode": 6,
+  "required_safetip": "off",
+  "automatic_retry": false
+}

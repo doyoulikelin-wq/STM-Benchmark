@@ -1,0 +1,55 @@
+{
+  "recorded_utc": "2026-11-02T01:10:54.409077+00:00",
+  "session_id": "session_01",
+  "episode_id": "continuing_20261101_1939",
+  "complete_attempts": 1,
+  "successful_cycles": 0,
+  "request_total": 5,
+  "L0": "supported",
+  "L1": "supported",
+  "L2": "supported",
+  "L3": "not_supported",
+  "L4": "unknown",
+  "conclusion": "Original severe whole-field bands improved and improvement retained on independent full198; remaining10–22pm intermittent cross-background offsets and local-object edge/tail mean strict fullframe criterion not met.198 also has two isolated samples matching later-read software current lowerlimit; physical peak and mechanism unresolved. Not a global badtip/chemistry diagnosis.",
+  "hardware_followup": "held pending requested experimenter interpretation of scan-period software-range clipping and preamplifier information; no additional conditioning selected",
+  "actual_sequence": [
+    "full196",
+    "11-step100pA→1nA",
+    "one−5V20msZHold pulse, cumulativeordinal2",
+    "11-step1nA→100pA",
+    "full197",
+    "no-conditioningfull198"
+  ],
+  "new_pulses": 1,
+  "episode_pulses": 2,
+  "tipshaper_executed": 0,
+  "imaging": "Allthree50nm240²DOWN−1V100pA matchingsettings; notshortstrips",
+  "current_state": "read014:−1V100pA,Current−99.676pA,On2,Scan0,SafeOff,XY−25−25nm; nativeDataLogStop09:08:52 independentlyconfirmed",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/full_before_root_review.json",
+      "sha256": "badcedf260785f7bc39d21148706b978be105f1b71e1b850565f59b015eb69f0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/post197_root_preliminary_review.json",
+      "sha256": "b76789aa92793482dc97f41ee6dd2802a26e91f7ad4aadb4616de86f5d174dc4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/A01_IMAGE_JOINT_196_197_198.json",
+      "sha256": "b7af786e8c91f8fcd633e74f1de66bc01c929b6d0751a9935a3b8c3dadbd598f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/review.json",
+      "sha256": "66e73100e73e369f77c2e815a49e34d6f6a10ea0435a2c3ceae060725c7d8e15"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_012_signal_currentrange/snapshot.json",
+      "sha256": "a11417cd3855ecf4cd04a626717c6e28e9c4988cd78bd067fb566dbf3bd3c44e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_014_stop_confirm/snapshot.json",
+      "sha256": "a1d2f6c1632cbdd38b433196f0ed1dc7830e589c91e0537027b428b916d33660"
+    }
+  ],
+  "skill_modified": false
+}

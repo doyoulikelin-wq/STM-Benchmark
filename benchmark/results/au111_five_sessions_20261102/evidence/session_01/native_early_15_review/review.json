@@ -1,0 +1,551 @@
+{
+  "scope": "Requested prefix of root-copied closed local DAT only; not entire running logger or completed session",
+  "source_receipt": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native_receipt.json",
+  "source_receipt_sha256": "6fdf1f670573e9f51e6741108b135684ab083dd7a67378e0d137c8280d3a51e8",
+  "audit_script_sha256": "af612e71010cbadd5d8cfaa883514da36a19214183b61769b5b16fdf66b931d1",
+  "native_start_identity": "2026/11/2 8:21:18",
+  "through_index": 15,
+  "rows_per_channel": 375000,
+  "finite_scalars": 2250000,
+  "dt_s": 0.0005,
+  "header_duration_sum_s": 187.5,
+  "current_min_A": -1.1991995e-09,
+  "current_min_location": {
+    "block": 15,
+    "zero_index": 17179
+  },
+  "current_max_A": -1.0185824e-11,
+  "current_max_location": {
+    "block": 15,
+    "zero_index": 21182
+  },
+  "current_mean_A": -1.0010063455983996e-10,
+  "current_RMS_about_mean_A": 6.914255962650151e-12,
+  "abs_current_ge_pA_counts": {
+    "400": 16,
+    "1000": 2,
+    "9990": 0
+  },
+  "historical_negative_rail_matching_count": 0,
+  "all_bias_minus1": true,
+  "blocks": [
+    {
+      "index": 1,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100001.dat",
+      "sha256": "7d1630432594a516db204a08c3af5b5b9d852bf891aa09544d993b8acf4dc466",
+      "bytes": 2163211,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:21:23",
+      "all6columns_finite": true,
+      "current_min_A": -1.2785169e-10,
+      "current_min_zero_index": 9496,
+      "current_max_A": -7.8292053e-11,
+      "current_max_zero_index": 9463,
+      "current_mean_A": -1.0070414590475933e-10,
+      "current_RMS_about_mean_A": 8.187821606805862e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0204344e-07,
+        -1.0202479e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 7.75999999999874e-12,
+      "max_Z_jump_later_zero_index": 9412
+    },
+    {
+      "index": 2,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100002.dat",
+      "sha256": "ae9523f4bf0bdb394035a4df4b76e426c89b91eb31fb787995665814f3124713",
+      "bytes": 2163407,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:21:30",
+      "all6columns_finite": true,
+      "current_min_A": -1.2072308e-10,
+      "current_min_zero_index": 14301,
+      "current_max_A": -8.2687038e-11,
+      "current_max_zero_index": 14371,
+      "current_mean_A": -1.0022133404443955e-10,
+      "current_RMS_about_mean_A": 5.770639184857826e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0204368e-07,
+        -1.0202536e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 5.740000000003332e-12,
+      "max_Z_jump_later_zero_index": 14592
+    },
+    {
+      "index": 3,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100003.dat",
+      "sha256": "47076b3e78b92d5b8bb19b5fecca76cd49410905560a0e66445a44f741348213",
+      "bytes": 2163467,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:21:43",
+      "all6columns_finite": true,
+      "current_min_A": -1.1837094e-10,
+      "current_min_zero_index": 7119,
+      "current_max_A": -8.4496118e-11,
+      "current_max_zero_index": 7618,
+      "current_mean_A": -1.0015043885504007e-10,
+      "current_RMS_about_mean_A": 5.044725404909254e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0204209e-07,
+        -1.0202585e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 4.640000000010026e-12,
+      "max_Z_jump_later_zero_index": 6113
+    },
+    {
+      "index": 4,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100004.dat",
+      "sha256": "75a8b94bf44d42998fa69dcad0a3962676cc931930f89d5f9dc8ce3da556fb97",
+      "bytes": 2163703,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:21:55",
+      "all6columns_finite": true,
+      "current_min_A": -1.157443e-10,
+      "current_min_zero_index": 4550,
+      "current_max_A": -8.6688809e-11,
+      "current_max_zero_index": 4620,
+      "current_mean_A": -9.994709185068027e-11,
+      "current_RMS_about_mean_A": 4.073084455360975e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0204108e-07,
+        -1.0202669e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 3.97999999999816e-12,
+      "max_Z_jump_later_zero_index": 9157
+    },
+    {
+      "index": 5,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100005.dat",
+      "sha256": "4492d0646b58658c5c61af62878e3a3728d56ce2783f8d5090d0c6b433486cc5",
+      "bytes": 2163531,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:22:08",
+      "all6columns_finite": true,
+      "current_min_A": -1.1692396e-10,
+      "current_min_zero_index": 1104,
+      "current_max_A": -8.577649e-11,
+      "current_max_zero_index": 1094,
+      "current_mean_A": -1.0006630851792006e-10,
+      "current_RMS_about_mean_A": 4.552128416386567e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0204032e-07,
+        -1.0202676e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 3.929999999988839e-12,
+      "max_Z_jump_later_zero_index": 923
+    },
+    {
+      "index": 6,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100006.dat",
+      "sha256": "3518440e6316de2a383d506087c7271f015efdae609278e903f40a81359338ca",
+      "bytes": 2163800,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:22:20",
+      "all6columns_finite": true,
+      "current_min_A": -1.1242322e-10,
+      "current_min_zero_index": 147,
+      "current_max_A": -6.5416381e-11,
+      "current_max_zero_index": 9702,
+      "current_mean_A": -9.989546824487998e-11,
+      "current_RMS_about_mean_A": 3.545320053566169e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0240176e-07,
+        -1.0202667e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 1.5209999999997924e-11,
+      "max_Z_jump_later_zero_index": 9707
+    },
+    {
+      "index": 7,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100007.dat",
+      "sha256": "e1e40bf4c01d799c5e8ab0e518065eaadc45426dbc63dfcb7b17e89441719ce9",
+      "bytes": 2163521,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:22:33",
+      "all6columns_finite": true,
+      "current_min_A": -1.3152951e-10,
+      "current_min_zero_index": 24029,
+      "current_max_A": -8.1114011e-11,
+      "current_max_zero_index": 24062,
+      "current_mean_A": -1.0013649007923993e-10,
+      "current_RMS_about_mean_A": 4.620570302636963e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0241153e-07,
+        -1.0232664e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 8.919999999997938e-12,
+      "max_Z_jump_later_zero_index": 24034
+    },
+    {
+      "index": 8,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100008.dat",
+      "sha256": "ed5a02c27ec2e3a1a891613524426ea58cf11b3fe1748c9c0474c9ee3720c114",
+      "bytes": 2163786,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:22:45",
+      "all6columns_finite": true,
+      "current_min_A": -1.2744886e-10,
+      "current_min_zero_index": 2680,
+      "current_max_A": -8.2648437e-11,
+      "current_max_zero_index": 2593,
+      "current_mean_A": -9.99376490017198e-11,
+      "current_RMS_about_mean_A": 3.704844450054023e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0241137e-07,
+        -1.0232509e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 7.799999999998257e-12,
+      "max_Z_jump_later_zero_index": 2682
+    },
+    {
+      "index": 9,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100009.dat",
+      "sha256": "af97c4f6aab0a984d9904a7f22fe1af47fe0f608411822ff2926e2b9bcfff3a7",
+      "bytes": 2163904,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:22:58",
+      "all6columns_finite": true,
+      "current_min_A": -1.0970318e-10,
+      "current_min_zero_index": 14758,
+      "current_max_A": -8.9956022e-11,
+      "current_max_zero_index": 20333,
+      "current_mean_A": -9.985315087995957e-11,
+      "current_RMS_about_mean_A": 2.984745434512991e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.024022e-07,
+        -1.0232756e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 2.5300000000057805e-12,
+      "max_Z_jump_later_zero_index": 14933
+    },
+    {
+      "index": 10,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100010.dat",
+      "sha256": "01b206396f350e2ddacb309fb73911a5f6adf83ce7e3cee883244d7636bb24a0",
+      "bytes": 2163795,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:23:10",
+      "all6columns_finite": true,
+      "current_min_A": -2.4727626e-10,
+      "current_min_zero_index": 16602,
+      "current_max_A": -3.4534882e-11,
+      "current_max_zero_index": 23958,
+      "current_mean_A": -9.997945196412029e-11,
+      "current_RMS_about_mean_A": 5.221013415128035e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0240345e-07,
+        -1.0194295e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 3.7800000000005804e-11,
+      "max_Z_jump_later_zero_index": 23958
+    },
+    {
+      "index": 11,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100011.dat",
+      "sha256": "d82511a6581bf71be19ad5976de8f1f162eb3db3c7a5ef7519b0dc3054420251",
+      "bytes": 2163732,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:23:23",
+      "all6columns_finite": true,
+      "current_min_A": -1.0722583e-09,
+      "current_min_zero_index": 5882,
+      "current_max_A": -1.3747377e-11,
+      "current_max_zero_index": 9536,
+      "current_mean_A": -1.0018386272867994e-10,
+      "current_RMS_about_mean_A": 1.1585003901378463e-11,
+      "abs_current_ge_pA_counts": {
+        "400": 3,
+        "1000": 1,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0240433e-07,
+        -1.0188047e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 8.672999999999273e-11,
+      "max_Z_jump_later_zero_index": 5883
+    },
+    {
+      "index": 12,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100012.dat",
+      "sha256": "c8239dfcfd16bcc57aeae36135c4b7b7cfb3130a097faa71463f6d36a35c67a7",
+      "bytes": 2164010,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:23:35",
+      "all6columns_finite": true,
+      "current_min_A": -1.6510435e-10,
+      "current_min_zero_index": 6415,
+      "current_max_A": -6.1934478e-11,
+      "current_max_zero_index": 6808,
+      "current_mean_A": -9.991566345380021e-11,
+      "current_RMS_about_mean_A": 4.3003763843056436e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.024152e-07,
+        -1.0211858e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 1.8059999999999832e-11,
+      "max_Z_jump_later_zero_index": 6803
+    },
+    {
+      "index": 13,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100013.dat",
+      "sha256": "097468aa6f4f84d095cf295abadd1800b0ec2e3d1e718d11a9ed3a42e1c23d37",
+      "bytes": 2163404,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:23:48",
+      "all6columns_finite": true,
+      "current_min_A": -2.1598141e-10,
+      "current_min_zero_index": 3905,
+      "current_max_A": -5.189572e-11,
+      "current_max_zero_index": 3937,
+      "current_mean_A": -1.0018874003767997e-10,
+      "current_RMS_about_mean_A": 6.071080784651787e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0241676e-07,
+        -1.0215457e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 3.181999999999214e-11,
+      "max_Z_jump_later_zero_index": 3937
+    },
+    {
+      "index": 14,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100014.dat",
+      "sha256": "eef5a08af0e2ed15d196d8fece9a9760435bc18377fab2b5899697c7e2f48ec4",
+      "bytes": 2163705,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:24:00",
+      "all6columns_finite": true,
+      "current_min_A": -1.359448e-10,
+      "current_min_zero_index": 3072,
+      "current_max_A": -3.9622774e-11,
+      "current_max_zero_index": 23146,
+      "current_mean_A": -9.988616704996005e-11,
+      "current_RMS_about_mean_A": 4.220213099544935e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0241811e-07,
+        -1.022642e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 2.36400000000051e-11,
+      "max_Z_jump_later_zero_index": 23146
+    },
+    {
+      "index": 15,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100015.dat",
+      "sha256": "2ff5b3d59004dabc9fb9b52e76e6516e4c7807129fbff23e0f9e70062590bfa3",
+      "bytes": 2163761,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 08:24:13",
+      "all6columns_finite": true,
+      "current_min_A": -1.1991995e-09,
+      "current_min_zero_index": 17179,
+      "current_max_A": -1.0185824e-11,
+      "current_max_zero_index": 21182,
+      "current_mean_A": -1.0044355578472044e-10,
+      "current_RMS_about_mean_A": 1.6188004602600216e-11,
+      "abs_current_ge_pA_counts": {
+        "400": 13,
+        "1000": 1,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.0240989e-07,
+        -1.0212506e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 8.781999999998947e-11,
+      "max_Z_jump_later_zero_index": 21165
+    }
+  ],
+  "limits": [
+    "No SMB/source_path access; only local_path opened",
+    "Header sample sum and adjacent block indices do not prove physical gap-free acquisition",
+    "Saved Date and DataLog elapsed/counter are asynchronous; no hard pixel or event clock alignment",
+    "All-prefix current RMS mixes phases; not stationary noise or tip quality",
+    "No physiological/physical current bound: sampled extrema and no matching rail do not prove analog chain unsaturated",
+    "Terminal block, full7200 duration and before/action/after coverage require later independent audit"
+  ]
+}

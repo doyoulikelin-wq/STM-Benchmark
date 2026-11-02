@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-02T12:25:58.890993+00:00",
+  "original_figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full/analysis_full/Z_raw_globalplane_FB.png",
+    "sha256": "486566e897877f99e94f31abde61dbaa46db1a3ac88ea3db2aa8875e467c3493"
+  },
+  "unchanged_arrays": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full/analysis_full/analysis_planes.npz",
+    "sha256": "ce8d2726f465b632dd353b5a18efc16d6f2a157f090c7f21b74feeb8f3c05ec4"
+  },
+  "corrected_figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full/analysis_full/corrected_figures/Z_raw_globalplane_FB_units_nm.png",
+    "sha256": "b9590255c159c6d8b341fb138f07dde0e0d22afdfa15e520b5ad352461d0f3f6"
+  },
+  "change": "Global-plane title previously said pm while plotted pF_nm/pB_nm arrays and color bar were nm. New title explicitly nm; original arrays, raw figure and old frozen plot source unchanged. New context labels disclose actual slow speed and obsolete BG role.",
+  "new_axis_note": "Fixed physical coordinate geometry unchanged; no registration or per-line detrending."
+}

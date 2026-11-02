@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-11-02T12:49:55.232927+00:00",
+  "session_id": "session_02",
+  "action_id": "A01",
+  "scope": "Unexpected state during final return observation; no causal attribution yet",
+  "pulse_known_completed": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_A01/outcome.json",
+    "sha256": "bb18a4bf6f600d17a4d04b9d16cd2ebfb766e6bcef1cef91bd832f11ad177ef1"
+  },
+  "return_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_A01/outcome.json",
+    "sha256": "c966d2f066a8bd2f0e61b08bd4da8ef47b36aa9e3e307bee9a08542f56cd5efe"
+  },
+  "fresh_read": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_010_unexpected_withdraw/snapshot.json",
+    "sha256": "743f880473e1d7787d1dd4d4455476c5bf3d3265ac90b5a3e607e89118ab8d97"
+  },
+  "screenshot": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/unexpected_withdraw_2047.png",
+    "sha256": "f8812e42d18b375e34cb3224a617a772036fbf06bcd49045a13600532430399c"
+  },
+  "native_pulse_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/pulse_A01_native_review/review.json",
+    "sha256": "f17c977916649e28e2cd956be7e7af448fa1413b8a9f79ca0b9a6d948131eb30"
+  },
+  "actual_return": "11/11 SetpntSet ACK to100pA, final observation interrupted by FeedbackOff/status1/Home. No root Withdraw orXY move issued.",
+  "transient_XY": "one sequential snapshot recorded0,0; subsequent independent read−25,−25nm. Do not claim persistent lateral move.",
+  "cause": "unresolved; user manual history question pending",
+  "root_next": "Read-only forensic audit and archive; no junction commands before state/history resolution. No full-after yet; no completed cycle or repair conclusion.",
+  "counts": {
+    "complete_full_attempts": 1,
+    "remaining": 4,
+    "pulse_episode_attempts_total": 3,
+    "strict_success": 0
+  }
+}

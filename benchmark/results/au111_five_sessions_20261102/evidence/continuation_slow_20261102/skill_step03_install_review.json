@@ -1,0 +1,229 @@
+{
+  "created_utc": "2026-11-02T15:17:44.207619+00:00",
+  "status": "installed_three_docs_after_root_full_diff_approval",
+  "authorization": "Root explicitly approved installation of Step03 three-doc candidate after full diff review. No hardware or repository modification authorized/performed here.",
+  "installed_path": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning",
+  "before_manifest": {
+    "SKILL.md": "bec48ebcb6a5dcde08fe27c5eac15e7e7ec09b1413af89ff920a70520957305a",
+    "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+    "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+    "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59",
+    "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+    "references/execution-and-acquisition.md": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3",
+    "references/local-au111-protocol.md": "4a4fda768569353fc7f499c5366dc01fc3ec23998cbe4515599237d349045335",
+    "references/physics-and-evidence.md": "56028bdc55fa09f3681453b1cb2d0add74871964207e5bda0b4310aca452c735",
+    "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+    "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+    "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+    "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc"
+  },
+  "after_manifest": {
+    "SKILL.md": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e",
+    "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+    "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+    "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59",
+    "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+    "references/execution-and-acquisition.md": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3",
+    "references/local-au111-protocol.md": "cef6cb5977c88fb148b1e6b04f2ccf1535d1abf98182a002a5763d882f331ab5",
+    "references/physics-and-evidence.md": "bc5983116770665bf1415948e115e4e9192e958e7d23d978b25d7cc7cddfe619",
+    "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+    "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+    "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+    "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc"
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/local-au111-protocol.md",
+    "references/physics-and-evidence.md"
+  ],
+  "unchanged_source_files": 9,
+  "candidate_diff": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step03_candidate.diff",
+    "sha256": "c559c40a7a4007a973047d66461953784c3749af9e6c007091e527b28a05861b"
+  },
+  "quick_validate": {
+    "status": "passed",
+    "output": "Skill is valid!",
+    "local_dependency_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_benchmark_goal_20261030/expert_pulse_20261031/validation_deps",
+    "initial_missing_yaml_resolved_using_existing_local_copy": true,
+    "network_used": false
+  },
+  "local_links": [
+    {
+      "file": "SKILL.md",
+      "target": "./references/execution-and-acquisition.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/physics-and-evidence.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/physics-and-evidence.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/primary-literature.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./scripts/action_record.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./assets/action-record.template.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/execution-and-acquisition.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/physics-and-evidence.md#同区域诱导修复-benchmark",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/record-and-local-context.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "../assets/local-au111.profile.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/slow199_full_offline_review/review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/fast200_full_offline_review/review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/full_before_root_review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/pulse_A01_native_review/review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/return_A01_interruption_review/review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/unexpected_withdraw_root_review.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_blue_box_original_20261102.jpg",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "./physics-and-evidence.md#同区域诱导修复-benchmark",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/record-and-local-context.md",
+      "target": "../assets/action-record.template.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/record-and-local-context.md",
+      "target": "../assets/action-record.schema.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/record-and-local-context.md",
+      "target": "./execution-and-acquisition.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/execution-and-acquisition.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./primary-literature.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/primary-literature.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "file": "references/primary-literature.md",
+      "target": "./local-au111-protocol.md",
+      "exists_and_anchor_valid": true
+    }
+  ],
+  "meaningful_scenario_review": {
+    "review_kind": "author forward reasoning plus root independent full-diff approval; no hardware trials",
+    "mostly_usable_plus_local_scratching": "Record task function basically usable/local exception. Current raw I/Z still gate known recovery/control. Do not convert one local spike to global dirty.",
+    "user_requests_dirty_repair": "Separate bounded induction from ordinary repair. Fresh complete baseline and complete demonstrated functional deterioration precede repair. A new pit alone is not induced bad tip.",
+    "induction_ineffective_but_user_wants_round_count": "Record induction attempt and local change; do not claim bad/repaired/complete successful cycle or reset cumulative pulse count.",
+    "manual2047": "Dated user confirmation added; preserve original unknown-at-time sources, interrupted return and missing full after.",
+    "atomic_chemical": "Nano usability does not establish atomic resolution or chemicalclean; L4 is not mandatory for L3."
+  },
+  "guidance_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+    "sha256": "2a4ed8ecf64b45ca7221d3045292f166671f8b1d8abd2d6371c0bba99a01a64d"
+  },
+  "scientific_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/step03_scientific_plan.md",
+    "sha256": "679733e33702b58383a5d0e04c1dee1a70547341d7c70bbc509ce520913c9478"
+  },
+  "no_changes_to": [
+    "scripts",
+    "profile",
+    "thresholds",
+    "original images",
+    "historical evidence",
+    "historical success counts",
+    "repository"
+  ],
+  "hardware_calls": 0
+}

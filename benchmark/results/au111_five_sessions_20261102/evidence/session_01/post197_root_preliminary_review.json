@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-11-02T00:54:39.472295+00:00",
+  "reviewer": "root",
+  "observed_figures": [
+    "Z_raw_globalplane_FB.png",
+    "all_quarter_row_offsets.png"
+  ],
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/analysis_full/quality_report.json",
+    "sha256": "5dcbb1e72ca21c8ef4335b51bbc1107c8447d16802f0e844b0cce98ea70abc6b"
+  },
+  "finding": "196 major cross-field transient bands strongly attenuated in 197; no ≥50pm same-sign in ≥3quarter flags in F or B. BG1/BG2 remain background visually and pass fixed numerical criteria. Thin residual lines do not alone invalidate nanometer object survey; features/step are still distinguishable in F/B. Local current peaks near rows189/190 require native check and independent repeat; do not infer chemistry or broad atomic-resolution usability.",
+  "L2": "supported",
+  "L3": "unknown",
+  "next_candidate": "same-conditions full no-conditioning confirmation after native recovery check",
+  "additional_conditioning_selected": false,
+  "causal_scope": "Matched before/after preparation+pulse+return protocol; not pulse alone; local surface change and drift remain possible."
+}

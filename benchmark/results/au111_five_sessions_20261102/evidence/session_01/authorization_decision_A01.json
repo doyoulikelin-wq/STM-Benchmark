@@ -1,0 +1,61 @@
+{
+  "reviewed_utc": "2026-11-02T00:32:41.073199+00:00",
+  "status": "single_minus5V_candidate_selected_after_full196_and_native_recovery_review",
+  "user_instruction": "Five complete conditioning workflows with full before/after images and full records; do not edit skill, record unused guidance.",
+  "standing_authorization": [
+    "Au111 experimental region and sample contact authorized",
+    "Expert -4 to-7V absolute pulse,20-100ms,ZHold,1nA preparation",
+    "SafeTipOff; max6 pulse per ongoing episode, strategy review after2 consecutive no-improvement"
+  ],
+  "episode_id": "continuing_20261101_1939",
+  "pulse_ordinal": 2,
+  "prior_pulse_count": 1,
+  "session_id": "session_01",
+  "action_id": "A01",
+  "chosen_pulse": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -5.0,
+      1,
+      2
+    ]
+  },
+  "choice_reason": "Previous -4V/20ms compound treatment gave partial improvement without stable whole-frame recovery. Fresh196 still has 0.16-0.36nm cross-field transient bands. Select one -5V/20ms candidate within expert range while retaining width/Hold/preparation. This is an explicit single choice, not an automatic ladder.",
+  "preparation": {
+    "script": "setpoint_fullcycle_100pA_1nA_once.py",
+    "11_steps": true,
+    "final_A": 1e-09,
+    "per_step_current_band_5s": true,
+    "final_observation_s": 30
+  },
+  "imaging_conditions_after": {
+    "bias_V": -1,
+    "setpoint_A": 1e-10,
+    "full_width_nm": 50,
+    "full_height_nm": 50,
+    "pixels": [
+      240,
+      240
+    ],
+    "direction": "DOWN"
+  },
+  "fixed_target": {
+    "XY_m": [
+      -2.5e-08,
+      -2.5e-08
+    ],
+    "reason": "Use known scan endpoint without additional uncharacterized XY motion; compare spatially separated objects and whole field; local sample changes remain a confound."
+  },
+  "recording": "Existing session_01 logger remains active; full native phase and post-idle evidence must be checked before preparation; no pulse until successful preparation and active recorder verified.",
+  "skill_unapplied": {
+    "first_short_strip": "Overridden by user full-frame requirement",
+    "remote_conditioning_then_return": "Not selected for this action; no new travel path established; local sample-change confound retained"
+  },
+  "dose_not_target": "About10nA is not a target/compliance or true peak bound; recorded pulse response may clip.",
+  "history_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/history_and_native_review_A01.json",
+    "sha256": "0dd1087f5060aeeddcc932d67cfa93c1d8271f7bec6051cdaaeeb931544bcf7f"
+  }
+}

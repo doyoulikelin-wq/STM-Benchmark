@@ -1,0 +1,431 @@
+{
+  "recorded_utc": "2026-11-02T01:07:37.448048+00:00",
+  "scope": "Independent offline human review of complete198, with true196 before and197 after one compound prepare-pulse-return.197→198 is no-additional-conditioning full confirmation.",
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/native/BM261029_00198.sxm",
+    "sha256": "72e8ed1c48a35c0833455caf4ab2ce27e6d70faadca12927dbab172217d59273",
+    "bytes": 1383336
+  },
+  "quality_report": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/analysis_full/quality_report.json",
+    "sha256": "9e06f6845fcde1bbfa89268c23f847c571cd8fd42677a6fb36f69639765f718b"
+  },
+  "frozen_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/offline_image_plan.md",
+    "sha256": "ba862f18995b44bea37f43dd73260d74355dfcd0e2ef374f2e32897d161d6dca"
+  },
+  "integrity": {
+    "native_TCP_wire_bitmatch": true,
+    "float32_values": 345600,
+    "all_finite": true
+  },
+  "quality_verdict": {
+    "L2": "supported",
+    "L2_scope": "Large-band suppression and retained nanometer object distinguishability persisted without further conditioning.",
+    "nanoscale_object_identification": "function retained in197 and198; no demonstrated persistent broad loss of object separability",
+    "L3": "not_supported",
+    "L3_scope": "Original combined full-field object/background task; not claiming every part of image unusable",
+    "strict_full_frame_pass": false,
+    "reason": "Residual acquisition-dependent approximately10–13pm shared background elevation followed by10–16pm return remains nearY0..−1.5nm, with one-row F/B timing offset, and a lower object retains a short directional tail.197 was also not a strict pass. The original criterion did not allow unexplained repeated line offsets to support unconditional full-field height stability.",
+    "L4": "unknown",
+    "successful_cycle": false,
+    "next_shaper_required_by_image": false
+  },
+  "manual_review": {
+    "objects": "Both predetermined separated protrusions and diagonal terrace boundary remain identifiable in F/B. Real morphology can change; no single-peak requirement or material-identity assumption.",
+    "background_role": "BG1 andBG2 remain background and pass all frozen numeric checks. The residual low-amplitude stripe falls outside both fixed BG boxes; no substitute window selected.",
+    "specific_residual": "F r120→121 all4quarter median-pixel changes9.72..12.05pm, F126→127 left3quarter−10.32..−10.65pm; B119→120 left3quarter+11.45..13.16pm with right changingnextrow, B125→126 all4quarter−10.30..−15.60pm. This is a small measurable background-height offset, not proof of chemical dirt or generalized bad apex.",
+    "impact": "Weak offset limits interpretation of absolute background-height differences across the affected lines at roughly10pm scale; it does not erase nanometer objects. Local short tail nearX8,Y−16nm limits confidence in that objectedge profile without diagnosing cause.",
+    "comparison": "196~170–360pm broad bands remain absent.197~20pm shared shifts are weaker in198.Outside residual area, largest common quarter shifts are mostly a few pm; true object/edge-induced quarter-median changes are not mislabeled whole-line defects.",
+    "why_not_any_nonzero_failure": "Ordinary few-pm row variability and actual object/terrace contours are accepted. Only spatially common, sign-coherent offset/return with F/B acquisition dependence is specifically retained as residual, and the effect is quantified instead of declaring wholeimage bad."
+  },
+  "selected_raw_metrics": {
+    "F": [
+      {
+        "stored_rows": [
+          118,
+          119
+        ],
+        "boundary_Y_nm": 0.20833333333333215,
+        "quarter_median_pixel_difference_pm": [
+          -1.5134560271690134,
+          -0.6110667527536862,
+          0.3339550858072471,
+          -1.1972645097557688
+        ]
+      },
+      {
+        "stored_rows": [
+          119,
+          120
+        ],
+        "boundary_Y_nm": 0.0,
+        "quarter_median_pixel_difference_pm": [
+          1.5347723092418164,
+          1.993072373807081,
+          1.3962164757685969,
+          3.4923175462608924
+        ]
+      },
+      {
+        "stored_rows": [
+          120,
+          121
+        ],
+        "boundary_Y_nm": -0.20833333333333215,
+        "quarter_median_pixel_difference_pm": [
+          12.0543575121701,
+          10.35971308738226,
+          11.031175972675555,
+          9.71667191151937
+        ]
+      },
+      {
+        "stored_rows": [
+          121,
+          122
+        ],
+        "boundary_Y_nm": -0.41666666666666785,
+        "quarter_median_pixel_difference_pm": [
+          -1.3358203432289883,
+          -1.623590151211829,
+          -0.2806643806252396,
+          0.49027448767446913
+        ]
+      },
+      {
+        "stored_rows": [
+          122,
+          123
+        ],
+        "boundary_Y_nm": -0.625,
+        "quarter_median_pixel_difference_pm": [
+          -0.9166001291305292,
+          -2.7213786779611837,
+          0.49027448767446913,
+          -0.7034373084024992
+        ]
+      },
+      {
+        "stored_rows": [
+          123,
+          124
+        ],
+        "boundary_Y_nm": -0.8333333333333321,
+        "quarter_median_pixel_difference_pm": [
+          1.1368683772161603,
+          -0.3339550858072471,
+          0.6927791673660977,
+          -10.107470416187425
+        ]
+      },
+      {
+        "stored_rows": [
+          124,
+          125
+        ],
+        "boundary_Y_nm": -1.0416666666666679,
+        "quarter_median_pixel_difference_pm": [
+          -1.858069254012662,
+          -1.2754242106893798,
+          -2.0321522242738865,
+          8.689937658346025
+        ]
+      },
+      {
+        "stored_rows": [
+          125,
+          126
+        ],
+        "boundary_Y_nm": -1.25,
+        "quarter_median_pixel_difference_pm": [
+          -0.14921397450962104,
+          -0.7709388682997087,
+          -0.19539925233402755,
+          -12.235545909788925
+        ]
+      },
+      {
+        "stored_rows": [
+          126,
+          127
+        ],
+        "boundary_Y_nm": -1.4583333333333321,
+        "quarter_median_pixel_difference_pm": [
+          -10.320633236915455,
+          -10.654588322722702,
+          -10.34905494634586,
+          0.5044853423896711
+        ]
+      },
+      {
+        "stored_rows": [
+          127,
+          128
+        ],
+        "boundary_Y_nm": -1.6666666666666679,
+        "quarter_median_pixel_difference_pm": [
+          3.439026841078885,
+          1.3820056210533949,
+          3.488764832582092,
+          -2.518873998269555
+        ]
+      }
+    ],
+    "B": [
+      {
+        "stored_rows": [
+          118,
+          119
+        ],
+        "boundary_Y_nm": 0.20833333333333215,
+        "quarter_median_pixel_difference_pm": [
+          2.3661073100811336,
+          3.488764832582092,
+          1.8616219676914625,
+          0.19539925233402755
+        ]
+      },
+      {
+        "stored_rows": [
+          119,
+          120
+        ],
+        "boundary_Y_nm": 0.0,
+        "quarter_median_pixel_difference_pm": [
+          11.446843473095214,
+          11.63158458439284,
+          13.159251466277055,
+          2.618349981275969
+        ]
+      },
+      {
+        "stored_rows": [
+          120,
+          121
+        ],
+        "boundary_Y_nm": -0.20833333333333215,
+        "quarter_median_pixel_difference_pm": [
+          -0.04263256414560601,
+          -0.20250467969162855,
+          0.27355895326763857,
+          12.313705610722536
+        ]
+      },
+      {
+        "stored_rows": [
+          121,
+          122
+        ],
+        "boundary_Y_nm": -0.41666666666666785,
+        "quarter_median_pixel_difference_pm": [
+          -1.1297629498585593,
+          -2.5082158572331537,
+          0.3268496584496461,
+          0.056843418860808015
+        ]
+      },
+      {
+        "stored_rows": [
+          122,
+          123
+        ],
+        "boundary_Y_nm": -0.625,
+        "quarter_median_pixel_difference_pm": [
+          0.7034373084024992,
+          0.18829382497642655,
+          -0.09592326932761353,
+          -1.3820056210533949
+        ]
+      },
+      {
+        "stored_rows": [
+          123,
+          124
+        ],
+        "boundary_Y_nm": -0.8333333333333321,
+        "quarter_median_pixel_difference_pm": [
+          -1.2647660696529783,
+          -3.5349501104064984,
+          -2.298605750183924,
+          -8.892442338037654
+        ]
+      },
+      {
+        "stored_rows": [
+          124,
+          125
+        ],
+        "boundary_Y_nm": -1.0416666666666679,
+        "quarter_median_pixel_difference_pm": [
+          1.4601653219870059,
+          -0.16697754290362354,
+          0.4654054919228656,
+          8.846257060213247
+        ]
+      },
+      {
+        "stored_rows": [
+          125,
+          126
+        ],
+        "boundary_Y_nm": -1.25,
+        "quarter_median_pixel_difference_pm": [
+          -10.821565865626326,
+          -10.402345651527867,
+          -10.302869668521453,
+          -15.596413049934199
+        ]
+      },
+      {
+        "stored_rows": [
+          126,
+          127
+        ],
+        "boundary_Y_nm": -1.4583333333333321,
+        "quarter_median_pixel_difference_pm": [
+          3.055333763768431,
+          2.9167779302952113,
+          2.604139126560767,
+          0.9308109838457312
+        ]
+      },
+      {
+        "stored_rows": [
+          127,
+          128
+        ],
+        "boundary_Y_nm": -1.6666666666666679,
+        "quarter_median_pixel_difference_pm": [
+          1.2292389328649733,
+          0.13145040611561853,
+          1.9895196601282805,
+          -1.922018100231071
+        ]
+      }
+    ]
+  },
+  "fixed_backgrounds": [
+    {
+      "name": "BG1 central terrace",
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 8.607034447037307,
+          "Z_single_patch_plane_residual_RMS_pm": 5.775582474965844,
+          "max_adjacent_raw_row_median_delta_pm": 4.693134769695462,
+          "I_pixel_min_max_pA": [
+            -103.66171809828018,
+            -97.32183114952164
+          ],
+          "I_pixel_median_pA": -99.81145077109232,
+          "I_pixel_RMS_about_mean_pA": 0.934187638462655,
+          "plane_coeff_nm": [
+            -102.31833757968404,
+            0.0006844241464319538,
+            -0.00028956959950595225
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 8.638107723907941,
+          "Z_single_patch_plane_residual_RMS_pm": 6.111692683097173,
+          "max_adjacent_raw_row_median_delta_pm": 4.668265773943858,
+          "I_pixel_min_max_pA": [
+            -103.95891786307843,
+            -96.40038073355228
+          ],
+          "I_pixel_median_pA": -99.92517577273041,
+          "I_pixel_RMS_about_mean_pA": 1.0512554981120283,
+          "plane_coeff_nm": [
+            -102.31761407323201,
+            0.0006516855782401558,
+            -0.0002777857052784134
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 2.8072028008129717,
+          "mean_offset_removed_RMS_pm": 2.702334703930246
+        }
+      },
+      "checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      }
+    },
+    {
+      "name": "BG2 right terrace",
+      "metrics": {
+        "F": {
+          "Z_raw_RMS_about_mean_pm": 7.469532272764815,
+          "Z_single_patch_plane_residual_RMS_pm": 7.121469782389998,
+          "max_adjacent_raw_row_median_delta_pm": 2.049915792667889,
+          "I_pixel_min_max_pA": [
+            -103.97664673700291,
+            -96.68814360264122
+          ],
+          "I_pixel_median_pA": -99.71579117973306,
+          "I_pixel_RMS_about_mean_pA": 1.1003125090745947,
+          "plane_coeff_nm": [
+            -102.33613700844035,
+            -0.00023547749548241594,
+            -0.00012463400672971524
+          ]
+        },
+        "B": {
+          "Z_raw_RMS_about_mean_pm": 7.5339541927694365,
+          "Z_single_patch_plane_residual_RMS_pm": 7.234083222661486,
+          "max_adjacent_raw_row_median_delta_pm": 1.3891110484109959,
+          "I_pixel_min_max_pA": [
+            -103.39900463618434,
+            -96.81515311665834
+          ],
+          "I_pixel_median_pA": -99.98457617399481,
+          "I_pixel_RMS_about_mean_pA": 1.0286278115968368,
+          "plane_coeff_nm": [
+            -102.3362523495887,
+            -0.00022697342084481727,
+            -0.00011419255990447879
+          ]
+        },
+        "FB": {
+          "raw_RMSE_pm": 3.7168160024307126,
+          "mean_offset_removed_RMS_pm": 3.7102242354409154
+        }
+      },
+      "checks": {
+        "F": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "B": {
+          "plane_residual_within_limit": true,
+          "row_jump_within_limit": true
+        },
+        "FB_within_limit": true
+      }
+    }
+  ],
+  "native_authorities": {
+    "scan197": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after197_native_phase_review/review.json",
+      "sha256": "cac047d03d85429243b887e37c5be6912d3c96a7b3e78574c2eaed86bdd1d11b"
+    },
+    "scan198": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/review.json",
+      "sha256": "66e73100e73e369f77c2e815a49e34d6f6a10ea0435a2c3ceae060725c7d8e15"
+    }
+  },
+  "native_limits": [
+    "198 scan has two samples matching historical−9.9994768nA floor (native review), not the3.139nA averaged B-pixel maximum. Potential record censoring/overload must remain in the evidence; analog range/true peak unverified.",
+    "Both native events are only coarsely located aroundDOWN nominal rows196 and199; no hard pixel-time association with the short-tail object is asserted.",
+    "Post19863.42s had no>=400pA samples and final30s remained within±20% withI RMS3.147pA (native authority); this does not erase scan-time transients.",
+    "Native peak alone is not an added image-dirty threshold, while image improvement does not prove absence of electrical overload."
+  ],
+  "interpretation_and_next_decision": "The one compound repair attempt has an observable imaging benefit retained in a no-conditioning full repeat. Do not label a successful strict full-field closed cycle, and do not infer that more aggressive conditioning is necessary solely from residual few-pm-to10pm texture or pixel/native peaks. Root separately resolves whether to accept a narrower future task or pursue remaining instability under the existing criteria; no criterion was changed here."
+}

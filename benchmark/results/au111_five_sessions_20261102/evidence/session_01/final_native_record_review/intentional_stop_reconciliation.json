@@ -1,0 +1,244 @@
+{
+  "scope": "Intentional early recorder stop, reconciled from original failure-style outcome, single zero-error Stop ACK, and two independent stopped readbacks. No original evidence overwritten.",
+  "intent": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/logger_root_intentional_stop.json",
+    "sha256": "e446f0aae5c8871d7e38b71f0ce291f6d0c7690c7046c05317f39cc5fea1b36f"
+  },
+  "original_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/logger/outcome.json",
+    "sha256": "c6cba61e2b5ddfb1f806a793b408b6377bade522758d79c128bb8cfdb79de0e8"
+  },
+  "original_status": "recorder_failed_no_retry",
+  "original_error": "RuntimeError: Recorder termination requested",
+  "original_native_stop_confirmed_false_retained": true,
+  "native_not_natural_7200_completion": true,
+  "DataLog_Stop_count": 1,
+  "all_logger_writers": [
+    {
+      "command": "DataLog.ChsSet",
+      "args": [
+        6,
+        [
+          0,
+          24,
+          30,
+          98,
+          99,
+          100
+        ]
+      ],
+      "start_utc": "2026-11-02T00:21:13.212694+00:00",
+      "end_utc": "2026-11-02T00:21:13.238882+00:00",
+      "status": "ok"
+    },
+    {
+      "command": "DataLog.PropsSet",
+      "args": [
+        2,
+        2,
+        0,
+        0.0,
+        1,
+        "dl_goal30_FIVE1102_SESSION_01",
+        "SafeTipOff event record; DataLog commands only; junction action audited separately.",
+        []
+      ],
+      "start_utc": "2026-11-02T00:21:13.277501+00:00",
+      "end_utc": "2026-11-02T00:21:13.281047+00:00",
+      "status": "ok"
+    },
+    {
+      "command": "DataLog.Start",
+      "args": [],
+      "start_utc": "2026-11-02T00:21:18.451871+00:00",
+      "end_utc": "2026-11-02T00:21:18.452858+00:00",
+      "status": "ok"
+    },
+    {
+      "command": "DataLog.Stop",
+      "args": [],
+      "start_utc": "2026-11-02T01:08:52.257502+00:00",
+      "end_utc": "2026-11-02T01:08:52.259302+00:00",
+      "status": "ok"
+    }
+  ],
+  "junction_writer_count_in_logger": 0,
+  "immediate_cleanup_StatusGet_values": [
+    17,
+    "2026/11/2 8:21:18",
+    1,
+    35,
+    7.159999847412109,
+    0,
+    "",
+    104,
+    "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100229.dat",
+    7640
+  ],
+  "independent_stopped_readbacks": [
+    {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_013_after_logger_stop/snapshot.json",
+        "sha256": "d55d9a81a89acf273e0165d89a0884906202136e14a04818f016f7065b16da29"
+      },
+      "start": {
+        "utc": "2026-11-02T01:09:01.112170+00:00",
+        "monotonic_ns": 1453185821668458
+      },
+      "end": {
+        "utc": "2026-11-02T01:09:01.236235+00:00",
+        "monotonic_ns": 1453185945616541
+      },
+      "status": [
+        17,
+        "2026/11/2 8:21:18",
+        1,
+        35,
+        7.659999847412109,
+        17,
+        "2026/11/2 9:08:52",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100229.dat",
+        7660
+      ],
+      "final_state": {
+        "Bias.Get": [
+          -1.0
+        ],
+        "Current.Get": [
+          -9.972069697772312e-11
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "ZCtrl.SetpntGet": [
+          1.000000013351432e-10
+        ],
+        "ZCtrl.ZPosGet": [
+          -1.0198251487736343e-07
+        ],
+        "Scan.StatusGet": [
+          0
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "Scan.FrameGet": [
+          0.0,
+          0.0,
+          5.000000058430487e-08,
+          5.000000058430487e-08,
+          0.0
+        ],
+        "Scan.BufferGet": [
+          3,
+          [
+            0,
+            30,
+            89
+          ],
+          240,
+          240
+        ]
+      },
+      "known_error_preserved": {
+        "Current.CalibrGet": "Nanonis status=1: Error in command: current.calibrget: Gain index is not valid"
+      }
+    },
+    {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_014_stop_confirm/snapshot.json",
+        "sha256": "a1d2f6c1632cbdd38b433196f0ed1dc7830e589c91e0537027b428b916d33660"
+      },
+      "start": {
+        "utc": "2026-11-02T01:09:19.051193+00:00",
+        "monotonic_ns": 1453203760649875
+      },
+      "end": {
+        "utc": "2026-11-02T01:09:19.170398+00:00",
+        "monotonic_ns": 1453203879726250
+      },
+      "status": [
+        17,
+        "2026/11/2 8:21:18",
+        1,
+        35,
+        7.659999847412109,
+        17,
+        "2026/11/2 9:08:52",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100229.dat",
+        7660
+      ],
+      "final_state": {
+        "Bias.Get": [
+          -1.0
+        ],
+        "Current.Get": [
+          -9.967598274540634e-11
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "ZCtrl.SetpntGet": [
+          1.000000013351432e-10
+        ],
+        "ZCtrl.ZPosGet": [
+          -1.01983658851168e-07
+        ],
+        "Scan.StatusGet": [
+          0
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "Scan.FrameGet": [
+          0.0,
+          0.0,
+          5.000000058430487e-08,
+          5.000000058430487e-08,
+          0.0
+        ],
+        "Scan.BufferGet": [
+          3,
+          [
+            0,
+            30,
+            89
+          ],
+          240,
+          240
+        ]
+      },
+      "known_error_preserved": {
+        "Current.CalibrGet": "Nanonis status=1: Error in command: current.calibrget: Gain index is not valid"
+      }
+    }
+  ],
+  "separation_between_readbacks_s": 17.815033334,
+  "same_native_start_stop_path_counter": true,
+  "reconciled_native_stop_confirmed": true,
+  "software_final_elapsed_nominal_units": 5707.659999847412,
+  "row_count_duration_s": 2853.83,
+  "native_elapsed_half_minus_row_duration_s": -7.629387255292386e-08,
+  "requested_nominal7200_was_not_exhausted": true,
+  "wire_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/final_native_record_review/wire_evidence.json",
+    "sha256": "e13967179fc0256c1c1347bd1a509842d30b41e741466ab4a8de25faca174363"
+  },
+  "qualification": "Stop timing/header sampled duration are mutually consistent under the observed2x native elapsed convention; no hard per-sample hardware timestamp guarantee or analog-bandwidth claim."
+}

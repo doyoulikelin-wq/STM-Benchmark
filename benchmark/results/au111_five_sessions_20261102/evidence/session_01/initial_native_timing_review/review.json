@@ -1,0 +1,238 @@
+{
+  "scope": "Local-only initial closed DAT and first101 acquiring status observations; not complete logger/session audit",
+  "source_file": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native_closed_initial/dl_goal30_FIVE1102_SESSION_0100001.dat",
+  "source_sha256": "7d1630432594a516db204a08c3af5b5b9d852bf891aa09544d993b8acf4dc466",
+  "receipt_sha256": "ec215d6a13b6f6a6e61998861b140dbd3ebb38e8eb9681666053a9c0a318397d",
+  "rows": 25000,
+  "channels": [
+    "Current (A)",
+    "Bias (V)",
+    "Z (m)",
+    "Z Control signal (A)",
+    "Z Error signal (A)",
+    "Z SafeTip signal (A)"
+  ],
+  "all_finite": true,
+  "bias_all_minus1": true,
+  "dt_s": 0.0005,
+  "nominal_header_block_duration_s": 12.5,
+  "sample_center_span_s": 12.4995,
+  "saved_date_header": "02.11.2026 08:21:23",
+  "native_start_identity": "2026/11/2 8:21:18",
+  "status_window_start_utc": "2026-11-02T00:21:18.458277+00:00",
+  "status_window_end_utc": "2026-11-02T00:22:14.111384+00:00",
+  "rate_estimates": [
+    {
+      "status_index": 20,
+      "host_monotonic_span_s": 11.306165,
+      "native_elapsed_difference_setting_units": 22.040000915527344,
+      "native_elapsed_per_host_s": 1.949379026002835
+    },
+    {
+      "status_index": 50,
+      "host_monotonic_span_s": 27.843189625,
+      "native_elapsed_difference_setting_units": 55.13999938964844,
+      "native_elapsed_per_host_s": 1.980376534883023
+    },
+    {
+      "status_index": 100,
+      "host_monotonic_span_s": 55.652812,
+      "native_elapsed_difference_setting_units": 111.02000045776367,
+      "native_elapsed_per_host_s": 1.994867760819771
+    }
+  ],
+  "path_first_observed_transitions": [
+    {
+      "utc": "2026-11-02T00:21:18.458277+00:00",
+      "monotonic_ns": 1450323178736166,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        0,
+        0.0,
+        0,
+        "",
+        99,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_VAL1101_POST0200019.dat",
+        0
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 0.0,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_VAL1101_POST0200019.dat",
+        "points_counter": 0
+      }
+    },
+    {
+      "utc": "2026-11-02T00:21:23.631653+00:00",
+      "monotonic_ns": 1450328352101458,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        0,
+        10.0,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100001.dat",
+        10360
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 10.0,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100001.dat",
+        "points_counter": 10360
+      }
+    },
+    {
+      "utc": "2026-11-02T00:21:31.452011+00:00",
+      "monotonic_ns": 1450336172398458,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        0,
+        25.020000457763672,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100002.dat",
+        980
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 25.020000457763672,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100002.dat",
+        "points_counter": 980
+      }
+    },
+    {
+      "utc": "2026-11-02T00:21:43.587393+00:00",
+      "monotonic_ns": 1450348307687458,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        0,
+        50.02000045776367,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100003.dat",
+        260
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 50.02000045776367,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100003.dat",
+        "points_counter": 260
+      }
+    },
+    {
+      "utc": "2026-11-02T00:21:56.241324+00:00",
+      "monotonic_ns": 1450360961558500,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        1,
+        15.0,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100004.dat",
+        580
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 75.0,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100004.dat",
+        "points_counter": 580
+      }
+    },
+    {
+      "utc": "2026-11-02T00:22:08.563660+00:00",
+      "monotonic_ns": 1450373283852625,
+      "kind": "datalog_status",
+      "label": "acquiring",
+      "raw_values": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        1,
+        40.0,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100005.dat",
+        220
+      ],
+      "parsed": {
+        "start": "2026/11/2 8:21:18",
+        "elapsed_s": 100.0,
+        "stop": "",
+        "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100005.dat",
+        "points_counter": 220
+      }
+    }
+  ],
+  "verified_status_packet_groups": 10,
+  "verified_packet_files": 40,
+  "status_evidence_sha256": "8af29175b426d41d9e5628317a6eaa5051adb7d8ec93a8b60fb2b544fc911e7e",
+  "config": {
+    "status": "configured_and_readback_verified",
+    "acknowledged_writers": [
+      "Scan.FrameSet",
+      "Scan.BufferSet"
+    ],
+    "snapshot_sha256": "e7a28eaff5a60ecba34632719699235e9b3d54d42d2292a1877ace418d2873b3",
+    "frame": [
+      0.0,
+      0.0,
+      5.000000058430487e-08,
+      5.000000058430487e-08,
+      0.0
+    ],
+    "buffer": [
+      3,
+      [
+        0,
+        30,
+        89
+      ],
+      240,
+      240
+    ]
+  },
+  "interpretation": [
+    "Native elapsed advances approximately2units per host wall second, consistent with prior1200nominal\u2192600wall; this is early-run support only, not a measured full7200 duration.",
+    "Header Saved Date08:21:23 and first path00001 occur about5s after nativeStart while a25000row block nominally spans12.5s; do not use Saved Date as a completed-block end time or hardware sample trigger.",
+    "First path00002 at08:21:31.452 with counter980 supports receipt basis that00001 is no longer current when copied. Path/counter updates are asynchronous; no exact sample-to-host alignment asserted.",
+    "READY can retain a previous acquisition last_saved_path while new native start/progress exists. The stale path is not proof the new logger has failed; current-basename closed-block proof is separate.",
+    "This firstblock predates configuration and fullscan start by host timing; it validates initial sampling, not pulse/scan stages or gap-free fullcycle coverage.",
+    "OnlyDataLog commands and two geometry setters plus ScanStart are evidenced forS1 at this checkpoint; no newpulse/shaper is established by this review."
+  ],
+  "unverified": [
+    "complete7200nominal duration",
+    "allblocks/continuity and gaps",
+    "later fullscan/pulse/recovery coverage",
+    "physical front-end range/bandwidth/true high-speed peaks"
+  ]
+}

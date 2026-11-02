@@ -1,0 +1,1391 @@
+{
+  "scope": "Completed return_A01 only, local copied closed blocks107..115. Exact 11 command/ACK/readbacks audited; native sample attribution uses conservative Status brackets, not hard synchronized command clock.",
+  "source_receipt_sha256": "3da07c8ad6f3116e55b47168d03d6d6f26db5001f0aee04eb250a9a14f70541a",
+  "source_receipt_complete_through": 151,
+  "files": [
+    {
+      "block": 107,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100107.dat",
+      "sha256": "9cec920164ab64734fac326ce949d081ff5cf308479be42551b5acc7330e626a",
+      "rows": 25000,
+      "bytes": 2122331
+    },
+    {
+      "block": 108,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100108.dat",
+      "sha256": "eeca3a53d76af9d0d9569b0f38c78593ab9db437b745ba854e4f8b6df83280ef",
+      "rows": 25000,
+      "bytes": 2153727
+    },
+    {
+      "block": 109,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100109.dat",
+      "sha256": "33227f0a437b775127bf6b11b9b7d51dcd9bbe1e3ded0fd1b97b779b91c8b09c",
+      "rows": 25000,
+      "bytes": 2162587
+    },
+    {
+      "block": 110,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100110.dat",
+      "sha256": "7c92bd34ff582ee5f9ac94dd426560784e79d22752bbe3f2e262b4095e58708b",
+      "rows": 25000,
+      "bytes": 2162247
+    },
+    {
+      "block": 111,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100111.dat",
+      "sha256": "e7665c7cc18df165a781fd284f61eaeb5145b02c360639d9af96d06539a9a920",
+      "rows": 25000,
+      "bytes": 2162160
+    },
+    {
+      "block": 112,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100112.dat",
+      "sha256": "65b68169e74c30bee0fa6457b84ba5fb502ebef2d8c4e46b828b386cca001dcd",
+      "rows": 25000,
+      "bytes": 2162166
+    },
+    {
+      "block": 113,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100113.dat",
+      "sha256": "f2af8ea4bca371fc064274534f5d8ccafcf915472f3511046b7fccf911685506",
+      "rows": 25000,
+      "bytes": 2162273
+    },
+    {
+      "block": 114,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100114.dat",
+      "sha256": "5cf46f8f84f0e986d11f901ed5c31273717536a8e7e94fa9852cded9f34fd3f6",
+      "rows": 25000,
+      "bytes": 2162223
+    },
+    {
+      "block": 115,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100115.dat",
+      "sha256": "7dcfe2ac1fd9213d297fb1996768b99c3291b2f2c21cfe87df6a5a61157c7ac5",
+      "rows": 25000,
+      "bytes": 2162240
+    }
+  ],
+  "all_hash_bytes_header_shape_finite_verified": true,
+  "rows_per_channel": 225000,
+  "finite_scalars": 1350000,
+  "sample_period_s": 0.0005,
+  "stored_interval_not_analog_bandwidth": true,
+  "Bias_all_minus1": true,
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/analyze_return_A01.py",
+    "sha256": "b7782686543a2122e114e41a40eaed21b83b59d1244c36bcf1ed684301c882bc"
+  },
+  "sources": {
+    "manifest.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/manifest.json",
+      "sha256": "357f817182a068f38271bc199b8419b30c953da3685e02ec0902ba79b57b0ce8"
+    },
+    "outcome.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/outcome.json",
+      "sha256": "db2d66620aa777f38bb41fa9055921a3c9a2f7ea930c7d88ba0ba9aefdc5c6e8"
+    },
+    "events.jsonl": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/events.jsonl",
+      "sha256": "b26afa521f15cc48a7e4252b49b2fdc546723cba7c9e26e703ff56a5aae09c0c"
+    },
+    "before.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/before.json",
+      "sha256": "d0340bbe7d92c364f7ddc0c6f340fc71f28e2599e4208184c04694a4447d15e3"
+    },
+    "after.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/after.json",
+      "sha256": "1724e07d75851018c31f3af55c4f90b8e1ed3b7d23d4ee7e09985b31c7d334a8"
+    },
+    "final30_samples.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/final30_samples.json",
+      "sha256": "57d337f8a0db8d88c5120621861e895d65344647e62b81a449554c6786871a9e"
+    }
+  },
+  "write_count": 11,
+  "exact_absolute_targets_pA": [
+    931.3225746154785,
+    745.0580707946131,
+    596.04643443123,
+    476.8371808516747,
+    381.46971692576415,
+    305.1757735406113,
+    244.14062438360418,
+    195.3125022824409,
+    156.24999905039516,
+    124.99999646475857,
+    100.0000013351432
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "target_pA": 931.3225746154785,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_01.claim",
+        "sha256": "b4fbf6f5d93fb90dfd90985736a7ddb3bb8eb732e3f1a5667b003f6fcd0e025a"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_01_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 687,
+      "exact_readback_wire_sequence": 688,
+      "boundary": {
+        "sample_boundaries": [
+          2679620,
+          2679740
+        ],
+        "width_s": 0.06,
+        "source_status_sequences": [
+          681,
+          703
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2679740,
+            "block": 108,
+            "block_zero_index": 4740,
+            "header_axis_s": 1339.8700000000001
+          },
+          {
+            "global_zero_index": 2690200,
+            "block": 108,
+            "block_zero_index": 15200,
+            "header_axis_s": 1345.1000000000001
+          }
+        ],
+        "rows": 10460,
+        "nominal_duration_s": 5.23,
+        "I_min_pA": -1079.4771,
+        "I_min_location": {
+          "global_zero_index": 2687781,
+          "block": 108,
+          "block_zero_index": 12781,
+          "header_axis_s": 1343.8905
+        },
+        "I_max_pA": -826.14438,
+        "I_mean_pA": -937.5529261749522,
+        "I_RMS_about_mean_pA": 38.6258946212872,
+        "abs_I_ge_pA_counts": {
+          "400": 10460,
+          "1000": 567,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.14437999999998,
+          -102.11858000000001
+        ],
+        "Z_median_nm": -102.13427,
+        "Z_slope_pm_s": 0.11114838075810492,
+        "Z_detrended_RMS_pm": 3.5683785876602223,
+        "max_adjacent_Z_pm": 4.130000000004657,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2689302,
+          "block": 108,
+          "block_zero_index": 14302,
+          "header_axis_s": 1344.651
+        },
+        "outside_minus100pA_pm20pct_count": 10460
+      }
+    },
+    {
+      "index": 2,
+      "target_pA": 745.0580707946131,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_02.claim",
+        "sha256": "c389995191b04ae42ae417d966a0eef539b3bc882c08fb385b47478a4008e75c"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_02_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 1301,
+      "exact_readback_wire_sequence": 1302,
+      "boundary": {
+        "sample_boundaries": [
+          2690200,
+          2690340
+        ],
+        "width_s": 0.07,
+        "source_status_sequences": [
+          1295,
+          1317
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2690340,
+            "block": 108,
+            "block_zero_index": 15340,
+            "header_axis_s": 1345.17
+          },
+          {
+            "global_zero_index": 2701280,
+            "block": 109,
+            "block_zero_index": 1280,
+            "header_axis_s": 1350.64
+          }
+        ],
+        "rows": 10940,
+        "nominal_duration_s": 5.47,
+        "I_min_pA": -1000.4374999999999,
+        "I_min_location": {
+          "global_zero_index": 2699889,
+          "block": 108,
+          "block_zero_index": 24889,
+          "header_axis_s": 1349.9445
+        },
+        "I_max_pA": -603.12999,
+        "I_mean_pA": -758.9193845493601,
+        "I_RMS_about_mean_pA": 52.87775090313817,
+        "abs_I_ge_pA_counts": {
+          "400": 10940,
+          "1000": 1,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.13107000000001,
+          -102.10512
+        ],
+        "Z_median_nm": -102.12106,
+        "Z_slope_pm_s": 1.1683933337308943,
+        "Z_detrended_RMS_pm": 3.649757278709335,
+        "max_adjacent_Z_pm": 5.360000000000582,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2699243,
+          "block": 108,
+          "block_zero_index": 24243,
+          "header_axis_s": 1349.6215
+        },
+        "outside_minus100pA_pm20pct_count": 10940
+      }
+    },
+    {
+      "index": 3,
+      "target_pA": 596.04643443123,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_03.claim",
+        "sha256": "47407df416ace2dd668f282c3ccb99bf359753bbfacd3d62f9c6339634db5027"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_03_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 1945,
+      "exact_readback_wire_sequence": 1946,
+      "boundary": {
+        "sample_boundaries": [
+          2701280,
+          2701500
+        ],
+        "width_s": 0.11,
+        "source_status_sequences": [
+          1939,
+          1961
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2701500,
+            "block": 109,
+            "block_zero_index": 1500,
+            "header_axis_s": 1350.75
+          },
+          {
+            "global_zero_index": 2712700,
+            "block": 109,
+            "block_zero_index": 12700,
+            "header_axis_s": 1356.3500000000001
+          }
+        ],
+        "rows": 11200,
+        "nominal_duration_s": 5.6000000000000005,
+        "I_min_pA": -828.0165999999999,
+        "I_min_location": {
+          "global_zero_index": 2708381,
+          "block": 109,
+          "block_zero_index": 8381,
+          "header_axis_s": 1354.1905
+        },
+        "I_max_pA": -487.48516,
+        "I_mean_pA": -618.09780665625,
+        "I_RMS_about_mean_pA": 45.82420723918807,
+        "abs_I_ge_pA_counts": {
+          "400": 11200,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.11855,
+          -102.08766
+        ],
+        "Z_median_nm": -102.10539999999999,
+        "Z_slope_pm_s": 0.4971077140804436,
+        "Z_detrended_RMS_pm": 4.620362872885798,
+        "max_adjacent_Z_pm": 6.4799999999959255,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2712518,
+          "block": 109,
+          "block_zero_index": 12518,
+          "header_axis_s": 1356.259
+        },
+        "outside_minus100pA_pm20pct_count": 11200
+      }
+    },
+    {
+      "index": 4,
+      "target_pA": 476.8371808516747,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_04.claim",
+        "sha256": "88056e35854b44d1906f0f5972c0b5180656f342181ce029b2405e07492eda3e"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_04_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 2589,
+      "exact_readback_wire_sequence": 2590,
+      "boundary": {
+        "sample_boundaries": [
+          2712700,
+          2712820
+        ],
+        "width_s": 0.06,
+        "source_status_sequences": [
+          2583,
+          2605
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2712820,
+            "block": 109,
+            "block_zero_index": 12820,
+            "header_axis_s": 1356.41
+          },
+          {
+            "global_zero_index": 2723940,
+            "block": 109,
+            "block_zero_index": 23940,
+            "header_axis_s": 1361.97
+          }
+        ],
+        "rows": 11120,
+        "nominal_duration_s": 5.5600000000000005,
+        "I_min_pA": -695.7922,
+        "I_min_location": {
+          "global_zero_index": 2714226,
+          "block": 109,
+          "block_zero_index": 14226,
+          "header_axis_s": 1357.113
+        },
+        "I_max_pA": -372.98151,
+        "I_mean_pA": -506.926296682554,
+        "I_RMS_about_mean_pA": 47.68610099337476,
+        "abs_I_ge_pA_counts": {
+          "400": 11080,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.10795,
+          -102.06792
+        ],
+        "Z_median_nm": -102.089,
+        "Z_slope_pm_s": -0.19219180991857757,
+        "Z_detrended_RMS_pm": 5.697192187560702,
+        "max_adjacent_Z_pm": 9.139999999984866,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2715872,
+          "block": 109,
+          "block_zero_index": 15872,
+          "header_axis_s": 1357.936
+        },
+        "outside_minus100pA_pm20pct_count": 11120
+      }
+    },
+    {
+      "index": 5,
+      "target_pA": 381.46971692576415,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_05.claim",
+        "sha256": "b611e4c9d5596630c52ba11609ec3b66fbacf0a6b8734a06eccd0d178f3670a5"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_05_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 3248,
+      "exact_readback_wire_sequence": 3249,
+      "boundary": {
+        "sample_boundaries": [
+          2723940,
+          2724120
+        ],
+        "width_s": 0.09,
+        "source_status_sequences": [
+          3242,
+          3264
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2724120,
+            "block": 109,
+            "block_zero_index": 24120,
+            "header_axis_s": 1362.06
+          },
+          {
+            "global_zero_index": 2734840,
+            "block": 110,
+            "block_zero_index": 9840,
+            "header_axis_s": 1367.42
+          }
+        ],
+        "rows": 10720,
+        "nominal_duration_s": 5.36,
+        "I_min_pA": -533.84547,
+        "I_min_location": {
+          "global_zero_index": 2731681,
+          "block": 110,
+          "block_zero_index": 6681,
+          "header_axis_s": 1365.8405
+        },
+        "I_max_pA": -320.68401,
+        "I_mean_pA": -420.66150601865667,
+        "I_RMS_about_mean_pA": 38.334553792634225,
+        "abs_I_ge_pA_counts": {
+          "400": 7291,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.08429,
+          -102.05366000000001
+        ],
+        "Z_median_nm": -102.07103,
+        "Z_slope_pm_s": 0.39307114317192127,
+        "Z_detrended_RMS_pm": 4.382885339981284,
+        "max_adjacent_Z_pm": 5.690000000002328,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2728159,
+          "block": 110,
+          "block_zero_index": 3159,
+          "header_axis_s": 1364.0795
+        },
+        "outside_minus100pA_pm20pct_count": 10720
+      }
+    },
+    {
+      "index": 6,
+      "target_pA": 305.1757735406113,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_06.claim",
+        "sha256": "691bda0d174c89b7602af366509d27ffad596d4f0ab67b127b0f78166f4c543a"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_06_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 3877,
+      "exact_readback_wire_sequence": 3878,
+      "boundary": {
+        "sample_boundaries": [
+          2734840,
+          2735040
+        ],
+        "width_s": 0.1,
+        "source_status_sequences": [
+          3871,
+          3893
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2735040,
+            "block": 110,
+            "block_zero_index": 10040,
+            "header_axis_s": 1367.52
+          },
+          {
+            "global_zero_index": 2746100,
+            "block": 110,
+            "block_zero_index": 21100,
+            "header_axis_s": 1373.05
+          }
+        ],
+        "rows": 11060,
+        "nominal_duration_s": 5.53,
+        "I_min_pA": -457.52194,
+        "I_min_location": {
+          "global_zero_index": 2741933,
+          "block": 110,
+          "block_zero_index": 16933,
+          "header_axis_s": 1370.9665
+        },
+        "I_max_pA": -242.00192,
+        "I_mean_pA": -336.7309350777577,
+        "I_RMS_about_mean_pA": 34.35078645657498,
+        "abs_I_ge_pA_counts": {
+          "400": 367,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.08059,
+          -102.04256
+        ],
+        "Z_median_nm": -102.05980000000001,
+        "Z_slope_pm_s": -0.5119222891221887,
+        "Z_detrended_RMS_pm": 5.521361137383562,
+        "max_adjacent_Z_pm": 7.240000000005239,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2742171,
+          "block": 110,
+          "block_zero_index": 17171,
+          "header_axis_s": 1371.0855000000001
+        },
+        "outside_minus100pA_pm20pct_count": 11060
+      }
+    },
+    {
+      "index": 7,
+      "target_pA": 244.14062438360418,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_07.claim",
+        "sha256": "bf66834c57c9aa7322837fc75ef1e710d11046a6ce9a0fec9af1d25268878249"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_07_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 4521,
+      "exact_readback_wire_sequence": 4522,
+      "boundary": {
+        "sample_boundaries": [
+          2746100,
+          2746300
+        ],
+        "width_s": 0.1,
+        "source_status_sequences": [
+          4515,
+          4537
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2746300,
+            "block": 110,
+            "block_zero_index": 21300,
+            "header_axis_s": 1373.15
+          },
+          {
+            "global_zero_index": 2757080,
+            "block": 111,
+            "block_zero_index": 7080,
+            "header_axis_s": 1378.54
+          }
+        ],
+        "rows": 10780,
+        "nominal_duration_s": 5.39,
+        "I_min_pA": -431.18631,
+        "I_min_location": {
+          "global_zero_index": 2750932,
+          "block": 111,
+          "block_zero_index": 932,
+          "header_axis_s": 1375.4660000000001
+        },
+        "I_max_pA": -177.4986,
+        "I_mean_pA": -280.8647652087198,
+        "I_RMS_about_mean_pA": 36.24650944564453,
+        "abs_I_ge_pA_counts": {
+          "400": 15,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.05558,
+          -102.02578
+        ],
+        "Z_median_nm": -102.04158,
+        "Z_slope_pm_s": 0.2843663405846903,
+        "Z_detrended_RMS_pm": 4.590470219174697,
+        "max_adjacent_Z_pm": 11.619999999995343,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2750875,
+          "block": 111,
+          "block_zero_index": 875,
+          "header_axis_s": 1375.4375
+        },
+        "outside_minus100pA_pm20pct_count": 10780
+      }
+    },
+    {
+      "index": 8,
+      "target_pA": 195.3125022824409,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_08.claim",
+        "sha256": "812b2c5db618066263904e716806c171e2f0c588fcc5a021f52c218212ce8576"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_08_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 5165,
+      "exact_readback_wire_sequence": 5166,
+      "boundary": {
+        "sample_boundaries": [
+          2757080,
+          2757220
+        ],
+        "width_s": 0.07,
+        "source_status_sequences": [
+          5159,
+          5181
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2757220,
+            "block": 111,
+            "block_zero_index": 7220,
+            "header_axis_s": 1378.6100000000001
+          },
+          {
+            "global_zero_index": 2768060,
+            "block": 111,
+            "block_zero_index": 18060,
+            "header_axis_s": 1384.03
+          }
+        ],
+        "rows": 10840,
+        "nominal_duration_s": 5.42,
+        "I_min_pA": -386.13979,
+        "I_min_location": {
+          "global_zero_index": 2762272,
+          "block": 111,
+          "block_zero_index": 12272,
+          "header_axis_s": 1381.136
+        },
+        "I_max_pA": -130.79784,
+        "I_mean_pA": -227.26073611254614,
+        "I_RMS_about_mean_pA": 34.48150022677355,
+        "abs_I_ge_pA_counts": {
+          "400": 0,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.05082,
+          -102.00694
+        ],
+        "Z_median_nm": -102.02918,
+        "Z_slope_pm_s": 0.11014051750334808,
+        "Z_detrended_RMS_pm": 5.368441080907136,
+        "max_adjacent_Z_pm": 16.860000000000582,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2762145,
+          "block": 111,
+          "block_zero_index": 12145,
+          "header_axis_s": 1381.0725
+        },
+        "outside_minus100pA_pm20pct_count": 10840
+      }
+    },
+    {
+      "index": 9,
+      "target_pA": 156.24999905039516,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_09.claim",
+        "sha256": "d88dcf5292f7ddda42b805d344d47549ac283b10da6456178fae41843347cebf"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_09_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 5809,
+      "exact_readback_wire_sequence": 5810,
+      "boundary": {
+        "sample_boundaries": [
+          2768060,
+          2768220
+        ],
+        "width_s": 0.08,
+        "source_status_sequences": [
+          5803,
+          5825
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2768220,
+            "block": 111,
+            "block_zero_index": 18220,
+            "header_axis_s": 1384.1100000000001
+          },
+          {
+            "global_zero_index": 2779380,
+            "block": 112,
+            "block_zero_index": 4380,
+            "header_axis_s": 1389.69
+          }
+        ],
+        "rows": 11160,
+        "nominal_duration_s": 5.58,
+        "I_min_pA": -248.78627,
+        "I_min_location": {
+          "global_zero_index": 2777936,
+          "block": 112,
+          "block_zero_index": 2936,
+          "header_axis_s": 1388.968
+        },
+        "I_max_pA": -125.27997,
+        "I_mean_pA": -183.52610204390683,
+        "I_RMS_about_mean_pA": 21.875382002687637,
+        "abs_I_ge_pA_counts": {
+          "400": 0,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.0308,
+          -101.9983
+        ],
+        "Z_median_nm": -102.0161,
+        "Z_slope_pm_s": -0.7990860511456047,
+        "Z_detrended_RMS_pm": 4.669532046158156,
+        "max_adjacent_Z_pm": 7.010000000009313,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2777852,
+          "block": 112,
+          "block_zero_index": 2852,
+          "header_axis_s": 1388.926
+        },
+        "outside_minus100pA_pm20pct_count": 11160
+      }
+    },
+    {
+      "index": 10,
+      "target_pA": 124.99999646475857,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_10.claim",
+        "sha256": "2e78459221dee8874ad55537ae30d68dd57437e467fefb1dbb17337dc876624f"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_10_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 6468,
+      "exact_readback_wire_sequence": 6469,
+      "boundary": {
+        "sample_boundaries": [
+          2779380,
+          2779580
+        ],
+        "width_s": 0.1,
+        "source_status_sequences": [
+          6462,
+          6484
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2779580,
+            "block": 112,
+            "block_zero_index": 4580,
+            "header_axis_s": 1389.79
+          },
+          {
+            "global_zero_index": 2790260,
+            "block": 112,
+            "block_zero_index": 15260,
+            "header_axis_s": 1395.13
+          }
+        ],
+        "rows": 10680,
+        "nominal_duration_s": 5.34,
+        "I_min_pA": -195.68294,
+        "I_min_location": {
+          "global_zero_index": 2789023,
+          "block": 112,
+          "block_zero_index": 14023,
+          "header_axis_s": 1394.5115
+        },
+        "I_max_pA": -102.99008,
+        "I_mean_pA": -146.98626680898877,
+        "I_RMS_about_mean_pA": 16.45464189132538,
+        "abs_I_ge_pA_counts": {
+          "400": 0,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.02236,
+          -101.98800999999999
+        ],
+        "Z_median_nm": -102.00394,
+        "Z_slope_pm_s": -0.35850996609103297,
+        "Z_detrended_RMS_pm": 4.542476681249701,
+        "max_adjacent_Z_pm": 6.7000000000116415,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2788104,
+          "block": 112,
+          "block_zero_index": 13104,
+          "header_axis_s": 1394.0520000000001
+        },
+        "outside_minus100pA_pm20pct_count": 10174
+      }
+    },
+    {
+      "index": 11,
+      "target_pA": 100.0000013351432,
+      "claim": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_11.claim",
+        "sha256": "99f2c3a50e45ec7ac3348b665f0edebe80cc4232ab37b546c41dac7ae9f641a0"
+      },
+      "ack": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/step_11_ack.json",
+        "sha256": "d5bcb05f51c1261a99557d42ff7b214b564253f0c2f9f0b343c555a71c8a5f51"
+      },
+      "writer_wire_sequence": 7112,
+      "exact_readback_wire_sequence": 7113,
+      "boundary": {
+        "sample_boundaries": [
+          2790260,
+          2790520
+        ],
+        "width_s": 0.13,
+        "source_status_sequences": [
+          7106,
+          7128
+        ]
+      },
+      "conservative_after_set_until_next_or_end": {
+        "range_half_open": [
+          {
+            "global_zero_index": 2790520,
+            "block": 112,
+            "block_zero_index": 15520,
+            "header_axis_s": 1395.26
+          },
+          {
+            "global_zero_index": 2861920,
+            "block": 115,
+            "block_zero_index": 11920,
+            "header_axis_s": 1430.96
+          }
+        ],
+        "rows": 71400,
+        "nominal_duration_s": 35.7,
+        "I_min_pA": -168.21972,
+        "I_min_location": {
+          "global_zero_index": 2856202,
+          "block": 115,
+          "block_zero_index": 6202,
+          "header_axis_s": 1428.101
+        },
+        "I_max_pA": -77.73740000000001,
+        "I_mean_pA": -117.84168496953782,
+        "I_RMS_about_mean_pA": 13.551220960213014,
+        "abs_I_ge_pA_counts": {
+          "400": 0,
+          "1000": 0,
+          "1500": 0,
+          "4000": 0,
+          "9990": 0
+        },
+        "historical_negative_floor_matching_count": 0,
+        "Z_min_max_nm": [
+          -102.01093999999999,
+          -101.97643999999998
+        ],
+        "Z_median_nm": -101.99318,
+        "Z_slope_pm_s": 0.0013043835932080763,
+        "Z_detrended_RMS_pm": 3.9868822573279363,
+        "max_adjacent_Z_pm": 8.90999999998894,
+        "max_adjacent_Z_later_location": {
+          "global_zero_index": 2823378,
+          "block": 113,
+          "block_zero_index": 23378,
+          "header_axis_s": 1411.689
+        },
+        "outside_minus100pA_pm20pct_count": 31929
+      }
+    }
+  ],
+  "phases": {
+    "pre_first_write": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2668920,
+          "block": 107,
+          "block_zero_index": 18920,
+          "header_axis_s": 1334.46
+        },
+        {
+          "global_zero_index": 2679620,
+          "block": 108,
+          "block_zero_index": 4620,
+          "header_axis_s": 1339.81
+        }
+      ],
+      "rows": 10700,
+      "nominal_duration_s": 5.3500000000000005,
+      "I_min_pA": -1165.9562,
+      "I_min_location": {
+        "global_zero_index": 2671275,
+        "block": 107,
+        "block_zero_index": 21275,
+        "header_axis_s": 1335.6375
+      },
+      "I_max_pA": -883.87647,
+      "I_mean_pA": -1005.9677127046729,
+      "I_RMS_about_mean_pA": 38.12215256421447,
+      "abs_I_ge_pA_counts": {
+        "400": 10700,
+        "1000": 5886,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.14688,
+        -102.12704
+      ],
+      "Z_median_nm": -102.13795,
+      "Z_slope_pm_s": -0.149018334176439,
+      "Z_detrended_RMS_pm": 3.3146642173987537,
+      "max_adjacent_Z_pm": 3.5800000000017462,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2671121,
+        "block": 107,
+        "block_zero_index": 21121,
+        "header_axis_s": 1335.5605
+      },
+      "outside_minus100pA_pm20pct_count": 10700
+    },
+    "from_first_write_lower_bound_to_final_status": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2679620,
+          "block": 108,
+          "block_zero_index": 4620,
+          "header_axis_s": 1339.81
+        },
+        {
+          "global_zero_index": 2861920,
+          "block": 115,
+          "block_zero_index": 11920,
+          "header_axis_s": 1430.96
+        }
+      ],
+      "rows": 182300,
+      "nominal_duration_s": 91.15,
+      "I_min_pA": -1079.4771,
+      "I_min_location": {
+        "global_zero_index": 2687781,
+        "block": 108,
+        "block_zero_index": 12781,
+        "header_axis_s": 1343.8905
+      },
+      "I_max_pA": -77.73740000000001,
+      "I_mean_pA": -314.0796467201372,
+      "I_RMS_about_mean_pA": 250.9097148296779,
+      "abs_I_ge_pA_counts": {
+        "400": 52205,
+        "1000": 608,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.14437999999998,
+        -101.97643999999998
+      ],
+      "Z_median_nm": -102.01948,
+      "Z_slope_pm_s": 1.7498007105350573,
+      "Z_detrended_RMS_pm": 16.996685873712174,
+      "max_adjacent_Z_pm": 16.860000000000582,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2762145,
+        "block": 111,
+        "block_zero_index": 12145,
+        "header_axis_s": 1381.0725
+      },
+      "outside_minus100pA_pm20pct_count": 142266
+    },
+    "after_final_Set_upper_bound_to_final_status": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2790520,
+          "block": 112,
+          "block_zero_index": 15520,
+          "header_axis_s": 1395.26
+        },
+        {
+          "global_zero_index": 2861920,
+          "block": 115,
+          "block_zero_index": 11920,
+          "header_axis_s": 1430.96
+        }
+      ],
+      "rows": 71400,
+      "nominal_duration_s": 35.7,
+      "I_min_pA": -168.21972,
+      "I_min_location": {
+        "global_zero_index": 2856202,
+        "block": 115,
+        "block_zero_index": 6202,
+        "header_axis_s": 1428.101
+      },
+      "I_max_pA": -77.73740000000001,
+      "I_mean_pA": -117.84168496953782,
+      "I_RMS_about_mean_pA": 13.551220960213014,
+      "abs_I_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.01093999999999,
+        -101.97643999999998
+      ],
+      "Z_median_nm": -101.99318,
+      "Z_slope_pm_s": 0.0013043835932080763,
+      "Z_detrended_RMS_pm": 3.9868822573279363,
+      "max_adjacent_Z_pm": 8.90999999998894,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2823378,
+        "block": 113,
+        "block_zero_index": 23378,
+        "header_axis_s": 1411.689
+      },
+      "outside_minus100pA_pm20pct_count": 31929
+    },
+    "last30_native_s_before_final_status": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2801920,
+          "block": 113,
+          "block_zero_index": 1920,
+          "header_axis_s": 1400.96
+        },
+        {
+          "global_zero_index": 2861920,
+          "block": 115,
+          "block_zero_index": 11920,
+          "header_axis_s": 1430.96
+        }
+      ],
+      "rows": 60000,
+      "nominal_duration_s": 30.0,
+      "I_min_pA": -168.21972,
+      "I_min_location": {
+        "global_zero_index": 2856202,
+        "block": 115,
+        "block_zero_index": 6202,
+        "header_axis_s": 1428.101
+      },
+      "I_max_pA": -79.529543,
+      "I_mean_pA": -117.92459507706667,
+      "I_RMS_about_mean_pA": 13.617764328146079,
+      "abs_I_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.01093999999999,
+        -101.97888
+      ],
+      "Z_median_nm": -101.99316999999999,
+      "Z_slope_pm_s": 0.0030418202408495692,
+      "Z_detrended_RMS_pm": 3.945118367583919,
+      "max_adjacent_Z_pm": 8.90999999998894,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2823378,
+        "block": 113,
+        "block_zero_index": 23378,
+        "header_axis_s": 1411.689
+      },
+      "outside_minus100pA_pm20pct_count": 26952
+    },
+    "last10_native_s_before_final_status": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2841920,
+          "block": 114,
+          "block_zero_index": 16920,
+          "header_axis_s": 1420.96
+        },
+        {
+          "global_zero_index": 2861920,
+          "block": 115,
+          "block_zero_index": 11920,
+          "header_axis_s": 1430.96
+        }
+      ],
+      "rows": 20000,
+      "nominal_duration_s": 10.0,
+      "I_min_pA": -168.21972,
+      "I_min_location": {
+        "global_zero_index": 2856202,
+        "block": 115,
+        "block_zero_index": 6202,
+        "header_axis_s": 1428.101
+      },
+      "I_max_pA": -79.85669100000001,
+      "I_mean_pA": -118.01043551769999,
+      "I_RMS_about_mean_pA": 13.594433237693776,
+      "abs_I_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.00636,
+        -101.98023
+      ],
+      "Z_median_nm": -101.99328999999999,
+      "Z_slope_pm_s": -0.11548091787369237,
+      "Z_detrended_RMS_pm": 3.8144056410500595,
+      "max_adjacent_Z_pm": 7.3399999999965075,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2854086,
+        "block": 115,
+        "block_zero_index": 4086,
+        "header_axis_s": 1427.0430000000001
+      },
+      "outside_minus100pA_pm20pct_count": 9046
+    },
+    "last5_native_s_before_final_status": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2851920,
+          "block": 115,
+          "block_zero_index": 1920,
+          "header_axis_s": 1425.96
+        },
+        {
+          "global_zero_index": 2861920,
+          "block": 115,
+          "block_zero_index": 11920,
+          "header_axis_s": 1430.96
+        }
+      ],
+      "rows": 10000,
+      "nominal_duration_s": 5.0,
+      "I_min_pA": -168.21972,
+      "I_min_location": {
+        "global_zero_index": 2856202,
+        "block": 115,
+        "block_zero_index": 6202,
+        "header_axis_s": 1428.101
+      },
+      "I_max_pA": -79.85669100000001,
+      "I_mean_pA": -117.9558637984,
+      "I_RMS_about_mean_pA": 13.78872826189398,
+      "abs_I_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "1500": 0,
+        "4000": 0,
+        "9990": 0
+      },
+      "historical_negative_floor_matching_count": 0,
+      "Z_min_max_nm": [
+        -102.00636,
+        -101.98023
+      ],
+      "Z_median_nm": -101.99355,
+      "Z_slope_pm_s": -0.26930765069306484,
+      "Z_detrended_RMS_pm": 3.9588649869774915,
+      "max_adjacent_Z_pm": 7.3399999999965075,
+      "max_adjacent_Z_later_location": {
+        "global_zero_index": 2854086,
+        "block": 115,
+        "block_zero_index": 4086,
+        "header_axis_s": 1427.0430000000001
+      },
+      "outside_minus100pA_pm20pct_count": 4458
+    }
+  },
+  "final_source_status": {
+    "event": {
+      "utc": "2026-11-02T00:45:09.436219+00:00",
+      "monotonic_ns": 1451754151026083,
+      "kind": "logger_ongoing",
+      "native_status": [
+        17,
+        "2026/11/2 8:21:18",
+        0,
+        47,
+        41.0,
+        0,
+        "",
+        104,
+        "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_0100115.dat",
+        11920
+      ],
+      "logger_event_monotonic_ns": 1451754024358041,
+      "client_age_s": 1430.979585083,
+      "estimated_remaining_s": 2169.020414917,
+      "required_s": 143.4091613329947,
+      "historical_half_wall_factor_assumed": true,
+      "uninterrupted_samples_not_proven": true
+    },
+    "wire": {
+      "utc": "2026-11-02T00:45:09.412681+00:00",
+      "monotonic_ns": 1451754127489875,
+      "kind": "tcp_exchange",
+      "sequence": 11127,
+      "request_id": "32a6d33c46ee40d4bb7d3ec2f55b787f",
+      "command": "DataLog.StatusGet",
+      "args": [],
+      "request_header": {
+        "path": "wire/0011127_request_header.bin",
+        "sha256": "9479f8997c659216673ed7c870a984aa9fbb97a31340f5fc2470939ae1e14636",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0011127_request_body.bin",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "response_header": {
+        "path": "wire/0011127_response_header.bin",
+        "sha256": "adef7bd9d526d2a28d3597c4af1cd53fb03cde4dc4249a2bb10679e7c649c2e1",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0011127_response_body.bin",
+        "sha256": "a08b525fe018a36cbf1d47317e1036f6193731472b1125d9fe6fd51506873e02",
+        "bytes": 153
+      },
+      "start_utc": "2026-11-02T00:45:09.408614+00:00",
+      "start_perf": 1451754.123414416,
+      "end_utc": "2026-11-02T00:45:09.412136+00:00",
+      "end_perf": 1451754.126944291,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.0035298748407512903
+    },
+    "point": 2861920
+  },
+  "slow_final_statistics": {
+    "samples": 65,
+    "duration_s": 10.109771250048652,
+    "Z_slope_pm_s": -0.16942753421427095,
+    "Z_detrended_rms_pm": 4.627032870780408,
+    "tail_bracket_includes_last_sample_at_or_before_cutoff": true,
+    "sequential_host_times_not_native_sample_times": true,
+    "last5s_all_sampled_current_in_band": true,
+    "Z_gates_passed": true
+  },
+  "slow_Z_before_after_nm": [
+    -102.13770451628079,
+    -101.99592992421458
+  ],
+  "slow_Z_change_pm": 141.7745920662128,
+  "XY_before_after_m": [
+    [
+      -2.5000000292152436e-08,
+      -2.5000000292152436e-08
+    ],
+    [
+      -2.5000000292152436e-08,
+      -2.5000000292152436e-08
+    ]
+  ],
+  "final_readback_bias_setpoint_feedback_safetip": {
+    "Bias.Get": [
+      -1.0
+    ],
+    "ZCtrl.SetpntGet": [
+      1.000000013351432e-10
+    ],
+    "ZCtrl.OnOffGet": [
+      1
+    ],
+    "ZCtrl.StatusGet": [
+      2
+    ],
+    "SafeTip.OnOffGet": [
+      0
+    ],
+    "Scan.StatusGet": [
+      0
+    ]
+  },
+  "next_scan_start_claim": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/after_A01_full/scan_start.claim",
+    "sha256": "f8e91fefc8a731cf249173410a0be134a06468bdc4faec2130b5fd33013e16a8"
+  },
+  "notes": [
+    "Return targets are the actual reverse preparation sequence beginning931.3226pA, not1000/1.25=800pA first.",
+    "Perstep dynamic boundary windows remain separate. Z drift/RMS over the full ramp includes intentional setpoint changes and is not stationary noise.",
+    "Final100pA slow Getter band and native2kHz pointwise band are different tests; report both without redefining preselected gates.",
+    "No observed identical floor does not prove no analog saturation or true peak bound.",
+    "No new pulse, retry, On or cleanup writer is inferred here; control outcome lists none. This record is not a repair-success claim."
+  ],
+  "wire_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/native_phase_review/wire_evidence.json",
+    "sha256": "b6972865cbae808f35f6c46ed31d74272ddd1581079760b08bc142859b4884d7"
+  },
+  "wire_groups_verified": 46,
+  "wire_files_verified": 184
+}

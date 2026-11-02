@@ -1,0 +1,123 @@
+{
+  "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/logger_fullcycle_once.py",
+  "sha256": "f6a3a1b38b06123effc02c0c33599185f30b018d2378416311930815400557fa",
+  "checks_count": 42,
+  "checks": [
+    "actual import/default plan uses no network/no output; source/session/7200/3600/finite7280/7215 metadata",
+    "reject duration 1200",
+    "reject duration 240",
+    "reject duration 0",
+    "reject duration 7199",
+    "reject duration 7201",
+    "reject duration 7200.0",
+    "reject duration True",
+    "reject session 'session_00'",
+    "reject session 'session_06'",
+    "reject session '../session_01'",
+    "reject session 'session_1'",
+    "reject session None",
+    "five exact session bindings",
+    "existing logger never reused",
+    "wrong output /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/logger",
+    "wrong output /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/another",
+    "wrong output /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger",
+    "share refused without walking share",
+    "canonical2hour setter/getter and big-endian codec exact",
+    "profile mismatch (0, 2)",
+    "profile mismatch (1, 0)",
+    "profile mismatch (2, 120)",
+    "profile mismatch (3, 1.0)",
+    "profile mismatch (4, 2)",
+    "recorded initial100pA/SafeOff state accepted offline",
+    "preflight rejects Bias.Get",
+    "preflight rejects Current.Get",
+    "preflight rejects ZCtrl.SetpntGet",
+    "preflight rejects ZCtrl.StatusGet",
+    "preflight rejects Scan.StatusGet",
+    "preflight rejects SafeTip.OnOffGet",
+    "preflight rejects ZCtrl.ZPosGet",
+    "Client rejects junction/sampling Bias.Pulse",
+    "Client rejects junction/sampling ZCtrl.SetpntSet",
+    "Client rejects junction/sampling Scan.Action",
+    "Client rejects junction/sampling SafeTip.OnOffSet",
+    "Client rejects junction/sampling Util.RTOversamplSet",
+    "Client rejects unclaimed Start",
+    "AST equal: state/profile/timing/disk guards, settings, q/snapshot/poll and ownedStop cleanup unchanged",
+    "one Start callsite; no scheduling or repeat loop added",
+    "manifest,READY,claims,result all bind same session/source/role"
+  ],
+  "network_attempts": 0,
+  "run_function_called": false,
+  "hardware_execution_performed": false,
+  "plan": {
+    "socket_opened": false,
+    "session_id": "session_05",
+    "source_sha256": "f6a3a1b38b06123effc02c0c33599185f30b018d2378416311930815400557fa",
+    "role": "fullcycle_native_logger",
+    "output": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_05/logger",
+    "settings": [
+      [
+        "DataLog.ChsSet",
+        [
+          6,
+          [
+            0,
+            24,
+            30,
+            98,
+            99,
+            100
+          ]
+        ]
+      ],
+      [
+        "DataLog.PropsSet",
+        [
+          2,
+          2,
+          0,
+          0.0,
+          1,
+          "dl_goal30_FIVE1102_SESSION_05",
+          "SafeTipOff event record; DataLog commands only; junction action audited separately.",
+          []
+        ]
+      ]
+    ],
+    "start_at_most_once": true,
+    "ready": "Fresh native start + elapsed/points progress after ACK and profile verification",
+    "before_start": "Five-second sampled static -1V/100pA/allidle/SafeTipOff; retained500pA/recoveryOff/pauseOn; feedbackOn/status2/signedCurrent-120..-80pA",
+    "context_screenshot_only": true,
+    "logger_idle_evidence": "unchanged stopped DataLog.StatusGet across >=1s and rechecked prestart",
+    "after_start": "observe junction state only",
+    "junction_writes": 0,
+    "duration_nominal_units": 7200,
+    "prior_factor_wall_estimate_s_not_guarantee": 3600.0,
+    "overall_deadline_s": 7280,
+    "native_completion_wait_s": 7215,
+    "bounded_cleanup_network_budget_s": 6,
+    "local_disk_reserve_bytes": 1073741824,
+    "native_disk_free_verified": false,
+    "fixed_sampling_readbacks": {
+      "Util.RTFreqGet": [
+        20000.0
+      ],
+      "Util.RTOversamplGet": [
+        10
+      ],
+      "Util.AcqPeriodGet": [
+        0.019999999552965164
+      ]
+    },
+    "native_block_samples_documented": 25000,
+    "expected_full_blocks_at_prior_factor_not_guaranteed": 288,
+    "expected_partial_points_at_prior_factor_not_guaranteed": 0,
+    "parent_full_review_before_execution": true
+  },
+  "limitations": [
+    "run/cleanup behavior inherited and AST audited, not hardware tested",
+    "7200nominal actual duration unverified",
+    "no gap-free fullcycle claim",
+    "independent native disk space/root stage budgets required"
+  ]
+}

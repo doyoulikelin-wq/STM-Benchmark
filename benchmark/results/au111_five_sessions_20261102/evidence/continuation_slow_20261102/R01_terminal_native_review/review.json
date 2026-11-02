@@ -1,0 +1,50 @@
+{
+  "scope": "Complete R01 native archive through independently confirmed terminal. Root-only source read, local new writes; no device commands.",
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R01_terminal_native_review/receipt.json",
+    "sha256": "65705db2b70f31146c70dfdf63b928291496692e2a236b3f8a9304a16cbd3ba1",
+    "bytes": 174439
+  },
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R01.py",
+    "sha256": "161f942a88a2e0370cbf4d4a6971e9000a1b501371ea90d36cfefebd8c165157",
+    "bytes": 13026
+  },
+  "block_count": 269,
+  "new_files": 15,
+  "total_rows_per_channel": 6706040,
+  "finite_scalars": 40236240,
+  "sample_header_dt_s": 0.0005,
+  "row_duration_s": 3353.02,
+  "native_nominal_elapsed_units": 6706.040000915527,
+  "native_half_elapsed_minus_row_duration_s": 4.5776369006489404e-07,
+  "all_expected_indices_sha_bytes_rows_header_columns_finite_verified": true,
+  "per_channel_min": {
+    "Current (A)": -9.9994768e-09,
+    "Bias (V)": -5.0,
+    "Z (m)": -1.2369999e-07,
+    "Z Control signal (A)": 1.5090942e-13,
+    "Z Error signal (A)": -7.5846724e-09,
+    "Z SafeTip signal (A)": 1.5090942e-13
+  },
+  "per_channel_max": {
+    "Current (A)": 3.4126462e-11,
+    "Bias (V)": -1.0,
+    "Z (m)": 1.2369999e-07,
+    "Z Control signal (A)": 9.9994768e-09,
+    "Z Error signal (A)": 2.3025328e-09,
+    "Z SafeTip signal (A)": 9.9994768e-09
+  },
+  "abs_I_ge_pA_samples": {
+    "400": 1185624,
+    "1000": 557694,
+    "4000": 109
+  },
+  "historical_software_floor_matching_samples": 61,
+  "qualification": [
+    "The stored0.5ms interval is not the analog bandwidth or true-peak bound.",
+    "Whole-record extrema mix preparations, interventions and scans; no phase attribution or image-quality verdict is implied.",
+    "No missing numbered block detected; this does not prove hardware timestamp/analog no-drop behavior.",
+    "Original outcome and incremental receipt are not overwritten. Segment gap/new baseline must be recorded separately."
+  ]
+}

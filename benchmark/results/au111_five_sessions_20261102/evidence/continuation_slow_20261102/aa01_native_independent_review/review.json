@@ -1,0 +1,1830 @@
+{
+  "created_utc": "2026-11-02T12:02:57.767664+00:00",
+  "scope": "four closed local native blocks17-20 only; no device/network/SMB/UI imports or commands",
+  "sources": [
+    {
+      "file": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200017.dat",
+      "sha256": "a5043bf120af90df6ce422513bc88edb517ada590283bf2abeafb943bc1b2d30",
+      "rows": 25000,
+      "all_six_columns_finite": true
+    },
+    {
+      "file": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200018.dat",
+      "sha256": "4e1aa76e9429def30d772fadba21f6c39af0f0935472ef23c758454bbcbe4738",
+      "rows": 25000,
+      "all_six_columns_finite": true
+    },
+    {
+      "file": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200019.dat",
+      "sha256": "90a7774ae688d76ac1b6e03215d61f7e599de8a94be30b5ac136c83581fc93bc",
+      "rows": 25000,
+      "all_six_columns_finite": true
+    },
+    {
+      "file": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200020.dat",
+      "sha256": "fa77a48075597771377991015e8eafeaf9eb9b82e3ad4bcb601bc1ef8c70f16d",
+      "rows": 25000,
+      "all_six_columns_finite": true
+    }
+  ],
+  "script_sha256": "34b0c59469b72fa8cfbf7fd9def9a67e1a12a443421e703c9572f43bc7dfb417",
+  "dt_s": 0.0005,
+  "all_bias_V": -1,
+  "all_four_blocks": {
+    "interval_native_s_half_open": [
+      200,
+      250
+    ],
+    "samples": 100000,
+    "I_pA": {
+      "min": -5973.8632,
+      "max": 34.126462000000004,
+      "median": 0.11431692000000002,
+      "mean": -10.04740029695786,
+      "std": 82.53398224065809,
+      "min_native_s": 228.4315,
+      "abs_ge400_count": 370,
+      "abs_ge1000_count": 100,
+      "software_lower_value_count": 0,
+      "within_historical_minus120_to_minus80_fraction": 0.02074
+    },
+    "Z_nm": {
+      "first": 123.69999,
+      "last": 123.69999,
+      "min": -119.8828,
+      "max": 123.69999,
+      "linear_slope_nm_s": -0.3275713231211091
+    }
+  },
+  "phase_descriptors": {
+    "withdrawn_prior": {
+      "interval_native_s_half_open": [
+        200,
+        224.4
+      ],
+      "samples": 48800,
+      "I_pA": {
+        "min": -1.3320637,
+        "max": 1.4778422,
+        "median": 0.13133043500000002,
+        "mean": 0.13123484226074777,
+        "std": 0.33052173695098863,
+        "min_native_s": 222.177,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.0
+      },
+      "Z_nm": {
+        "first": 123.69999,
+        "last": 123.69999,
+        "min": 123.69999,
+        "max": 123.69999,
+        "linear_slope_nm_s": 2.747233614191345e-14
+      }
+    },
+    "AA_onset_and_sweeps_including_end_boundary": {
+      "interval_native_s_half_open": [
+        224.4,
+        228.73
+      ],
+      "samples": 8660,
+      "I_pA": {
+        "min": -5973.8632,
+        "max": 34.126462000000004,
+        "median": 0.27194014499999997,
+        "mean": -42.18643311581584,
+        "std": 249.39262715397842,
+        "min_native_s": 228.4315,
+        "abs_ge400_count": 258,
+        "abs_ge1000_count": 97,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.007390300230946882
+      },
+      "Z_nm": {
+        "first": 123.69999,
+        "last": -100.52155,
+        "min": -119.8828,
+        "max": 123.69999,
+        "linear_slope_nm_s": -29.659204173208654
+      }
+    },
+    "conservative_after_AA_off_before_Withdraw": {
+      "interval_native_s_half_open": [
+        228.73,
+        230.96
+      ],
+      "samples": 4460,
+      "I_pA": {
+        "min": -1910.2431,
+        "max": -14.467592,
+        "median": -116.29849,
+        "mean": -141.5910420706278,
+        "std": 100.9227301534937,
+        "min_native_s": 228.8245,
+        "abs_ge400_count": 111,
+        "abs_ge1000_count": 3,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.43004484304932733
+      },
+      "Z_nm": {
+        "first": -100.5581,
+        "last": -99.397383,
+        "min": -100.5581,
+        "max": -99.388764,
+        "linear_slope_nm_s": 0.47261589654990466
+      }
+    },
+    "last_halfsecond_before_withdraw_bound": {
+      "interval_native_s_half_open": [
+        230.46,
+        230.96
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -175.33977,
+        "max": -68.233912,
+        "median": -108.769425,
+        "mean": -109.728099032,
+        "std": 17.62972487795013,
+        "min_native_s": 230.8015,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.69
+      },
+      "Z_nm": {
+        "first": -99.54147400000001,
+        "last": -99.397383,
+        "min": -99.544692,
+        "max": -99.388764,
+        "linear_slope_nm_s": 0.29990674519500704
+      }
+    },
+    "withdraw_boundary_window": {
+      "interval_native_s_half_open": [
+        230.96,
+        231.49
+      ],
+      "samples": 1060,
+      "I_pA": {
+        "min": -440.4774,
+        "max": 1.8220806999999999,
+        "median": 0.00521652755,
+        "mean": -18.01344257976545,
+        "std": 43.97113544424286,
+        "min_native_s": 231.043,
+        "abs_ge400_count": 1,
+        "abs_ge1000_count": 0,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.08679245283018867
+      },
+      "Z_nm": {
+        "first": -99.392487,
+        "last": 123.69999,
+        "min": -99.39923,
+        "max": 123.69999,
+        "linear_slope_nm_s": 332.907210743412
+      }
+    },
+    "confirmed_home_native_late": {
+      "interval_native_s_half_open": [
+        231.49,
+        250
+      ],
+      "samples": 37020,
+      "I_pA": {
+        "min": -1.2131977,
+        "max": 1.5442179,
+        "median": 0.12866011,
+        "mean": 0.12913337532161084,
+        "std": 0.33485380193892644,
+        "min_native_s": 248.459,
+        "abs_ge400_count": 0,
+        "abs_ge1000_count": 0,
+        "software_lower_value_count": 0,
+        "within_historical_minus120_to_minus80_fraction": 0.0
+      },
+      "Z_nm": {
+        "first": 123.69999,
+        "last": 123.69999,
+        "min": 123.69999,
+        "max": 123.69999,
+        "linear_slope_nm_s": -7.961913931747837e-15
+      }
+    }
+  },
+  "last_core_abs_current_threshold_sample_native_s": {
+    "400": 229.262,
+    "1000": 228.9075
+  },
+  "largest_positive_Z_step_in_withdraw_bracket": {
+    "native_s": 231.0425,
+    "adjacent_Z_nm": 133.842407
+  },
+  "clock_anchors": [
+    {
+      "utc": "2026-11-02T11:59:06.329191+00:00",
+      "block": 18,
+      "counter": 22700,
+      "native_s_from_nominal_dt": 223.85
+    },
+    {
+      "utc": "2026-11-02T11:59:06.880193+00:00",
+      "block": 18,
+      "counter": 23800,
+      "native_s_from_nominal_dt": 224.4
+    },
+    {
+      "utc": "2026-11-02T11:59:07.406597+00:00",
+      "block": 18,
+      "counter": 24860,
+      "native_s_from_nominal_dt": 224.93
+    },
+    {
+      "utc": "2026-11-02T11:59:07.967025+00:00",
+      "block": 19,
+      "counter": 980,
+      "native_s_from_nominal_dt": 225.49
+    },
+    {
+      "utc": "2026-11-02T11:59:08.495538+00:00",
+      "block": 19,
+      "counter": 2020,
+      "native_s_from_nominal_dt": 226.01
+    },
+    {
+      "utc": "2026-11-02T11:59:09.032792+00:00",
+      "block": 19,
+      "counter": 3120,
+      "native_s_from_nominal_dt": 226.56
+    },
+    {
+      "utc": "2026-11-02T11:59:09.569533+00:00",
+      "block": 19,
+      "counter": 4180,
+      "native_s_from_nominal_dt": 227.09
+    },
+    {
+      "utc": "2026-11-02T11:59:10.147296+00:00",
+      "block": 19,
+      "counter": 5320,
+      "native_s_from_nominal_dt": 227.66
+    },
+    {
+      "utc": "2026-11-02T11:59:10.680929+00:00",
+      "block": 19,
+      "counter": 6420,
+      "native_s_from_nominal_dt": 228.21
+    },
+    {
+      "utc": "2026-11-02T11:59:11.208261+00:00",
+      "block": 19,
+      "counter": 7460,
+      "native_s_from_nominal_dt": 228.73
+    },
+    {
+      "utc": "2026-11-02T11:59:11.738107+00:00",
+      "block": 19,
+      "counter": 8520,
+      "native_s_from_nominal_dt": 229.26
+    },
+    {
+      "utc": "2026-11-02T11:59:12.324436+00:00",
+      "block": 19,
+      "counter": 9700,
+      "native_s_from_nominal_dt": 229.85
+    },
+    {
+      "utc": "2026-11-02T11:59:12.880443+00:00",
+      "block": 19,
+      "counter": 10800,
+      "native_s_from_nominal_dt": 230.4
+    },
+    {
+      "utc": "2026-11-02T11:59:13.439045+00:00",
+      "block": 19,
+      "counter": 11920,
+      "native_s_from_nominal_dt": 230.96
+    },
+    {
+      "utc": "2026-11-02T11:59:13.968898+00:00",
+      "block": 19,
+      "counter": 12980,
+      "native_s_from_nominal_dt": 231.49
+    },
+    {
+      "utc": "2026-11-02T11:59:14.539545+00:00",
+      "block": 19,
+      "counter": 14120,
+      "native_s_from_nominal_dt": 232.06
+    }
+  ],
+  "readout_sources": {
+    "outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/outcome.json",
+      "sha256": "7ce4fd9d8061b17a763baba7e21494a16356faf2c06bfcab1909922c7b67cc58",
+      "record": {
+        "utc": "2026-11-02T11:59:17.319782+00:00",
+        "monotonic_ns": 1492201963668208,
+        "status": "failed_after_known_Start_ack",
+        "stable": false,
+        "automatic_retry": false,
+        "temperature_K": null,
+        "automatic_end_observed": true,
+        "running_observed": true,
+        "approach_elapsed_s": 3.9204315410461277,
+        "error": "sampled_current_limit",
+        "sampled_AutoOff_contiguous_s": 2.0434024159330875,
+        "withdraw_home_confirmed": true,
+        "sampled_Off1Home_contiguous_s": 3.24775083293207,
+        "start_attempted": true,
+        "start_zero_error_ack": true,
+        "stop_attempted": true,
+        "stop_zero_error_ack": true,
+        "autoapproach_stop_confirmed": true,
+        "withdraw_attempted": true,
+        "writer_outcome_unknown": false
+      }
+    },
+    "autoapproach_start.claim": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/autoapproach_start.claim",
+      "sha256": "23c5489fb7abed5d5ca20a8b1423c79190e5dba39a7b5d12a36770fa1a411a45",
+      "record": {
+        "utc": "2026-11-02T11:59:07.252414+00:00",
+        "monotonic_ns": 1492191896319208,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          1
+        ],
+        "at_most_once": true
+      }
+    },
+    "cleanup_autoapproach_stop.claim": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/cleanup_autoapproach_stop.claim",
+      "sha256": "b96f3b8819ea6fcda6397abe40bc6195a93f48e01e8e0d7959291530d70aa4b3",
+      "record": {
+        "utc": "2026-11-02T11:59:11.315102+00:00",
+        "monotonic_ns": 1492195958998750,
+        "command": "AutoApproach.OnOffSet",
+        "args": [
+          0
+        ],
+        "at_most_once": true
+      }
+    },
+    "failure_withdraw.claim": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/failure_withdraw.claim",
+      "sha256": "fe40e069e3b416e7840e3a0c895747d0929b0090e8af58f42dbaa0612a8410a1",
+      "record": {
+        "utc": "2026-11-02T11:59:13.503103+00:00",
+        "monotonic_ns": 1492198146995083,
+        "command": "ZCtrl.Withdraw",
+        "args": [
+          1,
+          2000
+        ],
+        "at_most_once": true
+      }
+    },
+    "observation_000": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/observation_000.json",
+      "sha256": "ff4d18dc84e1686c6599f8a26a12add2efff2f949cdc81c74bf4cda825824813",
+      "record": {
+        "utc": "2026-11-02T11:59:11.314835+00:00",
+        "monotonic_ns": 1492195958732208,
+        "values": {
+          "Current.Get": [
+            -4.2453524029539835e-10
+          ],
+          "AutoApproach.OnOffGet": [
+            0
+          ],
+          "ZCtrl.OnOffGet": [
+            1
+          ],
+          "ZCtrl.StatusGet": [
+            2
+          ],
+          "ZCtrl.ZPosGet": [
+            -1.0048393761508123e-07
+          ],
+          "Bias.Get": [
+            -1.0
+          ],
+          "BiasSpectr.AdvPropsGet": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "BiasSpectr.AltZCtrlGet": [
+            0,
+            1.000000013351432e-10,
+            0.009999999776482582
+          ],
+          "BiasSpectr.ChsGet": [
+            3,
+            [
+              0,
+              24,
+              30
+            ],
+            36,
+            3,
+            [
+              "Current (A)",
+              "Bias (V)",
+              "Z (m)"
+            ]
+          ],
+          "BiasSpectr.LimitsGet": [
+            -1.0,
+            -2.0
+          ],
+          "BiasSpectr.PropsGet": [
+            0,
+            1,
+            1,
+            21,
+            118,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Z-Ctrl hold",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            0
+          ],
+          "BiasSpectr.SafeCond1Get": [
+            2,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "BiasSpectr.SafeCond2Get": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "BiasSpectr.StatusGet": [
+            0
+          ],
+          "BiasSpectr.TimingGet": [
+            0.05000000074505806,
+            0.0,
+            0.009999999776482582,
+            1.0,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ],
+          "BiasSpectr.ZOffRevertGet": [
+            1
+          ],
+          "Current.GainsGet": [
+            0,
+            0,
+            [],
+            0,
+            0,
+            0,
+            [],
+            -1
+          ],
+          "FolMe.PSOnOffGet": [
+            0
+          ],
+          "FolMe.SpeedGet": [
+            5.48245608911202e-08,
+            0
+          ],
+          "FolMe.XYPosGet": [
+            -2.5000000292152436e-08,
+            -2.5000000292152436e-08
+          ],
+          "LockIn.ModOnOffGet[1]": [
+            0
+          ],
+          "LockIn.ModOnOffGet[2]": [
+            0
+          ],
+          "Motor.FreqAmpGet": [
+            200.0,
+            199.89999389648438
+          ],
+          "SafeTip.OnOffGet": [
+            0
+          ],
+          "SafeTip.PropsGet": [
+            0,
+            1,
+            4.999999858590343e-10
+          ],
+          "Scan.BufferGet": [
+            3,
+            [
+              0,
+              30,
+              89
+            ],
+            240,
+            240
+          ],
+          "Scan.FrameGet": [
+            0.0,
+            0.0,
+            5.000000058430487e-08,
+            5.000000058430487e-08,
+            0.0
+          ],
+          "Scan.PropsGet": [
+            0,
+            0,
+            0,
+            11,
+            "BM261029_%N",
+            72,
+            "Au111 2.916K -1V 100pA benchmark overview; raw evidence recorded on Mac.",
+            0,
+            0,
+            [],
+            0,
+            [],
+            0,
+            0,
+            {
+              "shape": [
+                0,
+                0
+              ],
+              "values": []
+            },
+            2
+          ],
+          "Scan.SpeedGet": [
+            5.48245608911202e-08,
+            5.48245608911202e-08,
+            0.9120000004768372,
+            0.9120000004768372,
+            1,
+            1.0
+          ],
+          "Scan.StatusGet": [
+            0
+          ],
+          "Signals.NamesGet": [
+            2265,
+            128,
+            [
+              "Current (A)",
+              "Input 2 (V)",
+              "Input 3 (V)",
+              "Input 4 (V)",
+              "Input 5 (V)",
+              "Input 6 (V)",
+              "Input 7 (V)",
+              "Input 8 (V)",
+              "Input 9 (V)",
+              "Input 10 (V)",
+              "Input 11 (V)",
+              "Input 12 (V)",
+              "Input 13 (V)",
+              "Input 14 (V)",
+              "Input 15 (V)",
+              "Input 16 (V)",
+              "Input 17 (V)",
+              "Input 18 (V)",
+              "Input 19 (V)",
+              "Input 20 (V)",
+              "Input 21 (V)",
+              "Input 22 (V)",
+              "Input 23 (V)",
+              "Input 24 (V)",
+              "Bias (V)",
+              "Output 2 (V)",
+              "Output 3 (V)",
+              "Output 4 (V)",
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Output 8 (V)",
+              "Output 9 (V)",
+              "Output 10 (V)",
+              "Output 11 (V)",
+              "Output 12 (V)",
+              "Output 13 (V)",
+              "Output 14 (V)",
+              "Output 15 (V)",
+              "Output 16 (V)",
+              "Output 17 (V)",
+              "Output 18 (V)",
+              "Output 19 (V)",
+              "Output 20 (V)",
+              "Output 21 (V)",
+              "Output 22 (V)",
+              "Output 23 (V)",
+              "Output 24 (V)",
+              "Fast Output 3 (V)",
+              "Output 26 (V)",
+              "Output 27 (V)",
+              "Output 28 (V)",
+              "Output 29 (V)",
+              "Output 30 (V)",
+              "Output 31 (V)",
+              "Output 32 (V)",
+              "Output 33 (V)",
+              "Output 34 (V)",
+              "Output 35 (V)",
+              "Output 36 (V)",
+              "Output 37 (V)",
+              "Output 38 (V)",
+              "Output 39 (V)",
+              "Output 40 (V)",
+              "Output 41 (V)",
+              "Output 42 (V)",
+              "Output 43 (V)",
+              "Output 44 (V)",
+              "Output 45 (V)",
+              "Output 46 (V)",
+              "Output 47 (V)",
+              "Output 48 (V)",
+              "Fast Output 1 (V)",
+              "Fast Output 2 (V)",
+              "OC D1 Phase (deg)",
+              "OC D1 Amplitude (m)",
+              "OC M1 Freq. Shift (Hz)",
+              "OC M1 Excitation (V)",
+              "OC D1 X (m)",
+              "OC D1 Y (m)",
+              "OC D2 Phase (deg)",
+              "OC D2 Amplitude (m)",
+              "Internal 9 (V)",
+              "Internal 10 (V)",
+              "OC D2 X (m)",
+              "OC D2 Y (m)",
+              "LI Demod 1 X (A)",
+              "LI Demod 1 Y (A)",
+              "LI Demod 2 X (A)",
+              "LI Demod 2 Y (A)",
+              "Internal 17 (V)",
+              "Internal 18 (V)",
+              "Internal 19 (V)",
+              "Internal 20 (V)",
+              "Internal 21 (V)",
+              "Internal 22 (V)",
+              "Internal 23 (V)",
+              "Internal 24 (V)",
+              "Z Control signal (A)",
+              "Z Error signal (A)",
+              "Z SafeTip signal (A)",
+              "Internal 28 (V)",
+              "OC D3 Amplitude (m)",
+              "OC D3 Phase (deg)",
+              "OC D4 Amplitude (m)",
+              "OC D4 Phase (deg)",
+              "Internal 33 (V)",
+              "Internal 34 (V)",
+              "Internal 35 (V)",
+              "Internal 36 (V)",
+              "Internal 37 (V)",
+              "Internal 38 (V)",
+              "Internal 39 (V)",
+              "Internal 40 (V)",
+              "Internal 41 (V)",
+              "Internal 42 (V)",
+              "Internal 43 (V)",
+              "Internal 44 (V)",
+              "Internal 45 (V)",
+              "Internal 46 (V)",
+              "Internal 47 (V)",
+              "Internal 48 (V)",
+              "Internal 49 (V)",
+              "Internal 50 (V)",
+              "Internal 51 (V)",
+              "Internal 52 (V)",
+              "Internal 53 (V)",
+              "Internal 54 (V)"
+            ]
+          ],
+          "TipShaper.PropsGet": [
+            0.05000000074505806,
+            0,
+            2.0,
+            -9.999999717180685e-10,
+            0.20000000298023224,
+            1.0,
+            0.10000000149011612,
+            4.999999969612645e-09,
+            1.0,
+            0.10000000149011612,
+            1
+          ],
+          "Util.AcqPeriodGet": [
+            0.019999999552965164
+          ],
+          "Util.RTFreqGet": [
+            20000.0
+          ],
+          "Util.RTOversamplGet": [
+            10
+          ],
+          "Util.SessionPathGet": [
+            65,
+            "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native"
+          ],
+          "Util.VersionGet": [
+            "Nanonis Mimea Software",
+            "Generic 5e",
+            15331,
+            15331
+          ],
+          "ZCtrl.GainGet": [
+            3.4123519981887895e-12,
+            4.29563588113524e-05,
+            7.943764757101235e-08
+          ],
+          "ZCtrl.HomePropsGet": [
+            0,
+            1.2369999069505866e-07
+          ],
+          "ZCtrl.LimitsEnabledGet": [
+            0
+          ],
+          "ZCtrl.LimitsGet": [
+            1.2369999069505866e-07,
+            -1.2369999069505866e-07
+          ],
+          "ZCtrl.SetpntGet": [
+            1.000000013351432e-10
+          ],
+          "ZCtrl.SwitchOffDelayGet": [
+            0.05000000074505806
+          ],
+          "ZCtrl.TipLiftGet": [
+            0.0
+          ],
+          "ZSpectr.AdvPropsGet": [
+            0.009999999776482582,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.ChsGet": [
+            2,
+            [
+              0,
+              30
+            ],
+            76,
+            4,
+            [
+              "Current [AVG] (A)",
+              "Z [AVG] (m)",
+              "Current [00001] (A)",
+              "Z [00001] (m)"
+            ]
+          ],
+          "ZSpectr.PropsGet": [
+            1,
+            51,
+            127,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Z sweep distance (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.RangeGet": [
+            0.0,
+            -5.999999802552836e-11
+          ],
+          "ZSpectr.Retract2ndGet": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "ZSpectr.RetractDelayGet": [
+            0.009999999776482582
+          ],
+          "ZSpectr.RetractGet": [
+            1,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "ZSpectr.StatusGet": [
+            0
+          ],
+          "ZSpectr.TimingGet": [
+            0.05000000074505806,
+            0.009999999776482582,
+            0.09999999403953552,
+            0.004999999888241291,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ]
+        },
+        "duration_s": 0.14198024990037084,
+        "sequential_not_atomic": true
+      }
+    },
+    "withdraw_admission": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/withdraw_admission.json",
+      "sha256": "d0f0591353745c8d87eca1753c75473a6e37f6b1a1d1970b1d14efe3a8aeca4c",
+      "record": {
+        "utc": "2026-11-02T11:59:13.502831+00:00",
+        "monotonic_ns": 1492198146723000,
+        "values": {
+          "Current.Get": [
+            -1.0988574633552517e-10
+          ],
+          "AutoApproach.OnOffGet": [
+            0
+          ],
+          "ZCtrl.OnOffGet": [
+            1
+          ],
+          "ZCtrl.StatusGet": [
+            2
+          ],
+          "ZCtrl.ZPosGet": [
+            -9.940600165236901e-08
+          ],
+          "Bias.Get": [
+            -1.0
+          ],
+          "BiasSpectr.AdvPropsGet": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "BiasSpectr.AltZCtrlGet": [
+            0,
+            1.000000013351432e-10,
+            0.009999999776482582
+          ],
+          "BiasSpectr.ChsGet": [
+            3,
+            [
+              0,
+              24,
+              30
+            ],
+            36,
+            3,
+            [
+              "Current (A)",
+              "Bias (V)",
+              "Z (m)"
+            ]
+          ],
+          "BiasSpectr.LimitsGet": [
+            -1.0,
+            -2.0
+          ],
+          "BiasSpectr.PropsGet": [
+            0,
+            1,
+            1,
+            21,
+            118,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Z-Ctrl hold",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            0
+          ],
+          "BiasSpectr.SafeCond1Get": [
+            2,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "BiasSpectr.SafeCond2Get": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "BiasSpectr.StatusGet": [
+            0
+          ],
+          "BiasSpectr.TimingGet": [
+            0.05000000074505806,
+            0.0,
+            0.009999999776482582,
+            1.0,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ],
+          "BiasSpectr.ZOffRevertGet": [
+            1
+          ],
+          "Current.GainsGet": [
+            0,
+            0,
+            [],
+            0,
+            0,
+            0,
+            [],
+            -1
+          ],
+          "FolMe.PSOnOffGet": [
+            0
+          ],
+          "FolMe.SpeedGet": [
+            5.48245608911202e-08,
+            0
+          ],
+          "FolMe.XYPosGet": [
+            -2.5000000292152436e-08,
+            -2.5000000292152436e-08
+          ],
+          "LockIn.ModOnOffGet[1]": [
+            0
+          ],
+          "LockIn.ModOnOffGet[2]": [
+            0
+          ],
+          "Motor.FreqAmpGet": [
+            200.0,
+            199.89999389648438
+          ],
+          "SafeTip.OnOffGet": [
+            0
+          ],
+          "SafeTip.PropsGet": [
+            0,
+            1,
+            4.999999858590343e-10
+          ],
+          "Scan.BufferGet": [
+            3,
+            [
+              0,
+              30,
+              89
+            ],
+            240,
+            240
+          ],
+          "Scan.FrameGet": [
+            0.0,
+            0.0,
+            5.000000058430487e-08,
+            5.000000058430487e-08,
+            0.0
+          ],
+          "Scan.PropsGet": [
+            0,
+            0,
+            0,
+            11,
+            "BM261029_%N",
+            72,
+            "Au111 2.916K -1V 100pA benchmark overview; raw evidence recorded on Mac.",
+            0,
+            0,
+            [],
+            0,
+            [],
+            0,
+            0,
+            {
+              "shape": [
+                0,
+                0
+              ],
+              "values": []
+            },
+            2
+          ],
+          "Scan.SpeedGet": [
+            5.48245608911202e-08,
+            5.48245608911202e-08,
+            0.9120000004768372,
+            0.9120000004768372,
+            1,
+            1.0
+          ],
+          "Scan.StatusGet": [
+            0
+          ],
+          "Signals.NamesGet": [
+            2265,
+            128,
+            [
+              "Current (A)",
+              "Input 2 (V)",
+              "Input 3 (V)",
+              "Input 4 (V)",
+              "Input 5 (V)",
+              "Input 6 (V)",
+              "Input 7 (V)",
+              "Input 8 (V)",
+              "Input 9 (V)",
+              "Input 10 (V)",
+              "Input 11 (V)",
+              "Input 12 (V)",
+              "Input 13 (V)",
+              "Input 14 (V)",
+              "Input 15 (V)",
+              "Input 16 (V)",
+              "Input 17 (V)",
+              "Input 18 (V)",
+              "Input 19 (V)",
+              "Input 20 (V)",
+              "Input 21 (V)",
+              "Input 22 (V)",
+              "Input 23 (V)",
+              "Input 24 (V)",
+              "Bias (V)",
+              "Output 2 (V)",
+              "Output 3 (V)",
+              "Output 4 (V)",
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Output 8 (V)",
+              "Output 9 (V)",
+              "Output 10 (V)",
+              "Output 11 (V)",
+              "Output 12 (V)",
+              "Output 13 (V)",
+              "Output 14 (V)",
+              "Output 15 (V)",
+              "Output 16 (V)",
+              "Output 17 (V)",
+              "Output 18 (V)",
+              "Output 19 (V)",
+              "Output 20 (V)",
+              "Output 21 (V)",
+              "Output 22 (V)",
+              "Output 23 (V)",
+              "Output 24 (V)",
+              "Fast Output 3 (V)",
+              "Output 26 (V)",
+              "Output 27 (V)",
+              "Output 28 (V)",
+              "Output 29 (V)",
+              "Output 30 (V)",
+              "Output 31 (V)",
+              "Output 32 (V)",
+              "Output 33 (V)",
+              "Output 34 (V)",
+              "Output 35 (V)",
+              "Output 36 (V)",
+              "Output 37 (V)",
+              "Output 38 (V)",
+              "Output 39 (V)",
+              "Output 40 (V)",
+              "Output 41 (V)",
+              "Output 42 (V)",
+              "Output 43 (V)",
+              "Output 44 (V)",
+              "Output 45 (V)",
+              "Output 46 (V)",
+              "Output 47 (V)",
+              "Output 48 (V)",
+              "Fast Output 1 (V)",
+              "Fast Output 2 (V)",
+              "OC D1 Phase (deg)",
+              "OC D1 Amplitude (m)",
+              "OC M1 Freq. Shift (Hz)",
+              "OC M1 Excitation (V)",
+              "OC D1 X (m)",
+              "OC D1 Y (m)",
+              "OC D2 Phase (deg)",
+              "OC D2 Amplitude (m)",
+              "Internal 9 (V)",
+              "Internal 10 (V)",
+              "OC D2 X (m)",
+              "OC D2 Y (m)",
+              "LI Demod 1 X (A)",
+              "LI Demod 1 Y (A)",
+              "LI Demod 2 X (A)",
+              "LI Demod 2 Y (A)",
+              "Internal 17 (V)",
+              "Internal 18 (V)",
+              "Internal 19 (V)",
+              "Internal 20 (V)",
+              "Internal 21 (V)",
+              "Internal 22 (V)",
+              "Internal 23 (V)",
+              "Internal 24 (V)",
+              "Z Control signal (A)",
+              "Z Error signal (A)",
+              "Z SafeTip signal (A)",
+              "Internal 28 (V)",
+              "OC D3 Amplitude (m)",
+              "OC D3 Phase (deg)",
+              "OC D4 Amplitude (m)",
+              "OC D4 Phase (deg)",
+              "Internal 33 (V)",
+              "Internal 34 (V)",
+              "Internal 35 (V)",
+              "Internal 36 (V)",
+              "Internal 37 (V)",
+              "Internal 38 (V)",
+              "Internal 39 (V)",
+              "Internal 40 (V)",
+              "Internal 41 (V)",
+              "Internal 42 (V)",
+              "Internal 43 (V)",
+              "Internal 44 (V)",
+              "Internal 45 (V)",
+              "Internal 46 (V)",
+              "Internal 47 (V)",
+              "Internal 48 (V)",
+              "Internal 49 (V)",
+              "Internal 50 (V)",
+              "Internal 51 (V)",
+              "Internal 52 (V)",
+              "Internal 53 (V)",
+              "Internal 54 (V)"
+            ]
+          ],
+          "TipShaper.PropsGet": [
+            0.05000000074505806,
+            0,
+            2.0,
+            -9.999999717180685e-10,
+            0.20000000298023224,
+            1.0,
+            0.10000000149011612,
+            4.999999969612645e-09,
+            1.0,
+            0.10000000149011612,
+            1
+          ],
+          "Util.AcqPeriodGet": [
+            0.019999999552965164
+          ],
+          "Util.RTFreqGet": [
+            20000.0
+          ],
+          "Util.RTOversamplGet": [
+            10
+          ],
+          "Util.SessionPathGet": [
+            65,
+            "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native"
+          ],
+          "Util.VersionGet": [
+            "Nanonis Mimea Software",
+            "Generic 5e",
+            15331,
+            15331
+          ],
+          "ZCtrl.GainGet": [
+            3.4123519981887895e-12,
+            4.29563588113524e-05,
+            7.943764757101235e-08
+          ],
+          "ZCtrl.HomePropsGet": [
+            0,
+            1.2369999069505866e-07
+          ],
+          "ZCtrl.LimitsEnabledGet": [
+            0
+          ],
+          "ZCtrl.LimitsGet": [
+            1.2369999069505866e-07,
+            -1.2369999069505866e-07
+          ],
+          "ZCtrl.SetpntGet": [
+            1.000000013351432e-10
+          ],
+          "ZCtrl.SwitchOffDelayGet": [
+            0.05000000074505806
+          ],
+          "ZCtrl.TipLiftGet": [
+            0.0
+          ],
+          "ZSpectr.AdvPropsGet": [
+            0.009999999776482582,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.ChsGet": [
+            2,
+            [
+              0,
+              30
+            ],
+            76,
+            4,
+            [
+              "Current [AVG] (A)",
+              "Z [AVG] (m)",
+              "Current [00001] (A)",
+              "Z [00001] (m)"
+            ]
+          ],
+          "ZSpectr.PropsGet": [
+            1,
+            51,
+            127,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Z sweep distance (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.RangeGet": [
+            0.0,
+            -5.999999802552836e-11
+          ],
+          "ZSpectr.Retract2ndGet": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "ZSpectr.RetractDelayGet": [
+            0.009999999776482582
+          ],
+          "ZSpectr.RetractGet": [
+            1,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "ZSpectr.StatusGet": [
+            0
+          ],
+          "ZSpectr.TimingGet": [
+            0.05000000074505806,
+            0.009999999776482582,
+            0.09999999403953552,
+            0.004999999888241291,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ]
+        },
+        "duration_s": 0.13850862509571016,
+        "sequential_not_atomic": true
+      }
+    },
+    "withdraw_verify_009": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/autoapproach_01/withdraw_verify_009.json",
+      "sha256": "6749685309090667f14fa38e3a135edbf93ad1e47903dffed2682808ef39a3b6",
+      "record": {
+        "utc": "2026-11-02T11:59:16.282473+00:00",
+        "monotonic_ns": 1492200926364458,
+        "values": {
+          "Current.Get": [
+            1.3309942340986036e-13
+          ],
+          "AutoApproach.OnOffGet": [
+            0
+          ],
+          "ZCtrl.OnOffGet": [
+            0
+          ],
+          "ZCtrl.StatusGet": [
+            1
+          ],
+          "ZCtrl.ZPosGet": [
+            1.2369999069505866e-07
+          ],
+          "Bias.Get": [
+            -1.0
+          ],
+          "BiasSpectr.AdvPropsGet": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "BiasSpectr.AltZCtrlGet": [
+            0,
+            1.000000013351432e-10,
+            0.009999999776482582
+          ],
+          "BiasSpectr.ChsGet": [
+            3,
+            [
+              0,
+              24,
+              30
+            ],
+            36,
+            3,
+            [
+              "Current (A)",
+              "Bias (V)",
+              "Z (m)"
+            ]
+          ],
+          "BiasSpectr.LimitsGet": [
+            -1.0,
+            -2.0
+          ],
+          "BiasSpectr.PropsGet": [
+            0,
+            1,
+            1,
+            21,
+            118,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Z-Ctrl hold",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            0
+          ],
+          "BiasSpectr.SafeCond1Get": [
+            2,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "BiasSpectr.SafeCond2Get": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "BiasSpectr.StatusGet": [
+            0
+          ],
+          "BiasSpectr.TimingGet": [
+            0.05000000074505806,
+            0.0,
+            0.009999999776482582,
+            1.0,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ],
+          "BiasSpectr.ZOffRevertGet": [
+            1
+          ],
+          "Current.GainsGet": [
+            0,
+            0,
+            [],
+            0,
+            0,
+            0,
+            [],
+            -1
+          ],
+          "FolMe.PSOnOffGet": [
+            0
+          ],
+          "FolMe.SpeedGet": [
+            5.48245608911202e-08,
+            0
+          ],
+          "FolMe.XYPosGet": [
+            -2.5000000292152436e-08,
+            -2.5000000292152436e-08
+          ],
+          "LockIn.ModOnOffGet[1]": [
+            0
+          ],
+          "LockIn.ModOnOffGet[2]": [
+            0
+          ],
+          "Motor.FreqAmpGet": [
+            200.0,
+            199.89999389648438
+          ],
+          "SafeTip.OnOffGet": [
+            0
+          ],
+          "SafeTip.PropsGet": [
+            0,
+            1,
+            4.999999858590343e-10
+          ],
+          "Scan.BufferGet": [
+            3,
+            [
+              0,
+              30,
+              89
+            ],
+            240,
+            240
+          ],
+          "Scan.FrameGet": [
+            0.0,
+            0.0,
+            5.000000058430487e-08,
+            5.000000058430487e-08,
+            0.0
+          ],
+          "Scan.PropsGet": [
+            0,
+            0,
+            0,
+            11,
+            "BM261029_%N",
+            72,
+            "Au111 2.916K -1V 100pA benchmark overview; raw evidence recorded on Mac.",
+            0,
+            0,
+            [],
+            0,
+            [],
+            0,
+            0,
+            {
+              "shape": [
+                0,
+                0
+              ],
+              "values": []
+            },
+            2
+          ],
+          "Scan.SpeedGet": [
+            5.48245608911202e-08,
+            5.48245608911202e-08,
+            0.9120000004768372,
+            0.9120000004768372,
+            1,
+            1.0
+          ],
+          "Scan.StatusGet": [
+            0
+          ],
+          "Signals.NamesGet": [
+            2265,
+            128,
+            [
+              "Current (A)",
+              "Input 2 (V)",
+              "Input 3 (V)",
+              "Input 4 (V)",
+              "Input 5 (V)",
+              "Input 6 (V)",
+              "Input 7 (V)",
+              "Input 8 (V)",
+              "Input 9 (V)",
+              "Input 10 (V)",
+              "Input 11 (V)",
+              "Input 12 (V)",
+              "Input 13 (V)",
+              "Input 14 (V)",
+              "Input 15 (V)",
+              "Input 16 (V)",
+              "Input 17 (V)",
+              "Input 18 (V)",
+              "Input 19 (V)",
+              "Input 20 (V)",
+              "Input 21 (V)",
+              "Input 22 (V)",
+              "Input 23 (V)",
+              "Input 24 (V)",
+              "Bias (V)",
+              "Output 2 (V)",
+              "Output 3 (V)",
+              "Output 4 (V)",
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Output 8 (V)",
+              "Output 9 (V)",
+              "Output 10 (V)",
+              "Output 11 (V)",
+              "Output 12 (V)",
+              "Output 13 (V)",
+              "Output 14 (V)",
+              "Output 15 (V)",
+              "Output 16 (V)",
+              "Output 17 (V)",
+              "Output 18 (V)",
+              "Output 19 (V)",
+              "Output 20 (V)",
+              "Output 21 (V)",
+              "Output 22 (V)",
+              "Output 23 (V)",
+              "Output 24 (V)",
+              "Fast Output 3 (V)",
+              "Output 26 (V)",
+              "Output 27 (V)",
+              "Output 28 (V)",
+              "Output 29 (V)",
+              "Output 30 (V)",
+              "Output 31 (V)",
+              "Output 32 (V)",
+              "Output 33 (V)",
+              "Output 34 (V)",
+              "Output 35 (V)",
+              "Output 36 (V)",
+              "Output 37 (V)",
+              "Output 38 (V)",
+              "Output 39 (V)",
+              "Output 40 (V)",
+              "Output 41 (V)",
+              "Output 42 (V)",
+              "Output 43 (V)",
+              "Output 44 (V)",
+              "Output 45 (V)",
+              "Output 46 (V)",
+              "Output 47 (V)",
+              "Output 48 (V)",
+              "Fast Output 1 (V)",
+              "Fast Output 2 (V)",
+              "OC D1 Phase (deg)",
+              "OC D1 Amplitude (m)",
+              "OC M1 Freq. Shift (Hz)",
+              "OC M1 Excitation (V)",
+              "OC D1 X (m)",
+              "OC D1 Y (m)",
+              "OC D2 Phase (deg)",
+              "OC D2 Amplitude (m)",
+              "Internal 9 (V)",
+              "Internal 10 (V)",
+              "OC D2 X (m)",
+              "OC D2 Y (m)",
+              "LI Demod 1 X (A)",
+              "LI Demod 1 Y (A)",
+              "LI Demod 2 X (A)",
+              "LI Demod 2 Y (A)",
+              "Internal 17 (V)",
+              "Internal 18 (V)",
+              "Internal 19 (V)",
+              "Internal 20 (V)",
+              "Internal 21 (V)",
+              "Internal 22 (V)",
+              "Internal 23 (V)",
+              "Internal 24 (V)",
+              "Z Control signal (A)",
+              "Z Error signal (A)",
+              "Z SafeTip signal (A)",
+              "Internal 28 (V)",
+              "OC D3 Amplitude (m)",
+              "OC D3 Phase (deg)",
+              "OC D4 Amplitude (m)",
+              "OC D4 Phase (deg)",
+              "Internal 33 (V)",
+              "Internal 34 (V)",
+              "Internal 35 (V)",
+              "Internal 36 (V)",
+              "Internal 37 (V)",
+              "Internal 38 (V)",
+              "Internal 39 (V)",
+              "Internal 40 (V)",
+              "Internal 41 (V)",
+              "Internal 42 (V)",
+              "Internal 43 (V)",
+              "Internal 44 (V)",
+              "Internal 45 (V)",
+              "Internal 46 (V)",
+              "Internal 47 (V)",
+              "Internal 48 (V)",
+              "Internal 49 (V)",
+              "Internal 50 (V)",
+              "Internal 51 (V)",
+              "Internal 52 (V)",
+              "Internal 53 (V)",
+              "Internal 54 (V)"
+            ]
+          ],
+          "TipShaper.PropsGet": [
+            0.05000000074505806,
+            0,
+            2.0,
+            -9.999999717180685e-10,
+            0.20000000298023224,
+            1.0,
+            0.10000000149011612,
+            4.999999969612645e-09,
+            1.0,
+            0.10000000149011612,
+            1
+          ],
+          "Util.AcqPeriodGet": [
+            0.019999999552965164
+          ],
+          "Util.RTFreqGet": [
+            20000.0
+          ],
+          "Util.RTOversamplGet": [
+            10
+          ],
+          "Util.SessionPathGet": [
+            65,
+            "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native"
+          ],
+          "Util.VersionGet": [
+            "Nanonis Mimea Software",
+            "Generic 5e",
+            15331,
+            15331
+          ],
+          "ZCtrl.GainGet": [
+            3.4123519981887895e-12,
+            4.29563588113524e-05,
+            7.943764757101235e-08
+          ],
+          "ZCtrl.HomePropsGet": [
+            0,
+            1.2369999069505866e-07
+          ],
+          "ZCtrl.LimitsEnabledGet": [
+            0
+          ],
+          "ZCtrl.LimitsGet": [
+            1.2369999069505866e-07,
+            -1.2369999069505866e-07
+          ],
+          "ZCtrl.SetpntGet": [
+            1.000000013351432e-10
+          ],
+          "ZCtrl.SwitchOffDelayGet": [
+            0.05000000074505806
+          ],
+          "ZCtrl.TipLiftGet": [
+            0.0
+          ],
+          "ZSpectr.AdvPropsGet": [
+            0.009999999776482582,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.ChsGet": [
+            2,
+            [
+              0,
+              30
+            ],
+            76,
+            4,
+            [
+              "Current [AVG] (A)",
+              "Z [AVG] (m)",
+              "Current [00001] (A)",
+              "Z [00001] (m)"
+            ]
+          ],
+          "ZSpectr.PropsGet": [
+            1,
+            51,
+            127,
+            8,
+            [
+              "X (m)",
+              "Y (m)",
+              "Z (m)",
+              "Z offset (m)",
+              "Z sweep distance (m)",
+              "Settling time (s)",
+              "Integration time (s)",
+              "Final Z (m)"
+            ],
+            28,
+            2,
+            [
+              "Sweep Start",
+              "Sweep End"
+            ],
+            1,
+            1,
+            0,
+            1
+          ],
+          "ZSpectr.RangeGet": [
+            0.0,
+            -5.999999802552836e-11
+          ],
+          "ZSpectr.Retract2ndGet": [
+            1,
+            2.999999970665357e-10,
+            0,
+            0
+          ],
+          "ZSpectr.RetractDelayGet": [
+            0.009999999776482582
+          ],
+          "ZSpectr.RetractGet": [
+            1,
+            -2.999999970665357e-10,
+            0,
+            1
+          ],
+          "ZSpectr.StatusGet": [
+            0
+          ],
+          "ZSpectr.TimingGet": [
+            0.05000000074505806,
+            0.009999999776482582,
+            0.09999999403953552,
+            0.004999999888241291,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.20000000298023224
+          ]
+        },
+        "duration_s": 0.1626532080117613,
+        "sequential_not_atomic": true
+      }
+    }
+  },
+  "figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/aa01_native_independent_review/AA01_landing_recovery_withdraw.png",
+    "sha256": "0ae5ea5c33da8593f79bf7c108bf2a2eabfc8441ddc26cd8f84f787a6e19acb8"
+  },
+  "interpretation": [
+    "Landing/sweep-associated peak is -5.9738632 nA at block19 zero-based index6863/native228.4315s. No sample in blocks17-20 equals the reported software lower value.",
+    "After first host-observed AAOff/On2, native current approaches -100pA while Z continues to move. Last-halfsecond descriptors quantify recovery trend; neither full30s stability nor unchanged tip condition was established before withdrawal.",
+    "Withdraw is a separate deliberate action; its transient and return to123.69999nm/Home must not be labeled persistent landing instability. The later near-zero current is withdrawn state, not stable tunneling.",
+    "Known Start/Stop/Withdraw acknowledgements and final3s Home verification support a known retracted state. These offline records do not authorize or guarantee success of fine re-engagement; root must independently read current Home/idle/static/coverage and use its bounded reviewed procedure.",
+    "No extra coarse approach is inferred from this review. No chemical, contact, sample-change or repair-success assertion."
+  ],
+  "limits": [
+    "Host counters bracket asynchronous native stream; phases use conservative intervals, not exact hardware synchronization.",
+    "Physical peaks between samples and bandwidth/overload recovery cannot be bounded from2kHz data.",
+    "Prior/succeeding blocksoutside17-20 not audited here.",
+    "No validated new allowed transient duration/current or new guard threshold introduced."
+  ]
+}

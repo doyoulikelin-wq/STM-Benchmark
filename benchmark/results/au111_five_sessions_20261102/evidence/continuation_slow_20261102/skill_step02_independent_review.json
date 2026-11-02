@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-02T12:58:39.680400+00:00",
+  "reviewer": "off31_image_review",
+  "source": "collaboration message; reviewer read candidate SKILL全文+three-file diff; no hardware",
+  "scenarios": [
+    {
+      "input": "I stable but Z drifts",
+      "result": "Evaluate I and Z trend/detrended variation/margin separately using prior finite windows; nonzero drift alone not failure, out-of-range/unknown leads finite wait then stop."
+    },
+    {
+      "input": "Different-speed frames disagree; old BG now object/step",
+      "result": "Separate longlines/localpeaks/recognition/direction/recovery; occupied BG N/A with retained numbers; no speed-only causal attribution or pulseL2/cycle."
+    },
+    {
+      "input": "Known pulse and30s recovery, then step11settle Off/Home about2min later; no postfull",
+      "result": "Retain known L0/measuredL1; interruption separate, no manual/damage causal attribution; image effectunknown/return and fullworkflow incomplete; no newcycle or reset."
+    }
+  ],
+  "blocking_defects": [],
+  "installed_science_changes_only": true
+}

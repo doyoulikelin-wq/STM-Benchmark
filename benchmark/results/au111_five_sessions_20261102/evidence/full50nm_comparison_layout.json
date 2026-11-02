@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-02T00:36:42.110607+00:00",
+  "status": "Prepared after actual before196 and before any actual new postimage; exact old BG coordinates and thresholds retained",
+  "criterion_source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_validation_20261101_1939/repair_roi_001_offline/criteria.json",
+  "criterion_sha256": "b8370e7ed33f70ff78dd139c2847100a3761a153693f330bb99d4aa809c51db7",
+  "backgrounds": [
+    {
+      "name": "BG1 central terrace",
+      "stored_rc_half_open": [
+        75,
+        95,
+        65,
+        125
+      ]
+    },
+    {
+      "name": "BG2 right terrace",
+      "stored_rc_half_open": [
+        78,
+        98,
+        140,
+        190
+      ]
+    }
+  ],
+  "fixed_column_blocks": [
+    [
+      0,
+      60
+    ],
+    [
+      60,
+      120
+    ],
+    [
+      120,
+      180
+    ],
+    [
+      180,
+      240
+    ]
+  ],
+  "full_width_review_flag": {
+    "absolute_adjacent_quarter_row_median_delta_pm": 50,
+    "minimum_same_sign_column_quarters": 3,
+    "fixed_column_blocks_half_open": [
+      [
+        0,
+        60
+      ],
+      [
+        60,
+        120
+      ],
+      [
+        120,
+        180
+      ],
+      [
+        180,
+        240
+      ]
+    ],
+    "role": "Review flag only. Approximately twice largest rounded background jump allowance, chosen before postimages. Not an automated dirty threshold; real repeatable surface steps/objects must be distinguished byrawF/B and independent repeat.",
+    "L3_requirement": "No unexplained recurrent full-width offset/streak defect across the intended imaged region. A flagged real surface boundary is not automatically bad; unresolved explanation prevents an unqualifiedL3 pass."
+  },
+  "automatic_quality_thresholds": null,
+  "automatic_registration": false,
+  "row_detrend_for_quality": false,
+  "note": "Both inputs must be actually acquired complete240-square50nmDOWN native/TCP-verified local NEW products. BG occupation and quality require manual review; no silent region or threshold changes."
+}

@@ -1,0 +1,173 @@
+--- /Users/maxlin/Desktop/Nanonis/work/stm_tip_benchmark_goal_20261030/datalog_review/datalog_safetipoff_20261031.py
++++ /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/logger_fullcycle_once.py
+@@ -4,8 +4,9 @@
+ Independent derivative of event240/event600 and the static recorder base.
+ Modes: withdraw=Off/status1/absolute Home/|I|<10pA; stable=On2/-100pA+/-20%.
+ Both modes require -1V/100pA/all idle and retained SafeTip properties.
+-Only explicit240 or1200 nominal duration units; prior timing ratio suggests
+-about120 or600 wall seconds, requiring measurement for every acquisition.
++Only7200 nominal units (2hours0minutes); prior1200→600wall timing suggests
++about3600wall seconds. This longer setting is unvalidated until measured.
++Exact local session_01..05/logger outputs; independent one-shot invocation.
+ After Start the junction is observed only. This recorder is not protection,
+ does not disable SafeTip, and sends no junction or sampling-setting command.
+ """
+@@ -23,12 +24,27 @@
+ 
+ sys.dont_write_bytecode = True
+ HERE = Path(__file__).resolve().parent
+-spec = importlib.util.spec_from_file_location("datalog_event_base", HERE / "datalog_static_once.py")
++BASE_DIR = HERE.parent / "stm_tip_benchmark_goal_20261030/datalog_review"
++ORIGINAL = BASE_DIR / "datalog_safetipoff_20261031.py"
++SOURCE_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
++ROLE = "fullcycle_native_logger"
++PINS = {
++    '/Users/maxlin/Desktop/Nanonis/work/stm_tip_benchmark_goal_20261030/datalog_review/datalog_safetipoff_20261031.py': '88f6a49daa54c042536764377b1a8217a511c9bbd1bc943b8d83e594faf6f0d5',
++    '/Users/maxlin/Desktop/Nanonis/work/stm_tip_benchmark_goal_20261030/datalog_review/datalog_static_once.py': '74b4ee781cf55c9c46bd8e7510f5048efaba781edaa6a707d3d7400d59677438',
++    '/Users/maxlin/Desktop/Nanonis/work/stm_tip_benchmark_20261029/scan_acquire.py': '1398797da9b7d2a7e93490e272afb4fef702035d867f67cb08abbbefa5a19958',
++    '/Users/maxlin/Desktop/Nanonis/work/stm_tip_control_test_20261028/protocol.py': 'cb89eba6d0417b37b86ed593b9d85d96650ae5978d7d1e919b6a291e9ab2b742',
++    '/Users/maxlin/Desktop/Nanonis/work/stm_tip_control_test_20261028/catalog.json': 'f7637754438751ca52253f0884632d499202111140e945efaeaedbbb38a184ac',
++    '/Users/maxlin/Desktop/Nanonis/outputs/nanonis-tcp-20261010/Nanonis_TCP_全部接口.json': '0cebeb38d416df2371d7d77e677f8181eda0fcdbc2bf3573211a2a3c23e3ac3e',
++}
++for _path, _sha in PINS.items():
++    if hashlib.sha256(Path(_path).read_bytes()).hexdigest() != _sha:
++        raise RuntimeError("Frozen local dependency changed: " + _path)
++spec = importlib.util.spec_from_file_location("datalog_event_base", BASE_DIR / "datalog_static_once.py")
+ b = importlib.util.module_from_spec(spec)
+ spec.loader.exec_module(b)
+ a, p, require = b.a, b.p, b.require
+ COMMENT = "SafeTipOff event record; DataLog commands only; junction action audited separately."
+-ALLOWED_DURATIONS = (240, 1200)
++ALLOWED_DURATIONS = (7200,)
+ MIN_LOCAL_FREE_BYTES = 1024 ** 3
+ TIMING_READS = ("Util.RTFreqGet", "Util.RTOversamplGet", "Util.AcqPeriodGet")
+ EXPECTED_TIMING = {"Util.RTFreqGet": [20000.0], "Util.RTOversamplGet": [10],
+@@ -90,18 +106,23 @@
+         require(values[name] == EXPECTED_TIMING[name], "Reviewed sampling/TCP acquisition setting changed: " + name)
+ 
+ 
+-def output_guard(path):
++def session_binding(session):
++    require(type(session) is str and re.fullmatch(r"session_0[1-5]", session) is not None,
++            "Explicit session_01..05 required")
++    return {"session_id": session, "source_sha256": SOURCE_SHA256, "role": ROLE}
++
++
++def output_guard(path, session):
++    session_binding(session)
+     root = Path(path).resolve()
+-    require(root.is_relative_to(HERE.parent) and "win_users" not in root.parts,
+-            "Output must be a new local directory inside this active run, never a mounted share or frozen run")
++    require(root == HERE / session / "logger", "Output must be exact local NEW/session_0x/logger; no aliases/shares")
+     require(not root.exists(), "New output directory required; no reuse")
+     return root
+ 
+ 
+ def duration_fields(duration):
+-    require(type(duration) is int and duration in ALLOWED_DURATIONS, "Explicit240 or1200 nominal setting units required")
+-    minutes, seconds = divmod(duration, 60)
+-    return [0, minutes, float(seconds)]
++    require(type(duration) is int and duration == 7200, "Only7200 nominal setting units reviewed")
++    return [2, 0, 0.0]
+ 
+ 
+ def settings(basename, duration):
+@@ -127,7 +148,7 @@
+ def run(args):
+     duration_fields(args.duration)
+     mode_description(args.mode)
+-    output = output_guard(args.output)
++    output = output_guard(args.output, args.session)
+     initial_disk = disk_guard(output)
+     store = a.Store(output)
+     c = Client(store, args.basename, args.duration)
+@@ -137,7 +158,7 @@
+     result = {"status": "not_started", "start_attempted": False, "ready_written": False,
+               "junction_writes": 0, "automatic_retry": False, "automatic_reconnect": False,
+               "native_files_archived": False, "file_content_validated": False,
+-              "hard_realtime_alignment_proven": False, "stop_attempted": False, "preflight_mode": args.mode}
++              "hard_realtime_alignment_proven": False, "stop_attempted": False, "preflight_mode": args.mode, **session_binding(args.session)}
+ 
+     def interrupted(number, _frame):
+         nonlocal abort
+@@ -171,7 +192,7 @@
+         return values
+ 
+     def claim(command, values, label):
+-        ref = store.save(label + ".claim", {**a.stamp(), "command": command, "args": values, "at_most_once": True})
++        ref = store.save(label + ".claim", {**a.stamp(), **session_binding(args.session), "command": command, "args": values, "at_most_once": True})
+         c.permit = (command, values)
+         return ref
+ 
+@@ -226,9 +247,9 @@
+         age = time.time() - args.ui_evidence.stat().st_mtime
+         require(ui and 0 <= age < 900, "Context screenshot must be recent (<15min); logger idleness is checked by TCP")
+         store.save_bytes("context_screenshot" + args.ui_evidence.suffix, ui)
+-        sources = [Path(__file__), HERE / "datalog_event600_once.py", HERE / "datalog_event240_once.py", HERE / "datalog_static_once.py", b.OLD / "scan_acquire.py",
++        sources = [Path(__file__), ORIGINAL, BASE_DIR / "datalog_event600_once.py", BASE_DIR / "datalog_event240_once.py", BASE_DIR / "datalog_static_once.py", b.OLD / "scan_acquire.py",
+                    a.PACKAGE / "protocol.py", a.PACKAGE / "catalog.json", b.DOC]
+-        store.save("manifest.json", {**a.stamp(), "purpose": "finite_event_SafeTipOff_observation_only",
++        store.save("manifest.json", {**a.stamp(), **session_binding(args.session), "purpose": "finite_fullcycle_SafeTipOff_observation_only",
+             "preflight_mode": args.mode,
+             "ui_evidence_scope": "Recent screenshot provides desktop context only; DataLog UI was not visible/reviewed. Idle evidence is unchanged stopped DataLog.StatusGet across two TCP reads at least1s apart, plus another prestart comparison. No active-logger takeover.",
+             "host": a.HOST, "port": 6504, "source_ip": a.SOURCE_IP, "interface": "en0",
+@@ -248,7 +269,7 @@
+                 "expected_partial_block_points": (args.duration * 1000) % 25000,
+                 "possible_partial_or_empty_stop_flush_unverified": True,
+                 "native_ASCII_size_estimate_MiB_at_prior_factor": args.duration / 12,
+-                "basis": "Prior240nominal yielded120wall/240000rows and prior600nominal yielded300wall/600000rows.1200nominal is a new extrapolation, not guaranteed600wall or action coverage. Check file headers, continuity and overlap."},
++                "basis": "Prior1200nominal repeatedly yielded600wall/1200000rows.7200nominal is a new extrapolation, not guaranteed3600wall or fullcycle coverage. Check file headers, continuity and every stage overlap."},
+             "expected_session_path": args.expected_session_path, "expected_native_directory": args.expected_native_directory,
+             "before_start": mode_description(args.mode),
+             "after_start": "Junction states are observational data. No feedback/bias/scan/position/spectroscopy/protection command exists in this recorder.",
+@@ -256,7 +277,8 @@
+             "disconnect_policy": "Readback-verified native Timed duration is the finite fallback. Timeout is not cancellation. No reconnect/repeatedStart; root verifies native UI if stop is unconfirmed.",
+             "file_policy": "Native time-series files must be copied and validated separately; status only exposes last path, not every block or its sample array.",
+             "timing_limits": "Native start/stop strings are opaque. READY/ACK are client observations, not hardware trigger timestamps. Actual on-time/action overlap and all file content require post-audit.",
+-            "known_timing_discrepancy": "Prior240nominal yielded120wall;600nominal yielded300wall.1200nominal may yield600wall but actual duration, block continuity and action overlap require measurement. No hard trigger alignment is claimed.",
++            "known_timing_discrepancy": "Prior1200nominal yielded600wall.7200nominal may yield3600wall but actual duration, block continuity and all stage overlap require measurement. No hard trigger alignment or gap-free fullcycle coverage is claimed.",
++            "action_coverage_budget": "Use min((7200-nativeElapsed)/2,3600-hostAgeSinceStartClaim); each writer needs its own full finite coverage. This recorder does not authorize or schedule a junction action.",
+             "safe_tip_scope": "SafeTip is required Off before Start. The500pA property is recorded but inactive; this passive recorder is not a substitute protection mechanism and cannot stop/retract the junction.",
+             "sources": [{"path": str(f), "sha256": hashlib.sha256(f.read_bytes()).hexdigest()} for f in sources]})
+         before = snapshot("before")
+@@ -311,13 +333,13 @@
+                 if fresh and (s["elapsed_s"] >= .25 or s["points_counter"] > 0) and s["elapsed_s"] < args.duration - 5:
+                     # Recheck immediately before publishing ready. Root owns the action.
+                     verified_profile = get_profile("ready")
+-                    ready_data = {**a.stamp(), "ready": True, "basename": args.basename,
++                    ready_data = {**a.stamp(), **session_binding(args.session), "ready": True, "basename": args.basename,
+                         "output_directory": str(store.root), "native_start_identity": new_start,
+                         "native_status": s, "profile": verified_profile, "start_claim": start_ref,
+                         "native_duration_s": args.duration,
+                         "nominal_remaining_setting_units": max(0, args.duration - s["elapsed_s"]),
+                         "actual_remaining_seconds": None,
+-                        "duration_warning": "240 and600 nominal previously covered120 and300wall.1200nominal is extrapolated to600wall; nominal remaining units are not measured wall seconds or guaranteed action coverage.",
++                        "duration_warning": "1200nominal previously covered600wall.7200nominal extrapolates to3600wall; native header/timing and all-stage overlap require audit. Nominal remaining units are not guaranteed wall coverage.",
+                         "freshness_required": "Root checks this record and latest datalog_status <=2s old, no outcome.json, and process alive immediately before its own action. READY alone is not ongoing proof.",
+                         "no_hardware_trigger_or_atomic_alignment": True,
+                         "junction_actions_permitted_by_recorder": False}
+@@ -380,17 +402,21 @@
+ def main():
+     ap = argparse.ArgumentParser(description=__doc__)
+     ap.add_argument("--execute", action="store_true")
+-    ap.add_argument("--duration", type=int, choices=ALLOWED_DURATIONS, default=240, help="240 or1200 nominal units; previous factor suggests120 or600wall, not guaranteed")
++    ap.add_argument("--duration", type=int, choices=ALLOWED_DURATIONS, default=7200, help="7200nominal only; historical ratio suggests3600wall, unverified for this duration")
++    ap.add_argument("--session", choices=[f"session_{i:02d}" for i in range(1, 6)], required=True)
+     ap.add_argument("--mode", choices=("withdraw", "stable"), required=True)
+-    ap.add_argument("--basename", default="dl_goal30_SAFEOFF_REVIEW_ONLY")
++    ap.add_argument("--basename")
+     ap.add_argument("--output", type=Path)
+     ap.add_argument("--expected-session-path")
+     ap.add_argument("--expected-native-directory")
+     ap.add_argument("--ui-evidence", type=Path)
+     args = ap.parse_args()
++    args.output = args.output or HERE / args.session / "logger"
++    args.basename = args.basename or "dl_goal30_FIVE1102_" + args.session.upper()
++    session_binding(args.session)
+     duration_fields(args.duration)
+     if not args.execute:
+-        print(json.dumps({"socket_opened": False, "settings": settings(args.basename, args.duration),
++        print(json.dumps({"socket_opened": False, **session_binding(args.session), "output": str(args.output), "settings": settings(args.basename, args.duration),
+             "start_at_most_once": True, "ready": "Fresh native start + elapsed/points progress after ACK and profile verification",
+             "before_start": mode_description(args.mode),
+             "context_screenshot_only": True, "logger_idle_evidence": "unchanged stopped DataLog.StatusGet across >=1s and rechecked prestart",

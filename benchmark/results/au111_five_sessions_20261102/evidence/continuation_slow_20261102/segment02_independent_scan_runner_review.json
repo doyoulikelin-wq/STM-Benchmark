@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-11-02T12:51:20.953178+00:00",
+  "reviewer": "benchmark_scan_runner",
+  "scope": "Independent local readonly review: full segment02_binding.py and logger/scanner/config source differences; AST and source hashes only, no controller imports/execution/network",
+  "sources": [
+    {
+      "file": "segment02_binding.py",
+      "sha256": "ebf46db84b7b3f3d885dbbcc6ecfb949a12af66a7050477fb80c26e2ea8c9308",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "logger_fullcycle_segment02_once.py",
+      "sha256": "c6573d7a932530d34f89daad1239d7abcd7bc0c90dc2ee16fe621df0327d80c0",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scan_full50nm_fast_segment02_once.py",
+      "sha256": "5cbb79ac79d649db43da2e084e06f2e06752a11fd7a60bf3f8521e7b3d26d0fc",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scan_full50nm_slow_segment02_once.py",
+      "sha256": "468a6a5a13ba60a3f2cf4ebd81d8e6d75ac4403457b2c0c82db24ca5d5990149",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "config_full50nm_speed_segment02_once.py",
+      "sha256": "4af0ac4d433ad4bd80c074b28e14760ec7c9bc4c04ff8547bd8bdfe7f30adebd",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "action_bindings_segment02.py",
+      "sha256": "095ac4bc98c82700a86b8a54e3a6c6ace2cd042452cba26ecea186c1d38193cf",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "setpoint_fullcycle_segment02_once.py",
+      "sha256": "76340b89922fd2f1a6a948348db892028fcbb2f6d847d9b9f57b1f9412a99da8",
+      "matches_delivery": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "pulse_fullcycle_segment02_once.py",
+      "sha256": "e0d39d2c9d5c66e46374dbe25135623fd8675226e3908327e9f7e10e4a7b8c17",
+      "matches_delivery": true,
+      "syntax_valid": true
+    }
+  ],
+  "scanner_AST_comparison": [
+    {
+      "old": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/scan_full50nm_down_once.py",
+      "new": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_segment02_once.py",
+      "changed_Run_methods": [
+        "logger_guard",
+        "execute"
+      ],
+      "remaining_Run_methods_AST_identical": [
+        "__init__",
+        "check_abort",
+        "q",
+        "poll",
+        "write",
+        "fresh_guard",
+        "entry_stability",
+        "frames",
+        "cleanup"
+      ]
+    },
+    {
+      "old": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_slow_down_once.py",
+      "new": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_slow_segment02_once.py",
+      "changed_Run_methods": [
+        "logger_guard",
+        "execute"
+      ],
+      "remaining_Run_methods_AST_identical": [
+        "__init__",
+        "check_abort",
+        "q",
+        "poll",
+        "write",
+        "fresh_guard",
+        "entry_stability",
+        "frames",
+        "cleanup"
+      ]
+    }
+  ],
+  "findings": [
+    "Only session_02/logger_02; root admission hash pins predecessor READY/Start/outcome/stop evidence/archive audit and two complete equal stopped states spaced>=1s. Live initial, >=1s confirmation and prestart state equal terminal predecessor.",
+    "One atomic recording R02 start reservation is independent of unchanged global session/event/pulse claims; no reset or automatic rollover. New start identity plus progress and profile required before READY.",
+    "Fast baseline_segment02_full role is allowed at main and attempt_paths. Slow/config new roles avoid existing R01 claim reuse. Unknown writer ACK/owned cleanup remains inherited; no new junction command path.",
+    "Archive completeness and previous stop kind evidence are intentionally root-attested hash-bound documents, not rederived by the binding parser; root must substantively review those artifacts before setting admission true. Current template false/null is not admission."
+  ],
+  "blocking_defects_found": [],
+  "device_readiness_assessed": false,
+  "unresolved_current_OffHome_is_separate_admission_issue": "This source review does not resolve unexpected return withdrawal, authorize a new Start, or permit automatic reengagement. Root must review actual current state/history separately.",
+  "offline_suite_reference": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/segment02_delivery_review.json",
+  "offline_suite_not_rerun": true
+}

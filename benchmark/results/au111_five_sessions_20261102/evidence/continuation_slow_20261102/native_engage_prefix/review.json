@@ -1,0 +1,109 @@
+{
+  "scope": "Requested prefix of root-copied closed local DAT only; not entire running logger or completed session",
+  "source_receipt": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_receipt.json",
+  "source_receipt_sha256": "138c8736013c1cfdd2c7a9e6aaa5d827c025a1a2b9c1e7a1fee5673cbd69aa4e",
+  "audit_script_sha256": "af612e71010cbadd5d8cfaa883514da36a19214183b61769b5b16fdf66b931d1",
+  "native_start_identity": "2026/11/2 19:55:22",
+  "through_index": 2,
+  "rows_per_channel": 50000,
+  "finite_scalars": 300000,
+  "dt_s": 0.0005,
+  "header_duration_sum_s": 25.0,
+  "current_min_A": -4.723002e-10,
+  "current_min_location": {
+    "block": 2,
+    "zero_index": 3923
+  },
+  "current_max_A": 1.6229533e-12,
+  "current_max_location": {
+    "block": 2,
+    "zero_index": 4136
+  },
+  "current_mean_A": 1.3321283270961821e-13,
+  "current_RMS_about_mean_A": 2.141562518658086e-12,
+  "abs_current_ge_pA_counts": {
+    "400": 1,
+    "1000": 0,
+    "9990": 0
+  },
+  "historical_negative_rail_matching_count": 0,
+  "all_bias_minus1": true,
+  "blocks": [
+    {
+      "index": 1,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200001.dat",
+      "sha256": "325839c54f31ffb87b16ad9a31d7e13d35df8041cfbea7dc6a4b32f078958c0d",
+      "bytes": 2134050,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 19:55:27",
+      "all6columns_finite": true,
+      "current_min_A": -1.1964131e-12,
+      "current_min_zero_index": 7899,
+      "current_max_A": 1.4692972e-12,
+      "current_max_zero_index": 7328,
+      "current_mean_A": 1.3315229111899768e-13,
+      "current_RMS_about_mean_A": 3.3938632233318306e-13,
+      "abs_current_ge_pA_counts": {
+        "400": 0,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        1.2369999e-07,
+        1.2369999e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 0.0,
+      "max_Z_jump_later_zero_index": null
+    },
+    {
+      "index": 2,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200002.dat",
+      "sha256": "f769023111c09b2a0ebe9fbc87241c9042d59d8b81a3d455a4c5fe5bc965fd6f",
+      "bytes": 2134651,
+      "rows": 25000,
+      "dt_s": 0.0005,
+      "header_duration_s": 12.5,
+      "saved_date_header": "02.11.2026 19:55:34",
+      "all6columns_finite": true,
+      "current_min_A": -4.723002e-10,
+      "current_min_zero_index": 3923,
+      "current_max_A": 1.6229533e-12,
+      "current_max_zero_index": 4136,
+      "current_mean_A": 1.3327337430023875e-13,
+      "current_RMS_about_mean_A": 3.0095509564592716e-12,
+      "abs_current_ge_pA_counts": {
+        "400": 1,
+        "1000": 0,
+        "9990": 0
+      },
+      "historical_negative_rail_matching_count": 0,
+      "rail_runs_inclusive_zero_index": [],
+      "bias_min_max_V": [
+        -1.0,
+        -1.0
+      ],
+      "Z_min_max_m": [
+        -1.2369999e-07,
+        1.2369999e-07
+      ],
+      "max_within_block_adjacent_abs_Z_m": 1.4843998799999998e-07,
+      "max_Z_jump_later_zero_index": 3923
+    }
+  ],
+  "limits": [
+    "No SMB/source_path access; only local_path opened",
+    "Header sample sum and adjacent block indices do not prove physical gap-free acquisition",
+    "Saved Date and DataLog elapsed/counter are asynchronous; no hard pixel or event clock alignment",
+    "All-prefix current RMS mixes phases; not stationary noise or tip quality",
+    "No physiological/physical current bound: sampled extrema and no matching rail do not prove analog chain unsaturated",
+    "Terminal block, full7200 duration and before/action/after coverage require later independent audit"
+  ]
+}

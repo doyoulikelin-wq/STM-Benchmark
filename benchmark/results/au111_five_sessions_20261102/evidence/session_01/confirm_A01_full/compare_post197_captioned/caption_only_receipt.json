@@ -1,0 +1,63 @@
+{
+  "source_sha256": "73ec67e49100b90a70ed626b03b71dbbda25087ab5c02757fab5469b0363da99",
+  "frozen_comparator_sha256": "46cef26a5d18ab12db16e1f4cedf732f309918b5bc3f42b897cbfdbe597ba942",
+  "frozen_common_sha256": "85afeaa6acc5040a7912a705ed8581c2fa0bcc4901e53e14f2f3786a5b0124df",
+  "only_changed": "Figure.suptitle text; original function and all data/settings/limits/colormaps/processing retained",
+  "metrics_settings_sources_exactly_equal": true,
+  "original_comparison_metrics_sha256": "27db8d2d859a1210969aba9ee5ae555d31e7d0fe004d94dc394751a8d83e88df",
+  "new_comparison_metrics_sha256": "616db10ef8fa4a3b46441ddc654a5490c282e49aea6edcb1105c3c3391a8617f",
+  "caption_changes": [
+    {
+      "from": "Direction diagnostic: no conditioning implied\nOriginal absolute Z; one shared scale; NO row subtraction\nNo smoothing or registration",
+      "to": "Complete full-frame POST / NO-CONDITIONING REPEAT | unchanged imaging\nOriginal absolute Z; one shared scale; NO row subtraction\nNo smoothing or registration"
+    },
+    {
+      "from": "Direction diagnostic: no conditioning implied\nOne independent full-frame plane removed per image; NOT line-flattened\nNo smoothing or registration",
+      "to": "Complete full-frame POST / NO-CONDITIONING REPEAT | unchanged imaging\nOne independent full-frame plane removed per image; NOT line-flattened\nNo smoothing or registration"
+    },
+    {
+      "from": "Direction diagnostic: no conditioning implied\nSXM pixel data only; NOT DataLog transient peaks\nNo smoothing or registration",
+      "to": "Complete full-frame POST / NO-CONDITIONING REPEAT | unchanged imaging\nSXM pixel data only; NOT DataLog transient peaks\nNo smoothing or registration"
+    },
+    {
+      "from": "Direction diagnostic: no conditioning implied\nAdjacent raw row-median differences: identical physical-Y orientation; not acquisition-time sign",
+      "to": "Complete full-frame POST / NO-CONDITIONING REPEAT | unchanged imaging\nAdjacent raw row-median differences: identical physical-Y orientation; not acquisition-time sign"
+    },
+    {
+      "from": "Direction diagnostic: no conditioning implied\nFixed quiet-looking 191 background windows; real surface contrast is included",
+      "to": "Complete full-frame POST / NO-CONDITIONING REPEAT | unchanged imaging\nFixed quiet-looking 191 background windows; real surface contrast is included"
+    }
+  ],
+  "images": [
+    {
+      "original": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/fixed_background_profiles.png",
+      "original_sha256": "621bb202dba929f0d7c49b2a7ee1c7cdc29ccba7f8adcb967dec7b763b02b163",
+      "captioned": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/fixed_background_profiles.png",
+      "captioned_sha256": "dbc53ba8377a676d0587124e0157a5d8f92be1106a848693ba75e8a52a47382d"
+    },
+    {
+      "original": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/four_column_blocks_raw_row_jumps.png",
+      "original_sha256": "0bc9263f4cc4ca3f4e268e6fcb48fb817f0f92ac230b1f2397880563f3cd5fa5",
+      "captioned": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/four_column_blocks_raw_row_jumps.png",
+      "captioned_sha256": "7f80b4c68b2e3e382aedee3522e7deda198125845a6d97d2f5a8bb33b588ad54"
+    },
+    {
+      "original": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/global_plane_Z_physicalY.png",
+      "original_sha256": "bc57915d9903521c97ea860ea774e546901c27d14ba5c2617f58f41d620373cd",
+      "captioned": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/global_plane_Z_physicalY.png",
+      "captioned_sha256": "f8b9bb628b00c58863fb9317e114438f7bc3b788bc899e6d4abc102aec079316"
+    },
+    {
+      "original": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/raw_Current_physicalY.png",
+      "original_sha256": "2170ca51100073590c371d0e5842b7eb4c0be2e432f168e4f5cde2a00027933d",
+      "captioned": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/raw_Current_physicalY.png",
+      "captioned_sha256": "a29997b3671620002de5c46e9c779754a2a8fea6889bc32f4f3b09fd4f4e4cb7"
+    },
+    {
+      "original": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197/raw_Z_physicalY.png",
+      "original_sha256": "cc7102bd4b6c1d9c92f1e70877bc98f02e0cccf747155a5260aa6fe6196773aa",
+      "captioned": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm_A01_full/compare_post197_captioned/raw_Z_physicalY.png",
+      "captioned_sha256": "1779e89c330bcf928da90627dffa86ed346cfeece485ea9ac1d3c8a1a734ed6c"
+    }
+  ]
+}

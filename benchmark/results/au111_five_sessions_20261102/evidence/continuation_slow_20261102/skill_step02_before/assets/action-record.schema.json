@@ -1,0 +1,1934 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "offline_record_only": {
+      "const": true
+    },
+    "event_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "session_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "state_segment_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "operator": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "created_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "format": "date-time"
+    },
+    "intent": {
+      "enum": [
+        "diagnostic",
+        "preparation",
+        "induction",
+        "repair"
+      ]
+    },
+    "authorization": {
+      "type": "object",
+      "properties": {
+        "confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "exclusive_writer_confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "commands": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "bounds": {
+          "type": "object",
+          "properties": {
+            "voltage_V": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "width_s": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "preparation_current_A": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "resting_bias_V": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "x_m": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "y_m": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "voltage_V",
+            "width_s",
+            "preparation_current_A",
+            "resting_bias_V",
+            "x_m",
+            "y_m"
+          ],
+          "additionalProperties": false
+        },
+        "target_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "confirmed",
+        "evidence",
+        "exclusive_writer_confirmed",
+        "commands",
+        "bounds",
+        "target_id"
+      ],
+      "additionalProperties": false
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "max_actions_per_session": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "max_consecutive_failures": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "max_session_elapsed_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "max_action_elapsed_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "actions_attempted_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "consecutive_failures_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "actions_attempted_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "consecutive_failures_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "session_started_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "stop_requested": {
+          "type": "boolean"
+        },
+        "repair_success_already_achieved": {
+          "type": "boolean"
+        },
+        "reservation_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "counter_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "stage_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "max_actions_per_stage": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "stage_actions_attempted_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "stage_actions_attempted_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "failure_definition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "confirmed",
+        "evidence",
+        "max_actions_per_session",
+        "max_consecutive_failures",
+        "max_session_elapsed_s",
+        "max_action_elapsed_s",
+        "actions_attempted_before",
+        "consecutive_failures_before",
+        "actions_attempted_after",
+        "consecutive_failures_after",
+        "session_started_utc",
+        "stop_requested",
+        "repair_success_already_achieved",
+        "reservation_id",
+        "counter_evidence",
+        "stage_id",
+        "max_actions_per_stage",
+        "stage_actions_attempted_before",
+        "stage_actions_attempted_after",
+        "failure_definition"
+      ],
+      "additionalProperties": false,
+      "description": "All before/after counters have the same session scope. Stage attempts and consecutive failures cannot exceed session attempts. Limits remain null until authorized."
+    },
+    "previous_action": {
+      "type": "object",
+      "properties": {
+        "event_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "outcome": {
+          "enum": [
+            "none",
+            "completed",
+            "confirmed_not_executed",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "event_id",
+        "outcome",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "history": {
+      "type": "object",
+      "properties": {
+        "checked_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "manual_intervention_since_baseline": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "last_manual_intervention_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "intervention_details": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "checked_utc",
+        "evidence",
+        "manual_intervention_since_baseline",
+        "last_manual_intervention_utc",
+        "intervention_details"
+      ],
+      "additionalProperties": false
+    },
+    "baseline": {
+      "type": "object",
+      "properties": {
+        "state_segment_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "snapshot": {
+          "$ref": "#/$defs/artifact"
+        },
+        "snapshot_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "image": {
+          "$ref": "#/$defs/artifact"
+        },
+        "image_completed_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "interval_native_review": {
+          "$ref": "#/$defs/artifact"
+        },
+        "native_reviewed_through_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "fresh_verified_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "max_age_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "full_configuration_verified": {
+          "type": "boolean"
+        },
+        "baseline_is_immediate": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "imaging_bias_V": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "imaging_setpoint_A": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "preparation_changes_review": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "signed_current_band_A": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "stable_observation_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "required_stable_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "readback": {
+          "$ref": "#/$defs/readback"
+        },
+        "z_limits_m": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "z_margin_m": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "state_segment_id",
+        "snapshot",
+        "snapshot_utc",
+        "image",
+        "image_completed_utc",
+        "interval_native_review",
+        "native_reviewed_through_utc",
+        "fresh_verified_utc",
+        "max_age_s",
+        "full_configuration_verified",
+        "baseline_is_immediate",
+        "imaging_bias_V",
+        "imaging_setpoint_A",
+        "preparation_changes_review",
+        "signed_current_band_A",
+        "stable_observation_s",
+        "required_stable_s",
+        "readback",
+        "z_limits_m",
+        "z_margin_m"
+      ],
+      "additionalProperties": false
+    },
+    "prior_clipping": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "none_detected",
+            "detected",
+            "unknown"
+          ]
+        },
+        "review": {
+          "$ref": "#/$defs/artifact"
+        },
+        "last_detected_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "handled": {
+          "type": "boolean"
+        },
+        "resolution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "review",
+        "last_detected_utc",
+        "handled",
+        "resolution"
+      ],
+      "additionalProperties": false
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "const": "Bias.Pulse"
+        },
+        "voltage_V": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "width_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "preparation_current_A": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "resting_bias_V": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "mode": {
+          "const": "absolute"
+        },
+        "wait_until_done": {
+          "const": true
+        },
+        "hold_z": {
+          "const": true
+        },
+        "xy_m": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "preserve_safetip": {
+          "const": true
+        },
+        "retry_on_unknown": {
+          "const": false
+        },
+        "automatic_on": {
+          "const": false
+        },
+        "estimated_elapsed_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "rationale": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "hypothesis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "alternative_explanations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "physical_polarity": {
+          "enum": [
+            "unknown",
+            "tip_relative_to_sample",
+            "sample_relative_to_tip"
+          ]
+        },
+        "physical_polarity_evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "stage_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "strategy_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "command",
+        "voltage_V",
+        "width_s",
+        "preparation_current_A",
+        "resting_bias_V",
+        "mode",
+        "wait_until_done",
+        "hold_z",
+        "xy_m",
+        "preserve_safetip",
+        "retry_on_unknown",
+        "automatic_on",
+        "estimated_elapsed_s",
+        "rationale",
+        "hypothesis",
+        "alternative_explanations",
+        "physical_polarity",
+        "physical_polarity_evidence",
+        "stage_id"
+      ],
+      "additionalProperties": false
+    },
+    "recording": {
+      "type": "object",
+      "properties": {
+        "sample_rate_hz": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "sample_rate_basis": {
+          "enum": [
+            "unknown",
+            "native_readback",
+            "verified_native_header"
+          ]
+        },
+        "channels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "logger_verified_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "logger_max_age_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "estimated_remaining_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "required_coverage_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "timing_alignment": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
+        "complete": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "gaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "platform_duration_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "platform_current_A": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "median": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "min",
+            "median",
+            "max"
+          ],
+          "additionalProperties": false
+        },
+        "edge_current_A": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "min",
+            "max"
+          ],
+          "additionalProperties": false
+        },
+        "z_hold_span_m": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "clipped_samples": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "clipped_duration_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sampled_extrema_are_physical_bounds": {
+          "const": false
+        },
+        "module": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "unknown_chain_limitations": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "bandwidth_status": {
+          "enum": [
+            "unknown",
+            "verified"
+          ]
+        },
+        "range_status": {
+          "enum": [
+            "unknown",
+            "verified"
+          ]
+        },
+        "bandwidth_Hz": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "current_range_A": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "configuration": {
+          "$ref": "#/$defs/artifact"
+        },
+        "configuration_readback": {
+          "$ref": "#/$defs/artifact"
+        }
+      },
+      "required": [
+        "sample_rate_hz",
+        "sample_rate_basis",
+        "channels",
+        "logger_verified_utc",
+        "logger_max_age_s",
+        "estimated_remaining_s",
+        "required_coverage_s",
+        "timing_alignment",
+        "files",
+        "complete",
+        "gaps",
+        "platform_duration_s",
+        "platform_current_A",
+        "edge_current_A",
+        "z_hold_span_m",
+        "clipped_samples",
+        "clipped_duration_s",
+        "sampled_extrema_are_physical_bounds",
+        "module",
+        "unknown_chain_limitations",
+        "bandwidth_status",
+        "range_status",
+        "bandwidth_Hz",
+        "current_range_A",
+        "configuration",
+        "configuration_readback"
+      ],
+      "additionalProperties": false
+    },
+    "execution": {
+      "type": "object",
+      "properties": {
+        "attempted": {
+          "type": "boolean"
+        },
+        "claim_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "ack_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "elapsed_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "Same-host elapsed time from claim_utc to observation_ended_utc; consistency tolerance1ms covers timestamp representation only, not physical pulse alignment. Clock discontinuity requires review, not a completed pass."
+        },
+        "ack_status": {
+          "enum": [
+            "not_attempted",
+            "zero_error_waiting_ack",
+            "error",
+            "warning",
+            "timeout",
+            "unknown"
+          ]
+        },
+        "native_end_known": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "bias_restored": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "feedback_restored": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "claim": {
+          "$ref": "#/$defs/artifact"
+        },
+        "ack": {
+          "$ref": "#/$defs/artifact"
+        },
+        "immediate_readback": {
+          "$ref": "#/$defs/artifact"
+        },
+        "final_readback": {
+          "$ref": "#/$defs/artifact"
+        },
+        "final_state": {
+          "$ref": "#/$defs/readback"
+        },
+        "effective_stable_window_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "required_final_stable_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "timeout_or_stop_branch": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "observation_ended_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "native_end_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "feedback_restored_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time",
+          "description": "Host time of the confirming feedback readback after waiting ACK; not the unobserved physical feedback-switch instant."
+        },
+        "reference_returned_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time",
+          "description": "Host time of confirmation that the reference imaging bias/setpoint have been restored; no movement is implied."
+        },
+        "scan_started_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "native_end_basis": {
+          "enum": [
+            "unknown",
+            "observed_native_end",
+            "waiting_ack_upper_bound"
+          ]
+        },
+        "recovery_elapsed_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "Same-host post-ACK observation elapsed to observation_ended_utc. Native end may be earlier; ACK alone supplies an upper bound, not an exact native end."
+        },
+        "recovery_z_span_m": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "recovery_z_observation_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "recovery_z_trend_m_per_s": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "reference_return_evidence": {
+          "$ref": "#/$defs/artifact"
+        }
+      },
+      "required": [
+        "attempted",
+        "claim_utc",
+        "ack_utc",
+        "elapsed_s",
+        "ack_status",
+        "native_end_known",
+        "bias_restored",
+        "feedback_restored",
+        "claim",
+        "ack",
+        "immediate_readback",
+        "final_readback",
+        "final_state",
+        "effective_stable_window_s",
+        "required_final_stable_s",
+        "timeout_or_stop_branch",
+        "observation_ended_utc",
+        "native_end_utc",
+        "feedback_restored_utc",
+        "reference_returned_utc",
+        "scan_started_utc",
+        "native_end_basis",
+        "recovery_elapsed_s",
+        "recovery_z_span_m",
+        "recovery_z_observation_s",
+        "recovery_z_trend_m_per_s",
+        "reference_return_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "labels": {
+      "type": "object",
+      "properties": {
+        "L0": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "命令已执行"
+            },
+            "status": {
+              "enum": [
+                "not_assessed",
+                "supported",
+                "not_supported",
+                "confounded"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "evidence",
+            "limitations"
+          ],
+          "additionalProperties": false
+        },
+        "L1": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "结状态响应"
+            },
+            "status": {
+              "enum": [
+                "not_assessed",
+                "supported",
+                "not_supported",
+                "confounded"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "evidence",
+            "limitations"
+          ],
+          "additionalProperties": false
+        },
+        "L2": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "成像改善"
+            },
+            "status": {
+              "enum": [
+                "not_assessed",
+                "supported",
+                "not_supported",
+                "confounded"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "evidence",
+            "limitations"
+          ],
+          "additionalProperties": false
+        },
+        "L3": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "任务可用"
+            },
+            "status": {
+              "enum": [
+                "not_assessed",
+                "supported",
+                "not_supported",
+                "confounded"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "evidence",
+            "limitations"
+          ],
+          "additionalProperties": false
+        },
+        "L4": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "化学洁净"
+            },
+            "status": {
+              "enum": [
+                "not_assessed",
+                "supported",
+                "not_supported",
+                "confounded"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "status",
+            "evidence",
+            "limitations"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "verified_repair_cycle": {
+          "type": "boolean"
+        },
+        "before_bad_established": {
+          "type": "boolean"
+        },
+        "matched_imaging_conditions": {
+          "type": "boolean"
+        },
+        "independent_chemical_evidence": {
+          "type": "boolean"
+        },
+        "stop_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "next_action": {
+          "type": "string"
+        },
+        "chemical_evidence_method": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "task_criteria": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "matched_task_criteria": {
+          "type": "boolean"
+        },
+        "independent_recheck_without_intervention": {
+          "type": "boolean"
+        },
+        "recheck_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "recheck_completed_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "date-time"
+        },
+        "causal_valid": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "causal_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "assessment_for_budget": {
+          "enum": [
+            "unassessed",
+            "unsuccessful",
+            "successful"
+          ]
+        },
+        "success_criterion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "success_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "desired_degradation_established": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "verified_repair_cycle",
+        "before_bad_established",
+        "matched_imaging_conditions",
+        "independent_chemical_evidence",
+        "stop_reason",
+        "next_action",
+        "chemical_evidence_method",
+        "task_criteria",
+        "matched_task_criteria",
+        "independent_recheck_without_intervention",
+        "recheck_evidence",
+        "recheck_completed_utc",
+        "causal_valid",
+        "causal_evidence",
+        "assessment_for_budget",
+        "success_criterion",
+        "success_evidence",
+        "desired_degradation_established"
+      ],
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "processing_scripts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "processing_scripts",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "target_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "controller_identity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "sample_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "tip_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "identity_evidence": {
+          "$ref": "#/$defs/artifact"
+        }
+      },
+      "required": [
+        "target_id",
+        "controller_identity",
+        "sample_id",
+        "tip_id",
+        "identity_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "recovery": {
+      "type": "object",
+      "properties": {
+        "max_wait_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "required_stable_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "expected_setpoint_A": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "max_abs_z_trend_m_per_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "max_z_span_m": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "z_trend_window_s": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "expected_bias_V": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "signed_current_band_A": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "timeout_policy": {
+          "const": "stop_and_review_no_automatic_on_or_retry"
+        }
+      },
+      "required": [
+        "max_wait_s",
+        "required_stable_s",
+        "expected_setpoint_A",
+        "max_abs_z_trend_m_per_s",
+        "max_z_span_m",
+        "z_trend_window_s",
+        "expected_bias_V",
+        "signed_current_band_A",
+        "timeout_policy"
+      ],
+      "additionalProperties": false
+    },
+    "profile": {
+      "enum": [
+        "generic",
+        "local-au111"
+      ]
+    },
+    "local_au111": {
+      "type": "object",
+      "properties": {
+        "policy_version": {
+          "const": "2026-11-01"
+        },
+        "max_pulses_per_session": {
+          "const": 6
+        },
+        "review_after_consecutive_no_improvement": {
+          "const": 2
+        },
+        "required_safetip_state": {
+          "const": "off"
+        },
+        "last_improvement_evidence": {
+          "$ref": "#/$defs/artifact"
+        },
+        "strategy_review": {
+          "type": "object",
+          "properties": {
+            "evidence": {
+              "$ref": "#/$defs/artifact"
+            },
+            "reviewed_utc": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "reviewed_through_action_attempt": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "reviewed_through_pulse_attempt": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "consecutive_no_improvement_at_review": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "decision": {
+              "enum": [
+                null,
+                "continue_pulse",
+                "consider_other_strategy",
+                "stop"
+              ]
+            },
+            "next_strategy_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "rationale": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          },
+          "required": [
+            "evidence",
+            "reviewed_utc",
+            "reviewed_through_action_attempt",
+            "reviewed_through_pulse_attempt",
+            "consecutive_no_improvement_at_review",
+            "decision",
+            "next_strategy_id",
+            "rationale"
+          ],
+          "additionalProperties": false
+        },
+        "pulse_attempts_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "consecutive_no_improvement_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "last_improvement_action_attempt_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pulse_attempts_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "consecutive_no_improvement_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "last_improvement_action_attempt_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "last_improvement_pulse_attempt_before": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "last_improvement_pulse_attempt_after": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "policy_version",
+        "max_pulses_per_session",
+        "review_after_consecutive_no_improvement",
+        "required_safetip_state",
+        "last_improvement_evidence",
+        "strategy_review",
+        "pulse_attempts_before",
+        "consecutive_no_improvement_before",
+        "last_improvement_action_attempt_before",
+        "pulse_attempts_after",
+        "consecutive_no_improvement_after",
+        "last_improvement_action_attempt_after",
+        "last_improvement_pulse_attempt_before",
+        "last_improvement_pulse_attempt_after"
+      ],
+      "additionalProperties": false,
+      "description": "Local policy only; cumulative pulse count and consecutive no-improvement streak count Bias.Pulse, not total conditioning actions. Review checkpoints never reset counters and must follow the most recent evidenced imaging-improvement action and pulse boundaries."
+    }
+  },
+  "required": [
+    "schema_version",
+    "offline_record_only",
+    "event_id",
+    "session_id",
+    "state_segment_id",
+    "operator",
+    "created_utc",
+    "intent",
+    "authorization",
+    "budget",
+    "previous_action",
+    "history",
+    "baseline",
+    "prior_clipping",
+    "action",
+    "recording",
+    "execution",
+    "labels",
+    "decision",
+    "provenance",
+    "target",
+    "recovery"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/stm-action-record-1.0.schema.json",
+  "title": "Offline single Bias.Pulse record v1",
+  "description": "A local audit record, not a live executor or authorization. Labels are separate evidence claims, not a chemical inference ladder.",
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "readback": {
+      "type": "object",
+      "properties": {
+        "bias_V": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "setpoint_A": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "current_A": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "xy_m": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "z_m": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "feedback_status": {
+          "enum": [
+            "On2",
+            "Off1",
+            "other",
+            null
+          ]
+        },
+        "scan_idle": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "other_actions_idle": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "safetip_state": {
+          "enum": [
+            "on",
+            "off",
+            null
+          ]
+        },
+        "safetip_properties": {
+          "type": "object"
+        },
+        "gain_readback": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "bias_V",
+        "setpoint_A",
+        "current_A",
+        "xy_m",
+        "z_m",
+        "feedback_status",
+        "scan_idle",
+        "other_actions_idle",
+        "safetip_state",
+        "safetip_properties",
+        "gain_readback"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

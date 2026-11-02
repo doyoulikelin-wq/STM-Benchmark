@@ -1,0 +1,42 @@
+{
+  "scope": "Read-only provenance reconciliation; immutable original manifests and controller source retained.",
+  "finding": "The generic source path field inherited scanner path while source_sha256 matches actual setpoint or pulse controller. Do not resolve the source hash by the incorrect path value.",
+  "records": [
+    {
+      "stage": "prepare_A01",
+      "original_manifest_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/prepare_A01/manifest.json",
+      "original_manifest_sha256": "b37174a3d05c90f2f38dfae43c54dbe29ed36ccdf10731dff306ad1b43642b67",
+      "original_source_path_value": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/scan_full50nm_down_once.py",
+      "original_source_sha256_value": "7d537f110631e5d73fdc6ee7336a1ec077088705f0e455183def442f6889bbb4",
+      "actual_matching_controller_source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/setpoint_fullcycle_100pA_1nA_once.py",
+      "actual_matching_source_sha256": "7d537f110631e5d73fdc6ee7336a1ec077088705f0e455183def442f6889bbb4",
+      "metadata_path_matches_hash": false,
+      "source_sha256_matches_actual_controller_file": true
+    },
+    {
+      "stage": "pulse_A01",
+      "original_manifest_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/manifest.json",
+      "original_manifest_sha256": "c83c3130d535381927ea5ee533a60f1312d329e6ba5831821c8a8da4db6b68bd",
+      "original_source_path_value": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/scan_full50nm_down_once.py",
+      "original_source_sha256_value": "1ec66cf6ebb83c7a8450880536cbfa5e71d806143b8d3874d2435158e19b1b40",
+      "actual_matching_controller_source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/pulse_fullcycle_1nA_20ms_hold_once.py",
+      "actual_matching_source_sha256": "1ec66cf6ebb83c7a8450880536cbfa5e71d806143b8d3874d2435158e19b1b40",
+      "metadata_path_matches_hash": false,
+      "source_sha256_matches_actual_controller_file": true
+    },
+    {
+      "stage": "return_A01",
+      "original_manifest_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/return_A01/manifest.json",
+      "original_manifest_sha256": "357f817182a068f38271bc199b8419b30c953da3685e02ec0902ba79b57b0ce8",
+      "original_source_path_value": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/scan_full50nm_down_once.py",
+      "original_source_sha256_value": "7d537f110631e5d73fdc6ee7336a1ec077088705f0e455183def442f6889bbb4",
+      "actual_matching_controller_source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/setpoint_fullcycle_100pA_1nA_once.py",
+      "actual_matching_source_sha256": "7d537f110631e5d73fdc6ee7336a1ec077088705f0e455183def442f6889bbb4",
+      "metadata_path_matches_hash": false,
+      "source_sha256_matches_actual_controller_file": true
+    }
+  ],
+  "writer_evidence": "Each stage records actual wire commands; pulse and return raw command/ACK hashes verified in separate native reviews. No claim that path discrepancy changed physical execution.",
+  "no_hardware_access": true,
+  "no_original_files_modified": true
+}

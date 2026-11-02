@@ -1,0 +1,984 @@
+{
+  "created_utc": "2026-11-02T12:52:21.663588+00:00",
+  "scope": "offline local closed246-254 and completed return logs; no hardware/SMB/CUA",
+  "native_sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200246.dat",
+      "sha256": "651830a2a657ec88bfcc04d44ddbf102f711b5c5a2efe233f13702ceb4bcce96"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200247.dat",
+      "sha256": "4c6838762226eec10b5f8414003eef8a200205950bbe50210bfa1d15d1c07391"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200248.dat",
+      "sha256": "020b534af02b744b20ea3e29264de8ff40d7961e436baab59f1599b9d851de2c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200249.dat",
+      "sha256": "663bae2fdb1eb5b63767ecaa363fe848f82f8f8ce76f492916371a04b480b9dd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200250.dat",
+      "sha256": "570f9ff788b01bceb58421eba5672528bb0090adbee51733a1f3c3874e9f3307"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200251.dat",
+      "sha256": "a9ba9f985332812100a3b927470b6d0e2c2fd8ee4d0bcf92107d75a9f6395860"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200252.dat",
+      "sha256": "dd003d3d245dc8ab9d7106cb8de32679a20ea0ee49be3350643833f77edfae93"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200253.dat",
+      "sha256": "7bcbe634098595e431e81e7e3e4e210498fb6e4087443f23a70536c372883418"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native/dl_goal30_FIVE1102_SESSION_0200254.dat",
+      "sha256": "37b6374a3f37b53c202ad79450eb442af56c7b1d1b54fe24647b14fd6d6e0d71"
+    }
+  ],
+  "data_integrity": {
+    "rows": 225000,
+    "finite_values": 1350000,
+    "sample_period_s": 0.0005,
+    "Bias_V_all": -1
+  },
+  "action_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/setpoint_fullcycle_100pA_1nA_once.py",
+    "sha256": "7d537f110631e5d73fdc6ee7336a1ec077088705f0e455183def442f6889bbb4"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_A01/outcome.json",
+    "sha256": "c966d2f066a8bd2f0e61b08bd4da8ef47b36aa9e3e307bee9a08542f56cd5efe",
+    "data": {
+      "utc": "2026-11-02T12:47:42.195819+00:00",
+      "monotonic_ns": 1495106829079500,
+      "status": "stopped_no_further_sets",
+      "mode": "return",
+      "session_id": "session_02",
+      "action_id": "A01",
+      "clean_tip_or_repair_claim": false,
+      "native_waveform_audit_pending": true,
+      "automatic_cleanup_writes": [],
+      "error": "Feedback not On/2",
+      "execution_unknown": false,
+      "last_known_target_A": 1.000000013351432e-10,
+      "last_observed_state": {
+        "end": {
+          "utc": "2026-11-02T12:47:42.195677+00:00",
+          "monotonic_ns": 1495106828942041
+        },
+        "values": {
+          "Current.Get": [
+            -7.448489741657127e-11
+          ],
+          "ZCtrl.ZPosGet": [
+            1.2369999069505866e-07
+          ],
+          "ZCtrl.OnOffGet": [
+            0
+          ],
+          "ZCtrl.StatusGet": [
+            1
+          ],
+          "Scan.StatusGet": [
+            0
+          ],
+          "Bias.Get": [
+            -1.0
+          ],
+          "ZCtrl.SetpntGet": [
+            1.000000013351432e-10
+          ],
+          "SafeTip.OnOffGet": [
+            0
+          ],
+          "AutoApproach.OnOffGet": [
+            0
+          ],
+          "BiasSpectr.StatusGet": [
+            0
+          ],
+          "ZSpectr.StatusGet": [
+            0
+          ],
+          "FolMe.PSOnOffGet": [
+            0
+          ],
+          "FolMe.XYPosGet": [
+            -2.5000000292152436e-08,
+            -2.5000000292152436e-08
+          ],
+          "SafeTip.SignalGet": [
+            7.519977696102131e-11
+          ]
+        }
+      },
+      "requires_fresh_independent_state_review": true,
+      "cleanup_omitted": "Only stop further SetpntSet; no retry, rollback, On, Withdraw, Stop or automatic return. Unknown ACK: no further reads on this connection.",
+      "attempted_sets": 11,
+      "acknowledged_sets": 11
+    }
+  },
+  "phases": {
+    "all_return_before_home_transition": {
+      "native_s": [
+        3082.53,
+        3139.5595
+      ],
+      "samples": 114059,
+      "I_pA": {
+        "min": -1056.8817999999999,
+        "max": -95.586365,
+        "mean": -414.1270217426945,
+        "median": -317.19399,
+        "std": 260.8056339269407,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0
+      },
+      "Z_nm": {
+        "first": -94.85223300000001,
+        "last": -94.73963300000001,
+        "median": -94.796533,
+        "min": -94.858727,
+        "max": -94.735988,
+        "slope_pm_s": 2.0108236088724456,
+        "linear_residual_RMS_pm": 3.2598148471290127,
+        "max_abs_adjacent_pm": 6.529999999997926
+      }
+    },
+    "last_100pA_500ms_before_transition": {
+      "native_s": [
+        3139.0595,
+        3139.5595
+      ],
+      "samples": 1000,
+      "I_pA": {
+        "min": -103.33981,
+        "max": -95.586365,
+        "mean": -99.66692351399999,
+        "median": -99.6832685,
+        "std": 1.32540975104902,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0,
+        "fraction_within_target_20percent": 1.0
+      },
+      "Z_nm": {
+        "first": -94.739178,
+        "last": -94.73963300000001,
+        "median": -94.73910000000001,
+        "min": -94.74243299999999,
+        "max": -94.736265,
+        "slope_pm_s": -0.0386564066561173,
+        "linear_residual_RMS_pm": 1.2047933829732158,
+        "max_abs_adjacent_pm": 1.4000000000180535
+      }
+    },
+    "last100ms_before_transition": {
+      "native_s": [
+        3139.4595,
+        3139.5595
+      ],
+      "samples": 200,
+      "I_pA": {
+        "min": -103.28244000000001,
+        "max": -95.94555000000001,
+        "mean": -99.656323375,
+        "median": -99.74521899999999,
+        "std": 1.455440603938527,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0,
+        "fraction_within_target_20percent": 1.0
+      },
+      "Z_nm": {
+        "first": -94.738589,
+        "last": -94.73963300000001,
+        "median": -94.739043,
+        "min": -94.741814,
+        "max": -94.736308,
+        "slope_pm_s": -23.76116102918666,
+        "linear_residual_RMS_pm": 0.9608908533111152,
+        "max_abs_adjacent_pm": 1.1870000000016034
+      }
+    },
+    "transition_plus50ms": {
+      "native_s": [
+        3139.5575,
+        3139.6095
+      ],
+      "samples": 104,
+      "I_pA": {
+        "min": -426.00079,
+        "max": 1.5675639000000001,
+        "mean": -8.760862077832307,
+        "median": 0.0783061325,
+        "std": 46.33147386863655,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0
+      },
+      "Z_nm": {
+        "first": -94.73922800000001,
+        "last": 123.69999,
+        "median": 123.69999,
+        "min": -94.73963300000001,
+        "max": 123.69999,
+        "slope_pm_s": 1065045.5861574442,
+        "linear_residual_RMS_pm": 40638.18619194198,
+        "max_abs_adjacent_pm": 131063.83109999998
+      }
+    },
+    "home_after1_to10s": {
+      "native_s": [
+        3140.56,
+        3149.56
+      ],
+      "samples": 18000,
+      "I_pA": {
+        "min": -1.1903096,
+        "max": 1.3911722,
+        "mean": 0.16140652038691677,
+        "median": 0.1632976,
+        "std": 0.3087350925027552,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0
+      },
+      "Z_nm": {
+        "first": 123.69999,
+        "last": 123.69999,
+        "median": 123.69999,
+        "min": 123.69999,
+        "max": 123.69999,
+        "slope_pm_s": -2.6093367473794143e-12,
+        "linear_residual_RMS_pm": 8.415043477999345e-12,
+        "max_abs_adjacent_pm": 0.0
+      }
+    },
+    "latest_archived5s": {
+      "native_s": [
+        3170,
+        3175
+      ],
+      "samples": 10000,
+      "I_pA": {
+        "min": -1.0204792,
+        "max": 1.299467,
+        "mean": 0.15639225033672202,
+        "median": 0.15330305500000002,
+        "std": 0.3246750845444751,
+        "abs_ge4000_count": 0,
+        "software_lower_count": 0
+      },
+      "Z_nm": {
+        "first": 123.69999,
+        "last": 123.69999,
+        "median": 123.69999,
+        "min": 123.69999,
+        "max": 123.69999,
+        "slope_pm_s": -3.465900215507249e-11,
+        "linear_residual_RMS_pm": 5.0321302658378404e-11,
+        "max_abs_adjacent_pm": 0.0
+      }
+    }
+  },
+  "transition": {
+    "file": 252,
+    "zero_based_last_pre_row": 4118,
+    "zero_based_intermediate_row": 4119,
+    "zero_based_first_home_row": 4120,
+    "native_last_pre_s": 3139.559,
+    "native_first_intermediate_s": 3139.5595,
+    "native_first_home_s": 3139.56,
+    "Z_last_pre_nm": -94.73963300000001,
+    "Z_intermediate_nm": -7.363841099999999,
+    "Z_home_nm": 123.69999,
+    "I_last_pre_pA": -96.426818,
+    "I_intermediate_pA": -102.0448,
+    "I_first_home_pA": -426.00079,
+    "neighborhood": {
+      "native_s": [
+        3139.5575,
+        3139.558,
+        3139.5585,
+        3139.559,
+        3139.5595,
+        3139.56,
+        3139.5605,
+        3139.561,
+        3139.5615,
+        3139.562,
+        3139.5625,
+        3139.563,
+        3139.5635,
+        3139.564,
+        3139.5645,
+        3139.565,
+        3139.5655,
+        3139.566,
+        3139.5665,
+        3139.567
+      ],
+      "Current_pA": [
+        -99.95952700000001,
+        -100.07748,
+        -99.90078199999999,
+        -96.426818,
+        -102.0448,
+        -426.00079,
+        -2.3643205000000003,
+        1.2205791,
+        -0.33551214,
+        0.28307909,
+        1.1203288999999998,
+        -0.51251418,
+        0.41491501,
+        0.6463908199999999,
+        0.01696584,
+        0.47991748000000006,
+        0.8766459200000001,
+        -1.3586139,
+        1.1465739000000001,
+        -0.64160342
+      ],
+      "Z_nm": [
+        -94.73922800000001,
+        -94.738816,
+        -94.73896500000001,
+        -94.73963300000001,
+        -7.363841099999999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999,
+        123.69999
+      ]
+    }
+  },
+  "host_counter_brackets": {
+    "first_command": {
+      "utc": "2026-11-02T12:46:45.532320+00:00",
+      "before": {
+        "utc": "2026-11-02T12:46:45.003321+00:00",
+        "host": 1793623605.003321,
+        "native_s": 3082.53
+      },
+      "after": {
+        "utc": "2026-11-02T12:46:45.536350+00:00",
+        "host": 1793623605.53635,
+        "native_s": 3083.07
+      },
+      "native_bounds": [
+        3082.53,
+        3083.07
+      ]
+    },
+    "last_command": {
+      "utc": "2026-11-02T12:47:41.060938+00:00",
+      "before": {
+        "utc": "2026-11-02T12:47:41.047790+00:00",
+        "host": 1793623661.04779,
+        "native_s": 3138.57
+      },
+      "after": {
+        "utc": "2026-11-02T12:47:41.587657+00:00",
+        "host": 1793623661.587657,
+        "native_s": 3139.12
+      },
+      "native_bounds": [
+        3138.57,
+        3139.12
+      ]
+    },
+    "outcome": {
+      "utc": "2026-11-02T12:47:42.195819+00:00",
+      "before": {
+        "utc": "2026-11-02T12:47:42.146827+00:00",
+        "host": 1793623662.146827,
+        "native_s": 3139.68
+      },
+      "after": {
+        "utc": "2026-11-02T12:47:42.729149+00:00",
+        "host": 1793623662.729149,
+        "native_s": 3140.27
+      },
+      "native_bounds": [
+        3139.68,
+        3140.27
+      ]
+    }
+  },
+  "writer_audit": {
+    "events_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_A01/events.jsonl",
+    "events_sha256": "93d1cb23b52763a4150700f350adad31f1422390b03ec09e7e4a7447b8ed7002",
+    "request_headers_verified": 7187,
+    "command_counts": {
+      "Current.Get": 378,
+      "ZCtrl.ZPosGet": 378,
+      "ZCtrl.OnOffGet": 378,
+      "ZCtrl.StatusGet": 378,
+      "Scan.StatusGet": 378,
+      "Bias.Get": 378,
+      "ZCtrl.SetpntGet": 389,
+      "SafeTip.OnOffGet": 378,
+      "AutoApproach.OnOffGet": 378,
+      "BiasSpectr.StatusGet": 378,
+      "ZSpectr.StatusGet": 378,
+      "FolMe.PSOnOffGet": 378,
+      "FolMe.XYPosGet": 378,
+      "SafeTip.SignalGet": 378,
+      "Scan.FrameGet": 34,
+      "Scan.BufferGet": 34,
+      "Scan.SpeedGet": 34,
+      "Scan.PropsGet": 34,
+      "SafeTip.PropsGet": 34,
+      "ZCtrl.GainGet": 34,
+      "ZCtrl.LimitsEnabledGet": 34,
+      "ZCtrl.LimitsGet": 34,
+      "ZCtrl.TipLiftGet": 34,
+      "ZCtrl.SwitchOffDelayGet": 34,
+      "ZCtrl.HomePropsGet": 34,
+      "FolMe.SpeedGet": 34,
+      "Current.GainsGet": 34,
+      "TipShaper.PropsGet": 34,
+      "BiasSpectr.PropsGet": 34,
+      "BiasSpectr.LimitsGet": 34,
+      "BiasSpectr.TimingGet": 34,
+      "BiasSpectr.AdvPropsGet": 34,
+      "ZSpectr.PropsGet": 34,
+      "ZSpectr.TimingGet": 34,
+      "ZSpectr.RangeGet": 34,
+      "ZSpectr.RetractGet": 34,
+      "ZSpectr.AdvPropsGet": 34,
+      "BiasSpectr.ChsGet": 34,
+      "ZSpectr.ChsGet": 34,
+      "BiasSpectr.AltZCtrlGet": 34,
+      "BiasSpectr.ZOffRevertGet": 34,
+      "BiasSpectr.SafeCond1Get": 34,
+      "BiasSpectr.SafeCond2Get": 34,
+      "ZSpectr.Retract2ndGet": 34,
+      "ZSpectr.RetractDelayGet": 34,
+      "Util.VersionGet": 34,
+      "Util.SessionPathGet": 34,
+      "Signals.NamesGet": 34,
+      "Util.RTFreqGet": 68,
+      "Util.RTOversamplGet": 68,
+      "Util.AcqPeriodGet": 68,
+      "LockIn.ModOnOffGet": 68,
+      "DataLog.StatusGet": 377,
+      "DataLog.ChsGet": 34,
+      "DataLog.PropsGet": 34,
+      "ZCtrl.SetpntSet": 11
+    },
+    "all_writers": [
+      {
+        "utc": "2026-11-02T12:46:45.535224+00:00",
+        "start_utc": "2026-11-02T12:46:45.532553+00:00",
+        "end_utc": "2026-11-02T12:46:45.534840+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          9.313225746154785e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0000702_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0000702_request_body.bin",
+          "sha256": "9dd6deb17adb1b3381b253bc934b43ad585b97d2eab8e1d5ef0d2daa8ff9e8c3",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0000702_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:46:50.878264+00:00",
+        "start_utc": "2026-11-02T12:46:50.876686+00:00",
+        "end_utc": "2026-11-02T12:46:50.877660+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          7.450580707946131e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0001316_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0001316_request_body.bin",
+          "sha256": "f2f98e169e8dbae992461a34676bef40b0f034583b02446968250d1cde22fa3f",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0001316_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:46:56.475236+00:00",
+        "start_utc": "2026-11-02T12:46:56.473777+00:00",
+        "end_utc": "2026-11-02T12:46:56.474800+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          5.9604643443123e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0001960_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0001960_request_body.bin",
+          "sha256": "b1c50bf414e557466bd58c01cbbc10510feaef20f2c5bea940e1ac6b7dd484b7",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0001960_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:02.026097+00:00",
+        "start_utc": "2026-11-02T12:47:02.024132+00:00",
+        "end_utc": "2026-11-02T12:47:02.025557+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          4.768371808516747e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0002604_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0002604_request_body.bin",
+          "sha256": "8e5ae68ee200b56cc20cf8f0bfdc27752f977599a6c543e6999c6c6ec4cf61a3",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0002604_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:07.542312+00:00",
+        "start_utc": "2026-11-02T12:47:07.540489+00:00",
+        "end_utc": "2026-11-02T12:47:07.541727+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          3.8146971692576415e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0003233_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0003233_request_body.bin",
+          "sha256": "bc3a66a6a0944d256095d7bda58cabc0f226870c5a5f2a921c9efeee3b88c85d",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0003233_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:13.235129+00:00",
+        "start_utc": "2026-11-02T12:47:13.232316+00:00",
+        "end_utc": "2026-11-02T12:47:13.234782+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          3.051757735406113e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0003877_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0003877_request_body.bin",
+          "sha256": "bf506cc8d1f6a86485e2f6acde9a775169ba44f761349099c7a65b43044205c9",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0003877_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:18.812579+00:00",
+        "start_utc": "2026-11-02T12:47:18.808672+00:00",
+        "end_utc": "2026-11-02T12:47:18.809986+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          2.441406243836042e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0004521_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0004521_request_body.bin",
+          "sha256": "848ae4585b68f598a70768f23960ef84f36f14ae3711cd2cb012dbde856ba1cf",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0004521_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:24.390270+00:00",
+        "start_utc": "2026-11-02T12:47:24.383712+00:00",
+        "end_utc": "2026-11-02T12:47:24.387078+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          1.953125022824409e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0005180_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0005180_request_body.bin",
+          "sha256": "1d2a4fb16c3827a9993c544dad29e5ce18e845743ca30f3c74667d6c378c0608",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0005180_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:29.917126+00:00",
+        "start_utc": "2026-11-02T12:47:29.914935+00:00",
+        "end_utc": "2026-11-02T12:47:29.915903+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          1.5624999905039516e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0005794_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0005794_request_body.bin",
+          "sha256": "b73c47aabae043693d59ec3409828a3352b6e6b5bc683afa76ae700112a267d0",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0005794_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:35.487140+00:00",
+        "start_utc": "2026-11-02T12:47:35.486019+00:00",
+        "end_utc": "2026-11-02T12:47:35.486638+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          1.2499999646475857e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0006438_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0006438_request_body.bin",
+          "sha256": "a274ca80478746a81df32c46f211180c2f30f9d13066ea3052f8b2fe3b7315f2",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0006438_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      },
+      {
+        "utc": "2026-11-02T12:47:41.062696+00:00",
+        "start_utc": "2026-11-02T12:47:41.061286+00:00",
+        "end_utc": "2026-11-02T12:47:41.062018+00:00",
+        "command": "ZCtrl.SetpntSet",
+        "args": [
+          1.000000013351432e-10
+        ],
+        "response_zeroerror": true,
+        "request_header": {
+          "path": "wire/0007067_request_header.bin",
+          "sha256": "c7d3bf438c4ed00640d22d83e915f154adaea1e40162f06a781beb2db928b05d",
+          "bytes": 40
+        },
+        "request_body": {
+          "path": "wire/0007067_request_body.bin",
+          "sha256": "a5ff219981024e22b99480b5c625fc0099dd69e3a68cfaa041e8aef1e3f9bf47",
+          "bytes": 4
+        },
+        "response_body": {
+          "path": "wire/0007067_response_body.bin",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "bytes": 8
+        }
+      }
+    ],
+    "no_Withdraw_OnOff_Home_XY_writer_in_this_connection": true,
+    "zero_error_ACK_count": 11,
+    "scope_limit": "Only this owned return connection is audited. It does not observe UI, other clients, or all native-internal causes."
+  },
+  "last_step_readbacks_sequential_not_atomic": [
+    {
+      "utc": "2026-11-02T12:47:41.083297+00:00",
+      "duration_s": 0.01795320794917643,
+      "values": {
+        "Current.Get": [
+          -1.2472581301103958e-10
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.474771900386258e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:41.241968+00:00",
+      "duration_s": 0.05264716595411301,
+      "values": {
+        "Current.Get": [
+          -1.0990048454617707e-10
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.473929907244383e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:41.394957+00:00",
+      "duration_s": 0.050919166998937726,
+      "values": {
+        "Current.Get": [
+          -9.967614233996613e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.473783535440816e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:41.556728+00:00",
+      "duration_s": 0.051793416030704975,
+      "values": {
+        "Current.Get": [
+          -9.9656727314823e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.473851747543449e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:41.716215+00:00",
+      "duration_s": 0.04759608302265406,
+      "values": {
+        "Current.Get": [
+          -9.964531283435107e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.474050699509462e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:41.866912+00:00",
+      "duration_s": 0.0360382089857012,
+      "values": {
+        "Current.Get": [
+          -9.967651010134304e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.473888695765709e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:42.034724+00:00",
+      "duration_s": 0.0547174159437418,
+      "values": {
+        "Current.Get": [
+          -9.967064673599424e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          -9.474001672060695e-08
+        ],
+        "ZCtrl.OnOffGet": [
+          1
+        ],
+        "ZCtrl.StatusGet": [
+          2
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    },
+    {
+      "utc": "2026-11-02T12:47:42.195437+00:00",
+      "duration_s": 0.05093075009062886,
+      "values": {
+        "Current.Get": [
+          -7.448489741657127e-11
+        ],
+        "ZCtrl.ZPosGet": [
+          1.2369999069505866e-07
+        ],
+        "ZCtrl.OnOffGet": [
+          0
+        ],
+        "ZCtrl.StatusGet": [
+          1
+        ],
+        "FolMe.XYPosGet": [
+          -2.5000000292152436e-08,
+          -2.5000000292152436e-08
+        ],
+        "SafeTip.OnOffGet": [
+          0
+        ]
+      }
+    }
+  ],
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/return_A01_interruption_review/return_interruption_and_home.png",
+      "sha256": "6fcf98bcdb0c7b6f894712a83cb981e87ceaf20157e8a92fdfbb5c64523393bc"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/return_A01_interruption_review/before_home_last_second.png",
+      "sha256": "7487ba60d2a7194d945947cb13bf0cd161ff774c57747ce6cc271b64d19f9773"
+    }
+  ],
+  "script_sha256": "3bde96f6d92bed6ad1bfe9cc99606489ad013d7095748ac29bc5f8156009b2d5",
+  "conclusion": [
+    "All11 setpoints received zero-error ACK including100pA, but final-step settling was interrupted and final30s observation did not complete. This is not a completed return nor a complete repair attempt/cycle.",
+    "Native Z abruptly reaches configured Home while current falls near zero. The426pA current transient is recorded at Home arrival, not a preceding persistent overload.",
+    "Immediately preceding100pA native interval has no sustained current/Z instability. Home/Off is compatible with a control-state action; source remains unidentified pending operator/other-client/native context. Do not label it as pulse-induced instability or confirmed manual action.",
+    "The owned return wire contains only11SetpntSet writes; no automatic Withdraw/OnOff/Home/XY instruction. Unknown external history prevents a strict pulse-before/after imaging causal pair."
+  ],
+  "timing_limit": "DataLog tohost association fromStatusGet counter brackets is not hard synchronization; sequential snapshots can straddle a rapid state change."
+}

@@ -1,0 +1,609 @@
+{
+  "scope": "Closed local DAT85..91 only; completed Pulse_A01 at 1nA. Return and later fullscan excluded. No hardware or shared-source access.",
+  "source_receipt_sha256": "9ec6bae6a34c8f86bdc1087932ab66464d799f1fb6c86465c517056891c87af1",
+  "receipt_complete_through_at_capture": 134,
+  "selected_closed_blocks": [
+    {
+      "block": 85,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100085.dat",
+      "sha256": "a1b5f0657edae55e1f311b0d51b7f23a8651c2225c489250bbd5768560a146d5",
+      "bytes": 2123970,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 86,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100086.dat",
+      "sha256": "4256106c0a37c2070472d2809b37b70b12b228318139d3cd15c0193c964abcd1",
+      "bytes": 2124306,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 87,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100087.dat",
+      "sha256": "f02a60cd9d444d1b1bb0aed109719ae4a6dbab5cf95fa794814e64971ad7b233",
+      "bytes": 2124199,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 88,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100088.dat",
+      "sha256": "d898ba09b8b35c18ac1b99bf135420c9cf8b780d57c1a01a0aa9b6c5343c776b",
+      "bytes": 2118807,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 89,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100089.dat",
+      "sha256": "8831e232596b519b8ef731f0db04d9874d6e3800dc9efbe2368f8196cc210506",
+      "bytes": 2104766,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 90,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100090.dat",
+      "sha256": "c1dd24e939bd6c9673da3191061c50d4bb9031d35d7cc50080cca843f4ca0544",
+      "bytes": 2102998,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    },
+    {
+      "block": 91,
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/native/dl_goal30_FIVE1102_SESSION_0100091.dat",
+      "sha256": "1859f720e8cb01e2b89f408c1b9256b2dd7aaafc4a5ea681655baac58b651b6f",
+      "bytes": 2106840,
+      "rows": 25000,
+      "closed_basis_event_utc": "2026-11-02T00:43:45.828147+00:00",
+      "last_path_index_at_copy": 108
+    }
+  ],
+  "all_SHA_bytes_header_shape_finite_verified": true,
+  "rows_per_channel": 175000,
+  "finite_scalars": 1050000,
+  "sample_period_s": 0.0005,
+  "native_start_identity": "2026/11/2 8:21:18",
+  "header_axis_half_open_s": [
+    1050.0,
+    1137.5
+  ],
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/analyze_pulse_A01_quick.py",
+    "sha256": "9812c3cd59a9076f57c52a5851f644e72e785eff5cd215e754e86555e37c9109"
+  },
+  "source_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/events.jsonl",
+    "sha256": "bb9e7d0a87a6e223d8793016cd1112130f0fafd6ed930b96113daf5dbbb9c17e"
+  },
+  "sources": {
+    "manifest.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/manifest.json",
+      "sha256": "c83c3130d535381927ea5ee533a60f1312d329e6ba5831821c8a8da4db6b68bd"
+    },
+    "pulse.claim": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse.claim",
+      "sha256": "2cfee40cf220c6fcc333ce40ee7bb233f63e9c3cc154983789557360f2941ec9"
+    },
+    "pulse_ack.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pulse_ack.json",
+      "sha256": "597a12e086d4f9fbe43a18799f14bd3514606d17caafe4cc9caa9ae3dae1d4ce"
+    },
+    "outcome.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/outcome.json",
+      "sha256": "5ddb9a68caa9e329bb11a3e102a00dbe1e7314b55f9746b7948c5058f23d9d45"
+    },
+    "pre30s_summary.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/pre30s_summary.json",
+      "sha256": "10d6ffc5c4be15b5d5ab8327e10b3b2f7cfa6e96e2dec221f77ce4639d9a7e46"
+    },
+    "post30s_summary.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/post30s_summary.json",
+      "sha256": "0654c6283731b0678411ebb65a37aa67f720ef94a57761e1ea7b3ed7bbd79fca"
+    },
+    "immediate_after.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/immediate_after.json",
+      "sha256": "980a3f40b01028fa36ccaa6d27c18a7c66d826333594c65e0df82bf1a8e1ab2c"
+    }
+  },
+  "pulse_wire": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/pulse_A01/native_quick_review/pulse_wire_evidence.json",
+    "sha256": "9e0a77f63770b840389f44410201a4eecd8d25a9b1ad7f7ef2fc8a857f75fba1"
+  },
+  "single_command_wire_count": 1,
+  "command_verified_bigendian_values": [
+    1,
+    0.02,
+    -5.0,
+    1,
+    2
+  ],
+  "pulse_ordinal": 2,
+  "cumulative_context": "Old Nov1pulse1 + new S01A01pulse1 = ordinal2; not a completed cycle.",
+  "timing": {
+    "claim_utc": "2026-11-02T00:39:30.915570+00:00",
+    "waiting_ACK_utc": "2026-11-02T00:39:30.947076+00:00",
+    "wire_start_utc": "2026-11-02T00:39:30.915850+00:00",
+    "wire_end_utc": "2026-11-02T00:39:30.945209+00:00",
+    "wire_elapsed_s": 0.029390875017270446,
+    "claim_host_age_since_logger_claim_s": 1092.464648,
+    "first_nonrest_native_nominal_axis_s": 1092.481,
+    "nominal_minus_host_claim_s": 0.016352000000097178,
+    "qualification": "Header sample axis and host timestamps are approximately consistent, not a hardware trigger clock or exact ACK-to-sample synchronization."
+  },
+  "bias": {
+    "nonrest_first": {
+      "global_zero_index": 2184962,
+      "block": 88,
+      "block_zero_index": 9962,
+      "nominal_header_axis_s": 1092.481,
+      "relative_first_nonrest_ms": 0.0
+    },
+    "nonrest_last": {
+      "global_zero_index": 2185002,
+      "block": 88,
+      "block_zero_index": 10002,
+      "nominal_header_axis_s": 1092.501,
+      "relative_first_nonrest_ms": 20.0
+    },
+    "first_restored_minus1": {
+      "global_zero_index": 2185003,
+      "block": 88,
+      "block_zero_index": 10003,
+      "nominal_header_axis_s": 1092.5015,
+      "relative_first_nonrest_ms": 20.5
+    },
+    "nonrest_samples": 41,
+    "unique_nonrest_V_counts": {
+      "-5.0": 39,
+      "-3.8": 1,
+      "-2.2": 1
+    },
+    "first_and_last_nonrest_V": [
+      -2.2,
+      -3.8
+    ],
+    "exact_minus5_samples": 39,
+    "exact_minus5_first": {
+      "global_zero_index": 2184963,
+      "block": 88,
+      "block_zero_index": 9963,
+      "nominal_header_axis_s": 1092.4815,
+      "relative_first_nonrest_ms": 0.5
+    },
+    "exact_minus5_last": {
+      "global_zero_index": 2185001,
+      "block": 88,
+      "block_zero_index": 10001,
+      "nominal_header_axis_s": 1092.5005,
+      "relative_first_nonrest_ms": 19.5
+    },
+    "exact_plateau_sample_center_span_ms": 19.0,
+    "exact_plateau_count_times_dt_ms": 19.5,
+    "area_equivalent_relative_rest_minus1_target_minus5_ms": 20.0,
+    "all_other_samples_minus1": true
+  },
+  "current_clipping": {
+    "observed_negative_floor_nA": -9.9994768,
+    "matching_tolerance_A": 1e-18,
+    "matching_samples": 87,
+    "first": {
+      "global_zero_index": 2184964,
+      "block": 88,
+      "block_zero_index": 9964,
+      "nominal_header_axis_s": 1092.482,
+      "relative_first_nonrest_ms": 1.0
+    },
+    "last": {
+      "global_zero_index": 2185050,
+      "block": 88,
+      "block_zero_index": 10050,
+      "nominal_header_axis_s": 1092.525,
+      "relative_first_nonrest_ms": 44.0
+    },
+    "sample_center_span_ms": 43.0,
+    "count_times_dt_ms": 43.50000000000001,
+    "matching_during_exact_minus5": 38,
+    "matching_after_bias_restored_minus1": 48,
+    "matching_after_restore_count_times_dt_ms": 24.0,
+    "first_exact_minus5_current_nA": -9.452103999999999,
+    "neighborhood_min_max_nA": [
+      -9.9994768,
+      0.015519284
+    ],
+    "interpretation": "Historical identical negative floor persists through most platform and after bias restoration, strongly consistent with recorded-range clipping or overload. Treat affected samples as potentially censored. Physical preamplifier range and overload behavior are not calibrated here; neither true peak, charge, nor a physical current upper bound can be inferred."
+  },
+  "Z_hold_and_release": {
+    "exact_minus5_Z_nm": -102.12486,
+    "exact_minus5_Z_ptp_pm": 0.0,
+    "release_max_Z_nm": -97.706291,
+    "release_max_location": {
+      "global_zero_index": 2185051,
+      "block": 88,
+      "block_zero_index": 10051,
+      "nominal_header_axis_s": 1092.5255,
+      "relative_first_nonrest_ms": 44.5
+    },
+    "release_max_after_first_restored_ms": 24.0,
+    "release_max_change_from_hold_nm": 4.418569000000006,
+    "first2s_min_Z_nm": -102.16355,
+    "first2s_min_location": {
+      "global_zero_index": 2185072,
+      "block": 88,
+      "block_zero_index": 10072,
+      "nominal_header_axis_s": 1092.536,
+      "relative_first_nonrest_ms": 55.0
+    },
+    "first2s_min_change_from_hold_pm": -38.68999999999173,
+    "slow_outcome_Z_change_pm": 5.123013124830322,
+    "interpretation": "Sampled native HoldZ is flat at file precision. Release excursion and slow final endpoint delta are different quantities; Z is controller displacement, not proof of contact, atom transfer, or chemistry."
+  },
+  "native_windows": {
+    "pre_30_to_20s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2124962,
+          "block": 85,
+          "block_zero_index": 24962,
+          "nominal_header_axis_s": 1062.481,
+          "relative_first_nonrest_ms": -30000.0
+        },
+        {
+          "global_zero_index": 2144962,
+          "block": 86,
+          "block_zero_index": 19962,
+          "nominal_header_axis_s": 1072.481,
+          "relative_first_nonrest_ms": -20000.0
+        }
+      ],
+      "samples": 20000,
+      "count_times_dt_s": 10.0,
+      "I_min_nA": -1.5342426999999998,
+      "I_max_nA": -0.63409267,
+      "I_mean_nA": -1.0027324881815,
+      "I_RMS_about_mean_pA": 46.45734598047183,
+      "abs_I_ge_nA_counts": {
+        "1.2": 115,
+        "1.5": 2,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 109,
+      "Z_min_max_nm": [
+        -102.14293,
+        -102.11128000000001
+      ],
+      "Z_median_nm": -102.12142,
+      "Z_slope_pm_per_s": 0.09431329336076433,
+      "Z_detrended_RMS_pm": 2.4986049490575266,
+      "max_adjacent_Z_pm": 18.00999999999476
+    },
+    "pre_last10s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2164962,
+          "block": 87,
+          "block_zero_index": 14962,
+          "nominal_header_axis_s": 1082.481,
+          "relative_first_nonrest_ms": -10000.0
+        },
+        {
+          "global_zero_index": 2184962,
+          "block": 88,
+          "block_zero_index": 9962,
+          "nominal_header_axis_s": 1092.481,
+          "relative_first_nonrest_ms": 0.0
+        }
+      ],
+      "samples": 20000,
+      "count_times_dt_s": 10.0,
+      "I_min_nA": -1.515164,
+      "I_max_nA": -0.61144889,
+      "I_mean_nA": -1.0024356244,
+      "I_RMS_about_mean_pA": 48.6711940121625,
+      "abs_I_ge_nA_counts": {
+        "1.2": 105,
+        "1.5": 1,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 116,
+      "Z_min_max_nm": [
+        -102.14552,
+        -102.11068
+      ],
+      "Z_median_nm": -102.1216,
+      "Z_slope_pm_per_s": -0.016965871692409717,
+      "Z_detrended_RMS_pm": 2.599669261433967,
+      "max_adjacent_Z_pm": 15.580000000001746
+    },
+    "post_first1s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2185003,
+          "block": 88,
+          "block_zero_index": 10003,
+          "nominal_header_axis_s": 1092.5015,
+          "relative_first_nonrest_ms": 20.5
+        },
+        {
+          "global_zero_index": 2187003,
+          "block": 88,
+          "block_zero_index": 12003,
+          "nominal_header_axis_s": 1093.5015,
+          "relative_first_nonrest_ms": 1020.5
+        }
+      ],
+      "samples": 2000,
+      "count_times_dt_s": 1.0,
+      "I_min_nA": -9.9994768,
+      "I_max_nA": 0.015519284,
+      "I_mean_nA": -1.213920791713535,
+      "I_RMS_about_mean_pA": 1385.4386369292617,
+      "abs_I_ge_nA_counts": {
+        "1.2": 49,
+        "1.5": 49,
+        "4": 49,
+        "9.99": 48
+      },
+      "historic_negative_rail_samples": 48,
+      "I_outside_minus1nA_pm25pct_samples": 68,
+      "Z_min_max_nm": [
+        -102.16355,
+        -97.706291
+      ],
+      "Z_median_nm": -102.136035,
+      "Z_slope_pm_per_s": -428.2105981521493,
+      "Z_detrended_RMS_pm": 451.4292551869783,
+      "max_adjacent_Z_pm": 271.40999999998894
+    },
+    "post_1_to_5s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2187003,
+          "block": 88,
+          "block_zero_index": 12003,
+          "nominal_header_axis_s": 1093.5015,
+          "relative_first_nonrest_ms": 1020.5
+        },
+        {
+          "global_zero_index": 2195003,
+          "block": 88,
+          "block_zero_index": 20003,
+          "nominal_header_axis_s": 1097.5015,
+          "relative_first_nonrest_ms": 5020.5
+        }
+      ],
+      "samples": 8000,
+      "count_times_dt_s": 4.0,
+      "I_min_nA": -1.4082957,
+      "I_max_nA": -0.82304635,
+      "I_mean_nA": -1.0221029522712501,
+      "I_RMS_about_mean_pA": 72.25274734337056,
+      "abs_I_ge_nA_counts": {
+        "1.2": 126,
+        "1.5": 0,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 24,
+      "Z_min_max_nm": [
+        -102.14504000000001,
+        -102.10906
+      ],
+      "Z_median_nm": -102.13156,
+      "Z_slope_pm_per_s": 4.208617040525194,
+      "Z_detrended_RMS_pm": 4.228496536940807,
+      "max_adjacent_Z_pm": 5.920000000012806
+    },
+    "post_5_to_10s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2195003,
+          "block": 88,
+          "block_zero_index": 20003,
+          "nominal_header_axis_s": 1097.5015,
+          "relative_first_nonrest_ms": 5020.5
+        },
+        {
+          "global_zero_index": 2205003,
+          "block": 89,
+          "block_zero_index": 5003,
+          "nominal_header_axis_s": 1102.5015,
+          "relative_first_nonrest_ms": 10020.5
+        }
+      ],
+      "samples": 10000,
+      "count_times_dt_s": 5.0,
+      "I_min_nA": -1.4356267999999999,
+      "I_max_nA": -0.78829554,
+      "I_mean_nA": -1.086405752828,
+      "I_RMS_about_mean_pA": 112.25548166822966,
+      "abs_I_ge_nA_counts": {
+        "1.2": 1679,
+        "1.5": 0,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 749,
+      "Z_min_max_nm": [
+        -102.13543,
+        -102.1062
+      ],
+      "Z_median_nm": -102.11986999999999,
+      "Z_slope_pm_per_s": 1.4076257381162471,
+      "Z_detrended_RMS_pm": 4.9636827016357765,
+      "max_adjacent_Z_pm": 5.330000000001746
+    },
+    "post_10_to_20s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2205003,
+          "block": 89,
+          "block_zero_index": 5003,
+          "nominal_header_axis_s": 1102.5015,
+          "relative_first_nonrest_ms": 10020.5
+        },
+        {
+          "global_zero_index": 2225003,
+          "block": 90,
+          "block_zero_index": 3,
+          "nominal_header_axis_s": 1112.5015,
+          "relative_first_nonrest_ms": 20020.500000000004
+        }
+      ],
+      "samples": 20000,
+      "count_times_dt_s": 10.0,
+      "I_min_nA": -1.6048715,
+      "I_max_nA": -0.7017429399999999,
+      "I_mean_nA": -1.0806971345294998,
+      "I_RMS_about_mean_pA": 109.53445356705409,
+      "abs_I_ge_nA_counts": {
+        "1.2": 2762,
+        "1.5": 18,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 1316,
+      "Z_min_max_nm": [
+        -102.14072,
+        -102.10063000000001
+      ],
+      "Z_median_nm": -102.119915,
+      "Z_slope_pm_per_s": -0.512472971406202,
+      "Z_detrended_RMS_pm": 6.072889002721553,
+      "max_adjacent_Z_pm": 11.830000000001746
+    },
+    "post_20_to_30s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2225003,
+          "block": 90,
+          "block_zero_index": 3,
+          "nominal_header_axis_s": 1112.5015,
+          "relative_first_nonrest_ms": 20020.500000000004
+        },
+        {
+          "global_zero_index": 2245003,
+          "block": 90,
+          "block_zero_index": 20003,
+          "nominal_header_axis_s": 1122.5015,
+          "relative_first_nonrest_ms": 30020.500000000004
+        }
+      ],
+      "samples": 20000,
+      "count_times_dt_s": 10.0,
+      "I_min_nA": -1.4334101,
+      "I_max_nA": -0.82704477,
+      "I_mean_nA": -1.0815793202705,
+      "I_RMS_about_mean_pA": 95.60650043136388,
+      "abs_I_ge_nA_counts": {
+        "1.2": 2389,
+        "1.5": 0,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 879,
+      "Z_min_max_nm": [
+        -102.1434,
+        -102.10302
+      ],
+      "Z_median_nm": -102.11889000000001,
+      "Z_slope_pm_per_s": 0.9843284228708196,
+      "Z_detrended_RMS_pm": 5.354931172175431,
+      "max_adjacent_Z_pm": 5.4799999999959255
+    },
+    "post_30_to_40s": {
+      "range_half_open": [
+        {
+          "global_zero_index": 2245003,
+          "block": 90,
+          "block_zero_index": 20003,
+          "nominal_header_axis_s": 1122.5015,
+          "relative_first_nonrest_ms": 30020.500000000004
+        },
+        {
+          "global_zero_index": 2265003,
+          "block": 91,
+          "block_zero_index": 15003,
+          "nominal_header_axis_s": 1132.5015,
+          "relative_first_nonrest_ms": 40020.5
+        }
+      ],
+      "samples": 20000,
+      "count_times_dt_s": 10.0,
+      "I_min_nA": -1.4250965999999998,
+      "I_max_nA": -0.8063359999999999,
+      "I_mean_nA": -1.0749117067779999,
+      "I_RMS_about_mean_pA": 93.65142346460665,
+      "abs_I_ge_nA_counts": {
+        "1.2": 1912,
+        "1.5": 0,
+        "4": 0,
+        "9.99": 0
+      },
+      "historic_negative_rail_samples": 0,
+      "I_outside_minus1nA_pm25pct_samples": 626,
+      "Z_min_max_nm": [
+        -102.13815,
+        -102.1067
+      ],
+      "Z_median_nm": -102.121535,
+      "Z_slope_pm_per_s": -0.30426988324067394,
+      "Z_detrended_RMS_pm": 4.531374844081649,
+      "max_adjacent_Z_pm": 7.119999999995343
+    }
+  },
+  "slow_readback_metrics": {
+    "pre": {
+      "window_s": 10.046717582968995,
+      "samples": 61,
+      "Z_slope_m_per_s": -8.556831003073366e-14,
+      "Z_detrended_RMS_m": 2.4986501513056143e-12,
+      "Z_span_m": 1.496403001510771e-11,
+      "I_mean_A": -1.002488385564633e-09,
+      "I_std_A": 1.045747740072912e-12,
+      "I_min_A": -1.0045153597815215e-09,
+      "I_max_A": -1.0005198891605005e-09,
+      "brackets_last10s": true,
+      "elapsed_s": 30.024892000015825,
+      "final_band_s": 29.839335707947612
+    },
+    "post": {
+      "window_s": 10.07632283307612,
+      "samples": 63,
+      "Z_slope_m_per_s": 1.0089411149109592e-12,
+      "Z_detrended_RMS_m": 6.071899921322985e-12,
+      "Z_span_m": 2.983568947456661e-11,
+      "I_mean_A": -1.081507800423182e-09,
+      "I_std_A": 2.4573408214597552e-11,
+      "I_min_A": -1.1108191033670778e-09,
+      "I_max_A": -1.02651132039e-09,
+      "brackets_last10s": true,
+      "elapsed_s": 30.170645333826542,
+      "final_band_s": 29.706278125056997
+    }
+  },
+  "interpretation": [
+    "Known waiting ACK and 30s slow guard success do not imply absence of native transient or floor clipping.",
+    "Preexisting native fluctuations are already much larger than slow getters: preserve both measurement rates rather than equate slow band success with instantaneous current stability.",
+    "Native post20..30s has increased current mean magnitude/RMS relative pre10s; attribution to a unique physical cause or permanent tip state is not established.",
+    "This action is part of preparation+pulse+return+scan protocol; imaging improvement and task usability await matched full images.",
+    "No chemical-clean label, verified repair cycle, physical safety bound, or authorization of further action is inferred."
+  ],
+  "sample_period_qualification": "0.5ms is the stored sample interval (2kHz), not a verified analog bandwidth or a bound on faster events."
+}

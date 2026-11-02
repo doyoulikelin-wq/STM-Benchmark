@@ -1,0 +1,227 @@
+{
+  "created_utc": "2026-11-02T12:55:13.155460+00:00",
+  "status": "installed_and_local_repository_synced_after_root_full_diff_review",
+  "authorization": "Existing user gradual Skill modification authorization; root explicitly approved three-doc Step02 diff before installation",
+  "changed_files": [
+    "SKILL.md",
+    "references/local-au111-protocol.md",
+    "references/physics-and-evidence.md"
+  ],
+  "before_manifest": [
+    {
+      "relative": "SKILL.md",
+      "sha256": "6f430637a1bb2ba6cc4c4007f6fc499f85b3f07ee2a40bc1021398a7468e59f3"
+    },
+    {
+      "relative": "agents/openai.yaml",
+      "sha256": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025"
+    },
+    {
+      "relative": "assets/action-record.schema.json",
+      "sha256": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4"
+    },
+    {
+      "relative": "assets/action-record.template.json",
+      "sha256": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+    },
+    {
+      "relative": "assets/local-au111.profile.json",
+      "sha256": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945"
+    },
+    {
+      "relative": "references/execution-and-acquisition.md",
+      "sha256": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3"
+    },
+    {
+      "relative": "references/local-au111-protocol.md",
+      "sha256": "d339b1ccbc1eac03c640be22def1f238b127742ac52a05dbc56749f0ee7666cd"
+    },
+    {
+      "relative": "references/physics-and-evidence.md",
+      "sha256": "e74e929869c0f10ff662600ee1ed6eb335a03640ca7733e2090d4373b20192e1"
+    },
+    {
+      "relative": "references/primary-literature.md",
+      "sha256": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743"
+    },
+    {
+      "relative": "references/record-and-local-context.md",
+      "sha256": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18"
+    },
+    {
+      "relative": "scripts/action_record.py",
+      "sha256": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720"
+    },
+    {
+      "relative": "scripts/test_action_record.py",
+      "sha256": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc"
+    }
+  ],
+  "after_manifest": [
+    {
+      "relative": "SKILL.md",
+      "sha256": "bec48ebcb6a5dcde08fe27c5eac15e7e7ec09b1413af89ff920a70520957305a"
+    },
+    {
+      "relative": "agents/openai.yaml",
+      "sha256": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025"
+    },
+    {
+      "relative": "assets/action-record.schema.json",
+      "sha256": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4"
+    },
+    {
+      "relative": "assets/action-record.template.json",
+      "sha256": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+    },
+    {
+      "relative": "assets/local-au111.profile.json",
+      "sha256": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945"
+    },
+    {
+      "relative": "references/execution-and-acquisition.md",
+      "sha256": "5e8fb87f2afc6b0770d1bdc865f7b9dd7d90fdcaa1092296664807a9402d40f3"
+    },
+    {
+      "relative": "references/local-au111-protocol.md",
+      "sha256": "4a4fda768569353fc7f499c5366dc01fc3ec23998cbe4515599237d349045335"
+    },
+    {
+      "relative": "references/physics-and-evidence.md",
+      "sha256": "56028bdc55fa09f3681453b1cb2d0add74871964207e5bda0b4310aca452c735"
+    },
+    {
+      "relative": "references/primary-literature.md",
+      "sha256": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743"
+    },
+    {
+      "relative": "references/record-and-local-context.md",
+      "sha256": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18"
+    },
+    {
+      "relative": "scripts/action_record.py",
+      "sha256": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720"
+    },
+    {
+      "relative": "scripts/test_action_record.py",
+      "sha256": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc"
+    }
+  ],
+  "backup_directory": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step02_before",
+  "candidate_directory": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_step02_candidate",
+  "installed_directory": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning",
+  "repository_directory": "/Users/maxlin/Desktop/Nanonis/work/benchmark_skill_revision_20261101/repository/skills/stm-au111-tip-conditioning",
+  "before_installed_and_repository_exact_match": true,
+  "after_installed_and_repository_exact_match": true,
+  "unchanged_file_count": 9,
+  "scripts_profiles_unchanged": true,
+  "commit": false,
+  "push": false,
+  "hardware_actions": 0,
+  "network_actions": 0,
+  "candidate_validation": "quick_validate passed; no code/profile change and no unnecessary full test repeat",
+  "local_links_checked": [
+    {
+      "file": "SKILL.md",
+      "target": "./references/execution-and-acquisition.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/physics-and-evidence.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/physics-and-evidence.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/local-au111-protocol.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/primary-literature.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./scripts/action_record.py",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./assets/action-record.template.json",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/execution-and-acquisition.md",
+      "exists": true
+    },
+    {
+      "file": "SKILL.md",
+      "target": "./references/record-and-local-context.md",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "../assets/local-au111.profile.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/slow199_full_offline_review/review.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/fast200_full_offline_review/review.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/full_before_root_review.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/pulse_A01_native_review/review.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/return_A01_interruption_review/review.json",
+      "exists": true
+    },
+    {
+      "file": "references/local-au111-protocol.md",
+      "target": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/unexpected_withdraw_root_review.json",
+      "exists": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./primary-literature.md",
+      "exists": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists": true
+    },
+    {
+      "file": "references/physics-and-evidence.md",
+      "target": "./local-au111-protocol.md",
+      "exists": true
+    }
+  ],
+  "candidate_review_sha256": "79973c7950e2a93ea1a88b95cf9233e286a4336e8775e945c2ab3fff5043f8ac",
+  "diff_sha256": "4b8e2b540cc382fe2fd9658f34dbc6cc0631c00d426ff787935f8bb2198bb306"
+}

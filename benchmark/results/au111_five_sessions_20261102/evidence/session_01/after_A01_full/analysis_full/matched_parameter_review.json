@@ -1,0 +1,93 @@
+{
+  "recorded_utc": "2026-11-02T00:58:06.876437+00:00",
+  "before": "BM261029_00196.sxm",
+  "after": "BM261029_00197.sxm",
+  "all_46_static_fields_exact": true,
+  "fields": [
+    "Bias.Get",
+    "ZCtrl.SetpntGet",
+    "SafeTip.OnOffGet",
+    "AutoApproach.OnOffGet",
+    "BiasSpectr.StatusGet",
+    "ZSpectr.StatusGet",
+    "FolMe.PSOnOffGet",
+    "Scan.FrameGet",
+    "Scan.BufferGet",
+    "Scan.SpeedGet",
+    "Scan.PropsGet",
+    "SafeTip.PropsGet",
+    "ZCtrl.GainGet",
+    "ZCtrl.LimitsEnabledGet",
+    "ZCtrl.LimitsGet",
+    "ZCtrl.TipLiftGet",
+    "ZCtrl.SwitchOffDelayGet",
+    "ZCtrl.HomePropsGet",
+    "FolMe.SpeedGet",
+    "Current.GainsGet",
+    "TipShaper.PropsGet",
+    "BiasSpectr.PropsGet",
+    "BiasSpectr.LimitsGet",
+    "BiasSpectr.TimingGet",
+    "BiasSpectr.AdvPropsGet",
+    "ZSpectr.PropsGet",
+    "ZSpectr.TimingGet",
+    "ZSpectr.RangeGet",
+    "ZSpectr.RetractGet",
+    "ZSpectr.AdvPropsGet",
+    "BiasSpectr.ChsGet",
+    "ZSpectr.ChsGet",
+    "BiasSpectr.AltZCtrlGet",
+    "BiasSpectr.ZOffRevertGet",
+    "BiasSpectr.SafeCond1Get",
+    "BiasSpectr.SafeCond2Get",
+    "ZSpectr.Retract2ndGet",
+    "ZSpectr.RetractDelayGet",
+    "Util.VersionGet",
+    "Util.SessionPathGet",
+    "Signals.NamesGet",
+    "Util.RTFreqGet",
+    "Util.RTOversamplGet",
+    "Util.AcqPeriodGet",
+    "LockIn.ModOnOffGet[1]",
+    "LockIn.ModOnOffGet[2]"
+  ],
+  "before_snapshot_sha256": "ccb007c41f43df1273fd0f7b36844ee7145f28ae90533264017b0b2219410657",
+  "after_snapshot_sha256": "0753a9d27a2c7dae97606a402bfb939029ee9ad07701fde2c803cbfb98edb54d",
+  "before_native_end": {
+    "utc": "2026-11-02T00:29:44.125723+00:00",
+    "monotonic_ns": 1450828844170083,
+    "values": [
+      0,
+      84,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00196.sxm"
+    ],
+    "elapsed_s": 438.35749170789495
+  },
+  "after_start_claim": {
+    "utc": "2026-11-02T00:45:24.849760+00:00",
+    "monotonic_ns": 1451769564516291,
+    "command": "Scan.Action",
+    "args": [
+      0,
+      0
+    ],
+    "at_most_once": true,
+    "source_sha256": "9dabd50835abd8996ec4c23a52c286121b4b55c021351eb78e0c5abfd5c5b207",
+    "static_reference_sha256": "9de72fc487ed050909cd0e8f1ba5f1dd328f5b314d9ee82ad12337f7229e5a71",
+    "session_id": "session_01",
+    "event_id": "after_A01_full"
+  },
+  "after_native_end": {
+    "utc": "2026-11-02T00:52:43.605711+00:00",
+    "monotonic_ns": 1452208318770958,
+    "values": [
+      0,
+      84,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\BM261029_00197.sxm"
+    ],
+    "elapsed_s": 438.7540424170438
+  },
+  "return_end_to_after_scan_start_s": 15.412153125,
+  "before_end_to_after_start_s": 940.720346208,
+  "interpretation": "Complete acquired full images with matched static conditions; intervening preparation/pulse/return and waiting form compound treatment. No hard pixel-waveform synchrony."
+}

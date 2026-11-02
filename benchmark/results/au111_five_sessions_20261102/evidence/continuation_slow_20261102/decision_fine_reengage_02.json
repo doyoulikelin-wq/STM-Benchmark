@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-02T12:02:32.950074+00:00",
+  "purpose": "One fine-feedback reengagement after known native AA landing then known cleanup withdrawal; no further coarse approach",
+  "evidence": [
+    "autoapproach_01/outcome.json",
+    "autoapproach_01/observation_000.json",
+    "autoapproach_01/withdraw_admission.json",
+    "read_002_after_approach/snapshot.json"
+  ],
+  "reason": "AA ended On2; first sampled -424.5pA hit old400pA gate; later sampled -109.9pA before known withdrawal. Independent native blocks17-20 show peak -5.974nA without rail, recovery trend before retract. This is not proof of stable30s but does establish changed coarse position and knownHome.",
+  "budget": {
+    "fine_on": 1,
+    "coarse": 0,
+    "pulse": 0,
+    "tipshaper": 0
+  },
+  "do_not_replay_unknown": true,
+  "must_recheck_fresh_home_and_continuous_logger": true,
+  "adapter_sha256": "c8a1e21b882e65375cb80ecb372febac669458335f35bbfe7ca8239b99d1f8e6"
+}

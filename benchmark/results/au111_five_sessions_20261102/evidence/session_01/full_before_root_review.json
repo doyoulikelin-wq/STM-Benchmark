@@ -1,0 +1,36 @@
+{
+  "reviewed_utc": "2026-11-02T00:32:41.073199+00:00",
+  "before_native": "BM261029_00196.sxm",
+  "complete_full_frame": true,
+  "data_integrity": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/analysis_full/quality_report.json",
+    "sha256": "727a28307a8ab79a233c1a122cf7c9c8ba87e772dd2e39bacc49d52dc4588af8"
+  },
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/before_full/native_receipt.json",
+    "sha256": "2535c383a8dcacb14fc26db5ef03372ece3dce506e738a35208956d57a03cf1f"
+  },
+  "root_viewed": [
+    "before_full/analysis_full/Z_raw_globalplane_FB.png",
+    "before_full/analysis_full/all_quarter_row_offsets.png"
+  ],
+  "task_relevant_bad_state_supported": true,
+  "observations": [
+    "Two remote fixed background windows pass, but they exclude lower-Y defects.",
+    "Full-width narrow bright lines and subsequent returns cross both sides of real oblique terrace/step at Y about-8nm and-23nm in F and B.",
+    "F rows231->232 quarter shifts about351..364pm; subsequent reverse about291..304pm. F rows158->159 about163..176pm.",
+    "Other low-Y grouped streaks intersect features."
+  ],
+  "L3": "not_supported",
+  "mechanism": "Junction/tip/feedback instability during scanning is supported; adsorbate or local surface contamination is a candidate, not uniquely established.",
+  "alternatives": [
+    "Sample-local encounters may trigger response",
+    "feedback dynamic response",
+    "electrical/mechanical perturbation"
+  ],
+  "reason_to_condition": "Persistent task-affecting cross-field offsets despite background stability; aim to reduce streaks and improve whole-frame reproducibility, not force all objects to one peak.",
+  "frozen_criteria": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/offline_image_plan.md",
+    "sha256": "ba862f18995b44bea37f43dd73260d74355dfcd0e2ef374f2e32897d161d6dca"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "scope": "Independent offline reconciliation of later read-only software range with completed scan198 native values. Original native and original review JSON are unchanged.",
+  "readback_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_012_signal_currentrange/snapshot.json",
+    "sha256": "a11417cd3855ecf4cd04a626717c6e28e9c4988cd78bd067fb566dbf3bd3c44e"
+  },
+  "readback_events_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_012_signal_currentrange/events.jsonl",
+    "sha256": "2cb5ac312839dfec4fc171280e23f1947263ccf3945ee3d1cd5d73428439adb3"
+  },
+  "readback_utc_start_end": [
+    "2026-11-02T01:06:31.734444+00:00",
+    "2026-11-02T01:06:31.741584+00:00"
+  ],
+  "readback_is_later_than_scan198": true,
+  "verified_read_commands": 8,
+  "verified_wire_files": 32,
+  "no_setters_in_readback": true,
+  "verified_wire_records": [
+    {
+      "utc": "2026-11-02T01:06:31.736053+00:00",
+      "monotonic_ns": 1453036445988333,
+      "kind": "tcp_exchange",
+      "sequence": 1,
+      "request_id": "8121f1a8a8564c04a898491247571c38",
+      "command": "Signals.CalibrGet",
+      "args": [
+        0
+      ],
+      "request_header": {
+        "path": "wire/0000001_request_header.bin",
+        "sha256": "cbe5e52f902bdeb1edd23b378de30f6f3d1ae40414351570e53e96d7f5136eae",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000001_request_body.bin",
+        "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000001_response_header.bin",
+        "sha256": "7da39a1d4ca455654844fe62af505262c45c205dc6a4417da5df27daf6191383",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000001_response_body.bin",
+        "sha256": "39863d1318500b4b7d68966e7dda50c013d154a36a3f19e144927bdc637a99e6",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.735118+00:00",
+      "start_perf": 1453036.445034125,
+      "end_utc": "2026-11-02T01:06:31.735605+00:00",
+      "end_perf": 1453036.445539875,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.0005057500675320625
+    },
+    {
+      "utc": "2026-11-02T01:06:31.736838+00:00",
+      "monotonic_ns": 1453036446771625,
+      "kind": "tcp_exchange",
+      "sequence": 2,
+      "request_id": "853e85b36fdd4cf3a702b9efedcb5b92",
+      "command": "Signals.CalibrGet",
+      "args": [
+        98
+      ],
+      "request_header": {
+        "path": "wire/0000002_request_header.bin",
+        "sha256": "cbe5e52f902bdeb1edd23b378de30f6f3d1ae40414351570e53e96d7f5136eae",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000002_request_body.bin",
+        "sha256": "0f471c818c185f9c35ddd6c05738371e15c29a8f9d9a3b244f30652f48c2aa69",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000002_response_header.bin",
+        "sha256": "7da39a1d4ca455654844fe62af505262c45c205dc6a4417da5df27daf6191383",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000002_response_body.bin",
+        "sha256": "39863d1318500b4b7d68966e7dda50c013d154a36a3f19e144927bdc637a99e6",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.736129+00:00",
+      "start_perf": 1453036.4460505,
+      "end_utc": "2026-11-02T01:06:31.736524+00:00",
+      "end_perf": 1453036.446458083,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.0004075830802321434
+    },
+    {
+      "utc": "2026-11-02T01:06:31.737604+00:00",
+      "monotonic_ns": 1453036447538916,
+      "kind": "tcp_exchange",
+      "sequence": 3,
+      "request_id": "0e53b3f032af464aa5064413d5c6003b",
+      "command": "Signals.CalibrGet",
+      "args": [
+        99
+      ],
+      "request_header": {
+        "path": "wire/0000003_request_header.bin",
+        "sha256": "cbe5e52f902bdeb1edd23b378de30f6f3d1ae40414351570e53e96d7f5136eae",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000003_request_body.bin",
+        "sha256": "a40fb80ad4287819ecda5efac01c74c78d7cb00ca5f9eb5f6c0f19bd09936ac1",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000003_response_header.bin",
+        "sha256": "7da39a1d4ca455654844fe62af505262c45c205dc6a4417da5df27daf6191383",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000003_response_body.bin",
+        "sha256": "39863d1318500b4b7d68966e7dda50c013d154a36a3f19e144927bdc637a99e6",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.736890+00:00",
+      "start_perf": 1453036.446815625,
+      "end_utc": "2026-11-02T01:06:31.737209+00:00",
+      "end_perf": 1453036.447145166,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.00032954104244709015
+    },
+    {
+      "utc": "2026-11-02T01:06:31.738320+00:00",
+      "monotonic_ns": 1453036448253666,
+      "kind": "tcp_exchange",
+      "sequence": 4,
+      "request_id": "1ee20aa3f55e461991a38c523dd2ea8d",
+      "command": "Signals.CalibrGet",
+      "args": [
+        100
+      ],
+      "request_header": {
+        "path": "wire/0000004_request_header.bin",
+        "sha256": "cbe5e52f902bdeb1edd23b378de30f6f3d1ae40414351570e53e96d7f5136eae",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000004_request_body.bin",
+        "sha256": "3655ca59b7d566ae06297c200f98d04da2e8e89812d627bc29297c25db60362d",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000004_response_header.bin",
+        "sha256": "7da39a1d4ca455654844fe62af505262c45c205dc6a4417da5df27daf6191383",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000004_response_body.bin",
+        "sha256": "39863d1318500b4b7d68966e7dda50c013d154a36a3f19e144927bdc637a99e6",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.737669+00:00",
+      "start_perf": 1453036.447590833,
+      "end_utc": "2026-11-02T01:06:31.737997+00:00",
+      "end_perf": 1453036.447930708,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.0003398749977350235
+    },
+    {
+      "utc": "2026-11-02T01:06:31.739068+00:00",
+      "monotonic_ns": 1453036449001750,
+      "kind": "tcp_exchange",
+      "sequence": 5,
+      "request_id": "4c1dc5f9a71a4253a07d1919171e405d",
+      "command": "Signals.RangeGet",
+      "args": [
+        0
+      ],
+      "request_header": {
+        "path": "wire/0000005_request_header.bin",
+        "sha256": "5246aaef63cad037a202018424d2dc1b894e0106376f6e8140c1d607f3e31440",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000005_request_body.bin",
+        "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000005_response_header.bin",
+        "sha256": "2e6ab3a77ebd251786fcf71969d4a3f3e48c36534316c40e672251769b039b99",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000005_response_body.bin",
+        "sha256": "50cc0d05f69da105fcf1532c7bcdf78a40c8c9978ed37e5f29107ef5835e9046",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.738369+00:00",
+      "start_perf": 1453036.448294625,
+      "end_utc": "2026-11-02T01:06:31.738701+00:00",
+      "end_perf": 1453036.448635333,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.00034070806577801704
+    },
+    {
+      "utc": "2026-11-02T01:06:31.739818+00:00",
+      "monotonic_ns": 1453036449751000,
+      "kind": "tcp_exchange",
+      "sequence": 6,
+      "request_id": "d3d86b48f3ea4fc8ab15f0f71b807ef2",
+      "command": "Signals.RangeGet",
+      "args": [
+        98
+      ],
+      "request_header": {
+        "path": "wire/0000006_request_header.bin",
+        "sha256": "5246aaef63cad037a202018424d2dc1b894e0106376f6e8140c1d607f3e31440",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000006_request_body.bin",
+        "sha256": "0f471c818c185f9c35ddd6c05738371e15c29a8f9d9a3b244f30652f48c2aa69",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000006_response_header.bin",
+        "sha256": "2e6ab3a77ebd251786fcf71969d4a3f3e48c36534316c40e672251769b039b99",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000006_response_body.bin",
+        "sha256": "50cc0d05f69da105fcf1532c7bcdf78a40c8c9978ed37e5f29107ef5835e9046",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.739137+00:00",
+      "start_perf": 1453036.449063958,
+      "end_utc": "2026-11-02T01:06:31.739514+00:00",
+      "end_perf": 1453036.449447666,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.0003837081603705883
+    },
+    {
+      "utc": "2026-11-02T01:06:31.740693+00:00",
+      "monotonic_ns": 1453036450626791,
+      "kind": "tcp_exchange",
+      "sequence": 7,
+      "request_id": "dfe580c8efe14fa7a8fe135a86fc4cab",
+      "command": "Signals.RangeGet",
+      "args": [
+        99
+      ],
+      "request_header": {
+        "path": "wire/0000007_request_header.bin",
+        "sha256": "5246aaef63cad037a202018424d2dc1b894e0106376f6e8140c1d607f3e31440",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000007_request_body.bin",
+        "sha256": "a40fb80ad4287819ecda5efac01c74c78d7cb00ca5f9eb5f6c0f19bd09936ac1",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000007_response_header.bin",
+        "sha256": "2e6ab3a77ebd251786fcf71969d4a3f3e48c36534316c40e672251769b039b99",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000007_response_body.bin",
+        "sha256": "50cc0d05f69da105fcf1532c7bcdf78a40c8c9978ed37e5f29107ef5835e9046",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.739860+00:00",
+      "start_perf": 1453036.449788125,
+      "end_utc": "2026-11-02T01:06:31.740357+00:00",
+      "end_perf": 1453036.450290416,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.000502290902659297
+    },
+    {
+      "utc": "2026-11-02T01:06:31.741547+00:00",
+      "monotonic_ns": 1453036451480875,
+      "kind": "tcp_exchange",
+      "sequence": 8,
+      "request_id": "f04cd56bc3b546a39e30a666cdbf6ae4",
+      "command": "Signals.RangeGet",
+      "args": [
+        100
+      ],
+      "request_header": {
+        "path": "wire/0000008_request_header.bin",
+        "sha256": "5246aaef63cad037a202018424d2dc1b894e0106376f6e8140c1d607f3e31440",
+        "bytes": 40
+      },
+      "request_body": {
+        "path": "wire/0000008_request_body.bin",
+        "sha256": "3655ca59b7d566ae06297c200f98d04da2e8e89812d627bc29297c25db60362d",
+        "bytes": 4
+      },
+      "response_header": {
+        "path": "wire/0000008_response_header.bin",
+        "sha256": "2e6ab3a77ebd251786fcf71969d4a3f3e48c36534316c40e672251769b039b99",
+        "bytes": 40
+      },
+      "response_body": {
+        "path": "wire/0000008_response_body.bin",
+        "sha256": "50cc0d05f69da105fcf1532c7bcdf78a40c8c9978ed37e5f29107ef5835e9046",
+        "bytes": 16
+      },
+      "start_utc": "2026-11-02T01:06:31.740735+00:00",
+      "start_perf": 1453036.450662041,
+      "end_utc": "2026-11-02T01:06:31.741189+00:00",
+      "end_perf": 1453036.45112275,
+      "status": "ok",
+      "error": null,
+      "warning": "",
+      "duration_s": 0.00046070897951722145
+    }
+  ],
+  "calibration_factor_A_per_V_and_offset_A": {
+    "0": [
+      9.999999717180685e-10,
+      5.234049955601949e-13
+    ],
+    "98": [
+      9.999999717180685e-10,
+      5.234049955601949e-13
+    ],
+    "99": [
+      9.999999717180685e-10,
+      5.234049955601949e-13
+    ],
+    "100": [
+      9.999999717180685e-10,
+      5.234049955601949e-13
+    ]
+  },
+  "software_range_upper_lower_A": {
+    "0": [
+      1.0000523076314494e-08,
+      -9.999476802136087e-09
+    ],
+    "98": [
+      1.0000523076314494e-08,
+      -9.999476802136087e-09
+    ],
+    "99": [
+      1.0000523076314494e-08,
+      -9.999476802136087e-09
+    ],
+    "100": [
+      1.0000523076314494e-08,
+      -9.999476802136087e-09
+    ]
+  },
+  "native_198_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/review.json",
+    "sha256": "66e73100e73e369f77c2e815a49e34d6f6a10ea0435a2c3ceae060725c7d8e15"
+  },
+  "native_198_floor_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_01/confirm198_native_phase_review/floor_events.json",
+    "sha256": "ce3eccd6a3eec098dc2a0dc3954d4cc5e26ac7da83d19509de50dcc5ec8830e5"
+  },
+  "native_matching_value_A": -9.9994768e-09,
+  "software_lower_A": -9.999476802136087e-09,
+  "absolute_numeric_difference_A": 2.136086398438562e-18,
+  "software_lower_formatted_native_scientific_8significant_digits": "-9.9994768E-09",
+  "native_text_formatted": "-9.9994768E-09",
+  "equal_at_saved_text_precision": true,
+  "matching_samples": 2,
+  "events_are_separate_single_matching_samples": true,
+  "event_separation_s": 5.482,
+  "prior197_peak_A": -9.98467e-09,
+  "prior197_peak_above_this_lower_A": 1.4806802136086488e-11,
+  "interpretation": [
+    "The two stored current samples match the subsequently read software Current signal lower limit at DAT text precision. This upgrades the historical-floor observation to a software-range match.",
+    "The records reach the software output limit; faster true current, analog preamplifier saturation onset, recovery, range and bandwidth are not determined by Signals.RangeGet or CalibrGet.",
+    "These are uncommanded scan-period events during confirm198, not the deliberately commanded pulse platform. Do not extend action-period clipping allowance to scanning.",
+    "Only one matching stored sample is present in each of two distinct events. No continuous1ms platform or exact physical duration can be inferred.",
+    "Post63.42s settles and last30s is in100pA\u00b120%; this does not erase scan-period limit-reaching events or establish task usability.",
+    "No change to Skill, thresholds, original reviews, original wire/native data, or hardware control was made."
+  ]
+}
