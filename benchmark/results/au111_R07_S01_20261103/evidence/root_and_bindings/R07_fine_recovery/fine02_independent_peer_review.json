@@ -1,0 +1,14 @@
+{
+  "scope": "Independent static local review only, no main or transport executed",
+  "source_sha256": "7a77ce1ef8689e26dd86f2a5615c1973a1cf7f5d12acf2f4c681c239b586e0af",
+  "physical_run_AST_exactly_equal_fine01": true,
+  "actual_recovery_pins_verified": 13,
+  "blocking_findings": [],
+  "checked": [
+    "Original fine01 failed outcome and claim retained",
+    "Known independent Home move ACK followed by5s stationary target and fresh read087",
+    "Second fine ordinal and independent claim fixed without pulse/shaper reset",
+    "Same R07 logger actualREADY instance retained",
+    "Original oneOn and only known-ACK conditionalWithdraw rules unchanged"
+  ]
+}

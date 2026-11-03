@@ -1,0 +1,50 @@
+{
+  "status": "offline_candidate_only",
+  "user_guidance": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_guidance.json",
+    "sha256": "d7908618387509af4d0875919078343179a0875913c962d4618778d04cb26718"
+  },
+  "support_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/gain_codec_support.py",
+    "sha256": "dbb76f29571fa9d4f4580ee5601dbb99f93d06f86ee70e3d8b1a0c561c3fe451"
+  },
+  "tests": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/test_gain_codec_support_offline.py",
+    "sha256": "00e42363ee2993b8d7858af00f375e4c1cebbcf3163e30897ef5cdea81ecc91a"
+  },
+  "test_methods_passed": 9,
+  "manual_sha256": "f7133dbbca86524fb0ab63dc5c2d4e190aeecfd276d833ae35f67518a8465f7c",
+  "manual_pages": [
+    70,
+    103
+  ],
+  "wire_formats": {
+    "ZCtrl.GainSet": [
+      "f",
+      "f",
+      "f"
+    ],
+    "ZCtrl.GainGet_values": [
+      "f",
+      "f",
+      "f"
+    ]
+  },
+  "wire_tuple_order": [
+    "P",
+    "T_seconds",
+    "I"
+  ],
+  "hardware_calls": 0,
+  "global_catalog_mutation": false,
+  "admissions_created": 0,
+  "claims_created": 0,
+  "peer_review": "r04_logger independently checked local official PDF p70/p103 and source; no blocker in codec scope. Full runner binding remains required.",
+  "new_physical_guard_thresholds": false,
+  "actual_gain_set_validated": false,
+  "mock_only_tests": true,
+  "plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/strategy_and_interfaces_OFFLINE.md",
+    "sha256": "7521ab534e76dab1ad1f11403a6456655a636f1309eb92aa9f8969800df4776c"
+  }
+}

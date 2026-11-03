@@ -1,0 +1,25 @@
+{
+  "schema": "R07-S01-scan-current-entry-policy-v1",
+  "status": "offline candidate policy, requires separate actual stage admission and known prerequisites",
+  "source": "Root delegated explicit 200pA setpoint \u00b120% current gate, original first5s window and 400pA runtime/2nm endpoints",
+  "setpoint_A": 2e-10,
+  "each_sample_signed_A": [
+    -2.4e-10,
+    -1.6e-10
+  ],
+  "all_first_window_mean_A": [
+    -2.4e-10,
+    -1.6e-10
+  ],
+  "minimum_span_s": 5.0,
+  "max_total_s": 10.0,
+  "max_gap_s": 1.0,
+  "no_reset_exclusion_retry": true,
+  "cleanup_after_known_Stop_signed_A": [
+    -2.4e-10,
+    -1.6e-10
+  ],
+  "runtime_absolute_current_A": 4e-10,
+  "Z_endpoint_margin_m": 2e-09,
+  "limits_are_software_review_gates_not_instantaneous_protection": true
+}

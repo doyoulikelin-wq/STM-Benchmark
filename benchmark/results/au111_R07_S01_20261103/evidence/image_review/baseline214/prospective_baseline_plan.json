@@ -1,0 +1,57 @@
+{
+  "schema": "R07-current-baseline-image-review-plan-v1",
+  "scope": "Fresh full original-setting baseline after partial scan interrupted at400pA, knownWithdraw, failedfine01, HomeXY and successfulfine02. Compare last complete213 across both recording gap and recovery compound history. Changes have no unique chemical/structural cause.",
+  "current_stage": "baseline_segment07_full02",
+  "prior_native_213_sha256": "0516c4a22a8b78c1a14764adbb2e902057286920399459dfc2d7831d3f87857f",
+  "primary": [
+    "C1_upper_isolated",
+    "C3_diagonal_edge"
+  ],
+  "secondary": "S1_left_nonselected_I03_candidate",
+  "local_affected": [
+    "C2_right_upper",
+    "D4_lower_object"
+  ],
+  "frozen_ROI_rc": {
+    "C1": [
+      20,
+      44,
+      90,
+      115
+    ],
+    "C2": [
+      92,
+      112,
+      188,
+      213
+    ],
+    "C3": [
+      40,
+      72,
+      30,
+      90
+    ],
+    "D4": [
+      169,
+      194,
+      158,
+      184
+    ],
+    "S1": [
+      129,
+      150,
+      42,
+      63
+    ]
+  },
+  "prior_image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/post_manual_review.json",
+    "sha256": "59d40595703cd68ac0ac71b79257d6b9eaa3a87a74e79bee157fc3a7a1942b7d"
+  },
+  "quality_criteria": "Evaluate distinct nanoscale objects, separation of C1 upper real object, C3 continuous edge/nearby structure and S1 in raw trace/retrace. Local changed morphology, mound/contrast or single current peak does not suffice for task failure. Compare possible common displacement against independent landmarks.",
+  "display": "Full unchanged raw range plus frozen210 marked clipping and perROI common ranges. No row correction or primary registration.",
+  "cycle_increment": null,
+  "actual_native_label": "pending known completed outcome, never infer214 from previousUI",
+  "new_induction_conditional_on_current_baseline_usable": true,
+  "if_current_baseline_bad": "Report current task-related failure and support direct repair selection, never force S01 induction for count."
+}

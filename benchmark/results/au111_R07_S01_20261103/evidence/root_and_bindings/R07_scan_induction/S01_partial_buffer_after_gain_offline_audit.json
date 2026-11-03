@@ -1,0 +1,23 @@
+{
+  "source_sha256": "60b7b71024b58c88876ebea023e4b3a11c043543b700b12b2eec34f7edaa2110",
+  "offline_only": true,
+  "checks": [
+    "actual failure/gain completion/claim/ACK/READY/fresh096 readbacks pass",
+    "ReadOnlyClient AST unchanged",
+    "capture AST unchanged",
+    "only expected gain differs, original context unmodified",
+    "reject altered ZCtrl.GainGet",
+    "reject altered Scan.SpeedGet",
+    "reject altered ZCtrl.SetpntGet",
+    "reject altered ZCtrl.StatusGet",
+    "reject altered FolMe.XYPosGet",
+    "reject writer ZCtrl.GainSet",
+    "reject writer Scan.Action",
+    "reject writer ZCtrl.OnOffSet",
+    "reject writer Scan.SpeedSet",
+    "default plan no network/output"
+  ],
+  "passed": 14,
+  "native_writes": 0,
+  "new_output_exists": false
+}

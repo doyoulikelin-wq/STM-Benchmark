@@ -1,0 +1,25 @@
+{
+  "scope": "Independent offline static peer review. No controller entry, transport, actual claim or stage execution by reviewer.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/recover_R07_S01_OffHome_once.py",
+      "sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/offhome_recovery_binding.py",
+      "sha256": "5d795aa0044b91d3cc642f21271872bddab3f4161bcdc77b7136d3a03be03a9d"
+    }
+  ],
+  "blocking_findings": [],
+  "checks": [
+    "Only actual known incomplete S01 Start/Stop/Withdraw plus3sOff1/Home qualifies. Successful normal scan does not qualify.",
+    "One independent stage gain/speed/current with current exact partial config, frozen XY2pm, Off1/Home1pm and absI<10pA. No On/XY/scan/pulse/shaper/coarse entry.",
+    "Original consumed claims, failed induction and5/6pulse remain. New root choice/native review and subsequent fresh snapshot required for each stage.",
+    "Unknown writerACK closes connection and ends with unchanged original history, with no following getter or inverse. KnownACK but wrong readback is not success.",
+    "Private codec and actual single writer lifecycle inherited from frozen known original configuration driver. No global catalog mutation."
+  ],
+  "limits": [
+    "Static review and mocks do not establish physical restoration success. Actual wire/readback and raw Home evidence remain independently required.",
+    "Original induction failure is not rewritten by independent restoration. Off/Home near-zero current is not recovered tunnelling."
+  ]
+}

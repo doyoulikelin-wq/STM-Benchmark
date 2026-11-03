@@ -1,0 +1,25 @@
+{
+  "scope": "Independent offline static source and AST review. No main entry, transport, claims or device call.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home_corner_once.py",
+      "sha256": "f6f3c0c0c93521e3c0a9dd3d5db011f8494d271786ce16b0ad684363eb6917c3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02_once.py",
+      "sha256": "9b486103aae6f0a7310ba860d7901593004d80e7e124a69ab7736fb109cf859d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/post_S01_restoration_binding.py",
+      "sha256": "1bf262950f9ef26f562af3d1c1cd500eef77c00d1f6aeef317dfa5fc21c74be4"
+    }
+  ],
+  "blocking_findings": [],
+  "checks": [
+    "Run and Client exactly match executed Home1 after event-name normalization.",
+    "Known S01 incomplete Start/Stop/Withdraw and three separately completed Home restoration stages, exact original settings and preserved reservation inventory are bound.",
+    "One<=50nm Home XY target at original speed, Off1/Home1pm, absI<10pA, target20pm andstationary2pm/5s. No On or coarse command.",
+    "Unknown XY or Stop ACK forbids further commands. Conditional Stop only after known XY ACK and fresh unchanged Home state.",
+    "Prior failed baseline, fine01 and S01 remain. No pulse budget reset."
+  ]
+}

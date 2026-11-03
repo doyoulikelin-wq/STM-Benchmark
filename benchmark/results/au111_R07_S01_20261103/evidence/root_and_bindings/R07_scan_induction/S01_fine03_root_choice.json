@@ -1,0 +1,44 @@
+{
+  "schema": "R07-after-S01-independent-reengagement-v1",
+  "stage": "fine03",
+  "allow_one_stage": true,
+  "exclusive_root_writer": true,
+  "no_unresolved_writer": true,
+  "source_sha256": "0d88686f735286b39cf65efe9ae4780b8391ce34f3bb82dc2e700735656b541b",
+  "restoration_outcomes": {
+    "gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/outcome.json",
+      "sha256": "29ce221d70c07fbee09977cc936f88a5e2571d82a2de9913e6468c5ab84d112d"
+    },
+    "speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/outcome.json",
+      "sha256": "0f78f922de18f9d1b4624739ba995c8492b81a37702c5b60f2473f967258786c"
+    },
+    "current": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/outcome.json",
+      "sha256": "c2e7abdd0fac94670b71c1bae85e8d6cd806201f3d89cdc0b951fe5bdfcb4f2a"
+    }
+  },
+  "source_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_m": [
+    -2.5e-08,
+    -2.5e-08
+  ],
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_Home_move02_native_review.json",
+    "sha256": "9729da57b788bf719ce96f33a5fa035ed34def2b037e36d09724485d1ca3bdb6"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1559859017218291,
+  "home_move_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02/outcome.json",
+    "sha256": "6de803b5ac3b62248d0ac25e961f0b93fa2620d496828f29175b8dad34339bbb"
+  },
+  "reason": "Root reviewed actualHome02oneXYACK/endpoints39.2839nm and5.046s stationary, native3375to3550allHome/lowcurrent/noBiaschange. Selectone fineOn original−1V100pA atoldcorner, original30s/last5scurrentband and400pA/2nm criteria unchanged. ConditionalknownfailedOnWithdrawonly, noautomaticnextaction. PreviousS01incomplete andallrecoveryconfounds retained. Freshsnapshotnext.",
+  "no_automatic_chain": true,
+  "pulse_budget_not_reset": true,
+  "S01_incomplete_not_rewritten": true
+}

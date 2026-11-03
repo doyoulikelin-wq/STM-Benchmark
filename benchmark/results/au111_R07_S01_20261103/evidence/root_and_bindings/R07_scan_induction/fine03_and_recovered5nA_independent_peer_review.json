@@ -1,0 +1,40 @@
+{
+  "scope": "Independent offline AST/static review. No control entry or device operation. Actual executions and decisions belong to root.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_finez_R07_02_100pA_once.py",
+      "sha256": "7a77ce1ef8689e26dd86f2a5615c1973a1cf7f5d12acf2f4c681c239b586e0af"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_finez_R07_03_100pA_once.py",
+      "sha256": "0d88686f735286b39cf65efe9ae4780b8391ce34f3bb82dc2e700735656b541b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_once.py",
+      "sha256": "fc1b9755ad1ec5a6986a37a05f8ed25755a32d6099c2603309100129e0b6b2d2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_5nA_once.py",
+      "sha256": "027d412a476808348b3fbe008ec668c16103dbb96654fa084f9e8077de3267e1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+      "sha256": "b324208ce29f2c72817f84dc67aee3150caf303ca78b51fa5556399a29c79aab"
+    }
+  ],
+  "checks": {
+    "Run_equal_after_only_runtime_call_normalization": true,
+    "Client_equal_after_only_runtime_call_normalization": true,
+    "guard_identical_to400candidate": true,
+    "diagnostic_entry_guard_identical_to400candidate": true,
+    "recovered_S01_evidence_identical_to400candidate": true
+  },
+  "fine03_run_AST_identical_to_executed_fine02": true,
+  "blocking_findings": [],
+  "scientific_and_evidence_scope": [
+    "fine03 binds all three actual Home restorations and independent Home02, new fresh state and one new fine claim. Original30s/final5s/400pA/2nm physical logic remains.",
+    "Recovered full scanner preserves incompleteS01 and knownStart/Stop/Withdraw, saved partial buffer, three Home restorations, move02, fine03 complete and actual logger identity, root native review and all claim inventory.",
+    "User policy v2 chooses inclusive5nA only for two SCAN runtime calls. Existing diagnostic entry, strict idle recovery, other400pA stages and2nm endpoint remain. Earlier400pA failure is not rewritten.",
+    "No slow sampled gate guarantees high-rate peak suppression. Complete-frame and image-quality claims await actual final data."
+  ]
+}

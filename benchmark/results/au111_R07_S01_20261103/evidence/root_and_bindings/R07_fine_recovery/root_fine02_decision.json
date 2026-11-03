@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-03T06:06:00.201984+00:00",
+  "action": "one fineOn at verified oldcorner -25,-25nm",
+  "source_sha256": "7a77ce1ef8689e26dd86f2a5615c1973a1cf7f5d12acf2f4c681c239b586e0af",
+  "basis": "Known independent Home move45.025nm with5sverifiedtarget and freshread087. Previousfine01 at moundflank failed and remainsfailed. Native review shows ongoing~300pA andZdrift there.",
+  "authority": "User resume/establish stabletunneling and samearea autonomousbenchmark",
+  "bounds": "Unchanged original fineRun, singleOn100pA -1V SafeTipOff,30sobservation/final5sband,400pA/2nmmargin, knownACK conditionalWithdraw. No automaticrepeat.",
+  "root_review": "physicalrun AST samefine01;17mocks/currentactualbindingpassed",
+  "next_if_success": "completeoriginalconditionbaseline02, no inferredbadstate",
+  "pulse_count": 5,
+  "pulse_max": 6,
+  "complete_attempts": 2
+}

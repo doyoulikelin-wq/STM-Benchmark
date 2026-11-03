@@ -1,0 +1,91 @@
+{
+  "schema": "R07-S01-skill-candidate-v2",
+  "status": "candidate_only_pending_root_and_full_image_review",
+  "hardware_actions_by_candidate": false,
+  "installed_or_repository_modified": false,
+  "evidence_cut": "After actual completed215, formal image review and root acceptance, native through357. Later S02 selection is outside this S01 practice cutoff.",
+  "changed_files": [
+    "SKILL.md",
+    "references/execution-and-acquisition.md",
+    "references/local-au111-protocol.md"
+  ],
+  "variants": {
+    "installed": {
+      "original_root": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning",
+      "candidate_root": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/skill_candidate/installed/stm-au111-tip-conditioning",
+      "original_hashes": {
+        "SKILL.md": "c456f071acd156040ba3f304dfc9fdb1456f178a26c08e73798ef5be3db5f621",
+        "references/local-au111-protocol.md": "8674e3322eb1f5ff409a58f2365909c8435d2e5aa1f27bc6a2d47dcf137b0c9c",
+        "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+        "references/execution-and-acquisition.md": "41b0953db38f339143c765db01ba09cc0c9e442658fa238d96194b360367d61c",
+        "references/physics-and-evidence.md": "a218bdfa5f3d45b548c8de317a7be99c84a299ee8db78b317d85948afe4bcdbb",
+        "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+        "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+        "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+        "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+        "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+        "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+        "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+      },
+      "candidate_hashes": {
+        "SKILL.md": "5889a1f61e244f7678a1b235c3073c34c507689fe1e27b7857e51956d61f835e",
+        "references/local-au111-protocol.md": "01d143e520f734df754d7379d948788f236ed5b7424b2c5c1bfa01ad26deb6de",
+        "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+        "references/execution-and-acquisition.md": "db942873a29d7a4c57058d9611dd4f164245bf704e37afe05edd74897e2347fc",
+        "references/physics-and-evidence.md": "a218bdfa5f3d45b548c8de317a7be99c84a299ee8db78b317d85948afe4bcdbb",
+        "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+        "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+        "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+        "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+        "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+        "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+        "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+      },
+      "changed_files": [
+        "SKILL.md",
+        "references/local-au111-protocol.md",
+        "references/execution-and-acquisition.md"
+      ],
+      "all_other_files_byte_identical": true
+    },
+    "repository": {
+      "original_root": "/Users/maxlin/Desktop/Nanonis/work/benchmark_skill_revision_20261101/repository/skill/stm-au111-tip-conditioning",
+      "candidate_root": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/skill_candidate/repository/stm-au111-tip-conditioning",
+      "original_hashes": {
+        "SKILL.md": "c456f071acd156040ba3f304dfc9fdb1456f178a26c08e73798ef5be3db5f621",
+        "references/local-au111-protocol.md": "b46f04e36d00966f206dd304a32ede502d69282ba0a2a8e5f63ab155a2fd88de",
+        "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+        "references/execution-and-acquisition.md": "41b0953db38f339143c765db01ba09cc0c9e442658fa238d96194b360367d61c",
+        "references/physics-and-evidence.md": "a218bdfa5f3d45b548c8de317a7be99c84a299ee8db78b317d85948afe4bcdbb",
+        "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+        "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+        "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+        "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+        "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+        "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+        "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+      },
+      "candidate_hashes": {
+        "SKILL.md": "5889a1f61e244f7678a1b235c3073c34c507689fe1e27b7857e51956d61f835e",
+        "references/local-au111-protocol.md": "5c0070a301ca46d3f5ea2ad05c239ce9102875f58bcfbfab5b2c13a24ae132de",
+        "references/record-and-local-context.md": "607618457d93f9a7c480bc43c7cbfaa2b31278be83bbdf57b5801fbffb577d18",
+        "references/execution-and-acquisition.md": "db942873a29d7a4c57058d9611dd4f164245bf704e37afe05edd74897e2347fc",
+        "references/physics-and-evidence.md": "a218bdfa5f3d45b548c8de317a7be99c84a299ee8db78b317d85948afe4bcdbb",
+        "references/primary-literature.md": "907e22d12e001894ea707926c85ff390ed59a709c52767773e31fb1f9edef743",
+        "agents/openai.yaml": "1911a69172c9634ca51a80f22561d5f3e509d7f040d33774bc4da3c28e3d5025",
+        "scripts/action_record.py": "5ed2abbebf405cf8b32b83b5bd477ea8856a464b99035c91c27276881fda2720",
+        "scripts/test_action_record.py": "580736505667b4ac7598fabd88168d4389108cd02cd8a386b25335c0b02c16bc",
+        "assets/action-record.schema.json": "e32ebfd2a2b0a07cf2797c53fa9d3d6ae93f4b9167bb629ca120c9a954cd4dd4",
+        "assets/local-au111.profile.json": "6ac687710951e08adaaee10212a6910e8287e898e2777e29c8a3758bb74fb945",
+        "assets/action-record.template.json": "4112bf69e27836b7cd0e2b5bf4a5ca79f068610183ae64c632b0160b25711b59"
+      },
+      "changed_files": [
+        "SKILL.md",
+        "references/local-au111-protocol.md",
+        "references/execution-and-acquisition.md"
+      ],
+      "all_other_files_byte_identical": true
+    }
+  },
+  "eventual_package": "benchmark/results/au111_R07_S01_20261103/README.md"
+}

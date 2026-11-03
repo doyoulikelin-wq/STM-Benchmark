@@ -1,0 +1,595 @@
+{
+  "schema": "R07-pre-baseline-frozen-history-v1",
+  "role": "immutable historical evidence, not an action admission",
+  "historical_counts": {
+    "shared_pulses": 5,
+    "maximum": 6,
+    "completed_full_repair_attempts": 2,
+    "requested": 5,
+    "remaining": 3,
+    "strict_cycles": 0,
+    "R06_shaper_Starts": 3
+  },
+  "inventories": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims": {
+      "continuing_20261101_1939__pulse_02.claim": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6",
+      "continuing_20261101_1939__pulse_02.review.json": "a295521703849e764157d219f966e851d7b093dfc3417f9da90759727419fe14",
+      "continuing_20261101_1939__pulse_03.claim": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec",
+      "continuing_20261101_1939__pulse_04.claim": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167",
+      "continuing_20261101_1939__pulse_05.claim": "f0faa4842dd0bc71c54169e0bd5dc74e497f1befc0d99ee09b382f4ec33c5d23",
+      "continuing_20261101_1939__shaper_01.claim": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd",
+      "session_01__prepare_A01.claim": "ccd53a56698b466b29af5c294275148f60b9f578bbb06731e59c7a3183bccfac",
+      "session_01__pulse_A01.claim": "1cca572432b8466a5c7b2f578b8526d015df893ce149a4f5f0aa38007beeefd7",
+      "session_01__return_A01.claim": "340f7260539f26aad7f03327a290d54badc302d6cbadaaecb2cb3715a5e720c8",
+      "session_02__R03_induction_I01.admission.claim": "0a3b00265918a1502110a7732bd0ed491fa475cf682407389b1d54c2fd4a2e14",
+      "session_02__R03_induction_I01_move.claim": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c",
+      "session_02__R03_induction_I01_speed_recovery01.claim": "c9473303646f69ac8894751d52ad94d905bcc9492225214ffc993dbaf521d3f9",
+      "session_02__R03_repair_A03.admission.claim": "ce24e44ea057d70a3e4b9c767ea0e738861e36db7a68667a7ec8831728ebcb82",
+      "session_02__R06_induction_I02.admission.claim": "90235c765e5545efe58eeed1cb76146d46694e1bfcb4e3657cb35d9d13348b60",
+      "session_02__R06_induction_I02__shaper_01.claim": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d",
+      "session_02__R06_induction_I03.admission.claim": "261f0c0e54a27764941eb780127c774809afc09b3f60894199b4ef7e795709eb",
+      "session_02__R06_induction_I03__shaper_01.claim": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b",
+      "session_02__R06_induction_I03_move.claim": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237",
+      "session_02__R06_repair_A05.admission.claim": "ff42e8d9c89f16a2a69381bfb1a838642586681c69aef3d37d34f6bc71aaf319",
+      "session_02__prepare_A01.claim": "7390f17821c48840f8b903222e143d27591d83f23ec1ade97a46871556cf3343",
+      "session_02__prepare_induction_P01.claim": "e00f16844b632b10118312bb58568091157fbef9804b19d6f5ea12fc0fbf29b7",
+      "session_02__prepare_induction_P02.claim": "a6383b8e61359c3a19c3c7955c192a7a7074fc34230365adcbdd42315edf84bf",
+      "session_02__prepare_induction_P03.claim": "32539926b4bf5e483d62aa5d824f8bb180817e1b473d4f60075440605557f9a8",
+      "session_02__pulse_A01.claim": "33f14c6f519e5d53e9e7156f83dc13cc992ca6295c38f9d6d2b92d1b2ce9cb1b",
+      "session_02__pulse_induction_P02.claim": "d3d305f5d047052d02c30a056bcf08ddef6e8b3ecadcc9e544b5682985f7685e",
+      "session_02__pulse_induction_P03.claim": "57bcb0b2596139ce305d7e035494a5b3b13715bd9618667446d89864bf2e9f2e",
+      "session_02__recover_prepare_induction_P01_01.claim": "7e52187bf254e207d8730d449454a364cbe3c6df086468823c414f125390c508",
+      "session_02__recovery_return_P02_01.claim": "6f967fff131be06c35400454f2ca6194cc3ea0c171148e23ffe6f05f4c2eb035",
+      "session_02__return_A01.claim": "eec73db7fe75398684c89285f5e76a04111527f5165c7dc7961c8d33a455ade5",
+      "session_02__return_induction_P03.claim": "3719b5eb2999232afa85e7c4b50b92720051569132efcebb4f78200bd1668300"
+    },
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims": {
+      "session_01__after_A01_full.claim": "bd2fc0a348ea7e8f8a6c94054d57fbc88ded75ff2d9b95331cd4d028bf9846b6",
+      "session_01__before_full.claim": "2d0440d7fbe7a86af39cf280a45758743e6eb830fe8d248424a09ba65eb38dc1",
+      "session_01__configure_full.claim": "b4d6d1a7ecbfa5d407e3abb4a6a671bf33de639273005706126df105511c8d53",
+      "session_01__confirm_A01_full.claim": "f3573712288b3886c47644514dff9ade74a9bcc144965916e4833c831938b34b",
+      "session_02__R02_AA30s02.claim": "ceb3dbda5c26d9b10397219009e8651d939dcfa033d6c8c39cb5d5571527a4ec",
+      "session_02__R02_AA5s01.claim": "1d80a578baeb9488cdffd2dc86b6169efe4ac2f4d0abbaa139075f69c3130ea5",
+      "session_02__R02_fine_on01.claim": "75cc8707968c2712042e86ebf3faaf25cb2f12beade7775ab965ecad011dbb53",
+      "session_02__R03_AA120s03.claim": "91633e793b0714867538d65978324c4c23ab1a1fb732c5e22b92fac6794c5787",
+      "session_02__R03_fine_on02.claim": "3e5e35b59e95175e4139ee34991a1a008999fb998f83a265f4f4227125419946",
+      "session_02__after_A05_full.claim": "8d969ad8178377f95931b75db21fe567b1af2afb1cc87571007d8d6725039b71",
+      "session_02__after_R06_I02_full.claim": "1b069b52984e15db281e528ffc1984c9b7fa60dc5c129f1e4dc553fd2e2b6c3a",
+      "session_02__after_R06_I03_full.claim": "c4993729a1d3d0ec14d8b0992d8a08e4e0c5182798f3a42dafcb6e53459d4e01",
+      "session_02__after_R06_P02_recovery_full.claim": "cd92c8813dfe5d2d8369ef2efc857ae7ae957f517e6357d627830f4d0c44e506",
+      "session_02__after_R06_P03_full.claim": "88b7a4bd9fd4e02378ffc266bbe5d3a2687b3b7f1560727f55d33152ef39e28e",
+      "session_02__after_localization_I01_full.claim": "aa5a10a079a1879a7dafa1e4bd2a1260f657677e1a2e958359ca8eb2ffa787a9",
+      "session_02__after_preparation_recovery_P01_full.claim": "d1e5aff96718754e0742622a190625ef1607d5cb5b86723640b6e595933d4b2b",
+      "session_02__baseline_segment03_confirm_full.claim": "fac9d657b90c5b586c090d9fad6ac33999bc47cb749a74802af2db3b46aaf84d",
+      "session_02__baseline_segment03_full.claim": "1e212b81c99f4c740ecb909a60d72d66cdb2150a983e2dab496de408cfb236f2",
+      "session_02__baseline_segment04_full.claim": "e30b2f44d60019f650bf3387ff2d919b9fee314b9d031218597f4177eb407162",
+      "session_02__baseline_segment05_full.claim": "fd3794114275da03e54872d8aa4999713a52036aa928dc079b770e81ae6f01c8",
+      "session_02__baseline_segment06_full.claim": "88350a1697faba44d5d858fcc8b2f9e2733cff9f6681e035d4482b2f34ac6a61",
+      "session_02__before_full.claim": "ffb4afa3a3ad360ee79cce47a2be89e9aa5508d4b54dfaa7f6391b080a7e663a",
+      "session_02__configure_slow.claim": "f55c492628ca7d2f8fd796acb7e83afe4bec608f2be1e107f3f26415f7fd1fd5",
+      "session_02__confirm_A05_full.claim": "24a291ae18efe264935ec78b36b5957fb1e28d7b0cf8de23352753b74805c3a1",
+      "session_02__pre_repair_A02_full.claim": "213d307d4d679ece810b71ce7b7c7cef52066d6b9a78fa785e6a178a75b252b8",
+      "session_02__pre_repair_A02_observed_full.claim": "0c49fea6ec6d9847f04c05a364602ef1c219aecadccf86ae92c3bcc2a66b8bfa",
+      "session_02__restore_fast.claim": "97daa93e2b46649ea59877aeacbe31cc02ded841593f951c395d3f952e0761fa",
+      "session_02__slow_diagnostic_full.claim": "46d5d92f4c75c4d286f3aeddfe65f6e00bfa396982b34ea2dd5b52aa45733179"
+    }
+  },
+  "refs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__after_A01_full.claim",
+      "sha256": "bd2fc0a348ea7e8f8a6c94054d57fbc88ded75ff2d9b95331cd4d028bf9846b6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__before_full.claim",
+      "sha256": "2d0440d7fbe7a86af39cf280a45758743e6eb830fe8d248424a09ba65eb38dc1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__configure_full.claim",
+      "sha256": "b4d6d1a7ecbfa5d407e3abb4a6a671bf33de639273005706126df105511c8d53"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__confirm_A01_full.claim",
+      "sha256": "f3573712288b3886c47644514dff9ade74a9bcc144965916e4833c831938b34b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_AA30s02.claim",
+      "sha256": "ceb3dbda5c26d9b10397219009e8651d939dcfa033d6c8c39cb5d5571527a4ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_AA5s01.claim",
+      "sha256": "1d80a578baeb9488cdffd2dc86b6169efe4ac2f4d0abbaa139075f69c3130ea5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_fine_on01.claim",
+      "sha256": "75cc8707968c2712042e86ebf3faaf25cb2f12beade7775ab965ecad011dbb53"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R03_AA120s03.claim",
+      "sha256": "91633e793b0714867538d65978324c4c23ab1a1fb732c5e22b92fac6794c5787"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R03_fine_on02.claim",
+      "sha256": "3e5e35b59e95175e4139ee34991a1a008999fb998f83a265f4f4227125419946"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_A05_full.claim",
+      "sha256": "8d969ad8178377f95931b75db21fe567b1af2afb1cc87571007d8d6725039b71"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_I02_full.claim",
+      "sha256": "1b069b52984e15db281e528ffc1984c9b7fa60dc5c129f1e4dc553fd2e2b6c3a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_I03_full.claim",
+      "sha256": "c4993729a1d3d0ec14d8b0992d8a08e4e0c5182798f3a42dafcb6e53459d4e01"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_P02_recovery_full.claim",
+      "sha256": "cd92c8813dfe5d2d8369ef2efc857ae7ae957f517e6357d627830f4d0c44e506"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_P03_full.claim",
+      "sha256": "88b7a4bd9fd4e02378ffc266bbe5d3a2687b3b7f1560727f55d33152ef39e28e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_localization_I01_full.claim",
+      "sha256": "aa5a10a079a1879a7dafa1e4bd2a1260f657677e1a2e958359ca8eb2ffa787a9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_preparation_recovery_P01_full.claim",
+      "sha256": "d1e5aff96718754e0742622a190625ef1607d5cb5b86723640b6e595933d4b2b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment03_confirm_full.claim",
+      "sha256": "fac9d657b90c5b586c090d9fad6ac33999bc47cb749a74802af2db3b46aaf84d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment03_full.claim",
+      "sha256": "1e212b81c99f4c740ecb909a60d72d66cdb2150a983e2dab496de408cfb236f2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment04_full.claim",
+      "sha256": "e30b2f44d60019f650bf3387ff2d919b9fee314b9d031218597f4177eb407162"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment05_full.claim",
+      "sha256": "fd3794114275da03e54872d8aa4999713a52036aa928dc079b770e81ae6f01c8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment06_full.claim",
+      "sha256": "88350a1697faba44d5d858fcc8b2f9e2733cff9f6681e035d4482b2f34ac6a61"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__before_full.claim",
+      "sha256": "ffb4afa3a3ad360ee79cce47a2be89e9aa5508d4b54dfaa7f6391b080a7e663a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__configure_slow.claim",
+      "sha256": "f55c492628ca7d2f8fd796acb7e83afe4bec608f2be1e107f3f26415f7fd1fd5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__confirm_A05_full.claim",
+      "sha256": "24a291ae18efe264935ec78b36b5957fb1e28d7b0cf8de23352753b74805c3a1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__pre_repair_A02_full.claim",
+      "sha256": "213d307d4d679ece810b71ce7b7c7cef52066d6b9a78fa785e6a178a75b252b8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__pre_repair_A02_observed_full.claim",
+      "sha256": "0c49fea6ec6d9847f04c05a364602ef1c219aecadccf86ae92c3bcc2a66b8bfa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__restore_fast.claim",
+      "sha256": "97daa93e2b46649ea59877aeacbe31cc02ded841593f951c395d3f952e0761fa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__slow_diagnostic_full.claim",
+      "sha256": "46d5d92f4c75c4d286f3aeddfe65f6e00bfa396982b34ea2dd5b52aa45733179"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/root_stop_after213_decision.json",
+      "sha256": "da17f41110e5fd2078f44aae3dfd65a950ac54028281fc88c7a33b139af6a026"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/post_manual_review.json",
+      "sha256": "59d40595703cd68ac0ac71b79257d6b9eaa3a87a74e79bee157fc3a7a1942b7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/receipt.json",
+      "sha256": "a85e34f4c6bdb25e1a795dcf079573f5a6422f6260a5f91e2dc766d769ad09d8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/review.json",
+      "sha256": "76e4693972ebc267e9379d5c0a04c1c6a29c96a272974d4d8757a4e1d9525700"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/terminal_evidence.json",
+      "sha256": "da0be50b026e8a745ee194901b665edcc183099e0edc9c88ad0a35cab122714a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_guidance.json",
+      "sha256": "d7908618387509af4d0875919078343179a0875913c962d4618778d04cb26718"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/stop_R06_root_signal.json",
+      "sha256": "799e2af57176de1a92cf8e4d202c953b63a27c581b7103b97ea9d645049a8b6f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.claim",
+      "sha256": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.review.json",
+      "sha256": "a295521703849e764157d219f966e851d7b093dfc3417f9da90759727419fe14"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_03.claim",
+      "sha256": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_04.claim",
+      "sha256": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_05.claim",
+      "sha256": "f0faa4842dd0bc71c54169e0bd5dc74e497f1befc0d99ee09b382f4ec33c5d23"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__shaper_01.claim",
+      "sha256": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__prepare_A01.claim",
+      "sha256": "ccd53a56698b466b29af5c294275148f60b9f578bbb06731e59c7a3183bccfac"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__pulse_A01.claim",
+      "sha256": "1cca572432b8466a5c7b2f578b8526d015df893ce149a4f5f0aa38007beeefd7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__return_A01.claim",
+      "sha256": "340f7260539f26aad7f03327a290d54badc302d6cbadaaecb2cb3715a5e720c8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01.admission.claim",
+      "sha256": "0a3b00265918a1502110a7732bd0ed491fa475cf682407389b1d54c2fd4a2e14"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_move.claim",
+      "sha256": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_speed_recovery01.claim",
+      "sha256": "c9473303646f69ac8894751d52ad94d905bcc9492225214ffc993dbaf521d3f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_repair_A03.admission.claim",
+      "sha256": "ce24e44ea057d70a3e4b9c767ea0e738861e36db7a68667a7ec8831728ebcb82"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02.admission.claim",
+      "sha256": "90235c765e5545efe58eeed1cb76146d46694e1bfcb4e3657cb35d9d13348b60"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02__shaper_01.claim",
+      "sha256": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03.admission.claim",
+      "sha256": "261f0c0e54a27764941eb780127c774809afc09b3f60894199b4ef7e795709eb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03__shaper_01.claim",
+      "sha256": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03_move.claim",
+      "sha256": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_repair_A05.admission.claim",
+      "sha256": "ff42e8d9c89f16a2a69381bfb1a838642586681c69aef3d37d34f6bc71aaf319"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_A01.claim",
+      "sha256": "7390f17821c48840f8b903222e143d27591d83f23ec1ade97a46871556cf3343"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P01.claim",
+      "sha256": "e00f16844b632b10118312bb58568091157fbef9804b19d6f5ea12fc0fbf29b7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P02.claim",
+      "sha256": "a6383b8e61359c3a19c3c7955c192a7a7074fc34230365adcbdd42315edf84bf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P03.claim",
+      "sha256": "32539926b4bf5e483d62aa5d824f8bb180817e1b473d4f60075440605557f9a8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_A01.claim",
+      "sha256": "33f14c6f519e5d53e9e7156f83dc13cc992ca6295c38f9d6d2b92d1b2ce9cb1b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_induction_P02.claim",
+      "sha256": "d3d305f5d047052d02c30a056bcf08ddef6e8b3ecadcc9e544b5682985f7685e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_induction_P03.claim",
+      "sha256": "57bcb0b2596139ce305d7e035494a5b3b13715bd9618667446d89864bf2e9f2e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__recover_prepare_induction_P01_01.claim",
+      "sha256": "7e52187bf254e207d8730d449454a364cbe3c6df086468823c414f125390c508"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__recovery_return_P02_01.claim",
+      "sha256": "6f967fff131be06c35400454f2ca6194cc3ea0c171148e23ffe6f05f4c2eb035"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__return_A01.claim",
+      "sha256": "eec73db7fe75398684c89285f5e76a04111527f5165c7dc7961c8d33a455ade5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__return_induction_P03.claim",
+      "sha256": "3719b5eb2999232afa85e7c4b50b92720051569132efcebb4f78200bd1668300"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/outcome.json",
+      "sha256": "6601548d0de328acbc5f01b58c9ebff03680df5e6c99ba91392c7be8a531c747"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+      "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/outcome.json",
+      "sha256": "0ef5eadb0dc87d2914d563e7607e2593ec6bf5b8270e69ca8d3b535e8a52a789"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/outcome.json",
+      "sha256": "a9cf0bbff16181b8367ace00fc21193f0bf936b4a62ec98039ef7f3e304fa983"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/quality_report.json",
+      "sha256": "56542ab8fb1771af8c04b85ac5db4fe976378654ffeab64f69a27ebb928fdbb2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/fresh_recording_evidence.json",
+      "sha256": "fef73ea36942bf9692d7dfa6324922c431943433a1202682cc014a59d12f27c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/manifest.json",
+      "sha256": "51d554111e215e7730ca63eff51b0461a34752a4f30d4c5f987479180af95339"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/outcome.json",
+      "sha256": "3c8912db701de37b04cd3b6fd89291a050c4c63f2b630fc24fc7a3de555f4edf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/scan_start.claim",
+      "sha256": "28f9d4d316a375aa7f17746e56451164abb97cc185589234665fe970ab087730"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_localization_I01_full/outcome.json",
+      "sha256": "73b8f6501d03e62256d29808f6ffbc00e41965b5bf4ee48a7d1d459680eb8134"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_preparation_recovery_P01_full/outcome.json",
+      "sha256": "b4d7c5d05b222715a50614ed25733bac2f9a603b3389e184497c1d33917fcd75"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment03_confirm_full/outcome.json",
+      "sha256": "27d879a6f5d64d4af6d4c0b620177f5c7c8ed3fbf46d4acc6fdea638599a3d95"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment03_full/outcome.json",
+      "sha256": "6bbb4f92a770b8e99692310f47104e823754dedbaca58f50844e574707545f59"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment04_full/outcome.json",
+      "sha256": "e15db5073f5c3c08aa10a8e100a79d523e4b900306ae5a9765b793c5425dbbbb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment05_full/outcome.json",
+      "sha256": "13b043ff4698e3688026f9546fca4099a586329e10532e6f99f4906c89db8301"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/outcome.json",
+      "sha256": "b0717f7e8c6cc4f6730bb6bffdda32872954b4fe25afd23d690be52c30b95efa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/outcome.json",
+      "sha256": "d15a8820b079763cc319b7a49a3e2fb1a534377b861e1de0cea00722b2f6af6d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_slow/outcome.json",
+      "sha256": "0a35a0d2b0c5c82122f669997fb8a63b5f5eb539492029d036f0ae700ba03343"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/outcome.json",
+      "sha256": "ebb2276b0b20a219f065d3140e71c514f0eada6dc91a8f9337675da46b6583ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_I01/outcome.json",
+      "sha256": "d7731975745ab2a2e072a10d60e081755d48893a1ba80306ba04a663776350f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/after30s.json",
+      "sha256": "34f007887b7b75b23caded7fec9bc8e36b31730c3acf485d7c10941b062c274b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/manifest.json",
+      "sha256": "ffde97ce007ec39552a2feb82e44fe04124326851e331562e89573fa8c12b1ca"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/outcome.json",
+      "sha256": "631a9f0db89ccac28e08254db9099ea8d8942b877d5763f7f6d787b90b9d95ed"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/after30s.json",
+      "sha256": "bb4f75a19f8dd04ed258e97b766b300d9e66e11a5bb7a6c6ce6a56971081fb16"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/manifest.json",
+      "sha256": "14899cc87e3cf801156499b8a31a3aaa2574d78bf52263926e182a52076b7bf7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json",
+      "sha256": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger/outcome.json",
+      "sha256": "4223f8b11414e4768e53fa97e34b3ac88bad26eafd0bf58f7134d26f58e77098"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_02/outcome.json",
+      "sha256": "1074fe53fd4e301db38e4ec9ca837e401f3285a656abbf2fc0a42b4c15e2abda"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_03/outcome.json",
+      "sha256": "ad1cc975cc555f49cbd5166ff3a2ea548ef64d3bd25875d009ff1416bb54d2d4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_04/outcome.json",
+      "sha256": "7acdcdbbabea31921532a84b85fa9e799a64653d197528cfc7f98aefb4f85d1d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_05/outcome.json",
+      "sha256": "6972197cfc618c66812c38f03b47b7a1c4d5912a93884ba8d047dde68cf6e8b4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/outcome.json",
+      "sha256": "a1a64947f61fcc8f0d33a69cba82f4cff14a37bedf19b12dee37c9c4f63eb426"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/manifest.json",
+      "sha256": "d5d14e39b8e85d6ccb0e94e8147fec6a426c73425e8ee2855403cebe941a7271"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/outcome.json",
+      "sha256": "672350e12cde3629246939a33b1bfe1e69fce3df7a4f12942d1cd783d90aa0ce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_induction_I01/outcome.json",
+      "sha256": "13bb2f6be287b55d0e490763f5de97751d78950c91b0a5324110266de37496aa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_induction_I01_recovery_01/outcome.json",
+      "sha256": "3b22024791031c17861a10657a37785bfd5da15b7c40d352bcfeb326c73c2659"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pre_repair_A02_full/outcome.json",
+      "sha256": "b3812dfd0847556ed8d5a5edffae4a7b33147da50e1dd5c5bc5e5bfb6515bc47"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pre_repair_A02_observed_full/outcome.json",
+      "sha256": "c3448e705abef2cc2c191df84a24de0a365234113cf1d6b2d422e12a4a192ba0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_A01/outcome.json",
+      "sha256": "6cb6a3d1a6c8d351bb377709e3396c0006562e8dc9e418c3bc8223bcf9af9fd2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P01/outcome.json",
+      "sha256": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+      "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/manifest.json",
+      "sha256": "89b8b6f7657e473e35abe26c8d93dcf80747f2f2f617eb7b7fee79c8a7e5cb92"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+      "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_A01/outcome.json",
+      "sha256": "bb18a4bf6f600d17a4d04b9d16cd2ebfb766e6bcef1cef91bd832f11ad177ef1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+      "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/after30s.json",
+      "sha256": "8293c1fbcc9e55f6c87ef96f7c94937576487d958e71bccb875769f490e19bb4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/feedback_readiness.json",
+      "sha256": "ed6a6cd1485ff2fdaea72407855668286761292bae84ddd6981a7501e9d39fa7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/manifest.json",
+      "sha256": "29ccdd417f3595c6b4b5723c07d854bce0d7020f8af14707111622b312ea0f01"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/outcome.json",
+      "sha256": "390503ab646fdba9c96ffe5c2e4ea7d127fd1efab37cfb5b5c7750f8ce1c1d9d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/pulse.claim",
+      "sha256": "a62750e3f6498eaae34d916eed15f41474270ba33148fdcb843b2df64cad6aed"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/pulse_ack.json",
+      "sha256": "df2a2d401080d36cfa8ef631f1f69ff910241917c09ca5700129bf0d64ccb003"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recover_prepare_induction_P01_01/outcome.json",
+      "sha256": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/outcome.json",
+      "sha256": "40fdf15db406993d628e5d7f855183f1a83cc9f7793d4c405ed5ab2dceaeb55e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A03/outcome.json",
+      "sha256": "96fa9eded57c36514ec77071127df01fde60dd9285ce0f595d64cf0dee42b5b1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/after30s.json",
+      "sha256": "5f8d3044cd4eb3497e2413215457229e0b1a6788a41346e0b4c1ae230e58fb71"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/manifest.json",
+      "sha256": "e58ba3a5c124c8b4c4234454305aa4cbb96068064f222e285350e840819978e3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/outcome.json",
+      "sha256": "f5bbfd836d56ae39457b2f4443886bf1a4ab6e17e2a28ed73e7035ff2905bbc9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_fast/outcome.json",
+      "sha256": "1ccc14c71a7416dbe89db24172f615e20bf815c4ab040b861467b37e95d82922"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_A01/outcome.json",
+      "sha256": "c966d2f066a8bd2f0e61b08bd4da8ef47b36aa9e3e307bee9a08542f56cd5efe"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/manifest.json",
+      "sha256": "0daf12d773185228a1ded29c2e3329e854809d25c007cc95f4654d267ef1c583"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/outcome.json",
+      "sha256": "69c2c9bee8503ba535fd50c449380310f7d6ffe547fd5d7ecc06964fc9c27ead"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full/outcome.json",
+      "sha256": "86302963f805d42fbfa191d1c197c1b8c10926e5f431fb9755eff08bf914f88f"
+    }
+  ],
+  "new_baseline_required": true,
+  "recording_gap_preserved": true,
+  "failures_retained": {
+    "P01": "stopped_no_further_sets then independent recovery",
+    "P02": "uncertain_or_recovery_failed with known pulse ACK then independent recovery",
+    "R06_logger": "recorder_failed_no_retry then independently confirmed owned terminalStop"
+  },
+  "root_sole_writer_and_live_guards_still_required": true
+}

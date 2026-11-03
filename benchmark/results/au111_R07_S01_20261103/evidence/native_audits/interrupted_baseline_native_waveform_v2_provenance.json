@@ -1,0 +1,31 @@
+{
+  "script_sha256": "601e112bb12fba7a500b6b941d07d4aa9acfcd54ce68d8de0c61d0e984346fd0",
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/interrupted_baseline_native_receipt.json",
+    "sha256": "88baff324142a7a1acd5f8a5f26afb47deaf8c1d10f465b5d2eced27698b46f4"
+  },
+  "native_blocks": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700026.dat",
+      "sha256": "ea0e3ce3d440091d60bb1a19123e28d10fe8501baaba6c848c6be87deff400a2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700027.dat",
+      "sha256": "744ae603589de9f66c8f4fb57c132204db98ff4b4182d834b54dbb10d30a44c9"
+    }
+  ],
+  "windows_native_s": [
+    [
+      313.76,
+      323.76
+    ],
+    [
+      323.5,
+      325.0
+    ]
+  ],
+  "left_bin_ms": 5,
+  "right_every_stored_point_ms": 0.5,
+  "png_sha256": "1e90496342fca29e211f765463fc9c438b5220eb089d466d0a17df9e67850366",
+  "meaning": "Interrupted scan and commanded withdrawal. Counter interval overlaps all three host events. No complete-frame or chemical conclusion."
+}

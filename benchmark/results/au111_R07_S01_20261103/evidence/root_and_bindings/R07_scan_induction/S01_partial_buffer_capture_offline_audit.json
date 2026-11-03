@@ -1,0 +1,101 @@
+{
+  "offline_only": true,
+  "source_sha256": "f074bca78187117cf16af6a30d1ee9aa85b9a6f6f50bc7477887ec6be4af0e5f",
+  "evidence_sha256": "54b7156930de009e18531e5568edddd1e54f2f8bcd1f29a1ee7dc92249b352c6",
+  "checks": [
+    {
+      "check": "ReadOnlyClient AST identical",
+      "passed": true
+    },
+    {
+      "check": "state_guard AST identical",
+      "passed": true
+    },
+    {
+      "check": "capture AST identical",
+      "passed": true
+    },
+    {
+      "check": "actual known interrupted S01 + fresh094 full Off1Home exact changed configuration",
+      "passed": true
+    },
+    {
+      "check": "new capture output absent",
+      "passed": true
+    },
+    {
+      "check": "reject changed ZCtrl.OnOffGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed ZCtrl.StatusGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed Scan.StatusGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed ZCtrl.SetpntGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed Scan.SpeedGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed FolMe.XYPosGet",
+      "passed": true
+    },
+    {
+      "check": "reject changed ZCtrl.GainGet",
+      "passed": true
+    },
+    {
+      "check": "reject Scan.Action[1, 0]",
+      "passed": true
+    },
+    {
+      "check": "reject ZCtrl.Withdraw[1, 2000]",
+      "passed": true
+    },
+    {
+      "check": "reject ZCtrl.OnOffSet[1]",
+      "passed": true
+    },
+    {
+      "check": "reject ZCtrl.SetpntSet[1e-10]",
+      "passed": true
+    },
+    {
+      "check": "reject TipShaper.Start[1, 5000]",
+      "passed": true
+    },
+    {
+      "check": "reject Scan.FrameDataGrab[0, 2]",
+      "passed": true
+    },
+    {
+      "check": "mock six raw buffers preserve NaN and mixed identity",
+      "passed": true
+    },
+    {
+      "check": "mock raw float32 bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "exact six channel/direction calls",
+      "passed": true
+    },
+    {
+      "check": "default plan no network and no output",
+      "passed": true
+    },
+    {
+      "check": "actual capture output remains absent",
+      "passed": true
+    }
+  ],
+  "actual_device_operations": 0,
+  "actual_output_created": false
+}

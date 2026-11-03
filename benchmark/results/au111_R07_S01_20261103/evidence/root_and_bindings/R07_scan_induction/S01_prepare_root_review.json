@@ -1,0 +1,19 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S01-stage-review-v1",
+  "stage": "prepare",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_post_through180_native_review.json",
+    "sha256": "c402ad8f035813dd5d4eae8621ad2b2f91b0e2ab6e27ff191a78cc8843b9c9b8"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1558500238145041,
+  "predecessor_outcomes": {},
+  "reason": "Root selects one4-step100to200pA preparation underoriginalgain/speed atoldcorner. Complete214 usable byraw F/B and context review. Continuouspost214 through180 has no >=400pA/Biaschange/unexplainedZjump; last30s I -99.763+-2.558pA,ZdetrendedRMS1.628pm,slope+.404pm/s. Earlierfailedbaseline/fine01 andknownHome recovery preserved. This preparation changesjunctionstate and doesnotyetproveinduction; nextconfiguration independentlyreviewed."
+}

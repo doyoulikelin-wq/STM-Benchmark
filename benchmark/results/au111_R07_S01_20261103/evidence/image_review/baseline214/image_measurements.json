@@ -1,0 +1,1251 @@
+{
+  "created_utc": "2026-11-03T06:17:59.556795+00:00",
+  "scope": "Prior R06 scan 213 / fresh R07 baseline 214 across recording gap and recovery sequence",
+  "pair_type": "prior213_vs_recovered_R07_baseline02",
+  "current_scan_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/fresh_recording_evidence.json",
+    "sha256": "46e18e69da8bc6d344480c0dfde4c6ca8bcddeaa9d524e45350960c925849669"
+  },
+  "recording_gap_preserved": true,
+  "exposure_kind": "current_state_baseline_only",
+  "executed_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline02_once.py",
+    "sha256": "15fd5c8ad0b2b31aca2c351c5fcb9660d880d3a19e7cd4614e37324e87b653d5"
+  },
+  "causal_limit": "Recording gap plus interrupted scan, withdrawal, failedfine01, HomeXY and successfulfine02 prevent attributing differences to a unique chemical or structural cause.",
+  "functional_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/prospective_baseline_plan.json",
+    "sha256": "d2f43a335662c95c367680cc4350e2c8857584f0ba232fa624e758ab42b47e85"
+  },
+  "actual_native_labels": {
+    "reference": "213",
+    "observed": "214"
+  },
+  "sources": {
+    "213": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/quality_report.json",
+        "sha256": "56542ab8fb1771af8c04b85ac5db4fe976378654ffeab64f69a27ebb928fdbb2"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/analysis_planes.npz",
+        "sha256": "90d9f54e52bc3d866f788ddbf4f36d086b535e1ab2af9583bf9b27e0150ade17"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/outcome.json",
+        "sha256": "3c8912db701de37b04cd3b6fd89291a050c4c63f2b630fc24fc7a3de555f4edf"
+      }
+    ],
+    "214": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+        "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/analysis_planes.npz",
+        "sha256": "2b8f6504bc7bbcb1fb3ef6ddbe227bb009da1dca58d6589d4fde8ac7387cdd08"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+        "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+      }
+    ]
+  },
+  "reference_partition_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/prospective_baseline_plan.json",
+    "sha256": "d2f43a335662c95c367680cc4350e2c8857584f0ba232fa624e758ab42b47e85"
+  },
+  "independent_reference_ids": [
+    "C1_upper_isolated",
+    "C3_diagonal_edge"
+  ],
+  "secondary_reference_id": "S1_left_nonselected_I03_candidate",
+  "local_affected_check_ids": [
+    "C2_right_upper",
+    "D4_lower_object"
+  ],
+  "regions": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          14.166666666666671,
+          19.375
+        ],
+        "y": [
+          1.6666666666666643,
+          5.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      }
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    },
+    {
+      "id": "S1_left_nonselected_I03_candidate",
+      "rc_half_open": [
+        129,
+        150,
+        42,
+        63
+      ],
+      "role": "Original S1 window retained for current baseline relative to213"
+    }
+  ],
+  "I03_mound_region_rc_half_open": [
+    119,
+    141,
+    195,
+    221
+  ],
+  "same_header_imaging_settings": true,
+  "region_metrics": {
+    "C1_upper_isolated": {
+      "213": {
+        "F": {
+          "peak_rc": [
+            35,
+            106
+          ],
+          "peak_nominal_XY_nm": [
+            -2.8125,
+            17.604166666666664
+          ],
+          "perimeter_plane_peak_height_pm": 321.6892793697639,
+          "perimeter_plane_residual_MAD_pm": 37.17892861585865,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.875,
+            "y": 2.291666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3141346195974677
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.28886889037531205
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            36,
+            104
+          ],
+          "peak_nominal_XY_nm": [
+            -3.2291666666666643,
+            17.395833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 341.51976979154597,
+          "perimeter_plane_residual_MAD_pm": 13.837844520947845,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.291666666666667,
+            "y": 2.5
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 11,
+              "nm": 2.291666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.34070953841457197
+            },
+            "y": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.30748842394892506
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "214": {
+        "F": {
+          "peak_rc": [
+            40,
+            106
+          ],
+          "peak_nominal_XY_nm": [
+            -2.8125,
+            16.5625
+          ],
+          "perimeter_plane_peak_height_pm": 273.79629110049564,
+          "perimeter_plane_residual_MAD_pm": 63.78304360071292,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.875,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.26037218260675843
+            },
+            "y": {
+              "pixels": 5,
+              "nm": 1.0416666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.2701956616575103
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            40,
+            105
+          ],
+          "peak_nominal_XY_nm": [
+            -3.020833333333332,
+            16.5625
+          ],
+          "perimeter_plane_peak_height_pm": 296.2107851374327,
+          "perimeter_plane_residual_MAD_pm": 51.030558594967,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.0833333333333335,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.2881440352691129
+            },
+            "y": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": true,
+              "height_nm": 0.2796613480986565
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "C2_right_upper": {
+      "213": {
+        "F": {
+          "peak_rc": [
+            100,
+            209
+          ],
+          "peak_nominal_XY_nm": [
+            18.645833333333336,
+            4.0625
+          ],
+          "perimeter_plane_peak_height_pm": 211.57610298796214,
+          "perimeter_plane_residual_MAD_pm": 89.82198724379046,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.3333333333333335,
+            "y": 2.291666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 14,
+              "nm": 2.916666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.20708919116772506
+            },
+            "y": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.2081101820004534
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            99,
+            209
+          ],
+          "peak_nominal_XY_nm": [
+            18.645833333333336,
+            4.270833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 212.4141401556301,
+          "perimeter_plane_residual_MAD_pm": 82.11285639298048,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.541666666666667,
+            "y": 2.5
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 16,
+              "nm": 3.3333333333333335,
+              "touches_boundary": true,
+              "height_nm": 0.2079859056062361
+            },
+            "y": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.20455311552387911
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "214": {
+        "F": {
+          "peak_rc": [
+            100,
+            205
+          ],
+          "peak_nominal_XY_nm": [
+            17.8125,
+            4.0625
+          ],
+          "perimeter_plane_peak_height_pm": 230.62963049626717,
+          "perimeter_plane_residual_MAD_pm": 100.73461702587169,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.541666666666667,
+            "y": 2.291666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 17,
+              "nm": 3.541666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.22590436923157142
+            },
+            "y": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.22866075760828153
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            102,
+            208
+          ],
+          "peak_nominal_XY_nm": [
+            18.4375,
+            3.645833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 248.73543514191,
+          "perimeter_plane_residual_MAD_pm": 93.02500019025045,
+          "halfheight_component_bbox_width_nm": {
+            "x": 3.75,
+            "y": 2.5
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 18,
+              "nm": 3.75,
+              "touches_boundary": true,
+              "height_nm": 0.23615848262433303
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.24339936567388065
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "C3_diagonal_edge": {
+      "213": {
+        "F": {
+          "peak_rc": [
+            51,
+            75
+          ],
+          "peak_nominal_XY_nm": [
+            -9.270833333333332,
+            14.270833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 380.8113171943148,
+          "perimeter_plane_residual_MAD_pm": 73.3085562432246,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.875,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3647517638489859
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3691463305174949
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            50,
+            74
+          ],
+          "peak_nominal_XY_nm": [
+            -9.479166666666666,
+            14.479166666666666
+          ],
+          "perimeter_plane_peak_height_pm": 386.1938361421693,
+          "perimeter_plane_residual_MAD_pm": 69.47875803828428,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.0833333333333335,
+            "y": 1.875
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3727955633700759
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3690637435737756
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "214": {
+        "F": {
+          "peak_rc": [
+            55,
+            75
+          ],
+          "peak_nominal_XY_nm": [
+            -9.270833333333332,
+            13.4375
+          ],
+          "perimeter_plane_peak_height_pm": 387.9000051464203,
+          "perimeter_plane_residual_MAD_pm": 66.0582192778708,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.291666666666667,
+            "y": 1.875
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.3595230582989757
+            },
+            "y": {
+              "pixels": 9,
+              "nm": 1.875,
+              "touches_boundary": false,
+              "height_nm": 0.3863561898982937
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            54,
+            74
+          ],
+          "peak_nominal_XY_nm": [
+            -9.479166666666666,
+            13.645833333333332
+          ],
+          "perimeter_plane_peak_height_pm": 386.67449136906384,
+          "perimeter_plane_residual_MAD_pm": 64.65337767093752,
+          "halfheight_component_bbox_width_nm": {
+            "x": 2.0833333333333335,
+            "y": 2.0833333333333335
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 11,
+              "nm": 2.291666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.35352637307140355
+            },
+            "y": {
+              "pixels": 10,
+              "nm": 2.0833333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.38053704001433175
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "D4_lower_object": {
+      "213": {
+        "F": {
+          "peak_rc": [
+            193,
+            158
+          ],
+          "peak_nominal_XY_nm": [
+            8.020833333333336,
+            -15.3125
+          ],
+          "perimeter_plane_peak_height_pm": 459.8024609440756,
+          "perimeter_plane_residual_MAD_pm": 192.9855224069585,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.6666666666666667,
+            "y": 0.8333333333333334
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": true,
+              "height_nm": 0.42727107853215074
+            },
+            "y": {
+              "pixels": 4,
+              "nm": 0.8333333333333334,
+              "touches_boundary": true,
+              "height_nm": 0.4446095106653303
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            193,
+            158
+          ],
+          "peak_nominal_XY_nm": [
+            8.020833333333336,
+            -15.3125
+          ],
+          "perimeter_plane_peak_height_pm": 448.8011509883876,
+          "perimeter_plane_residual_MAD_pm": 186.47530954235225,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.6666666666666667,
+            "y": 0.8333333333333334
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.41413809232536636
+            },
+            "y": {
+              "pixels": 4,
+              "nm": 0.8333333333333334,
+              "touches_boundary": true,
+              "height_nm": 0.43382792666812975
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "214": {
+        "F": {
+          "peak_rc": [
+            193,
+            158
+          ],
+          "peak_nominal_XY_nm": [
+            8.020833333333336,
+            -15.3125
+          ],
+          "perimeter_plane_peak_height_pm": 391.0237903538416,
+          "perimeter_plane_residual_MAD_pm": 143.69041139293014,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.25,
+            "y": 0.625
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 5,
+              "nm": 1.0416666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.35626839948593414
+            },
+            "y": {
+              "pixels": 3,
+              "nm": 0.625,
+              "touches_boundary": true,
+              "height_nm": 0.3720291473494868
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            193,
+            158
+          ],
+          "peak_nominal_XY_nm": [
+            8.020833333333336,
+            -15.3125
+          ],
+          "perimeter_plane_peak_height_pm": 368.10922779457655,
+          "perimeter_plane_residual_MAD_pm": 156.5285125157981,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.25,
+            "y": 0.625
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 5,
+              "nm": 1.0416666666666667,
+              "touches_boundary": true,
+              "height_nm": 0.33360937944936353
+            },
+            "y": {
+              "pixels": 3,
+              "nm": 0.625,
+              "touches_boundary": true,
+              "height_nm": 0.35006827209034697
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    },
+    "S1_left_nonselected_I03_candidate": {
+      "213": {
+        "F": {
+          "peak_rc": [
+            140,
+            55
+          ],
+          "peak_nominal_XY_nm": [
+            -13.4375,
+            -4.270833333333336
+          ],
+          "perimeter_plane_peak_height_pm": 340.8193859013835,
+          "perimeter_plane_residual_MAD_pm": 3.567961177516079,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.4583333333333335,
+            "y": 1.25
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.33576002921834913
+            },
+            "y": {
+              "pixels": 6,
+              "nm": 1.25,
+              "touches_boundary": false,
+              "height_nm": 0.30777910251941876
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            140,
+            54
+          ],
+          "peak_nominal_XY_nm": [
+            -13.645833333333332,
+            -4.270833333333336
+          ],
+          "perimeter_plane_peak_height_pm": 341.2300103874202,
+          "perimeter_plane_residual_MAD_pm": 3.5834628967600084,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.4583333333333335,
+            "y": 1.0416666666666667
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.32672838102409685
+            },
+            "y": {
+              "pixels": 6,
+              "nm": 1.25,
+              "touches_boundary": false,
+              "height_nm": 0.3284188402182764
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      },
+      "214": {
+        "F": {
+          "peak_rc": [
+            144,
+            54
+          ],
+          "peak_nominal_XY_nm": [
+            -13.645833333333332,
+            -5.104166666666668
+          ],
+          "perimeter_plane_peak_height_pm": 340.204931681896,
+          "perimeter_plane_residual_MAD_pm": 2.4748309989469717,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.6666666666666667,
+            "y": 1.25
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 8,
+              "nm": 1.6666666666666667,
+              "touches_boundary": false,
+              "height_nm": 0.32079056798353633
+            },
+            "y": {
+              "pixels": 6,
+              "nm": 1.25,
+              "touches_boundary": false,
+              "height_nm": 0.315253088524841
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        },
+        "B": {
+          "peak_rc": [
+            143,
+            53
+          ],
+          "peak_nominal_XY_nm": [
+            -13.854166666666666,
+            -4.895833333333336
+          ],
+          "perimeter_plane_peak_height_pm": 346.5608151331452,
+          "perimeter_plane_residual_MAD_pm": 4.122504723810896,
+          "halfheight_component_bbox_width_nm": {
+            "x": 1.4583333333333335,
+            "y": 1.25
+          },
+          "3pixel_median_profile_halfheight": {
+            "x": {
+              "pixels": 7,
+              "nm": 1.4583333333333335,
+              "touches_boundary": false,
+              "height_nm": 0.3138183910505461
+            },
+            "y": {
+              "pixels": 6,
+              "nm": 1.25,
+              "touches_boundary": false,
+              "height_nm": 0.3071380058329112
+            }
+          },
+          "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+        }
+      }
+    }
+  },
+  "prior_mask_contrast_descriptors": {
+    "C1_upper_isolated": {
+      "F": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 79,
+        "reference_mask_median_pm": 235.30415791198322,
+        "observed_same_mask_median_pm": 109.7382935168838,
+        "reference_perimeter_MAD_pm": 37.178928615858645,
+        "observed_perimeter_MAD_pm": 63.783043600712915
+      },
+      "B": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 94,
+        "reference_mask_median_pm": 259.22737068379575,
+        "observed_same_mask_median_pm": 138.66608466460661,
+        "reference_perimeter_MAD_pm": 13.837844520947847,
+        "observed_perimeter_MAD_pm": 51.030558594967
+      }
+    },
+    "C2_right_upper": {
+      "F": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 146,
+        "reference_mask_median_pm": 150.83980447279544,
+        "observed_same_mask_median_pm": 164.01640109063464,
+        "reference_perimeter_MAD_pm": 89.82198724379046,
+        "observed_perimeter_MAD_pm": 100.73461702587169
+      },
+      "B": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 149,
+        "reference_mask_median_pm": 152.7969986194222,
+        "observed_same_mask_median_pm": 170.98202146863173,
+        "reference_perimeter_MAD_pm": 82.11285639298048,
+        "observed_perimeter_MAD_pm": 93.02500019025044
+      }
+    },
+    "C3_diagonal_edge": {
+      "F": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 67,
+        "reference_mask_median_pm": 258.1123922345654,
+        "observed_same_mask_median_pm": 200.1254538889441,
+        "reference_perimeter_MAD_pm": 73.3085562432246,
+        "observed_perimeter_MAD_pm": 66.05821927787082
+      },
+      "B": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 69,
+        "reference_mask_median_pm": 257.03226382361777,
+        "observed_same_mask_median_pm": 196.19705525656173,
+        "reference_perimeter_MAD_pm": 69.47875803828428,
+        "observed_perimeter_MAD_pm": 64.65337767093752
+      }
+    },
+    "D4_lower_object": {
+      "F": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 41,
+        "reference_mask_median_pm": 310.7112330427384,
+        "observed_same_mask_median_pm": 252.49960679725802,
+        "reference_perimeter_MAD_pm": 192.98552240695847,
+        "observed_perimeter_MAD_pm": 143.69041139293014
+      },
+      "B": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 40,
+        "reference_mask_median_pm": 300.8684588957351,
+        "observed_same_mask_median_pm": 246.00160931444037,
+        "reference_perimeter_MAD_pm": 186.47530954235225,
+        "observed_perimeter_MAD_pm": 156.5285125157981
+      }
+    },
+    "S1_left_nonselected_I03_candidate": {
+      "F": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 31,
+        "reference_mask_median_pm": 232.4961762832629,
+        "observed_same_mask_median_pm": 115.05059807650753,
+        "reference_perimeter_MAD_pm": 3.567961177516079,
+        "observed_perimeter_MAD_pm": 2.4748309989469717
+      },
+      "B": {
+        "mask_definition": "213 fixed ROI local perimeter-plane residual >=half of its maximum; no observed-frame tuning",
+        "mask_pixels": 29,
+        "reference_mask_median_pm": 244.19812510524253,
+        "observed_same_mask_median_pm": 123.92664056646652,
+        "reference_perimeter_MAD_pm": 3.583462896760008,
+        "observed_perimeter_MAD_pm": 4.122504723810896
+      }
+    }
+  },
+  "metric_limit": "Unrestricted maximum may be row artifact/background. C3 includes edge and multiple objects: mask contrast is not calibrated individual height. New surface objects are allowed; actual task function requires manual review.",
+  "shared_shift_sensitivity": {
+    "best": {
+      "dy": 4,
+      "dx": 0,
+      "mean": 0.9340459902742663,
+      "individual": [
+        0.9005774295017068,
+        0.8976043841655981,
+        0.9643927600941976,
+        0.9647525605275704,
+        0.9370418867081196,
+        0.9399069206484055
+      ]
+    },
+    "limit_pixels": [
+      -4,
+      4
+    ],
+    "only_C1_C3_S1_shared_across_FB": true,
+    "not_applied_to_display_or_metrics": true,
+    "not_a_pass_threshold": true
+  },
+  "global": {
+    "213": {
+      "raw_Z_FB": {
+        "paired_finite": 57600,
+        "raw_RMSE": 49.35361923699556,
+        "mean_offset": -2.2097542314488314,
+        "offset_removed_RMS": 49.30412475672732,
+        "correlation": 0.9989455188391945
+      },
+      "pixel_current": {
+        "F": {
+          "minimum": -866.8603612704828,
+          "maximum": -36.95081393639832,
+          "median": -99.46598752974545,
+          "RMS_about_mean": 20.90860559977357,
+          "minimum_stored_rc": [
+            132,
+            191
+          ],
+          "minimum_nominal_XY_nm": [
+            14.895833333333336,
+            -2.604166666666668
+          ],
+          "abs_ge400pA_count": 51,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -312.31389696628753,
+          "maximum": -11.663166959996474,
+          "median": -100.29586536286494,
+          "RMS_about_mean": 13.749156780450807,
+          "minimum_stored_rc": [
+            192,
+            218
+          ],
+          "minimum_nominal_XY_nm": [
+            20.520833333333336,
+            -15.104166666666664
+          ],
+          "abs_ge400pA_count": 0,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "manual_row_flags": {
+        "F": [],
+        "B": []
+      }
+    },
+    "214": {
+      "raw_Z_FB": {
+        "paired_finite": 57600,
+        "raw_RMSE": 49.617396129847,
+        "mean_offset": -3.3314627599799627,
+        "offset_removed_RMS": 49.505427526535144,
+        "correlation": 0.9990184267715735
+      },
+      "pixel_current": {
+        "F": {
+          "minimum": -937.0320075419158,
+          "maximum": -37.351861187362445,
+          "median": -99.43498108233584,
+          "RMS_about_mean": 20.449343872708294,
+          "minimum_stored_rc": [
+            133,
+            191
+          ],
+          "minimum_nominal_XY_nm": [
+            14.895833333333336,
+            -2.8125
+          ],
+          "abs_ge400pA_count": 50,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        },
+        "B": {
+          "minimum": -446.97870404952766,
+          "maximum": -12.2207157587928,
+          "median": -100.25926616696879,
+          "RMS_about_mean": 13.472924731474443,
+          "minimum_stored_rc": [
+            66,
+            24
+          ],
+          "minimum_nominal_XY_nm": [
+            -19.895833333333332,
+            11.145833333333334
+          ],
+          "abs_ge400pA_count": 2,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "manual_row_flags": {
+        "F": [],
+        "B": []
+      }
+    }
+  },
+  "display": {
+    "pooled_nm_limits": [
+      -1.1637641272588979,
+      3.6909534615551047
+    ],
+    "clipped_counts": {
+      "213F": {
+        "below": 391,
+        "above": 564,
+        "total": 57600
+      },
+      "213B": {
+        "below": 429,
+        "above": 586,
+        "total": 57600
+      },
+      "214F": {
+        "below": 734,
+        "above": 567,
+        "total": 57600
+      },
+      "214B": {
+        "below": 750,
+        "above": 587,
+        "total": 57600
+      }
+    }
+  },
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/fixed_objects_raw_FB.png",
+      "sha256": "320813edc583a054b97be063030ca607e41ae267fc70053d4a2eeea98949dcc5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/full_shared_contrast.png",
+      "sha256": "6a8639b345b6cae7a601f08cd8fc09d67ec5c0feb30b62578e0a1b35c90b8b65"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/target_region_before_after_FB.png",
+      "sha256": "6ebd8dd6dee34e70c18520396aa8b62863968a3f0a0da404de7609bea9df0fb7"
+    }
+  ],
+  "I03_mound_local_descriptors": {
+    "213": {
+      "F": {
+        "peak_rc": [
+          129,
+          206
+        ],
+        "peak_nominal_XY_nm": [
+          18.020833333333336,
+          -1.9791666666666679
+        ],
+        "perimeter_plane_peak_height_pm": 1790.6922369628687,
+        "perimeter_plane_residual_MAD_pm": 477.6550463138237,
+        "halfheight_component_bbox_width_nm": {
+          "x": 3.75,
+          "y": 3.541666666666667
+        },
+        "3pixel_median_profile_halfheight": {
+          "x": {
+            "pixels": 18,
+            "nm": 3.75,
+            "touches_boundary": false,
+            "height_nm": 1.786043794147389
+          },
+          "y": {
+            "pixels": 17,
+            "nm": 3.541666666666667,
+            "touches_boundary": false,
+            "height_nm": 1.789702951716663
+          }
+        },
+        "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+      },
+      "B": {
+        "peak_rc": [
+          130,
+          206
+        ],
+        "peak_nominal_XY_nm": [
+          18.020833333333336,
+          -2.1875
+        ],
+        "perimeter_plane_peak_height_pm": 1631.667284379077,
+        "perimeter_plane_residual_MAD_pm": 426.45647892325456,
+        "halfheight_component_bbox_width_nm": {
+          "x": 3.75,
+          "y": 3.541666666666667
+        },
+        "3pixel_median_profile_halfheight": {
+          "x": {
+            "pixels": 18,
+            "nm": 3.75,
+            "touches_boundary": false,
+            "height_nm": 1.6190113447447771
+          },
+          "y": {
+            "pixels": 17,
+            "nm": 3.541666666666667,
+            "touches_boundary": false,
+            "height_nm": 1.6307023033618009
+          }
+        },
+        "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+      }
+    },
+    "214": {
+      "F": {
+        "peak_rc": [
+          129,
+          204
+        ],
+        "peak_nominal_XY_nm": [
+          17.60416666666667,
+          -1.9791666666666679
+        ],
+        "perimeter_plane_peak_height_pm": 1857.3674446883929,
+        "perimeter_plane_residual_MAD_pm": 676.6219626701503,
+        "halfheight_component_bbox_width_nm": {
+          "x": 3.75,
+          "y": 3.75
+        },
+        "3pixel_median_profile_halfheight": {
+          "x": {
+            "pixels": 18,
+            "nm": 3.75,
+            "touches_boundary": false,
+            "height_nm": 1.8543767551418426
+          },
+          "y": {
+            "pixels": 17,
+            "nm": 3.541666666666667,
+            "touches_boundary": false,
+            "height_nm": 1.843161223643122
+          }
+        },
+        "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+      },
+      "B": {
+        "peak_rc": [
+          129,
+          204
+        ],
+        "peak_nominal_XY_nm": [
+          17.60416666666667,
+          -1.9791666666666679
+        ],
+        "perimeter_plane_peak_height_pm": 1693.0523274492657,
+        "perimeter_plane_residual_MAD_pm": 577.3564778882613,
+        "halfheight_component_bbox_width_nm": {
+          "x": 3.9583333333333335,
+          "y": 3.541666666666667
+        },
+        "3pixel_median_profile_halfheight": {
+          "x": {
+            "pixels": 18,
+            "nm": 3.75,
+            "touches_boundary": false,
+            "height_nm": 1.688786060538007
+          },
+          "y": {
+            "pixels": 17,
+            "nm": 3.541666666666667,
+            "touches_boundary": false,
+            "height_nm": 1.6820929184373057
+          }
+        },
+        "method_limit": "Pixel-limited apparent shape above a local perimeter plane; finite sampling, background gradients and row artifacts affect widths. No fit, no forced atom identity, no size pass threshold. C3 is an edge and must not use peak width as object size."
+      }
+    }
+  },
+  "pure_function_reuse": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/compare201_202_offline/analyze.py",
+    "sha256": "61201f20375bbe902896413924410532dc87af510d9f94d649e7baade517503a"
+  },
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/compare_baseline_vs213.py",
+    "sha256": "41dfd0b442bda08cb9d7e821d544c856647e0051ef647a7aed647f0c743f71e8"
+  },
+  "image_function_impairment": "pending actual visual review",
+  "project_L0_L4": "not assigned by this script"
+}

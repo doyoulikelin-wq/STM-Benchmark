@@ -1,0 +1,19 @@
+{
+  "offline_only": true,
+  "analyzer_sha256": "397946c5aecc9167b031ef6afd122c8f58605c202edc7e24b5e5e9519eb69c53",
+  "accepted_only_0_456_direction_seconds": true,
+  "three_nonmatching_profiles_rejected": true,
+  "archive_default_plans": {
+    "finish_archive_S01_induction_sxm.py": {
+      "scope": "Root-only immutable native-file archive after completed S01 induction scan",
+      "capture": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full",
+      "execution": false
+    },
+    "finish_archive_S01_validation_sxm.py": {
+      "scope": "Root-only immutable native-file archive after completed S01 validation scan",
+      "capture": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_restored_full",
+      "execution": false
+    }
+  },
+  "no_actual_exposure_or_native_source_claimed": true
+}

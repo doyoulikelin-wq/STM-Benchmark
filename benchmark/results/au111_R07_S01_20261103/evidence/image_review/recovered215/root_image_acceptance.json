@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-11-03T07:02:52.007816+00:00",
+  "reviewer": "root",
+  "manual_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+    "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+  },
+  "independently_viewed": [
+    "analysis/Z_raw_globalplane_FB.png",
+    "recovered_vs_214/frozen_210_contrast_marked_clipping.png",
+    "recovered_vs_214/C1_expanded_context_raw_FB.png",
+    "recovered_vs_214/objects_before_top_after_bottom.png"
+  ],
+  "agrees_full_task_usable": true,
+  "observations": [
+    "C1 mainandupperpoint separated in bothF/B usingalreadyexpandedfixedcontext",
+    "C3 stepedgecontinuous withadjacentparticle",
+    "S1 compactbothF/B",
+    "localizedI03mound persists,C2D4notindependentbackground"
+  ],
+  "new_bad_state_established": false,
+  "repair_attempt_increment": 0,
+  "strict_cycle_increment": 0,
+  "limits": "S01incomplete exposure followedknownStopWithdraw Homeconfigrestore XYmovefine03; comparisonnotisolatedpulseorrepair. No chemicalcleanlinessinference."
+}

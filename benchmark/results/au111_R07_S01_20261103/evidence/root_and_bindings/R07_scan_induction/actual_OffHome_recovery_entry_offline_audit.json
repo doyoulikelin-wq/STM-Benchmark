@@ -1,0 +1,32 @@
+{
+  "driver_sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+  "binding_sha256": "5d795aa0044b91d3cc642f21271872bddab3f4161bcdc77b7136d3a03be03a9d",
+  "original_S01_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "failed_induction_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+    "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+  },
+  "all_prior_normal_stages_completed": [
+    "prepare",
+    "configure_gain",
+    "configure_speed"
+  ],
+  "actual_known_Stop_Withdraw_Home_pass": true,
+  "actual_read94_exact_home_gain_entry_pass": true,
+  "actual_fixed_xy_m": [
+    3.3991227610385977e-09,
+    2.1424977347805907e-09
+  ],
+  "read94": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_094_S01_after_induction_withdraw/snapshot.json",
+    "sha256": "60f76bf4e9988ea4aae84564f9f63a9fd0fa708eb4de463ad649a8b6469611d0"
+  },
+  "home_recovery_claims_absent": false,
+  "normal_failed_outcome_preserved": true,
+  "network_blocked": true,
+  "instrument_called": false,
+  "active_admission_created": false
+}

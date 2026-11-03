@@ -1,0 +1,1907 @@
+{
+  "schema": "R07-recovered-baseline02-frozen-history-v1",
+  "role": "Frozen actual incomplete scan, known failedfine01, Home move, successfulfine02; no active hardware admission",
+  "historical_counts": {
+    "shared_pulses": 5,
+    "maximum": 6,
+    "completed_full_repair_attempts": 2,
+    "requested": 5,
+    "remaining": 3,
+    "strict_cycles": 0,
+    "R06_shaper_Starts": 3
+  },
+  "inventories": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims": {
+      "continuing_20261101_1939__pulse_02.claim": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6",
+      "continuing_20261101_1939__pulse_02.review.json": "a295521703849e764157d219f966e851d7b093dfc3417f9da90759727419fe14",
+      "continuing_20261101_1939__pulse_03.claim": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec",
+      "continuing_20261101_1939__pulse_04.claim": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167",
+      "continuing_20261101_1939__pulse_05.claim": "f0faa4842dd0bc71c54169e0bd5dc74e497f1befc0d99ee09b382f4ec33c5d23",
+      "continuing_20261101_1939__shaper_01.claim": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd",
+      "session_01__prepare_A01.claim": "ccd53a56698b466b29af5c294275148f60b9f578bbb06731e59c7a3183bccfac",
+      "session_01__pulse_A01.claim": "1cca572432b8466a5c7b2f578b8526d015df893ce149a4f5f0aa38007beeefd7",
+      "session_01__return_A01.claim": "340f7260539f26aad7f03327a290d54badc302d6cbadaaecb2cb3715a5e720c8",
+      "session_02__R03_induction_I01.admission.claim": "0a3b00265918a1502110a7732bd0ed491fa475cf682407389b1d54c2fd4a2e14",
+      "session_02__R03_induction_I01_move.claim": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c",
+      "session_02__R03_induction_I01_speed_recovery01.claim": "c9473303646f69ac8894751d52ad94d905bcc9492225214ffc993dbaf521d3f9",
+      "session_02__R03_repair_A03.admission.claim": "ce24e44ea057d70a3e4b9c767ea0e738861e36db7a68667a7ec8831728ebcb82",
+      "session_02__R06_induction_I02.admission.claim": "90235c765e5545efe58eeed1cb76146d46694e1bfcb4e3657cb35d9d13348b60",
+      "session_02__R06_induction_I02__shaper_01.claim": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d",
+      "session_02__R06_induction_I03.admission.claim": "261f0c0e54a27764941eb780127c774809afc09b3f60894199b4ef7e795709eb",
+      "session_02__R06_induction_I03__shaper_01.claim": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b",
+      "session_02__R06_induction_I03_move.claim": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237",
+      "session_02__R06_repair_A05.admission.claim": "ff42e8d9c89f16a2a69381bfb1a838642586681c69aef3d37d34f6bc71aaf319",
+      "session_02__prepare_A01.claim": "7390f17821c48840f8b903222e143d27591d83f23ec1ade97a46871556cf3343",
+      "session_02__prepare_induction_P01.claim": "e00f16844b632b10118312bb58568091157fbef9804b19d6f5ea12fc0fbf29b7",
+      "session_02__prepare_induction_P02.claim": "a6383b8e61359c3a19c3c7955c192a7a7074fc34230365adcbdd42315edf84bf",
+      "session_02__prepare_induction_P03.claim": "32539926b4bf5e483d62aa5d824f8bb180817e1b473d4f60075440605557f9a8",
+      "session_02__pulse_A01.claim": "33f14c6f519e5d53e9e7156f83dc13cc992ca6295c38f9d6d2b92d1b2ce9cb1b",
+      "session_02__pulse_induction_P02.claim": "d3d305f5d047052d02c30a056bcf08ddef6e8b3ecadcc9e544b5682985f7685e",
+      "session_02__pulse_induction_P03.claim": "57bcb0b2596139ce305d7e035494a5b3b13715bd9618667446d89864bf2e9f2e",
+      "session_02__recover_prepare_induction_P01_01.claim": "7e52187bf254e207d8730d449454a364cbe3c6df086468823c414f125390c508",
+      "session_02__recovery_return_P02_01.claim": "6f967fff131be06c35400454f2ca6194cc3ea0c171148e23ffe6f05f4c2eb035",
+      "session_02__return_A01.claim": "eec73db7fe75398684c89285f5e76a04111527f5165c7dc7961c8d33a455ade5",
+      "session_02__return_induction_P03.claim": "3719b5eb2999232afa85e7c4b50b92720051569132efcebb4f78200bd1668300"
+    },
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims": {
+      "session_01__after_A01_full.claim": "bd2fc0a348ea7e8f8a6c94054d57fbc88ded75ff2d9b95331cd4d028bf9846b6",
+      "session_01__before_full.claim": "2d0440d7fbe7a86af39cf280a45758743e6eb830fe8d248424a09ba65eb38dc1",
+      "session_01__configure_full.claim": "b4d6d1a7ecbfa5d407e3abb4a6a671bf33de639273005706126df105511c8d53",
+      "session_01__confirm_A01_full.claim": "f3573712288b3886c47644514dff9ade74a9bcc144965916e4833c831938b34b",
+      "session_02__R02_AA30s02.claim": "ceb3dbda5c26d9b10397219009e8651d939dcfa033d6c8c39cb5d5571527a4ec",
+      "session_02__R02_AA5s01.claim": "1d80a578baeb9488cdffd2dc86b6169efe4ac2f4d0abbaa139075f69c3130ea5",
+      "session_02__R02_fine_on01.claim": "75cc8707968c2712042e86ebf3faaf25cb2f12beade7775ab965ecad011dbb53",
+      "session_02__R03_AA120s03.claim": "91633e793b0714867538d65978324c4c23ab1a1fb732c5e22b92fac6794c5787",
+      "session_02__R03_fine_on02.claim": "3e5e35b59e95175e4139ee34991a1a008999fb998f83a265f4f4227125419946",
+      "session_02__R07_fine_on01.claim": "87cbe97631d9001c016160860f597fe57d76789d5987e3de5c125af14bd0b64a",
+      "session_02__R07_fine_on02.claim": "e1b7598818ba3a75b44ceb9d5fd8a30e4323c63cd58ba1168c978b4dfee6a861",
+      "session_02__R07_home_move01.claim": "4df4a4bae810e785a3b3a3957dbe85aba31e4597fe91930c80d1416b04103128",
+      "session_02__after_A05_full.claim": "8d969ad8178377f95931b75db21fe567b1af2afb1cc87571007d8d6725039b71",
+      "session_02__after_R06_I02_full.claim": "1b069b52984e15db281e528ffc1984c9b7fa60dc5c129f1e4dc553fd2e2b6c3a",
+      "session_02__after_R06_I03_full.claim": "c4993729a1d3d0ec14d8b0992d8a08e4e0c5182798f3a42dafcb6e53459d4e01",
+      "session_02__after_R06_P02_recovery_full.claim": "cd92c8813dfe5d2d8369ef2efc857ae7ae957f517e6357d627830f4d0c44e506",
+      "session_02__after_R06_P03_full.claim": "88b7a4bd9fd4e02378ffc266bbe5d3a2687b3b7f1560727f55d33152ef39e28e",
+      "session_02__after_localization_I01_full.claim": "aa5a10a079a1879a7dafa1e4bd2a1260f657677e1a2e958359ca8eb2ffa787a9",
+      "session_02__after_preparation_recovery_P01_full.claim": "d1e5aff96718754e0742622a190625ef1607d5cb5b86723640b6e595933d4b2b",
+      "session_02__baseline_segment03_confirm_full.claim": "fac9d657b90c5b586c090d9fad6ac33999bc47cb749a74802af2db3b46aaf84d",
+      "session_02__baseline_segment03_full.claim": "1e212b81c99f4c740ecb909a60d72d66cdb2150a983e2dab496de408cfb236f2",
+      "session_02__baseline_segment04_full.claim": "e30b2f44d60019f650bf3387ff2d919b9fee314b9d031218597f4177eb407162",
+      "session_02__baseline_segment05_full.claim": "fd3794114275da03e54872d8aa4999713a52036aa928dc079b770e81ae6f01c8",
+      "session_02__baseline_segment06_full.claim": "88350a1697faba44d5d858fcc8b2f9e2733cff9f6681e035d4482b2f34ac6a61",
+      "session_02__baseline_segment07_full.claim": "0fff28b67ed243f7a990b09c667962cb803d79c5ad11b4db6b95518e8ac40ef8",
+      "session_02__before_full.claim": "ffb4afa3a3ad360ee79cce47a2be89e9aa5508d4b54dfaa7f6391b080a7e663a",
+      "session_02__configure_slow.claim": "f55c492628ca7d2f8fd796acb7e83afe4bec608f2be1e107f3f26415f7fd1fd5",
+      "session_02__confirm_A05_full.claim": "24a291ae18efe264935ec78b36b5957fb1e28d7b0cf8de23352753b74805c3a1",
+      "session_02__pre_repair_A02_full.claim": "213d307d4d679ece810b71ce7b7c7cef52066d6b9a78fa785e6a178a75b252b8",
+      "session_02__pre_repair_A02_observed_full.claim": "0c49fea6ec6d9847f04c05a364602ef1c219aecadccf86ae92c3bcc2a66b8bfa",
+      "session_02__restore_fast.claim": "97daa93e2b46649ea59877aeacbe31cc02ded841593f951c395d3f952e0761fa",
+      "session_02__slow_diagnostic_full.claim": "46d5d92f4c75c4d286f3aeddfe65f6e00bfa396982b34ea2dd5b52aa45733179"
+    }
+  },
+  "refs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__after_A01_full.claim",
+      "sha256": "bd2fc0a348ea7e8f8a6c94054d57fbc88ded75ff2d9b95331cd4d028bf9846b6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__before_full.claim",
+      "sha256": "2d0440d7fbe7a86af39cf280a45758743e6eb830fe8d248424a09ba65eb38dc1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__configure_full.claim",
+      "sha256": "b4d6d1a7ecbfa5d407e3abb4a6a671bf33de639273005706126df105511c8d53"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_01__confirm_A01_full.claim",
+      "sha256": "f3573712288b3886c47644514dff9ade74a9bcc144965916e4833c831938b34b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_AA30s02.claim",
+      "sha256": "ceb3dbda5c26d9b10397219009e8651d939dcfa033d6c8c39cb5d5571527a4ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_AA5s01.claim",
+      "sha256": "1d80a578baeb9488cdffd2dc86b6169efe4ac2f4d0abbaa139075f69c3130ea5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R02_fine_on01.claim",
+      "sha256": "75cc8707968c2712042e86ebf3faaf25cb2f12beade7775ab965ecad011dbb53"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R03_AA120s03.claim",
+      "sha256": "91633e793b0714867538d65978324c4c23ab1a1fb732c5e22b92fac6794c5787"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R03_fine_on02.claim",
+      "sha256": "3e5e35b59e95175e4139ee34991a1a008999fb998f83a265f4f4227125419946"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R07_fine_on01.claim",
+      "sha256": "87cbe97631d9001c016160860f597fe57d76789d5987e3de5c125af14bd0b64a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R07_fine_on02.claim",
+      "sha256": "e1b7598818ba3a75b44ceb9d5fd8a30e4323c63cd58ba1168c978b4dfee6a861"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__R07_home_move01.claim",
+      "sha256": "4df4a4bae810e785a3b3a3957dbe85aba31e4597fe91930c80d1416b04103128"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_A05_full.claim",
+      "sha256": "8d969ad8178377f95931b75db21fe567b1af2afb1cc87571007d8d6725039b71"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_I02_full.claim",
+      "sha256": "1b069b52984e15db281e528ffc1984c9b7fa60dc5c129f1e4dc553fd2e2b6c3a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_I03_full.claim",
+      "sha256": "c4993729a1d3d0ec14d8b0992d8a08e4e0c5182798f3a42dafcb6e53459d4e01"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_P02_recovery_full.claim",
+      "sha256": "cd92c8813dfe5d2d8369ef2efc857ae7ae957f517e6357d627830f4d0c44e506"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_R06_P03_full.claim",
+      "sha256": "88b7a4bd9fd4e02378ffc266bbe5d3a2687b3b7f1560727f55d33152ef39e28e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_localization_I01_full.claim",
+      "sha256": "aa5a10a079a1879a7dafa1e4bd2a1260f657677e1a2e958359ca8eb2ffa787a9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__after_preparation_recovery_P01_full.claim",
+      "sha256": "d1e5aff96718754e0742622a190625ef1607d5cb5b86723640b6e595933d4b2b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment03_confirm_full.claim",
+      "sha256": "fac9d657b90c5b586c090d9fad6ac33999bc47cb749a74802af2db3b46aaf84d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment03_full.claim",
+      "sha256": "1e212b81c99f4c740ecb909a60d72d66cdb2150a983e2dab496de408cfb236f2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment04_full.claim",
+      "sha256": "e30b2f44d60019f650bf3387ff2d919b9fee314b9d031218597f4177eb407162"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment05_full.claim",
+      "sha256": "fd3794114275da03e54872d8aa4999713a52036aa928dc079b770e81ae6f01c8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment06_full.claim",
+      "sha256": "88350a1697faba44d5d858fcc8b2f9e2733cff9f6681e035d4482b2f34ac6a61"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__baseline_segment07_full.claim",
+      "sha256": "0fff28b67ed243f7a990b09c667962cb803d79c5ad11b4db6b95518e8ac40ef8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__before_full.claim",
+      "sha256": "ffb4afa3a3ad360ee79cce47a2be89e9aa5508d4b54dfaa7f6391b080a7e663a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__configure_slow.claim",
+      "sha256": "f55c492628ca7d2f8fd796acb7e83afe4bec608f2be1e107f3f26415f7fd1fd5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__confirm_A05_full.claim",
+      "sha256": "24a291ae18efe264935ec78b36b5957fb1e28d7b0cf8de23352753b74805c3a1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__pre_repair_A02_full.claim",
+      "sha256": "213d307d4d679ece810b71ce7b7c7cef52066d6b9a78fa785e6a178a75b252b8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__pre_repair_A02_observed_full.claim",
+      "sha256": "0c49fea6ec6d9847f04c05a364602ef1c219aecadccf86ae92c3bcc2a66b8bfa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__restore_fast.claim",
+      "sha256": "97daa93e2b46649ea59877aeacbe31cc02ded841593f951c395d3f952e0761fa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__slow_diagnostic_full.claim",
+      "sha256": "46d5d92f4c75c4d286f3aeddfe65f6e00bfa396982b34ea2dd5b52aa45733179"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/root_stop_after213_decision.json",
+      "sha256": "da17f41110e5fd2078f44aae3dfd65a950ac54028281fc88c7a33b139af6a026"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/post_manual_review.json",
+      "sha256": "59d40595703cd68ac0ac71b79257d6b9eaa3a87a74e79bee157fc3a7a1942b7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/receipt.json",
+      "sha256": "a85e34f4c6bdb25e1a795dcf079573f5a6422f6260a5f91e2dc766d769ad09d8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/review.json",
+      "sha256": "76e4693972ebc267e9379d5c0a04c1c6a29c96a272974d4d8757a4e1d9525700"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/terminal_evidence.json",
+      "sha256": "da0be50b026e8a745ee194901b665edcc183099e0edc9c88ad0a35cab122714a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_guidance.json",
+      "sha256": "d7908618387509af4d0875919078343179a0875913c962d4618778d04cb26718"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/before.json",
+      "sha256": "cf83dbe88e12f42ce0440e417e5381992dcb41bffbea4abc243536e70ed7a711"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/episode_fine_reservation.json",
+      "sha256": "120b59af1ab1e60d2843984e894ea11fb4e2f7642d459270f3c985dbe6bbb6c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/failure_withdraw.claim",
+      "sha256": "05ff679758f6c97e59eea8b923e1c4080415332d455e6a71cb4fed479ddd2a05"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/failure_withdraw_ack.json",
+      "sha256": "0d277acd56ffe8c1179d91feb2de9ec981eeaf027b9cdc6759dc7a10a20955af"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/feedback_on.claim",
+      "sha256": "4b7386fb02e9105c50852dbb1ed0ee3b55092ffb125bd35814a9b9dd0bb48c0d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/feedback_on_ack.json",
+      "sha256": "ace1806df70f2af8791bf19a23eeb09e0aaa1d98f636e9a6ca0be1c431e032f0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/immediate_before.json",
+      "sha256": "307b86a80d8cdc987240a9c4f8ec56c8749cb1e7037c9ad9c453156d624a4e88"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/logger_instance_bound.json",
+      "sha256": "9e05585e65470b698a11e4b602a1d6fa87f740674e0ea6dabecdc2291f5aaee6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/manifest.json",
+      "sha256": "d547f824d564ab72cda5cef8ec83a3cffe21741657b96d1a6d8aa063a709eaf3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_000.json",
+      "sha256": "5c3a45b0ce52a13470a3cdae266d2b6d0f3f86ec67b3e4a41af2ecd9d51c220f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_001.json",
+      "sha256": "7334a9dcf7be1434f32dd2374ed229cab535df36fa3536adb8e794be29df5585"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_002.json",
+      "sha256": "a111409e0787e3cf865481c8a6ce6e85e13fb6c97a0e299a7839549941453f62"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_003.json",
+      "sha256": "e640e7f601da259c6833176b7f09f88889ddda3b7f9a666227ffbf2127996c67"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_004.json",
+      "sha256": "be2225e695585fa0d0c9fb9678b404921a457d28d4cb58e3460be69c31d50634"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_005.json",
+      "sha256": "951cd8f4de9058441e9c061f35f806e1a72d6436a49f56e4b21153150f1a3326"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_006.json",
+      "sha256": "b49c1e48f48bd873756387c63027d12caf236b738c3fbe9e787d6b049e098a72"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_007.json",
+      "sha256": "e1d62b040da2181ba551f0d2bc4cf0e712f90f7142151a851e59a19bf51509dd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_008.json",
+      "sha256": "7b8c6c872482d2315ce505960c0f9fd02e57aa5e9253eee9cbfca6ace04f3e6a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_009.json",
+      "sha256": "a91231e302b9d9e05f2adab7aa54b120f63538cf74d0a225376e9ab591dfd338"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_010.json",
+      "sha256": "1898298cd091c4c183da1ff31fc99beeb5fe6334224ea687be574d61ccf99b62"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_011.json",
+      "sha256": "dd2680101c07650465ff32d679ec9409ccea88faa9fb582e17acd26fa6a3a8f3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_012.json",
+      "sha256": "e623af86230fce4d788f5151a72503666ecb5eb4841d40d986d810d01f4c1a83"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_013.json",
+      "sha256": "b7ea0d38f22ffd2fd9d25ebee006196e5422cf214bf0797398966ff5938390f1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_014.json",
+      "sha256": "aa309a6f981f0a54584350404995310e9ded58b501be08a667b822445dfa1c6d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_015.json",
+      "sha256": "29691e949d199429c9b457f9b7602abebb3a813050ca426e0093c7d783801c75"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_016.json",
+      "sha256": "b46df355f22295ebd7ae1706aa659761ebe69dda058659de467c370f190b9bd6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_017.json",
+      "sha256": "7bd4f6917cadb805aff6b007824404be5ddc3c7d73c74966b229e8e053470ba0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_018.json",
+      "sha256": "03655c4bd758ae652a5aee5160aa4e9c6d7f5ace834957e4e248c7b029f72e2f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_019.json",
+      "sha256": "3f13f246de9bcde1b818dc469afbe1671e5ae1c5c598375c1b7b3ddf4d2cdf16"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_020.json",
+      "sha256": "c02c09dd7199ffa088d082946802da714c179e95d933e28c801ddcd8fb84a428"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_021.json",
+      "sha256": "42bbe21d52646a9dea0d6213163fbc2dd6828c764fe27bbb7f5d11724684b44a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_022.json",
+      "sha256": "68689d454fea5920ae3effc538256d4c3e22adbb57ce8e3b6b77e0e19e462ef4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_023.json",
+      "sha256": "6c03270fa49bbda41c0d47d257ade7ee99b5d88ba505dc14ab4a42cf8d5f0778"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_024.json",
+      "sha256": "7943769d1996a67c1a8e78978d1241017560a81551144cc1913c6548fb93c59b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_025.json",
+      "sha256": "1af668e116bd0328cc23c2046e7b2cfa97915435f7bd09ebb5180e65dd3cc1a3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_026.json",
+      "sha256": "9fcec631ed68c2f4a9387971e1415bcf40b0c3fdc23fa774a8ed4fea533a2a64"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_027.json",
+      "sha256": "56737cfdbe51e4973c7a57c48e28cab77209b1ee4b7ab1016e57194dee99a5fd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_028.json",
+      "sha256": "a13bc3fb2ac18bfac9e0d0db65ad8b765562bac116e9db0bffebc50157178ba5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_029.json",
+      "sha256": "753920e4a71bafb0100296ba58577c4d1f7fb10ba13cb3c92c57854e9fb886a3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_030.json",
+      "sha256": "3d11e7c364f7064bb44b59e4f834ca463cc98d67dc2a8695f5a9e98362b93651"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_031.json",
+      "sha256": "268a50d91720ac79f4fa54c325fdee479ffd9b059a0503b5146dfb8a56f7fbde"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_032.json",
+      "sha256": "fb8b33a9dd6aaf3377cbd87dc23518ddb2a71866a4c578e6987bd6c8887992cf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_033.json",
+      "sha256": "c121fcdc6d73c45dea7a4613dd7bd3e721891ce111fd3bc64e64d8f3bebb97a0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_034.json",
+      "sha256": "b51468320c28c8ce92602af3aeb8eceb83c8ffe8187341e633dde9dc8944696b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_035.json",
+      "sha256": "4ed1c6bf8751824a21c53952fa1b74f9481a7beee03746743827e50022aca8f0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_036.json",
+      "sha256": "0620f3cf821f9978f837fdb64df1c48984a4adcdc2e1dd4724ec12a506767f87"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_037.json",
+      "sha256": "f6bd2a5a5bae65307c1c7acabce18a73f2fb5e3d467d1643c1e9dcf4a2f27957"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_038.json",
+      "sha256": "ca1a57eb9d3056efd63c217dbcfab1d02d10f741b495029b0668b943afd4313f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_039.json",
+      "sha256": "c98a288a314d5e95b221d5382c83c72e48dacaadb449c437cc4c6cf68206b7a1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_040.json",
+      "sha256": "dbfbec74705086bcb6dcf9af720951a240de2ae95961c925ea3f81685e751c7b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_041.json",
+      "sha256": "a7d3081ef5cd844ec90fb9ba0f8ef7eb5aa5f40260e668461033968a0ce28eea"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_042.json",
+      "sha256": "45ecc0b7b7d4d17d08d34068c802b10e964724c6e72aa2f4bf05fdffceacf3fc"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_043.json",
+      "sha256": "d04e0efca9065b6b79c8fb5e295c37ff7e22209cd125156e4478c254ac16d914"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_044.json",
+      "sha256": "044e6d1685eee23b63715b7d2bdd79286bed7a41ae6c277409f1ed9bc32c5047"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_045.json",
+      "sha256": "a36d4f83c8cb4c8deadb73430d36ea95e961843c63b566bdbf5a975d5a47f102"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_046.json",
+      "sha256": "09d52d709fa921e8238fb91ee118bae30eed4bcb376865b6f81e5a0ef3a38c4d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_047.json",
+      "sha256": "3f809072fc82cdd17b95f42c1d0c9d2d1ab67a7540e98a824a0593f85a0db2c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_048.json",
+      "sha256": "d9aa7a8a2e6c3d49dc5741a41d7ea7b5fac0ef38c6841ad629aaef9bc206a3ce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_049.json",
+      "sha256": "79a7ae01eddeb686582684c94c580aca6c1a51002078cf1e91db911ea6950fb1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_050.json",
+      "sha256": "c789402da577ef856db1ebb692bbc533ed3b44f158746b2283f3e37bd8d9dd06"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_051.json",
+      "sha256": "41d42c16a7d70fefa3e43f6b5f5cbe3e0e72d4408a0263bef15afec9a0679d90"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_052.json",
+      "sha256": "6f165248b6025c64b06b2f3f3beb5d5e5bb2971211d38ecd7ab7965f00e69d41"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_053.json",
+      "sha256": "530514f96c4bf7e9af9a59656d921deaaece42b1876d298045114d70e2d7af05"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_054.json",
+      "sha256": "4e170a322536bc0abe9a091e9e8e46360b13b3318982dcaa65fd31f6b1284a1e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_055.json",
+      "sha256": "5a037d6bb12ef9e1ed1ee9d1be091b5e007957687998934e45868b8b022c7ca8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_056.json",
+      "sha256": "5312e325825191cec87b2e2f249770e7303a3a8b059bf5ce3002cba9d20481e7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_057.json",
+      "sha256": "cdfdc629a42de5017920e0440ae8870e0154fdbd05ac907e56f8cd1ed1399e27"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_058.json",
+      "sha256": "34598ce69d11ea6aa6f17d5245184fe059c30e99706f8b6ff4f8357da58fb956"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_059.json",
+      "sha256": "0e8b2220196150bdf55f4ae8a9ae1eef819e6e57ce3f8a82a71462be35573d10"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_060.json",
+      "sha256": "d5733318980cc680cfd017ac6f279ab7e875019f0a6f76df8a1af52adf003b7c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_061.json",
+      "sha256": "d7bbfddd9376ba115df9f1d791c693b133b8cacb26f839d8ffe9916590d7a8e3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_062.json",
+      "sha256": "529c73799058c8e8f40d059099a11e5eb067db2fb81e095d7650f172cb02a352"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_063.json",
+      "sha256": "5bcf6091522167b19e401360fe90d109fe21a20d5231ee9e9bfeb649efbe9c8a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_064.json",
+      "sha256": "8b1a92a7d0df003f87ce681b80d561c7a5e82c24b61d10ab9d91dba016eac5ed"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_065.json",
+      "sha256": "abf9e9c981e47133a0e169b55b703752bbb2e1001546679b4ebf7437682dca11"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_066.json",
+      "sha256": "ad845a81bc96c316473071d792cf275801e6c39f1327dd2ffb5c69f44591fd2c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_067.json",
+      "sha256": "1227bdbe12f9a661a6e8eccb04f8e47d1460bf8768c4ba648478b07245e341cc"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_068.json",
+      "sha256": "8657ba8f5d7980336e246db499e2ca83f39cad4d784eeb5b16ae19eea7c770fb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_069.json",
+      "sha256": "e4166ef3a24f60f25aea123dbb2dd7fc1150abff6a9c3c09a0881ca0a716646a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_070.json",
+      "sha256": "34f5ae930034685db54d661fc4952f3b471e1f077dd3d97075e658f0138dbd7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_071.json",
+      "sha256": "8a2b575c80b139a865082a42d37b1aae7630fa1c5f383fbe5685ec4d817292ee"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_072.json",
+      "sha256": "446cf0b524e7f52f91f108eb2351290a38761411b1b220434f6d726e49c01e33"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_073.json",
+      "sha256": "f5a932ec147ed9cdff7d09556b2b0ecfdcc82f207587a2a34d3c113e7bb66bfd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_074.json",
+      "sha256": "190b10e1b2895368c4fc68fbe49af73cbdf76950fe23372affcf5038cae93185"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_075.json",
+      "sha256": "89fb448e58bb74c7abad6b45a0af72845799d51a4cc4ce20ed69d624a82dbb6f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_076.json",
+      "sha256": "9560c9d848ad1fa9b8497e9dc0764c21f997bef03669af1cebe75103c0d75230"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_077.json",
+      "sha256": "271b8662e6bd3f55ba49cb15e3f0eba74369e6ca6f8806eb72953c1b15f62861"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_078.json",
+      "sha256": "5c2be19af29ede450263f5bafb53873ec3299d9a45752a14f7ac2c2ee13a34c7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_079.json",
+      "sha256": "6d221bc4f748785410a78baace703999cb8acb414115a9c0d2cd9ae80c9151ff"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_080.json",
+      "sha256": "ab97e0fb26866e8ce17ddd1cc029eb5bda0bb6f6300cdb7b7c221486319b69fc"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_081.json",
+      "sha256": "e02c7f14095fde54c3afcb6dac6e1cdae54062eb1721c58f2c6c131bfc3ad5fc"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_082.json",
+      "sha256": "96c0204989abc37bdf5eee6b39955e570487ab98452a84c57b0891280f63b5da"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_083.json",
+      "sha256": "5fb2fd6a682ad0e352ad98274f2a889df159ec7f52f02d3791847065f8759cf1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_084.json",
+      "sha256": "571bfcafabb55a4961df2d0beb21dad32e652bfa75402041423713321c593e4a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_085.json",
+      "sha256": "887d6406a226a6d5deb18fd279f80c73fc1c80dd8024a4741f730ed45c428dff"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_086.json",
+      "sha256": "ec1629fa1f0aa59e96f09b1e7d159739fa8f8d588d1c21e447d61425b0269af2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_087.json",
+      "sha256": "9eb7ef572084bc5c79042fdf7a95cba4cfc89bc4a57a195196c76fbaeac88b5f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_088.json",
+      "sha256": "c9580964fa9709e6e74c27595cfa3e16f20853f43ebc9a95562d72f6fe6c99d3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_089.json",
+      "sha256": "37775bfdd49a4c279327eccd36ed79bb16eff8317bf265aef4b616d3447a76b3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_090.json",
+      "sha256": "30480df8cc4e691a945098e1cf98b57e1e4f110683359be03cc3c36ba947d439"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_091.json",
+      "sha256": "b6a3fd41236e09b8cf1172a8d534255302210a72b888bb60960df03445686f32"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_092.json",
+      "sha256": "f035a20101eba8b1b1555d3164667c052f4690db0b3591bcdeb590d0c3b1eb54"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_093.json",
+      "sha256": "d756ff38c1601b98800212ae2a74dcb860e6b3bf689c44432e930b1c998604fd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_094.json",
+      "sha256": "e47b4313d3cf296722ae89c8bb6085dd2eb499b5ad9729a867f8fb88c076245c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_095.json",
+      "sha256": "4727047d0a7d27ddc40c348cb2431cd79ba173a57a1f6d43248f386b8c8f96f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_096.json",
+      "sha256": "e8590b3535ac9f13e0508992b580f4f1400560bacc34a27468144ca64f2396b6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_097.json",
+      "sha256": "9172b1f582de3bc2e8005e1d8c7494ce0f63867b83f6b9149dfec2c6655c21ea"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_098.json",
+      "sha256": "df89bca6acc042de62f83fd65dbec3c814ed120278aff7512f2c36770e82a79f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_099.json",
+      "sha256": "e2df7b409948ae1608dbabf3e5c8e23319a475b6eea0624cde7d30ca7a252665"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_100.json",
+      "sha256": "06fe1a5654969ed4b9f26443136b6b3181ad4157600d0682b68e19c0d2210faa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_101.json",
+      "sha256": "5a4be26ce73d9c541666614b93d07c47653055e276f8e22d2bc3eccb24c29287"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_102.json",
+      "sha256": "26a0c2ce6ac4d3adf3b31ee90a78add7a59a7a8dbaf85ef544462093f09117f5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_103.json",
+      "sha256": "99f16e07c716e317f9d795ee88dc14f77e2ce7eac9b7c6144278dfe80ccd67c2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_104.json",
+      "sha256": "fb4a4028a79993751a3d353dea5c92d8add423546776747e174032e1d2d4bc35"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_105.json",
+      "sha256": "654ce7154d43e5ff4cc80e4466cc5b965a937a9a10d9893e7ffe6b6a099b3d9d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_106.json",
+      "sha256": "6a39254091ef229346b4ef8589c6486066b32a572e3d7adaf525dc91a166580a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_107.json",
+      "sha256": "a96848b35893754a175061d9768d284e80d54854a86c408fc89a9b1fa59cdb4b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_108.json",
+      "sha256": "0ad9f6bc14d87cdd0fd8c4ba67d97c0a9c8761145575ade5021fcacd7d81ca79"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_109.json",
+      "sha256": "c089df25b081cb7bcae9a37fab9f29487d321e62bc3ca434435a92c324651376"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_110.json",
+      "sha256": "569aeda995e43553cdd31ea61dbe56ac0c0e244baf93a3406e2594659d13f4f5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_111.json",
+      "sha256": "2739b9ceb1fcddc9bc8750d8454f48bf7995470efcae3279f76a0ac191daec3c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_112.json",
+      "sha256": "952319058c4913bd4678acdaf440c31b80700acb0c2d8eda87c4120b69bccf7b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_113.json",
+      "sha256": "24064c9ada59eee05850d876430ec49279aaa0e2c0e275b2e6b16f549446c0f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_114.json",
+      "sha256": "8ff3611ca4ca4a1b8a884a74670ce11422d07bd38a96021763a3c2e84067ce1a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_115.json",
+      "sha256": "29ea4007034b37bc5589a7299d5c56d88570c5cd3e738b8c17f31b63c6172331"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_116.json",
+      "sha256": "62cbc11dfb140f75f5f261501612835c83e75486cb987d5fcf4103c9f3b27fcf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_117.json",
+      "sha256": "820fd0a8db6ce35ca07958f3b776289b8467ebef494d70b5376a2cd72dff3003"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_118.json",
+      "sha256": "823e2720cb386103c1ec95c9b1cbc5b741956e75859c10add87a6429c30e458d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_119.json",
+      "sha256": "b442212766f767fa9057c4b1e5eca99f761ff62c2f56c27f1c15679f7960a4c2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_120.json",
+      "sha256": "dd3db02dac885abe5f83663019d5692264e9073e61dc5aea6c4b08805f428c2f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/observation_121.json",
+      "sha256": "524a18feb7ff0002e73afcfee0c8bb0d0c38394737d275b4857078646f45b66e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/outcome.json",
+      "sha256": "840cc3888bb1a5b06811d2b2fe8bfac13c710e41321df4a72131cbe0368449c3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_admission.json",
+      "sha256": "99498b9e32fdfda4241327003093566b4c17e43b6510f65636f2350a5db4f915"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_000.json",
+      "sha256": "49dd5b8a576e5cbfca1b6f0de9c3026c16326f44475b6ae517d7f78821ef192c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_001.json",
+      "sha256": "f725a46ce8ef8c9116aa63f2bde50626c472b801761bfb70c31a55458c0e2aca"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_002.json",
+      "sha256": "4b50588866f7d9d12ecbe4dda63affcd873454a2225a9901182c4ad77edf4e95"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_003.json",
+      "sha256": "a1103eff41e137d3fe67bc1a0ef422803c0520a2157799f4f4869c6c11b4e910"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_004.json",
+      "sha256": "7a1015c692f065e50f0454e560ea4e878b69dd41bee4597deb613e425159d06a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_005.json",
+      "sha256": "335b1d5289b559efdf8850457c5b22f19ba9f25aecb8d341583fa4dee2f8eb09"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_006.json",
+      "sha256": "a44b17becf4c311a4d3a01c66383aef48812e65c17f9262c0b9f6dbb49234de8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_007.json",
+      "sha256": "815c0b2481e41f8c7499908a8f922e1f04aa91f21decd9593866251777cc3566"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_008.json",
+      "sha256": "85bb98cea98db6a2c8e17aa58bf9f434379b59f6c10fa5d72c705e8eea295b97"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_009.json",
+      "sha256": "dcd0b80b99796f854df11b6bb6779af6ddcba5a1b1331f0c30aa6c664563e694"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_010.json",
+      "sha256": "2b53da1ec6b4f6ef2a6f3e28ff2b985717afa83ee13f31352b5c56ad5debf822"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_011.json",
+      "sha256": "1807dc9231e178c036122f550115cda53f37e18b0acdc52055a585130ef440ce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_012.json",
+      "sha256": "b42389cdde603e3e4b025f377216cf98e632afd215ab498089a3ff831657bfa0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_013.json",
+      "sha256": "9bf7634d21df9164bcd7f405517b8e5bf3e88b59c8262de05791e34e4688fd64"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_014.json",
+      "sha256": "137af73ba5b4a7616a93dd1e732f5bfcae60aabc0da5a8b55c7b1e7748e2204c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/withdraw_verify_015.json",
+      "sha256": "23065560f111f5d6c1efb95bec6157fd8439a4f05009fa6b1c752ebcbdddc422"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/after.json",
+      "sha256": "e1352986cf77e36ae81c829eb0e08334a77faa8964e6946ca404f32882a1d0c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/before.json",
+      "sha256": "e3e7fa0d31e3597d094458367a1ff7c17e9d9471e801e605084d06a9f1eaae1d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/episode_fine_reservation.json",
+      "sha256": "f14ccc09028cfb90d63927fea0247737d860b009bf6b3d8903b44d55bb319340"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/feedback_on.claim",
+      "sha256": "ef7527f7d1fa647b16c86356d123f26c520e65873eb59b2f1cf4465272ab5312"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/feedback_on_ack.json",
+      "sha256": "d1cc5fd90ccf5e59700118babb9ff40856f5006de3dd7845d8d445a85fb8247b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/immediate_before.json",
+      "sha256": "c9f266aaa120df3d06717388ee6ac12fde67f8e36142232539425e8c9da0d264"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/logger_instance_bound.json",
+      "sha256": "9e05585e65470b698a11e4b602a1d6fa87f740674e0ea6dabecdc2291f5aaee6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/manifest.json",
+      "sha256": "c6eaa898aa0188124ef0182d59975798430ed54e6b8f4eb39c211b109aeae8c7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_000.json",
+      "sha256": "9c0ca25fb4a14b357ff8e00c0bf468fa2d774fe647a9ee3e5a56fc59334871c6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_001.json",
+      "sha256": "aa7291d14a699f706da4d906cce1fd1fbd825e93f6be0aa71cf166120e4c4e88"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_002.json",
+      "sha256": "ae656258d405e509e4f2a87625f6a693a745c496eab3761a10b7cbd836cc68f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_003.json",
+      "sha256": "34db84221c9d526e4e0a05abfdd171db05f4c55bd576d1087f4d1cb74059d4d2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_004.json",
+      "sha256": "f4369b20552920e78481c4325e6cf9f57d9bc40c05c1702185b5d977a023ce88"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_005.json",
+      "sha256": "a4c380692f386b3ac146e956233896ec3e582956bde75e8528d186914b27987b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_006.json",
+      "sha256": "5aa31e41123071bcfb12242d6322169e119afe18f74c12e7d505bebcb286356b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_007.json",
+      "sha256": "1b48866f59beefe8832bd39a16de92a0c371b01d297743ae78c6ad904ccb403d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_008.json",
+      "sha256": "525eb396bd3ee2721d6480d848e93d79c77e8d16160e88e0a5346e26c38b97ca"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_009.json",
+      "sha256": "3466b08d59623404bfbbcc72b84bde3a14dd1c752928b67a5c49a758f4693114"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_010.json",
+      "sha256": "7e6e3f9e8fbb1ce4670e73c240f75fba1f9c69598e5e5ae8260711f2581007cf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_011.json",
+      "sha256": "344d35cd1b01f991fc1d1d6ed3f5bb703ae4b91f3a4ea3ead406978b27c24973"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_012.json",
+      "sha256": "3e99bf26d9ce2e205493e6aebcf04492969720e67ebf89d39eb493e186a355ef"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_013.json",
+      "sha256": "2a3395777d3a265ec030977d818b2101886a54774afa6ec270050d9f1af6cb83"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_014.json",
+      "sha256": "d9920173aafac5eb33d7a7e0cbbb1116020f1feff86db1f91a1d86d4061787ef"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_015.json",
+      "sha256": "2c6b297ede2bca26705bc451a0c04914ef0a2708fa08ef095f7764603a03099a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_016.json",
+      "sha256": "4835234255abd271105a86108ab812b4f4b79a20749c5d2fed0c8f54803d2777"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_017.json",
+      "sha256": "01b84199b38b2049b48462499b40e128ad8c728d99cb24b2e4940cfe72015837"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_018.json",
+      "sha256": "7b53f3a56682f26865fe92b3f5bb3ec1b9e694577b6a0b7f0e1b85484aec6c49"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_019.json",
+      "sha256": "58c2093ef7bf8f860b95b66b6732dafb04d0c23af35764fa04e7f3ffeb9c349f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_020.json",
+      "sha256": "f62626d844b0c6211ed9572848aa8a37a0a876acbc08e9c9dbfee1d0bfb9e83b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_021.json",
+      "sha256": "bc006f84331768a5e7c79dd417a3da9ce0f66c3461fc1e0c94edcb5e6edf3f8f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_022.json",
+      "sha256": "d2ef31eeda4d962e6e4141354559e756447b735b54f98972d2d876187c81755f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_023.json",
+      "sha256": "3a83b49e11bdb52170cd8dbaa1dd3042c8523ac8bb5da5735992fd9a7cdc2f4f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_024.json",
+      "sha256": "575432204e8da026ed1b8a40038467c80e4c31175ad88a9f2e13cb55f43719c6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_025.json",
+      "sha256": "5aed1b58c333e64feffab34a67db9311c0f47560bf2ae282e9a826e861d8d62c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_026.json",
+      "sha256": "091088cbd9bf3cc67768347cbaa1d7e93e0b1d415706910c308dc8eb6ef287f4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_027.json",
+      "sha256": "62c8983b504a4e7c713a475a03851e651f056b658201db988064b8ab49e4efbd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_028.json",
+      "sha256": "dda4258bce5cd28967667394588f02bbb181d0418304a958bbeaaf361387ec18"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_029.json",
+      "sha256": "ee478dee5564752e65da163748f531c46bafeb15b8933713b0feac34704fb033"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_030.json",
+      "sha256": "4755de70a6401490dd890b186ec83c74f7ccf27272620d1187b58f0e9ac38805"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_031.json",
+      "sha256": "c84531111e1e03e1e356d5cd4f880fe863f93ec78f4ca81ac15823fbffb73e84"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_032.json",
+      "sha256": "0eec707cfef5ff008e13ed9bd24e903e2b8e5fa1c25c6f49ac65dd78a77783e1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_033.json",
+      "sha256": "2643dfc9c51654e73b04106277217ea793d054989d25526a8fc24a5378deeca4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_034.json",
+      "sha256": "1fc6e347a49505e45f607684230c11b8a960d8faedc12c70609cd017ef276842"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_035.json",
+      "sha256": "b3263a7575523ddd9f43f9984c108ba76fe6389e2fdb7e98968ae7bf0348354c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_036.json",
+      "sha256": "751942188fc8f49419f19ab4bbb9b6430c11b485041cda7c219e72b3ef5ce736"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_037.json",
+      "sha256": "f4c7745c4314561cd58897ad1ac178c2c258a05d97e840e7a6912ecafbbc7f65"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_038.json",
+      "sha256": "b78946ceedee9ac10e8e097583316501ae062c8955e043bbdee86a70f353990b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_039.json",
+      "sha256": "86d1a9b7d23daea76eb37e764751436626319b3a9e782e219cd0fbdb97bf67ac"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_040.json",
+      "sha256": "ffc92ed5972130a1e5b3310a49d3f4ed27c397b8c74275190ded0bf8dbfc9f36"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_041.json",
+      "sha256": "4c1ad3af116a15365f6fc4b9fed144aeb8b18791d1dfcc63adf0512330275fa7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_042.json",
+      "sha256": "c6ec3bc518d706f296717d7943c85aa9ec158f5474e1df4ef7c2a38b54131d59"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_043.json",
+      "sha256": "fd8881becd4174725151789b293488ee98dfb9ce67c64fe9c2b0d964084f09c2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_044.json",
+      "sha256": "318acb0fcd7d20efefc5a19fac2e5211af1103a5544fc5f9c9fbe99cd60b70ad"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_045.json",
+      "sha256": "f800008f7cf58199b70d8dafc640902b67863fb0cf1aab24e63137f576ba1dd6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_046.json",
+      "sha256": "4fb264fb01ddf2ba29c484f43b80922dbf7f38c460d0d22ab7da99f45ad62f65"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_047.json",
+      "sha256": "5ff3ec146d5f2ae8cc0d8f7e6bc57a92328aeec76619937b3f6b47218430dcd2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_048.json",
+      "sha256": "14ed76bb690225b1fee3fe335d0008462265690b15fcb6e67525ee0b31f111bf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_049.json",
+      "sha256": "f99a5a4782ac6deabebc71e76894f68027045c0c0705b63d8b87bf3172673006"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_050.json",
+      "sha256": "36e4b991a127a1cfb4627972dda6bded459ea88aa7a971cefa158f9686b71aee"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_051.json",
+      "sha256": "99c26722e5efa55bbc9b04d8da977cd7f4ae9cdb0c668efabc50f890df3fab91"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_052.json",
+      "sha256": "41ca9c555a8b730f2f256c739d8933af13f530d525e02a2d3b2728f5ec0a768d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_053.json",
+      "sha256": "ffef9bdcb89a99db08c5f4d67a72070198828423f189c01536c6279f55e2b6c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_054.json",
+      "sha256": "4571f6c4310a5591af05d281969a4af8806ab8550f6ff9c4eba60b5e6ca01581"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_055.json",
+      "sha256": "63bb4a687e06b04b2ade8954cead46250ff58e927dd74e2312715c0097ffba0d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_056.json",
+      "sha256": "59f5562413d9c2c5d48208841b3b1409d60a1e912974cb6ab4c3a58d1bac4c1b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_057.json",
+      "sha256": "215ce480c12ec09c18b6cc64f5affdfd2bd77eff151658b2002f2764799da661"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_058.json",
+      "sha256": "18029e08cb12a00a4c6a8772e2194f38e8e4513931622e15d03bff187153434d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_059.json",
+      "sha256": "7778718c017d1fc32d9766f318e8f42d17bee3a9a942d099f6e41f123ddcd139"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_060.json",
+      "sha256": "8d5f6248106eaabe23853516b79d3246941ec4564d741c4b5e940ee674cebcc0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_061.json",
+      "sha256": "5bc29afc6ce68625364635da96daec765def7f28c66b9f58e4ec688e0a5450a3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_062.json",
+      "sha256": "7ff00f40a0b9269089e11563fd6379eba020727c3c1ab2bbab21f4e5cf369bce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_063.json",
+      "sha256": "638ddf6568e30a03ac3256036ba3c3c480cb3361b86863d8e70ea2125a6de22e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_064.json",
+      "sha256": "600fcc8a5499367f1284e28c4d904c222aa0a6cfda9f8e75d537afb3875743ee"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_065.json",
+      "sha256": "78324010567ca82e21d15ee96c7c4977a0cbcf08c009d7a5d9f4a3ac9131b00e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_066.json",
+      "sha256": "76b870d00f5fdc6d688589fd9f98cabec46b376445a6b1b0625c39424d213954"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_067.json",
+      "sha256": "3e4ed8fb790efcbeeee98a53a68189637a67ec92400a42030e186a3da6d4f840"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_068.json",
+      "sha256": "44e41dcedd394e24704d1ca960d25ece8fc25e7624647f1f5bcbb41d1b7c81aa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_069.json",
+      "sha256": "21c784ff3af39f04d679d0c2de1a5f310bf5d0449159b371c278bd539694e5f2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_070.json",
+      "sha256": "6471d26957bdbbf4d34b53946e23e886732d0217cd4f37261d65db96151412ac"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_071.json",
+      "sha256": "3e453b3b7bb4120d1c17d8f5df7fc0320d629d8f74a687e7e159513659ced299"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_072.json",
+      "sha256": "746429307158ed2e568738f2afe11b581feee951c7209d98ed50f3bd6b683b73"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_073.json",
+      "sha256": "ba337c89fddc271d4b641f2e1039a348cdeb4b48b226ea2900770c423388a407"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_074.json",
+      "sha256": "d1b443205fcc71c67bd5063d278adffb1f92c775fdf5d1c93bed8d901ef1c174"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_075.json",
+      "sha256": "0e387ce01abeb917b035276cbf9e046e37ff84e03150837a018adbcabc0459b8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_076.json",
+      "sha256": "79367bb1a10327b8bf614b3004526be8eda3d10ee3f15631a6253997a396649c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_077.json",
+      "sha256": "126772cee0e7c066d56784abd4f3b336e93d6f04c4f843b2676a8377f36eaa0e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_078.json",
+      "sha256": "7a70d4b394908b395c2f3f96318aa88aef39176216978d85c7bd97c4219479f5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_079.json",
+      "sha256": "b13638b15b6f5ee3de0aa324044e314f948f874930b609e93697f8f10c648545"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_080.json",
+      "sha256": "74cee8a7e922f6b9a8038a20e9ec6b9b3152044d72c0deed553b1392f3e4639d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_081.json",
+      "sha256": "69a3a2e6235f1213e85433511259ef112472b486c7b780dac9beed640acb3e44"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_082.json",
+      "sha256": "14cd812d68ab2d24ef2f02322eece2db625c7b8cb3ca7fe8791222bd9882bd0f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_083.json",
+      "sha256": "9db4315e9d883a3bf4163215b904b02b90872a47cc8e31dcaad907190c5b1c41"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_084.json",
+      "sha256": "cbc307b5f228345d37798a5f70027319500b65a97d50aa44380f15b1a3437958"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_085.json",
+      "sha256": "935523146b080f5d6e221f0e4bc768e30f77fc9b14ee3d429239c6265c3cb148"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_086.json",
+      "sha256": "222cfb6fd7a33ad71c6eed2e4fc79c459a73a574137c6191a6a61f5c1f9a64ac"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_087.json",
+      "sha256": "c90a6524be97c450a5c32017af30b0757741aadd3972897086c6509ffca65da4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_088.json",
+      "sha256": "6c657a59b15272035f9ac6abb65095d89dd00282e0037fd36b31008c54e015fd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_089.json",
+      "sha256": "e442e6c750c14da427d2080899f152af0b531523ee4c6978540fd72dea3ae8e2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_090.json",
+      "sha256": "b12070df751f051593c11103a2e2b21d61be0ef5a0be0b87711283f5720169e5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_091.json",
+      "sha256": "c3a6579d16ec4d5b89c50cf9134d0eb563ef424909bdff31413f16b5735a16f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_092.json",
+      "sha256": "d467064b209544cf970bcd39f92bd0d6255db62ea06ebd9ecac2d78a8badea44"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_093.json",
+      "sha256": "4469bd572d88778e9344376ee96242096fbb4dbec1712b5e0ff2482ff19f03e6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_094.json",
+      "sha256": "d748f279cbf013dc7bee08c5a1055d3e5bb437b68f515665cdb1c91c2175b04f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_095.json",
+      "sha256": "7de5f8eb16e18b4f95ff045c33adb77d05ffe3532b4c5aa188febb0d915e8228"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_096.json",
+      "sha256": "179ce340798f628234f312821efc87fde07555e78eabc79552e6d8d00fe5f394"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_097.json",
+      "sha256": "fd74d8b60be65df18f0298b49369b265fec69e70a0e6496b8c204b3e1393eb41"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_098.json",
+      "sha256": "4488b1af522767a0d17c60a4f127c46df1bced17f4fcbe7a3f8f7fd81a143beb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_099.json",
+      "sha256": "6086a62d16ed5abb9c2a6dc07f63adc94a518c6a7695b376d4e7cae395fbc41e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_100.json",
+      "sha256": "a2d4880cf31353e67ed2c4b177026a25b00c86b88e4420fbbb6c286350bb2007"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_101.json",
+      "sha256": "a62641a7a6e045d1e9ed48fa183bbec3eab57b253448dd3474f51ca8945f99d7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_102.json",
+      "sha256": "3a9f463830a3651f2f2032306af0818babcef29007dc0b9c17723294e67d7c0e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_103.json",
+      "sha256": "a245912eb73b3ede2441ceca7ccca21231c626dde6f1a02de6971a2b033f729d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_104.json",
+      "sha256": "4ad6b779499da130b0985d1419562522355b5345e231170c1491ee758c37972c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_105.json",
+      "sha256": "cfe8d8eff39837e1c301bf6450d38882592b2d3791f0cd4f26255fc87391c293"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_106.json",
+      "sha256": "1bf9954ed14127e358bc64bc2c0473ef85a8f6756e88d840dff7877355553615"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_107.json",
+      "sha256": "d94c99d6eb04546e56fce06a403d0220c84c814418d4c5aa44cbc881f0fb3d3f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_108.json",
+      "sha256": "4099484396cfc9f8e90abe67fed5e4914a7dc92f095d6ac4f33b435eadc9ab64"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_109.json",
+      "sha256": "792bd0437571cd98fec4c61ae363cb0d7415b953983b33f42be37f9ba064e651"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_110.json",
+      "sha256": "9865a89f7658f891c1ea4fd81252806d124dd3dd04ab8d72e9ebf0e467802a73"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_111.json",
+      "sha256": "d1e22b7d9d51408306598825124d13c8914cff4ce6cb4f6374fa48cf5e5d97b9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_112.json",
+      "sha256": "8186c79498b60334ab0286eb6e3d2aaf0919e9bd219ef17839bd7f312ed0e5e9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_113.json",
+      "sha256": "0286528b9b3e03d7db7342c621e84c7fad764d2cacc469b46361dc9f8ae69661"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_114.json",
+      "sha256": "1063dfb9573fe387bce94dfcf5d222e348f7ecf9422a0d2844af5724ebe1d57f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_115.json",
+      "sha256": "eb10a991f78d505294858ae226e59fb9202f143c5efb6f212abebbdc8f89dc6b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_116.json",
+      "sha256": "803ae012e5330fbe9331f122c267be77c5489bdc6c99398fcb9adbb509a92e75"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/observation_117.json",
+      "sha256": "ae97843084c1b4a45c17d31e2c6e06a95e6f521476df9dce28cc3bf20dc11f3c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/outcome.json",
+      "sha256": "8304bde638261ffc90b9a0daa0e0400851c4df032c40b37c4fc25a2c505c5cf8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/admission_bound.json",
+      "sha256": "fbbb027740f81e188804e08deea24bf1d35286ac22a5823d731ac9d76b8a736a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/after.json",
+      "sha256": "8b8154782fe652428c556475ce3f4a62bb19f95e5a0f46967bdaf72efff51868"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/before.json",
+      "sha256": "93ae52719d80aa52e03e28ced93211ff0be9f53b6bb549629030fb42e4ba4bae"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/fixed_endpoints.json",
+      "sha256": "1779a198e59a81e1a55dc63c230558bf2af4661ec6c84432532dfd45327c85ee"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/immediate_before_move.json",
+      "sha256": "d25a78ad611e0a2889f43343743bcfa4dda9cdf88dc5c837d7b70c1d7ccd5990"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/logger_manifest_bound.json",
+      "sha256": "3352882ed403b994728a8105553e424f65f26616d198ba88ee43e194dd368ecf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/logger_ready_bound.json",
+      "sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/manifest.json",
+      "sha256": "ba2b0084539d717f443af24e0a78aa8cc0cea4862e8caafa5ee1689ed811d652"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/motion_0000.json",
+      "sha256": "04b3793b7f175597b87c63b2462885eac511e96646d2d2aadcdb71df9ea7e529"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/motion_samples.json",
+      "sha256": "ac94cb50d7fdf6cc27032bfb1874af17a439f1d9d0d21c1cd8b1d3f7b957e4b9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/move.claim",
+      "sha256": "a1e58c03284d895e6cea5a3e954fc7b06fb31e956cdb31e1165b6c14308727d4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/move_ack.json",
+      "sha256": "c47297c9db31656b0d36ede196e5855cfc9f768aa2553c5b0768df427ede1b12"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/move_reservation.json",
+      "sha256": "c8a26fe93c13639657f86d814f87a316ce4f338fdf225571ad156889408bc02f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/outcome.json",
+      "sha256": "38fd4f5139c88f1dae4b131d5016434df964842fa1f07781c725205f42cd2de6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/pre_0000.json",
+      "sha256": "4bce3da2bc8d43399a7a8612d7cfa1157cebef48be7b7f14c6c6f311351ac652"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/pre_0015.json",
+      "sha256": "900fc21c467991faaebc0a3aeb90fb3b4c2f48f509f05332cd0df132c2c3160f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/pre_0030.json",
+      "sha256": "7f3e56a93ec34ceb0f3682d8eb7a3da5561524581925483d7ba63f1e11ac8cce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/pre_samples.json",
+      "sha256": "8670ad73daca94a2a249b94f81599571e0b864d2c63313f5357a995c3e199c57"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/root_fresh_snapshot.json",
+      "sha256": "86134939fd19ba353156e1769a4acf17a3d6e445d8aa84061952eb46a67f67e7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_0000.json",
+      "sha256": "245d27bfb2e39c1fc232c5e060f39e40cf6e86394bdef94157a54799da0204ba"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_0015.json",
+      "sha256": "0920e08165b85f980e17f22c8a35fa0ecf5b428d55679e167e496a477580b18f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_0030.json",
+      "sha256": "5e8290f7f413e26c09324e0bc99dd569dce02a6e037a38c5e5372b34019eefe2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_confirmed.json",
+      "sha256": "34710ac7257d52859ebaff712e51a06c2afdd53906eb17c8be7dc7a6bb82fe87"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_samples.json",
+      "sha256": "e29f759e50a54c173bcaf57f8121b5487170e07cc353cd95796f779ed437cf79"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/target_stable.json",
+      "sha256": "3994154aa664f727a829e47cd49b80493f2894d63b40fe409ef8714194e470e0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/stop_R06_root_signal.json",
+      "sha256": "799e2af57176de1a92cf8e4d202c953b63a27c581b7103b97ea9d645049a8b6f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.claim",
+      "sha256": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.review.json",
+      "sha256": "a295521703849e764157d219f966e851d7b093dfc3417f9da90759727419fe14"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_03.claim",
+      "sha256": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_04.claim",
+      "sha256": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_05.claim",
+      "sha256": "f0faa4842dd0bc71c54169e0bd5dc74e497f1befc0d99ee09b382f4ec33c5d23"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__shaper_01.claim",
+      "sha256": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__prepare_A01.claim",
+      "sha256": "ccd53a56698b466b29af5c294275148f60b9f578bbb06731e59c7a3183bccfac"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__pulse_A01.claim",
+      "sha256": "1cca572432b8466a5c7b2f578b8526d015df893ce149a4f5f0aa38007beeefd7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_01__return_A01.claim",
+      "sha256": "340f7260539f26aad7f03327a290d54badc302d6cbadaaecb2cb3715a5e720c8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01.admission.claim",
+      "sha256": "0a3b00265918a1502110a7732bd0ed491fa475cf682407389b1d54c2fd4a2e14"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_move.claim",
+      "sha256": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_speed_recovery01.claim",
+      "sha256": "c9473303646f69ac8894751d52ad94d905bcc9492225214ffc993dbaf521d3f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_repair_A03.admission.claim",
+      "sha256": "ce24e44ea057d70a3e4b9c767ea0e738861e36db7a68667a7ec8831728ebcb82"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02.admission.claim",
+      "sha256": "90235c765e5545efe58eeed1cb76146d46694e1bfcb4e3657cb35d9d13348b60"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02__shaper_01.claim",
+      "sha256": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03.admission.claim",
+      "sha256": "261f0c0e54a27764941eb780127c774809afc09b3f60894199b4ef7e795709eb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03__shaper_01.claim",
+      "sha256": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03_move.claim",
+      "sha256": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_repair_A05.admission.claim",
+      "sha256": "ff42e8d9c89f16a2a69381bfb1a838642586681c69aef3d37d34f6bc71aaf319"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_A01.claim",
+      "sha256": "7390f17821c48840f8b903222e143d27591d83f23ec1ade97a46871556cf3343"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P01.claim",
+      "sha256": "e00f16844b632b10118312bb58568091157fbef9804b19d6f5ea12fc0fbf29b7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P02.claim",
+      "sha256": "a6383b8e61359c3a19c3c7955c192a7a7074fc34230365adcbdd42315edf84bf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__prepare_induction_P03.claim",
+      "sha256": "32539926b4bf5e483d62aa5d824f8bb180817e1b473d4f60075440605557f9a8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_A01.claim",
+      "sha256": "33f14c6f519e5d53e9e7156f83dc13cc992ca6295c38f9d6d2b92d1b2ce9cb1b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_induction_P02.claim",
+      "sha256": "d3d305f5d047052d02c30a056bcf08ddef6e8b3ecadcc9e544b5682985f7685e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__pulse_induction_P03.claim",
+      "sha256": "57bcb0b2596139ce305d7e035494a5b3b13715bd9618667446d89864bf2e9f2e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__recover_prepare_induction_P01_01.claim",
+      "sha256": "7e52187bf254e207d8730d449454a364cbe3c6df086468823c414f125390c508"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__recovery_return_P02_01.claim",
+      "sha256": "6f967fff131be06c35400454f2ca6194cc3ea0c171148e23ffe6f05f4c2eb035"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__return_A01.claim",
+      "sha256": "eec73db7fe75398684c89285f5e76a04111527f5165c7dc7961c8d33a455ade5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__return_induction_P03.claim",
+      "sha256": "3719b5eb2999232afa85e7c4b50b92720051569132efcebb4f78200bd1668300"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/outcome.json",
+      "sha256": "6601548d0de328acbc5f01b58c9ebff03680df5e6c99ba91392c7be8a531c747"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+      "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/outcome.json",
+      "sha256": "0ef5eadb0dc87d2914d563e7607e2593ec6bf5b8270e69ca8d3b535e8a52a789"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/outcome.json",
+      "sha256": "a9cf0bbff16181b8367ace00fc21193f0bf936b4a62ec98039ef7f3e304fa983"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/quality_report.json",
+      "sha256": "56542ab8fb1771af8c04b85ac5db4fe976378654ffeab64f69a27ebb928fdbb2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/fresh_recording_evidence.json",
+      "sha256": "fef73ea36942bf9692d7dfa6324922c431943433a1202682cc014a59d12f27c4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/manifest.json",
+      "sha256": "51d554111e215e7730ca63eff51b0461a34752a4f30d4c5f987479180af95339"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/outcome.json",
+      "sha256": "3c8912db701de37b04cd3b6fd89291a050c4c63f2b630fc24fc7a3de555f4edf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/scan_start.claim",
+      "sha256": "28f9d4d316a375aa7f17746e56451164abb97cc185589234665fe970ab087730"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_localization_I01_full/outcome.json",
+      "sha256": "73b8f6501d03e62256d29808f6ffbc00e41965b5bf4ee48a7d1d459680eb8134"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_preparation_recovery_P01_full/outcome.json",
+      "sha256": "b4d7c5d05b222715a50614ed25733bac2f9a603b3389e184497c1d33917fcd75"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment03_confirm_full/outcome.json",
+      "sha256": "27d879a6f5d64d4af6d4c0b620177f5c7c8ed3fbf46d4acc6fdea638599a3d95"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment03_full/outcome.json",
+      "sha256": "6bbb4f92a770b8e99692310f47104e823754dedbaca58f50844e574707545f59"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment04_full/outcome.json",
+      "sha256": "e15db5073f5c3c08aa10a8e100a79d523e4b900306ae5a9765b793c5425dbbbb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment05_full/outcome.json",
+      "sha256": "13b043ff4698e3688026f9546fca4099a586329e10532e6f99f4906c89db8301"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/outcome.json",
+      "sha256": "b0717f7e8c6cc4f6730bb6bffdda32872954b4fe25afd23d690be52c30b95efa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/after_failure.json",
+      "sha256": "9a9ecf33048280c122c7b1f6130513fada70245d51cc022f1e154752a78acdb6"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/attempt_binding.json",
+      "sha256": "29604e66fe12e042e1f33b7d37b6476aabecb76793fb01ebc8f6eba5f20355be"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/before.json",
+      "sha256": "1d65b377340622882e355dfc7902cd22e9cf17639fa491991335e680a7e145ff"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/diagnostic_entry_summary.json",
+      "sha256": "37938c6e954551b14aadb436e8e10157580a08fe5455cdf6fe2e11a17c0e8d26"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/failed_owned_scan_stop.claim",
+      "sha256": "449ab326b84494823f52c9b9c18b3dc2d4ad945f82aa727b8244610cdc28ec4a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/failed_owned_scan_stop_ack.json",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/failure_withdraw.claim",
+      "sha256": "beea84038feac2be5a728448eb54e8bc2836e367aba5360cc873b0313ac777ae"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/failure_withdraw_ack.json",
+      "sha256": "c55c81cce731061ee3380ec81d1269abde73bf85eba841c403a458519f4c23bd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/fresh_recording_evidence.json",
+      "sha256": "3bad83e3ff1b4f07033d556c0bfc5a641c3cae07bd66f2f871a830dd8fdab907"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/immediate_before_start.json",
+      "sha256": "7a589e0827b0852f979d372429b5db47e71e2f29fe8b59963707bdb77a8938f4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/logger_manifest_bound.json",
+      "sha256": "3352882ed403b994728a8105553e424f65f26616d198ba88ee43e194dd368ecf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/logger_ready_bound.json",
+      "sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/manifest.json",
+      "sha256": "ec0bf398702da8f96f37dcc92a659a46d661cc359324a14d910bbae717abf500"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/native_start_positioning.json",
+      "sha256": "6e32b7948daa1a5c88f7f7681bf9d59d613de5b15e9b3e98ac7557d84f29d698"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/outcome.json",
+      "sha256": "84186e09bcd98eb65a13b182e8db2e433586c5d219e5472f076fb900a85d31bb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/root_fresh_snapshot.json",
+      "sha256": "5dd4824e2baff3ff85b27ea5152ebefb177125d4a32af761b9daa943718dec39"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/scan_start.claim",
+      "sha256": "8557c30e320e7525311c3521e5527da10f93c804e5a7d9cff6b201e661a7b390"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/scan_start_ack.json",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/withdraw_confirmed.json",
+      "sha256": "f7e81591c18be83a1cbfd7cb24261f56cfdafba5480736dc556ba0b7732b833c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/before_full/outcome.json",
+      "sha256": "d15a8820b079763cc319b7a49a3e2fb1a534377b861e1de0cea00722b2f6af6d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_slow/outcome.json",
+      "sha256": "0a35a0d2b0c5c82122f669997fb8a63b5f5eb539492029d036f0ae700ba03343"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/outcome.json",
+      "sha256": "ebb2276b0b20a219f065d3140e71c514f0eada6dc91a8f9337675da46b6583ec"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_I01/outcome.json",
+      "sha256": "d7731975745ab2a2e072a10d60e081755d48893a1ba80306ba04a663776350f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/after30s.json",
+      "sha256": "34f007887b7b75b23caded7fec9bc8e36b31730c3acf485d7c10941b062c274b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/manifest.json",
+      "sha256": "ffde97ce007ec39552a2feb82e44fe04124326851e331562e89573fa8c12b1ca"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/outcome.json",
+      "sha256": "631a9f0db89ccac28e08254db9099ea8d8942b877d5763f7f6d787b90b9d95ed"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/after30s.json",
+      "sha256": "bb4f75a19f8dd04ed258e97b766b300d9e66e11a5bb7a6c6ce6a56971081fb16"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/manifest.json",
+      "sha256": "14899cc87e3cf801156499b8a31a3aaa2574d78bf52263926e182a52076b7bf7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json",
+      "sha256": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger/outcome.json",
+      "sha256": "4223f8b11414e4768e53fa97e34b3ac88bad26eafd0bf58f7134d26f58e77098"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_02/outcome.json",
+      "sha256": "1074fe53fd4e301db38e4ec9ca837e401f3285a656abbf2fc0a42b4c15e2abda"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_03/outcome.json",
+      "sha256": "ad1cc975cc555f49cbd5166ff3a2ea548ef64d3bd25875d009ff1416bb54d2d4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_04/outcome.json",
+      "sha256": "7acdcdbbabea31921532a84b85fa9e799a64653d197528cfc7f98aefb4f85d1d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_05/outcome.json",
+      "sha256": "6972197cfc618c66812c38f03b47b7a1c4d5912a93884ba8d047dde68cf6e8b4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/outcome.json",
+      "sha256": "a1a64947f61fcc8f0d33a69cba82f4cff14a37bedf19b12dee37c9c4f63eb426"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/manifest.json",
+      "sha256": "d5d14e39b8e85d6ccb0e94e8147fec6a426c73425e8ee2855403cebe941a7271"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/outcome.json",
+      "sha256": "672350e12cde3629246939a33b1bfe1e69fce3df7a4f12942d1cd783d90aa0ce"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_induction_I01/outcome.json",
+      "sha256": "13bb2f6be287b55d0e490763f5de97751d78950c91b0a5324110266de37496aa"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_induction_I01_recovery_01/outcome.json",
+      "sha256": "3b22024791031c17861a10657a37785bfd5da15b7c40d352bcfeb326c73c2659"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pre_repair_A02_full/outcome.json",
+      "sha256": "b3812dfd0847556ed8d5a5edffae4a7b33147da50e1dd5c5bc5e5bfb6515bc47"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pre_repair_A02_observed_full/outcome.json",
+      "sha256": "c3448e705abef2cc2c191df84a24de0a365234113cf1d6b2d422e12a4a192ba0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_A01/outcome.json",
+      "sha256": "6cb6a3d1a6c8d351bb377709e3396c0006562e8dc9e418c3bc8223bcf9af9fd2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P01/outcome.json",
+      "sha256": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+      "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/manifest.json",
+      "sha256": "89b8b6f7657e473e35abe26c8d93dcf80747f2f2f617eb7b7fee79c8a7e5cb92"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+      "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_A01/outcome.json",
+      "sha256": "bb18a4bf6f600d17a4d04b9d16cd2ebfb766e6bcef1cef91bd832f11ad177ef1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+      "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/after30s.json",
+      "sha256": "8293c1fbcc9e55f6c87ef96f7c94937576487d958e71bccb875769f490e19bb4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/feedback_readiness.json",
+      "sha256": "ed6a6cd1485ff2fdaea72407855668286761292bae84ddd6981a7501e9d39fa7"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/manifest.json",
+      "sha256": "29ccdd417f3595c6b4b5723c07d854bce0d7020f8af14707111622b312ea0f01"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/outcome.json",
+      "sha256": "390503ab646fdba9c96ffe5c2e4ea7d127fd1efab37cfb5b5c7750f8ce1c1d9d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/pulse.claim",
+      "sha256": "a62750e3f6498eaae34d916eed15f41474270ba33148fdcb843b2df64cad6aed"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/pulse_ack.json",
+      "sha256": "df2a2d401080d36cfa8ef631f1f69ff910241917c09ca5700129bf0d64ccb003"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recover_prepare_induction_P01_01/outcome.json",
+      "sha256": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/outcome.json",
+      "sha256": "40fdf15db406993d628e5d7f855183f1a83cc9f7793d4c405ed5ab2dceaeb55e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A03/outcome.json",
+      "sha256": "96fa9eded57c36514ec77071127df01fde60dd9285ce0f595d64cf0dee42b5b1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/after30s.json",
+      "sha256": "5f8d3044cd4eb3497e2413215457229e0b1a6788a41346e0b4c1ae230e58fb71"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/manifest.json",
+      "sha256": "e58ba3a5c124c8b4c4234454305aa4cbb96068064f222e285350e840819978e3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/outcome.json",
+      "sha256": "f5bbfd836d56ae39457b2f4443886bf1a4ab6e17e2a28ed73e7035ff2905bbc9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_fast/outcome.json",
+      "sha256": "1ccc14c71a7416dbe89db24172f615e20bf815c4ab040b861467b37e95d82922"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_A01/outcome.json",
+      "sha256": "c966d2f066a8bd2f0e61b08bd4da8ef47b36aa9e3e307bee9a08542f56cd5efe"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/manifest.json",
+      "sha256": "0daf12d773185228a1ded29c2e3329e854809d25c007cc95f4654d267ef1c583"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/outcome.json",
+      "sha256": "69c2c9bee8503ba535fd50c449380310f7d6ffe547fd5d7ecc06964fc9c27ead"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/slow_diagnostic_full/outcome.json",
+      "sha256": "86302963f805d42fbfa191d1c197c1b8c10926e5f431fb9755eff08bf914f88f"
+    }
+  ],
+  "new_baseline_required": true,
+  "recording_gap_preserved": true,
+  "failures_retained": {
+    "P01": "stopped_no_further_sets then independent recovery",
+    "P02": "uncertain_or_recovery_failed with known pulse ACK then independent recovery",
+    "R06_logger": "recorder_failed_no_retry then independently confirmed owned terminalStop"
+  },
+  "root_sole_writer_and_live_guards_still_required": true,
+  "source_pins": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_finez_R07_02_100pA_once.py": "7a77ce1ef8689e26dd86f2a5615c1973a1cf7f5d12acf2f4c681c239b586e0af",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home_corner_once.py": "f6f3c0c0c93521e3c0a9dd3d5db011f8494d271786ce16b0ad684363eb6917c3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_finez_R07_100pA_once.py": "5586d4c64d9bbb6a188dc5f966c7b100371aa540126a0cf0f1961299ef2e4477"
+  },
+  "R07_actual_recovery": {
+    "partial_baseline_preserved": "baseline_segment07_full",
+    "fine01_preserved_status": "failed_after_known_On_ack",
+    "Home_move": "move_R07_home01",
+    "fine02": "engage_R07_02",
+    "workpoint_change_not_unique_chemical_cause": true
+  }
+}

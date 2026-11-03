@@ -1,0 +1,204 @@
+{
+  "schema": "R07-S01-used-unused-practice-v1",
+  "snapshot_scope": "After fine03 and extended through311. Matched full scan has actual Start only at this snapshot.",
+  "no_skill_applied": true,
+  "entries": [
+    {
+      "id": "baseline214",
+      "status": "used_complete",
+      "evidence": [
+        "baseline_manual",
+        "baseline_outcome",
+        "baseline_quality"
+      ],
+      "what": "完整匹配基线、原始正反扫任务判读和全部345600值匹配",
+      "limit": "不从当前可用推断后续诱导必然成功"
+    },
+    {
+      "id": "prepare200",
+      "status": "used_complete",
+      "evidence": [
+        "prepare"
+      ],
+      "what": "四步125/156.25/195.3125/200pA及末30s",
+      "limit": "准备电流本身是干预，不是脉冲"
+    },
+    {
+      "id": "gain2T_speed2",
+      "status": "used_complete",
+      "evidence": [
+        "gain",
+        "speed"
+      ],
+      "what": "P不变、T加倍、I减半、单向行0.456s，独立单写和精确回读",
+      "limit": "5s状态核对不包含Z漂移/RMS验收，不代表闭环实测时间加倍"
+    },
+    {
+      "id": "S01_exposure",
+      "status": "used_incomplete_known_end",
+      "evidence": [
+        "induction",
+        "induction_native"
+      ],
+      "what": "一次部分曝光，旧400pA运行门在−431.027pA触发，Stop与Withdraw已知ACK",
+      "limit": "StartACK至StopACK100.523620s，原生明确核心99.93s，未完成曝光，不建立坏态"
+    },
+    {
+      "id": "OffHome_restoration",
+      "status": "used_complete",
+      "evidence": [
+        "Home_gain",
+        "Home_speed",
+        "Home_current"
+      ],
+      "what": "三个独立Off1/Home单写恢复原gain/speed/100pA",
+      "limit": "不证明隧穿；不改写原incomplete"
+    },
+    {
+      "id": "Home02_fine03",
+      "status": "used_complete_with_residual_drift",
+      "evidence": [
+        "Home_move02",
+        "fine03",
+        "fine03_native",
+        "extended_native"
+      ],
+      "what": "Home移动回角点后单次精调与30.1569s观察，后续独立原生延长观察",
+      "limit": "电流重建不等于Z无漂移；退针、移动和进针构成后图混杂"
+    },
+    {
+      "id": "scan5nA",
+      "status": "used_started_result_pending",
+      "evidence": [
+        "user_scan_current_v2",
+        "matched_scan_start",
+        "matched_scan_manifest",
+        "scan_peer"
+      ],
+      "what": "用户接受扫描1–5nA，主控选择仅两个运行调用点 absI>5nA或非有限时停止",
+      "limit": "等于5nA允许，无用户给出的持续时间；保留入场、恢复、取帧后及fine原门；不是保护或损伤阈值"
+    },
+    {
+      "id": "normal_On2_return",
+      "status": "referenced_not_used_this_episode",
+      "evidence": [],
+      "what": "正常On2四步减流及正常gain/speed恢复、完整诱导后正常验证链",
+      "limit": "实际incomplete+OffHome不满足该入口；原源码保持不变，不能宣称正常链已验证"
+    },
+    {
+      "id": "unknown_write_branches",
+      "status": "mock_or_static_only_no_actual_unknown_event_this_episode",
+      "evidence": [],
+      "what": "未知ACK后不读写、不重试、不自动回滚",
+      "limit": "本轮实际ACK均已知；不把离线覆盖写成实机故障测试"
+    },
+    {
+      "id": "new_dirty_and_repair",
+      "status": "not_established_pending_complete_image",
+      "evidence": [],
+      "what": "匹配完整图决定当前任务是否坏",
+      "limit": "本截面未宣布新坏态、新修复或新增严格闭环"
+    },
+    {
+      "id": "prior_unused_sections",
+      "status": "unchanged",
+      "evidence": [],
+      "what": "此前Hold继续等待分支、未用采集替代、未用动作处方及所有非本轮资源",
+      "limit": "保持原文件，不据本轮经验替换未用章节"
+    }
+  ],
+  "source_refs": {
+    "user_strategy": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_guidance.json",
+      "sha256": "d7908618387509af4d0875919078343179a0875913c962d4618778d04cb26718"
+    },
+    "user_scan_current_v2": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+      "sha256": "b324208ce29f2c72817f84dc67aee3150caf303ca78b51fa5556399a29c79aab"
+    },
+    "baseline_manual": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/post_manual_review.json",
+      "sha256": "e8b00ba9293a8b1ada965b33da3f5898f94b9261d5efae92a98c1d33f77ca316"
+    },
+    "baseline_outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+      "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+    },
+    "baseline_quality": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+      "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+    },
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/outcome.json",
+      "sha256": "f522153ea2c6ad33d05fbc7aa5e4f403af67f063fda714a304a6f6b5afce66ec"
+    },
+    "gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/outcome.json",
+      "sha256": "0cdbd4093aef198a9fcc599811ecabb052eb4ac4711b10c0e198b0f3c374b927"
+    },
+    "speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_speed/outcome.json",
+      "sha256": "b87602fc2d26f2b31c831e6ab908bea8e6eb69cfe2ee359cf18ca27c530b8334"
+    },
+    "induction": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+      "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+    },
+    "induction_native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_induction_trigger_stop_withdraw_native_review.json",
+      "sha256": "6240cd17add6dbc3e8e8c4fbfada07e3144e3bf6cfdbc060f751656f02c813b1"
+    },
+    "Home_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/outcome.json",
+      "sha256": "29ce221d70c07fbee09977cc936f88a5e2571d82a2de9913e6468c5ab84d112d"
+    },
+    "Home_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/outcome.json",
+      "sha256": "0f78f922de18f9d1b4624739ba995c8492b81a37702c5b60f2473f967258786c"
+    },
+    "Home_current": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/outcome.json",
+      "sha256": "c2e7abdd0fac94670b71c1bae85e8d6cd806201f3d89cdc0b951fe5bdfcb4f2a"
+    },
+    "Home_move02": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02/outcome.json",
+      "sha256": "6de803b5ac3b62248d0ac25e961f0b93fa2620d496828f29175b8dad34339bbb"
+    },
+    "fine03": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_03/outcome.json",
+      "sha256": "08ccd73c4699c155fb77bd41f76f0a90598cc4f5b4fe2f6ec7addab2aeb1b848"
+    },
+    "fine03_native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_fine03_native_review.json",
+      "sha256": "369c2a711e7b3b463b55478e5b7a911acd902af99498bbd5580ad6c8a0b732e0"
+    },
+    "extended_native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_fine03_post_through311_native_review.json",
+      "sha256": "0f57dab7bd6e8bf3374fb0ec598326f6fa3e437807d9cec0d0e5aeb6b7e9bc23"
+    },
+    "matched_scan_start": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/scan_start_ack.json",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    "matched_scan_manifest": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/manifest.json",
+      "sha256": "f60dabdfb21107dfa06b443f6e3464cdf693296c4a7b6d6d70d5b004274cad74"
+    },
+    "scan_peer": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/peer_scan_5nA_repair_audit.json",
+      "sha256": "32ec0a27ff9aed485ac1a8cc49ddac445fd19f2c0be01fbd2060a87e74124b69"
+    }
+  },
+  "counts_at_cut": {
+    "full_repair_attempts_completed": 2,
+    "requested": 5,
+    "strict_cycles": 0,
+    "pulse_used": 5,
+    "pulse_maximum": 6,
+    "R06_shaper_Starts": 3,
+    "scan_induction_attempts": 1,
+    "S01_complete_frames": 0,
+    "S01_partial_exposure_consumed": true
+  },
+  "new_action_authorization": false
+}

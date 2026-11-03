@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/review_S01_setpoint_native.py",
+      "sha256": "f55fe9f1a28b1809dc2c161d1ba06463572db7bb74fad162929b2e60a2e9f7c2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/review_S01_configuration_native.py",
+      "sha256": "cad5cc5c711e3112a231f925a18e59762507925d4a4a19825bac85a0bb690164"
+    }
+  ],
+  "supersedes_preparation_only": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_native_auditors_offline_preparation.json",
+    "sha256": "c0d0a819a218870058f3a670d02b507153ca340149a48394c5d764db9bfbfc6f"
+  },
+  "changes": "Pin and record underlying reviewer SHA. No numerical or phase logic changed. No actual native stage audit had yet run.",
+  "checks_passed": [
+    "network-blocked imports",
+    "base helper immutable pin",
+    "four steps",
+    "configuration fields"
+  ],
+  "actual_hardware_or_stage_execution": false
+}

@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-11-03T06:18:01.386867+00:00",
+  "pair": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/image_measurements.json",
+    "sha256": "93ea05c9320528aa2bf811d7f0c97dfdbf3b469d5cde4dccefe3b9d991438483"
+  },
+  "source_script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/render_full_dynamic_ranges.py",
+    "sha256": "7395a2cc7e34a47e6b2ab5851cc177096998a40b764b2fe1b134e90feb9b1345"
+  },
+  "actual_native_labels": {
+    "reference": "213",
+    "observed": "214"
+  },
+  "method": "Raw Z minus one whole-frame median per direction; no global plane, row subtraction, smoothing, resampling or registration. Median offsets explicitly saved.",
+  "offset_medians_nm": {
+    "referenceF": -105.27525518000402,
+    "referenceB": -105.27626059797512,
+    "observedF": -106.52670923150254,
+    "observedB": -106.53105064761803
+  },
+  "full_range_nm": [
+    -0.6204849967161863,
+    6.920540585042545
+  ],
+  "inherited_210_terrace_contrast_nm": [
+    -0.2886687155978507,
+    0.40538459700201085
+  ],
+  "contrast_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/after_vs_210/dynamic_range_display_record.json",
+    "sha256": "ef9f6eaa74c057671411ae93c390cc788e148addb3a55c433809a31841b39f66"
+  },
+  "limitations": "Scalar-normalized displays assess shape and dynamic range, not absolute Z displacement or chemistry. Marked clipping is a visualization choice; raw arrays are unchanged.",
+  "panels": {
+    "full_raw_range": {
+      "213F": {
+        "above_display_limit_pixels": 0,
+        "below_display_limit_pixels": 0,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.3440376872276829,
+          6.9143695213824685
+        ],
+        "raw_min_max_nm": [
+          -105.6192928672317,
+          -98.36088565862156
+        ]
+      },
+      "213B": {
+        "above_display_limit_pixels": 0,
+        "below_display_limit_pixels": 0,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.3433449080603168,
+          6.894172344118488
+        ],
+        "raw_min_max_nm": [
+          -105.61960550603544,
+          -98.38208825385664
+        ]
+      },
+      "214F": {
+        "above_display_limit_pixels": 0,
+        "below_display_limit_pixels": 0,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.6204849967161863,
+          6.920540585042545
+        ],
+        "raw_min_max_nm": [
+          -107.14719422821872,
+          -99.60616864645999
+        ]
+      },
+      "214B": {
+        "above_display_limit_pixels": 0,
+        "below_display_limit_pixels": 0,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.6095284277307655,
+          6.901100135792149
+        ],
+        "raw_min_max_nm": [
+          -107.1405790753488,
+          -99.62995051182588
+        ]
+      }
+    },
+    "frozen_210_contrast_marked_clipping": {
+      "213F": {
+        "above_display_limit_pixels": 9862,
+        "below_display_limit_pixels": 1867,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.3440376872276829,
+          6.9143695213824685
+        ],
+        "raw_min_max_nm": [
+          -105.6192928672317,
+          -98.36088565862156
+        ]
+      },
+      "213B": {
+        "above_display_limit_pixels": 9984,
+        "below_display_limit_pixels": 1813,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.3433449080603168,
+          6.894172344118488
+        ],
+        "raw_min_max_nm": [
+          -105.61960550603544,
+          -98.38208825385664
+        ]
+      },
+      "214F": {
+        "above_display_limit_pixels": 11670,
+        "below_display_limit_pixels": 14444,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.6204849967161863,
+          6.920540585042545
+        ],
+        "raw_min_max_nm": [
+          -107.14719422821872,
+          -99.60616864645999
+        ]
+      },
+      "214B": {
+        "above_display_limit_pixels": 11953,
+        "below_display_limit_pixels": 14229,
+        "pixels": 57600,
+        "actual_relative_min_max_nm": [
+          -0.6095284277307655,
+          6.901100135792149
+        ],
+        "raw_min_max_nm": [
+          -107.1405790753488,
+          -99.62995051182588
+        ]
+      }
+    }
+  },
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/full_raw_range.png",
+      "sha256": "4b78af62eacee8d4330eea110d8c9f8b2e6b6a34a70c7ab3015556356c0ad638"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/frozen_210_contrast_marked_clipping.png",
+      "sha256": "540903e99fe85c5937f123aa94f1ea01a28b98d74279986c274cbe8d190a55cc"
+    }
+  ]
+}

@@ -22,6 +22,8 @@
 
 [I02 角点诱导结果](benchmark/results/au111_I02_20261103/README.md)保留 209→210 的完整对比、实际动作和恢复时序。成像任务仍可用，未建立新的坏态。
 
+[R07 扫描诱导与完整214/215对照](benchmark/results/au111_R07_S01_20261103/README.md)保存一次被旧电流门中止的扫描诱导，以及独立恢复后的完整215。当前纳米成像任务可用，尚未建立新的坏态。累计完整修复尝试 **2/5**，严格诱导修复闭环 **0**，脉冲 **5/6**。Skill按已用步骤补充扫描运行与恢复条件的区分。[已用与未用方法台账](benchmark/docs/R07_S01_SKILL_PRACTICE/README.md)单独保留。
+
 运行 benchmark（Python 3.11+）：
 
 ```powershell

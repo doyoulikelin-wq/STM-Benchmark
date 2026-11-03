@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-03T06:40:47.428281+00:00",
+  "scope": "Incomplete S01 exposure buffers only, read after known Home gain restore. No completed acquisition identity or validated fresh row mask.",
+  "capture": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/outcome.json",
+    "sha256": "62832a1387d916ec7a334d1beeac2f479c1a0df7b2e37f87f2750862f1239722"
+  },
+  "integrity": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/partial_buffer_integrity_review.json",
+    "sha256": "1345e796512f8eb6ca81c9c4f68482689fa3b90923d13097784c03eeee358f10"
+  },
+  "display": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/offline_display/display_record.json",
+    "sha256": "803b509fd6c7329f41569df66c25c6d26ae2c84af62c19ad5e8b0276897edc32"
+  },
+  "full_task_usable": null,
+  "verified_induced_bad_state": null,
+  "functional_effect": "pending original-setting complete recovery validation",
+  "visible_description": "有限值显示的上部区域中，正反向仍可辨 C1 主体、上方对象与斜台阶。局部短横线及边缘电流纹理保留。右侧旧丘北坡进入有限值区，中心与下半场位于非有限值区。",
+  "finiteness": "F各通道0至109行为完整有限值，B各通道0至108行为完整有限值，第109行96个有限值，其余无有限值。此记录只描述缓冲内容，不能将有限值自动变成已验证当前扫描行。",
+  "image_limits": [
+    "采集曾使用200pA、双倍速度与双倍T，读回缓冲时gain已在Home恢复，速度和200pA保持。",
+    "缓冲新旧行混合仍有可能，灰色直接表示原始非有限值。",
+    "像素电流最负约-3.9468nA为缓冲像素值，与2kHz原生瞬态及TCP触发值分开记录。",
+    "未采到完整场，S1和大丘中心等当前任务所需区域缺失。",
+    "本次不完整暴露及独立恢复记录保留，原normal全帧完成路径继续拒绝。"
+  ],
+  "strict_cycle_increment": 0,
+  "new_repair_count_increment": 0
+}

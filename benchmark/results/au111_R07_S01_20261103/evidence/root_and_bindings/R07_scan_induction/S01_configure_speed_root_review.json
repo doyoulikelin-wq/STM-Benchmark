@@ -1,0 +1,28 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S01-stage-review-v1",
+  "stage": "configure_speed",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_gain_native_review.json",
+    "sha256": "6f584e5f3e05d3824900319c7d97383b474e3845a3767bd1df7cc878546c932d"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1558920203355583,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/outcome.json",
+      "sha256": "f522153ea2c6ad33d05fbc7aa5e4f403af67f063fda714a304a6f6b5afce66ec"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/outcome.json",
+      "sha256": "0cdbd4093aef198a9fcc599811ecabb052eb4ac4711b10c0e198b0f3c374b927"
+    }
+  },
+  "reason": "Known single GainSet and exactreadback verified, bridgecb7dea77 and post39.02s native I within200pA20percent, no400pA, ZRMS1.306pm/slope+.257pm per s. Root selects independent SpeedSet to0.456s per direction109.649nm/s at same200pA and candidategain. This stage changes onlyscanconfiguration, doesnotstartscan. Native gain channels unavailable; binaryACK andcomplete readbacks supplyconfigurationproof. Freshsnapshotnext."
+}

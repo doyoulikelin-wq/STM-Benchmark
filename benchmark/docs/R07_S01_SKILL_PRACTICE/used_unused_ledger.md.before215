@@ -1,0 +1,21 @@
+# S01 实践使用台账
+
+After fine03 and extended through311. Matched full scan has actual Start only at this snapshot.
+
+本台账不修改 Skill，不形成新硬件准入。后图结果待独立判读。
+
+| 方法 | 本截面状态 | 已发生或已参考 | 限制与保留 |
+|---|---|---|---|
+| baseline214 | used_complete | 完整匹配基线、原始正反扫任务判读和全部345600值匹配 | 不从当前可用推断后续诱导必然成功 |
+| prepare200 | used_complete | 四步125/156.25/195.3125/200pA及末30s | 准备电流本身是干预，不是脉冲 |
+| gain2T_speed2 | used_complete | P不变、T加倍、I减半、单向行0.456s，独立单写和精确回读 | 5s状态核对不包含Z漂移/RMS验收，不代表闭环实测时间加倍 |
+| S01_exposure | used_incomplete_known_end | 一次部分曝光，旧400pA运行门在−431.027pA触发，Stop与Withdraw已知ACK | StartACK至StopACK100.523620s，原生明确核心99.93s，未完成曝光，不建立坏态 |
+| OffHome_restoration | used_complete | 三个独立Off1/Home单写恢复原gain/speed/100pA | 不证明隧穿；不改写原incomplete |
+| Home02_fine03 | used_complete_with_residual_drift | Home移动回角点后单次精调与30.1569s观察，后续独立原生延长观察 | 电流重建不等于Z无漂移；退针、移动和进针构成后图混杂 |
+| scan5nA | used_started_result_pending | 用户接受扫描1–5nA，主控选择仅两个运行调用点 absI>5nA或非有限时停止 | 等于5nA允许，无用户给出的持续时间；保留入场、恢复、取帧后及fine原门；不是保护或损伤阈值 |
+| normal_On2_return | referenced_not_used_this_episode | 正常On2四步减流及正常gain/speed恢复、完整诱导后正常验证链 | 实际incomplete+OffHome不满足该入口；原源码保持不变，不能宣称正常链已验证 |
+| unknown_write_branches | mock_or_static_only_no_actual_unknown_event_this_episode | 未知ACK后不读写、不重试、不自动回滚 | 本轮实际ACK均已知；不把离线覆盖写成实机故障测试 |
+| new_dirty_and_repair | not_established_pending_complete_image | 匹配完整图决定当前任务是否坏 | 本截面未宣布新坏态、新修复或新增严格闭环 |
+| prior_unused_sections | unchanged | 此前Hold继续等待分支、未用采集替代、未用动作处方及所有非本轮资源 | 保持原文件，不据本轮经验替换未用章节 |
+
+证据路径、SHA与截面计数见 [机器可读台账](./used_unused_ledger.json)。后来完成的后图或新的 S02 选择应另加版本，不能改变本截面的待定状态。

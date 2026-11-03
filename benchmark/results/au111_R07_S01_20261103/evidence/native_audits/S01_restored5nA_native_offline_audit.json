@@ -1,0 +1,14 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/review_S01_restored_5nA_scan_native.py",
+    "sha256": "374a22c280f6df0f488a1d3801aef76e45836045f6603650beb7d00237d0019f"
+  },
+  "checks": [
+    "socket-blocked import",
+    "actual source pin",
+    "actual restored100pA/.912s entry",
+    "strict greater-than5000pA raw descriptor includes5001 and excludes5000"
+  ],
+  "actual_end_audit_run": false,
+  "no_instrument_or_admission_operation": true
+}

@@ -1,0 +1,188 @@
+{
+  "created_utc": "2026-11-03T06:22:46.339168+00:00",
+  "reviewer": "offline image review agent",
+  "scope": "本地封存完整图 213 与 R07 恢复后新基线 214 的人工图像判读",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+    "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+    "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+  },
+  "matched_post_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+    "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+  },
+  "matched_post_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+    "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+  },
+  "source_proof": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/fresh_recording_evidence.json",
+    "sha256": "46e18e69da8bc6d344480c0dfde4c6ca8bcddeaa9d524e45350960c925849669"
+  },
+  "prospective_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/prospective_baseline_plan.json",
+    "sha256": "d2f43a335662c95c367680cc4350e2c8857584f0ba232fa624e758ab42b47e85"
+  },
+  "actual_native_labels": {
+    "reference": "213",
+    "observed": "214"
+  },
+  "native_sources": {
+    "213": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/quality_report.json",
+        "sha256": "56542ab8fb1771af8c04b85ac5db4fe976378654ffeab64f69a27ebb928fdbb2"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/analysis/analysis_planes.npz",
+        "sha256": "90d9f54e52bc3d866f788ddbf4f36d086b535e1ab2af9583bf9b27e0150ade17"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/outcome.json",
+        "sha256": "3c8912db701de37b04cd3b6fd89291a050c4c63f2b630fc24fc7a3de555f4edf"
+      }
+    ],
+    "214": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+        "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/analysis_planes.npz",
+        "sha256": "2b8f6504bc7bbcb1fb3ef6ddbe227bb009da1dca58d6589d4fde8ac7387cdd08"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+        "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+      }
+    ]
+  },
+  "full_task_usable": true,
+  "task_usable": true,
+  "current_quality": "usable_for_defined_nanoscale_task",
+  "verified_current_functional_degradation": false,
+  "chemical_clean": "unknown",
+  "S01_executed_at_review": false,
+  "cycle_increment": 0,
+  "successful_induced_cycle_increment": 0,
+  "task_scope": "在同条件完整50nm帧中分辨分散纳米突起及台阶边缘。精确对象几何、原子分辨和化学洁净超出当前证据。",
+  "reason": "214正反扫均保留C1主体与上方小点的分离、C3连续台阶与邻近突起、S1独立紧凑突起。全场分散对象可追踪，当前证据支持既定纳米成像任务可用。",
+  "trace_retrace_evidence": {
+    "C1": "扩大原坐标上下文显示两向主突起完整，与上方小点由背景清楚分开。主体下缘越出原固定ROI，固定框内宽度和形状量值带裁切限制。原始固定框及其指标保留，扩大窗口只补充探索性上下文。",
+    "C3": "两向台阶保持连续，近边突起清楚，其整体位置沿负Y移动约0.83nm。",
+    "S1": "两向保留独立紧凑突起，与背景清楚分开。固定原掩膜对比降低受到共同位移影响。",
+    "C2_D4": "处于旧I03大丘边坡，继续作局部影响检查，远端独立参照由C1/C3及补充S1承担。",
+    "full_frame": "正反向均可追踪分散对象和台阶。未识别妨碍既定任务的跨对象一致复制或广泛持续刮花。旧右侧大丘与局部边缘粗糙继续保留。"
+  },
+  "shared_displacement": {
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/landmark_displacement.json",
+      "sha256": "5a6a98773d5de1eb5098b7df5b509ed6fe6cf256d0431e0451be6b23923e749e"
+    },
+    "peak": {
+      "dy_rows": 4,
+      "dx_cols": 0,
+      "dx_nm": 0.0,
+      "dy_nominal_Y_nm": -0.8333333333333334,
+      "corr": 0.9340459902742663,
+      "on_search_boundary": false
+    },
+    "zero": {
+      "dy_rows": 0,
+      "dx_cols": 0,
+      "dx_nm": 0.0,
+      "dy_nominal_Y_nm": 0.0,
+      "corr": 0.6202298100820819,
+      "on_search_boundary": false
+    },
+    "interpretation": "C1/C3/S1联合最相似位置为向后4行，即名义Y减0.833nm。C1独立峰约5行。共同位移与恢复后蠕变、漂移或定位差异相容，具体贡献未分离。主图保持原坐标，此相关性只作次要位置敏感性。"
+  },
+  "C1_context": {
+    "record": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/C1_expanded_context_record.json",
+      "sha256": "b9dbdf9fa1b2416c5a9d2ac58edbe749a1f1809d0cee1d2a576c0ecf16722b9f"
+    },
+    "figure": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/C1_expanded_context_raw_FB.png",
+      "sha256": "1475dc7034d27c613f66541a6dc5099c6c44236cd504f9ed9183ae2f27a8fc4a"
+    },
+    "original_roi_rc_half_open": [
+      20,
+      44,
+      90,
+      115
+    ],
+    "exploratory_context_rc_half_open": [
+      12,
+      62,
+      80,
+      128
+    ],
+    "context_adopted_before_S01": true,
+    "future_comparison_note": "未来S01配对图保留原ROI指标，同时检查此相同扩大范围内C1完整主体、C3及S1；任务标准保持对象分离和边缘可辨。"
+  },
+  "causal_boundary": "213之后发生记录间隔、第一次R07扫描受控中止、fine01失败并退回Home、Home态XY返回角点以及fine02已知成功。214为这条复合历史后的新完整基线，不能将其差异归给单一动作或材料过程。",
+  "workpoint_time_context": "根节点记录fine02后同角点Z由14:06:34的约-106.017nm到14:09:30的约-104.8005nm，176秒变化约+1.2166nm。工作点与时间变化约束绝对高度及形状因果解释。",
+  "display": {
+    "record": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/dynamic_range_display_record.json",
+      "sha256": "f042c4d2da4ddf16035f9b8c863315cacdc7fe70bebede74f6079c5504eb1fde"
+    },
+    "full_unclipped_range_nm": [
+      -0.6204849967161863,
+      6.920540585042545
+    ],
+    "frozen_210_terrace_range_nm": [
+      -0.2886687155978507,
+      0.40538459700201085
+    ],
+    "raw_arrays_unchanged": true,
+    "primary_registration": false,
+    "frozen_clipping": "品红表示超出显示上限，青色表示低于显示下限；原始数值完整保留。"
+  },
+  "comparison": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/image_measurements.json",
+    "sha256": "93ea05c9320528aa2bf811d7f0c97dfdbf3b469d5cde4dccefe3b9d991438483"
+  },
+  "figures": {
+    "frozen_210_contrast_marked_clipping.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/frozen_210_contrast_marked_clipping.png",
+      "sha256": "540903e99fe85c5937f123aa94f1ea01a28b98d74279986c274cbe8d190a55cc"
+    },
+    "full_raw_range.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/full_raw_range.png",
+      "sha256": "4b78af62eacee8d4330eea110d8c9f8b2e6b6a34a70c7ab3015556356c0ad638"
+    },
+    "full_shared_contrast.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/full_shared_contrast.png",
+      "sha256": "6a8639b345b6cae7a601f08cd8fc09d67ec5c0feb30b62578e0a1b35c90b8b65"
+    },
+    "C1_expanded_context_raw_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/C1_expanded_context_raw_FB.png",
+      "sha256": "1475dc7034d27c613f66541a6dc5099c6c44236cd504f9ed9183ae2f27a8fc4a"
+    },
+    "objects_before_top_after_bottom.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/objects_before_top_after_bottom.png",
+      "sha256": "cf1318421b0135492b0ea280bb51464ffbf33eb72c3744b07f826e57e7a30404"
+    },
+    "target_region_before_after_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/target_region_before_after_FB.png",
+      "sha256": "6ebd8dd6dee34e70c18520396aa8b62863968a3f0a0da404de7609bea9df0fb7"
+    },
+    "fixed_objects_raw_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/fixed_objects_raw_FB.png",
+      "sha256": "320813edc583a054b97be063030ca607e41ae267fc70053d4a2eeea98949dcc5"
+    }
+  },
+  "limitations": [
+    "当前完整图支持有限纳米成像任务可用，针尖化学洁净与原子分辨未检验。",
+    "C1形貌及局部精确尺寸仍有针尖、样品、反馈与漂移贡献未分离，固定ROI主体裁切限制保留。",
+    "此前中止缓冲区保留为独立部分数据，当前214来自本次完整WaitEnd及SXM封存，两者采集身份分开。",
+    "原生2kHz尖峰与SXM像素电流分开审计，单个电流峰不直接决定针尖功能。",
+    "旧大丘覆盖区域仍限制C2/D4独立判断。",
+    "当前可用结论为新基线评价，S01诱导及恢复后效果需实际完整配对图才能评价。"
+  ]
+}

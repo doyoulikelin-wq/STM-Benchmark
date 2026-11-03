@@ -1,0 +1,182 @@
+{
+  "offline_only": true,
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline_once.py",
+    "sha256": "afc4e361af8bbb9d6d6a59baad2ef5ade4d1151bee125047fca6545bdd9cdc95"
+  },
+  "event_log": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/events.jsonl",
+    "sha256": "ac4771ab5b7c8babe3923929f355ede653010f87cd0b8e1f73874d078da72f67"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/outcome.json",
+    "sha256": "84186e09bcd98eb65a13b182e8db2e433586c5d219e5472f076fb900a85d31bb"
+  },
+  "selected_sequential_polls": [
+    {
+      "kind": "scan_guard",
+      "utc": "2026-11-03T05:50:58.573383+00:00",
+      "monotonic_ns": 1556502925432166,
+      "duration_s": 0.041040207957848907,
+      "current_pA": -123.90816150897876,
+      "Z_nm": -104.41604558764084,
+      "scan": [
+        1
+      ],
+      "feedback": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "XY_nm": [
+        7.336896867826681,
+        -2.9840343529485835
+      ]
+    },
+    {
+      "kind": "scan_guard",
+      "utc": "2026-11-03T05:50:58.922307+00:00",
+      "monotonic_ns": 1556503274361541,
+      "duration_s": 0.043726874981075525,
+      "current_pA": -498.70835239218536,
+      "Z_nm": -102.63087801831716,
+      "scan": [
+        1
+      ],
+      "feedback": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "XY_nm": [
+        23.47724858964284,
+        -3.0240043802365335
+      ]
+    },
+    {
+      "kind": "cleanup_control_state",
+      "utc": "2026-11-03T05:50:59.062590+00:00",
+      "monotonic_ns": 1556503414637333,
+      "duration_s": 0.1400523749180138,
+      "current_pA": -180.70392404645474,
+      "Z_nm": -102.27518743022301,
+      "scan": [
+        1
+      ],
+      "feedback": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "XY_nm": [
+        20.7360209003582,
+        -3.0297153674752053
+      ]
+    },
+    {
+      "kind": "post_stop",
+      "utc": "2026-11-03T05:50:59.204819+00:00",
+      "monotonic_ns": 1556503556865750,
+      "duration_s": 0.14056295808404684,
+      "current_pA": -356.89340371902745,
+      "Z_nm": -100.1897302899124,
+      "scan": [
+        0
+      ],
+      "feedback": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "XY_nm": [
+        14.309210705221176,
+        -3.0431048791967896
+      ]
+    }
+  ],
+  "known_stop_then_withdraw_matches_frozen_cleanup": true,
+  "logic": [
+    "Running-owned observed current exceeded400pA absolute software review gate",
+    "Fresh cleanup observed knownOn2/no competing action/same frame-buffer then sent singleStop",
+    "StopACK/nonrunning and frozen settings, postStop current outside signed−120..−80pA permitted oneWithdraw",
+    "WithdrawACK followed by3.046968s sampledOff1/Home/lowcurrent confirmation"
+  ],
+  "counts_if_command_field_available": {
+    "Current.Get": 738,
+    "ZCtrl.ZPosGet": 738,
+    "ZCtrl.OnOffGet": 738,
+    "ZCtrl.StatusGet": 738,
+    "Scan.StatusGet": 738,
+    "Bias.Get": 738,
+    "ZCtrl.SetpntGet": 738,
+    "SafeTip.OnOffGet": 738,
+    "AutoApproach.OnOffGet": 738,
+    "BiasSpectr.StatusGet": 738,
+    "ZSpectr.StatusGet": 738,
+    "FolMe.PSOnOffGet": 738,
+    "FolMe.XYPosGet": 738,
+    "SafeTip.SignalGet": 738,
+    "Scan.FrameGet": 116,
+    "Scan.BufferGet": 116,
+    "Scan.SpeedGet": 116,
+    "Scan.PropsGet": 116,
+    "SafeTip.PropsGet": 116,
+    "ZCtrl.GainGet": 116,
+    "ZCtrl.LimitsEnabledGet": 116,
+    "ZCtrl.LimitsGet": 116,
+    "ZCtrl.TipLiftGet": 116,
+    "ZCtrl.SwitchOffDelayGet": 116,
+    "ZCtrl.HomePropsGet": 116,
+    "FolMe.SpeedGet": 116,
+    "Current.GainsGet": 116,
+    "TipShaper.PropsGet": 116,
+    "BiasSpectr.PropsGet": 116,
+    "BiasSpectr.LimitsGet": 116,
+    "BiasSpectr.TimingGet": 116,
+    "BiasSpectr.AdvPropsGet": 116,
+    "ZSpectr.PropsGet": 116,
+    "ZSpectr.TimingGet": 116,
+    "ZSpectr.RangeGet": 116,
+    "ZSpectr.RetractGet": 116,
+    "ZSpectr.AdvPropsGet": 116,
+    "BiasSpectr.ChsGet": 116,
+    "ZSpectr.ChsGet": 116,
+    "BiasSpectr.AltZCtrlGet": 116,
+    "BiasSpectr.ZOffRevertGet": 116,
+    "BiasSpectr.SafeCond1Get": 116,
+    "BiasSpectr.SafeCond2Get": 116,
+    "ZSpectr.Retract2ndGet": 116,
+    "ZSpectr.RetractDelayGet": 116,
+    "Util.VersionGet": 116,
+    "Util.SessionPathGet": 116,
+    "Signals.NamesGet": 116,
+    "Util.RTFreqGet": 230,
+    "Util.RTOversamplGet": 230,
+    "Util.AcqPeriodGet": 230,
+    "LockIn.ModOnOffGet": 232,
+    "DataLog.StatusGet": 710,
+    "DataLog.ChsGet": 114,
+    "DataLog.PropsGet": 114,
+    "Scan.Action": 2,
+    "Scan.WaitEndOfScan": 672,
+    "ZCtrl.Withdraw": 1
+  },
+  "limitations": [
+    "Sequential TCP getter states are not hard-synchronized samples or image pixels",
+    "One software threshold crossing establishes interruption, not tip failure, collision or saturated current",
+    "No complete matched image or valid fullframe count from this interrupted scan"
+  ],
+  "strict_cycle_increment": 0
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "R07-home-move01-choice-v1",
+  "utc": "2026-11-03T06:03:12.304221+00:00",
+  "monotonic_ns": 1557236654470375,
+  "allow_one_home_move": true,
+  "no_unresolved_writer": true,
+  "target_m": [
+    -2.5e-08,
+    -2.5e-08
+  ],
+  "source_xy_m": [
+    1.4309210705221176e-08,
+    -3.0431048791967896e-09
+  ],
+  "fine01_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/outcome.json",
+    "sha256": "840cc3888bb1a5b06811d2b2fe8bfac13c710e41321df4a72131cbe0368449c3"
+  },
+  "native_review_passed": true,
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/fine01_native_review.json",
+    "sha256": "9ae45e73930fc10d7250c4cbc8eae6db50a96a7f2caf7f167b6156fd04e92304"
+  },
+  "scope_of_review_pass": "Native audit integrity and knownwithdrawnstate checked. fine01 failed to stabilize, failure is retained.",
+  "authority": "User authorized autonomous samearea benchmark and establishing stable tunneling",
+  "reason": "Test recovery away from local I03 mound flank, at previously stable oldscan corner. Both endpoints within original50nmfield.",
+  "hardware_plan": "One XYPosSet while Off1/absoluteHome, unchanged speed54.82456nm/s. Verifytarget5s. Fineengagement remainsseparateaction.",
+  "counts_preserved": {
+    "pulses": 5,
+    "pulse_max": 6,
+    "complete_attempts": 2,
+    "remaining": 3
+  },
+  "unresolved_cause": "Fine01 persistent~300pA while100pAsetpoint and Zdrift. Currentcontrolchannel agreeswithabsCurrent, logErrornotlinear. Mechanismunknown."
+}

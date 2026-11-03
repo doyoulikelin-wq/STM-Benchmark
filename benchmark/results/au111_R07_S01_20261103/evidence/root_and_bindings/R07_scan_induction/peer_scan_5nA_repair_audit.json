@@ -1,0 +1,183 @@
+{
+  "schema": "focused-offline-scan-5nA-peer-v1",
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_5nA_once.py",
+    "sha256": "027d412a476808348b3fbe008ec668c16103dbb96654fa084f9e8077de3267e1"
+  },
+  "parent": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_once.py",
+    "sha256": "fc1b9755ad1ec5a6986a37a05f8ed25755a32d6099c2603309100129e0b6b2d2"
+  },
+  "policy": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+    "sha256": "b324208ce29f2c72817f84dc67aee3150caf303ca78b51fa5556399a29c79aab"
+  },
+  "checks": [
+    "unchanged recording_proof",
+    "unchanged recovered_S01_evidence",
+    "unchanged evidence_for_scan",
+    "unchanged guard",
+    "unchanged diagnostic_entry_guard",
+    "unchanged local_path",
+    "unchanged attempt_paths",
+    "unchanged reserve_attempt",
+    "unchanged Client",
+    "unchanged main",
+    "exact two runtime callsites",
+    "entire Run unchanged apart from two runtime callsites",
+    "runtime other predicates exact original",
+    "runtime accepts -5e-09",
+    "runtime accepts 5e-09",
+    "runtime accepts -1e-09",
+    "runtime accepts -4.31e-10",
+    "runtime accepts -1e-10",
+    "runtime accepts 0.0",
+    "runtime rejects 5.000000000000001e-09",
+    "runtime rejects -5.000000000000001e-09",
+    "runtime rejects nan",
+    "runtime rejects inf",
+    "runtime rejects -inf",
+    "unchanged rejection ZCtrl.StatusGet",
+    "unchanged rejection ZCtrl.OnOffGet",
+    "unchanged rejection Bias.Get",
+    "unchanged rejection ZCtrl.SetpntGet",
+    "unchanged rejection SafeTip.OnOffGet",
+    "unchanged rejection AutoApproach.OnOffGet",
+    "unchanged rejection BiasSpectr.StatusGet",
+    "unchanged rejection ZSpectr.StatusGet",
+    "unchanged rejection FolMe.PSOnOffGet",
+    "unchanged rejection FolMe.XYPosGet",
+    "unchanged rejection ZCtrl.ZPosGet",
+    "unchanged rejection ZCtrl.ZPosGet",
+    "full rejects altered gain",
+    "full nominal accepted",
+    "post-frame original 400pA rejects",
+    "diagnostic -140pA entry still accepted",
+    "diagnostic 1nA still rejected",
+    "v2 policy hash correct",
+    "explicit no fast transient protection"
+  ],
+  "checks_passed": 43,
+  "mock_scenarios": [
+    {
+      "case": "runtime accepts -5e-09",
+      "accepted": true
+    },
+    {
+      "case": "runtime accepts 5e-09",
+      "accepted": true
+    },
+    {
+      "case": "runtime accepts -1e-09",
+      "accepted": true
+    },
+    {
+      "case": "runtime accepts -4.31e-10",
+      "accepted": true
+    },
+    {
+      "case": "runtime accepts -1e-10",
+      "accepted": true
+    },
+    {
+      "case": "runtime accepts 0.0",
+      "accepted": true
+    },
+    {
+      "case": "runtime rejects 5.000000000000001e-09",
+      "accepted": false
+    },
+    {
+      "case": "runtime rejects -5.000000000000001e-09",
+      "accepted": false
+    },
+    {
+      "case": "runtime rejects nan",
+      "accepted": false
+    },
+    {
+      "case": "runtime rejects inf",
+      "accepted": false
+    },
+    {
+      "case": "runtime rejects -inf",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZCtrl.StatusGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZCtrl.OnOffGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection Bias.Get",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZCtrl.SetpntGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection SafeTip.OnOffGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection AutoApproach.OnOffGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection BiasSpectr.StatusGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZSpectr.StatusGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection FolMe.PSOnOffGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection FolMe.XYPosGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZCtrl.ZPosGet",
+      "accepted": false
+    },
+    {
+      "case": "unchanged rejection ZCtrl.ZPosGet",
+      "accepted": false
+    },
+    {
+      "case": "full rejects altered gain",
+      "accepted": false
+    },
+    {
+      "case": "full nominal accepted",
+      "accepted": true
+    },
+    {
+      "case": "post-frame original 400pA rejects",
+      "accepted": false
+    },
+    {
+      "case": "diagnostic -140pA entry still accepted",
+      "accepted": true
+    },
+    {
+      "case": "diagnostic 1nA still rejected",
+      "accepted": false
+    }
+  ],
+  "mock_scenarios_passed": 28,
+  "hardware_calls": 0,
+  "canonical_claims_written": false,
+  "scope": "AST and extracted pure guard tests. Runtime freshness/current state and root selection still checked by actual runner. Sparse software current gate is not instantaneous protection.",
+  "new_physical_constants": {
+    "scan_runtime_max_abs_A_inclusive": 5e-09
+  },
+  "unchanged_physical_methods": "All Client and Run methods, except two named runtime calls; original guard, cleanup and frame/post reads preserved."
+}

@@ -1,0 +1,32 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S01-stage-review-v1",
+  "stage": "induction",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_speed_native_review.json",
+    "sha256": "868f2683512e5e2711668380cb00ba9d56ebe8b219238e41905293dc6bc87893"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1559036812551500,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/outcome.json",
+      "sha256": "f522153ea2c6ad33d05fbc7aa5e4f403af67f063fda714a304a6f6b5afce66ec"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/outcome.json",
+      "sha256": "0cdbd4093aef198a9fcc599811ecabb052eb4ac4711b10c0e198b0f3c374b927"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_speed/outcome.json",
+      "sha256": "b87602fc2d26f2b31c831e6ab908bea8e6eb69cfe2ee359cf18ca27c530b8334"
+    }
+  },
+  "reason": "Root reviewed native actualSpeedSet exactACK/readback, allphaseI200pA20percent, no400pA, post40.53s ZRMS1.212pm slope+.226pm per s. Gain200pA2T andSpeed2x independentlycompleted. Select ONE50nm240squareDOWN218.88s induced-exposure frame, SafeTipOff, original400pAsoftwaregate/2nmZmargin preserved. Restoreparameter validationrequired beforepersistentbadstate label. Full214taskusableprior, C1expandedcontextretained. CurrentUIread-onlysnapshot supports200pA85.913us456ms. No unresolvedwriter; freshreadnext."
+}

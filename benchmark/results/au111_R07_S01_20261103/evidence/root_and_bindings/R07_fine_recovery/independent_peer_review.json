@@ -1,0 +1,16 @@
+{
+  "scope": "Independent static local review, no run or transport import",
+  "source_sha256": "5586d4c64d9bbb6a188dc5f966c7b100371aa540126a0cf0f1961299ef2e4477",
+  "physical_run_AST_equals_R03_after_R07_label_replacement": true,
+  "prior_claim_inventory_sha256": "64e4e404d0f98e13c5e7b53759fcca4f4b269528582b78d2f476df493bf77844",
+  "blocking_findings": [],
+  "checked": [
+    "Pinned partial baseline original incomplete result and actual Start/Stop/Withdraw ACKs",
+    "Chronology before frozen read084 absolute Off1/Home and sameXY",
+    "Exact ongoing R07 logger instance matches prior partial scan",
+    "Prior claims5pulse history preserved and exactly one new fineOn claim",
+    "Unknown On outcome forbids subsequent commands",
+    "No coarse, XY, scan, gain or speed writer admitted",
+    "Original current/Z/current30s and final5s logic preserved"
+  ]
+}

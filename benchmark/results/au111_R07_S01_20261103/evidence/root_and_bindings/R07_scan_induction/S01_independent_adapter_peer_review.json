@@ -1,0 +1,38 @@
+{
+  "scope": "Offline source review only. No main entry, connection, claims, admission or device calls executed. Not physical validation or permission.",
+  "sources": {
+    "binding": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/stage_binding.py",
+      "sha256": "99c52ed7bc9d235db39d41af01635a5cbc922b3d16b22cc605ac5e3b4073fac8"
+    },
+    "four_step": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R07_scan_induction_S01_once.py",
+      "sha256": "0d6126617db189754615ef82190e18a6303268e8cab4e218b5759e32c371467c"
+    },
+    "configuration": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/configure_R07_scan_induction_S01_once.py",
+      "sha256": "b9bf1adb7540dfb30c4ba7d26b6392b7c666b2e4d2da9b9ffe94c77a8a102fdc"
+    },
+    "gain_codec": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/gain_codec_support.py",
+      "sha256": "dbb76f29571fa9d4f4580ee5601dbb99f93d06f86ee70e3d8b1a0c561c3fe451"
+    }
+  },
+  "blocking_findings": [],
+  "checks": [
+    "S01 requires completed recovered baseline02 with actual full-frame bitmatch and task-usable root review. Prior failed baseline01/fine01 and R06 chain retained.",
+    "Pulse count stays 5 of 6. Exactly one finite induction frame, one separately reserved stage each. No pulse/Shaper or coarse movement path.",
+    "Predetermined 100/125/156.25/195.3125/200 pA float32 targets and reverse sequence. Four ACKs and full final30 required. Normal return requires completed induction frame.",
+    "Per-step 100 pm, cumulative downward 500 pm, signed20%, original current gate400pA and final10s Z RMS/slope10 rules retained. Software criteria only.",
+    "One independent GainSet/SpeedSet configuration with exact readback. Gain codec private globals, no global catalog mutation. SpeedSet keep-time enum2 and exact expected SpeedGet convention1 are distinct.",
+    "Unknown or malformed write ACK reaches exception and close only. No automatic retry, rollback, On/Withdraw or follow-up getter. Known ACK but failed readback remains incomplete.",
+    "Every later stage binds predecessor outcomes, independent root native review, new fresh state following that review, actual logger identity and exact source.",
+    "Local claim inventory protects old reservations and allows only already selected finite S01 stages. No hidden counter reset."
+  ],
+  "limits": [
+    "Gain/Speed stable() validates 5s of signed current band, full static state, XY and Z endpoint. It does not evaluate Z RMS or slope. The later native review must not equate this to drift-free state.",
+    "Configuration and induction prescription are prospective, not validated by this offline review. Actual completed baseline02 and stage evidence did not exist at review time.",
+    "Root native_review field is a hashed human/root decision. Adapter verifies its artifact and declared pass, rather than independently interpreting arbitrary native-review schemas."
+  ],
+  "result": "No material blocker found in the reviewed narrow source paths. Root remains sole operator and independently selects each stage."
+}

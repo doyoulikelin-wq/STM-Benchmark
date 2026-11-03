@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source_sha256": "778bce93fe03199a3b68b3dbc923119b481d73dab9442b1d4b804c94d5dc17e8",
+  "checks": [
+    "All parser, bracket, phase and numerical functions match executed R06 after identity labels",
+    "Actual R07 sources, immutable identity and running baseline manifest bind correctly",
+    "First nine actual locally archived R07 blocks pass SHA, 0.5ms header, six-column finite parsing",
+    "Synthetic completed frame partitions all rows once including before and after",
+    "Missing ending counter evidence preserves unattributed record",
+    "Unknown Start ACK cannot produce a complete attributed frame",
+    "Absolute block and threshold event time are preserved for a later phase window"
+  ],
+  "network_attempts": [],
+  "scope": "Only existing local files, in-memory phase fixtures and arithmetic. Main analysis entry not run before actual known completion."
+}

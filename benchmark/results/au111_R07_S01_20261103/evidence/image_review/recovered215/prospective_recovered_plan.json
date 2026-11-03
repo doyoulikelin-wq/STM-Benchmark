@@ -1,0 +1,130 @@
+{
+  "schema": "R07-S01-independent-recovery-image-plan-v1",
+  "created_utc": "2026-11-03T06:53:08.879733+00:00",
+  "status": "Frozen before actual image outcome, while root-owned full scan running. Task criteria/ROIs inherited from before S01, no image result presumed.",
+  "baseline_stage": "baseline_segment07_full02",
+  "baseline_native_label": "214",
+  "baseline_native_sha256": "04b6b98842158e35723de2221c9bbe063ae2507cfc4b94e6e8ecba9e619bd19e",
+  "baseline_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/post_manual_review.json",
+    "sha256": "e8b00ba9293a8b1ada965b33da3f5898f94b9261d5efae92a98c1d33f77ca316"
+  },
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/outcome.json",
+    "sha256": "f8fe5b23d1a69604ecf84f3d7a680209231028c52f6cfc53dd697023b181b86d"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/analysis/quality_report.json",
+    "sha256": "6a57382f572866dceaf849f7e39a21b774cd27ade5591d628d99e2dcc42faf32"
+  },
+  "exposure_stage": "induction_R07_S01_full",
+  "comparison_stage": "after_R07_S01_recovered_full",
+  "comparison_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_5nA_once.py",
+    "sha256": "027d412a476808348b3fbe008ec668c16103dbb96654fa084f9e8077de3267e1"
+  },
+  "exposure_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_induction_S01_once.py",
+    "sha256": "757d27ae1b250afdad5a9649f8837f81d7e9cd73806ab351479cb21855f86a66"
+  },
+  "stage_binding": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_recovered_full_contract.json",
+    "sha256": "1533ffc91465008453c41f9f1802f1c056346f5fa2083575e1b2cb93f1b8f0fb"
+  },
+  "primary": [
+    "C1_upper_isolated",
+    "C3_diagonal_edge"
+  ],
+  "secondary": "S1_left_nonselected_I03_candidate",
+  "local_affected": [
+    "C2_right_upper",
+    "D4_lower_object"
+  ],
+  "frozen_ROIs": {
+    "C1": [
+      20,
+      44,
+      90,
+      115
+    ],
+    "C2": [
+      92,
+      112,
+      188,
+      213
+    ],
+    "C3": [
+      40,
+      72,
+      30,
+      90
+    ],
+    "D4": [
+      169,
+      194,
+      158,
+      184
+    ],
+    "S1": [
+      129,
+      150,
+      42,
+      63
+    ]
+  },
+  "C1_context_rc_half_open": [
+    12,
+    62,
+    80,
+    128
+  ],
+  "C1_context_established_before_S01": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/C1_expanded_context_record.json",
+    "sha256": "b9dbdf9fa1b2416c5a9d2ac58edbe749a1f1809d0cee1d2a576c0ecf16722b9f"
+  },
+  "task": "同一50nm场内分辨纳米突起、C1主体与上方点的分离，以及连续台阶。保留原任务标准。",
+  "functional_failure_evidence": "若恢复原参数后完整正反扫中，C1完整上下文、C3及分散对象共同出现影响对象分离或边缘辨识的持续拖尾、复制或展宽，记录具体对象、方向和范围。排查共同位移、固定ROI裁切、旧丘体和局部样品变化。单一异常不自动判坏。",
+  "usable_result": "若原参数完整图仍满足既定任务，标记诱导坏态未证实、strict cycle增量0；不为计数而修改任务标准。",
+  "exposure_only_scope": "部分200pA/双速度/双T缓冲仅为不完整暴露证据，原NaN保留、fresh行mask未知。当前功能待原参数完整图判断。",
+  "display": "原始全范围、继承210的冻结台阶对比度并显式显示截断、固定ROI及C1扩大原坐标窗口。主图无配准、平滑或逐行校正。",
+  "causal_scope": "不完整S01暴露之后发生独立Home参数恢复、Home移动和fine03恢复隧穿。随后原参数完整帧与214对照描述整条复合历史后的当前功能。持续变化不能单独归因于S01扫描，原中断记录保留。",
+  "original_plan_preserved": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_image_review/prospective_S01_plan.json",
+    "sha256": "a09bf90ebbf50e201f4a3e316394bd5506ff319a682d117fd97975774edb3403"
+  },
+  "interrupted_exposure_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+    "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+  },
+  "partial_buffer_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/partial_manual_review.json",
+    "sha256": "079387b4eb46d39bff5d51eacd11cec5c822356b58a88751b70e1c2aebe45985"
+  },
+  "scan_runtime_policy": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+    "sha256": "b324208ce29f2c72817f84dc67aee3150caf303ca78b51fa5556399a29c79aab"
+  },
+  "selection_policy_difference": "214 used400pA slow-read scan gate. This validation prospectively accepts |I|<=5nA only in owned scan runtime. Original physical imaging settings, diagnosticentry, post-end400pA, cleanup and other-action policies unchanged. Earlier interrupted outcomes retained; censoring policy differs.",
+  "actual_independent_recoveries": {
+    "Home_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/outcome.json",
+      "sha256": "29ce221d70c07fbee09977cc936f88a5e2571d82a2de9913e6468c5ab84d112d"
+    },
+    "Home_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/outcome.json",
+      "sha256": "0f78f922de18f9d1b4624739ba995c8492b81a37702c5b60f2473f967258786c"
+    },
+    "Home_current": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/outcome.json",
+      "sha256": "c2e7abdd0fac94670b71c1bae85e8d6cd806201f3d89cdc0b951fe5bdfcb4f2a"
+    },
+    "Home_move": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02/outcome.json",
+      "sha256": "6de803b5ac3b62248d0ac25e961f0b93fa2620d496828f29175b8dad34339bbb"
+    },
+    "fine03": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_03/outcome.json",
+      "sha256": "08ccd73c4699c155fb77bd41f76f0a90598cc4f5b4fe2f6ec7addab2aeb1b848"
+    }
+  }
+}

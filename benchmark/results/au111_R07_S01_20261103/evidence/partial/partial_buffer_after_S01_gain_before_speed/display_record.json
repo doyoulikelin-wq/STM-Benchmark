@@ -1,0 +1,77 @@
+{
+  "scope": "Offline visualization of incomplete S01 exposure buffers. Exposure200pA/2speed/2T, capture after gain restoration whileOffHome; all rows have unverified acquisition epoch.",
+  "completed_frame": false,
+  "native_SXM_available": false,
+  "valid_current_scan_mask": null,
+  "sources": {
+    "0F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_0_1.f32be",
+      "sha256": "78b47350e98acdc0b90d762c6808f03a7ffa3d76615e51150e6859dfcf6f3020"
+    },
+    "30F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_30_1.f32be",
+      "sha256": "29a10a6b45ecf2acb7930b3abde0196e7a673409f8b762c9750e5f5272812313"
+    },
+    "89F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_89_1.f32be",
+      "sha256": "79262f1a2b7079ba5ea02f5102d89d4d72e4f0c0d57944686eadfd5dfa42f980"
+    },
+    "0B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_0_0.f32be",
+      "sha256": "9a4c16213353daddfb7f5f380ad4e38934c7bb41101486d3eb205a01c483026c"
+    },
+    "30B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_30_0.f32be",
+      "sha256": "5a4d1a78618e12ae2d2a1cc451fed43596f180ed1d8060204d80365917dace57"
+    },
+    "89B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/frames/channel_89_0.f32be",
+      "sha256": "482c2781711672961966696485b249abcd22ed0903d83e0150a02787b56ada1d"
+    }
+  },
+  "capture_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/outcome.json",
+    "sha256": "62832a1387d916ec7a334d1beeac2f479c1a0df7b2e37f87f2750862f1239722"
+  },
+  "source_script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/render_S01_partial_buffer_local.py",
+    "sha256": "6f8ead02abe19dc0271979081678a918544b6e6ee0a78efbef82284614a53f3b"
+  },
+  "orientation": "TCP arrays already display-oriented according to prior completed native/TCP bitmatches. No additional flips. Nominal positions are not timestamped pixels.",
+  "scalar_offset_nm": {
+    "F": -106.13116785407328,
+    "B": -106.13574374929158
+  },
+  "full_raw_Z_relative_range_nm": [
+    -0.214107842566591,
+    3.503707546315127
+  ],
+  "frozen210_contrast_nm": [
+    -0.2886687155978507,
+    0.40538459700201085
+  ],
+  "raw_current_pA_range": [
+    -3946.8228685279882,
+    -26.576404271727583
+  ],
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/offline_display/partial_buffer_Z_full_and_frozen.png",
+      "sha256": "8621e5e35b86ece08c49da311dd4bef17f8d5d8fdcce290282bdf53fd35cdd34"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/offline_display/partial_buffer_current_raw.png",
+      "sha256": "4b1116d8202847017634c3bed600bbf2992f40a46bce95bc654437a03e72ef86"
+    }
+  ],
+  "raw_nonfinite_pixels": {
+    "0F": 31200,
+    "30F": 31200,
+    "89F": 31200,
+    "0B": 31344,
+    "30B": 31344,
+    "89B": 31344
+  },
+  "nonfinite_display": "gray without filling or inferred scan mask",
+  "wholeframe_quality_classification": "not_assessable from mixed buffer"
+}

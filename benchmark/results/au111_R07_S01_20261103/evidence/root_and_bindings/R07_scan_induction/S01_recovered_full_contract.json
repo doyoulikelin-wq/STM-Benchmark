@@ -1,0 +1,33 @@
+{
+  "schema": "R07-S01-independent-recovery-full-contract-v1",
+  "event": "after_R07_S01_recovered_full",
+  "scope": "Offline fixed evidence contract, not execution selection. Incomplete S01 remains immutable; one original-setting complete frame only after actual independent recoveries and fresh root review.",
+  "source_pins": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/recover_R07_S01_OffHome_once.py": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02_once.py": "9b486103aae6f0a7310ba860d7901593004d80e7e124a69ab7736fb109cf859d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_finez_R07_03_100pA_once.py": "0d88686f735286b39cf65efe9ae4780b8391ce34f3bb82dc2e700735656b541b",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/post_S01_restoration_binding.py": "1bf262950f9ef26f562af3d1c1cd500eef77c00d1f6aeef317dfa5fc21c74be4"
+  },
+  "induction_source_sha256": "757d27ae1b250afdad5a9649f8837f81d7e9cd73806ab351479cb21855f86a66",
+  "Home_config_source_sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+  "Home_move_source_sha256": "9b486103aae6f0a7310ba860d7901593004d80e7e124a69ab7736fb109cf859d",
+  "fine03_source_sha256": "0d88686f735286b39cf65efe9ae4780b8391ce34f3bb82dc2e700735656b541b",
+  "original_S01_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "normal_validation_unchanged_and_ineligible_after_incomplete": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_restored_once.py",
+    "sha256": "c41023e03c171690a1ead6259b1c7fe2f0f221d738247a20865a1baea1d6e7e3"
+  },
+  "current_gate_A": 4e-10,
+  "original_entry_sample_A": [
+    -1.5e-10,
+    -5e-11
+  ],
+  "original_entry_mean_A": [
+    -1.25e-10,
+    -7.5e-11
+  ],
+  "no_extra_action_or_counter_reset": true
+}

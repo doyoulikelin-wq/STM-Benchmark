@@ -1,0 +1,182 @@
+{
+  "zero_based_sample_half_open": [
+    627520,
+    647520
+  ],
+  "native_seconds_half_open": [
+    313.76,
+    323.76
+  ],
+  "rows": 20000,
+  "samples": {
+    "Current_pA": {
+      "min": -6014.2673,
+      "max": -7.289858000000001,
+      "mean": -138.481564960945,
+      "std_population": 175.04139012794343,
+      "p01": -811.4898718000001,
+      "p05": -274.04766449999994,
+      "median": -107.46251000000001,
+      "p95": -63.5451058,
+      "p99": -35.47460816000008
+    },
+    "Bias_V": {
+      "min": -1.0,
+      "max": -1.0,
+      "mean": -1.0,
+      "std_population": 0.0,
+      "p01": -1.0,
+      "p05": -1.0,
+      "median": -1.0,
+      "p95": -1.0,
+      "p99": -1.0
+    },
+    "Z_nm": {
+      "min": -105.40487999999999,
+      "max": -98.340777,
+      "mean": -103.7428264987,
+      "std_population": 2.110259478554799,
+      "p01": -105.3830902,
+      "p05": -105.359131,
+      "median": -104.985815,
+      "p95": -98.85314215000001,
+      "p99": -98.42736279
+    },
+    "Z_Control_pA": {
+      "min": 7.289858000000001,
+      "max": 6014.2673,
+      "mean": 138.481726500285,
+      "std_population": 175.0413652559127,
+      "p01": 35.47460816,
+      "p05": 63.545105799999995,
+      "median": 107.46251000000001,
+      "p95": 274.0476644999997,
+      "p99": 811.4898717999994
+    },
+    "Z_Error_pA": {
+      "min": -403.23602999999997,
+      "max": 351.66794,
+      "mean": 0.60328340540847,
+      "std_population": 45.49604499123302,
+      "p01": -138.3668426,
+      "p05": -64.80062459999999,
+      "median": -0.187185475,
+      "p95": 67.72190809999996,
+      "p99": 149.9234344999987
+    },
+    "Z_SafeTip_pA": {
+      "min": 7.289858000000001,
+      "max": 6014.2673,
+      "mean": 138.481726500285,
+      "std_population": 175.0413652559127,
+      "p01": 35.47460816,
+      "p05": 63.545105799999995,
+      "median": 107.46251000000001,
+      "p95": 274.0476644999997,
+      "p99": 811.4898717999994
+    }
+  },
+  "algebraic_descriptors_pA": {
+    "control_plus_signed_current": {
+      "min": 0.0,
+      "max": 0.8004799999999932,
+      "mean": 0.00016153933999998814,
+      "std_population": 0.007855220364803937,
+      "p01": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "control_minus_abs_current": {
+      "min": 0.0,
+      "max": 0.8004799999999932,
+      "mean": 0.00016153933999998814,
+      "std_population": 0.007855220364803937,
+      "p01": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "control_minus_setpoint": {
+      "min": -92.710142,
+      "max": 5914.2673,
+      "mean": 38.481726500285,
+      "std_population": 175.0413652559127,
+      "p01": -64.52539184,
+      "p05": -36.454894200000005,
+      "median": 7.462510000000002,
+      "p95": 174.0476644999997,
+      "p99": 711.4898717999994
+    },
+    "SafeTip_minus_control": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "std_population": 0.0,
+      "p01": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "error_minus_control_minus_setpoint": {
+      "min": -5562.59936,
+      "max": -0.031761190000003214,
+      "mean": -37.87844309487654,
+      "std_population": 151.7836655346359,
+      "p01": -577.1875484999999,
+      "p05": -129.96976709999998,
+      "median": -9.290720499999999,
+      "p95": -1.114702075000005,
+      "p99": -0.5006140090000083
+    },
+    "error_minus_setpoint_minus_control": {
+      "min": -494.04765679999997,
+      "max": 6265.935240000001,
+      "mean": 39.08500990569347,
+      "std_population": 205.86514566061462,
+      "p01": -196.11931064,
+      "p05": -97.12183399999998,
+      "median": 7.937733199999993,
+      "p95": 239.41613369999996,
+      "p99": 836.1606302999979
+    }
+  },
+  "within_window_Pearson": {
+    "signed_I_vs_control": -0.9999999989930665,
+    "abs_I_vs_control": 0.9999999989930665,
+    "error_vs_control": 0.6071989708927651,
+    "error_vs_signed_I": -0.6072031732974273,
+    "error_vs_Z": 0.01579865468295283
+  },
+  "signed_I_inside_minus120_to_minus80pA_fraction": 0.5172,
+  "abs_I_ge400pA_samples": 584,
+  "minimum_I_location": {
+    "block": 26,
+    "row_zero_based": 22370
+  },
+  "Z_linear_slope_pm_per_s": -3.6393349987013477,
+  "Z_linear_residual_RMS_pm": 2110.2333268709986,
+  "groups_ge400": {
+    "samples": 584,
+    "groups": 285,
+    "max_run_ms": 9.5
+  },
+  "groups_ge1000": {
+    "samples": 133,
+    "groups": 79,
+    "max_run_ms": 3.5
+  },
+  "groups_ge4000": {
+    "samples": 5,
+    "groups": 5,
+    "max_run_ms": 0.5
+  },
+  "scope": "Exactly313.76..323.76native seconds, wholly before the conservative trigger bracket. Earlier guards belong to active scanning.",
+  "source_block": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700026.dat",
+    "sha256": "ea0e3ce3d440091d60bb1a19123e28d10fe8501baaba6c848c6be87deff400a2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "au111-scan-current-guidance-20261103-v1",
+  "recorded_utc": "2026-11-03T06:48:18.957069+00:00",
+  "recorded_monotonic_ns": 1559943300730541,
+  "timestamp_is": "local preservation time, not original message timestamp",
+  "source": "current user asynchronous reply questionItemId call_6194a12431b94edbba451208bb6dafd3 index0",
+  "question_verbatim": "需要实验员校准一个扫描停止条件。当前脚本沿用单次慢读 |I|≥400 pA 即停扫，本次在 −431 pA 停止，但完整可用图214的原生短峰也曾达约 −2.10 nA。这个门槛会阻碍完整坏态采集。普通100 pA诊断扫描、200 pA诱导扫描应采用什么电流幅度／持续时间或图像异常作为停扫依据？请给本机经验数值。我先继续恢复原参数和隧穿。",
+  "answer_verbatim": "1nA-5nA都可以的，因为可能有台阶",
+  "root_prospective_interpretation": {
+    "scope": "ordinary100pA diagnostic and200pA induction SCAN runtime current assessment only",
+    "current_get_absolute_A_max_inclusive": 5e-09,
+    "stop_if": "nonfinite or abs(Current.Get)>5e-9",
+    "reason": "User accepts scan current peaks through5nA because steps maycausefeedbackfollowing excursions. This replaces the earlier400pA scan runtime engineering gate prospectively.",
+    "duration_provided_by_user": null,
+    "not_physical_damage_limit": true,
+    "no_fast_transient_guarantee": true,
+    "entry_signed_band_pA": [
+      -120,
+      -80
+    ],
+    "entry_and_postrecovery_policies_unchanged": true,
+    "Z_endpoint_margin_m": 2e-09,
+    "feedback_state_guards_unchanged": true,
+    "fine03_and_other_actions_not_modified": true,
+    "past400pA_failure_outcomes_preserved": true,
+    "no_induction_or_pulse_budget_reset": true
+  }
+}

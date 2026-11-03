@@ -1,0 +1,464 @@
+{
+  "scope": "Secondary descriptive sensitivity. Search over +/-12 pixels with untouched raw before crops and shifted after crops in corresponding directions. Positive dx/dy is target displacement toward later column/row. No resampling or registration applied to primary figures.",
+  "shared_anchor_basis": "C1/C3 are the R07 retained primary remote regions and S1 is a prospectively added secondary remote region. C2 and D4 are locally affected by the I03 mound and cannot select the shared displacement. Two historical fixed terrace patches are reported descriptively only; edge geometry constrains primarily cross-edge motion.",
+  "regions": {
+    "C1_upper_isolated": [
+      20,
+      44,
+      90,
+      115
+    ],
+    "C2_right_upper": [
+      92,
+      112,
+      188,
+      213
+    ],
+    "C3_diagonal_edge": [
+      40,
+      72,
+      30,
+      90
+    ],
+    "D4_lower_object": [
+      169,
+      194,
+      158,
+      184
+    ],
+    "S1_left_nonselected_I03_candidate": [
+      129,
+      150,
+      42,
+      63
+    ],
+    "central_steep_edge": [
+      139,
+      162,
+      133,
+      168
+    ],
+    "left_lower_edge": [
+      145,
+      165,
+      15,
+      46
+    ]
+  },
+  "pitch_nm": 0.20833333333333334,
+  "shared_peak": {
+    "dy_rows": 0,
+    "dx_cols": 0,
+    "dx_nm": 0.0,
+    "dy_nominal_Y_nm": 0.0,
+    "corr": 0.9921446473244298,
+    "on_search_boundary": false
+  },
+  "shared_zero": {
+    "dy_rows": 0,
+    "dx_cols": 0,
+    "dx_nm": 0.0,
+    "dy_nominal_Y_nm": 0.0,
+    "corr": 0.9921446473244298,
+    "on_search_boundary": false
+  },
+  "best_alternative_at_least_three_pixels_away": {
+    "dy_rows": 0,
+    "dx_cols": 3,
+    "dx_nm": 0.625,
+    "dy_nominal_Y_nm": 0.0,
+    "corr": 0.8183621904391765,
+    "on_search_boundary": false
+  },
+  "by_region": {
+    "C1_upper_isolated": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9922781606382493,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9922781606382493,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9922781606382493,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.991948749578155,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.991948749578155,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.991948749578155,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "C2_right_upper": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998291576095006,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998291576095006,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998291576095006,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997585846572923,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997585846572923,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997585846572923,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "C3_diagonal_edge": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9934277688430279,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 1,
+          "dx_nm": 0.20833333333333334,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9945988105463532,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9934277688430279,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9935215025393952,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 1,
+          "dx_nm": 0.20833333333333334,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9945341073341494,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9935215025393952,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "D4_lower_object": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997997129656816,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997997129656816,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9997997129656816,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.999743350451247,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.999743350451247,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.999743350451247,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "S1_left_nonselected_I03_candidate": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9899070555166875,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9899070555166875,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9899070555166875,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9917846468310635,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9917846468310635,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9917846468310635,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "central_steep_edge": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998354959785105,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998354959785105,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998354959785105,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998553700661179,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998553700661179,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9998553700661179,
+          "on_search_boundary": false
+        }
+      }
+    },
+    "left_lower_edge": {
+      "F": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9979825890744553,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9979825890744553,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9979825890744553,
+          "on_search_boundary": false
+        }
+      },
+      "B": {
+        "zero": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9978109373935804,
+          "on_search_boundary": false
+        },
+        "independent_best": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9978109373935804,
+          "on_search_boundary": false
+        },
+        "at_shared_displacement": {
+          "dy_rows": 0,
+          "dx_cols": 0,
+          "dx_nm": 0.0,
+          "dy_nominal_Y_nm": 0.0,
+          "corr": 0.9978109373935804,
+          "on_search_boundary": false
+        }
+      }
+    }
+  },
+  "not_identifiable_if": "Direction-to-direction or feature-to-feature offsets disagree; best shift on boundary; displaced shape differs or multiple near-equal offset families. Edge correlation along its own tangent is underdetermined.",
+  "inputs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/recovered_vs_214/image_measurements.json",
+      "sha256": "56e13d094295caef07f9141940236dcdd94c63a096282a91c234c9cbd8b9978e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/landmark_displacement.py",
+      "sha256": "5a3a62be6f1021853533a81b1f468f7cdad4c5a71ffdd073436386182781bbe8"
+    }
+  ]
+}

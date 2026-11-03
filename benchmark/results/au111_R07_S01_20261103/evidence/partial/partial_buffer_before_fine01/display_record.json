@@ -1,0 +1,77 @@
+{
+  "scope": "Offline visualization of raw TCP buffers after known stop/withdraw. All rows have unverified acquisition epoch.",
+  "completed_frame": false,
+  "native_SXM_available": false,
+  "valid_current_scan_mask": null,
+  "sources": {
+    "0F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_0_1.f32be",
+      "sha256": "6c1425cd144fcef3c4c7b47811acc99ed6311a82f0a871100dc07e66abe14d1f"
+    },
+    "30F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_30_1.f32be",
+      "sha256": "6c5ae002a1ee7b6f0f93ab6362a2d383e49798415f2ef1eb100c7f27af52e1fb"
+    },
+    "89F": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_89_1.f32be",
+      "sha256": "67c3519893036fc5cc906070ce2d6c9f578639dfa1c08167f3ad3b106979cb9d"
+    },
+    "0B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_0_0.f32be",
+      "sha256": "64332ded0bd60450c144a0f22f3bd27e80738b5ba712cafd0d6a48fdc305a9a5"
+    },
+    "30B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_30_0.f32be",
+      "sha256": "3ef3311774a000e0d454480490b36613d58815d72ef3a179f683947d6d3fa277"
+    },
+    "89B": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/frames/channel_89_0.f32be",
+      "sha256": "7408c73a77aa8ab464d2c073febd81c2b2ebd94fb8bea5ad43c6db57b78b1b1d"
+    }
+  },
+  "capture_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/outcome.json",
+    "sha256": "ec88ef052ad38a56b4e165f7a354fc4041b5135061696c6c34e8447d72ad27aa"
+  },
+  "source_script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/render_partial_buffer_local_v3.py",
+    "sha256": "1f33e3d3cf0fba0cd8a4f080e7457f7a0b5607e9137d180e7c04cb92bf21fb97"
+  },
+  "orientation": "TCP arrays already display-oriented according to prior completed native/TCP bitmatches. No additional flips. Nominal positions are not timestamped pixels.",
+  "scalar_offset_nm": {
+    "F": -105.30678551390338,
+    "B": -105.31651639666961
+  },
+  "full_raw_Z_relative_range_nm": [
+    -0.3007833981882868,
+    6.958774889653796
+  ],
+  "frozen210_contrast_nm": [
+    -0.2886687155978507,
+    0.40538459700201085
+  ],
+  "raw_current_pA_range": [
+    -2392.6309822286385,
+    -12.217322639673789
+  ],
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/offline_display_v3/partial_buffer_Z_full_and_frozen.png",
+      "sha256": "aba71339ba2847d8fb8adf1b8efa57ae497a395b6642f387888cfd07db3eeffd"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_before_fine01/offline_display_v3/partial_buffer_current_raw.png",
+      "sha256": "25c5b8d740f5533ecb84b394d809907700bbe11049a680225ee8b4927f0efa51"
+    }
+  ],
+  "raw_nonfinite_pixels": {
+    "0F": 25200,
+    "30F": 25200,
+    "89F": 25200,
+    "0B": 25392,
+    "30B": 25392,
+    "89B": 25392
+  },
+  "nonfinite_display": "gray without filling or inferred scan mask",
+  "wholeframe_quality_classification": "not_assessable from mixed buffer"
+}

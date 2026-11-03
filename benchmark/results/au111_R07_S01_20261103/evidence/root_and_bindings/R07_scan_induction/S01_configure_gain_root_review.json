@@ -1,0 +1,24 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S01-stage-review-v1",
+  "stage": "configure_gain",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_prepare_native_review.json",
+    "sha256": "c9146603b54d248170e02884bddee701f7e4163cf2252bea4ff32751ddf38def"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1558821869291083,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/outcome.json",
+      "sha256": "f522153ea2c6ad33d05fbc7aa5e4f403af67f063fda714a304a6f6b5afce66ec"
+    }
+  },
+  "reason": "Root reviewed actual four known ACK transitions and final29.68s native I/Z recovery plus203.18s postcontext, all200pA within20percent aftersettling, no400pA or edge event, Z RMS1.496pm and post1.614pm. Preparation bridge fabbca5e38001165f63ec52b1593eb4ef04a47dbd62c7b455de44ed0abbee9f9 retained. Select one GainSet doubling integral time to85.9127us, P unchanged, I half, originalspeed retained. This is finite empirical induction candidate underuser direction, not proven persistent bad state. No unresolved writer, freshread follows."
+}

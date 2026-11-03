@@ -1,0 +1,42 @@
+{
+  "offline_only": true,
+  "physical_functions_unchanged": true,
+  "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline_once.py",
+  "source_sha256": "afc4e361af8bbb9d6d6a59baad2ef5ade4d1151bee125047fca6545bdd9cdc95",
+  "actual_R07_recording_proof": {
+    "ready_path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07/READY.json",
+    "ready_sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7",
+    "native_start_identity": "2026/11/3 13:45:34",
+    "earliest_snapshot_ns": 1556179994798041,
+    "start_sha256": "a5e32acb30c306329267c0a3a90fa169dbd7be92342cd6bd8a13baf4dba36df7",
+    "segment_reservation": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/recording_claims/session_02__R07.start.claim",
+      "sha256": "0a873cdb624faa4f0c3e8672b6d3d52fef2c1896dd2999db40a1527e86713536"
+    },
+    "frozen_history": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/baseline_frozen_R06_history.json",
+      "sha256": "a43844710207da8209235c307c11e3d8e5f733d981c18ea1f0085d41df851785"
+    },
+    "historical_counts": {
+      "shared_pulses": 5,
+      "maximum": 6,
+      "completed_full_repair_attempts": 2,
+      "requested": 5,
+      "remaining": 3,
+      "strict_cycles": 0,
+      "R06_shaper_Starts": 3
+    },
+    "recording_gap_preserved": true,
+    "new_baseline_not_a_dirty_state_or_counter_reset": true,
+    "root_sole_writer_still_required": true,
+    "predecessor_and_root_admission": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07/predecessor_and_root_admission.json",
+      "sha256": "753c25bfc950b41484f70626e26ab3140e6fc00671f1d8e98bc1cc41a2783145"
+    },
+    "root_R07_admission": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/segment07_observe_root_admission.json",
+      "sha256": "70fabb5f991bbb90e4cd0547ed7e010956862ea911c010701fd4962952ce2d41"
+    }
+  },
+  "no_fresh_admission_or_claim_created": true
+}

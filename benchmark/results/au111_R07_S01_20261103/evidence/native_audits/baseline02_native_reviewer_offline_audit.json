@@ -1,0 +1,16 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/review_baseline02_native.py",
+    "sha256": "9e78ec276bc16e6e4524e6f17470949e1d608e6c201d76310fdd4feb671a301c"
+  },
+  "checks": [
+    "network-blocked import",
+    "actual baseline02 source pin",
+    "actual fine02 immutable audit pin",
+    "fixed-corner interval split preserves every row",
+    "interrupted or running frame not treated as complete"
+  ],
+  "passed": 5,
+  "actual_scan_audit_run": false,
+  "no_network_hardware_claim_or_admission": true
+}

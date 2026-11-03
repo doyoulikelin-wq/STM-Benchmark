@@ -1,0 +1,35 @@
+{
+  "scope": "Independent local static peer review only. No main entry, socket, share, admission or live claim executed.",
+  "source_sha256": "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+  "binding_sha256": "7f6aa581f719a09b9433b06f5ed3d57d38a8c60f2346a1c36775b7e21edd7dbe",
+  "operational_function_and_class_AST_matches_R06_after_identity_substitution": true,
+  "previous_recording": {
+    "segment": "R06",
+    "terminal_blocks": 615,
+    "rows_per_channel": 15362600,
+    "terminal_receipt_sha256": "a85e34f4c6bdb25e1a795dcf079573f5a6422f6260a5f91e2dc766d769ad09d8"
+  },
+  "historical_counts": {
+    "completed_full_attempts": 2,
+    "strict_successful_cycles": 0,
+    "remaining": 3,
+    "documented_pulses": 5,
+    "shared_shaper_Starts": 3
+  },
+  "reviewed": [
+    "Exact R07 output basename, Start reservation and source identity",
+    "R06 original interrupted outcome plus independent terminal reconciliation retained",
+    "Complete615 archive and stopped timestamps pinned",
+    "Same observation current band and finite I/Z, On2, idle, SafeTipOff, minus1V100pA entry",
+    "Only DataLog setup/Start/Stop writers inherited. No junction or acquisition sampling-setting writers added",
+    "Unique no-release recording claim has no pulse/shaper budget reset",
+    "Historical recording gap and new full baseline explicitly required",
+    "Forty-check socket-blocked regression audit read and consistent"
+  ],
+  "blocking_findings": [],
+  "nonblocking_note": "The only additional change corrects the default plan predecessor wording from R05 to R06. Operational functions remain identical after identity labels and this plan text correction.",
+  "previous_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/logger07_independent_peer_review.json",
+    "sha256": "08a66871dac7d412635cedf7b96db7a48165173ef5262f03577ec27ada8b0d8e"
+  }
+}

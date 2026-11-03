@@ -1,0 +1,109 @@
+{
+  "scope": "Frozen candidate sources, no active admission or actual S01 execution asserted. Requires complete current baseline02 functional usability before any induction.",
+  "stages": {
+    "induction": {
+      "event": "induction_R07_S01_full",
+      "scanner": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_induction_S01_once.py",
+        "sha256": "757d27ae1b250afdad5a9649f8837f81d7e9cd73806ab351479cb21855f86a66"
+      },
+      "root_execution_argv": [
+        "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_induction_S01_once.py",
+        "--execute",
+        "--source-sha256",
+        "757d27ae1b250afdad5a9649f8837f81d7e9cd73806ab351479cb21855f86a66",
+        "--logger-source-sha256",
+        "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+        "--session",
+        "session_02",
+        "--event",
+        "induction_R07_S01_full",
+        "--output",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full",
+        "--logger",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07",
+        "--fresh-snapshot",
+        "ROOT_FRESH_AFTER_STAGE_REVIEW",
+        "--fresh-sha256",
+        "ROOT_FRESH_SHA",
+        "--admission-json",
+        "ROOT_ACTUAL_S01_ADMISSION",
+        "--admission-sha256",
+        "ROOT_ADMISSION_SHA",
+        "--review-json",
+        "ROOT_NATIVE_STAGE_REVIEW",
+        "--review-sha256",
+        "ROOT_STAGE_REVIEW_SHA"
+      ],
+      "archive": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_induction_sxm.py",
+        "sha256": "1669283fedad0df1455dad6dc3707471dd8cbf4cc3688bfd830295e7033f76b0"
+      },
+      "root_archive_argv": [
+        "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_induction_sxm.py",
+        "--execute",
+        "--source-sha256",
+        "1669283fedad0df1455dad6dc3707471dd8cbf4cc3688bfd830295e7033f76b0"
+      ]
+    },
+    "validation": {
+      "event": "after_R07_S01_restored_full",
+      "scanner": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_restored_once.py",
+        "sha256": "c41023e03c171690a1ead6259b1c7fe2f0f221d738247a20865a1baea1d6e7e3"
+      },
+      "root_execution_argv": [
+        "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_restored_once.py",
+        "--execute",
+        "--source-sha256",
+        "c41023e03c171690a1ead6259b1c7fe2f0f221d738247a20865a1baea1d6e7e3",
+        "--logger-source-sha256",
+        "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+        "--session",
+        "session_02",
+        "--event",
+        "after_R07_S01_restored_full",
+        "--output",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_restored_full",
+        "--logger",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07",
+        "--fresh-snapshot",
+        "ROOT_FRESH_AFTER_STAGE_REVIEW",
+        "--fresh-sha256",
+        "ROOT_FRESH_SHA",
+        "--admission-json",
+        "ROOT_ACTUAL_S01_ADMISSION",
+        "--admission-sha256",
+        "ROOT_ADMISSION_SHA",
+        "--review-json",
+        "ROOT_NATIVE_STAGE_REVIEW",
+        "--review-sha256",
+        "ROOT_STAGE_REVIEW_SHA"
+      ],
+      "archive": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_validation_sxm.py",
+        "sha256": "d0c16f0e785dedd9a38b3e90e2fe2bf996f08974dcf6aed612a67943be894413"
+      },
+      "root_archive_argv": [
+        "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_validation_sxm.py",
+        "--execute",
+        "--source-sha256",
+        "d0c16f0e785dedd9a38b3e90e2fe2bf996f08974dcf6aed612a67943be894413"
+      ]
+    }
+  },
+  "induction_analyzer": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/induction200_analyze_full50nm_local.py",
+    "sha256": "397946c5aecc9167b031ef6afd122c8f58605c202edc7e24b5e5e9519eb69c53",
+    "description": "Only .456s/dir and200pA/2T/Psame/Ihalf readback, contextual\u2212240..\u2212160pA pixel descriptors, no matched-quality verdict"
+  },
+  "restored_analyzer_unchanged": true
+}

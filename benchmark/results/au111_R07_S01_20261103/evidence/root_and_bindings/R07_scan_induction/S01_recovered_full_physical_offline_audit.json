@@ -1,0 +1,25 @@
+{
+  "candidate_source_sha256": "f3735eb19251d6a686e3e09833b1cc1504ea227bbe6aa763f6afd2458b11237b",
+  "contract_not_frozen": true,
+  "offline_only": true,
+  "checks": [
+    "Client AST unchanged",
+    "Run AST unchanged",
+    "guard AST unchanged",
+    "diagnostic_entry_guard AST unchanged",
+    "recording_proof AST unchanged",
+    "reserve_attempt AST unchanged",
+    "actual full214 config accepted at original100pA",
+    "unchanged400pA gate rejects -4e-10",
+    "unchanged400pA gate rejects -4.01e-10",
+    "unchanged400pA gate rejects 4e-10",
+    "original gate rejects ZCtrl.SetpntGet",
+    "original gate rejects ZCtrl.StatusGet",
+    "original gate rejects Scan.SpeedGet",
+    "original first5s entry remains unchanged",
+    "distinct recovery event identity",
+    "no root selection rejected without writing"
+  ],
+  "passed": 16,
+  "scope": "AST and current local original-configuration checks only. Actual recovery chain tested after fine03 outcome exists."
+}

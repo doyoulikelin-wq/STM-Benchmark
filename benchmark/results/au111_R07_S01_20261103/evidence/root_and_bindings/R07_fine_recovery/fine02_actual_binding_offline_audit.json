@@ -1,0 +1,34 @@
+{
+  "source_sha256": "7a77ce1ef8689e26dd86f2a5615c1973a1cf7f5d12acf2f4c681c239b586e0af",
+  "actual_local_reference_and_prior_recovery_pass": true,
+  "prior_recovery": {
+    "prior_fine01_outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/outcome.json",
+      "sha256": "840cc3888bb1a5b06811d2b2fe8bfac13c710e41321df4a72131cbe0368449c3"
+    },
+    "known_Home_move_outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/outcome.json",
+      "sha256": "38fd4f5139c88f1dae4b131d5016434df964842fa1f07781c725205f42cd2de6"
+    },
+    "known_Stop_and_Home": true,
+    "R07_fine_attempts_before": 1,
+    "R07_fine_attempt_limit": 2,
+    "prior_claim_inventory_sha256": "1f42e13a46e238a2f841b9af8fc21d1d6fe00f545c660b9a9d7a3e5c18dd6cd1",
+    "pulse_used_preserved": 5,
+    "pulse_maximum_preserved": 6,
+    "fine01_failure_preserved": true,
+    "no_XY_or_coarse_in_this_stage": true
+  },
+  "logger_bound": {
+    "ready_sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7",
+    "start_sha256": "a5e32acb30c306329267c0a3a90fa169dbd7be92342cd6bd8a13baf4dba36df7",
+    "manifest_sha256": "3352882ed403b994728a8105553e424f65f26616d198ba88ee43e194dd368ecf",
+    "native_start_identity": "2026/11/3 13:45:34"
+  },
+  "all_dependency_pins_pass": true,
+  "run_AST_identical_to_fine01": true,
+  "output_absent": true,
+  "claim_absent": true,
+  "network_blocked": true,
+  "run_not_called": true
+}

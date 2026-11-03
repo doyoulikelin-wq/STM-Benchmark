@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "installed originals not modified",
+    "installed candidate hashes exact",
+    "installed only intended files changed",
+    "installed only insertions with no new semicolon/colon labels",
+    "repository originals not modified",
+    "repository candidate hashes exact",
+    "repository only intended files changed",
+    "repository only insertions with no new semicolon/colon labels",
+    "portable added prose no private path",
+    "20 factual references exact"
+  ],
+  "passed": 10,
+  "source_manifest_sha256": "63d39a604e10b958c30d7ab1c5b55bb2cae787ce55a536020eb2b2ff527696dc",
+  "ledger_sha256": "76a7d21240080a32cf2c0cbe8d0f9d7e121233a133e30cdf650c7bdf4ab3da3f",
+  "draft_only": true,
+  "deferred_link": "benchmark/results/au111_R07_S01_20261103/README.md",
+  "new_complete_image_conclusion": false,
+  "quick_validate": {
+    "installed": {
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "python": "/Users/maxlin/Desktop/Nanonis/tip_models/models/scanbot/.venv/bin/python"
+    },
+    "repository": {
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "python": "/Users/maxlin/Desktop/Nanonis/tip_models/models/scanbot/.venv/bin/python"
+    }
+  }
+}

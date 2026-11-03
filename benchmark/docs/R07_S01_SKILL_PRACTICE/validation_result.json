@@ -1,0 +1,33 @@
+{
+  "draft_only": true,
+  "no_install_no_repo_change": true,
+  "checks": [
+    "installed original live files unchanged",
+    "installed candidate pins exact",
+    "installed only3 intended files changed",
+    "installed untouched old sections and no new dense delimiters",
+    "repository original live files unchanged",
+    "repository candidate pins exact",
+    "repository only3 intended files changed",
+    "repository untouched old sections and no new dense delimiters",
+    "26 evidence source hashes current",
+    "installed.patch apply check passes without applying",
+    "repository.patch apply check passes without applying"
+  ],
+  "checks_passed": 11,
+  "quick_validate": {
+    "installed": {
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    "repository": {
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    }
+  },
+  "manifest_sha256": "813c30708352ab4163f491a5e0ed5e88dd79b825f7430319afb3ddeed86ad207",
+  "ledger_sha256": "e2f2644decdce032b95e586c2c0d63df4337b443e12499fb16e79d96ee710fcc",
+  "factual_cut": "Actual complete215 usable, no new bad/repair/cycle. >5nA stop only mocked.",
+  "pending_publication_link": "benchmark/results/au111_R07_S01_20261103/README.md",
+  "source_facts_review": "R07 local facts independently reviewed by logger agent before215; actual215 manual and root acceptance additionally bound."
+}

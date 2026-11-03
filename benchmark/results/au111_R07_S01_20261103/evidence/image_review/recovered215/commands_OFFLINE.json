@@ -1,0 +1,77 @@
+{
+  "scope": "Root alone executes archive after actual known full completion. Comparison and figures are local-only after archive and 345600 verification. No future native filename assumed.",
+  "root_archive_argv": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_recovered_5nA_sxm.py",
+    "--execute",
+    "--source-sha256",
+    "eeab625a5025d5bc2a9ab113c80aa6a68a704d17f3473a79763279ab1838f303"
+  ],
+  "local_comparison_argv": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/compare_recovered_vs214.py",
+    "--run",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full",
+    "--reference",
+    "214",
+    "--output",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/recovered_vs_214",
+    "--scan-source",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_5nA_once.py",
+    "--scan-source-sha256",
+    "027d412a476808348b3fbe008ec668c16103dbb96654fa084f9e8077de3267e1"
+  ],
+  "then_local_render_argv": [
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_pair_by_stage.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_full_dynamic_ranges.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_C1_context.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/landmark_displacement.py"
+    ]
+  ],
+  "source_pins": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_C1_context.py",
+      "sha256": "2ce272055175ed548e1669a0d439606ec689a14ea476b24f36462222c897f8f4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/landmark_displacement.py",
+      "sha256": "5a3a62be6f1021853533a81b1f468f7cdad4c5a71ffdd073436386182781bbe8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_full_dynamic_ranges.py",
+      "sha256": "3464439372eb875878ce406b9a236d573d342e15860b9819acaac3e2dea9c5ba"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/prospective_recovered_plan.json",
+      "sha256": "ccdd96985996a009b805afac77fe289e69b33d9010af713e2773a3e4407b02e0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/render_pair_by_stage.py",
+      "sha256": "bc1538da47026e78569f8e78e81a9918a251e7fafaa4d9f30996b3dbaa3fa352"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/compare_recovered_vs214.py",
+      "sha256": "5261644b57945c119f0c69330e1e508065cbd83717b4494a899eeaf8a5b2964c"
+    }
+  ],
+  "archive_helper": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_S01_recovered_5nA_sxm.py",
+    "sha256": "eeab625a5025d5bc2a9ab113c80aa6a68a704d17f3473a79763279ab1838f303"
+  },
+  "environment": {
+    "MPLCONFIGDIR": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_image_review/mpl_cache",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "recording-segment07-observation-admission-v1",
+  "session_id": "session_02",
+  "recording_segment_id": "R07",
+  "allow_one_start": true,
+  "exclusive_root_writer": true,
+  "all_junction_actions_known_ended": true,
+  "previous_native_archive_complete": true,
+  "unresolved_previous_recording_state": false,
+  "new_logger_source_sha256": "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+  "new_native_basename": "dl_goal30_FIVE1102_SESSION_02_R07",
+  "new_mode": "engaged_observation",
+  "reason": "User supplied scan-speed/current/feedback induction method after R06 closure. Start one separately recorded R07 segment and establish a new original-parameter full baseline before any bounded new induction. R06 gap and all prior action budgets retained.",
+  "previous_stop_kind": "intentional_owned_stop",
+  "new_full_baseline_required": true,
+  "unrecorded_interval_preserved": true,
+  "historical_counts_through_R06": {
+    "completed_full_attempts": 2,
+    "strict_successful_cycles": 0,
+    "remaining": 3,
+    "documented_pulses": 5,
+    "shared_shaper_Starts": 3
+  },
+  "stop_snapshots": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_080_R06_stopped_a/snapshot.json",
+      "sha256": "2c547e897050f5d889b25df9e908cdc68d4a9921e18e18e518f1adf986afa790"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_081_R06_stopped_b/snapshot.json",
+      "sha256": "f85fbcfe12af939741afef414367176ed9f26e6478d9384caf499e862dbe3a13"
+    }
+  ],
+  "fresh_state": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_082_R07_before_logger/snapshot.json",
+    "sha256": "9e0598ca29596abbb4c194cb11aa9fe9a1c19f7993451563f8ec34606d2e2752"
+  },
+  "user_guidance": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_guidance.json",
+    "sha256": "d7908618387509af4d0875919078343179a0875913c962d4618778d04cb26718"
+  },
+  "previous_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "previous_start_claim": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/start.claim",
+    "sha256": "8bf28a7714098f399911fc67ee20f7fca7c8b4b0da13ffb033b186fea8412e0f"
+  },
+  "previous_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/outcome.json",
+    "sha256": "a1a64947f61fcc8f0d33a69cba82f4cff14a37bedf19b12dee37c9c4f63eb426"
+  },
+  "previous_stop_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/stop_R06_root_signal.json",
+    "sha256": "799e2af57176de1a92cf8e4d202c953b63a27c581b7103b97ea9d645049a8b6f"
+  },
+  "previous_native_archive_audit": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/review.json",
+    "sha256": "76e4693972ebc267e9379d5c0a04c1c6a29c96a272974d4d8757a4e1d9525700"
+  },
+  "previous_terminal_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/receipt.json",
+    "sha256": "a85e34f4c6bdb25e1a795dcf079573f5a6422f6260a5f91e2dc766d769ad09d8"
+  },
+  "previous_terminal_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/terminal_evidence.json",
+    "sha256": "da0be50b026e8a745ee194901b665edcc183099e0edc9c88ad0a35cab122714a"
+  },
+  "created_utc": "2026-11-03T05:45:28.135988+00:00"
+}

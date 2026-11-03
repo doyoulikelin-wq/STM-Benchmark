@@ -1,0 +1,520 @@
+{
+  "schema": "R07-S01-actual-induction-and-independent-Home-restoration-summary-v1",
+  "scope_end": "Actual three Home configuration restorations through current outcome2026-11-03T14:41:19.398328+08:00. Later independent Home movement/fine/image assessment are separate records.",
+  "sample": "Au(111)",
+  "tip_base_material": "not_confirmed",
+  "fresh_temperature_this_round": "not_obtained",
+  "counts": {
+    "shared_pulses_used": 5,
+    "shared_pulse_limit": 6,
+    "repair_attempts_completed": 2,
+    "requested_repair_attempts": 5,
+    "strict_closed_cycles": 0,
+    "new_S01_pulse_or_shaper": 0,
+    "finite_S01_induction_Start_attempts": 1,
+    "S01_induction_completed_full_frames": 0
+  },
+  "stages": [
+    {
+      "event_id": "prepare_R07_S01",
+      "outcome_status": "completed",
+      "outcome_CST": "2026-11-03T14:25:19.154720+08:00",
+      "source_sha256": "0d6126617db189754615ef82190e18a6303268e8cab4e218b5759e32c371467c",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/outcome.json",
+          "sha256": "f522153ea2c6ad33d05fbc7aa5e4f403af67f063fda714a304a6f6b5afce66ec"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/manifest.json",
+          "sha256": "294225bfb9244fe2b7fe3490827052b96b6a00a1aa3a3c1c784ad3e63030ecd9"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S01/events.jsonl",
+          "sha256": "48a8a2b9c0d2c6ae786c938d9a3b080f6c7960e5239ff7e56d6ad5d4f1e486f0"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.2499999646475857e-10
+          ],
+          "ACK_CST": "2026-11-03T14:24:27.405044+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0000732_request_body.bin",
+            "sha256": "a274ca80478746a81df32c46f211180c2f30f9d13066ea3052f8b2fe3b7315f2",
+            "bytes": 4
+          },
+          "response_body": {
+            "path": "wire/0000732_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.5624999905039516e-10
+          ],
+          "ACK_CST": "2026-11-03T14:24:32.913305+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001436_request_body.bin",
+            "sha256": "b73c47aabae043693d59ec3409828a3352b6e6b5bc683afa76ae700112a267d0",
+            "bytes": 4
+          },
+          "response_body": {
+            "path": "wire/0001436_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.953125022824409e-10
+          ],
+          "ACK_CST": "2026-11-03T14:24:38.357512+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0002140_request_body.bin",
+            "sha256": "1d2a4fb16c3827a9993c544dad29e5ce18e845743ca30f3c74667d6c378c0608",
+            "bytes": 4
+          },
+          "response_body": {
+            "path": "wire/0002140_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        },
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            2.000000026702864e-10
+          ],
+          "ACK_CST": "2026-11-03T14:24:43.854524+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0002829_request_body.bin",
+            "sha256": "1fa7bc1e2f6f55607fdd44dff17a4982ef4ffcc5284433f317a8986188f10fc4",
+            "bytes": 4
+          },
+          "response_body": {
+            "path": "wire/0002829_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "configure_R07_S01_gain",
+      "outcome_status": "configured_and_exact_readback_verified",
+      "outcome_CST": "2026-11-03T14:29:55.961060+08:00",
+      "source_sha256": "b9bf1adb7540dfb30c4ba7d26b6392b7c666b2e4d2da9b9ffe94c77a8a102fdc",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/outcome.json",
+          "sha256": "0cdbd4093aef198a9fcc599811ecabb052eb4ac4711b10c0e198b0f3c374b927"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/manifest.json",
+          "sha256": "d81a909d1c24a28a9f1c93d31a9ccc1a5d7e0c22bfcb4e29bf53d776f8c22ad5"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_gain/events.jsonl",
+          "sha256": "0905c75134c73adcc9c0c8661831fc35e020b0464efc2e7b0426d1bd32b6e9bb"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "ZCtrl.GainSet",
+          "args": [
+            3.4123519981887895e-12,
+            8.59127176227048e-05,
+            3.9718823785506174e-08
+          ],
+          "ACK_CST": "2026-11-03T14:29:50.690185+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001305_request_body.bin",
+            "sha256": "b64ec9079d502d6c81098b81a330802bce558eb3e01776d8b275efd6be6060b8",
+            "bytes": 12
+          },
+          "response_body": {
+            "path": "wire/0001305_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "configure_R07_S01_speed",
+      "outcome_status": "configured_and_exact_readback_verified",
+      "outcome_CST": "2026-11-03T14:31:34.042426+08:00",
+      "source_sha256": "b9bf1adb7540dfb30c4ba7d26b6392b7c666b2e4d2da9b9ffe94c77a8a102fdc",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_speed/outcome.json",
+          "sha256": "b87602fc2d26f2b31c831e6ab908bea8e6eb69cfe2ee359cf18ca27c530b8334"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_speed/manifest.json",
+          "sha256": "1ba0271da572ad07558ab2bdfce5da88e88ed695a47ac6bf7c0d600fd029d90e"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S01_speed/events.jsonl",
+          "sha256": "65d40d36e1722deeb10ecebf7ac13dc3e23156bdc6dffaa89c87b2421db51cdf"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "Scan.SpeedSet",
+          "args": [
+            1.096491217822404e-07,
+            1.096491217822404e-07,
+            0.4560000002384186,
+            0.4560000002384186,
+            2,
+            1.0
+          ],
+          "ACK_CST": "2026-11-03T14:31:28.716252+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001246_request_body.bin",
+            "sha256": "46c9ad3d3a59044003c4032876ff9480f8e1a2c9fa90c5d6f843f6b98c90eb48",
+            "bytes": 22
+          },
+          "response_body": {
+            "path": "wire/0001246_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "induction_R07_S01_full",
+      "outcome_status": "incomplete",
+      "outcome_CST": "2026-11-03T14:35:13.813403+08:00",
+      "source_sha256": "757d27ae1b250afdad5a9649f8837f81d7e9cd73806ab351479cb21855f86a66",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+          "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/manifest.json",
+          "sha256": "209159e3a7a74be8e3aff345c539d156dd855d6dd13244d05da9bb55a40ed125"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/events.jsonl",
+          "sha256": "2a9b13b4f09cfbe12bfcee85022007c18a6f468aec4a3a34f66c61a102571e24"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "Scan.Action",
+          "args": [
+            0,
+            0
+          ],
+          "ACK_CST": "2026-11-03T14:33:29.847196+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0000674_request_body.bin",
+            "sha256": "b0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44",
+            "bytes": 6
+          },
+          "response_body": {
+            "path": "wire/0000674_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        },
+        {
+          "command": "Scan.Action",
+          "args": [
+            1,
+            0
+          ],
+          "ACK_CST": "2026-11-03T14:35:10.370816+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0007072_request_body.bin",
+            "sha256": "01cf85cfeb36d628ca2e6f583fa2331be029b6b28e877e1008fb3f862306c086",
+            "bytes": 6
+          },
+          "response_body": {
+            "path": "wire/0007072_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        },
+        {
+          "command": "ZCtrl.Withdraw",
+          "args": [
+            1,
+            2000
+          ],
+          "ACK_CST": "2026-11-03T14:35:10.621093+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0007126_request_body.bin",
+            "sha256": "f0701291944b4d01f215ffc867edd4c92a58f8f433f9927d285f3fa1fbcb1533",
+            "bytes": 8
+          },
+          "response_body": {
+            "path": "wire/0007126_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "recovery_R07_S01_H01_gain",
+      "outcome_status": "Home_configuration_knownACK_exact_readback",
+      "outcome_CST": "2026-11-03T14:37:07.390922+08:00",
+      "source_sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/outcome.json",
+          "sha256": "29ce221d70c07fbee09977cc936f88a5e2571d82a2de9913e6468c5ab84d112d"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/manifest.json",
+          "sha256": "ff97c7083561e3142a22e237b5a3eae1830f9c066211d5d077a882d873eec147"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/events.jsonl",
+          "sha256": "b5924e3f38537fbe7875542a3aba111b8eae59ff4f7397c626ebc1d4ddf1285e"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "ZCtrl.GainSet",
+          "args": [
+            3.4123519981887895e-12,
+            4.29563588113524e-05,
+            7.943764757101235e-08
+          ],
+          "ACK_CST": "2026-11-03T14:37:02.101161+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001305_request_body.bin",
+            "sha256": "ffec3fccb3ea6634092be812170a33d3ce35d767245ad2fe91aa12e16d7435fc",
+            "bytes": 12
+          },
+          "response_body": {
+            "path": "wire/0001305_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "recovery_R07_S01_H01_speed",
+      "outcome_status": "Home_configuration_knownACK_exact_readback",
+      "outcome_CST": "2026-11-03T14:39:45.875524+08:00",
+      "source_sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/outcome.json",
+          "sha256": "0f78f922de18f9d1b4624739ba995c8492b81a37702c5b60f2473f967258786c"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/manifest.json",
+          "sha256": "f47aed2cdf08578ede197082e64e4abecd8b6250f2593c2317859be015adce59"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/events.jsonl",
+          "sha256": "828cc36757cb481e6d8a89075eb5ed1e5c6c4e9c7ba9d6247c8cf5d8ef8c7236"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "Scan.SpeedSet",
+          "args": [
+            5.48245608911202e-08,
+            5.48245608911202e-08,
+            0.9120000004768372,
+            0.9120000004768372,
+            2,
+            1.0
+          ],
+          "ACK_CST": "2026-11-03T14:39:40.596489+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001305_request_body.bin",
+            "sha256": "3de390458e2d59aeeb0de0224dbfe17deadbc3e8d07a9b8bd017b637f028d1f9",
+            "bytes": 22
+          },
+          "response_body": {
+            "path": "wire/0001305_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    },
+    {
+      "event_id": "recovery_R07_S01_H01_current",
+      "outcome_status": "Home_configuration_knownACK_exact_readback",
+      "outcome_CST": "2026-11-03T14:41:19.398328+08:00",
+      "source_sha256": "f8c16650b97f9296b5ed59dbde86e44d889474992ae70f71dcb611e46770bafd",
+      "evidence": {
+        "outcome.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/outcome.json",
+          "sha256": "c2e7abdd0fac94670b71c1bae85e8d6cd806201f3d89cdc0b951fe5bdfcb4f2a"
+        },
+        "manifest.json": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/manifest.json",
+          "sha256": "c0259731b44b77f45f704d54de2e1e7e4fb9a1f0f1dcc99775f576ea79a1a0c3"
+        },
+        "events.jsonl": {
+          "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/events.jsonl",
+          "sha256": "723ba9438247c95c8112df9ed707b5ff8b10ddd753456894bc3b78df6184c659"
+        }
+      },
+      "actual_writer_ACKs": [
+        {
+          "command": "ZCtrl.SetpntSet",
+          "args": [
+            1.000000013351432e-10
+          ],
+          "ACK_CST": "2026-11-03T14:41:14.161202+08:00",
+          "status": "ok",
+          "warning": "",
+          "request_body": {
+            "path": "wire/0001246_request_body.bin",
+            "sha256": "a5ff219981024e22b99480b5c625fc0099dd69e3a68cfaa041e8aef1e3f9bf47",
+            "bytes": 4
+          },
+          "response_body": {
+            "path": "wire/0001246_response_body.bin",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "bytes": 8
+          }
+        }
+      ]
+    }
+  ],
+  "native_evidence_index": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_native_review.json",
+      "sha256": "83eafbdb797c40451e3e0c1c8c83767edfb41918b3cbedf552ebf9ae377b5971"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_post_through180_native_review.json",
+      "sha256": "c402ad8f035813dd5d4eae8621ad2b2f91b0e2ab6e27ff191a78cc8843b9c9b8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_prepare_native_review.json",
+      "sha256": "c9146603b54d248170e02884bddee701f7e4163cf2252bea4ff32751ddf38def"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_prepare_bridge_native_review.json",
+      "sha256": "fabbca5e38001165f63ec52b1593eb4ef04a47dbd62c7b455de44ed0abbee9f9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_gain_native_review.json",
+      "sha256": "6f584e5f3e05d3824900319c7d97383b474e3845a3767bd1df7cc878546c932d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_gain_bridge_native_review.json",
+      "sha256": "cb7dea77c1a6b5e41e7877b607558f050a08dcff2e1976b24481e30c2bf8405c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_speed_native_review.json",
+      "sha256": "868f2683512e5e2711668380cb00ba9d56ebe8b219238e41905293dc6bc87893"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_speed_post_tail10.json",
+      "sha256": "29dcbdce1edacf85d32770c74cd45c7c194343377b3225088a8f8fe11a5f6a93"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_speed_bridge_native_review.json",
+      "sha256": "9eb42973867c71a7945c2e5885b5591e845460adaf894b3ddfc2cf64b1139b14"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_induction_interrupted_native_review.json",
+      "sha256": "3c77d8abdc767ee95cbd7d77192bdb1066d2addf652d1f6ad14c4590dba992eb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_induction_trigger_stop_withdraw_native_review.json",
+      "sha256": "6240cd17add6dbc3e8e8c4fbfada07e3144e3bf6cfdbc060f751656f02c813b1"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_exposure_vs_baseline214_descriptive_native_comparison.json",
+      "sha256": "6673f061891cfc55cdaa17c26f7fa56a54d13b392c7686c1100e6767efb3bbc5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_Home_gain_native_review.json",
+      "sha256": "3cc7a354377b2eed16734fc49f97299dfb071d14d45d6f09c3cd5209cbaf7640"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_Home_gain_bridge_native_review.json",
+      "sha256": "6cf73e750a00558f64a5300fd6b26fe468cbb32e58b3ce96e462e0097764171d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_Home_speed_native_review.json",
+      "sha256": "52971383ad9fea6758e5557433ee9f38285aad4bf7a78c5f5f32d7e6ac66b5cf"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_Home_speed_bridge_native_review.json",
+      "sha256": "1fcfea48fa49b07fa38d476786811844039f1f6fc96b96f11e11023b16d239c5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_Home_current_native_review.json",
+      "sha256": "7a7bfc9644f424286f37a5d51074a10f16eaec870e385f8769596c1a29580fde"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_before_Home_current_bridge_native_review.json",
+      "sha256": "ac58bb6d6cd0ef8c0cff17e3b79dcb924f5ff47a01e98e0b249143f3a9d6e859"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_interrupted_native_waveform_v2_provenance.json",
+      "sha256": "598d8cc7294cd7e83315c61e2434aa5875bb9dc422b724991a8342c5d64dd91d"
+    }
+  ],
+  "frozen_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_Home_current_completed_through270_native_receipt.json",
+    "sha256": "e1349d548a85cca867127c170dff66907cdcbbeda1b97076487c056aeb614dee"
+  },
+  "figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_interrupted_native_waveform_v2.png",
+    "sha256": "eceb6649e176b192c80e261980f76f6ab8a65a3d2ac602dbbde7b42b28d8afe9"
+  },
+  "figure_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/plot_S01_interrupted_native_v2.py",
+    "sha256": "e67373887dcf03475dd9769eedb425418161c68960beb6edc0583a21d3ef7903"
+  },
+  "conclusions": {
+    "S01_action_executed": true,
+    "S01_completed_full_image": false,
+    "task_related_induced_bad_established": false,
+    "configuration_restored_at_Home": true,
+    "tunnelling_reestablished_by_this_summary": false,
+    "matched_after_image_included": false,
+    "original_induction_failure_rewritten": false,
+    "new_gate_approved": false
+  },
+  "pending_gate_question": "400pA runtime gate is the executed engineering software condition. Expert/user question remains pending. No new threshold or delay is introduced here.",
+  "raw_coverage": "Frozen native receipt270 contains blocks1..270 with25000rows each,6channels at0.5ms. All indexed stage/gap windows were independently SHA-checked. Recorder remains active, this is not a terminal archive."
+}

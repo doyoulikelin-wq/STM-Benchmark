@@ -1,0 +1,46 @@
+{
+  "offline_only": true,
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S01_recovered_5nA_once.py",
+    "sha256": "027d412a476808348b3fbe008ec668c16103dbb96654fa084f9e8077de3267e1"
+  },
+  "actual_recovery_chain_passed": true,
+  "native_review_and_root_choice_were_mock_fixture_only": true,
+  "mock_fixture_removed_on_exit": true,
+  "actual_admission_created": false,
+  "actual_device_actions": false,
+  "actual_predecessors": {
+    "induction_incomplete": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+      "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+    },
+    "partial_buffer_capture": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/partial_buffer_after_S01_gain_before_speed/outcome.json",
+      "sha256": "62832a1387d916ec7a334d1beeac2f479c1a0df7b2e37f87f2750862f1239722"
+    },
+    "Home_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_gain/outcome.json",
+      "sha256": "29ce221d70c07fbee09977cc936f88a5e2571d82a2de9913e6468c5ab84d112d"
+    },
+    "Home_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_speed/outcome.json",
+      "sha256": "0f78f922de18f9d1b4624739ba995c8492b81a37702c5b60f2473f967258786c"
+    },
+    "Home_current": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_R07_S01_H01_current/outcome.json",
+      "sha256": "c2e7abdd0fac94670b71c1bae85e8d6cd806201f3d89cdc0b951fe5bdfcb4f2a"
+    },
+    "Home_move": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_after_S01_home02/outcome.json",
+      "sha256": "6de803b5ac3b62248d0ac25e961f0b93fa2620d496828f29175b8dad34339bbb"
+    },
+    "fine03": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_03/outcome.json",
+      "sha256": "08ccd73c4699c155fb77bd41f76f0a90598cc4f5b4fe2f6ec7addab2aeb1b848"
+    }
+  },
+  "known_latest_end_monotonic_ns": 1559902377369916,
+  "preserved_incomplete_exposure": true,
+  "counted_fine_observations": 126,
+  "earlier_fixture_result": "Rejected because fixture inventory included concurrent real scanner own reservation. Corrected fixture excludes exactly own reservation as the production contract specifies; source unchanged."
+}

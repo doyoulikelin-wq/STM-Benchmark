@@ -1,0 +1,961 @@
+{
+  "source_sha256": "2c7b57130405408ece1a1de7017c94f4d3ce9361a091337fff2fbb7460cfce96",
+  "sources": {
+    "native_audit": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_native_review.json",
+      "sha256": "83eafbdb797c40451e3e0c1c8c83767edfb41918b3cbedf552ebf9ae377b5971"
+    },
+    "receipt": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_completed_native_receipt.json",
+      "sha256": "6513bea0b6a90dad6e176630b5baf0b5c10d16a898b66a596cf017dc8de488a3"
+    },
+    "manifest": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/manifest.json",
+      "sha256": "dfe309a9bc92b36b25c81a0d375e38a5b8884fb32685175af463594c8151bec3"
+    },
+    "after_frames": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02/after_frames.json",
+      "sha256": "a47b84962bfea05a197776f09cb0935c7f14a207c70c9695ece616197a7eab57"
+    },
+    "raw_blocks": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700116.dat",
+        "sha256": "6ba9c7d9a85cc3d706541f915232eeab5e7e67202b465fc7185b3063aff328cf"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700117.dat",
+        "sha256": "e54d3260dceaf8141811aca9a7382c1a9d49f1cce9410aa719a2f3e1965e9339"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700118.dat",
+        "sha256": "d0803a2a29907e0219429354f1738a06ba6709e346c235ab81f9ccf6d955e41e"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700119.dat",
+        "sha256": "ed4938d54ae53491cadc47c8f9836042dc6fadf944f9e7eadde4a8d4ecf01638"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700120.dat",
+        "sha256": "9a76e8bfbf5643984c15e45e10dda268adebf381c8dbcb6b649aee53408eb18f"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700121.dat",
+        "sha256": "02e79520780a02b8e237c1f0120941d5efcf4b97e3dafd9a36156239085a83d4"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700122.dat",
+        "sha256": "6b509e0836349246a0d286ddda0018930eca68c13dce514edbb017e9d7c8e88b"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700123.dat",
+        "sha256": "22927fb2e60f4f72c1d1d81ac4fb302c3638f033d23056b7a6fe179367c8afd9"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700124.dat",
+        "sha256": "d8aba4757cc2d88936ffee883c5d2db5a9b4cc19abfef049057f83e5945b687d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700125.dat",
+        "sha256": "75919ccb00569598432bddfb8990a0a2f7bfd61bf4330b4268d99581116aa96d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700126.dat",
+        "sha256": "8a95b8d6e40e04d352e2def1af1e170de9a111f364d84bfa9db6b129acb2957f"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700127.dat",
+        "sha256": "94df1ffaa5cc627137c13dce84a6d3e2a08380ac8cd18dc73b2e09a7a3118ac0"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700128.dat",
+        "sha256": "bd6ebdd4e1c095083ee4a4c6667764c7dceab9cdc9f2e4d7c1c37be8c097c2ba"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700129.dat",
+        "sha256": "98f8f876f480959a321a30eb1b443a811804d5476cdfe3dbbc4f335516fd073d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700130.dat",
+        "sha256": "767025111e91db921f83f9daf7e72850a7bb253d9d7cef6a290edf09b9dfeec1"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700131.dat",
+        "sha256": "5e603fcd774cd576eb4c62d8da1f87145301c8e5b5e02cc2354298591a77915d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700132.dat",
+        "sha256": "2a1ebf94deee5ae568efa2f11fcb85cb306b15c22f29bc71ca4ebcb0122c4220"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700133.dat",
+        "sha256": "ff7b6fccf5d170ec207cb317e70e1674d2e9c5e2adad8d362576959c0bec4284"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700134.dat",
+        "sha256": "0fc740f5306ef3c81651c1f75536726418741f3ecee7b7504339f82a33de05cb"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700135.dat",
+        "sha256": "763590809311c22f349aaff58bee8eefce1f79444da5c33a0abc2d0a52ffd210"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700136.dat",
+        "sha256": "ff2e9b996c7b9fb214f2193b93094501b8eb6786cc1858cfe0317d8f453be400"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700137.dat",
+        "sha256": "54dbc0c41c32ea89676b38cbe58336207a846e01d4e2781895d596175597ce81"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700138.dat",
+        "sha256": "bc89c2fe5b1a6b6abfd1ac7178091b50b10003a1aa1c0d48e38616a83a3c2926"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700139.dat",
+        "sha256": "efae303b3e6e19489754e16cc3fbf82349985b149136fa787c285abd4f5aa0c0"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700140.dat",
+        "sha256": "51c2ee86bb7f991df2a8b057929be55c16c729ea1790beb62a96a9aae4b497e3"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700141.dat",
+        "sha256": "d131abf249654f9fea81ce8e9dfffed7236ba6f64bb938e51267db70329826ac"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700142.dat",
+        "sha256": "316048981b7ca8b9bcc904c4ac2c6455d658425665e23e5dd16c0dbc3c28644d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700143.dat",
+        "sha256": "d8b6408643b3a7191833bb962631c37dfc575dab5dffca254ffd5345e399f39d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700144.dat",
+        "sha256": "ca6f06a3aa268ea93d5b6cea6f29ff7539e6db807c76498b3e3e1134df7d3bb4"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700145.dat",
+        "sha256": "967edf7cdaab3b305d15846f2dbb7293dcaa9025a2735c4a81b68e6d9e24e642"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700146.dat",
+        "sha256": "9508d06aa85137af3f8ebb371bf8e6860ff7a2d7f331e0583806e4aaec86e29b"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700147.dat",
+        "sha256": "08726cd887ac04c4880a8707384562a33645f355e39051f9ff5b8c67c11f5887"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700148.dat",
+        "sha256": "33d74960439acb26794391dc73a48c37477b1f8ddbbdc6d97e76b2f45abf8420"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700149.dat",
+        "sha256": "29fc4a15767b0ecd26dd05d307e7fbd5cc0f65f4c173abbc01eff714fe6fbde0"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700150.dat",
+        "sha256": "2c057db7a542dee34f8423652945c586276aea036d18e617b37a8c56784dad68"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R07/dl_goal30_FIVE1102_SESSION_02_R0700151.dat",
+        "sha256": "2ef1006cde84a8f84c59798ae27ac055aacc3ad897ca8c0f1bdeb9a3cc0e270c"
+      }
+    ]
+  },
+  "actual_line_period_s": 1.8240000009536743,
+  "start_native_s_outer": [
+    1446.56,
+    1447.09
+  ],
+  "groups": {
+    "400": {
+      "groups": 118,
+      "samples": 426,
+      "longest": {
+        "samples": 31,
+        "duration_ms": 15.5,
+        "native_seconds_half_open": [
+          1685.5045,
+          1685.52
+        ],
+        "minimum_I_pA": -675.0953099999999,
+        "Z_at_peak_nm": -102.28632999999999,
+        "location": {
+          "native_s": 1685.508,
+          "block": 135,
+          "row_zero_based_in_DAT": 21016,
+          "nominal_scan_row_zero_based_range_from_start_bracket": [
+            130,
+            131
+          ],
+          "nominal_frame_Y_nm_using_row_centers": -2.291666693447304,
+          "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+        }
+      },
+      "minimum_current_group": {
+        "samples": 2,
+        "duration_ms": 1.0,
+        "native_seconds_half_open": [
+          1569.9295,
+          1569.9305
+        ],
+        "minimum_I_pA": -2096.6153,
+        "Z_at_peak_nm": -106.45168,
+        "location": {
+          "native_s": 1569.9295,
+          "block": 126,
+          "row_zero_based_in_DAT": 14859,
+          "nominal_scan_row_zero_based_range_from_start_bracket": [
+            67,
+            67
+          ],
+          "nominal_frame_Y_nm_using_row_centers": 10.93750012781669,
+          "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+        }
+      },
+      "all_groups": null
+    },
+    "1000": {
+      "groups": 14,
+      "samples": 17,
+      "longest": {
+        "samples": 2,
+        "duration_ms": 1.0,
+        "native_seconds_half_open": [
+          1569.767,
+          1569.768
+        ],
+        "minimum_I_pA": -1516.1837,
+        "Z_at_peak_nm": -106.44681,
+        "location": {
+          "native_s": 1569.7675,
+          "block": 126,
+          "row_zero_based_in_DAT": 14535,
+          "nominal_scan_row_zero_based_range_from_start_bracket": [
+            67,
+            67
+          ],
+          "nominal_frame_Y_nm_using_row_centers": 10.93750012781669,
+          "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+        }
+      },
+      "minimum_current_group": {
+        "samples": 1,
+        "duration_ms": 0.5,
+        "native_seconds_half_open": [
+          1569.9295,
+          1569.93
+        ],
+        "minimum_I_pA": -2096.6153,
+        "Z_at_peak_nm": -106.45168,
+        "location": {
+          "native_s": 1569.9295,
+          "block": 126,
+          "row_zero_based_in_DAT": 14859,
+          "nominal_scan_row_zero_based_range_from_start_bracket": [
+            67,
+            67
+          ],
+          "nominal_frame_Y_nm_using_row_centers": 10.93750012781669,
+          "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+        }
+      },
+      "all_groups": [
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1564.296,
+            1564.2965
+          ],
+          "minimum_I_pA": -1022.602,
+          "Z_at_peak_nm": -106.54677,
+          "location": {
+            "native_s": 1564.296,
+            "block": 126,
+            "row_zero_based_in_DAT": 3592,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              64,
+              64
+            ],
+            "nominal_frame_Y_nm_using_row_centers": 11.562500135120503,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1564.2975000000001,
+            1564.298
+          ],
+          "minimum_I_pA": -1199.5869,
+          "Z_at_peak_nm": -106.52882,
+          "location": {
+            "native_s": 1564.2975000000001,
+            "block": 126,
+            "row_zero_based_in_DAT": 3595,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              64,
+              64
+            ],
+            "nominal_frame_Y_nm_using_row_centers": 11.562500135120503,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1567.9405,
+            1567.941
+          ],
+          "minimum_I_pA": -1156.3406,
+          "Z_at_peak_nm": -106.55518,
+          "location": {
+            "native_s": 1567.9405,
+            "block": 126,
+            "row_zero_based_in_DAT": 10881,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              66,
+              66
+            ],
+            "nominal_frame_Y_nm_using_row_centers": 11.145833463584626,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 2,
+          "duration_ms": 1.0,
+          "native_seconds_half_open": [
+            1569.767,
+            1569.768
+          ],
+          "minimum_I_pA": -1516.1837,
+          "Z_at_peak_nm": -106.44681,
+          "location": {
+            "native_s": 1569.7675,
+            "block": 126,
+            "row_zero_based_in_DAT": 14535,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              67,
+              67
+            ],
+            "nominal_frame_Y_nm_using_row_centers": 10.93750012781669,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1569.9295,
+            1569.93
+          ],
+          "minimum_I_pA": -2096.6153,
+          "Z_at_peak_nm": -106.45168,
+          "location": {
+            "native_s": 1569.9295,
+            "block": 126,
+            "row_zero_based_in_DAT": 14859,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              67,
+              67
+            ],
+            "nominal_frame_Y_nm_using_row_centers": 10.93750012781669,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 2,
+          "duration_ms": 1.0,
+          "native_seconds_half_open": [
+            1670.9415000000001,
+            1670.9425
+          ],
+          "minimum_I_pA": -1179.7218,
+          "Z_at_peak_nm": -102.43861,
+          "location": {
+            "native_s": 1670.9415000000001,
+            "block": 134,
+            "row_zero_based_in_DAT": 16883,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              122,
+              123
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -0.6250000073038087,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1689.155,
+            1689.1555
+          ],
+          "minimum_I_pA": -1093.0903,
+          "Z_at_peak_nm": -102.08367,
+          "location": {
+            "native_s": 1689.155,
+            "block": 136,
+            "row_zero_based_in_DAT": 3310,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              132,
+              133
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -2.708333364983182,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 2,
+          "duration_ms": 1.0,
+          "native_seconds_half_open": [
+            1690.978,
+            1690.979
+          ],
+          "minimum_I_pA": -1072.3503,
+          "Z_at_peak_nm": -102.04798,
+          "location": {
+            "native_s": 1690.9785,
+            "block": 136,
+            "row_zero_based_in_DAT": 6957,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              133,
+              134
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -2.9166667007511182,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1692.8025,
+            1692.803
+          ],
+          "minimum_I_pA": -1031.9653,
+          "Z_at_peak_nm": -101.98318,
+          "location": {
+            "native_s": 1692.8025,
+            "block": 136,
+            "row_zero_based_in_DAT": 10605,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              134,
+              135
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -3.1250000365190544,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1694.625,
+            1694.6255
+          ],
+          "minimum_I_pA": -1016.2579,
+          "Z_at_peak_nm": -102.15115,
+          "location": {
+            "native_s": 1694.625,
+            "block": 136,
+            "row_zero_based_in_DAT": 14250,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              135,
+              136
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -3.3333333722869907,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1696.448,
+            1696.4485
+          ],
+          "minimum_I_pA": -1006.7617999999999,
+          "Z_at_peak_nm": -102.35274,
+          "location": {
+            "native_s": 1696.448,
+            "block": 136,
+            "row_zero_based_in_DAT": 17896,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              136,
+              136
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -3.4375000401709586,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1696.4495,
+            1696.45
+          ],
+          "minimum_I_pA": -1012.4881999999999,
+          "Z_at_peak_nm": -102.09723000000001,
+          "location": {
+            "native_s": 1696.4495,
+            "block": 136,
+            "row_zero_based_in_DAT": 17899,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              136,
+              137
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -3.541666708054927,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1804.343,
+            1804.3435
+          ],
+          "minimum_I_pA": -1194.799,
+          "Z_at_peak_nm": -106.23867,
+          "location": {
+            "native_s": 1804.343,
+            "block": 145,
+            "row_zero_based_in_DAT": 8686,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              195,
+              196
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -15.83333351836321,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        },
+        {
+          "samples": 1,
+          "duration_ms": 0.5,
+          "native_seconds_half_open": [
+            1806.169,
+            1806.1695
+          ],
+          "minimum_I_pA": -1378.0239,
+          "Z_at_peak_nm": -106.23995,
+          "location": {
+            "native_s": 1806.169,
+            "block": 145,
+            "row_zero_based_in_DAT": 12338,
+            "nominal_scan_row_zero_based_range_from_start_bracket": [
+              196,
+              197
+            ],
+            "nominal_frame_Y_nm_using_row_centers": -16.041666854131144,
+            "scope": "Approximate row timing only. Allow at least one-row uncertainty for positioning and raster timing. No X, scan-direction half-line or physical-object attribution."
+          }
+        }
+      ]
+    }
+  },
+  "fixed_corner_recovery_before_scan": {
+    "zero_based_sample_half_open": [
+      2512220,
+      2893120
+    ],
+    "native_seconds_half_open": [
+      1256.1100000000001,
+      1446.56
+    ],
+    "rows": 380900,
+    "samples": {
+      "Current_pA": {
+        "min": -134.88187000000002,
+        "max": -74.842042,
+        "mean": -100.21941355955632,
+        "std_population": 5.738094768330858,
+        "p01": -116.3772422,
+        "p05": -109.884777,
+        "median": -99.953885,
+        "p95": -91.45809035,
+        "p99": -86.65156889000001
+      },
+      "Bias_V": {
+        "min": -1.0,
+        "max": -1.0,
+        "mean": -1.0,
+        "std_population": 0.0,
+        "p01": -1.0,
+        "p05": -1.0,
+        "median": -1.0,
+        "p95": -1.0,
+        "p99": -1.0
+      },
+      "Z_nm": {
+        "min": -106.10754,
+        "max": -104.76862,
+        "mean": -105.19509115846678,
+        "std_population": 0.3430428334615711,
+        "p01": -106.05402,
+        "p05": -105.89363,
+        "median": -105.10354,
+        "p95": -104.79648,
+        "p99": -104.77667000000001
+      },
+      "Z_Control_pA": {
+        "min": 74.842042,
+        "max": 134.88187000000002,
+        "mean": 100.21941355955632,
+        "std_population": 5.738094768330858,
+        "p01": 86.65156889000001,
+        "p05": 91.45809035,
+        "median": 99.953885,
+        "p95": 109.884777,
+        "p99": 116.37724220000001
+      },
+      "Z_Error_pA": {
+        "min": -30.391394000000002,
+        "max": 29.169594,
+        "mean": -0.3578064677741426,
+        "std_population": 5.697460591852737,
+        "p01": -15.124055580000002,
+        "p05": -9.51196408,
+        "median": -0.36769386000000004,
+        "p95": 8.840261294999998,
+        "p99": 14.390602790000003
+      },
+      "Z_SafeTip_pA": {
+        "min": 74.842042,
+        "max": 134.88187000000002,
+        "mean": 100.21941355955632,
+        "std_population": 5.738094768330858,
+        "p01": 86.65156889000001,
+        "p05": 91.45809035,
+        "median": 99.953885,
+        "p95": 109.884777,
+        "p99": 116.37724220000001
+      }
+    },
+    "algebraic_descriptors_pA": {
+      "control_plus_signed_current": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_abs_current": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_setpoint": {
+        "min": -25.15795933514319,
+        "max": 34.881868664856825,
+        "mean": 0.219412224413118,
+        "std_population": 5.738094768330858,
+        "p01": -13.348432445143187,
+        "p05": -8.54191098514319,
+        "median": -0.04611633514319635,
+        "p95": 9.884775664856805,
+        "p99": 16.377240864856812
+      },
+      "SafeTip_minus_control": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "error_minus_control_minus_setpoint": {
+        "min": -6.191784064856812,
+        "max": -0.0015465848568042562,
+        "mean": -0.5772186921872606,
+        "std_population": 0.605064134925565,
+        "p01": -2.862592574856801,
+        "p05": -1.8169831948568083,
+        "median": -0.3802119148567984,
+        "p95": -0.053117703356802756,
+        "p99": -0.024374094956797744
+      },
+      "error_minus_setpoint_minus_control": {
+        "min": -55.549353335143195,
+        "max": 64.05146266485683,
+        "mean": -0.13839424336102465,
+        "std_population": 11.419609228198158,
+        "p01": -28.4386515451432,
+        "p05": -18.022985230143203,
+        "median": -0.4102260451431874,
+        "p95": 18.7192460098568,
+        "p99": 30.748217574856817
+      }
+    },
+    "within_window_Pearson": {
+      "signed_I_vs_control": -1.0,
+      "abs_I_vs_control": 1.0,
+      "error_vs_control": 0.9944260808451786,
+      "error_vs_signed_I": -0.9944260808451786,
+      "error_vs_Z": -0.0003175428114584476
+    },
+    "signed_I_inside_minus120_to_minus80pA_fraction": 0.9953032291940141,
+    "abs_I_ge400pA_samples": 0,
+    "minimum_I_location": {
+      "block": 104,
+      "row_zero_based": 12131
+    },
+    "Z_linear_slope_pm_per_s": 5.987653912320325,
+    "Z_linear_residual_RMS_pm": 96.49935136519167,
+    "abs_I_sample_exceedances_pA": {
+      "400": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      },
+      "1000": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      },
+      "4000": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      }
+    },
+    "matches_historical_negative_digitizer_value_samples": 0,
+    "Z_changes": {
+      "median_last_minus_first_upto100ms_pm": 1329.2700000000082,
+      "maximum_single_adjacent_change_pm_signed": 9.569999999996526,
+      "pair_first_native_s": 1272.848,
+      "endpoint_limits_nm_low_high": [
+        -123.69999069505866,
+        123.69999069505866
+      ],
+      "minimum_distance_to_either_limit_nm": 17.59245069505866,
+      "rows_within_2nm_of_endpoint": 0
+    }
+  },
+  "post_scan_recovery_through152": {
+    "zero_based_sample_half_open": [
+      3771420,
+      3800000
+    ],
+    "native_seconds_half_open": [
+      1885.71,
+      1900.0
+    ],
+    "rows": 28580,
+    "samples": {
+      "Current_pA": {
+        "min": -122.00191999999998,
+        "max": -79.813961,
+        "mean": -100.09303765297412,
+        "std_population": 5.944511611070463,
+        "p01": -114.2900954,
+        "p05": -110.21771999999999,
+        "median": -99.869807,
+        "p95": -90.6287133,
+        "p99": -87.46352813
+      },
+      "Bias_V": {
+        "min": -1.0,
+        "max": -1.0,
+        "mean": -1.0,
+        "std_population": 0.0,
+        "p01": -1.0,
+        "p05": -1.0,
+        "median": -1.0,
+        "p95": -1.0,
+        "p99": -1.0
+      },
+      "Z_nm": {
+        "min": -104.33493,
+        "max": -104.23199,
+        "mean": -104.25657548285514,
+        "std_population": 0.016778899151620775,
+        "p01": -104.31509419999999,
+        "p05": -104.2925605,
+        "median": -104.251475,
+        "p95": -104.23953999999999,
+        "p99": -104.2367
+      },
+      "Z_Control_pA": {
+        "min": 79.813961,
+        "max": 122.00191999999998,
+        "mean": 100.09303765297412,
+        "std_population": 5.944511611070463,
+        "p01": 87.46352813,
+        "p05": 90.6287133,
+        "median": 99.869807,
+        "p95": 110.21771999999999,
+        "p99": 114.2900954
+      },
+      "Z_Error_pA": {
+        "min": -22.756691,
+        "max": 19.279764,
+        "mean": -0.34344707988219386,
+        "std_population": 5.934552002718803,
+        "p01": -13.75734728,
+        "p05": -10.1126331,
+        "median": -0.36826195,
+        "p95": 9.435270164999999,
+        "p99": 13.053121019999997
+      },
+      "Z_SafeTip_pA": {
+        "min": 79.813961,
+        "max": 122.00191999999998,
+        "mean": 100.09303765297412,
+        "std_population": 5.944511611070463,
+        "p01": 87.46352813,
+        "p05": 90.6287133,
+        "median": 99.869807,
+        "p95": 110.21771999999999,
+        "p99": 114.2900954
+      }
+    },
+    "algebraic_descriptors_pA": {
+      "control_plus_signed_current": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_abs_current": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_setpoint": {
+        "min": -20.18604033514319,
+        "max": 22.001918664856788,
+        "mean": 0.09303631783091179,
+        "std_population": 5.944511611070463,
+        "p01": -12.536473205143196,
+        "p05": -9.371288035143195,
+        "median": -0.13019433514320156,
+        "p95": 10.217718664856793,
+        "p99": 14.290094064856799
+      },
+      "SafeTip_minus_control": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "error_minus_control_minus_setpoint": {
+        "min": -2.766626664856794,
+        "max": -0.0031809108568058575,
+        "mean": -0.4364833977131056,
+        "std_population": 0.35930346567682625,
+        "p01": -1.664653134856798,
+        "p05": -1.1758234698567998,
+        "median": -0.333315864856804,
+        "p95": -0.06240475335680557,
+        "p99": -0.029003836256808527
+      },
+      "error_minus_setpoint_minus_control": {
+        "min": -42.94273133514319,
+        "max": 41.28168266485679,
+        "mean": -0.25041076205128204,
+        "std_population": 11.873632660386763,
+        "p01": -26.28744904514319,
+        "p05": -19.470922585143192,
+        "median": -0.510237005143189,
+        "p95": 19.656025119856796,
+        "p99": 27.3061478348568
+      }
+    },
+    "within_window_Pearson": {
+      "signed_I_vs_control": -1.0,
+      "abs_I_vs_control": 1.0,
+      "error_vs_control": 0.9981716687728326,
+      "error_vs_signed_I": -0.9981716687728326,
+      "error_vs_Z": 0.0144133886095232
+    },
+    "signed_I_inside_minus120_to_minus80pA_fraction": 0.9997550734779567,
+    "abs_I_ge400pA_samples": 0,
+    "minimum_I_location": {
+      "block": 152,
+      "row_zero_based": 22203
+    },
+    "Z_linear_slope_pm_per_s": 3.4752808105597954,
+    "Z_linear_residual_RMS_pm": 8.718212743052794,
+    "abs_I_sample_exceedances_pA": {
+      "400": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      },
+      "1000": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      },
+      "4000": {
+        "sample_count": 0,
+        "groups": 0,
+        "longest_samples": 0,
+        "longest_native_seconds_half_open": null
+      }
+    },
+    "matches_historical_negative_digitizer_value_samples": 0,
+    "Z_changes": {
+      "median_last_minus_first_upto100ms_pm": 76.40499999999406,
+      "maximum_single_adjacent_change_pm_signed": -6.320000000002324,
+      "pair_first_native_s": 1899.1105,
+      "endpoint_limits_nm_low_high": [
+        -123.69999069505866,
+        123.69999069505866
+      ],
+      "minimum_distance_to_either_limit_nm": 19.36506069505866,
+      "rows_within_2nm_of_endpoint": 0
+    }
+  },
+  "interpretation": [
+    "The largest sampled peak lies near nominal row67, roughlyY+11nm. The longest400pA group lies near row130, roughlyY-2.2nm, which shares the nominal row of prior I03 targetY-2.1nm. This does not assign either event to a particular feature.",
+    "The largest peak is not at the same nominal row as the I03 target. Scan transient locality cannot be reduced to one mound without image correspondence and more precise synchronization.",
+    "Positive Z recovery after fine02 decays before scan. Native current stability does not imply zero piezo or junction working-point drift. Raster Z is not fixed-point noise."
+  ],
+  "limits": [
+    "No high-rate XY or hardware line trigger is recorded. Row indices and Y are conditional timing estimates, not exact spatial measurements.",
+    "Current peaks are sampled values within measurement bandwidth. No high-rate sample reaches the historical negative digitizer value in this scan.",
+    "This electrical audit does not decide task usability, chemical composition, induced bad state or repair success."
+  ]
+}

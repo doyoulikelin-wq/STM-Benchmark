@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_closed_native_R07.py",
+    "sha256": "6d77ae632ab00096efb7548eb85b1f812e23e60140bca0df375537792ae5bf73"
+  },
+  "checks": [
+    "Default plan, paths, logger and executed R06 parent hashes match",
+    "All archive, parsing, receipt and CLI function ASTs equal executed R06 after identity replacement",
+    "Last observed block remains excluded even after Stop",
+    "Actual local READY, start, manifest and observed native status agree",
+    "Synthetic exact six-channel 25000-row 0.5ms block accepted",
+    "wrong_period rejected",
+    "wrong_channel rejected",
+    "missing_row rejected",
+    "wrong_columns rejected"
+  ],
+  "network_attempts": [],
+  "archive_called": false,
+  "instrument_commands": false,
+  "physical_execution": false,
+  "scope": "Local code and state only. Full numeric finite validation remains a separate phase/terminal audit."
+}

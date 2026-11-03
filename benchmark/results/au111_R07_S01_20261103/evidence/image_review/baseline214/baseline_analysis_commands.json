@@ -1,0 +1,47 @@
+{
+  "status": "offline prospective only, run after root confirms local complete native archive",
+  "event": "baseline_segment07_full02",
+  "compare": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-B",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/compare_baseline_vs213.py",
+    "--run",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02",
+    "--reference",
+    "213",
+    "--output",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213",
+    "--scan-source",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline02_once.py",
+    "--scan-source-sha256",
+    "15fd5c8ad0b2b31aca2c351c5fcb9660d880d3a19e7cd4614e37324e87b653d5"
+  ],
+  "render": [
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/render_pair_by_stage.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/render_full_dynamic_ranges.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/landmark_displacement.py"
+    ]
+  ],
+  "environment": {
+    "MPLCONFIGDIR": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/mpl_cache",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pins": {
+    "compare_baseline_vs213.py": "41dfd0b442bda08cb9d7e821d544c856647e0051ef647a7aed647f0c743f71e8",
+    "render_pair_by_stage.py": "2ddd394ca6c2d6c7f67dbf68386b404129eceb63a2c24ff930180a8bd314ac85",
+    "render_full_dynamic_ranges.py": "7395a2cc7e34a47e6b2ab5851cc177096998a40b764b2fe1b134e90feb9b1345",
+    "landmark_displacement.py": "9f50cdd10e417cb6535f49761f1137ee3706f8f8baf6f8d416b349d4936a86d8"
+  }
+}

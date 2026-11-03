@@ -1,0 +1,44 @@
+{
+  "scope": "root-only execution after independent fresh state/readiness review; archive only after known completion; no executed command asserted",
+  "scanner_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline02_once.py",
+    "sha256": "15fd5c8ad0b2b31aca2c351c5fcb9660d880d3a19e7cd4614e37324e87b653d5"
+  },
+  "logger_source_sha256": "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+  "event": "baseline_segment07_full02",
+  "output": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02",
+  "logger": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07",
+  "archive_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_R07_baseline02_sxm.py",
+    "sha256": "0ccab4b3269ca0148ec3c241c38ad3b720eec92f10d52e719c521ebb6963940d"
+  },
+  "root_scan_argv": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_baseline02_once.py",
+    "--execute",
+    "--source-sha256",
+    "15fd5c8ad0b2b31aca2c351c5fcb9660d880d3a19e7cd4614e37324e87b653d5",
+    "--logger-source-sha256",
+    "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+    "--session",
+    "session_02",
+    "--event",
+    "baseline_segment07_full02",
+    "--output",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full02",
+    "--logger",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07",
+    "--fresh-snapshot",
+    "ROOT_NEW_SNAPSHOT_ABSOLUTE_PATH",
+    "--fresh-sha256",
+    "ROOT_NEW_SNAPSHOT_SHA256"
+  ],
+  "root_archive_argv": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/finish_archive_R07_baseline02_sxm.py",
+    "--execute",
+    "--source-sha256",
+    "0ccab4b3269ca0148ec3c241c38ad3b720eec92f10d52e719c521ebb6963940d"
+  ],
+  "native_filename": "Discovered only from actual known Scan.WaitEnd outcome. No 214 assumption."
+}

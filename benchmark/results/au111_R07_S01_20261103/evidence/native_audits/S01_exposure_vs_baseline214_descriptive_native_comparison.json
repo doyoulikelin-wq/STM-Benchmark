@@ -1,0 +1,69 @@
+{
+  "scope": "Descriptive contrast only. Electrical exposure response, not matched image-quality proof or causal tip-failure identification.",
+  "records": {
+    "baseline214": {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/baseline02_native_review.json",
+        "sha256": "83eafbdb797c40451e3e0c1c8c83767edfb41918b3cbedf552ebf9ae377b5971"
+      },
+      "comparison_interval": "host-counter-bounded scanning core, excluding shared start/end boundaries",
+      "native_seconds_half_open": [
+        1447.09,
+        1885.1200000000001
+      ],
+      "duration_s": 438.03000000000003,
+      "rows": 876060,
+      "current_min_pA": -2096.6153,
+      "current_median_pA": -99.78085,
+      "current_std_pA": 19.194642559309564,
+      "absolute400pA_fraction": 0.0004862680638312444,
+      "absolute400pA_groups_per_s": 0.26938794146519646,
+      "absolute400pA_longest_ms": 15.5,
+      "absolute1000pA_samples": 17,
+      "absolute4000pA_samples": 0,
+      "historical_negative_edge_samples": 0,
+      "complete_frame": true
+    },
+    "S01_interrupted": {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_induction_interrupted_native_review.json",
+        "sha256": "3c77d8abdc767ee95cbd7d77192bdb1066d2addf652d1f6ad14c4590dba992eb"
+      },
+      "comparison_interval": "host-counter-bounded scanning core, excluding shared start/end boundaries",
+      "native_seconds_half_open": [
+        2874.93,
+        2974.86
+      ],
+      "duration_s": 99.93,
+      "rows": 199860,
+      "current_min_pA": -7567.8264,
+      "current_median_pA": -199.86432000000002,
+      "current_std_pA": 84.59246194740608,
+      "absolute400pA_fraction": 0.022981086760732513,
+      "absolute400pA_groups_per_s": 8.325828079655759,
+      "absolute400pA_longest_ms": 28.0,
+      "absolute1000pA_samples": 273,
+      "absolute4000pA_samples": 6,
+      "historical_negative_edge_samples": 0,
+      "complete_frame": false
+    }
+  },
+  "nominal_conditions": {
+    "baseline214": {
+      "setpoint_pA": 100,
+      "one_direction_line_s": 0.912,
+      "time_constant_us": 42.9563588113524
+    },
+    "S01_interrupted": {
+      "setpoint_pA": 200,
+      "one_direction_line_s": 0.456,
+      "time_constant_us": 85.9127176227048
+    }
+  },
+  "interpretation": [
+    "The S01 recorded interval had more and larger sampled current excursions than the full214 scanning core and triggered its unchanged absolute400pA software stop.",
+    "Absolute400pA is4times the baseline setpoint and2times the S01 setpoint. It is an engineering threshold, not a normalized tip-quality measurement or physical damage limit.",
+    "Acquired duration and raster coverage differ. S01 stopped partway through the frame. All three requested configuration factors changed before S01, so this comparison cannot isolate speed, current, feedback, position or elapsed time.",
+    "Only imaging after restoration and separate recovery can assess whether a task-related bad state was induced. Interrupted exposure and Home restoration are not a completed dirty-repair-clean cycle."
+  ]
+}

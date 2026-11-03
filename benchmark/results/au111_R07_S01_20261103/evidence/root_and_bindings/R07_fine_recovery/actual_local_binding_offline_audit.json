@@ -1,0 +1,32 @@
+{
+  "source_sha256": "5586d4c64d9bbb6a188dc5f966c7b100371aa540126a0cf0f1961299ef2e4477",
+  "reference_sha256": "50b62fc34f195f10bfce11c357c79658bdf0f6ae44de9342945637e80370466b",
+  "prior_recovery": {
+    "prior_partial_scan_outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/outcome.json",
+      "sha256": "84186e09bcd98eb65a13b182e8db2e433586c5d219e5472f076fb900a85d31bb"
+    },
+    "known_Stop_and_Home": true,
+    "R07_fine_attempts_before": 0,
+    "one_new_fine_attempt_limit": 1,
+    "prior_claim_inventory_sha256": "64e4e404d0f98e13c5e7b53759fcca4f4b269528582b78d2f476df493bf77844",
+    "pulse_used_preserved": 5,
+    "pulse_maximum_preserved": 6,
+    "scan_incomplete_preserved": true,
+    "no_XY_or_coarse": true
+  },
+  "pinned_dependencies_ok": true,
+  "actual_local_R07_logger_bound": {
+    "ready_sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7",
+    "start_sha256": "a5e32acb30c306329267c0a3a90fa169dbd7be92342cd6bd8a13baf4dba36df7",
+    "manifest_sha256": "3352882ed403b994728a8105553e424f65f26616d198ba88ee43e194dd368ecf",
+    "native_start_identity": "2026/11/3 13:45:34"
+  },
+  "output_absent": true,
+  "unique_claim_absent": true,
+  "physical_run_not_called": true,
+  "network_blocked": true,
+  "actual_full_reference_calibration_error_preserved": {
+    "Current.CalibrGet": "Nanonis status=1: Error in command: current.calibrget: Gain index is not valid"
+  }
+}
