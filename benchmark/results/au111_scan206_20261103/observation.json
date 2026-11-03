@@ -1,0 +1,291 @@
+{
+  "session_id": "session_02",
+  "recording_segment": "R05",
+  "scope": "One diagnostic full image",
+  "expert_reply": "可先按原参数扫一张完整诊断图",
+  "native_filename": "BM261029_00206.sxm",
+  "native_sha256": "43423c3d76adcde743679d5205d074e7e86e0cad06a801313c7e995340e14c57",
+  "local_scan_start": "2026-11-03T11:07:55+08:00",
+  "local_scan_completed": "2026-11-03T11:15:14+08:00",
+  "host_elapsed_s": 438.8030693337787,
+  "native_grid": {
+    "pixels": 240,
+    "lines": 240,
+    "range_m": [
+      5e-08,
+      5e-08
+    ],
+    "offset_m": [
+      0.0,
+      0.0
+    ],
+    "angle_deg": 0.0,
+    "scan_direction": "down",
+    "pixel_pitch_nm": [
+      0.20833333333333334,
+      0.20833333333333334
+    ]
+  },
+  "native_speed": {
+    "profile": "fast",
+    "actual_header_direction_line_s": [
+      0.912,
+      0.912
+    ],
+    "nominal_pixel_ms": [
+      3.8,
+      3.8
+    ],
+    "nominal_active_frame_s": 437.76
+  },
+  "bias_V": -1.0,
+  "setpoint_pA": 100,
+  "feedback": "log Current On/status 2",
+  "safe_tip": "Off",
+  "temperature_current_K": null,
+  "matched_planes": 6,
+  "native_tcp_bitmatch_float32_values": 345600,
+  "pre_scan_mean_slow_pA": -119.54096252665205,
+  "pre_scan_n": 37,
+  "old_mean_rule_passed": true,
+  "one_scan_operator_selected_mean_bounds_pA": [
+    -141,
+    -75
+  ],
+  "previous_mean_bounds_pA": [
+    -125,
+    -75
+  ],
+  "counts": {
+    "diagnostic_images_this_stage": 1,
+    "new_conditioning_actions": 0,
+    "total_complete_attempts": 1,
+    "successful_closed_cycles": 0,
+    "remaining_requested": 4
+  },
+  "image_scope": "C1 resolved in F/B; coarse terraces visible; from Y about +16 nm multiple regions suffer line streaking. Reliable whole-field contour measurement impaired.",
+  "manual_history_gap_prior_to_this_observation": true,
+  "record_start": "2026/11/3 11:07:39",
+  "record_stop": "2026/11/3 11:15:46",
+  "native_blocks": 39,
+  "native_rows_per_channel": 973120,
+  "native_dt_s": 0.0005,
+  "native_s": 486.56,
+  "phase_core": {
+    "zero_based_sample_half_open": [
+      31840,
+      908000
+    ],
+    "native_seconds_half_open": [
+      15.92,
+      454.0
+    ],
+    "rows": 876160,
+    "samples": {
+      "Current_pA": {
+        "min": -9924.6265,
+        "max": -1.8470479,
+        "mean": -100.35386576187477,
+        "std_population": 21.412566143495937,
+        "p01": -133.84284010000002,
+        "p05": -111.20876799999999,
+        "median": -99.629638,
+        "p95": -89.53655135000002,
+        "p99": -77.02352626999999
+      },
+      "Bias_V": {
+        "min": -1.0,
+        "max": -1.0,
+        "mean": -1.0,
+        "std_population": 0.0,
+        "p01": -1.0,
+        "p05": -1.0,
+        "median": -1.0,
+        "p95": -1.0,
+        "p99": -1.0
+      },
+      "Z_nm": {
+        "min": -105.30682999999999,
+        "max": -101.77244,
+        "mean": -104.68893555091535,
+        "std_population": 0.26050821338662666,
+        "p01": -105.25027,
+        "p05": -105.17034,
+        "median": -104.63306,
+        "p95": -104.3716295,
+        "p99": -104.23579
+      },
+      "Z_Control_pA": {
+        "min": 1.8827591,
+        "max": 9924.6265,
+        "mean": 100.35386621155656,
+        "std_population": 21.41256437485545,
+        "p01": 77.02352627,
+        "p05": 89.53655135000001,
+        "median": 99.629638,
+        "p95": 111.20876799999999,
+        "p99": 133.84284010000002
+      },
+      "Z_Error_pA": {
+        "min": -428.17255,
+        "max": 459.74013,
+        "mean": -0.37186542911577647,
+        "std_population": 9.849520008774826,
+        "p01": -26.7042712,
+        "p05": -11.2489616,
+        "median": -0.43738632,
+        "p95": 10.341709899999985,
+        "p99": 28.30443186000007
+      },
+      "Z_SafeTip_pA": {
+        "min": 1.8827591,
+        "max": 9924.6265,
+        "mean": 100.35386621155656,
+        "std_population": 21.41256437485545,
+        "p01": 77.02352627,
+        "p05": 89.53655135000001,
+        "median": 99.629638,
+        "p95": 111.20876799999999,
+        "p99": 133.84284010000002
+      }
+    },
+    "algebraic_descriptors_pA": {
+      "control_plus_signed_current": {
+        "min": 0.0,
+        "max": 0.3582819999999991,
+        "mean": 4.4968179327976517e-07,
+        "std_population": 0.0003846623226215577,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_abs_current": {
+        "min": 0.0,
+        "max": 0.3582819999999991,
+        "mean": 4.4968179327976517e-07,
+        "std_population": 0.0003846623226215577,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "control_minus_setpoint": {
+        "min": -98.1172422351432,
+        "max": 9824.626498664857,
+        "mean": 0.35386487641336906,
+        "std_population": 21.41256437485545,
+        "p01": -22.976475065143195,
+        "p05": -10.463449985143185,
+        "median": -0.3703633351431961,
+        "p95": 11.20876666485679,
+        "p99": 33.842838764856836
+      },
+      "SafeTip_minus_control": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std_population": 0.0,
+        "p01": 0.0,
+        "p05": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "p99": 0.0
+      },
+      "error_minus_control_minus_setpoint": {
+        "min": -9364.886368664856,
+        "max": -0.0004451818567964838,
+        "mean": -0.7257303055291454,
+        "std_population": 17.092011282780824,
+        "p01": -8.8351469848568,
+        "p05": -1.835453814856799,
+        "median": -0.10454576485680511,
+        "p95": -0.01561812135679469,
+        "p99": -0.008343664756809295
+      },
+      "error_minus_setpoint_minus_control": {
+        "min": -526.2897922351432,
+        "max": 10284.366628664857,
+        "mean": -0.018000552702407416,
+        "std_population": 28.61616790086439,
+        "p01": -49.6656916151432,
+        "p05": -21.708040685143185,
+        "median": -0.8072697001431911,
+        "p95": 21.5461198648568,
+        "p99": 62.14229744485706
+      }
+    },
+    "within_window_Pearson": {
+      "signed_I_vs_control": -0.9999999998386451,
+      "abs_I_vs_control": 0.9999999998386451,
+      "error_vs_control": 0.6243948802071501,
+      "error_vs_signed_I": -0.6243953326980775,
+      "error_vs_Z": 0.0021336807395904984
+    },
+    "signed_I_inside_minus120_to_minus80pA_fraction": 0.9644094685902118,
+    "abs_I_ge400pA_samples": 225,
+    "minimum_I_location": {
+      "block": 14,
+      "row_zero_based": 19445
+    },
+    "Z_linear_slope_pm_per_s": 1.4034439757078592,
+    "Z_linear_residual_RMS_pm": 190.69386732139336,
+    "abs_I_sample_exceedances_pA": {
+      "400": {
+        "sample_count": 225,
+        "groups": 99,
+        "longest_samples": 12,
+        "longest_native_seconds_half_open": [
+          438.0005,
+          438.0065
+        ]
+      },
+      "1000": {
+        "sample_count": 22,
+        "groups": 14,
+        "longest_samples": 5,
+        "longest_native_seconds_half_open": [
+          438.0005,
+          438.003
+        ]
+      },
+      "4000": {
+        "sample_count": 3,
+        "groups": 2,
+        "longest_samples": 2,
+        "longest_native_seconds_half_open": [
+          96.578,
+          96.57900000000001
+        ]
+      }
+    },
+    "matches_historical_negative_digitizer_value_samples": 0,
+    "Z_changes": {
+      "median_last_minus_first_upto100ms_pm": 10.644999999996685,
+      "maximum_single_adjacent_change_pm_signed": 177.39999999999156,
+      "pair_first_native_s": 96.578,
+      "endpoint_limits_nm_low_high": [
+        -123.69999069505866,
+        123.69999069505866
+      ],
+      "minimum_distance_to_either_limit_nm": 18.39316069505867,
+      "rows_within_2nm_of_endpoint": 0
+    }
+  },
+  "phase_core_desc": "Native counter-bracketed interval between observations; position and trace direction require independent synchronization.",
+  "last_current_pA": -100.09632012142333,
+  "last_Z_nm": -103.10581899375393,
+  "last_XY_nm": [
+    -25.000000292152436,
+    -25.000000292152436
+  ],
+  "last_runtime_status": {
+    "scan": 0,
+    "feedback": 1,
+    "SafeTip": 0,
+    "native_recorder_active": false
+  },
+  "no_new_pulse_or_shaper_start": true
+}
