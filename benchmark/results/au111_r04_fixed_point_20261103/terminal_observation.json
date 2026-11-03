@@ -1,0 +1,164 @@
+{
+  "native_start_local": "2026/11/3 10:48:47",
+  "native_stop_local": "2026/11/3 10:53:37",
+  "stop_kind": "intentional owner stop",
+  "independent_stop_snapshot_gap_s": 2.81415875,
+  "sample_period_ms": 0.5,
+  "blocks": 24,
+  "rows_per_channel": 579860,
+  "finite_scalars": 3479160,
+  "native_duration_s": 289.93,
+  "native_current_pA": {
+    "min": -537.3513300000001,
+    "max": -16.695832,
+    "mean": -128.0552829880885,
+    "std_population": 51.10228742477609,
+    "p01": -272.5965423,
+    "p05": -220.4796415,
+    "median": -122.42489,
+    "p95": -53.441587999999996,
+    "p99": -35.12167390999999
+  },
+  "abs_I_ge_pA_samples": {
+    "400": 128,
+    "1000": 0,
+    "4000": 0
+  },
+  "terminal_rows": 4860,
+  "block_manifest": [
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400001.dat",
+      "rows": 25000,
+      "sha256": "e1a69a9f1dad250cc651cabd61ed4e6cf8e1be35fa7207a1148afb92f642043a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400002.dat",
+      "rows": 25000,
+      "sha256": "f086aaea1f6063cb6030e869c93f7bec0dcf0bab5b8ecba9413b277c42248d07"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400003.dat",
+      "rows": 25000,
+      "sha256": "2e79af5031cd75ac05b05a0fb2640df5e3c3e07c482f2793d34bafc6387d1975"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400004.dat",
+      "rows": 25000,
+      "sha256": "725c2b81ddce5aadaeea1ca7548a8b76e81c7265eec71bee92680ff519dcf783"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400005.dat",
+      "rows": 25000,
+      "sha256": "94cc7a1b739e97d702c407656be041c3e6e3df129ab0168b715785ef2fa730ef"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400006.dat",
+      "rows": 25000,
+      "sha256": "f3f570c4e12f1725a02d576023188f6e79e6d1b12671a32962a53c02d76b8c68"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400007.dat",
+      "rows": 25000,
+      "sha256": "f7ba4c252020cca25b84acc5c4e74957d05ef324aadb4043dfa29f46817e3476"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400008.dat",
+      "rows": 25000,
+      "sha256": "171f3107de576bda7a06948374fa7ff3246e694df3d3f0f99c892d472066286f"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400009.dat",
+      "rows": 25000,
+      "sha256": "bd81d0bce26f3f7ee311055876a816a9e566e33467b94915b51a31700b55aa52"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400010.dat",
+      "rows": 25000,
+      "sha256": "4e0170e248116ba8a15ce2d41de22752d5738487369a68e55d88494f66d14879"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400011.dat",
+      "rows": 25000,
+      "sha256": "6fb3db51a1a1890620c700f208125061abaf170460d01ee2b726024dc9dccd11"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400012.dat",
+      "rows": 25000,
+      "sha256": "3ac02b4e467618dd606bd1f7fc90efc10ad57215cb457a08b43eb46f9ba99e23"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400013.dat",
+      "rows": 25000,
+      "sha256": "59f3c4f64d959790b29065cb869fa4f1af84afe195beac29af8e1e1a655f07fe"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400014.dat",
+      "rows": 25000,
+      "sha256": "ed597f70bc3b592c26ef66c6974f18c306111d429d433dba509f97c798dc64ba"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400015.dat",
+      "rows": 25000,
+      "sha256": "50493b15a4520f42c32db3a7bbc0c188f1508fa9f3c5ccc73b3b99f814bfcbeb"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400016.dat",
+      "rows": 25000,
+      "sha256": "82c28897889015b997114e3d5c33e05873a69b2e6b2f31089f24967ba6301609"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400017.dat",
+      "rows": 25000,
+      "sha256": "91a6e0aa7c4961109ede9742a22992796d1acf83fcefcf8d2ce9f9a99e6982cc"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400018.dat",
+      "rows": 25000,
+      "sha256": "1a49231a5b8c25df7c3fd5b5052519dab1064b101f2e960b792a29aa076d9a3e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400019.dat",
+      "rows": 25000,
+      "sha256": "47fefd4f92716b15337db6d62d5206f5ad694881fe67e3446637d2f6a9a32588"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400020.dat",
+      "rows": 25000,
+      "sha256": "7445a0c5104397fa32231ed333bc712fc560621021b3ed8d30082e1abfe4df98"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400021.dat",
+      "rows": 25000,
+      "sha256": "4d5d0052c502521d3899861b025478dcda200a1e0606ab6a9035c7eba88a9050"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400022.dat",
+      "rows": 25000,
+      "sha256": "026f5e681f08abd592d91a7cac4e0cffdd0b479fda95819e9fbe21f6a8f70d95"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400023.dat",
+      "rows": 25000,
+      "sha256": "ad61496b1113dd9e93dd37a4fbb04a486a6886412063c4af6adf5bc902569f1e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0400024.dat",
+      "rows": 4860,
+      "sha256": "bf28e3e5366d04b39e2660776f0bef236cd1546979cf0e9e5af90779ae10d8b0"
+    }
+  ],
+  "new_scan_start": 0,
+  "new_pulse": 0,
+  "new_shaper_start": 0,
+  "feedback_at_final_readback": "On / status 2",
+  "setpoint_pA": 100.0000013351432,
+  "bias_V": -1.0,
+  "safetip": "Off",
+  "last_complete_image": 205,
+  "counts": {
+    "completed_full_attempts": 1,
+    "strict_successes": 0,
+    "remaining": 4
+  },
+  "no_instrument_actions_pending": true
+}
