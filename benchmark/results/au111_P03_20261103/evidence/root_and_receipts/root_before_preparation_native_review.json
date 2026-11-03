@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-03T05:08:04.678062+00:00",
+  "monotonic_ns": 1553929038512500,
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/outcome.json",
+    "sha256": "a9cf0bbff16181b8367ace00fc21193f0bf936b4a62ec98039ef7f3e304fa983"
+  },
+  "poststage_recovery_reviewed": true,
+  "reviewed_through_monotonic_ns": 1553778001017166,
+  "reviewed_through_time_semantics": "Read073 endpoint lies within archived post212 interval ending at native5825s. Closed record extends beyond read073. DAT has no high-rate feedback or XY channel.",
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "reason": "Full212 current nanoscale objects/edges usable with local C1 elongation and prior I03 mound limitations. Full212 max sampled1.793nA isolated and recovering. Post212441.61s signed I -120.699..-84.646pA, no absolute400pA samples, late full10s Z residual1.551pm. Initial postscan settling retained. Read073 On2/-1V100pA/SafeTipOff/corner and all actions idle. Root chooses one bounded P03 preparation within existing scope, pulse later independently selected after preparation/native review.",
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/preparation_history_native_receipt.json",
+    "sha256": "7695b8e1e2c73b63c7d1a2dd8fe349047fb196a49bbc243177760a47397f997c"
+  },
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/after_P02_recovery_scan_native_phases.json",
+      "sha256": "e40f89026e36e0e388e54c74338ffa90c86f13dde99a491b58fcbbfeffaa6766"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/peak_neighborhoods_212.json",
+      "sha256": "3f772c37559479064f263731a279c162ccec801822c3788e64832b29c65aa671"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/212_peak_slow_axis.json",
+      "sha256": "5ceaf0fa9fdc0f61d698994816a4ce5e1caf046112c6618e6f528dbc11cdf814"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/post212_before_P03_native_review_v2.json",
+      "sha256": "9cf828f4261111eb27969c82fe9cafea82a136ba7afd4be685e48f706e4e7f0c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_recovery_image_review/post_manual_review.json",
+      "sha256": "4bf46bd5f32710bcccba4c01e56fd13e078fbb0870eff62966d1e9c956df82f8"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_073_before_P03_review/snapshot.json",
+      "sha256": "3a76fe55315444a211221ebd4c251f58ded7bf58d69fff31ed332ca8b01ec2ec"
+    }
+  ],
+  "root_strategy_review": {
+    "covers_documented_pulse_ordinal": 4,
+    "pulse4_result": "Real junction response, full212 task usable, induction bad state not verified",
+    "reason_for_next_candidate": "One amplitude change from -5.7 to -6V at20ms/Hold/prepared1nA in same currentcorner, within prior experimental scope and expert experience. No linear peak extrapolation or guaranteed bad state. C1/C3/S1 criteria unchanged. Preserve2 mechanical inductions and pulse4 original failure plus independent recovery.",
+    "next_candidate_pulse_ordinal": 5,
+    "maximum_total": 6,
+    "automatic_sixth": false,
+    "next_candidate_not_yet_executed": true,
+    "readiness_window_choice_s": 2,
+    "readiness_window_basis": "Root engineering bounded getter-only wait within existing95s deadline, not physical damage limit. Complete post30 starts only after actual On2 and all original guards."
+  },
+  "temperature_current_K": null,
+  "temperature_note": "Remote Nanonis view observed at13:05 local, current temperature monitor not visible. Historical scan comment not reused as current temperature."
+}

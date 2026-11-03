@@ -1,0 +1,65 @@
+{
+  "schema": "local-au111-R06-P03-close-observer-v1",
+  "utc": "2026-11-03T05:34:58.890841+00:00",
+  "monotonic_ns": 1555543246148375,
+  "allow_stop": true,
+  "final_stage": "after_R06_P03_full",
+  "scan_number": 213,
+  "task_usable": true,
+  "task_scope": "Current full frame nanoscale particle and edge discrimination. Persistence after P03 has no independent confirmation, L3 unknown.",
+  "no_further_action_chosen": true,
+  "sole_writer_confirmed": true,
+  "logger_pid": 57780,
+  "scanner_pid": 72085,
+  "scanner_pid_provenance": "Root observed exact active PID/source via ps at13:28:25, completed own exec53515 at knownEnd13:31:35.645701; no separate launch file asserted.",
+  "scanner_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R06_after_induction_P03_once.py",
+    "sha256": "2d92acb42fb7f0324b5d1063194f77f634f39ca63b88c4e00b1cf58be064c0ee"
+  },
+  "image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/post_manual_review.json",
+    "sha256": "59d40595703cd68ac0ac71b79257d6b9eaa3a87a74e79bee157fc3a7a1942b7d"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/after_P03_scan_native_phases.json",
+    "sha256": "b7ebad1226e60df61c40e7d0a27d4fb4b0ee309aa2a84ce5cec14eafbf7504c8"
+  },
+  "supplemental_native_reviews": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_return_to_scan_and_post_native_review.json",
+      "sha256": "0b9d82ec7ad9382ede2fa00d1402ddd80b9ed98eda1ed85dfe1c56f43161d5ad"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/peak_neighborhoods_213.json",
+      "sha256": "5d33e92c6735cdb770c2dbc6f35b5aa6e3d49b37c5e63d1beade967b55b59ed9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/213_peak_slow_axis.json",
+      "sha256": "76f7abc62d9ffb9c326c901eb1e1f9cf25f9d40475bf7f193756d8cf3a2733f8"
+    }
+  ],
+  "full_scan_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/outcome.json",
+    "sha256": "3c8912db701de37b04cd3b6fd89291a050c4c63f2b630fc24fc7a3de555f4edf"
+  },
+  "last_fresh_snapshot": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_079_after213/snapshot.json",
+    "sha256": "db2e6478e26986feebcf8dbf67acb58979e8c856f526e82448581d2dc8b6bc47"
+  },
+  "reason": "Four induction attempts after the A05 usable state did not establish a new task-related bad state. Root reviewed full unregistered F/B, full dynamic range and fixed contrast plus C1/C3/S1. P03 almost entire pulse is amplitude-censored, therefore preserve sixth pulse and close this recording segment while seeking a reproducible alternative induction method. Complete repair attempts remain2/5, strict cycles0, remaining3.",
+  "counters": {
+    "shared_pulses": 5,
+    "maximum": 6,
+    "completed_full_repair_attempts": 2,
+    "requested": 5,
+    "remaining": 3,
+    "strict_cycles": 0
+  },
+  "expected_terminal_junction": {
+    "bias_V": -1,
+    "setpoint_A": 1e-10,
+    "feedback_status": 2,
+    "safetip": 0
+  },
+  "expected_effect": "SIGINT only the exact owned logger, whose pinned cleanup can issue one DataLog.Stop. No new conditioning selected."
+}

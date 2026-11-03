@@ -1,0 +1,132 @@
+{
+  "review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_native_pre_pulse_post.json",
+    "sha256": "e1b1f6e9df22a76bb7c5d9b65a7cf1631fc243c749c6dadb3924ef85968d3418"
+  },
+  "source_sha256": "2a16897936f40d220fc723d2b1ff0363869623cfbbe88f4eeeb3ce24a958bf99",
+  "last_pulse_threshold_sample": {
+    "absolute_sample": 12922025,
+    "native_s": 6461.0125,
+    "block": 517,
+    "row_zero_based": 22025,
+    "I_pA": -9999.4768,
+    "Bias_V": -4.5,
+    "Z_relative_pre_nm": -0.0009000000000014552
+  },
+  "first_resting_Bias_minus1V": {
+    "absolute_sample": 12922026,
+    "native_s": 6461.013,
+    "block": 517,
+    "row_zero_based": 22026,
+    "I_pA": -9999.4768,
+    "Bias_V": -1.0,
+    "Z_relative_pre_nm": 0.05333000000000254
+  },
+  "native_Z_transient_peak": {
+    "absolute_sample": 12922083,
+    "native_s": 6461.0415,
+    "block": 517,
+    "row_zero_based": 22083,
+    "I_pA": -8937.4392,
+    "Bias_V": -1.0,
+    "Z_relative_pre_nm": 5.26364199999999
+  },
+  "threshold_runs": {
+    "at_historical_negative_edge": [
+      {
+        "absolute_samples_half_open": [
+          12921987,
+          12922083
+        ],
+        "native_seconds_half_open": [
+          6460.9935000000005,
+          6461.0415
+        ],
+        "duration_ms": 48.0
+      }
+    ],
+    "abs_I_at_least4nA": [
+      {
+        "absolute_samples_half_open": [
+          12921986,
+          12922084
+        ],
+        "native_seconds_half_open": [
+          6460.993,
+          6461.042
+        ],
+        "duration_ms": 49.0
+      }
+    ]
+  },
+  "post_bias_return_windows": [
+    {
+      "relative_to_resting_bias_return_ms": [
+        0,
+        5
+      ],
+      "n": 10,
+      "I_min_pA": -9999.4768,
+      "I_max_pA": -9999.4768,
+      "I_median_pA": -9999.4768,
+      "Z_min_relative_pre_nm": 0.05333000000000254,
+      "Z_max_relative_pre_nm": 0.8763199999999927,
+      "Z_median_relative_pre_nm": 0.4648200000000031
+    },
+    {
+      "relative_to_resting_bias_return_ms": [
+        5,
+        30
+      ],
+      "n": 50,
+      "I_min_pA": -9999.4768,
+      "I_max_pA": 5.2054116,
+      "I_median_pA": -9999.4768,
+      "Z_min_relative_pre_nm": 0.9677599999999984,
+      "Z_max_relative_pre_nm": 5.26364199999999,
+      "Z_median_relative_pre_nm": 3.208119999999994
+    },
+    {
+      "relative_to_resting_bias_return_ms": [
+        30,
+        60
+      ],
+      "n": 60,
+      "I_min_pA": -1048.8916,
+      "I_max_pA": -0.8843708100000001,
+      "I_median_pA": -1004.4101,
+      "Z_min_relative_pre_nm": -0.043530000000004065,
+      "Z_max_relative_pre_nm": 4.764898000000002,
+      "Z_median_relative_pre_nm": -0.023070000000004143
+    },
+    {
+      "relative_to_resting_bias_return_ms": [
+        60,
+        100
+      ],
+      "n": 80,
+      "I_min_pA": -1034.518,
+      "I_max_pA": -974.62527,
+      "I_median_pA": -1001.7385,
+      "Z_min_relative_pre_nm": -0.02005000000001189,
+      "Z_max_relative_pre_nm": -0.01246999999999332,
+      "Z_median_relative_pre_nm": -0.015185000000002447
+    },
+    {
+      "relative_to_resting_bias_return_ms": [
+        100,
+        250
+      ],
+      "n": 300,
+      "I_min_pA": -1032.5718,
+      "I_max_pA": -966.97672,
+      "I_median_pA": -999.505145,
+      "Z_min_relative_pre_nm": -0.013310000000004152,
+      "Z_max_relative_pre_nm": -0.008700000000004593,
+      "Z_median_relative_pre_nm": -0.011120000000005348
+    }
+  ],
+  "readiness_observation_count": 1,
+  "Hold_wait_branch_observed": false,
+  "limits": "Current reaches the saved software range edge. The true analog peak and full charge are censored. High-rate DAT has no direct feedback-state channel. Timing of current and Z recovery cannot uniquely distinguish electronics overload recovery, controller response and junction response. Transient Z peak differs from later steady workpoint. The added Hold wait branch was not exercised in this actual pulse."
+}

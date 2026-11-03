@@ -1,0 +1,2234 @@
+{
+  "abs_current_thresholds_pA": {
+    "400": {
+      "samples": 451,
+      "groups": 142,
+      "stored_sample_occupancy_ms": 225.5
+    },
+    "1000": {
+      "samples": 23,
+      "groups": 14,
+      "stored_sample_occupancy_ms": 11.5,
+      "events": [
+        {
+          "global_half_open": [
+            13873490,
+            13873491
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 13873490,
+              "block": 555,
+              "zero_based_row_in_block": 23490,
+              "native_s": 6936.745,
+              "I_pA": -1553.2998,
+              "Bias_V": -1.0,
+              "Z_nm": -104.85985
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 13873488,
+                "block": 555,
+                "zero_based_row_in_block": 23488,
+                "native_s": 6936.744000000001,
+                "I_pA": -127.89990000000002,
+                "Bias_V": -1.0,
+                "Z_nm": -104.93348999999999
+              },
+              {
+                "global_zero_based": 13873489,
+                "block": 555,
+                "zero_based_row_in_block": 23489,
+                "native_s": 6936.7445,
+                "I_pA": -119.04157,
+                "Bias_V": -1.0,
+                "Z_nm": -104.92513000000001
+              },
+              {
+                "global_zero_based": 13873490,
+                "block": 555,
+                "zero_based_row_in_block": 23490,
+                "native_s": 6936.745,
+                "I_pA": -1553.2998,
+                "Bias_V": -1.0,
+                "Z_nm": -104.85985
+              },
+              {
+                "global_zero_based": 13873491,
+                "block": 555,
+                "zero_based_row_in_block": 23491,
+                "native_s": 6936.7455,
+                "I_pA": -198.46232999999998,
+                "Bias_V": -1.0,
+                "Z_nm": -104.81349
+              },
+              {
+                "global_zero_based": 13873492,
+                "block": 555,
+                "zero_based_row_in_block": 23492,
+                "native_s": 6936.746,
+                "I_pA": -33.802308,
+                "Bias_V": -1.0,
+                "Z_nm": -104.86890000000001
+              }
+            ],
+            "slow_axis": {
+              "mapping": "no bounded positive-running slow-axis readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1554901158898291,
+                  "utc": "2026-11-03T05:24:16.801724+00:00",
+                  "block": 555,
+                  "points_counter": 22900,
+                  "sample": 13872900,
+                  "native_s": 6936.45,
+                  "elapsed_nominal_half_s": 6936.030000209808
+                },
+                {
+                  "monotonic_ns": 1554901761469208,
+                  "utc": "2026-11-03T05:24:17.404303+00:00",
+                  "block": 555,
+                  "points_counter": 24100,
+                  "sample": 13874100,
+                  "native_s": 6937.05,
+                  "elapsed_nominal_half_s": 6937.050000190735
+                }
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14021575,
+            14021576
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14021575,
+              "block": 561,
+              "zero_based_row_in_block": 21575,
+              "native_s": 7010.7875,
+              "I_pA": -4482.6325,
+              "Bias_V": -1.0,
+              "Z_nm": -105.35642
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14021573,
+                "block": 561,
+                "zero_based_row_in_block": 21573,
+                "native_s": 7010.7865,
+                "I_pA": -133.32029,
+                "Bias_V": -1.0,
+                "Z_nm": -105.44758
+              },
+              {
+                "global_zero_based": 14021574,
+                "block": 561,
+                "zero_based_row_in_block": 21574,
+                "native_s": 7010.787,
+                "I_pA": -143.23041,
+                "Bias_V": -1.0,
+                "Z_nm": -105.43302
+              },
+              {
+                "global_zero_based": 14021575,
+                "block": 561,
+                "zero_based_row_in_block": 21575,
+                "native_s": 7010.7875,
+                "I_pA": -4482.6325,
+                "Bias_V": -1.0,
+                "Z_nm": -105.35642
+              },
+              {
+                "global_zero_based": 14021576,
+                "block": 561,
+                "zero_based_row_in_block": 21576,
+                "native_s": 7010.7880000000005,
+                "I_pA": -920.20902,
+                "Bias_V": -1.0,
+                "Z_nm": -105.24742
+              },
+              {
+                "global_zero_based": 14021577,
+                "block": 561,
+                "zero_based_row_in_block": 21577,
+                "native_s": 7010.788500000001,
+                "I_pA": -37.352878,
+                "Bias_V": -1.0,
+                "Z_nm": -105.27091
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1554975225175541,
+                  "utc": "2026-11-03T05:25:30.868278+00:00",
+                  "block": 561,
+                  "points_counter": 21020,
+                  "sample": 14021020,
+                  "native_s": 7010.51,
+                  "elapsed_nominal_half_s": 7010.5
+                },
+                {
+                  "monotonic_ns": 1554975767840041,
+                  "utc": "2026-11-03T05:25:31.410925+00:00",
+                  "block": 561,
+                  "points_counter": 22100,
+                  "sample": 14022100,
+                  "native_s": 7011.05,
+                  "elapsed_nominal_half_s": 7011.020000457764
+                }
+              ],
+              "host_bracket_s": 0.5426645,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:25:30.769327+00:00",
+                  "monotonic_ns": 1554975126222166,
+                  "getter_group_s": 0.04191279085353017,
+                  "y_nm": 16.66515636600252
+                },
+                {
+                  "utc": "2026-11-03T05:25:31.117098+00:00",
+                  "monotonic_ns": 1554975473992000,
+                  "getter_group_s": 0.04297025012783706,
+                  "y_nm": 16.624037257884083
+                },
+                {
+                  "utc": "2026-11-03T05:25:31.446747+00:00",
+                  "monotonic_ns": 1554975803638500,
+                  "getter_group_s": 0.024522458901628852,
+                  "y_nm": 16.58634651846569
+                }
+              ],
+              "Y_nm": [
+                16.58634651846569,
+                16.66515636600252
+              ],
+              "zero_based_row_interval": [
+                40,
+                40
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14089936,
+            14089937
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14089936,
+              "block": 564,
+              "zero_based_row_in_block": 14936,
+              "native_s": 7044.968,
+              "I_pA": -1001.6364,
+              "Bias_V": -1.0,
+              "Z_nm": -105.15623000000001
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14089934,
+                "block": 564,
+                "zero_based_row_in_block": 14934,
+                "native_s": 7044.967000000001,
+                "I_pA": -94.983334,
+                "Bias_V": -1.0,
+                "Z_nm": -105.18472
+              },
+              {
+                "global_zero_based": 14089935,
+                "block": 564,
+                "zero_based_row_in_block": 14935,
+                "native_s": 7044.9675,
+                "I_pA": -130.17498,
+                "Bias_V": -1.0,
+                "Z_nm": -105.17537
+              },
+              {
+                "global_zero_based": 14089936,
+                "block": 564,
+                "zero_based_row_in_block": 14936,
+                "native_s": 7044.968,
+                "I_pA": -1001.6364,
+                "Bias_V": -1.0,
+                "Z_nm": -105.15623000000001
+              },
+              {
+                "global_zero_based": 14089937,
+                "block": 564,
+                "zero_based_row_in_block": 14937,
+                "native_s": 7044.9685,
+                "I_pA": -502.16519999999997,
+                "Bias_V": -1.0,
+                "Z_nm": -105.08079000000001
+              },
+              {
+                "global_zero_based": 14089938,
+                "block": 564,
+                "zero_based_row_in_block": 14938,
+                "native_s": 7044.969,
+                "I_pA": -229.34857,
+                "Bias_V": -1.0,
+                "Z_nm": -105.04345
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555009290694541,
+                  "utc": "2026-11-03T05:26:04.933928+00:00",
+                  "block": 564,
+                  "points_counter": 14180,
+                  "sample": 14089180,
+                  "native_s": 7044.59,
+                  "elapsed_nominal_half_s": 7044.549999237061
+                },
+                {
+                  "monotonic_ns": 1555009823770000,
+                  "utc": "2026-11-03T05:26:05.466986+00:00",
+                  "block": 564,
+                  "points_counter": 15240,
+                  "sample": 14090240,
+                  "native_s": 7045.12,
+                  "elapsed_nominal_half_s": 7045.059999465942
+                }
+              ],
+              "host_bracket_s": 0.5330754590000001,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:26:04.802868+00:00",
+                  "monotonic_ns": 1555009159632791,
+                  "getter_group_s": 0.05074858292937279,
+                  "y_nm": 12.777391589224862
+                },
+                {
+                  "utc": "2026-11-03T05:26:05.154978+00:00",
+                  "monotonic_ns": 1555009511742583,
+                  "getter_group_s": 0.042607625015079975,
+                  "y_nm": 12.73741556673258
+                },
+                {
+                  "utc": "2026-11-03T05:26:05.516010+00:00",
+                  "monotonic_ns": 1555009872816541,
+                  "getter_group_s": 0.052253416972234845,
+                  "y_nm": 12.699729268206283
+                },
+                {
+                  "utc": "2026-11-03T05:26:05.871698+00:00",
+                  "monotonic_ns": 1555010228465125,
+                  "getter_group_s": 0.04307633312419057,
+                  "y_nm": 12.655184455923063
+                }
+              ],
+              "Y_nm": [
+                12.655184455923063,
+                12.777391589224862
+              ],
+              "zero_based_row_interval": [
+                58,
+                59
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14108163,
+            14108164
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14108163,
+              "block": 565,
+              "zero_based_row_in_block": 8163,
+              "native_s": 7054.0815,
+              "I_pA": -1077.324,
+              "Bias_V": -1.0,
+              "Z_nm": -105.0205
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14108161,
+                "block": 565,
+                "zero_based_row_in_block": 8161,
+                "native_s": 7054.0805,
+                "I_pA": -124.71447,
+                "Bias_V": -1.0,
+                "Z_nm": -105.0988
+              },
+              {
+                "global_zero_based": 14108162,
+                "block": 565,
+                "zero_based_row_in_block": 8162,
+                "native_s": 7054.081,
+                "I_pA": -140.81311,
+                "Bias_V": -1.0,
+                "Z_nm": -105.08789
+              },
+              {
+                "global_zero_based": 14108163,
+                "block": 565,
+                "zero_based_row_in_block": 8163,
+                "native_s": 7054.0815,
+                "I_pA": -1077.324,
+                "Bias_V": -1.0,
+                "Z_nm": -105.0205
+              },
+              {
+                "global_zero_based": 14108164,
+                "block": 565,
+                "zero_based_row_in_block": 8164,
+                "native_s": 7054.082,
+                "I_pA": -178.14114,
+                "Bias_V": -1.0,
+                "Z_nm": -104.97581
+              },
+              {
+                "global_zero_based": 14108165,
+                "block": 565,
+                "zero_based_row_in_block": 8165,
+                "native_s": 7054.0825,
+                "I_pA": -86.828426,
+                "Bias_V": -1.0,
+                "Z_nm": -104.97421
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555018786477291,
+                  "utc": "2026-11-03T05:26:14.429736+00:00",
+                  "block": 565,
+                  "points_counter": 8160,
+                  "sample": 14108160,
+                  "native_s": 7054.08,
+                  "elapsed_nominal_half_s": 7053.579999923706
+                },
+                {
+                  "monotonic_ns": 1555019323839875,
+                  "utc": "2026-11-03T05:26:14.967095+00:00",
+                  "block": 565,
+                  "points_counter": 9240,
+                  "sample": 14109240,
+                  "native_s": 7054.62,
+                  "elapsed_nominal_half_s": 7054.599999904633
+                }
+              ],
+              "host_bracket_s": 0.537362584,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:26:14.410951+00:00",
+                  "monotonic_ns": 1555018767694250,
+                  "getter_group_s": 0.04350408283062279,
+                  "y_nm": 11.679815337117816
+                },
+                {
+                  "utc": "2026-11-03T05:26:14.757669+00:00",
+                  "monotonic_ns": 1555019114417166,
+                  "getter_group_s": 0.04131591715849936,
+                  "y_nm": 11.640986841143786
+                },
+                {
+                  "utc": "2026-11-03T05:26:15.194479+00:00",
+                  "monotonic_ns": 1555019551220000,
+                  "getter_group_s": 0.12987354095093906,
+                  "y_nm": 11.601010818651503
+                }
+              ],
+              "Y_nm": [
+                11.601010818651503,
+                11.679815337117816
+              ],
+              "zero_based_row_interval": [
+                63,
+                64
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14115462,
+            14115463
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14115462,
+              "block": 565,
+              "zero_based_row_in_block": 15462,
+              "native_s": 7057.731,
+              "I_pA": -1055.0109,
+              "Bias_V": -1.0,
+              "Z_nm": -105.04780000000001
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14115460,
+                "block": 565,
+                "zero_based_row_in_block": 15460,
+                "native_s": 7057.7300000000005,
+                "I_pA": -174.53808999999998,
+                "Bias_V": -1.0,
+                "Z_nm": -105.14562000000001
+              },
+              {
+                "global_zero_based": 14115461,
+                "block": 565,
+                "zero_based_row_in_block": 15461,
+                "native_s": 7057.730500000001,
+                "I_pA": -545.10935,
+                "Bias_V": -1.0,
+                "Z_nm": -105.13288
+              },
+              {
+                "global_zero_based": 14115462,
+                "block": 565,
+                "zero_based_row_in_block": 15462,
+                "native_s": 7057.731,
+                "I_pA": -1055.0109,
+                "Bias_V": -1.0,
+                "Z_nm": -105.04780000000001
+              },
+              {
+                "global_zero_based": 14115463,
+                "block": 565,
+                "zero_based_row_in_block": 15463,
+                "native_s": 7057.7315,
+                "I_pA": -161.43262,
+                "Bias_V": -1.0,
+                "Z_nm": -105.00938
+              },
+              {
+                "global_zero_based": 14115464,
+                "block": 565,
+                "zero_based_row_in_block": 15464,
+                "native_s": 7057.732,
+                "I_pA": -102.89502,
+                "Bias_V": -1.0,
+                "Z_nm": -105.00389
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555022105823791,
+                  "utc": "2026-11-03T05:26:17.749081+00:00",
+                  "block": 565,
+                  "points_counter": 14780,
+                  "sample": 14114780,
+                  "native_s": 7057.39,
+                  "elapsed_nominal_half_s": 7057.050000190735
+                },
+                {
+                  "monotonic_ns": 1555022673580958,
+                  "utc": "2026-11-03T05:26:18.316840+00:00",
+                  "block": 565,
+                  "points_counter": 15940,
+                  "sample": 14115940,
+                  "native_s": 7057.97,
+                  "elapsed_nominal_half_s": 7057.5599999427795
+                }
+              ],
+              "host_bracket_s": 0.567757167,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:26:17.477384+00:00",
+                  "monotonic_ns": 1555021834121291,
+                  "getter_group_s": 0.1707810831721872,
+                  "y_nm": 11.345180794819498
+                },
+                {
+                  "utc": "2026-11-03T05:26:17.826097+00:00",
+                  "monotonic_ns": 1555022182834541,
+                  "getter_group_s": 0.02043241704814136,
+                  "y_nm": 11.290356205506669
+                },
+                {
+                  "utc": "2026-11-03T05:26:18.179347+00:00",
+                  "monotonic_ns": 1555022536091583,
+                  "getter_group_s": 0.04577849991619587,
+                  "y_nm": 11.250381071192805
+                },
+                {
+                  "utc": "2026-11-03T05:26:18.522204+00:00",
+                  "monotonic_ns": 1555022878944750,
+                  "getter_group_s": 0.03789579193107784,
+                  "y_nm": 11.210409489592621
+                }
+              ],
+              "Y_nm": [
+                11.210409489592621,
+                11.345180794819498
+              ],
+              "zero_based_row_interval": [
+                65,
+                66
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14317783,
+            14317784
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14317783,
+              "block": 573,
+              "zero_based_row_in_block": 17783,
+              "native_s": 7158.8915,
+              "I_pA": -1030.7355,
+              "Bias_V": -1.0,
+              "Z_nm": -100.89789
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14317781,
+                "block": 573,
+                "zero_based_row_in_block": 17781,
+                "native_s": 7158.8905,
+                "I_pA": -675.55966,
+                "Bias_V": -1.0,
+                "Z_nm": -101.06673
+              },
+              {
+                "global_zero_based": 14317782,
+                "block": 573,
+                "zero_based_row_in_block": 17782,
+                "native_s": 7158.8910000000005,
+                "I_pA": -769.99784,
+                "Bias_V": -1.0,
+                "Z_nm": -100.98407999999999
+              },
+              {
+                "global_zero_based": 14317783,
+                "block": 573,
+                "zero_based_row_in_block": 17783,
+                "native_s": 7158.8915,
+                "I_pA": -1030.7355,
+                "Bias_V": -1.0,
+                "Z_nm": -100.89789
+              },
+              {
+                "global_zero_based": 14317784,
+                "block": 573,
+                "zero_based_row_in_block": 17784,
+                "native_s": 7158.892,
+                "I_pA": -806.44175,
+                "Bias_V": -1.0,
+                "Z_nm": -100.8129
+              },
+              {
+                "global_zero_based": 14317785,
+                "block": 573,
+                "zero_based_row_in_block": 17785,
+                "native_s": 7158.8925,
+                "I_pA": -856.76921,
+                "Bias_V": -1.0,
+                "Z_nm": -100.72538999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555123139294291,
+                  "utc": "2026-11-03T05:27:58.782881+00:00",
+                  "block": 573,
+                  "points_counter": 16860,
+                  "sample": 14316860,
+                  "native_s": 7158.43,
+                  "elapsed_nominal_half_s": 7158.069999694824
+                },
+                {
+                  "monotonic_ns": 1555123692475416,
+                  "utc": "2026-11-03T05:27:59.336087+00:00",
+                  "block": 573,
+                  "points_counter": 17980,
+                  "sample": 14317980,
+                  "native_s": 7158.99,
+                  "elapsed_nominal_half_s": 7158.590000152588
+                }
+              ],
+              "host_bracket_s": 0.553181125,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:27:58.582364+00:00",
+                  "monotonic_ns": 1555122938753333,
+                  "getter_group_s": 0.0322627502027899,
+                  "y_nm": -0.2187413861154397
+                },
+                {
+                  "utc": "2026-11-03T05:27:58.934519+00:00",
+                  "monotonic_ns": 1555123290907166,
+                  "getter_group_s": 0.04730516695417464,
+                  "y_nm": -0.25871815800826425
+                },
+                {
+                  "utc": "2026-11-03T05:27:59.291770+00:00",
+                  "monotonic_ns": 1555123648156750,
+                  "getter_group_s": 0.050736333010718226,
+                  "y_nm": -0.2986949299010888
+                },
+                {
+                  "utc": "2026-11-03T05:27:59.643447+00:00",
+                  "monotonic_ns": 1555123999833625,
+                  "getter_group_s": 0.047017165925353765,
+                  "y_nm": -0.33866523474479493
+                }
+              ],
+              "Y_nm": [
+                -0.33866523474479493,
+                -0.2187413861154397
+              ],
+              "zero_based_row_interval": [
+                121,
+                121
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14325068,
+            14325069
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14325068,
+              "block": 574,
+              "zero_based_row_in_block": 68,
+              "native_s": 7162.534000000001,
+              "I_pA": -1012.4049,
+              "Bias_V": -1.0,
+              "Z_nm": -100.62527
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14325066,
+                "block": 574,
+                "zero_based_row_in_block": 66,
+                "native_s": 7162.533,
+                "I_pA": -623.8106700000001,
+                "Bias_V": -1.0,
+                "Z_nm": -100.79253
+              },
+              {
+                "global_zero_based": 14325067,
+                "block": 574,
+                "zero_based_row_in_block": 67,
+                "native_s": 7162.5335000000005,
+                "I_pA": -815.2142799999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.71327
+              },
+              {
+                "global_zero_based": 14325068,
+                "block": 574,
+                "zero_based_row_in_block": 68,
+                "native_s": 7162.534000000001,
+                "I_pA": -1012.4049,
+                "Bias_V": -1.0,
+                "Z_nm": -100.62527
+              },
+              {
+                "global_zero_based": 14325069,
+                "block": 574,
+                "zero_based_row_in_block": 69,
+                "native_s": 7162.5345,
+                "I_pA": -891.4582399999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.53525
+              },
+              {
+                "global_zero_based": 14325070,
+                "block": 574,
+                "zero_based_row_in_block": 70,
+                "native_s": 7162.535,
+                "I_pA": -792.67787,
+                "Bias_V": -1.0,
+                "Z_nm": -100.45094999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555127108305625,
+                  "utc": "2026-11-03T05:28:02.751932+00:00",
+                  "block": 573,
+                  "points_counter": 24800,
+                  "sample": 14324800,
+                  "native_s": 7162.400000000001,
+                  "elapsed_nominal_half_s": 7162.040000915527
+                },
+                {
+                  "monotonic_ns": 1555127690386458,
+                  "utc": "2026-11-03T05:28:03.334011+00:00",
+                  "block": 574,
+                  "points_counter": 980,
+                  "sample": 14325980,
+                  "native_s": 7162.99,
+                  "elapsed_nominal_half_s": 7162.510000228882
+                }
+              ],
+              "host_bracket_s": 0.582080833,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:02.703697+00:00",
+                  "monotonic_ns": 1555127060070791,
+                  "getter_group_s": 0.14191791601479053,
+                  "y_nm": -0.6767321703016194
+                },
+                {
+                  "utc": "2026-11-03T05:28:03.117234+00:00",
+                  "monotonic_ns": 1555127473610000,
+                  "getter_group_s": 0.0842475420795381,
+                  "y_nm": -0.7361203313571707
+                },
+                {
+                  "utc": "2026-11-03T05:28:03.450611+00:00",
+                  "monotonic_ns": 1555127806982083,
+                  "getter_group_s": 0.02841987507417798,
+                  "y_nm": -0.7738116813982288
+                }
+              ],
+              "Y_nm": [
+                -0.7738116813982288,
+                -0.6767321703016194
+              ],
+              "zero_based_row_interval": [
+                123,
+                123
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14328710,
+            14328712
+          ],
+          "samples": 2,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14328711,
+              "block": 574,
+              "zero_based_row_in_block": 3711,
+              "native_s": 7164.355500000001,
+              "I_pA": -1406.254,
+              "Bias_V": -1.0,
+              "Z_nm": -100.63708
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14328709,
+                "block": 574,
+                "zero_based_row_in_block": 3709,
+                "native_s": 7164.3545,
+                "I_pA": -618.5434899999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.82687999999999
+              },
+              {
+                "global_zero_based": 14328710,
+                "block": 574,
+                "zero_based_row_in_block": 3710,
+                "native_s": 7164.3550000000005,
+                "I_pA": -1085.2425,
+                "Bias_V": -1.0,
+                "Z_nm": -100.73953
+              },
+              {
+                "global_zero_based": 14328711,
+                "block": 574,
+                "zero_based_row_in_block": 3711,
+                "native_s": 7164.355500000001,
+                "I_pA": -1406.254,
+                "Bias_V": -1.0,
+                "Z_nm": -100.63708
+              },
+              {
+                "global_zero_based": 14328712,
+                "block": 574,
+                "zero_based_row_in_block": 3712,
+                "native_s": 7164.356,
+                "I_pA": -897.83581,
+                "Bias_V": -1.0,
+                "Z_nm": -100.54269000000001
+              },
+              {
+                "global_zero_based": 14328713,
+                "block": 574,
+                "zero_based_row_in_block": 3713,
+                "native_s": 7164.3565,
+                "I_pA": -536.90763,
+                "Bias_V": -1.0,
+                "Z_nm": -100.46872
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555128802028166,
+                  "utc": "2026-11-03T05:28:04.445651+00:00",
+                  "block": 574,
+                  "points_counter": 3180,
+                  "sample": 14328180,
+                  "native_s": 7164.09,
+                  "elapsed_nominal_half_s": 7164.040000915527
+                },
+                {
+                  "monotonic_ns": 1555129375745375,
+                  "utc": "2026-11-03T05:28:05.019380+00:00",
+                  "block": 574,
+                  "points_counter": 4340,
+                  "sample": 14329340,
+                  "native_s": 7164.67,
+                  "elapsed_nominal_half_s": 7164.549999237061
+                }
+              ],
+              "host_bracket_s": 0.573717209,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:04.155437+00:00",
+                  "monotonic_ns": 1555128511804916,
+                  "getter_group_s": 0.039375249994918704,
+                  "y_nm": -0.8549000396484985
+                },
+                {
+                  "utc": "2026-11-03T05:28:04.487263+00:00",
+                  "monotonic_ns": 1555128843630541,
+                  "getter_group_s": 0.02622612495906651,
+                  "y_nm": -0.8925924444014299
+                },
+                {
+                  "utc": "2026-11-03T05:28:04.987281+00:00",
+                  "monotonic_ns": 1555129343647166,
+                  "getter_group_s": 0.19642683304846287,
+                  "y_nm": -0.9325692440498301
+                },
+                {
+                  "utc": "2026-11-03T05:28:05.362842+00:00",
+                  "monotonic_ns": 1555129719208583,
+                  "getter_group_s": 0.03958916710689664,
+                  "y_nm": -0.9919559618154494
+                }
+              ],
+              "Y_nm": [
+                -0.9919559618154494,
+                -0.8549000396484985
+              ],
+              "zero_based_row_interval": [
+                124,
+                124
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14343288,
+            14343290
+          ],
+          "samples": 2,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14343288,
+              "block": 574,
+              "zero_based_row_in_block": 18288,
+              "native_s": 7171.644,
+              "I_pA": -1199.1226000000001,
+              "Bias_V": -1.0,
+              "Z_nm": -100.75282
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14343286,
+                "block": 574,
+                "zero_based_row_in_block": 18286,
+                "native_s": 7171.643,
+                "I_pA": -617.06462,
+                "Bias_V": -1.0,
+                "Z_nm": -100.93137
+              },
+              {
+                "global_zero_based": 14343287,
+                "block": 574,
+                "zero_based_row_in_block": 18287,
+                "native_s": 7171.6435,
+                "I_pA": -972.4754300000001,
+                "Bias_V": -1.0,
+                "Z_nm": -100.84806
+              },
+              {
+                "global_zero_based": 14343288,
+                "block": 574,
+                "zero_based_row_in_block": 18288,
+                "native_s": 7171.644,
+                "I_pA": -1199.1226000000001,
+                "Bias_V": -1.0,
+                "Z_nm": -100.75282
+              },
+              {
+                "global_zero_based": 14343289,
+                "block": 574,
+                "zero_based_row_in_block": 18289,
+                "native_s": 7171.6445,
+                "I_pA": -1125.8128,
+                "Bias_V": -1.0,
+                "Z_nm": -100.65337
+              },
+              {
+                "global_zero_based": 14343290,
+                "block": 574,
+                "zero_based_row_in_block": 18290,
+                "native_s": 7171.645,
+                "I_pA": -775.27018,
+                "Bias_V": -1.0,
+                "Z_nm": -100.56694999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555136209358000,
+                  "utc": "2026-11-03T05:28:11.853013+00:00",
+                  "block": 574,
+                  "points_counter": 18000,
+                  "sample": 14343000,
+                  "native_s": 7171.5,
+                  "elapsed_nominal_half_s": 7171.080000042915
+                },
+                {
+                  "monotonic_ns": 1555136766136416,
+                  "utc": "2026-11-03T05:28:12.409794+00:00",
+                  "block": 574,
+                  "points_counter": 19120,
+                  "sample": 14344120,
+                  "native_s": 7172.06,
+                  "elapsed_nominal_half_s": 7171.590000033379
+                }
+              ],
+              "host_bracket_s": 0.556778416,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:11.597357+00:00",
+                  "monotonic_ns": 1555135953697250,
+                  "getter_group_s": 0.14704287494532764,
+                  "y_nm": -1.6932146795767267
+                },
+                {
+                  "utc": "2026-11-03T05:28:11.962357+00:00",
+                  "monotonic_ns": 1555136318695166,
+                  "getter_group_s": 0.027358416002243757,
+                  "y_nm": -1.7457540968379703
+                },
+                {
+                  "utc": "2026-11-03T05:28:12.359394+00:00",
+                  "monotonic_ns": 1555136715739083,
+                  "getter_group_s": 0.08944550016894937,
+                  "y_nm": -1.7914354444314995
+                },
+                {
+                  "utc": "2026-11-03T05:28:12.703242+00:00",
+                  "monotonic_ns": 1555137059578125,
+                  "getter_group_s": 0.03588720806874335,
+                  "y_nm": -1.8302700466321653
+                }
+              ],
+              "Y_nm": [
+                -1.8302700466321653,
+                -1.6932146795767267
+              ],
+              "zero_based_row_interval": [
+                128,
+                128
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14350579,
+            14350583
+          ],
+          "samples": 4,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14350579,
+              "block": 575,
+              "zero_based_row_in_block": 579,
+              "native_s": 7175.2895,
+              "I_pA": -1195.7585,
+              "Bias_V": -1.0,
+              "Z_nm": -100.95400000000001
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14350577,
+                "block": 575,
+                "zero_based_row_in_block": 577,
+                "native_s": 7175.288500000001,
+                "I_pA": -912.06187,
+                "Bias_V": -1.0,
+                "Z_nm": -101.13939
+              },
+              {
+                "global_zero_based": 14350578,
+                "block": 575,
+                "zero_based_row_in_block": 578,
+                "native_s": 7175.289,
+                "I_pA": -927.57196,
+                "Bias_V": -1.0,
+                "Z_nm": -101.04763
+              },
+              {
+                "global_zero_based": 14350579,
+                "block": 575,
+                "zero_based_row_in_block": 579,
+                "native_s": 7175.2895,
+                "I_pA": -1195.7585,
+                "Bias_V": -1.0,
+                "Z_nm": -100.95400000000001
+              },
+              {
+                "global_zero_based": 14350580,
+                "block": 575,
+                "zero_based_row_in_block": 580,
+                "native_s": 7175.29,
+                "I_pA": -1037.9344999999998,
+                "Bias_V": -1.0,
+                "Z_nm": -100.86144999999999
+              },
+              {
+                "global_zero_based": 14350581,
+                "block": 575,
+                "zero_based_row_in_block": 581,
+                "native_s": 7175.2905,
+                "I_pA": -1061.964,
+                "Bias_V": -1.0,
+                "Z_nm": -100.76464
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555139537561125,
+                  "utc": "2026-11-03T05:28:15.181232+00:00",
+                  "block": 574,
+                  "points_counter": 24660,
+                  "sample": 14349660,
+                  "native_s": 7174.83,
+                  "elapsed_nominal_half_s": 7174.550000190735
+                },
+                {
+                  "monotonic_ns": 1555140090572333,
+                  "utc": "2026-11-03T05:28:15.734246+00:00",
+                  "block": 575,
+                  "points_counter": 780,
+                  "sample": 14350780,
+                  "native_s": 7175.39,
+                  "elapsed_nominal_half_s": 7175.010000228882
+                }
+              ],
+              "host_bracket_s": 0.553011208,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:15.010846+00:00",
+                  "monotonic_ns": 1555139367173458,
+                  "getter_group_s": 0.03876224998384714,
+                  "y_nm": -2.092954254351298
+                },
+                {
+                  "utc": "2026-11-03T05:28:15.361873+00:00",
+                  "monotonic_ns": 1555139718198458,
+                  "getter_group_s": 0.04755116696469486,
+                  "y_nm": -2.1340720302021055
+                },
+                {
+                  "utc": "2026-11-03T05:28:15.712413+00:00",
+                  "monotonic_ns": 1555140068737833,
+                  "getter_group_s": 0.043665000004693866,
+                  "y_nm": -2.1740476086051785
+                },
+                {
+                  "utc": "2026-11-03T05:28:16.183795+00:00",
+                  "monotonic_ns": 1555140540122875,
+                  "getter_group_s": 0.16636629216372967,
+                  "y_nm": -2.2140183020269433
+                }
+              ],
+              "Y_nm": [
+                -2.2140183020269433,
+                -2.092954254351298
+              ],
+              "zero_based_row_interval": [
+                130,
+                130
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14354226,
+            14354231
+          ],
+          "samples": 5,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14354229,
+              "block": 575,
+              "zero_based_row_in_block": 4229,
+              "native_s": 7177.114500000001,
+              "I_pA": -1362.963,
+              "Bias_V": -1.0,
+              "Z_nm": -100.69547
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14354227,
+                "block": 575,
+                "zero_based_row_in_block": 4227,
+                "native_s": 7177.1135,
+                "I_pA": -1125.2885,
+                "Bias_V": -1.0,
+                "Z_nm": -100.89607
+              },
+              {
+                "global_zero_based": 14354228,
+                "block": 575,
+                "zero_based_row_in_block": 4228,
+                "native_s": 7177.1140000000005,
+                "I_pA": -1180.1333,
+                "Bias_V": -1.0,
+                "Z_nm": -100.79731
+              },
+              {
+                "global_zero_based": 14354229,
+                "block": 575,
+                "zero_based_row_in_block": 4229,
+                "native_s": 7177.114500000001,
+                "I_pA": -1362.963,
+                "Bias_V": -1.0,
+                "Z_nm": -100.69547
+              },
+              {
+                "global_zero_based": 14354230,
+                "block": 575,
+                "zero_based_row_in_block": 4230,
+                "native_s": 7177.115,
+                "I_pA": -1074.4057,
+                "Bias_V": -1.0,
+                "Z_nm": -100.59929000000001
+              },
+              {
+                "global_zero_based": 14354231,
+                "block": 575,
+                "zero_based_row_in_block": 4231,
+                "native_s": 7177.1155,
+                "I_pA": -793.23281,
+                "Bias_V": -1.0,
+                "Z_nm": -100.51081
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555141793809000,
+                  "utc": "2026-11-03T05:28:17.437489+00:00",
+                  "block": 575,
+                  "points_counter": 4180,
+                  "sample": 14354180,
+                  "native_s": 7177.09,
+                  "elapsed_nominal_half_s": 7177.050000190735
+                },
+                {
+                  "monotonic_ns": 1555142355111750,
+                  "utc": "2026-11-03T05:28:17.998789+00:00",
+                  "block": 575,
+                  "points_counter": 5300,
+                  "sample": 14355300,
+                  "native_s": 7177.650000000001,
+                  "elapsed_nominal_half_s": 7177.5599999427795
+                }
+              ],
+              "host_bracket_s": 0.5613027500000001,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:17.252671+00:00",
+                  "monotonic_ns": 1555141608990250,
+                  "getter_group_s": 0.03701316611841321,
+                  "y_nm": -2.3510742241938942
+                },
+                {
+                  "utc": "2026-11-03T05:28:17.608182+00:00",
+                  "monotonic_ns": 1555141964505000,
+                  "getter_group_s": 0.05091008287854493,
+                  "y_nm": -2.389907605149233
+                },
+                {
+                  "utc": "2026-11-03T05:28:17.975955+00:00",
+                  "monotonic_ns": 1555142332280541,
+                  "getter_group_s": 0.06083141593262553,
+                  "y_nm": -2.431020718063337
+                },
+                {
+                  "utc": "2026-11-03T05:28:18.437380+00:00",
+                  "monotonic_ns": 1555142793694166,
+                  "getter_group_s": 0.15279091615229845,
+                  "y_nm": -2.472139604137169
+                }
+              ],
+              "Y_nm": [
+                -2.472139604137169,
+                -2.3510742241938942
+              ],
+              "zero_based_row_interval": [
+                131,
+                131
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14365166,
+            14365167
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14365166,
+              "block": 575,
+              "zero_based_row_in_block": 15166,
+              "native_s": 7182.5830000000005,
+              "I_pA": -1016.5737999999999,
+              "Bias_V": -1.0,
+              "Z_nm": -101.20927
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14365164,
+                "block": 575,
+                "zero_based_row_in_block": 15164,
+                "native_s": 7182.582,
+                "I_pA": -459.95205,
+                "Bias_V": -1.0,
+                "Z_nm": -101.371
+              },
+              {
+                "global_zero_based": 14365165,
+                "block": 575,
+                "zero_based_row_in_block": 15165,
+                "native_s": 7182.5825,
+                "I_pA": -847.67282,
+                "Bias_V": -1.0,
+                "Z_nm": -101.29509
+              },
+              {
+                "global_zero_based": 14365166,
+                "block": 575,
+                "zero_based_row_in_block": 15166,
+                "native_s": 7182.5830000000005,
+                "I_pA": -1016.5737999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -101.20927
+              },
+              {
+                "global_zero_based": 14365167,
+                "block": 575,
+                "zero_based_row_in_block": 15167,
+                "native_s": 7182.5835,
+                "I_pA": -920.59582,
+                "Bias_V": -1.0,
+                "Z_nm": -101.11583
+              },
+              {
+                "global_zero_based": 14365168,
+                "block": 575,
+                "zero_based_row_in_block": 15168,
+                "native_s": 7182.584,
+                "I_pA": -877.16445,
+                "Bias_V": -1.0,
+                "Z_nm": -101.03003
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555146864688375,
+                  "utc": "2026-11-03T05:28:22.508387+00:00",
+                  "block": 575,
+                  "points_counter": 14320,
+                  "sample": 14364320,
+                  "native_s": 7182.16,
+                  "elapsed_nominal_half_s": 7182.039999961853
+                },
+                {
+                  "monotonic_ns": 1555147450338458,
+                  "utc": "2026-11-03T05:28:23.094042+00:00",
+                  "block": 575,
+                  "points_counter": 15500,
+                  "sample": 14365500,
+                  "native_s": 7182.75,
+                  "elapsed_nominal_half_s": 7182.550000190735
+                }
+              ],
+              "host_bracket_s": 0.585650083,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:28:22.401391+00:00",
+                  "monotonic_ns": 1555146757694750,
+                  "getter_group_s": 0.046238499926403165,
+                  "y_nm": -2.9381195254529757
+                },
+                {
+                  "utc": "2026-11-03T05:28:22.926197+00:00",
+                  "monotonic_ns": 1555147282493500,
+                  "getter_group_s": 0.21825999999418855,
+                  "y_nm": -2.978095103856049
+                },
+                {
+                  "utc": "2026-11-03T05:28:23.317490+00:00",
+                  "monotonic_ns": 1555147673784583,
+                  "getter_group_s": 0.022558500058948994,
+                  "y_nm": -3.0420510555018154
+                }
+              ],
+              "Y_nm": [
+                -3.0420510555018154,
+                -2.9381195254529757
+              ],
+              "zero_based_row_interval": [
+                134,
+                134
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14577300,
+            14577301
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14577300,
+              "block": 584,
+              "zero_based_row_in_block": 2300,
+              "native_s": 7288.650000000001,
+              "I_pA": -1212.5061,
+              "Bias_V": -1.0,
+              "Z_nm": -105.0479
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14577298,
+                "block": 584,
+                "zero_based_row_in_block": 2298,
+                "native_s": 7288.649,
+                "I_pA": -109.51932,
+                "Bias_V": -1.0,
+                "Z_nm": -105.14888
+              },
+              {
+                "global_zero_based": 14577299,
+                "block": 584,
+                "zero_based_row_in_block": 2299,
+                "native_s": 7288.6495,
+                "I_pA": -470.62271000000004,
+                "Bias_V": -1.0,
+                "Z_nm": -105.13538
+              },
+              {
+                "global_zero_based": 14577300,
+                "block": 584,
+                "zero_based_row_in_block": 2300,
+                "native_s": 7288.650000000001,
+                "I_pA": -1212.5061,
+                "Bias_V": -1.0,
+                "Z_nm": -105.0479
+              },
+              {
+                "global_zero_based": 14577301,
+                "block": 584,
+                "zero_based_row_in_block": 2301,
+                "native_s": 7288.6505,
+                "I_pA": -273.45409,
+                "Bias_V": -1.0,
+                "Z_nm": -104.99231
+              },
+              {
+                "global_zero_based": 14577302,
+                "block": 584,
+                "zero_based_row_in_block": 2302,
+                "native_s": 7288.651,
+                "I_pA": -129.31684,
+                "Bias_V": -1.0,
+                "Z_nm": -104.97157
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555253037181000,
+                  "utc": "2026-11-03T05:30:08.681203+00:00",
+                  "block": 584,
+                  "points_counter": 1660,
+                  "sample": 14576660,
+                  "native_s": 7288.33,
+                  "elapsed_nominal_half_s": 7288.010000228882
+                },
+                {
+                  "monotonic_ns": 1555253597854833,
+                  "utc": "2026-11-03T05:30:09.241867+00:00",
+                  "block": 584,
+                  "points_counter": 2780,
+                  "sample": 14577780,
+                  "native_s": 7288.89,
+                  "elapsed_nominal_half_s": 7288.520000457764
+                }
+              ],
+              "host_bracket_s": 0.5606738330000001,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:30:08.458556+00:00",
+                  "monotonic_ns": 1555252814532375,
+                  "getter_group_s": 0.032955875154584646,
+                  "y_nm": -15.051400126253611
+                },
+                {
+                  "utc": "2026-11-03T05:30:08.893888+00:00",
+                  "monotonic_ns": 1555253249863958,
+                  "getter_group_s": 0.13157049985602498,
+                  "y_nm": -15.09023306311974
+                },
+                {
+                  "utc": "2026-11-03T05:30:09.268716+00:00",
+                  "monotonic_ns": 1555253624691083,
+                  "getter_group_s": 0.04681895882822573,
+                  "y_nm": -15.145053211540471
+                },
+                {
+                  "utc": "2026-11-03T05:30:09.622165+00:00",
+                  "monotonic_ns": 1555253978142000,
+                  "getter_group_s": 0.043626375030726194,
+                  "y_nm": -15.182745727315705
+                }
+              ],
+              "Y_nm": [
+                -15.182745727315705,
+                -15.051400126253611
+              ],
+              "zero_based_row_interval": [
+                192,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            14580949,
+            14580950
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14580949,
+              "block": 584,
+              "zero_based_row_in_block": 5949,
+              "native_s": 7290.4745,
+              "I_pA": -1084.046,
+              "Bias_V": -1.0,
+              "Z_nm": -105.07723
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14580947,
+                "block": 584,
+                "zero_based_row_in_block": 5947,
+                "native_s": 7290.4735,
+                "I_pA": -103.01403,
+                "Bias_V": -1.0,
+                "Z_nm": -105.18214
+              },
+              {
+                "global_zero_based": 14580948,
+                "block": 584,
+                "zero_based_row_in_block": 5948,
+                "native_s": 7290.474,
+                "I_pA": -588.186,
+                "Bias_V": -1.0,
+                "Z_nm": -105.1665
+              },
+              {
+                "global_zero_based": 14580949,
+                "block": 584,
+                "zero_based_row_in_block": 5949,
+                "native_s": 7290.4745,
+                "I_pA": -1084.046,
+                "Bias_V": -1.0,
+                "Z_nm": -105.07723
+              },
+              {
+                "global_zero_based": 14580950,
+                "block": 584,
+                "zero_based_row_in_block": 5950,
+                "native_s": 7290.475,
+                "I_pA": -198.60669,
+                "Bias_V": -1.0,
+                "Z_nm": -105.03020000000001
+              },
+              {
+                "global_zero_based": 14580951,
+                "block": 584,
+                "zero_based_row_in_block": 5951,
+                "native_s": 7290.4755000000005,
+                "I_pA": -117.70245999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -105.02099
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1555254737944833,
+                  "utc": "2026-11-03T05:30:10.381965+00:00",
+                  "block": 584,
+                  "points_counter": 5060,
+                  "sample": 14580060,
+                  "native_s": 7290.03,
+                  "elapsed_nominal_half_s": 7289.540000915527
+                },
+                {
+                  "monotonic_ns": 1555255286125416,
+                  "utc": "2026-11-03T05:30:10.930145+00:00",
+                  "block": 584,
+                  "points_counter": 6140,
+                  "sample": 14581140,
+                  "native_s": 7290.57,
+                  "elapsed_nominal_half_s": 7290.569999992847
+                }
+              ],
+              "host_bracket_s": 0.548180583,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:30:10.315070+00:00",
+                  "monotonic_ns": 1555254671048500,
+                  "getter_group_s": 0.050581834046170115,
+                  "y_nm": -15.263834640677487
+                },
+                {
+                  "utc": "2026-11-03T05:30:10.671423+00:00",
+                  "monotonic_ns": 1555255027394916,
+                  "getter_group_s": 0.04453400010243058,
+                  "y_nm": -15.30381155134819
+                },
+                {
+                  "utc": "2026-11-03T05:30:11.117176+00:00",
+                  "monotonic_ns": 1555255473146375,
+                  "getter_group_s": 0.1421179580502212,
+                  "y_nm": -15.340354764248332
+                }
+              ],
+              "Y_nm": [
+                -15.340354764248332,
+                -15.263834640677487
+              ],
+              "zero_based_row_interval": [
+                193,
+                193
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "4000": {
+      "samples": 1,
+      "groups": 1,
+      "stored_sample_occupancy_ms": 0.5,
+      "events": [
+        {
+          "global_half_open": [
+            14021575,
+            14021576
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 14021575,
+              "block": 561,
+              "zero_based_row_in_block": 21575,
+              "native_s": 7010.7875,
+              "I_pA": -4482.6325,
+              "Bias_V": -1.0,
+              "Z_nm": -105.35642
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 14021573,
+                "block": 561,
+                "zero_based_row_in_block": 21573,
+                "native_s": 7010.7865,
+                "I_pA": -133.32029,
+                "Bias_V": -1.0,
+                "Z_nm": -105.44758
+              },
+              {
+                "global_zero_based": 14021574,
+                "block": 561,
+                "zero_based_row_in_block": 21574,
+                "native_s": 7010.787,
+                "I_pA": -143.23041,
+                "Bias_V": -1.0,
+                "Z_nm": -105.43302
+              },
+              {
+                "global_zero_based": 14021575,
+                "block": 561,
+                "zero_based_row_in_block": 21575,
+                "native_s": 7010.7875,
+                "I_pA": -4482.6325,
+                "Bias_V": -1.0,
+                "Z_nm": -105.35642
+              },
+              {
+                "global_zero_based": 14021576,
+                "block": 561,
+                "zero_based_row_in_block": 21576,
+                "native_s": 7010.7880000000005,
+                "I_pA": -920.20902,
+                "Bias_V": -1.0,
+                "Z_nm": -105.24742
+              },
+              {
+                "global_zero_based": 14021577,
+                "block": 561,
+                "zero_based_row_in_block": 21577,
+                "native_s": 7010.788500000001,
+                "I_pA": -37.352878,
+                "Bias_V": -1.0,
+                "Z_nm": -105.27091
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1554975225175541,
+                  "utc": "2026-11-03T05:25:30.868278+00:00",
+                  "block": 561,
+                  "points_counter": 21020,
+                  "sample": 14021020,
+                  "native_s": 7010.51,
+                  "elapsed_nominal_half_s": 7010.5
+                },
+                {
+                  "monotonic_ns": 1554975767840041,
+                  "utc": "2026-11-03T05:25:31.410925+00:00",
+                  "block": 561,
+                  "points_counter": 22100,
+                  "sample": 14022100,
+                  "native_s": 7011.05,
+                  "elapsed_nominal_half_s": 7011.020000457764
+                }
+              ],
+              "host_bracket_s": 0.5426645,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T05:25:30.769327+00:00",
+                  "monotonic_ns": 1554975126222166,
+                  "getter_group_s": 0.04191279085353017,
+                  "y_nm": 16.66515636600252
+                },
+                {
+                  "utc": "2026-11-03T05:25:31.117098+00:00",
+                  "monotonic_ns": 1554975473992000,
+                  "getter_group_s": 0.04297025012783706,
+                  "y_nm": 16.624037257884083
+                },
+                {
+                  "utc": "2026-11-03T05:25:31.446747+00:00",
+                  "monotonic_ns": 1554975803638500,
+                  "getter_group_s": 0.024522458901628852,
+                  "y_nm": 16.58634651846569
+                }
+              ],
+              "Y_nm": [
+                16.58634651846569,
+                16.66515636600252
+              ],
+              "zero_based_row_interval": [
+                40,
+                40
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "all_range_most_negative": {
+    "peak": {
+      "global_zero_based": 14021575,
+      "block": 561,
+      "zero_based_row_in_block": 21575,
+      "native_s": 7010.7875,
+      "I_pA": -4482.6325,
+      "Bias_V": -1.0,
+      "Z_nm": -105.35642
+    },
+    "nearby_native_rows": [
+      {
+        "global_zero_based": 14021573,
+        "block": 561,
+        "zero_based_row_in_block": 21573,
+        "native_s": 7010.7865,
+        "I_pA": -133.32029,
+        "Bias_V": -1.0,
+        "Z_nm": -105.44758
+      },
+      {
+        "global_zero_based": 14021574,
+        "block": 561,
+        "zero_based_row_in_block": 21574,
+        "native_s": 7010.787,
+        "I_pA": -143.23041,
+        "Bias_V": -1.0,
+        "Z_nm": -105.43302
+      },
+      {
+        "global_zero_based": 14021575,
+        "block": 561,
+        "zero_based_row_in_block": 21575,
+        "native_s": 7010.7875,
+        "I_pA": -4482.6325,
+        "Bias_V": -1.0,
+        "Z_nm": -105.35642
+      },
+      {
+        "global_zero_based": 14021576,
+        "block": 561,
+        "zero_based_row_in_block": 21576,
+        "native_s": 7010.7880000000005,
+        "I_pA": -920.20902,
+        "Bias_V": -1.0,
+        "Z_nm": -105.24742
+      },
+      {
+        "global_zero_based": 14021577,
+        "block": 561,
+        "zero_based_row_in_block": 21577,
+        "native_s": 7010.788500000001,
+        "I_pA": -37.352878,
+        "Bias_V": -1.0,
+        "Z_nm": -105.27091
+      }
+    ],
+    "slow_axis": {
+      "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+      "native_counter_bracket": [
+        {
+          "monotonic_ns": 1554975225175541,
+          "utc": "2026-11-03T05:25:30.868278+00:00",
+          "block": 561,
+          "points_counter": 21020,
+          "sample": 14021020,
+          "native_s": 7010.51,
+          "elapsed_nominal_half_s": 7010.5
+        },
+        {
+          "monotonic_ns": 1554975767840041,
+          "utc": "2026-11-03T05:25:31.410925+00:00",
+          "block": 561,
+          "points_counter": 22100,
+          "sample": 14022100,
+          "native_s": 7011.05,
+          "elapsed_nominal_half_s": 7011.020000457764
+        }
+      ],
+      "host_bracket_s": 0.5426645,
+      "enclosing_running_Y_reads": [
+        {
+          "utc": "2026-11-03T05:25:30.769327+00:00",
+          "monotonic_ns": 1554975126222166,
+          "getter_group_s": 0.04191279085353017,
+          "y_nm": 16.66515636600252
+        },
+        {
+          "utc": "2026-11-03T05:25:31.117098+00:00",
+          "monotonic_ns": 1554975473992000,
+          "getter_group_s": 0.04297025012783706,
+          "y_nm": 16.624037257884083
+        },
+        {
+          "utc": "2026-11-03T05:25:31.446747+00:00",
+          "monotonic_ns": 1554975803638500,
+          "getter_group_s": 0.024522458901628852,
+          "y_nm": 16.58634651846569
+        }
+      ],
+      "Y_nm": [
+        16.58634651846569,
+        16.66515636600252
+      ],
+      "zero_based_row_interval": [
+        40,
+        40
+      ]
+    }
+  },
+  "all_range_most_positive": {
+    "peak": {
+      "global_zero_based": 14351330,
+      "block": 575,
+      "zero_based_row_in_block": 1330,
+      "native_s": 7175.665,
+      "I_pA": -8.5636611,
+      "Bias_V": -1.0,
+      "Z_nm": -101.21750999999999
+    },
+    "nearby_native_rows": [
+      {
+        "global_zero_based": 14351328,
+        "block": 575,
+        "zero_based_row_in_block": 1328,
+        "native_s": 7175.664,
+        "I_pA": -15.946015000000001,
+        "Bias_V": -1.0,
+        "Z_nm": -101.03693
+      },
+      {
+        "global_zero_based": 14351329,
+        "block": 575,
+        "zero_based_row_in_block": 1329,
+        "native_s": 7175.6645,
+        "I_pA": -11.129275,
+        "Bias_V": -1.0,
+        "Z_nm": -101.12438999999999
+      },
+      {
+        "global_zero_based": 14351330,
+        "block": 575,
+        "zero_based_row_in_block": 1330,
+        "native_s": 7175.665,
+        "I_pA": -8.5636611,
+        "Bias_V": -1.0,
+        "Z_nm": -101.21750999999999
+      },
+      {
+        "global_zero_based": 14351331,
+        "block": 575,
+        "zero_based_row_in_block": 1331,
+        "native_s": 7175.6655,
+        "I_pA": -9.683962000000001,
+        "Bias_V": -1.0,
+        "Z_nm": -101.31586
+      },
+      {
+        "global_zero_based": 14351332,
+        "block": 575,
+        "zero_based_row_in_block": 1332,
+        "native_s": 7175.666,
+        "I_pA": -9.0261548,
+        "Bias_V": -1.0,
+        "Z_nm": -101.41515
+      }
+    ],
+    "slow_axis": {
+      "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+      "native_counter_bracket": [
+        {
+          "monotonic_ns": 1555140090572333,
+          "utc": "2026-11-03T05:28:15.734246+00:00",
+          "block": 575,
+          "points_counter": 780,
+          "sample": 14350780,
+          "native_s": 7175.39,
+          "elapsed_nominal_half_s": 7175.010000228882
+        },
+        {
+          "monotonic_ns": 1555140669881166,
+          "utc": "2026-11-03T05:28:16.313552+00:00",
+          "block": 575,
+          "points_counter": 1940,
+          "sample": 14351940,
+          "native_s": 7175.97,
+          "elapsed_nominal_half_s": 7175.510000228882
+        }
+      ],
+      "host_bracket_s": 0.579308833,
+      "enclosing_running_Y_reads": [
+        {
+          "utc": "2026-11-03T05:28:15.712413+00:00",
+          "monotonic_ns": 1555140068737833,
+          "getter_group_s": 0.043665000004693866,
+          "y_nm": -2.1740476086051785
+        },
+        {
+          "utc": "2026-11-03T05:28:16.183795+00:00",
+          "monotonic_ns": 1555140540122875,
+          "getter_group_s": 0.16636629216372967,
+          "y_nm": -2.2140183020269433
+        },
+        {
+          "utc": "2026-11-03T05:28:16.545109+00:00",
+          "monotonic_ns": 1555140901430125,
+          "getter_group_s": 0.02768475003540516,
+          "y_nm": -2.2688435574735877
+        }
+      ],
+      "Y_nm": [
+        -2.2688435574735877,
+        -2.1740476086051785
+      ],
+      "zero_based_row_interval": [
+        130,
+        130
+      ]
+    }
+  },
+  "matches_historical_negative_digitizer_value_samples": 0,
+  "current_minmax_pA": [
+    -4482.6325,
+    -8.5636611
+  ],
+  "blocks": [
+    555,
+    591
+  ],
+  "rows": 925000,
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/full213_completed_native_receipt.json",
+    "sha256": "49aa5acdc38dfcc0179d0e0f94e9acc0e60696a3509c08ced7e0d65c6af36e0b"
+  },
+  "blocks_sha256": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600555.dat",
+      "sha256": "c19bf336b13355fb1ffc35f7ba79f23e213fd6b2f0ca4b1610b4d987bd02c9bd",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600556.dat",
+      "sha256": "796c7ea79b96b7176122737d20f60b253169420676ff8ed6ce8b906175ec8d4d",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600557.dat",
+      "sha256": "04a9b0ea4e18a6a85d804ffd7a1cafa41d6dba27c4ba43425e82612ec0b5eef4",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600558.dat",
+      "sha256": "ddf3ebaa4158fcd4f514dd15b10bd569a40f6262828dec1ee840c2df9511253d",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600559.dat",
+      "sha256": "1d05cb5ddc5507b82efb7f42983a8acc63c064da1754548449f584e7df590025",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600560.dat",
+      "sha256": "c97d0f120295e579903bba6b36d41005d3626bfd658c14fbe7846f4314de2bdc",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600561.dat",
+      "sha256": "288edb01629216285fd459f498b7492f54643806162e855f615554da022c7095",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600562.dat",
+      "sha256": "029c1e4a9b638f69eac34f6af7657456a125d6b0ba64114b0d880aa5a9a7cc6a",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600563.dat",
+      "sha256": "ec5800792807c4e666d0d1a6eb0bdb0bbb3bbf0374e3e4b446608727798baa6d",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600564.dat",
+      "sha256": "49296e10a053d2a16a31e92f1171a3eaf43a0330979056536233e626316414cd",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600565.dat",
+      "sha256": "3cac1a014e2a8502de5c6046a131a334b8d5ae4ee688c2580201137d76baf0bb",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600566.dat",
+      "sha256": "c5f7a4f49db49b9aa3e1dbe4aadbad00d8e0a4b6532f63e3784eb3c788c01031",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600567.dat",
+      "sha256": "3c0514f850e5222b5cb04f742105a38630a0626d05938650bc88a4ffa34b85a9",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600568.dat",
+      "sha256": "823931dcbf7d5e9a221785d2cc80f6cdf0eb06b4566c153b0518ab279c680761",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600569.dat",
+      "sha256": "bec1411067dbf6547163b4a6afddf4bbe85b829caf41798ae479f8fd6964ac23",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600570.dat",
+      "sha256": "e7a4a864137f50285ca137fc3ff97bbb74d21b107c7b6a5bf93086052f6e0e2e",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600571.dat",
+      "sha256": "702d072ed0ed409e2d3045fc03b5f9c0d52a6d70357247bce5454b341f33fc34",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600572.dat",
+      "sha256": "613999ec44ee0d8a099ea98de922385321f218498ac65a68c7c52966fbbeaa22",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600573.dat",
+      "sha256": "518fdf26b7a9f4130f177b31ca0d4bb4f127fd9905743f2dc767f6667f7e5492",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600574.dat",
+      "sha256": "b256173f765ef1fe1857ad0607f7afded0eb842c84a5834bcb18df4c0d4c20bc",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600575.dat",
+      "sha256": "f9fcbf4fba5ef40c5d54b2200b8ecf6346445d65d81164c73529697dd6f3f979",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600576.dat",
+      "sha256": "5cac6ce1c616dba1b85f27c731403490d968deb5866dba3143bd68a6c019392c",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600577.dat",
+      "sha256": "539234f106b17e3d59818924373aaa350dec265b1db59354f5a953185a3d857b",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600578.dat",
+      "sha256": "cd801980c0b2de94c2d2bc327e7f153d12150fab52c898ab053f2c3da15d2bb6",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600579.dat",
+      "sha256": "594b60352a5745eb28352b9227c2626395d1ea4df80cde5ba5d347a845014464",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600580.dat",
+      "sha256": "58720fe27e499ea42db34a57b7dbe39f74af1e1930c8f5daaddf89825c8618d7",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600581.dat",
+      "sha256": "4275d6bfbe620537c02da6544596ee73d18b9c8cae673bf0e9d530d79f67f0cd",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600582.dat",
+      "sha256": "731cd041a4b2eecd8c3aae60dbb2a131f95cc85ba4a81653fd6091cf6d28695a",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600583.dat",
+      "sha256": "92936fa819056d396f200db5bcf2177595f3622f4c7b129d278f02f8ac331467",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600584.dat",
+      "sha256": "0f7a60384ea5c4becae8c223f60870c49b7993b41074bf1361616c1a8d99cc62",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600585.dat",
+      "sha256": "9283278442a387b66b4f2707df3db7beb5430f3d51c4be7c461ee5a0b511ef96",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600586.dat",
+      "sha256": "ba46254581fd10317d12b4799277923b60683b7c84c271c2c0466beaa9bba91c",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600587.dat",
+      "sha256": "706daee011fd5a553c37bdd1f6969f0015fa86ffe64d7de033b7b2d2a2a2a204",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600588.dat",
+      "sha256": "d6c9c8375aa702303bc5c7cde73c3bd6c57b76292cfb391e4510363bfc87280f",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600589.dat",
+      "sha256": "27d1a7b899556581827af11dcc24a7d9e7edbe866e1ad2860ed4cf2255923143",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600590.dat",
+      "sha256": "bd1085e730fc7f646567787e8ba0d83928d622a7ed4cf1bfb682dabe0b114215",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600591.dat",
+      "sha256": "b622a02928187a9d2b6ad0a4a53f037857fb2a1237cb79f11e108eafb50711a2",
+      "rows": 25000
+    }
+  ],
+  "manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/manifest.json",
+    "sha256": "51d554111e215e7730ca63eff51b0461a34752a4f30d4c5f987479180af95339"
+  },
+  "logger_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/events.jsonl",
+    "complete_prefix_bytes": 210126861,
+    "complete_prefix_sha256": "d9fd2caaa5c03bd2507a523c46060f699d9eb53fe7d8a1e108766024c5ddb155"
+  },
+  "scan_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/events.jsonl",
+    "complete_prefix_bytes": 31908665,
+    "complete_prefix_sha256": "00ade0bd20a8983f873d3a112105222353c85c32a7c82a0412a4ce192c3ba0c9"
+  },
+  "script_sha256": "7190e93f0f89af41ef6c6776e0f011e6db5b968e6e330a86cd8de3a26113b975",
+  "scope": "Counter/host/slow-axis mapping only. Current thresholds are descriptive sample levels. The raw logger has no XY; output cannot assign exact pixels, pass direction, or simultaneous XY. Grouped readback and native buffering delays are uncalibrated."
+}

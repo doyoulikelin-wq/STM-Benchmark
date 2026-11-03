@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-03T05:19:32.998344+00:00",
+  "monotonic_ns": 1554617356525833,
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/outcome.json",
+    "sha256": "390503ab646fdba9c96ffe5c2e4ea7d127fd1efab37cfb5b5c7750f8ce1c1d9d"
+  },
+  "poststage_recovery_reviewed": true,
+  "reviewed_through_monotonic_ns": 1554455945936916,
+  "reviewed_through_time_semantics": "Known pulse outcome lies within full native phase audit and additional21.3s postroll. Asynchronous counter bounds retained.",
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "allow_one_return": true,
+  "reason": "Known single pulse5 ACK and actualOn2 readiness accepted107.6ms afterACK followed by originalfull30s. Native40samples20ms pulse had39 rail samples, entire outerevent96exactnegativefloor samples48ms and98samples>=4nA49ms. Truepeak/charge censored. Z transient+5.264nm near Biasreturn, later workpoint around-8pm frompre. Post30native29.27s signedI−1087.26..−928.01pA/ZRMS.679pm and additional21.3s I−1067.55..−930.98pA/ZRMS.639pm, zero4nA events and restingBias-1V. Recovery is observed; the overload mechanism is unresolved and all rawclipping retained. Root selects one original11step reduction to100pA under unchangedphysical guards, fullscan selectedonlyafter its own30s/nativecheck. No additionalconditioningselected.",
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/pulse_completed_native_receipt.json",
+    "sha256": "26b788423d84487b537603d103fe48d10888ee5227cf38a74105b0a5fd27c15a"
+  },
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_native_pre_pulse_post.json",
+      "sha256": "e1b1f6e9df22a76bb7c5d9b65a7cf1631fc243c749c6dadb3924ef85968d3418"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_pulse_transition_timeline.json",
+      "sha256": "7d0a337aa81dee5e668b21ffc8fe9c0b53623500dcb00d6f3a587342dce24316"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_pulse_postroll.json",
+      "sha256": "8e14f1430c399a6eb65efc319e044ee902d1f0a600d85fe78949b15ec12da255"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/feedback_readiness.json",
+      "sha256": "ed6a6cd1485ff2fdaea72407855668286761292bae84ddd6981a7501e9d39fa7"
+    }
+  ]
+}

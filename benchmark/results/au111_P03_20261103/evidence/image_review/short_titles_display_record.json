@@ -1,0 +1,119 @@
+{
+  "purpose": "Shortened display titles only; original immutable plot and measurements preserved",
+  "input_comparison": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/after_vs_212/image_measurements.json",
+    "sha256": "13a178ce22967b65b947e6b5935cc280a1dbc5765d25aecc45e0929198a01216"
+  },
+  "original_figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/after_vs_212/fixed_objects_raw_FB.png",
+    "sha256": "ae768c57588059963f17460a3527d667e6199e8823e63fb9186f0eba4effec6a"
+  },
+  "output": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/after_vs_212/fixed_objects_short_titles_FB.png",
+    "sha256": "be83fc439965cfdc03fb91e79e9e7e3c66fde35310cad7dc6f1a5fb74db6cd55"
+  },
+  "raw_arrays_unchanged": true,
+  "no_registration_or_filtering": true,
+  "same_scalar_perimeter_median_and_color_range_as_original": true,
+  "regions": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "display_limits_nm": [
+        -0.06405898034245183,
+        0.37343284020607825
+      ],
+      "scaled_raw_arrays_sha256": [
+        "65eb8b8a085921fa822dd7ee15ce18af10e0867689b59fd7c6ca7a61e97ed19b",
+        "4b51e51353dabb8708bd3c0773848eec9086643a2c96b41d5370d61ed7903223",
+        "c45e4335229241afedc37b506de9ffd970f51b9b1d9641d11a0898f01a7751f3",
+        "0e7f02590fce6311862dc3303d9c8eff0c22adae5f3df6038da55dc67c67b48e"
+      ]
+    },
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "display_limits_nm": [
+        -1.1290808288322296,
+        0.767460761608163
+      ],
+      "scaled_raw_arrays_sha256": [
+        "4eb43f223f1311dd0d116206cb4f5e6ba472ce5c1d1547b210f3682ba418ccc0",
+        "514d5a169e41d25082f43415c7c5bc2f59ee398aca43da89979ec44a67e35a01",
+        "d7f388c41e4675c5581fe4d63906c042e1a3a29f2da34be56c26a21c6f56c781",
+        "ab875cd168db150eec8620ecd253e13edf78f2de99f40685cbcc385a81077f2f"
+      ]
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "display_limits_nm": [
+        -0.24102320139718358,
+        0.2654445552252582
+      ],
+      "scaled_raw_arrays_sha256": [
+        "0730ad7e85bc633805b8d423fc3560b2d02ff02e8d458448ece9326bb18dd2d5",
+        "1a4802ef479f4e5f56088f74649af50f87edc3459e6b9f48e5332a79dee43923",
+        "0b974a1345b46102435aba207a554d12e226c944c81307fb21afab6acf975757",
+        "130f61b1acf72ccf6c8f9f081ec1ecb6b1167bf079312d6dd28a6ca130233674"
+      ]
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "display_limits_nm": [
+        -0.6504343730284745,
+        1.5834622502097773
+      ],
+      "scaled_raw_arrays_sha256": [
+        "7062195b782c59d8554c023315ecd46db2f859363843779f560bf39d57f53dc1",
+        "71df69116d087569b66c68d1ad957924de40d13975b1b997f4f28414087e0db0",
+        "9010f91f85c06d92937b2017fdbb32e9255b8c0d2070ca31c2d8c95b0fa90c72",
+        "5ee0cc09edc8f557201b3826c7b0a2bf4a39fe1e27f4c5566815d0649f7c806c"
+      ]
+    },
+    {
+      "id": "S1_left_nonselected_I03_candidate",
+      "rc_half_open": [
+        129,
+        150,
+        42,
+        63
+      ],
+      "display_limits_nm": [
+        -0.017490009440734866,
+        0.3440128182319313
+      ],
+      "scaled_raw_arrays_sha256": [
+        "6cdfca898472cf9acf72be6ba4fedfb01235d89d526c489b9c9a58e89409f67e",
+        "c13c6b695e2a0326c0a8534a898e2531b2c9fad708f602b3b0ceecb5df9501d5",
+        "6541ef1251eb312e5a67e54c2705795b8cf818cca799066fe925a147c2ee6d83",
+        "716722eeb8d30a1d69f8245743b5f0d86e43adda063083cab34ae035853036e7"
+      ]
+    }
+  ],
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/render_short_fixed_titles.py",
+    "sha256": "d4964e580831c950e5622d9b8d75106e0935475772d0421128257ba11b2acd2e"
+  }
+}

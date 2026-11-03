@@ -1,0 +1,274 @@
+{
+  "schema": "P03-prospective-image-only-plan-v1",
+  "created_utc": "2026-11-03T05:06:13.448905+00:00",
+  "scope": "仅离线相对212的图像判读计划。无仪器、网络、SMB或GUI操作，不构成admission或实际执行证据。",
+  "status": "frozen_image_plan_candidate_action_not_executed_no_scanner_bound",
+  "parent_functional_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R02_functional_image_plan.json",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "previous_prospective_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_image_review/prospective_image_review_plan.json",
+    "sha256": "993009578a95d550b9a18b729306bec06c525c7ecd1f147f09336958b41679a3"
+  },
+  "candidate_recipe_from_root": {
+    "action_id": "P03",
+    "pulse_V": -6.0,
+    "duration_s": 0.02,
+    "Z_Ctrl_hold": true,
+    "preparation_current_A": 1e-09,
+    "pulse_ordinal": 5,
+    "maximum_session_pulses": 6,
+    "candidate_fixed_xy_nm": [
+      -25,
+      -25
+    ],
+    "position_source": "root current-corner candidate only, actual fresh target and readback remain root execution binding",
+    "status": "candidate_only_no_command_sent_by_this_plan"
+  },
+  "before_event": "after_R06_P02_recovery_full",
+  "before_native_label": "212",
+  "before_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/outcome.json",
+    "sha256": "a9cf0bbff16181b8367ace00fc21193f0bf936b4a62ec98039ef7f3e304fa983"
+  },
+  "before_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/analysis/quality_report.json",
+    "sha256": "7f7199e8ccd0be0cb8699a9e2d7df2a83334f2fc1384f47c48def49156d344bb"
+  },
+  "before_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/native/BM261029_00212.sxm",
+    "sha256": "dd448b665062664e20669d3b86d92b7b99879a0e91094b73fe7b18484b4a3739",
+    "bytes": 1383336
+  },
+  "before_image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_recovery_image_review/post_manual_review.json",
+    "sha256": "4bf46bd5f32710bcccba4c01e56fd13e078fbb0870eff62966d1e9c956df82f8"
+  },
+  "before_manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/manifest.json",
+    "sha256": "b31e48d7c61e91599d1e2485fc57b32e96c2e276944ceb3e47714a184bdddea4"
+  },
+  "before_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R06_after_P02_recovery_once.py",
+    "sha256": "c30f251302f30d0bf8b5e204bf5ccaac066a08acf677ccd98d48bfbc89ee94f6"
+  },
+  "baseline_history": {
+    "P02_status": "uncertain_or_recovery_failed",
+    "P02_original_post30_executed": false,
+    "independent_readonly_recovery_and_eleven_step_return_completed": true,
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_recovery_image_review/after_vs_211/image_measurements.json",
+      "sha256": "df9024c501b37862a44a8e5775d76c897b3738857ca5499528b24fbc0ee2cda3"
+    },
+    "interpretation": "212是P02已执行、独立恢复并返回100pA后的真实完整图，既有失败历史保留。新图像计划不会把原P02重新标成顺利恢复。"
+  },
+  "actual_after_identity": {
+    "native_label": null,
+    "scan_event": null,
+    "scan_source_path": null,
+    "scan_source_sha256": null,
+    "binding_status": "unbound_until_root_supplies_actual_stage_and_frozen_scanner_source",
+    "rule": "以后续真实completed outcome与原生SXM归档为准，不预设文件编号或动作效果。"
+  },
+  "match_requirements": [
+    "完整240×240正反扫及全部6通道面，345600个原生/TCP float32值一致。",
+    "与212保持50nm方场、同中心、角度及DOWN方向，−1V/100pA成像、0.912s/方向行时间和原反馈配置。实际配置若不同，明确匹配限制。",
+    "候选动作若实际执行且恢复经root核验，再以完整后扫记录作用，无论看起来改善、变坏或无变化。",
+    "1nA准备、脉冲、恢复和返回100pA分别留证。若中断后独立恢复，原失败标签与新恢复历史分开，比较器只接受真实绑定的生命周期。",
+    "缺少仅准备后的完整图时，将全程记为复合暴露，脉冲的独立贡献保留不确定性。"
+  ],
+  "primary_remote_references": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "212中当前任务可用，历史形貌保真限制按below记录。候选P03后比较仍需实际完整图。",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "212中当前任务可用，历史形貌保真限制按below记录。候选P03后比较仍需实际完整图。",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      }
+    }
+  ],
+  "secondary_remote_reference": {
+    "id": "S1_left_nonselected_I03_candidate",
+    "rc_half_open": [
+      129,
+      150,
+      42,
+      63
+    ],
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/candidate_coordinates_210.json",
+      "sha256": "8b4154b7f05c96054eeccfc364018350e00a6b8e1a65c924d48685f737443bfd"
+    },
+    "reason": "P02之前已登记的补充远端参考，212中仍可辨，原固定窗口延续。"
+  },
+  "local_affected_regions": [
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          14.166666666666671,
+          19.375
+        ],
+        "y": [
+          1.6666666666666643,
+          5.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    },
+    {
+      "id": "I03_mound_target",
+      "rc_half_open": [
+        119,
+        141,
+        195,
+        221
+      ],
+      "role": "追踪局部丘体变化，不能单独决定全局针尖质量。"
+    }
+  ],
+  "current_212_reference_state": {
+    "C1": "原上方小点与主体仍分离。主体已沿低Y方向拉长，约Y16至17nm有下肩/瓣与一条短横线，这些是P03之前的局部限制。以任务分辨变化判断后图，不要求主体变圆或恢复211形状。",
+    "C3": "台阶两向连续，近边突起可辨且较211略宽。以边缘追踪和对象分辨功能为参照。",
+    "S1": "两向均是可与背景分开的紧凑突起，继续补充远端检查。",
+    "C2_D4": "旧I03大丘持续覆盖或侵入，沿用局部影响检查身份。",
+    "full_field": "212两向完整。旧211约Y−15.4nm及末端跨行偏移在212显著减弱；当前背景变化仍结合空间结构判断。"
+  },
+  "unchanged_task": "在同一50nm Au(111)区域分辨分散纳米突起及台阶边缘，保留原完整正反扫优先和功能标准。原子分辨、化学洁净及精确颗粒几何不是此轮任务终点。",
+  "judgment": [
+    "先核对C1原上方小点与主体的分离、C3边缘连续性及近边突起、S1独立突起的F/B可辨性，再检查全场分散对象。保留212已有C1下肩和短横线，避免把旧限制重新标成新诱导坏态。",
+    "若独立远端对象共同出现持续复制、严重拖尾、刮痕或不可辨性，逐对象记录具体位置、方向和任务损失，并检查共同行位移、漂移、反馈及真实形貌改变。",
+    "沿用原R02规则，一个可靠参照若确实失去任务所需分辨，也可以支持坏态。需说明实际失去什么辨识能力及为何可信，不能以单个未知突起的双瓣形状替代该证据。",
+    "新局部坑丘、材料堆积、C1内部轮廓变化或单个电流峰单列记录，结合远端成像功能判断。C2/D4的旧大丘背景变化继续属于局部检查。",
+    "若新完整后图仍达到同一纳米对象与边缘任务标准，明确记录诱导坏态未成立，cycle_increment=0。",
+    "若变化尚不能区分针尖响应和样品变化，诱导效果记uncertain并保留替代解释，不通过改变任务标准制造新的修复循环。"
+  ],
+  "display_plan": {
+    "full_range": "原始Z各方向减一个全帧中位数，前后四图共用包含全部像素的完整范围；保存原始绝对最小/最大与标量。",
+    "fixed_terrace_range_nm": [
+      -0.2886687155978507,
+      0.40538459700201085
+    ],
+    "fixed_range_source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/after_vs_210/dynamic_range_display_record.json",
+      "sha256": "ef9f6eaa74c057671411ae93c390cc788e148addb3a55c433809a31841b39f66"
+    },
+    "fixed_range_label": "沿用先前冻结的210台阶尺度，212为本次真实修前图。洋红标超上限、青色标超下限，逐图记像素数。",
+    "local_crops": "每个固定ROI以前后F/B共同范围显示原像素，仅减外围标量。禁止逐行校正、平滑或静默配准。",
+    "displacement": "只作单独次要检查，联合C1/C3/S1及其他地标估计共同行位移。原图和原固定窗口保持主要证据，位置变化与形状变化分别记录。"
+  },
+  "output_fields": [
+    "actual_before_outcome",
+    "actual_after_outcome",
+    "actual_before_quality",
+    "actual_after_quality",
+    "actual_scan_source",
+    "actual_preparation_pulse_recovery_return_evidence",
+    "original_failure_if_any_preserved",
+    "task_usable",
+    "full_task_usable",
+    "induction_or_conditioning_effect",
+    "trace_retrace_evidence",
+    "local_vs_global",
+    "limitations",
+    "cycle_increment"
+  ],
+  "count_rule": "每个诱导尝试、脉冲和完整修复cycle分别计数。仍可用或坏态未明时cycle_increment=0。已有脉冲历史保持，P03候选是ordinal5/6。",
+  "no_active_admission_created": true,
+  "no_hardware_actions": true
+}

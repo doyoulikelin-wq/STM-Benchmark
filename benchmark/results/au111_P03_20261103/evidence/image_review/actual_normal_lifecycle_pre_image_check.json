@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-03T05:29:09.892344+00:00",
+  "scope": "Actual local normal lifecycle binding before image analysis. Scan completion and image quality are not evaluated here.",
+  "scan_start": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/scan_start.claim",
+    "sha256": "28f9d4d316a375aa7f17746e56451164abb97cc185589234665fe970ab087730"
+  },
+  "captured_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P03_full/fresh_recording_evidence.json",
+    "sha256": "fef73ea36942bf9692d7dfa6324922c431943433a1202682cc014a59d12f27c4"
+  },
+  "source_refs_verified": 81,
+  "actual_stages": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+      "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+    },
+    "pulse": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/outcome.json",
+      "sha256": "390503ab646fdba9c96ffe5c2e4ea7d127fd1efab37cfb5b5c7750f8ce1c1d9d"
+    },
+    "return": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/outcome.json",
+      "sha256": "69c2c9bee8503ba535fd50c449380310f7d6ffe547fd5d7ecc06964fc9c27ead"
+    }
+  },
+  "normal_lifecycle_contract_passed": true,
+  "pulse_ordinal": 5,
+  "readiness": {
+    "status": "known_On2_ready",
+    "elapsed_from_ACK_s": 0.10761358309537172,
+    "getter_observations": 1,
+    "Hold_observations": 0,
+    "post30s_not_yet_started": true,
+    "total_deadline_not_reset": true
+  },
+  "actual_Hold_branch_exercised": false,
+  "comparison_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/compare_after_P03.py",
+    "sha256": "9c2b90558b31ce9c68cf191c90be7c074aedcb8875c733b7cfce01b85e2fa45e"
+  },
+  "image_effect": "not_assessed",
+  "actual_after_native_identity": null,
+  "no_hardware_or_SMB": true
+}

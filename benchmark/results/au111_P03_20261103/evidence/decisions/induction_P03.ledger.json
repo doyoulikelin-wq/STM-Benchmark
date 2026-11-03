@@ -1,0 +1,55 @@
+{
+  "schema": "local-au111-R06-P03-induction-pulse-v1",
+  "episode_id": "continuing_20261101_1939",
+  "case_id": "R06_usable212_induction_P03",
+  "session_id": "session_02",
+  "action_id": "P03",
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P03.admission.json",
+    "sha256": "f97290e535e2cc0d8c2170c909b2f8acbed911745edfc952212890cfbf5fb1f9"
+  },
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "pulse_attempts_before": 4,
+  "pulse_ordinal": 5,
+  "consecutive_no_improvement_before": 1,
+  "action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -6.0,
+      1,
+      2
+    ],
+    "resting_bias_V": -1.0,
+    "preparation_current_A": 1e-09,
+    "imaging_current_A": 1e-10
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_id": "current_212_end_corner_minus25_minus25nm",
+  "origin": "task_usable_baseline_induction",
+  "max_pulses_total": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "consecutive_no_improvement_scope": "inherited_repair_history",
+  "strategy_review_covers_through_pulse_ordinal": 4,
+  "strategy_review_completed": true,
+  "counter_interpretation": "consecutive_no_improvement_before=1保留继承修复历史；P02诱导脉冲1次、未建立任务坏态另计。root策略复核覆盖第4次；即使保守合并为2也已复核。第3次脉冲图像效果仍为手动中断后的未知。",
+  "preparation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+    "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+  },
+  "preparation_manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/manifest.json",
+    "sha256": "89b8b6f7657e473e35abe26c8d93dcf80747f2f2f617eb7b7fee79c8a7e5cb92"
+  },
+  "preparation_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/root_prepare_native_and_pulse_choice.json",
+    "sha256": "927e4ec3b6616b5b7dbd3a51963b17974077c18e65c6b357e258a9a14489afc4"
+  },
+  "utc": "2026-11-03T05:15:41.470451+00:00",
+  "monotonic_ns": 1554385829249208
+}

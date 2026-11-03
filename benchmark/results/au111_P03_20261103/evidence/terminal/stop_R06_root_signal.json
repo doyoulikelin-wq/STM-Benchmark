@@ -1,0 +1,96 @@
+{
+  "utc": "2026-11-03T05:36:41.556320+00:00",
+  "monotonic_ns": 1555645911287375,
+  "pid": 57780,
+  "verified_command": "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/logger_fullcycle_segment06_observe_once.py --execute --session session_02 --mode engaged_observation --duration 21600 --output /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06 --expected-session-path \\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native --expected-native-directory \\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native --ui-evidence /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/ui_before_R06.png --admission-json /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/segment06_observe_root_admission.json --admission-sha256 369a35b4fc5e6b5098931d3f2d556b8da53bef2ab84630ccf0ac06c7f12c9005",
+  "scanner_pid_confirmed_absent": 72085,
+  "reason": "Four induction attempts after the A05 usable state did not establish a new task-related bad state. Root reviewed full unregistered F/B, full dynamic range and fixed contrast plus C1/C3/S1. P03 almost entire pulse is amplitude-censored, therefore preserve sixth pulse and close this recording segment while seeking a reproducible alternative induction method. Complete repair attempts remain2/5, strict cycles0, remaining3.",
+  "decision": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/root_stop_after213_decision.json",
+    "sha256": "da17f41110e5fd2078f44aae3dfd65a950ac54028281fc88c7a33b139af6a026"
+  },
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/close_own_observer_after_P03.py",
+    "sha256": "2f7f3ffa401cf6054a42d35e2569917fe99afee2d1c96fa844f83c094d080e0d"
+  },
+  "original_close_source_sha256": "fb539171c39979d33b3ba7c66b0c5378774908e33c8b7ea11bc491878cc055d9",
+  "action": "SIGINT owned R06 logger",
+  "signal": 2,
+  "latest_status": {
+    "utc": "2026-11-03T05:36:41.086594+00:00",
+    "monotonic_ns": 1555645441357125,
+    "kind": "datalog_status",
+    "label": "acquiring",
+    "raw_values": [
+      18,
+      "2026/11/3 11:28:40",
+      4,
+      16,
+      1.0,
+      0,
+      "",
+      108,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0600615.dat",
+      11460
+    ],
+    "parsed": {
+      "start": "2026/11/3 11:28:40",
+      "elapsed_s": 15361.0,
+      "stop": "",
+      "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0600615.dat",
+      "points_counter": 11460
+    }
+  },
+  "latest_junction_observation": {
+    "utc": "2026-11-03T05:36:41.127206+00:00",
+    "monotonic_ns": 1555645481972375,
+    "kind": "dynamic_state_poll",
+    "values": {
+      "Bias.Get": [
+        -1.0
+      ],
+      "Current.Get": [
+        -9.965620689778021e-11
+      ],
+      "ZCtrl.SetpntGet": [
+        1.000000013351432e-10
+      ],
+      "ZCtrl.ZPosGet": [
+        -1.0318425580635449e-07
+      ],
+      "ZCtrl.OnOffGet": [
+        1
+      ],
+      "ZCtrl.StatusGet": [
+        2
+      ],
+      "Scan.StatusGet": [
+        0
+      ],
+      "BiasSpectr.StatusGet": [
+        0
+      ],
+      "ZSpectr.StatusGet": [
+        0
+      ],
+      "AutoApproach.OnOffGet": [
+        0
+      ],
+      "SafeTip.OnOffGet": [
+        0
+      ],
+      "SafeTip.PropsGet": [
+        0,
+        1,
+        4.999999858590343e-10
+      ]
+    },
+    "unavailable": {},
+    "coherent_snapshot": false,
+    "interpretation": "observed_only_no_junction_failure_diagnosis"
+  },
+  "no_junction_writer_active": true,
+  "pulse_attempts_total": 5,
+  "native_logger_closure_not_yet_confirmed": true,
+  "no_automatic_retry": true
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Frozen local analysis and root-only archive helper for possible actual P03 normal lifecycle. No command, admission, outcome, image, or actual after-file identity is created by this preparation.",
+  "prospective_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/prospective_image_review_plan.json",
+    "sha256": "8dcd17f720347b4f9f541223d35a772dc4c46402354bf06fbca1049318a44059"
+  },
+  "scanner_candidate": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R06_after_induction_P03_once.py",
+    "sha256": "2d92acb42fb7f0324b5d1063194f77f634f39ca63b88c4e00b1cf58be064c0ee"
+  },
+  "expected_after_event": "after_R06_P03_full",
+  "actual_after_native_identity": null,
+  "expected_reference_native_label": "212",
+  "expected_reference_native_sha256": "dd448b665062664e20669d3b86d92b7b99879a0e91094b73fe7b18484b4a3739",
+  "required_lifecycle": "Actual normal preparation11ACKs, single ordinal5 Pulse known end, within2s known On2 readiness, full original post30 thereafter, independently selected normal11-step return and rootnative scan choice",
+  "failure_paths": "Any failed preparation/Pulse/readiness/return or independently recovered path requires separately labelled adapter. Do not reuse this normal label.",
+  "scripts": {
+    "compare_after_P03.py": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/compare_after_P03.py",
+      "sha256": "9c2b90558b31ce9c68cf191c90be7c074aedcb8875c733b7cfce01b85e2fa45e"
+    },
+    "render_full_dynamic_ranges.py": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/render_full_dynamic_ranges.py",
+      "sha256": "ac668c573ac31e910aa0f750665811a78742e4fb6950db683911e54ae178ec98"
+    },
+    "render_pair_by_stage.py": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/render_pair_by_stage.py",
+      "sha256": "674e73682a2b5db8af4a7dba46c8f3f78d1cabd9396542c475be8465d94b9243"
+    },
+    "landmark_displacement.py": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/landmark_displacement.py",
+      "sha256": "fc27b37898e35fcf0387881c7b0b214a977eeb1bd7067e7a9525ac4c810bbf3f"
+    },
+    "finish_archive_after_P03_sxm.py": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/finish_archive_after_P03_sxm.py",
+      "sha256": "0a4fe18d11c30337c1171d36413ddda7db6271a29cfba6867bc74919ffcfed18"
+    }
+  },
+  "same_frozen_ROIs_and_dual_display": true,
+  "task_outcome": "not_assessed"
+}

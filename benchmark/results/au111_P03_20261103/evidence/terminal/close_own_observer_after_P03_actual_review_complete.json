@@ -1,0 +1,119 @@
+{
+  "status": "root_signal_independent_stop_and_terminal_archive_evidence_verified_offline",
+  "reviewer_sent_signals": 0,
+  "root_stop_claim": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/stop_R06_root_signal.json",
+    "sha256": "799e2af57176de1a92cf8e4d202c953b63a27c581b7103b97ea9d645049a8b6f"
+  },
+  "logger_original_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/outcome.json",
+    "sha256": "a1a64947f61fcc8f0d33a69cba82f4cff14a37bedf19b12dee37c9c4f63eb426"
+  },
+  "root_signal_utc": "2026-11-03T05:36:41.556320+00:00",
+  "logger_exit_utc": "2026-11-03T05:36:41.636408+00:00",
+  "logger_original_status": "recorder_failed_no_retry",
+  "logger_original_error": "RuntimeError: Recorder termination requested",
+  "original_native_stop_confirmed": false,
+  "original_outcome_unchanged": true,
+  "interpretation": "The root requested SIGINT and the frozen recorder used its termination/cleanup branch. Its original failed status is retained. Later independent getters establish native stopped state; this does not rewrite the recorder outcome as successful completion.",
+  "independent_stop_reads": [
+    {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_080_R06_stopped_a/snapshot.json",
+        "sha256": "2c547e897050f5d889b25df9e908cdc68d4a9921e18e18e518f1adf986afa790"
+      },
+      "start": {
+        "utc": "2026-11-03T05:36:46.759059+00:00",
+        "monotonic_ns": 1555651113900125
+      },
+      "end": {
+        "utc": "2026-11-03T05:36:46.906625+00:00",
+        "monotonic_ns": 1555651261364041
+      },
+      "native_start": "2026/11/3 11:28:40",
+      "native_stop": "2026/11/3 13:36:41",
+      "terminal_block": 615,
+      "terminal_rows": 12600,
+      "Bias_V": -1.0,
+      "setpoint_A": 1.000000013351432e-10,
+      "feedback_status": 2,
+      "scan_running": false,
+      "other_getter_errors_preserved": {
+        "Current.CalibrGet": "Nanonis status=1: Error in command: current.calibrget: Gain index is not valid"
+      }
+    },
+    {
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_081_R06_stopped_b/snapshot.json",
+        "sha256": "f85fbcfe12af939741afef414367176ed9f26e6478d9384caf499e862dbe3a13"
+      },
+      "start": {
+        "utc": "2026-11-03T05:36:52.990098+00:00",
+        "monotonic_ns": 1555657344935041
+      },
+      "end": {
+        "utc": "2026-11-03T05:36:53.110536+00:00",
+        "monotonic_ns": 1555657465250500
+      },
+      "native_start": "2026/11/3 11:28:40",
+      "native_stop": "2026/11/3 13:36:41",
+      "terminal_block": 615,
+      "terminal_rows": 12600,
+      "Bias_V": -1.0,
+      "setpoint_A": 1.000000013351432e-10,
+      "feedback_status": 2,
+      "scan_running": false,
+      "other_getter_errors_preserved": {
+        "Current.CalibrGet": "Nanonis status=1: Error in command: current.calibrget: Gain index is not valid"
+      }
+    }
+  ],
+  "independent_native_stop_confirmed": true,
+  "native_terminal_archive_not_verified_in_this_review": false,
+  "terminal_archive_pending_root_receipt": false,
+  "original_close_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_repair/close_own_observer.py",
+    "sha256": "fb539171c39979d33b3ba7c66b0c5378774908e33c8b7ea11bc491878cc055d9"
+  },
+  "executed_close_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/close_own_observer_after_P03.py",
+    "sha256": "2f7f3ffa401cf6054a42d35e2569917fe99afee2d1c96fa844f83c094d080e0d"
+  },
+  "offline_tests_and_preexecution_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/close_own_observer_after_P03_offline_audit.json",
+    "sha256": "94c56a18ad3915e76fa0c02ce73d0dc5d9ecfa0ce0063a3e519c4a49d8cba960"
+  },
+  "peer_review": "r04_logger reported no blocker after static source/pins review; no execution",
+  "test_note": "Initial mock fixture used macOS /var alias and hit the local-path gate. Test fixture changed to resolved /private/var. All 12 test methods then passed; executable source unchanged. Tests invoked no real ps or kill.",
+  "closure_limits": "The original recorder_failed_no_retry outcome and native_stop_confirmed:false remain unchanged. Later independent stopped reads and complete terminal archive establish closure. No new tip-state, chemistry or repair-success claim follows from stopping the recorder.",
+  "prior_partial_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/close_own_observer_after_P03_actual_review.json",
+    "sha256": "67b1e7b8b6ef5422a6dafcde7fd249e1484a5a61916d291cab8410bd4969a720"
+  },
+  "terminal_archive_confirmation": {
+    "sources": {
+      "review.json": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/review.json",
+        "sha256": "76e4693972ebc267e9379d5c0a04c1c6a29c96a272974d4d8757a4e1d9525700"
+      },
+      "receipt.json": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/receipt.json",
+        "sha256": "a85e34f4c6bdb25e1a795dcf079573f5a6422f6260a5f91e2dc766d769ad09d8"
+      },
+      "terminal_evidence.json": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/terminal_evidence.json",
+        "sha256": "da0be50b026e8a745ee194901b665edcc183099e0edc9c88ad0a35cab122714a"
+      }
+    },
+    "block_count": 615,
+    "terminal_rows": 12600,
+    "rows_per_channel": 15362600,
+    "dt_s": 0.0005,
+    "row_duration_s": 7681.3,
+    "stop_acknowledged": true,
+    "independent_stop_confirmed": true,
+    "snapshot_gap_s": 6.083571,
+    "raw_blocks_independently_reparsed_by_this_child": false,
+    "scope": "Verified root terminal review and receipt hashes/identity/counts. Full raw byte/row/header/finite checking is provided by the referenced root terminal archiver."
+  }
+}

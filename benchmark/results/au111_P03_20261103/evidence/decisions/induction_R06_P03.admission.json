@@ -1,0 +1,132 @@
+{
+  "schema": "R06-P03-induction-admission-v1",
+  "case_id": "R06_usable212_induction_P03",
+  "episode_id": "continuing_20261101_1939",
+  "session_id": "session_02",
+  "action_id": "P03",
+  "recording_segment_id": "R06",
+  "root_reviewed_one_induction": true,
+  "exclusive_root_writer": true,
+  "stop_requested": false,
+  "unresolved_previous_execution": false,
+  "manual_intervention_since_baseline": false,
+  "no_unplanned_intervention_since_baseline": true,
+  "origin": "task_usable_baseline_induction",
+  "stage_intent": "induction_attempt",
+  "induction_effect": "not_assessed",
+  "repair_episode_active": false,
+  "induced_bad_state_confirmed": false,
+  "induced_cycle_complete": false,
+  "post_induction_full_required": true,
+  "post_induction_event": "after_R06_P03_full",
+  "no_automatic_repeat_or_escalation": true,
+  "max_pulses_total": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "pulse_attempts_before": 4,
+  "pulse_ordinal": 5,
+  "consecutive_no_improvement_before": 1,
+  "documented_repair_Starts": 1,
+  "documented_induction_Starts": 2,
+  "documented_induction_moves": 2,
+  "max_preparations_this_case": 1,
+  "max_pulses_this_case": 1,
+  "max_returns_this_case": 1,
+  "pulse_count_reset": false,
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -6.0,
+      1,
+      2
+    ],
+    "resting_bias_V": -1.0,
+    "preparation_current_A": 1e-09,
+    "imaging_current_A": 1e-10
+  },
+  "wire_encoding": {
+    "args_f32": [
+      1,
+      0.019999999552965164,
+      -6.0,
+      1,
+      2
+    ],
+    "duration_hex": "3ca3d70a",
+    "voltage_hex": "c0c00000"
+  },
+  "history_evidence": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.claim": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_03.claim": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__shaper_01.claim": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/outcome.json": "f5bbfd836d56ae39457b2f4443886bf1a4ab6e17e2a28ed73e7035ff2905bbc9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02__shaper_01.claim": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/outcome.json": "631a9f0db89ccac28e08254db9099ea8d8942b877d5763f7f6d787b90b9d95ed",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_move.claim": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03__shaper_01.claim": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03_move.claim": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/outcome.json": "672350e12cde3629246939a33b1bfe1e69fce3df7a4f12942d1cd783d90aa0ce",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P01/outcome.json": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recover_prepare_induction_P01_01/outcome.json": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_04.claim": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/manifest.json": "d6df4443895cb802fa94dfdd894e13c4b3e8e533543e4d549b8db92032ef161a",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/pulse.claim": "41f75fdd19253c9c8cd96be76e054831adb69563ec97287fe7cf7d00aad44ace",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/pulse_ack.json": "27ab8cb6b3b85777ed44d77f0aec3e2d43912b2e316dda0de79cdce0fa6c16c5",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/outcome.json": "40fdf15db406993d628e5d7f855183f1a83cc9f7793d4c405ed5ab2dceaeb55e",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/manifest.json": "108b2055bf63b2b1e51199f87c3a7d3414a8e8e0afa3343fa26009efa02fa4b6",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__recovery_return_P02_01.claim": "6f967fff131be06c35400454f2ca6194cc3ea0c171148e23ffe6f05f4c2eb035",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01.admission.json": "aa85699125cd46af99ebc39f88626ddfd7d65e53cb765bd352ab6ef0534caabe",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P02.admission.json": "8cc618848b743205903517d574a35b1b74f0b7d0cd4befec74596e719c3b4e86",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_P02.ledger.json": "585533a6565c663d96b49805a9492f37f59d1075d10c106bd01522c8710c7fa5",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+  },
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/prospective_image_review_plan.json",
+    "sha256": "8dcd17f720347b4f9f541223d35a772dc4c46402354bf06fbca1049318a44059"
+  },
+  "baseline_frame_event": "after_R06_P02_recovery_full",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/outcome.json",
+    "sha256": "a9cf0bbff16181b8367ace00fc21193f0bf936b4a62ec98039ef7f3e304fa983"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/analysis/quality_report.json",
+    "sha256": "7f7199e8ccd0be0cb8699a9e2d7df2a83334f2fc1384f47c48def49156d344bb"
+  },
+  "baseline_functional_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_recovery_image_review/post_manual_review.json",
+    "sha256": "4bf46bd5f32710bcccba4c01e56fd13e078fbb0870eff62966d1e9c956df82f8"
+  },
+  "history_and_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/root_before_preparation_native_review.json",
+    "sha256": "52e2604bbb4400d9d172096a48a285d1b7a186a92f3092bd4983284e52892016"
+  },
+  "legacy_counter_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R03_A02_legacy_counter_review.json",
+    "sha256": "ee7742d9e430188d0c34e2491abfecf0b2ba21926200db0fb8ad25be83a6cc8b"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_id": "current_212_end_corner_minus25_minus25nm",
+  "reason": "Root full211/212 visual review agrees nanoscale object/edge task remains usable despite local C1 shape change. Both earlier mechanical inductions and P02 real electrical response remain recorded. Existing user same-field dirty/repair scope and -4..-7V/20..100ms/prepared1nA/Hold permits one amplitude-only -6V20ms candidate at currentcorner. Root now selects one 11-step preparation under unchanged guards. Pulse5 remains a separate root decision after actual preparation and native review, normal return likewise separate. No guaranteed bad state, no repeat or sixth pulse queued. Counter repair-history1 and prior induction pulse1 separately retained with explicit strategy review through4, including conservative combined threshold2. Actual P02 original failure and independent recovery stay immutable. P03 feedback readiness only knownACK OnOff1/Hold3 pure getter wait, acceptingOn2 within2s engineering deadline, original95s and post30 unchanged. No new temperature reading available.",
+  "monotonic_ns": 1554153388553125,
+  "prior_P02_original_status": "uncertain_or_recovery_failed",
+  "prior_P02_independent_return_completed": true,
+  "prior_induction_pulse_attempts": 1,
+  "prior_induction_pulse_bad_state_confirmed": false,
+  "feedback_readiness_wait_s": 2.0,
+  "readiness_wait_is_engineering_not_physical_limit": true,
+  "consecutive_no_improvement_scope": "inherited_repair_history",
+  "strategy_review_covers_through_pulse_ordinal": 4,
+  "strategy_review_completed": true,
+  "counter_interpretation": "consecutive_no_improvement_before=1保留继承修复历史；P02诱导脉冲1次、未建立任务坏态另计。root策略复核覆盖第4次；即使保守合并为2也已复核。第3次脉冲图像效果仍为手动中断后的未知。",
+  "utc": "2026-11-03T05:11:49.028902+00:00"
+}

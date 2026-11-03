@@ -1,0 +1,70 @@
+{
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_induction_P03/outcome.json",
+    "sha256": "69c2c9bee8503ba535fd50c449380310f7d6ffe547fd5d7ecc06964fc9c27ead"
+  },
+  "poststage_recovery_reviewed": true,
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "reason": "Normal11step return and final30s passed, allstep native windows within±20%, finalnative29.47sI−106.687..−93.845pA ZRMS.614pm, subsequent19.07sI−105.754..−93.522pA ZRMS.597pm. Fullinterstage native intervals reviewed withrestingBias−1V, no4nA/rail/persistentcurrent anomaly or unexplainedZjump. P03pulse currentcensoring andZ5.264nmtransient remain retained and recovered. Root chooses one matchedcomplete50nm240squareDOWN frame at−1V100pA,.912s/dir andoriginalgains, samefixedreferences212. Actualimagefunction unassessed, no subsequentconditioningselected.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_return_native_phases.json",
+      "sha256": "337dfc9313e2387c4bc339c2b4e84558b795894d994bb9245ecc8d97d5037121"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_between_stages_native_review.json",
+      "sha256": "7d5f6b1e797e66ccdeb07438949b6c4bcac165bec16ba12c9f061ed19b949886"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_native_pre_pulse_post.json",
+      "sha256": "e1b1f6e9df22a76bb7c5d9b65a7cf1631fc243c749c6dadb3924ef85968d3418"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_pulse_transition_timeline.json",
+      "sha256": "7d0a337aa81dee5e668b21ffc8fe9c0b53623500dcb00d6f3a587342dce24316"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/prospective_image_review_plan.json",
+      "sha256": "8dcd17f720347b4f9f541223d35a772dc4c46402354bf06fbca1049318a44059"
+    }
+  ],
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/return_completed_native_receipt.json",
+    "sha256": "61062baff35f4bcdfae7cd899431d03410607d2c378a031090428a55ff0c1d70"
+  },
+  "reviewed_through_monotonic_ns": 1554720177558208,
+  "monotonic_ns": 1554883787589541,
+  "allow_one_scan": true,
+  "event_id": "after_R06_P03_full",
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P03.admission.json",
+    "sha256": "f97290e535e2cc0d8c2170c909b2f8acbed911745edfc952212890cfbf5fb1f9"
+  },
+  "preparation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+    "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+  },
+  "pulse_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P03/outcome.json",
+    "sha256": "390503ab646fdba9c96ffe5c2e4ea7d127fd1efab37cfb5b5c7750f8ce1c1d9d"
+  },
+  "return_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P03_return_review.json",
+    "sha256": "25f605b1527f30ca8a8895088e6d9cd04617b6a76842ad9a1df6c187d368cb29"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "no_unplanned_intervention_since_baseline": true,
+  "utc": "2026-11-03T05:23:59.430041+00:00",
+  "reviewed_through_time_semantics": "Full completed return outcome bracketed in native record plus19.07s post. All212-to-prepare/prepare-to-pre/pulse-to-return intervals audited."
+}

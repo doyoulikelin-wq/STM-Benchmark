@@ -1,0 +1,92 @@
+{
+  "scope": "Pure AST and in-memory fixtures. No real admission/claim/outcome/frame is created. No hardware or SMB access.",
+  "label_cases": [
+    {
+      "name": "valid normal lifecycle",
+      "accepted": true,
+      "expected": true
+    },
+    {
+      "name": "actual failed P02-like status",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "unknown ACK",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "wrong ordinal",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "only10 preparation ACKs",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "independent recover_return cannot use normal label",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "wrong6V recipe",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "failed readiness",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "readiness wrote command",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "final Hold3 is not On2",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "On2 too late",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "short originalpost30",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "post30 starts during readiness",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "scan predates return",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "return not100pA",
+      "accepted": false,
+      "expected": false
+    }
+  ],
+  "all_passed": true,
+  "count": 15,
+  "normal_adapter": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/compare_after_P03.py",
+    "sha256": "9c2b90558b31ce9c68cf191c90be7c074aedcb8875c733b7cfce01b85e2fa45e"
+  },
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/check_normal_analysis_adapter.py",
+    "sha256": "d33f9f0c5c655c81e957c41c91b1c58fd54f31a8ef23f43027a0930ad43131c6"
+  },
+  "actual_post_exists": false,
+  "actual_native_label": null
+}

@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-03T05:15:41.468801+00:00",
+  "monotonic_ns": 1554385827721500,
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/outcome.json",
+    "sha256": "5b06b6e751fd0791bc6fe378764ad19e5210b988a436ac9bfd34ea6e55aaa921"
+  },
+  "preparation_manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P03/manifest.json",
+    "sha256": "89b8b6f7657e473e35abe26c8d93dcf80747f2f2f617eb7b7fee79c8a7e5cb92"
+  },
+  "poststage_recovery_reviewed": true,
+  "reviewed_through_monotonic_ns": 1554277481014500,
+  "reviewed_through_time_semantics": "Actual prepare outcome is bracketed in closed native coverage; postroll additionally covers24.72s after known completion.",
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "allow_one_pulse": true,
+  "reason": "All11 float32 commands,ACKs/readbacks verified. Settled internal windows within each target±20%. Final29.31s native I−1100.82..−896.60pA, ZRMS1.547pm and slope+.0244pm/s. Subsequent24.72s I−1122.19..−882.93pA all±20%, ZRMS2.716pm. No4nA/rail/endpoint events, minimumZmargin20.396nm. Original slow30s criteria passed. Root selects exactly one -6V20msHold at1nA/corner as ordinal5 after pre30 live checks, preserving212 usable baseline and earlierlocalshape changes. Existing strict current/Z/config guards and2s pure-read readiness engineering gate remain. No next return or furtherpulse preselected.",
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03/prepare_completed_native_receipt.json",
+    "sha256": "6848b43e10c83023c6e61fb85baf8993e0648f5737510837413ec997c0e377a9"
+  },
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_prepare_native_phases.json",
+      "sha256": "25de5798923009b8025ff333a327d9743019245560ccf01774de48c8ebca194e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P03_prepare_postroll.json",
+      "sha256": "d0e85d3e0b23ea7902cd4a77cc324f7069c3c81f63aaccf08ca16b2874e02fc3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P03_image_review/peer_review_P03_controls_result.json",
+      "sha256": "24b5bf2d83f6b01158216e641f2d324248122c71b02441b194d886231a933999"
+    }
+  ]
+}
