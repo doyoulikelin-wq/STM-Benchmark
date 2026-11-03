@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-11-03T03:49:44.625726+00:00",
+  "matched_post_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/outcome.json",
+    "sha256": "6601548d0de328acbc5f01b58c9ebff03680df5e6c99ba91392c7be8a531c747"
+  },
+  "matched_post_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/analysis/quality_report.json",
+    "sha256": "ea3b1c7c49180cb33495c392f187943694aa6f13c49391d07851f712ca09bd2e"
+  },
+  "matched_before_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/outcome.json",
+    "sha256": "b0717f7e8c6cc4f6730bb6bffdda32872954b4fe25afd23d690be52c30b95efa"
+  },
+  "matched_before_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/analysis/quality_report.json",
+    "sha256": "8d003c52363289a5fa3546e169fa9dcf2d4c478d10e03b6c602db3e6c91874d1"
+  },
+  "matched_post_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/native/BM261029_00208.sxm",
+    "sha256": "30ed87e3e4464378dc41965c4965d274272d68badb915eb6a902801115952abf",
+    "bytes": 1383336
+  },
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R02_functional_image_plan.json",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "action_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/outcome.json",
+    "sha256": "f5bbfd836d56ae39457b2f4443886bf1a4ab6e17e2a28ed73e7035ff2905bbc9"
+  },
+  "full_task_usable": true,
+  "task_scope": "单张完整50nm图中，分别在正扫/反扫辨认分散的纳米突起、台阶和邻近结构；当前帧可用性。",
+  "matched_functional_improvement_supported": true,
+  "full_task_usable_rationale": "207早期上部横纹使C1及C3邻近物体的外缘难以连续判断。208整幅正反扫未见这种横向断裂，上部突起与背景分开，斜台阶附近突起恢复连续轮廓；原已可辨的C2、D4和其他分散目标保持可辨。形状在208更圆宽，未将锐度或原子分辨纳入成功。",
+  "trace_retrace_evidence": {
+    "C1": "208两向都可辨闭合、紧凑的明亮突起，上部横带消失。主固定窗口因结构向右下改变而截到边缘，完整原图仍可见整物。207两向原轮廓被横线切断。",
+    "C2": "208两向都显示连续突出主体和相邻台阶。相对207，两方向各自最佳位移为(行+8,列+4/+5)，符合共同向右下改变。原窗口下边界截到目标，固定遮罩对比下降无法说明目标消失。",
+    "C3": "208正反扫的斜台阶边缘与邻近突出结构均可沿轮廓追踪。207上部横带妨碍闭合轮廓；207自身形态不稳定使其成为弱配准依据。",
+    "D4": "208两向均可辨圆宽主体，与背景分开。两向相对207最佳位移为(行+9,列+3/+4)，接近C2结果。D4在207后段已经可辨，208保留这项能力。"
+  },
+  "local_versus_global": "改善覆盖早期上部受损区和整个50nm域中分散的可辨结构。比较以完整轮廓与两向一致为主，局部高度、背景RMS和单峰都只作辅助。",
+  "displacement_sensitivity": {
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/after_vs_before/landmark_displacement.json",
+      "sha256": "8f0fbafec3924fa1f02305fd1bbe34d5095df445982bb14ee9626ff29fd12084"
+    },
+    "shared_C2_D4_offset_pixels_dy_dx": [
+      8,
+      4
+    ],
+    "nominal_nm_dx_dy": [
+      0.8333333333333334,
+      -1.6666666666666667
+    ],
+    "joint_correlation_without_shift": -0.08796423483269006,
+    "joint_correlation_at_shift": 0.7818113814438099,
+    "independent_controls": "中心近竖边更支持(行+7,列+2)，左下边支持(行+5/6,列+9)。边缘沿切向匹配存在退化，且各目标表观形状也变了。共同向右下的位移成分有支持，精确全幅刚性漂移没有得到校准；C1/C3因207受损不参与决定共同位移。",
+    "primary_raw_displays_unchanged": true
+  },
+  "supporting_descriptors": {
+    "raw_Z_FB_offset_removed_RMS_pm_before": 46.83540899275704,
+    "raw_Z_FB_offset_removed_RMS_pm_after": 14.821542595612307,
+    "raw_Z_FB_after_correlation": 0.9967590701126575,
+    "after_fullwidth_row_flags_F_B": [
+      0,
+      0
+    ],
+    "pixel_current_min_pA_F_B": [
+      -238.5330544196762,
+      -289.1381856162667
+    ],
+    "meaning": "辅助描述，均非单项成败阈值；像素电流不等于原生瞬态峰。"
+  },
+  "project_L2_matched_improvement": true,
+  "project_L3_sustained_confirmation": "pending independent complete no-conditioning image",
+  "chemical_clean": "unknown",
+  "atomic_resolution": "not_established",
+  "successful_induced_cycle": false,
+  "limitations": [
+    "207后半程在A05之前已有自发局部功能改善，208的改善与整形时序相关，未排除自然恢复/漂移等共同因素，不能声称动作唯一因果。",
+    "一张完整修后图支持当前任务可用；持续性需要独立图，当前不升级为持续稳定结果。",
+    "208突起普遍圆宽，未证明单原子尖端、相同化学构成或原子分辨。",
+    "固定窗口和共同位移检查分开存档。坐标改变也可能包含针尖投影或样品变化，不能把候选位移直接换算成仪器漂移校准。"
+  ],
+  "figures": {
+    "full_before_top_after_bottom": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/after_vs_before/full_shared_contrast.png",
+      "sha256": "7aaccd90a3d914167227eeb072ae2e8bfb0d860d23247e04059bc9c49eb65a7c"
+    },
+    "fixed_objects_before_top_after_bottom": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/after_vs_before/objects_before_top_after_bottom.png",
+      "sha256": "1f6fef42d104b7994a127f9bf7ec1b998465410d9b0abc0436f287a5bff76116"
+    }
+  },
+  "measurements": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/after_vs_before/image_measurements.json",
+    "sha256": "583aabd0e952b39565057da9f45ad0e1f55837ac469df9cefb2f1173ee0f01cc"
+  }
+}

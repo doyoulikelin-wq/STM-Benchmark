@@ -1,0 +1,15 @@
+{
+  "source_review_sha256": "31f04c0d3c1258fec54ea04c4f3f05c10ad6def289b695b99ff3172b406b1c98",
+  "rail_segment_sample_indices_half_open": [
+    1300944,
+    1301143
+  ],
+  "rail_duration_s": 0.0995,
+  "negative_rail_bias_V_sample_counts": {
+    "-1.0": 175,
+    "0.5": 1,
+    "2.0": 23
+  },
+  "first_plus2V_minus_pre_Z_median_nm": -0.9086999999999961,
+  "interpretation_zh": "记录的199个连续样本共99.5ms处于历史负量程边值，175个仍是−1V，1个过渡偏压 +0.5V，23个已经+2V。这些为原生输出/仪器电流通道的读数，模拟前端响应和真正峰值未辨。Z位移为反馈与压电坐标读数，不提供针样距离、材料转移或清洁证明。"
+}

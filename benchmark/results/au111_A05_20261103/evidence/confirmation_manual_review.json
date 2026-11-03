@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-11-03T03:57:57.904970+00:00",
+  "confirmation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/outcome.json",
+    "sha256": "ebb2276b0b20a219f065d3140e71c514f0eada6dc91a8f9337675da46b6583ec"
+  },
+  "confirmation_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/analysis/quality_report.json",
+    "sha256": "a12a60eea1920f22ad6f2f340d7de1ed25e08ddf9dbdac632c2f27559185bf43"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/outcome.json",
+    "sha256": "ebb2276b0b20a219f065d3140e71c514f0eada6dc91a8f9337675da46b6583ec"
+  },
+  "quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/analysis/quality_report.json",
+    "sha256": "a12a60eea1920f22ad6f2f340d7de1ed25e08ddf9dbdac632c2f27559185bf43"
+  },
+  "matched_post_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/outcome.json",
+    "sha256": "6601548d0de328acbc5f01b58c9ebff03680df5e6c99ba91392c7be8a531c747"
+  },
+  "matched_post_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_A05_full/analysis/quality_report.json",
+    "sha256": "ea3b1c7c49180cb33495c392f187943694aa6f13c49391d07851f712ca09bd2e"
+  },
+  "actual_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/native/BM261029_00209.sxm",
+    "sha256": "4a023df1537a042302fc061c54ce4d83cca69c7f513eddfe8ba89ec7e00900d6",
+    "bytes": 1383336
+  },
+  "source_confirmation_decision": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_repair/root_confirmation_decision.json",
+    "sha256": "ea683b794177f4cfbf470151171e999b4c5359789d72e69a5369586130118a5f"
+  },
+  "source_post_image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_repair/root_post208_image_review.json",
+    "sha256": "b7867b2c54a43be3c767bb795f2289a22ffa1919d66b9ecd3fc2a2e402134df9"
+  },
+  "full_task_usable": true,
+  "task_scope": "同一50nm区域纳米突起和台阶的完整图辨识；分别核验F/B，维持208的当前任务判据。",
+  "trace_retrace_evidence": {
+    "C1": "209两向均有连续突出主体；与208同位置、近似形状，207的横向切断未回归。",
+    "C2": "209两向持续可辨完整原图中的紧凑主体，固定窗口边缘截取模式与208一致；未以截断窗口的遮罩强度判失效。",
+    "C3": "209两向能沿斜台阶追踪，并可分出近边突起。208→209局部平面峰约274/278→277/276pm，仅作支持描述。",
+    "D4": "209两向保持圆宽而连续的主体，与邻近背景分开；208→209局部峰约257/272→261/273pm。",
+    "full_field": "正扫/反扫的目标分布、台阶和多数背景区域保持，未见207的上部跨场横纹重现。"
+  },
+  "local_versus_global": "比较覆盖前后采集时段和场内分散参照。当前两张完整图都支持全幅任务，局部宽圆形保持，未要求与历史204物体形状完全相同。",
+  "confirmation_without_intervening_conditioning": true,
+  "confirmation_scope_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/fresh_recording_evidence.json",
+    "sha256": "44a6eed2bdb3b1a2ff90f22010ce82ea9f774da9596af584be4da9f1252e4b5e"
+  },
+  "project_L2_matched_improvement": true,
+  "project_L3_independent_persistence": true,
+  "persistence_window": "208与其后的一个完整209确认帧，均无新增整形；此证据不推及未来任意时长。",
+  "successful_deliberate_induction_repair_cycle": false,
+  "chemical_clean": "unknown",
+  "atomic_resolution": "not_established",
+  "supporting_descriptors": {
+    "Z_FB_offset_removed_RMS_pm_208": 14.821542595612307,
+    "Z_FB_offset_removed_RMS_pm_209": 14.572140326300838,
+    "full_width_flags_209_F_B": [
+      0,
+      0
+    ],
+    "crossframe_C1_C3_shared_translation_pixels_dy_dx": [
+      0,
+      0
+    ],
+    "crossframe_C1_C3_four_correlations": [
+      0.9965357922329722,
+      0.9955167942459056,
+      0.9981614637302352,
+      0.9982758439903341
+    ],
+    "primary_images_registered": false
+  },
+  "limitations": [
+    "本次只确认特定时间、设置和任务下的持续成像可用。",
+    "207后段在A05前已有自发局部恢复，208/209连续改善仍不足以证明A05唯一因果。",
+    "208/209表观突起更圆宽，未证明原子分辨、单原子尖端或化学洁净。",
+    "A05是原有受损状态的修复，不含本次人为诱导脏态，不能计作完整弄脏—修—干净诱导循环。"
+  ],
+  "measurements": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/confirmation_vs_post/image_measurements.json",
+    "sha256": "921a485a21f849a24a4c6b1c0da32124aecc662a10fb2f2629e5dbf568beb8b6"
+  },
+  "figures": {
+    "full_shared_contrast.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/confirmation_vs_post/full_shared_contrast.png",
+      "sha256": "448740db8cb321d2b8dc0f783491af346790f2b742cea13dd8a4261b18634222"
+    },
+    "fixed_objects_raw_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/confirmation_vs_post/fixed_objects_raw_FB.png",
+      "sha256": "a4f8f3f54da193d5e397a5454f86693fd80bf69bb9c8dc600829bdba20fc49f1"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/scan_native_phases.json",
+    "sha256": "ab5041f7684fe15b2f8ede49cb95d4e05db5d99e72b0693aa24e55cbcc120590"
+  },
+  "threshold_absolute_pA": 4000,
+  "events": [
+    {
+      "native_s": 349.34250000000003,
+      "block": 28,
+      "zero_based_row": 23685,
+      "signed_I_pA": -4405.0141,
+      "fixed_windows": [
+        {
+          "relative_half_open_ms": [
+            -50,
+            -10
+          ],
+          "n": 80,
+          "median_I_pA": -99.8163255,
+          "min_I_pA": -109.09482,
+          "max_I_pA": -87.591517,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": 0.0
+        },
+        {
+          "relative_half_open_ms": [
+            0,
+            0.5
+          ],
+          "n": 1,
+          "median_I_pA": -4405.0141,
+          "min_I_pA": -4405.0141,
+          "max_I_pA": -4405.0141,
+          "samples_abs_I_ge400pA": 1,
+          "median_Z_minus_pre_median_pm": 223.86500000000353
+        },
+        {
+          "relative_half_open_ms": [
+            0.5,
+            5
+          ],
+          "n": 9,
+          "median_I_pA": -97.660949,
+          "min_I_pA": -214.4273,
+          "max_I_pA": -85.286375,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": 286.00499999998874
+        },
+        {
+          "relative_half_open_ms": [
+            5,
+            25
+          ],
+          "n": 40,
+          "median_I_pA": -84.336746,
+          "min_I_pA": -106.37448,
+          "max_I_pA": -58.72342200000001,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": 109.95499999999936
+        },
+        {
+          "relative_half_open_ms": [
+            25,
+            100
+          ],
+          "n": 150,
+          "median_I_pA": -99.75620649999999,
+          "min_I_pA": -108.98707999999999,
+          "max_I_pA": -89.408383,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -13.99000000000683
+        },
+        {
+          "relative_half_open_ms": [
+            100,
+            250
+          ],
+          "n": 300,
+          "median_I_pA": -100.695615,
+          "min_I_pA": -236.67904000000001,
+          "max_I_pA": -52.599765,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -22.800000000003706
+        },
+        {
+          "relative_half_open_ms": [
+            250,
+            500
+          ],
+          "n": 500,
+          "median_I_pA": -99.32782,
+          "min_I_pA": -181.16086,
+          "max_I_pA": -64.417999,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -23.76999999999896
+        }
+      ]
+    },
+    {
+      "native_s": 438.0745,
+      "block": 36,
+      "zero_based_row": 1149,
+      "signed_I_pA": -9324.6717,
+      "fixed_windows": [
+        {
+          "relative_half_open_ms": [
+            -50,
+            -10
+          ],
+          "n": 80,
+          "median_I_pA": -157.68490500000001,
+          "min_I_pA": -370.2943,
+          "max_I_pA": -88.744019,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": 0.0
+        },
+        {
+          "relative_half_open_ms": [
+            0,
+            0.5
+          ],
+          "n": 1,
+          "median_I_pA": -9324.6717,
+          "min_I_pA": -9324.6717,
+          "max_I_pA": -9324.6717,
+          "samples_abs_I_ge400pA": 1,
+          "median_Z_minus_pre_median_pm": 1749.2600000000066
+        },
+        {
+          "relative_half_open_ms": [
+            0.5,
+            5
+          ],
+          "n": 9,
+          "median_I_pA": -483.38772,
+          "min_I_pA": -3358.2279,
+          "max_I_pA": -113.11001,
+          "samples_abs_I_ge400pA": 6,
+          "median_Z_minus_pre_median_pm": 2215.2299999999914
+        },
+        {
+          "relative_half_open_ms": [
+            5,
+            25
+          ],
+          "n": 40,
+          "median_I_pA": -41.120652,
+          "min_I_pA": -120.74016999999999,
+          "max_I_pA": -7.9513262000000005,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": 1659.2899999999845
+        },
+        {
+          "relative_half_open_ms": [
+            25,
+            100
+          ],
+          "n": 150,
+          "median_I_pA": -92.7944635,
+          "min_I_pA": -119.23779,
+          "max_I_pA": -28.284883,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -414.04500000000155
+        },
+        {
+          "relative_half_open_ms": [
+            100,
+            250
+          ],
+          "n": 300,
+          "median_I_pA": -98.828397,
+          "min_I_pA": -113.84869,
+          "max_I_pA": -68.623773,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -605.9100000000086
+        },
+        {
+          "relative_half_open_ms": [
+            250,
+            500
+          ],
+          "n": 500,
+          "median_I_pA": -99.359555,
+          "min_I_pA": -110.6149,
+          "max_I_pA": -87.82894599999999,
+          "samples_abs_I_ge400pA": 0,
+          "median_Z_minus_pre_median_pm": -764.764999999997
+        }
+      ]
+    }
+  ],
+  "limits": "Fixed windows from all qualifying stored rows. Adjacent samples are rastering. Stored times and Z changes describe sampled electrical and piezo signals only."
+}

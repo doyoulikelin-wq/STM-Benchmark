@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-11-03T03:38:06.383539+00:00",
+  "scope": "已完成207的全幅成像任务及时间演变的独立目检。",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/outcome.json",
+    "sha256": "b0717f7e8c6cc4f6730bb6bffdda32872954b4fe25afd23d690be52c30b95efa"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/analysis/quality_report.json",
+    "sha256": "8d003c52363289a5fa3546e169fa9dcf2d4c478d10e03b6c602db3e6c91874d1"
+  },
+  "native_SXM": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment06_full/native/BM261029_00207.sxm",
+    "sha256": "14830506f9ff42e729bf461ce1ac3ba6ff3186107a6fc7fdcb3e4e44ac4242a8",
+    "bytes": 1383336
+  },
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R02_functional_image_plan.json",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "source_figures": {
+    "204": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_204/fixed_objects_raw_FB.png",
+        "sha256": "b9f977ad187bda66a12939ad27010f6d9ea7c1de54dd1b713e9a0b9f053a6fe7"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_204/full_shared_contrast.png",
+        "sha256": "1c692b7fa22d46eb333e972cdf47701793e4e31af0de40c59180b06ddf2c91a7"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_204/image_measurements.json",
+        "sha256": "9e5568ced9bfa7bbb1622d3e11770efbdd02b7730c55c6a43cf8740dd8de6fe7"
+      }
+    ],
+    "206": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_206/fixed_objects_raw_FB.png",
+        "sha256": "c2780c68ee7524d920af052ec6ed70aabcf81fe3136bd6c458d1a655a948f84f"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_206/full_shared_contrast.png",
+        "sha256": "977952c99d25ad6c30095e6d19fb726aea2e5fe050d1d2c45ccf429ee56debeb"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_image_review/before_vs_206/image_measurements.json",
+        "sha256": "feea90e9420ce455eb98a113e494c1ec8f760c41bc95bc01787202ac17ecf1a6"
+      }
+    ]
+  },
+  "task_scope": "在给定50nm全幅中，连贯分辨预先指定的纳米突起和台阶邻近轮廓，分别审阅正扫和反扫。",
+  "task_usable": false,
+  "functional_impairment_supported": true,
+  "task_usable_semantics": "单帧全幅任务。上部不可可靠判读，中下部和后采集的C2、D4可用。末段持续失效没有得到证明。",
+  "reason": "207上部约+15.5至+22.5nm的横纹跨越多块台阶和两个分开的参照区。204和206中可辨的C1孤立突起在207两个方向都被横线切断。C3边缘仍可追踪，邻边突起轮廓比204难辨；单个局部表面划痕不足以解释这一整片时段。",
+  "trace_retrace_evidence": {
+    "C1": "204/206 两向均为闭合紧凑主体；207 两向均横向断裂，深暗线及局部峰不能给出一致外缘。",
+    "C2": "207 两向均见轮廓明确的紧凑突起；局部平面峰约409/406pm，峰位两向相差一个像素。相比206更可辨。",
+    "C3": "207 两向均能沿斜台阶追踪；靠近上端的突起与横带交叠。204 同位置轮廓与背景分开。",
+    "D4": "207 两向均见下部轮廓连续、与背景分开的突起；局部平面峰约361/366pm。206 的横带切过该物体。204遮罩在207相同像素上仅约4pm，说明固定遮罩亮度不能替代轮廓判断。"
+  },
+  "local_versus_global": "明显损伤集中于较早扫描的上部带状区域，横跨场宽和多个结构。中下区域以可辨性良好为主，仍有个别弱整行阶跃。不能标注为所有位置、所有时段成像失效。",
+  "scan_direction_and_time": "从+Y向−Y采集；C2和D4在C1和C3后成像，后段已表现出可辨性改善，改善发生在任何A05动作之前。",
+  "persistent_failure_at_scan_end_supported": false,
+  "spontaneous_end_region_functional_recovery": "supported for C2/D4 and much of later raster; end-condition persistence across a new full frame remains untested",
+  "induced_bad_tip": false,
+  "repair_effect": "unassessed; no A05 action in 207",
+  "limitations": "相同名义坐标不等于同一原子构型；漂移、局部表面演变、瞬时隧穿条件及反馈变化均可影响轮廓。图像未确定吸附、接触、化学洁净或原子清晰度。全场去单一偏移后的F/B RMS为46.84pm，206为66.10pm、204为28.31pm；这些均不单独作为判坏阈值。",
+  "comparison_if_A05": "比较208或实际修后完整图时，先看两向C1和C3能否重新分辨，同时确认已可辨的C2和D4保持；后段在整形前已改善，若修后全幅改善仍须区分时序相关与唯一因果。"
+}

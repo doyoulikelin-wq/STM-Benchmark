@@ -1,0 +1,701 @@
+{
+  "scope": "Closed immutable blocks covering full207, A05, full208 and independent209. Recorder remains active for separate planned induction; no terminal claimed.",
+  "six_channels": [
+    "Current (A)",
+    "Bias (V)",
+    "Z (m)",
+    "Z Control signal (A)",
+    "Z Error signal (A)",
+    "Z SafeTip signal (A)"
+  ],
+  "files": [
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600001.dat",
+      "rows": 25000,
+      "sha256": "5f718095fdd31c292c8e6af3e9e515d04dbf4b3ba65473b57efdfe72b53f47c0"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600002.dat",
+      "rows": 25000,
+      "sha256": "8a537ad0378d4423113b8b89deada4d5c636e61326269d0fd979c4d518d08352"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600003.dat",
+      "rows": 25000,
+      "sha256": "1a75daf17785df64f9146899ee69a38f246353c8739c5e9355496d760b490f76"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600004.dat",
+      "rows": 25000,
+      "sha256": "898e09c7c2ae7ed35f34063e2801c177d00f79056fd10e9caab3bc860afe3eba"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600005.dat",
+      "rows": 25000,
+      "sha256": "47eb83d6cc4df04db8bc2eb31b9feda7d159af812246a3e47d3b3bacd4349165"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600006.dat",
+      "rows": 25000,
+      "sha256": "781e9fdf82da3afca98c739c97fe3724066a8ea803661a6c398e650fcc3a3ba3"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600007.dat",
+      "rows": 25000,
+      "sha256": "e6170b5b76585221e5764670e1bb6b03fd216536df23df29d16395984fdb2e60"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600008.dat",
+      "rows": 25000,
+      "sha256": "6f5fcea42a89eca8d1ec3eb92d70d87d03fd4a281918a9807ecb2ec4be116143"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600009.dat",
+      "rows": 25000,
+      "sha256": "69c2697b0e8ed8e72c587d646d9a647004265c3565303306f3fbab14ccd80088"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600010.dat",
+      "rows": 25000,
+      "sha256": "5b94f84da815e4e3500b8943fe321414526cbc0c8f5551263f5b52faed7ae2e9"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600011.dat",
+      "rows": 25000,
+      "sha256": "4492cb890f05a29bd96586d02455f2309daa17644ede3bcdaa78611ad6891977"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600012.dat",
+      "rows": 25000,
+      "sha256": "e4a16e9b59e75abf3881dbdab64a66ce274113a7050fd75470f49a38dd3a6a5e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600013.dat",
+      "rows": 25000,
+      "sha256": "bc9bddf63ded2b43fdecff38bba5fa77eb55f47771aa05d142b48fdef94aca69"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600014.dat",
+      "rows": 25000,
+      "sha256": "078b4087e56606227654c0160addb5b6fa0f0b8d3402c405a8bcc796f0281045"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600015.dat",
+      "rows": 25000,
+      "sha256": "bab60c886c125c0af4f8e6a41c78db4f5267c69e5859f8fbd43376f37c1c46c6"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600016.dat",
+      "rows": 25000,
+      "sha256": "192b4a764f34a242a4886c3cc745de61c5cc918347754522e34d76fab56d8f2e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600017.dat",
+      "rows": 25000,
+      "sha256": "dbc59e9e0e0a79c68463577d9c5ba0f28579fef33f9a845cf59a88a13dff3a09"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600018.dat",
+      "rows": 25000,
+      "sha256": "34581dad9e251627ef933ae5e244a8a7ac54c9fb30ea2eb6766a9ec8dd0b22d6"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600019.dat",
+      "rows": 25000,
+      "sha256": "883d2bc21be1fe4c8757c0dfed690acabf40ade3f64411da2e275fa5bde7c61f"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600020.dat",
+      "rows": 25000,
+      "sha256": "7e53d7cdaeab2e9efa252252ff287f7467f1d8a2c3c49983a7b7d39dcb67d508"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600021.dat",
+      "rows": 25000,
+      "sha256": "66df561b9b7b19a2583ac984102f61f6c6b5bab38ade411e45c1bebfd57a6354"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600022.dat",
+      "rows": 25000,
+      "sha256": "b47a82ba78bc0bf1e84de631abb5caeeb5a949eebea235eb38ea077ba106d7b2"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600023.dat",
+      "rows": 25000,
+      "sha256": "54869eacbc833e9d171547006b39cdf559e8905bd8cbf0978e0ce35d53f8269b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600024.dat",
+      "rows": 25000,
+      "sha256": "91303c803025d0385896ea89ab6b6393109c896f2a5d04bb238be0d962813e56"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600025.dat",
+      "rows": 25000,
+      "sha256": "587a9a79d27e91ce7c8870ed277ba0c6e08028471552d568be47913c5c489c3c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600026.dat",
+      "rows": 25000,
+      "sha256": "21894f00af32522765bbf27e04e9256aa3cf238560e9f3eca9050654fd34eb6c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600027.dat",
+      "rows": 25000,
+      "sha256": "6ed61feb817d3c1e1c6ddaf3ffa0913e51cd376c4ddcd2bd199d56b7987f619a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600028.dat",
+      "rows": 25000,
+      "sha256": "634c0d82d8dda2a9139d146c9161e4977a040fc50d79ee114fd6ac9f600cb11c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600029.dat",
+      "rows": 25000,
+      "sha256": "cf25b228348d73b37f77b7d8b216de83ce786e22aa96ecbdf63c739e0242c4dd"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600030.dat",
+      "rows": 25000,
+      "sha256": "1ea0fcdb3f03bfde45f96bc524cf3a97d5ba83416738956d09937a25e6d7c828"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600031.dat",
+      "rows": 25000,
+      "sha256": "4071b4277e57777c67835cd4857168b34d5ddff5fa04a43d4922a87a7d131c0d"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600032.dat",
+      "rows": 25000,
+      "sha256": "2d33b1f4e90295c4e19819915d8bbc5f0709ddae397f8ca3f0b552fc1a0ca4e8"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600033.dat",
+      "rows": 25000,
+      "sha256": "a4168904b741089d047451b2644e047eb5a0a365e7e4a1ddffda45b55364dfa6"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600034.dat",
+      "rows": 25000,
+      "sha256": "853fd510e06a0038ab15fe01cf315b5f4dc36ef1d938345a55481ce7d89e46d6"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600035.dat",
+      "rows": 25000,
+      "sha256": "285fd8e5270b84ec48568169eedc98325232c9a46ce4af920c030cbef3eaf807"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600036.dat",
+      "rows": 25000,
+      "sha256": "24d98a67312e2bee08ff636b6a33184e1f8c57892eedb5c710dbe2a8311136e8"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600037.dat",
+      "rows": 25000,
+      "sha256": "099af53f4d08dc54e3d1f9529c6641bf2ca3e5c6bdae5ba2300655b9aa985640"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600038.dat",
+      "rows": 25000,
+      "sha256": "d94da2adfe2fe6bfcb24f8008042d9e461459f07928ce5cd624074978d7a094e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600039.dat",
+      "rows": 25000,
+      "sha256": "d05b50cbf5f52e676d0ddc428435f57f24e296c569db8b8acb6a991cce77cce9"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600040.dat",
+      "rows": 25000,
+      "sha256": "cf0d8168d0e680c02a970187a3a52fd109eb97ec4bf3e6eb95b1a8b274f563a2"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600041.dat",
+      "rows": 25000,
+      "sha256": "4d537a82b0b32dac95f46299a77371bd3a252586c1fa3f9d37cb39696cdf031c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600042.dat",
+      "rows": 25000,
+      "sha256": "58f16e3ab39806ae941f2b32eab32d08d0f08235a3fbc9914f51750efb645506"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600043.dat",
+      "rows": 25000,
+      "sha256": "602339888d1d2fb53222f7f640b65c950d8ff560de37917173755db6ce0b0517"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600044.dat",
+      "rows": 25000,
+      "sha256": "2f81ddcfa543d9c5e452c501e7ea4a5aae0a6c202ebed3769e1b4af7cdfa24d8"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600045.dat",
+      "rows": 25000,
+      "sha256": "52c754e12a82facb8202a8affe62ac3f0eda6813a9ce5cb019ced6a5ec3c9cdc"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600046.dat",
+      "rows": 25000,
+      "sha256": "37d572d69cf7d3e5cab8bbcff885bb31c20ccfe613bf6d4c4a73db8697255331"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600047.dat",
+      "rows": 25000,
+      "sha256": "ec624165865abb487cc46f69dd939b011ed98a292d7f18aa02b9a6b1407a3102"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600048.dat",
+      "rows": 25000,
+      "sha256": "d94ea7930b16408b877f56ccd0378472a18a8e7df7060c9acb91ec6ea7983851"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600049.dat",
+      "rows": 25000,
+      "sha256": "7aa5144db1b702ca82273d402e88e9776a8e89ec213137b52fcbfbd6743b8eb7"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600050.dat",
+      "rows": 25000,
+      "sha256": "310081606d8c4d7df5cffe5a0b00d45f12f77220363b50e7c66d7ddd066373e6"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600051.dat",
+      "rows": 25000,
+      "sha256": "c307c47f12c41df67a1c34ae7924ee487aa1c2dd99cad8083ab78d129d18fea8"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600052.dat",
+      "rows": 25000,
+      "sha256": "552f7deaebe19dc59ac9e7fe86157627e0ada023aea0efba3fd0413f433a8317"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600053.dat",
+      "rows": 25000,
+      "sha256": "c8820fed22666549f4f8cfd113b62b3088dd46f3373e9ff9909cdd51e537994c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600054.dat",
+      "rows": 25000,
+      "sha256": "2f6af2f4bc6f54c1f876d4511c932607ca07538600c045d082a5a02c3085f39e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600055.dat",
+      "rows": 25000,
+      "sha256": "9b6c8085e0b875bc7c0258bc50a394e3201a1aaf287e81923aa2b8de59b1e929"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600056.dat",
+      "rows": 25000,
+      "sha256": "e71455ad9c37955c5c5a4bd9aa84540d52ab2834085c831579d91d31491e3e22"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600057.dat",
+      "rows": 25000,
+      "sha256": "0f75b3508d5ce1174925c4425892e54d6e3c98232450f0be84278963389b95fa"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600058.dat",
+      "rows": 25000,
+      "sha256": "2212eff01475a8155f76c76b4919e707d29067b4eaeab6ae9525706c4bff97f3"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600059.dat",
+      "rows": 25000,
+      "sha256": "5272ebbe6f1ab3f17bb05bd527e2f65eac23d968fec5bccce8dc1144a71711a5"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600060.dat",
+      "rows": 25000,
+      "sha256": "6017b19a4566d9dc95c35f21d5a7e50fbfbff357de14084e2b6a58622ba884b1"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600061.dat",
+      "rows": 25000,
+      "sha256": "52cc5e7d85ba94b68fa1e91f643e5ac39b375badb2ed45935b62163dde1c7f4f"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600062.dat",
+      "rows": 25000,
+      "sha256": "a3ed541a33f9ceb9e1481047e57e7decaedceec1ea7cada797fdde2b3118fc6b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600063.dat",
+      "rows": 25000,
+      "sha256": "523442ed81cf7151538c627f687533b05bd88036d58d075ceaaf15ae3aa1878c"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600064.dat",
+      "rows": 25000,
+      "sha256": "bd91b7471bbbb809ce56e332d2beb0533f815f61fe498da67b6007647f9fe8bb"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600065.dat",
+      "rows": 25000,
+      "sha256": "f288580c1a195f7d2644e0b72b1321cc919d76a0c1a2e6362e2706e4f860d57b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600066.dat",
+      "rows": 25000,
+      "sha256": "0a50788a6c7cd3167f099b81bf2f594f3a757696f5d136c35d0b6c519dc3df12"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600067.dat",
+      "rows": 25000,
+      "sha256": "d40717840dbad129c3b1fa9971a4cc5223ed11db5d816a3675088bd8453e928a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600068.dat",
+      "rows": 25000,
+      "sha256": "93b0ac44d80c3fa070454efe9667e54cbecd86ba1bd8cbbd3a941c53f1610e24"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600069.dat",
+      "rows": 25000,
+      "sha256": "10b94d88c92dad5ea284f2b0aca1df5f90f67e06b68b68624aa4f84fdb530f9b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600070.dat",
+      "rows": 25000,
+      "sha256": "c01f7a2a3e28ebff8dbb9de69b87c0029b4a2a3a4b06dfe583429e73e64f3aa5"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600071.dat",
+      "rows": 25000,
+      "sha256": "7dfab195d56eba60b1ae1d7e65c0bb353bb2520ba12f0858f17545192ec09206"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600072.dat",
+      "rows": 25000,
+      "sha256": "c271b4e02e75e4107e0262df19f3007b85d1457353ff42998d038989e9fd894b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600073.dat",
+      "rows": 25000,
+      "sha256": "8030d0fea8eaeae620bc684ba48a45ee202277487455372138a999f8b514acac"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600074.dat",
+      "rows": 25000,
+      "sha256": "aa575a55b9a6a7bb3a70bda9d0fc08dd0139b54ab686572f965804ecfed0540a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600075.dat",
+      "rows": 25000,
+      "sha256": "b2b88c0d78ad9c4e96f75d9b77a10ccb55b0bcc104aa8eec28159e5928422332"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600076.dat",
+      "rows": 25000,
+      "sha256": "d05fb54bf62224c71b7392580bcd117cd99852699842c2236596fa69b54dc367"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600077.dat",
+      "rows": 25000,
+      "sha256": "50c0678b80d0d00ae14d615980479c79b4dc89b1a43a99605e7a91ff692b2183"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600078.dat",
+      "rows": 25000,
+      "sha256": "badc784e35f31ac1add05b4aef6192acc15ec94a58a05646317d44cf3341f03a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600079.dat",
+      "rows": 25000,
+      "sha256": "9b5386f8fb6db6d01a45834f3ddeef541363bff56c9f615f13c68b20a6bee2dd"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600080.dat",
+      "rows": 25000,
+      "sha256": "eb3c1018554b49f349e612b59e9976601f7bf2bd463708d9e26e84cee5794086"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600081.dat",
+      "rows": 25000,
+      "sha256": "5e64e82c3ab618941aafd9ad157d8e409a41f6d098872a8f47d2ba3162946f66"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600082.dat",
+      "rows": 25000,
+      "sha256": "cecf027248314a643592a82841147849e7d64bedbb70a7066a5188e4b5b38fb1"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600083.dat",
+      "rows": 25000,
+      "sha256": "10deb3a3bf4a3bc3d49b470021cc7772f0e4faafbb327e78eaf2c9056d1a1db7"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600084.dat",
+      "rows": 25000,
+      "sha256": "3e9546bcb71c9528dcf919f2a6342d9269fe85639e1415d2dbcd52834f035c89"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600085.dat",
+      "rows": 25000,
+      "sha256": "fb343796d29fd815089905f07bf00daac331092c22de838e2d277612bb7e83a0"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600086.dat",
+      "rows": 25000,
+      "sha256": "b8e6642000ad4cf2051e4659850bd8c5bda20aad3e2ff8c80bfce0da74e23e77"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600087.dat",
+      "rows": 25000,
+      "sha256": "2a7a7f1f6876d740ac2d131297422ea0055ced7534f2c485a596007960775892"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600088.dat",
+      "rows": 25000,
+      "sha256": "04ad426da887801aa2853f7d7cefef0b263e4bf7ee614e00408610d303ecac70"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600089.dat",
+      "rows": 25000,
+      "sha256": "c4571765c997f0fc4b0a37e0a61ee2e947bece730203a291e9390f3f61132116"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600090.dat",
+      "rows": 25000,
+      "sha256": "87f82c58a8d681d000d6643446cd1550edd607d31304e54de179a8d624c032f3"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600091.dat",
+      "rows": 25000,
+      "sha256": "5b7353926e9d578c95f53b993695efae1bec8b36fb39fb37df872c4d0bc5e217"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600092.dat",
+      "rows": 25000,
+      "sha256": "d1c39dc521f94e59f4dbfea950cd71b7c9c7eedfe8aafe3c2b124586b7b90438"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600093.dat",
+      "rows": 25000,
+      "sha256": "9fce4f051dc2c4f008b47cc63cb2e37c9a91290338eef0f071276fe8930f0d3a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600094.dat",
+      "rows": 25000,
+      "sha256": "59542840518d7005b7200e871a53a5587eaf1d1e19c85a96b23f38e541ab2c04"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600095.dat",
+      "rows": 25000,
+      "sha256": "867763bd2048da4d6b6cf4c8a786f8f11767ed7b4f24b24da561a8b733bc9ec5"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600096.dat",
+      "rows": 25000,
+      "sha256": "c7e5e8abef9327635fc7cac8478e7191d855cafde8809c118b1eaee4f816631e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600097.dat",
+      "rows": 25000,
+      "sha256": "e7d21b3eaf601392dc5e5faf3ccffc7eefcc646d0f333a5b05e158fa4c954052"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600098.dat",
+      "rows": 25000,
+      "sha256": "d371be35b8e64da39b2893d2583ed1accc6d61628339c05360d87b5a1af4b21a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600099.dat",
+      "rows": 25000,
+      "sha256": "6a7b9c5e54906a355214382d471676f174c8c2153744f0eee97e3c66f00901da"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600100.dat",
+      "rows": 25000,
+      "sha256": "a0d77f8085235bc64a757d9708d2890e309f4683a2cbf11c06d752fcca330bc2"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600101.dat",
+      "rows": 25000,
+      "sha256": "9eeea784ec547993685de861bfc015724b42d3d26730f4bd0856a931d8752328"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600102.dat",
+      "rows": 25000,
+      "sha256": "a11e89de42a228057db030b686dc623b906629899abdafbb7471fa234277eec4"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600103.dat",
+      "rows": 25000,
+      "sha256": "ea9d5f9e3ffb144d3f7db94645d8efe112db615195fed54369176a8ccb999863"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600104.dat",
+      "rows": 25000,
+      "sha256": "95fedbaeeaac050fb050c0b05bb72d79a2336b99748fc511263bde77e69acbba"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600105.dat",
+      "rows": 25000,
+      "sha256": "960b9fa6141ad84abbe83189abacfe20eddb85fc091956d8e1902979c125df27"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600106.dat",
+      "rows": 25000,
+      "sha256": "ab4ef532dc761fb827b2c4d9c59ea1cd396139fb0c90894a4b7f99f0b46aca7a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600107.dat",
+      "rows": 25000,
+      "sha256": "e481a168d98d57a038bc4f4be2fc1d7755cb4aa777a8c8a6c3516ac99b1d7827"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600108.dat",
+      "rows": 25000,
+      "sha256": "52876ca6a78e0fb3d663cd5dcff931e0acfc69ff98b5877cedecd453d95988e9"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600109.dat",
+      "rows": 25000,
+      "sha256": "db7dbced59c636f32303eb5567aa91172d1d01e5527f0c6d4d481fa1c623485a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600110.dat",
+      "rows": 25000,
+      "sha256": "4991e48010ef8d3d2d83108b4e73644ccc0477028ba333480c7f902bacecd13f"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600111.dat",
+      "rows": 25000,
+      "sha256": "b0e77bdb7add5a155f3635cc841e9241019c53ebbc13bf33a8502310d98ac58a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600112.dat",
+      "rows": 25000,
+      "sha256": "0c77faf0acba31e828c5075e1a17c4838d33a6c8997c85bbcf9e71c18b8991fb"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600113.dat",
+      "rows": 25000,
+      "sha256": "ba4b064cd8a160973cfdf727a2d7f3a1eaa9d03904cda15e417bd102edc2969a"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600114.dat",
+      "rows": 25000,
+      "sha256": "a14ca902512660d1d27fdf092778d1abced9c7462037661539cc61d08c7cfcf3"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600115.dat",
+      "rows": 25000,
+      "sha256": "8ce8a40030f86e9c49bbcffe8126b5c21dab3a8eb27c28b20241960bee7d092b"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600116.dat",
+      "rows": 25000,
+      "sha256": "7e2a7efe6e58507ee0644ca57cf00ff3c811d4b272d9d30b2ddfb59851e67ace"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600117.dat",
+      "rows": 25000,
+      "sha256": "4db5f053632564ccc330cffab521b85caa4122d7f30c288d10f3842d3544eafa"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600118.dat",
+      "rows": 25000,
+      "sha256": "c295ac1fc9e6702260367ba04fc32f91765de716c3dc93d4c2d50f552ed4ee0f"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600119.dat",
+      "rows": 25000,
+      "sha256": "a63785b0c9871749b0896cd8284057cb52d7ef00b5f2cc42afb2189097ffed74"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600120.dat",
+      "rows": 25000,
+      "sha256": "894e837caf5e1edcaf4603cc59339bbf0356ce5ff0d4ef6b2e984dafe6cc2135"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600121.dat",
+      "rows": 25000,
+      "sha256": "0e4b3c49858b962b8fdd15df7b73f083854ea8ff00d8752a5c6d587f08dcc7c0"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600122.dat",
+      "rows": 25000,
+      "sha256": "37357e7e2755b64b51df040fbabd5730bdbd5b66db3e594d6404535f443f6f95"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600123.dat",
+      "rows": 25000,
+      "sha256": "4bd09cd1680828d601de05bf0c18ca588ac7437c07410f4d696785aa600fe33e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600124.dat",
+      "rows": 25000,
+      "sha256": "e8e033002af1598cb8c27bba90e80b0c9bd807b0d503742128359208174755ce"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600125.dat",
+      "rows": 25000,
+      "sha256": "9d81def7e2cf4c3303282c9cb0b5ac64d56d6ee762d3314e80dd80690274b0ac"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600126.dat",
+      "rows": 25000,
+      "sha256": "0557065973f5ee602fd576137587d934f1357074f2e28c0ed5d9c17b221b2b40"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600127.dat",
+      "rows": 25000,
+      "sha256": "5908d14350be9d6a040ed2dd92f6fcd52234d31e61478a04ced8c95970d94d41"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600128.dat",
+      "rows": 25000,
+      "sha256": "74f76b1f0e6bbf6e9ebb8b328030f4a01ec843d71a05c6d4910e5c3c43f803df"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600129.dat",
+      "rows": 25000,
+      "sha256": "5d88dee781c60c0acd47518f5ad8d0ea99f4fc72a1844fc1e9381a6819e10542"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600130.dat",
+      "rows": 25000,
+      "sha256": "b5da99ed5b8978e06987c2263bc1de5ae946316781389fd2c50497a8906094c7"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600131.dat",
+      "rows": 25000,
+      "sha256": "429e408c8a390352410aaf9f1bccd7308febcfa6c20478942e05626941c02062"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600132.dat",
+      "rows": 25000,
+      "sha256": "ccfbc49d84770d4da53d6fe6c985ec0f13d8d2d9acc833cea0404671116fc92e"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600133.dat",
+      "rows": 25000,
+      "sha256": "3a90ac34c06ddd71afd48f7bb0f2c3d962a7559eb4d5fff2252706a393647ae3"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600134.dat",
+      "rows": 25000,
+      "sha256": "9dac19b67406d5f05108e7ed2730de5886bcfbcd491a01872904885df71909b0"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600135.dat",
+      "rows": 25000,
+      "sha256": "620e215cf4464e3fa303c5dff477a3eb66af9a6b23882a5860e58e2de26be460"
+    },
+    {
+      "file": "dl_goal30_FIVE1102_SESSION_02_R0600136.dat",
+      "rows": 25000,
+      "sha256": "e31adcc646188fc06ecb6201c2502874827d768916096142463fc9214b8a82c1"
+    }
+  ],
+  "closed_block_count": 136,
+  "sample_period_s": 0.0005,
+  "closed_rows_per_channel": 3400000,
+  "portable_event_blocks": [
+    52,
+    53
+  ],
+  "receipt_sha256": "e753cd52c9fa009afad7abf6b087d3b31962d793941e7f12fa4dd5ec330a9df6"
+}
