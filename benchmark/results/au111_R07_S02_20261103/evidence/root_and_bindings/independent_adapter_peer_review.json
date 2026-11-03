@@ -1,0 +1,48 @@
+{
+  "scope": "Independent offline static peer review only. No imports, network, device calls, claims or admissions. Does not authorize execution.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/stage_binding.py",
+      "sha256": "18c315fd74e33b782f2bbe35f71622fc6e8baed3f7486107c69773b9f6f82769"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R07_scan_induction_S02_once.py",
+      "sha256": "afcd8e0730d0bcc5fa7839997cb3b761f099efcf3f115b25833b6062307e9895"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/configure_R07_scan_induction_S02_once.py",
+      "sha256": "445e1939fcbcd726de9a06b1323db7613f2a64f438f4c03add7b898ad2d3e924"
+    }
+  ],
+  "physical_AST": [
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R07_scan_induction_S02_once.py",
+      "class": "Client",
+      "normalized_S02_to_S01_AST_equal": true
+    },
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R07_scan_induction_S02_once.py",
+      "class": "Run",
+      "normalized_S02_to_S01_AST_equal": true
+    },
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/configure_R07_scan_induction_S02_once.py",
+      "class": "Client",
+      "normalized_S02_to_S01_AST_equal": true
+    },
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/configure_R07_scan_induction_S02_once.py",
+      "class": "Run",
+      "normalized_S02_to_S01_AST_equal": true
+    }
+  ],
+  "reviewed": [
+    "Current complete215 frame requires six frames, current R07 identity and345600-value native/TCP match plus exact manual review.",
+    "Captured S01 incomplete/known Stop/known Withdraw/Off1Home recovery proof preserved, with older214 and frozenR06 references and historical recording gap.",
+    "No old mutable admission rerun. Same shared pulse history5/6 and repair attempts2, strict0; consumed S01 scan-induction1 plus a single new S02, maximum2.",
+    "Original Client/Run physical state machine preserved after role-label normalization. Each stage separately binds root native review, actual predecessor known ends, new source, fresh state and exclusive claim.",
+    "Unknown outcomes fail prerequisites; normal return requires actual full completed induction.",
+    "New scan policy bound prospectively to5nA guidancev2. No changed setpoint/configuration/fine gates inferred."
+  ],
+  "conclusion": "No blocker found in the reviewed scope. Actual fresh admission, image review and root current-state choice remain required."
+}

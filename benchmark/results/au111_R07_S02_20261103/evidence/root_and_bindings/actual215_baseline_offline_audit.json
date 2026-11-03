@@ -1,0 +1,45 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/stage_binding.py",
+    "sha256": "18c315fd74e33b782f2bbe35f71622fc6e8baed3f7486107c69773b9f6f82769"
+  },
+  "actual_baseline": {
+    "manifest.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/manifest.json",
+      "sha256": "f60dabdfb21107dfa06b443f6e3464cdf693296c4a7b6d6d70d5b004274cad74"
+    },
+    "outcome.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+      "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+    },
+    "logger_ready_bound.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/logger_ready_bound.json",
+      "sha256": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7"
+    },
+    "scan_start.claim": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/scan_start.claim",
+      "sha256": "0b09bb6f4bfecda62a121e08830a382a13893a0446cd336f1dbf92fe5ebb3708"
+    },
+    "scan_start_ack.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/scan_start_ack.json",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    "fresh_recording_evidence.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/fresh_recording_evidence.json",
+      "sha256": "32e89087de187fa328abc4aa2cddbdd1b92583b1173ab9f8321a3d379623130a"
+    }
+  },
+  "manual": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+    "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+  },
+  "quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+    "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+  },
+  "complete_current_baseline_passed": true,
+  "prior_S01_incomplete_and_recovery_hashes_passed": true,
+  "strict_cycle_increment": 0,
+  "hardware_calls": [],
+  "active_admission_created": false
+}

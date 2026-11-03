@@ -1,0 +1,32 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-stage-review-v1",
+  "stage": "induction",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_root_admission.json",
+    "sha256": "8e12a499e74e8e10e7a8f4f02da7cb26812d09b25a6914949ea63bcbcd8d3f62"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_speed_post_through424_native_review.json",
+    "sha256": "ba0f98bdd44a5f61061603f5e75911421fa3dd49589b72a73ca42faa15405016"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1561580874733458,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    }
+  },
+  "reason": "Root selects ONE finite218.88s full induction frame from actual215 usable baseline with200pA,2xT,P unchanged,Ihalf,2xspeed. ActualSpeedSet ACK/exact readback and38.43s nativepost recovered, no400pA/Bias/endpoint events, last10 Z RMS1.415pm slope-0.011pm/s. Runtime user5nA policy only; afterknownend independently return original settings and obtain complete matched validation before persistent badstate label. No pulse or repair count increment."
+}

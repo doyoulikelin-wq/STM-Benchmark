@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-11-03T07:50:42.533913+00:00",
+  "reviewer": "offline image agent",
+  "scope": "Actual original-setting complete217 after full S02 exposure216 and normal restoration, compared against original-setting complete215.",
+  "actual_native_labels": {
+    "reference": "215",
+    "exposure": "216",
+    "observed": "217"
+  },
+  "label": "S02完整曝光后恢复原参数的完整验证图217",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/outcome.json",
+    "sha256": "b2fb350f5ca819ba44eb767990646d6e265004a9ad9347f7499779b4e0c71984"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/analysis/quality_report.json",
+    "sha256": "ff8beb1253bac8aad674ab0c69c383fa41d21b7ee53620d22767dab1d4ac7dcb"
+  },
+  "matched_post_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/outcome.json",
+    "sha256": "b2fb350f5ca819ba44eb767990646d6e265004a9ad9347f7499779b4e0c71984"
+  },
+  "matched_post_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/analysis/quality_report.json",
+    "sha256": "ff8beb1253bac8aad674ab0c69c383fa41d21b7ee53620d22767dab1d4ac7dcb"
+  },
+  "comparison_reference_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+    "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+  },
+  "comparison_reference_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+    "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+  },
+  "pre_exposure_manual_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+    "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+  },
+  "native_SXM": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/native/BM261029_00217.sxm",
+    "sha256": "e8e207f44c1704b5983672eadf41c6767386048e2fa955328a91893498f15895"
+  },
+  "native_TCP_matched_values": 345600,
+  "full_task_usable": true,
+  "task_usable": true,
+  "current_quality": "usable_for_defined_nanoscale_task",
+  "verified_current_functional_degradation": false,
+  "verified_induced_functional_degradation": false,
+  "induced_bad_tip_verified": false,
+  "induction_effect": "persistent_task_relevant_bad_state_not_established_after_restored_settings",
+  "chemical_clean": "unknown",
+  "task_scope": "同一50nm场内分辨分散纳米突起、C1主体与原上方小点及连续台阶。精确原子几何、原子分辨和化学洁净不在当前证据范围。",
+  "reason": "217正反扫中C1完整主体与原上方小点保持分离，C3主台阶连续，S1恢复为清楚紧凑突起。216中穿过S1的强条带及C3附近长横线在恢复图中消退。C3近边突起明显变弱，局部变化单独保留。多个独立远端对象仍可辨，当前证据支持既定任务可用。",
+  "trace_retrace_evidence": {
+    "C1": "两向扩大原坐标窗口内主体完整，与上方点之间有背景分隔。原固定小框仍裁到主体下缘，扩大上下文在S01前已固定。局部轮廓有变化，但分离任务继续满足。",
+    "C3": "两向主台阶连续，近边突起仍可见但明显缩小、变弱。216中的向右长亮横线消退。该局部形貌/对比变化与其他远端参照分别记录。",
+    "S1": "两向独立紧凑突起重新清楚可辨，216曝光期间遮扰该窗口的多行强条带消退。与215相似的位置和对象分离关系保留。",
+    "C2_D4": "旧I03丘体与边坡继续影响这两个原ROI，只作局部变化检查，独立远端参照角色未恢复。",
+    "whole_frame": "原始全范围保留旧右丘，冻结台阶范围显式标示截断。远端分散对象和台阶在两向可追踪。下部局部弱行纹和地形差异仍保留，当前主参照未出现共同持续复制或影响任务的广泛拖尾。"
+  },
+  "C3_local_change_descriptor": {
+    "definition": "215原固定ROI内周边平面残差达到本帧最大值一半的固定mask，其中位残差。仅描述该mask，不是单颗粒校准高度。",
+    "F_215_pm": 240.6978056598632,
+    "F_217_pm": 71.17501304108487,
+    "B_215_pm": 241.17029501657328,
+    "B_217_pm": 67.48235665729396,
+    "interpretation": "约241pm到71/67pm的固定mask描述变化与局部图一致。图形改变、局部样品响应、针尖电子/几何卷积与漂移贡献仍未唯一分离，指标本身不定义全针尖坏态。"
+  },
+  "shared_displacement": {
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/landmark_displacement.json",
+      "sha256": "a52d75f57065a44dd5a84eb49bcd12d21e307cb6ee6feed73ef2f22996e55fae"
+    },
+    "peak": {
+      "dy_rows": -1,
+      "dx_cols": 0,
+      "dx_nm": 0.0,
+      "dy_nominal_Y_nm": 0.20833333333333334,
+      "corr": 0.9425765993378591,
+      "on_search_boundary": false
+    },
+    "zero": {
+      "dy_rows": 0,
+      "dx_cols": 0,
+      "dx_nm": 0.0,
+      "dy_nominal_Y_nm": 0.0,
+      "corr": 0.9313341070655411,
+      "on_search_boundary": false
+    },
+    "interpretation": "联合C1/C3/S1最佳位移为−1行、0列，对应名义Y约+0.208nm，相关0.9426，原坐标相关0.9313。仅描述位移敏感性，主图未配准，也未用相关门槛判可用。"
+  },
+  "exposure_context": {
+    "review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure_manual_review.json",
+      "sha256": "11d6ad409782d48032273b222d403f3c8409f80305e5e8ed1fffd351478c1ba3"
+    },
+    "native_image_context": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_native_image_context.json",
+      "sha256": "00be351dd6e90638bd5cc10186ab83076e6d1faaa29bf1fd15080f93b5b10b4f"
+    },
+    "interpretation": "216的改变采集条件下存在强条纹和部分对象辨识下降。恢复100pA、原速度和原增益后，完整217支持当前功能可用。此结果支持参数/动态响应影响的解释，持续针尖状态变化并未被这一对图唯一排除或确定。"
+  },
+  "actual_sequence_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/fresh_recording_evidence.json",
+    "sha256": "cbb843ca32da6611c1a3e1338e1c297252c79703e9f791649318c972862703a5"
+  },
+  "return_sequence_correction": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_return_sequence_rationale_correction.json",
+    "sha256": "944088f718fd91c2f3bb798e4a7dc8a662dffb6ce36c537e2f8c2789b70324fe"
+  },
+  "actual_return_pA": [
+    200,
+    195.3125,
+    156.25,
+    125,
+    100
+  ],
+  "causal_boundary": "真实操作包括四步电流准备、增益/速度配置、完整216曝光、四步返回100pA、原增益与原速度恢复、完整217。原S02第一扫描入口在本地证明阶段拒绝，未发送TCP/Start且旧claim保留。整条流程为复合操作，各参数独立效应、时间效应和局部样品变化尚未分离。",
+  "image_provenance_fix": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/relative_matrix_provenance_fix.json",
+    "sha256": "09d1028608299d3b223f2d3538ba9badf4f674f0c128bf88289d3e6c55ce5e0b"
+  },
+  "scientific_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_image_review/prospective_S02_plan.json",
+    "sha256": "d5ddc83292fdc673d9cde44bc55dd6d20613b3584646abcab07f7150ddd430ee"
+  },
+  "full02_binding_metadata": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/prospective_S02_full02_plan_v2.json",
+    "sha256": "7bba9d864f900079267b9cedc2a54555eef36483a88fe165d0db863b10780e98"
+  },
+  "comparison": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/image_measurements.json",
+    "sha256": "8845f5bbc09fc5e2e88ee49f6a6c1bac1c822b26c5886f67084385603b340900"
+  },
+  "display_record": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/dynamic_range_display_record.json",
+    "sha256": "6246a08973943ff82a1f0bdeedc90c4ca0a1c0091baadd05717c5fd9d8748744"
+  },
+  "C1_context_record": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/C1_expanded_context_record.json",
+    "sha256": "7a6ff82c03763451550d5c14ecf22191bae0739cea87d0da0a33e601813feeed"
+  },
+  "figures": {
+    "C1_expanded_context_raw_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/C1_expanded_context_raw_FB.png",
+      "sha256": "425a45b1985543a3b26d08fb7f7ebcf22566da3dd7294a16339f531d55c8ec79"
+    },
+    "fixed_objects_raw_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/fixed_objects_raw_FB.png",
+      "sha256": "b85b23832e7c32cce8cb1ffc3ec5246595c4d4793f32addd02796245764bde96"
+    },
+    "frozen_210_contrast_marked_clipping.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/frozen_210_contrast_marked_clipping.png",
+      "sha256": "def7ec186b3511b9641e32984bb8533a9a4e8b0467140fe043cc3f89ad7c5db5"
+    },
+    "full_raw_range.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/full_raw_range.png",
+      "sha256": "f92211f30935fa45b36489703b7643f4abdb9edfc65ddd0f35f361501521642b"
+    },
+    "full_shared_contrast.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/full_shared_contrast.png",
+      "sha256": "4217bd67552a7d091b718741f200029f6350a8aaefd7e0eea19f826c4e99dea1"
+    },
+    "objects_before_top_after_bottom.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/objects_before_top_after_bottom.png",
+      "sha256": "17051af31265e3adff37475e088f8fbf9ced84b19ba627cb84cfd08fec5e2bfb"
+    },
+    "target_region_before_after_FB.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/target_region_before_after_FB.png",
+      "sha256": "ee3810071865424f76f3396c5b70f2daee6ee56c22759d58744e21d572ee5b60"
+    }
+  },
+  "processing": {
+    "raw_arrays_unchanged": true,
+    "primary_registration": false,
+    "primary_smoothing": false,
+    "row_correction": false,
+    "full_raw_range_nm": [
+      -0.5524647406218719,
+      7.0998780188347155
+    ],
+    "frozen210_terrace_range_nm": [
+      -0.2886687155978507,
+      0.40538459700201085
+    ]
+  },
+  "limitations": [
+    "C3近边突起改变需保留，当前证据只支持既定纳米任务，精确几何和材料因果待进一步区分。",
+    "216曝光与217恢复图之间多个采集参数回切，无法把条纹消退归为单一参数或物质脱附。",
+    "217后无额外动作的独立完整复扫尚未取得。",
+    "C2/D4受旧丘影响，化学洁净与原子分辨未知。",
+    "原生快电流和慢读运行门属于独立记录，图像峰值或保护条件不自动给出坏针/损伤结论。"
+  ],
+  "labels": {
+    "L0": "完整曝光及恢复参数完整图均有记录，旧无TCP拒绝单独保留",
+    "L1": "原生电学由独立审计处理，像素图不单独给出瞬态峰和物理损伤",
+    "L2": "当前任务可用，已证实持续坏态→修复链未建立",
+    "L3": "217之后独立无额外动作复扫待补",
+    "L4": "化学洁净未知"
+  },
+  "cycle_increment": 0,
+  "successful_induced_cycle_increment": 0,
+  "completed_repair_attempt_increment": 0,
+  "counter_context": {
+    "completed_repair_attempts": 2,
+    "requested_repair_attempts": 5,
+    "strict_induced_cycles": 0,
+    "shared_pulses": 5,
+    "shared_pulse_limit": 6,
+    "S02_actual_completed_exposure_frames": 1,
+    "S02_prestart_local_rejections": 1
+  },
+  "next_action_selected": false
+}

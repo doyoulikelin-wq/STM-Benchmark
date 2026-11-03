@@ -1,0 +1,42 @@
+:NANONIS_VERSION:
+2
+:SCANIT_TYPE:
+              FLOAT            MSBFIRST
+:REC_DATE:
+ 03.11.2026
+:REC_TIME:
+14:51:43
+:REC_TEMP:
+      290.0000000000
+:ACQ_TIME:
+       438.7
+:SCAN_PIXELS:
+       240       240
+:SCAN_FILE:
+\\169.254.199.152\Users\Public\stm-benchmark-goal-20261030\native\BM261029_00215.sxm
+:SCAN_TIME:
+             9.120E-1             9.120E-1
+:SCAN_RANGE:
+           5.000000E-8           5.000000E-8
+:SCAN_OFFSET:
+             0.000000E+0         0.000000E+0
+:SCAN_ANGLE:
+            0.000E+0
+:SCAN_DIR:
+down
+:BIAS:
+-1.000000E+0
+:Z-CONTROLLER:
+	Name	on	Setpoint	P-gain	I-gain	T-const
+	log Current	1	1.000E-10 A	3.412E-12 m	7.944E-8 m/s	4.296E-5 s
+:COMMENT:
+Au111 2.916K -1V 100pA benchmark overview; raw evidence recorded on Mac.
+:DATA_INFO:
+	Channel	Name	Unit	Direction	Calibration	Offset
+	30	Z	m	both	1.237E-8	0.000E+0
+	0	Current	A	both	1.000E-9	5.234E-13
+	89	LI_Demod_2_Y	A	both	1.000E-9	0.000E+0
+
+:SCANIT_END:
+
+

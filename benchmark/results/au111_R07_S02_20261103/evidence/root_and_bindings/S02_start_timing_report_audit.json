@@ -1,0 +1,23 @@
+{
+  "scope": "Offline report timestamp verification. No original control or event changed.",
+  "claim_utc": "2026-11-03T07:24:51.548438+00:00",
+  "request_start_utc": "2026-11-03T07:24:51.548806+00:00",
+  "known_success_response_end_utc": "2026-11-03T07:24:51.560924+00:00",
+  "exchange_log_written_utc": "2026-11-03T07:24:51.563747+00:00",
+  "claim_is_not_ack": true,
+  "event_status": "ok",
+  "source_refs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/scan_start.claim",
+      "sha256": "e697b6445c5a2a123d864288c7a5bdd81f1e0280dd9a729e54135aa96f83408e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/scan_start_ack.json",
+      "sha256": "6f9f84c08d1cabc8e1885d608076f6f771e0236310465e7f2b65d8d0fcf3a783"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/events.jsonl",
+      "sha256": "70149c8c7dcd39b721247f112aac4a5686dba7c0ff9505db0a96fbf200f71b59"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-11-03T07:58:04.459649+00:00",
+  "monotonic_ns": 1564128796764500,
+  "pid": 74698,
+  "verified_command": "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/logger_fullcycle_segment07_observe_once.py --execute --session session_02 --mode engaged_observation --duration 21600 --output /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07 --expected-session-path \\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native --expected-native-directory \\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native --ui-evidence /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/ui_before_R07.png --admission-json /Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/segment07_observe_root_admission.json --admission-sha256 70fabb5f991bbb90e4cd0547ed7e010956862ea911c010701fd4962952ce2d41",
+  "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/close_owned_R07_after217.py",
+  "source_sha256": "f68df216bd3524792b0bfa9681c3e3d62ee3083d727e37eae79bffdaaf11ffb9",
+  "reason": "Complete216 induction and restored217 assessment finished; current nanoscale task usable. Await experimenter quantitative next recipe and clipping criteria. Close this recording segment after documented recovery.",
+  "root_acceptance": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/root_image_acceptance.json",
+  "root_acceptance_sha256": "df65500e1cb1b83e2517b0a755d66ff7c1534ebdc6408356d73f37a56daaa1cc",
+  "action": "SIGINT owned R07 logger",
+  "signal": 2,
+  "latest_status": {
+    "utc": "2026-11-03T07:58:04.062626+00:00",
+    "monotonic_ns": 1564128399790416,
+    "kind": "datalog_status",
+    "label": "acquiring",
+    "raw_values": [
+      18,
+      "2026/11/3 13:45:34",
+      4,
+      24,
+      58.08000183105469,
+      0,
+      "",
+      108,
+      "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0700636.dat",
+      23140
+    ],
+    "parsed": {
+      "start": "2026/11/3 13:45:34",
+      "elapsed_s": 15898.080001831055,
+      "stop": "",
+      "last_saved_path": "\\\\169.254.199.152\\Users\\Public\\stm-benchmark-goal-20261030\\native\\dl_goal30_FIVE1102_SESSION_02_R0700636.dat",
+      "points_counter": 23140
+    }
+  },
+  "latest_junction_observation": {
+    "utc": "2026-11-03T07:58:04.104162+00:00",
+    "monotonic_ns": 1564128441311416,
+    "kind": "dynamic_state_poll",
+    "values": {
+      "Bias.Get": [
+        -1.0
+      ],
+      "Current.Get": [
+        -9.972511011424601e-11
+      ],
+      "ZCtrl.SetpntGet": [
+        1.000000013351432e-10
+      ],
+      "ZCtrl.ZPosGet": [
+        -1.0414618145659915e-07
+      ],
+      "ZCtrl.OnOffGet": [
+        1
+      ],
+      "ZCtrl.StatusGet": [
+        2
+      ],
+      "Scan.StatusGet": [
+        0
+      ],
+      "BiasSpectr.StatusGet": [
+        0
+      ],
+      "ZSpectr.StatusGet": [
+        0
+      ],
+      "AutoApproach.OnOffGet": [
+        0
+      ],
+      "SafeTip.OnOffGet": [
+        0
+      ],
+      "SafeTip.PropsGet": [
+        0,
+        1,
+        4.999999858590343e-10
+      ]
+    },
+    "unavailable": {},
+    "coherent_snapshot": false,
+    "interpretation": "observed_only_no_junction_failure_diagnosis"
+  },
+  "junction_writer_active": false,
+  "native_stop_confirmed_by_signal_alone": false
+}

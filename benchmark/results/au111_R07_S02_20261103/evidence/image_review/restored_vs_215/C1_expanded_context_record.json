@@ -1,0 +1,64 @@
+{
+  "scope": "Exploratory larger unchanged-coordinate context only. Original fixed ROI and primary comparisons retained. No shape metric or selection rule replaced.",
+  "rc_half_open": [
+    12,
+    62,
+    80,
+    128
+  ],
+  "original_C1_rc_half_open": [
+    20,
+    44,
+    90,
+    115
+  ],
+  "interpolation": "nearest",
+  "registration": false,
+  "smoothing": false,
+  "range_nm": [
+    -0.12610712474270258,
+    0.39681324892626435
+  ],
+  "panels": [
+    {
+      "label": "215F",
+      "perimeter_median_nm": -106.98158448008144,
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/analysis_planes.npz",
+        "sha256": "cbbd2025c89841b14298c7b617e4e4bd9358c15020c42a153967763c44278e72"
+      }
+    },
+    {
+      "label": "215B",
+      "perimeter_median_nm": -106.98083485749521,
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/analysis_planes.npz",
+        "sha256": "cbbd2025c89841b14298c7b617e4e4bd9358c15020c42a153967763c44278e72"
+      }
+    },
+    {
+      "label": "217F",
+      "perimeter_median_nm": -106.59154980885432,
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/analysis/analysis_planes.npz",
+        "sha256": "aa9d4f49ee8084810b408f6c0389029ea2cba14adaaa1f7a8ad38dcbf997dd58"
+      }
+    },
+    {
+      "label": "217B",
+      "perimeter_median_nm": -106.587062731478,
+      "source": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full/analysis/analysis_planes.npz",
+        "sha256": "aa9d4f49ee8084810b408f6c0389029ea2cba14adaaa1f7a8ad38dcbf997dd58"
+      }
+    }
+  ],
+  "figure": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/C1_expanded_context_raw_FB.png",
+    "sha256": "425a45b1985543a3b26d08fb7f7ebcf22566da3dd7294a16339f531d55c8ec79"
+  },
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_C1_context.py",
+    "sha256": "ce6c547c33834d639606a4a2b818ce5d2c772f547892442634314857d237df93"
+  }
+}

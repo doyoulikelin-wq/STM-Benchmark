@@ -1,0 +1,31 @@
+{
+  "scope": "Offline native-review attempt rejected because the selected closed archive did not yet cover actual completed control stage. The known successful controller outcome is unchanged.",
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_gain_completed_through521_native_receipt.json",
+    "sha256": "3b9ec4c9ebea98bc4e780753222050e51772fe8e27bf4b4ed9c4c0ea08967c28"
+  },
+  "controller_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_R07_S02_gain/outcome.json",
+    "sha256": "2df9c63f8d0611ae9d11b5620d7327dafed83d5947d062e1b154a1af7baeb89c"
+  },
+  "controller_after": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_R07_S02_gain/after.json",
+    "sha256": "0d6f04367a40f6090302f199596e6b535ceff8c5a6f9b3de51e201808ebb1da5"
+  },
+  "analyzer": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/review_S02_full02_restore_config_native.py",
+    "sha256": "aa4584c37fd905ae5b97e8f3b7d368cd65a6d66b3164e81513f4b77f16ecf766"
+  },
+  "closed_native_end_s": 6512.5,
+  "actual_after_native_counter_outer_s": [
+    6514.11,
+    6514.66
+  ],
+  "error": "Incomplete or overlapping native bounds",
+  "successful_native_audit_written_by_failed_attempt": false,
+  "next_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_gain_completed_through527_native_receipt.json",
+    "sha256": "30373879d70b3de386327e6b4842d58ed40f05507bba2071b6e2b7d9c9ce75df"
+  },
+  "physical_retry_or_command": false
+}

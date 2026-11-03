@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-03T07:52:26.266227+00:00",
+  "status": "passed",
+  "scope": "Only the nested pure-local source-reference validator is compiled. No display changes, no instrument/network or physical admission.",
+  "checks_count": 12,
+  "checks": [
+    "accepted actual immutable matrix frames/channel_0_1.f32be",
+    "accepted actual immutable matrix frames/channel_0_0.f32be",
+    "accepted actual immutable matrix frames/channel_30_1.f32be",
+    "accepted actual immutable matrix frames/channel_30_0.f32be",
+    "accepted actual immutable matrix frames/channel_89_1.f32be",
+    "accepted actual immutable matrix frames/channel_89_0.f32be",
+    "accepted actual absolute outcome",
+    "rejected unknown relative",
+    "rejected parent traversal",
+    "rejected wrong relative digest",
+    "rejected wrong relative byte count",
+    "rejected outside absolute"
+  ],
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/compare_S02_full02_restored_vs215_v3.py",
+    "sha256": "15354b8fe3c0533418b52cfbf1b6d765176af529f1877b1d65f70557775a0151"
+  },
+  "actual_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+    "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+  }
+}

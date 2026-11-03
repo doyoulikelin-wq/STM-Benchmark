@@ -1,0 +1,19 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-stage-review-v1",
+  "stage": "prepare",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_root_admission.json",
+    "sha256": "8e12a499e74e8e10e7a8f4f02da7cb26812d09b25a6914949ea63bcbcd8d3f62"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_restored215_post_through377_native_review.json",
+    "sha256": "e779007e76de1fb7b005b268b745da5415aa196043084dc1f6b885c7569b73ca"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1560979755678125,
+  "predecessor_outcomes": {},
+  "reason": "Selectonlyfourstep100to200pA preparation125,156.25,195.3125,200pA withoriginalgain/speed. Nativepost215whole305.22s no400pA/Bias/endpoint events; late10I−109.863to−89.774pA,ZRMS1.802pm/slope+.405pm per s. Full215currentlytaskusable andearlierS01incompletehistory preserved. Sourceafcd8 physicalASTsameasactuallysuccessfulS01prepare, originalallguardsunchanged. Futuregain/speed/scanrequireseparatereview. Newfreshreadnext."
+}

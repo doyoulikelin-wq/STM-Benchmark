@@ -1,0 +1,82 @@
+{
+  "scope": "Offline image analysis uses the unchanged pre-S02 scientific criteria. full02 binding metadata was recorded after Start, before completed-frame evidence or pixel review. Root alone archives actual known completed SXM; all CLI paths absolute.",
+  "root_archive_argv": {
+    "induction": [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/finish_archive_S02_full02_induction_sxm.py",
+      "--execute",
+      "--source-sha256",
+      "16bbe717cb58933cef79d79766559cba399b58274dc567ed95fa38a474df5f6f"
+    ],
+    "validation": [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/finish_archive_S02_full02_validation_sxm.py",
+      "--execute",
+      "--source-sha256",
+      "5d7cc61f30bdf70c9f522b05baee45ce9fff26027f15c94f5ffa5dbc3ebf3ef6"
+    ]
+  },
+  "local_comparison_argv": [
+    "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/compare_S02_full02_restored_vs215_v2.py",
+    "--run",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S02_restored_full",
+    "--reference",
+    "215",
+    "--output",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215",
+    "--scan-source",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S02_full02_restored_once.py",
+    "--scan-source-sha256",
+    "187c80bf513083aa0822e516fd6ce338e24c0b23b883d6f7d2f86455d2d90396"
+  ],
+  "then_local_render_argv": [
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_pair_by_stage.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_full_dynamic_ranges.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_C1_context.py"
+    ],
+    [
+      "/Users/maxlin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/landmark_displacement.py"
+    ]
+  ],
+  "source_pins": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/landmark_displacement.py",
+      "sha256": "851bdbbb8ca578b42a9701067b219cf60786ec4cc3546c3f9aab1fba9a0caf1b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_C1_context.py",
+      "sha256": "ce6c547c33834d639606a4a2b818ce5d2c772f547892442634314857d237df93"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_full_dynamic_ranges.py",
+      "sha256": "e046665ad0ba5360c5945da4d30af6b3f6b23313ddbd388bc986bfce07232582"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_pair_by_stage.py",
+      "sha256": "7ad1bd07c02f2e602b7d12e6b5499f7ec822498f9449c75a8f347bb2b353a400"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/prospective_S02_full02_plan_v2.json",
+      "sha256": "7bba9d864f900079267b9cedc2a54555eef36483a88fe165d0db863b10780e98"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/compare_S02_full02_restored_vs215_v2.py",
+      "sha256": "4c60859bd306d265163b60898656c927cbf1549b97c2e46f595d5712b8d37b36"
+    }
+  ],
+  "environment": {
+    "MPLCONFIGDIR": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_image_review/mpl_cache",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

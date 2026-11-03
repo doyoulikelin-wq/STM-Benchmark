@@ -1,0 +1,44 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-full02-stage-review-v1",
+  "stage": "restore_speed",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_root_admission.json",
+    "sha256": "275c74545d169bfbc151dfd9fcf6f67273a7ff3eab52daef036fcefcd0ca5b3f"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_gain_native_review.json",
+    "sha256": "e9a3e3a9d7b97fa1c7ebe366dc2d44ea28b7453c169f4c3e04d4fdea213bbf45"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1562823319974958,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    },
+    "induction": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+      "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+    },
+    "return": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_R07_S02/outcome.json",
+      "sha256": "b786af31426ff5f284989f7c1f526788ff7895419c45aeb3967b887a2ce1a97b"
+    },
+    "restore_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_R07_S02_gain/outcome.json",
+      "sha256": "2df9c63f8d0611ae9d11b5620d7327dafed83d5947d062e1b154a1af7baeb89c"
+    }
+  },
+  "reason": "Root reviewed originalGainSet knownACK and exactreadback plus native5.51s confirmation and72.84s post all100pA20pct/no400pA orfloor, postZ RMS1.867pm slope0.129pm/s. SelectoneSpeedSet restoring original0.912s direction/54.8246nm per s. Keep100pA originalgain; fullvalidation onlyafter independent recoveryreview."
+}

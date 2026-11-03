@@ -1,0 +1,41 @@
+{
+  "scope": "Offline regression of217 derived postscan and row grouping against original full-array audit. No hardware or source mutation.",
+  "checks": [
+    "selected-array post matches original full-array phase for zero_based_sample_half_open",
+    "selected-array post matches original full-array phase for native_seconds_half_open",
+    "selected-array post matches original full-array phase for minimum_I_location",
+    "selected-array post matches original full-array phase for samples",
+    "selected-array post matches original full-array phase for abs_I_sample_exceedances_pA",
+    "selected-array post matches original full-array phase for Z_linear_residual_RMS_pm",
+    "selected-array post matches original full-array phase for Z_linear_slope_pm_per_s",
+    "selected-array post matches original full-array phase for Z_changes",
+    "selected-array post matches original full-array phase for Bias_not_minus1V_samples",
+    "400pA independently derived groups match full audit",
+    "1000pA independently derived groups match full audit",
+    "all 27 index path/hash references match local files"
+  ],
+  "passed": 12,
+  "numeric_comparison_absolute_tolerance": 1e-09,
+  "preliminary_test_harness_corrections": [
+    "The first strict equality attempt rejected the same Z-change sample time represented as7180.409000000001 versus7180.409 after selected-array offset addition. Integer sample locations agree exactly.",
+    "The preliminary grouping test used a non-existent samples key. The actual full-audit field is sample_count. No analysis source or output was changed."
+  ],
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restored217_native_review.json",
+      "sha256": "5036e1d18649bac186e1061d78884528f5aeb879ec8d2baf516d91c3e12acb53"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restored217_post_through577_native_review.json",
+      "sha256": "a8de67fafd74bc8a9ed55eefbb2903b718cbfc9618a934e3cee8c6e8fff3fd7d"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restored217_peak_rows_and_recovery.json",
+      "sha256": "f3943000d4f5d21a76208007ff5bda3bc3af70b9e7a932a84102abdbec690100"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_native_publication_index_after217.json",
+      "sha256": "6f45ce511dab1f4beba255de8a403bed10ecf65d7cb460958b090ecd2cf57fc9"
+    }
+  ]
+}

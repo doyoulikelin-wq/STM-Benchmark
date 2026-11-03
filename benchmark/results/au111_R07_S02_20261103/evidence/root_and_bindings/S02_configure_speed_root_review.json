@@ -1,0 +1,28 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-stage-review-v1",
+  "stage": "configure_speed",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_root_admission.json",
+    "sha256": "8e12a499e74e8e10e7a8f4f02da7cb26812d09b25a6914949ea63bcbcd8d3f62"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_gain_native_review.json",
+    "sha256": "a9d671b0808f3fc6ca85234d10cbe8e32cd53208380cdcbe7c1521cd3a937250"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1561424077908833,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    }
+  },
+  "reason": "Root reviewed unique GainSet knownACK exact P/T/I readback and native5.47s confirmation plus7.05s post, no400pA/Bias/endpoint events, latestZRMS1.527pm slope0.588pm/s. Select one speed change to0.456s eachdirection at200pA and alreadyadjustedgain. No scan chained; separately review speed recovery."
+}

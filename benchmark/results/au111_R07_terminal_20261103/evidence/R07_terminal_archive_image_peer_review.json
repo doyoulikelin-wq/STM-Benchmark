@@ -1,0 +1,40 @@
+{
+  "reviewed_utc": "2026-11-03T07:59:03.185335+00:00",
+  "reviewer": "r04_image_run",
+  "scope": "Offline narrow source and AST review only. No import or main/execute invocation, device/SMB access, process signalling or data archive performed.",
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R07.py",
+    "sha256": "900254b1151ef698d054a86974ad3fa2526e0f207cd7af9989e11ec0e84abf71"
+  },
+  "parent": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R06.py",
+    "sha256": "9b43b40de4585c94777fad345eba314ed6f1a5da55e17edf62ef20d64e91b1ff"
+  },
+  "function_AST_same_after_R06_R07_identity_label_normalization": {
+    "require": true,
+    "sha": true,
+    "ref": true,
+    "local": true,
+    "store_new": true,
+    "save": true,
+    "status_decode": true,
+    "exchange": true,
+    "snapshot": true,
+    "terminal_evidence": true,
+    "parse": true,
+    "archive": true,
+    "main": true
+  },
+  "source_changes": "Actual R07 logger identity/source/READY pins, parent reference, root-reported provenance PID and segment labels only.",
+  "manual_checks": [
+    "No TCP/CUA/socket/process-control imports or calls",
+    "Default main returns plan before read_bytes/share access",
+    "Execute requires exact self hash and two hash-pinned matching stopped native snapshots with at least 1 second gap",
+    "Start/READY/source/native wire identity and dynamic terminal count are reconciled before archive",
+    "Archive preserves originals, requires each expected block, duplicate source bytes and 6 finite channels at declared 0.5ms",
+    "Elapsed factor2 is tested against observed convention, not assumed physical clock calibration",
+    "PID remains provenance only; original outcome and atomic new output preserved"
+  ],
+  "blocking_findings": [],
+  "not_checked": "No actual terminal snapshots/archive evaluated by this peer."
+}

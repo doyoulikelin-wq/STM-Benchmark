@@ -1,0 +1,247 @@
+{
+  "created_utc": "2026-11-03T07:30:58.667544+00:00",
+  "scope": "Exposure-only215-to216 comparison under different imaging parameters. Not matched post-conditioning evidence.",
+  "actual_native_labels": [
+    "215",
+    "216"
+  ],
+  "sources": {
+    "215": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+        "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+        "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/analysis_planes.npz",
+        "sha256": "cbbd2025c89841b14298c7b617e4e4bd9358c15020c42a153967763c44278e72"
+      }
+    ],
+    "216": [
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+        "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/analysis/quality_report.json",
+        "sha256": "e222b3bda3b5b092e1c9066d851e2c663504d86dc2b0efba29e25c858c72224d"
+      },
+      {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/analysis/analysis_planes.npz",
+        "sha256": "284cd21e7e37bd4f81cbe40757a4f7deac086c494c2097e7b23fa2cacf7ccdba"
+      }
+    ]
+  },
+  "script": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/render_exposure216_local.py",
+    "sha256": "d071d3be2dc5f95c04edf0fa121a9b5a80b16ee88bc089b035c97f866bccff3d"
+  },
+  "frozen_scientific_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_image_review/prospective_S02_plan.json",
+    "sha256": "d5ddc83292fdc673d9cde44bc55dd6d20613b3584646abcab07f7150ddd430ee"
+  },
+  "statistics": {
+    "215": {
+      "F": {
+        "raw_Z_min_nm": -107.125998738411,
+        "raw_Z_max_nm": -99.64934122308478,
+        "raw_Z_median_nm": -106.57353399778913,
+        "relative_Z_max_nm": 6.924192774704352,
+        "current_pixels": {
+          "minimum": -1007.6073309051026,
+          "maximum": -36.40537524218779,
+          "median": -99.3882996735973,
+          "RMS_about_mean": 20.65844663912197,
+          "minimum_stored_rc": [
+            134,
+            191
+          ],
+          "minimum_nominal_XY_nm": [
+            14.895833333333336,
+            -3.020833333333332
+          ],
+          "abs_ge400pA_count": 52,
+          "abs_ge1000pA_count": 1,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "B": {
+        "raw_Z_min_nm": -107.12545162050446,
+        "raw_Z_max_nm": -99.67266123567242,
+        "raw_Z_median_nm": -106.57682736336938,
+        "relative_Z_max_nm": 6.9041661276969535,
+        "current_pixels": {
+          "minimum": -329.52696127352965,
+          "maximum": -12.52336168794388,
+          "median": -100.24687677190336,
+          "RMS_about_mean": 13.254154747636289,
+          "minimum_stored_rc": [
+            195,
+            217
+          ],
+          "minimum_nominal_XY_nm": [
+            20.3125,
+            -15.729166666666664
+          ],
+          "abs_ge400pA_count": 0,
+          "abs_ge1000pA_count": 0,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      }
+    },
+    "216": {
+      "F": {
+        "raw_Z_min_nm": -106.62724037047155,
+        "raw_Z_max_nm": -95.50668522706474,
+        "raw_Z_median_nm": -106.06682110392285,
+        "relative_Z_max_nm": 10.560135876858112,
+        "current_pixels": {
+          "minimum": -9999.476802136087,
+          "maximum": 4.848066826462771,
+          "median": -196.82429991396688,
+          "RMS_about_mean": 898.6733418167945,
+          "minimum_stored_rc": [
+            60,
+            99
+          ],
+          "minimum_nominal_XY_nm": [
+            -4.270833333333332,
+            12.395833333333334
+          ],
+          "abs_ge400pA_count": 4438,
+          "abs_ge1000pA_count": 1056,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      },
+      "B": {
+        "raw_Z_min_nm": -106.63909222330403,
+        "raw_Z_max_nm": -97.32232797432516,
+        "raw_Z_median_nm": -106.07515221749964,
+        "relative_Z_max_nm": 8.752824243174473,
+        "current_pixels": {
+          "minimum": -9999.476802136087,
+          "maximum": 0.6045978062814428,
+          "median": -203.23774607700074,
+          "RMS_about_mean": 337.2927205119003,
+          "minimum_stored_rc": [
+            54,
+            177
+          ],
+          "minimum_nominal_XY_nm": [
+            11.979166666666664,
+            13.645833333333334
+          ],
+          "abs_ge400pA_count": 2858,
+          "abs_ge1000pA_count": 587,
+          "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+        }
+      }
+    }
+  },
+  "display": {
+    "full_raw_range_nm": [
+      -0.5639400058043975,
+      10.560135876858112
+    ],
+    "frozen210_nm": [
+      -0.2886687155978507,
+      0.40538459700201085
+    ],
+    "last_display_clipping": {
+      "215F": {
+        "below": 13380,
+        "above": 11214
+      },
+      "215B": {
+        "below": 13225,
+        "above": 11511
+      },
+      "216F": {
+        "below": 7582,
+        "above": 11835
+      },
+      "216B": {
+        "below": 7370,
+        "above": 12096
+      }
+    },
+    "scalar_offsets_only": true,
+    "registration": false,
+    "smoothing": false,
+    "per_line_correction": false
+  },
+  "regions": [
+    [
+      "C1 context",
+      [
+        12,
+        62,
+        80,
+        128
+      ]
+    ],
+    [
+      "C1",
+      [
+        20,
+        44,
+        90,
+        115
+      ]
+    ],
+    [
+      "C2",
+      [
+        92,
+        112,
+        188,
+        213
+      ]
+    ],
+    [
+      "C3",
+      [
+        40,
+        72,
+        30,
+        90
+      ]
+    ],
+    [
+      "D4",
+      [
+        169,
+        194,
+        158,
+        184
+      ]
+    ],
+    [
+      "S1",
+      [
+        129,
+        150,
+        42,
+        63
+      ]
+    ]
+  ],
+  "persistent_bad_tip": "unassessed_pending_restored_original_setting_full_frame",
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/fixed_regions_and_C1_context.png",
+      "sha256": "04ecbda94fab1f4d38fea088040a2c23dd9f89e60219c223f0b1ce624b5f34a3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/frozen210_contrast.png",
+      "sha256": "3f9dfac617f088c9ec38f947a6325d245ce57565a218a217fc5268a3c50a60fb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/full_raw_range.png",
+      "sha256": "2ec1d2e857d51cb2432fb349b4caad885b8e3412670e454fd0c868042b5462e6"
+    }
+  ]
+}

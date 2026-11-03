@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-11-03T07:40:21.499518+00:00",
+  "scope": "Independent native row-level context added after the unchanged216 image review. No pixel/hardware synchronization or persistent-tip classification.",
+  "image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure_manual_review.json",
+    "sha256": "11d6ad409782d48032273b222d403f3c8409f80305e5e8ed1fffd351478c1ba3"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_full216_native_review.json",
+    "sha256": "e241a60e5005f07a3723cea15ff04b1e86e4d066718f2e5aea530be8ee0c7bb9"
+  },
+  "native_row_mapping": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_full216_events_and_rows.json",
+    "sha256": "1333a1abfa32584ed00e577f5a38d4df97ecac43f6efac296c22b427ab2fbbf6"
+  },
+  "bands": {
+    "old_mound_slow_axis_band": {
+      "inclusive_nominal_rows": [
+        120,
+        147
+      ],
+      "nominal_center_Y_minmax_nm": [
+        -5.729166733618269,
+        -0.10416666788396811
+      ],
+      "historical_negative_edge_samples": 1765
+    },
+    "upper_short_line_band": {
+      "inclusive_nominal_rows": [
+        52,
+        72
+      ],
+      "nominal_center_Y_minmax_nm": [
+        9.895833448977006,
+        14.062500164335745
+      ],
+      "historical_negative_edge_samples": 91
+    }
+  },
+  "edge_samples_from_nominal_row_histogram": 1856,
+  "consistency": "原生历史负量程边缘点的主要慢轴带，与曝光图旧丘行带和上部短横线带相容。跨区条纹可影响远端S1，但现有同步信息不能把某个电流点硬指定为某个X位置、方向或对象。",
+  "limitations": [
+    "No high-rate XY or hardware row trigger. Nominal row and Y carry at least one-row uncertainty and do not specify X or direction half-line.",
+    "Repeated historical negative digitizer-edge values censor the negative peak. The observed minimum is not a bound on the actual analog current.",
+    "The5nA slow-current software runtime criterion does not guarantee every2kHz native sample is below5nA.",
+    "This200pA/doubled-speed/doubled-T exposure cannot be treated as a matched100pA quality image. Restoration and independent complete imaging are separate stages."
+  ],
+  "persistent_bad_tip": "pending original-setting complete validation",
+  "original_image_review_unmodified": true
+}

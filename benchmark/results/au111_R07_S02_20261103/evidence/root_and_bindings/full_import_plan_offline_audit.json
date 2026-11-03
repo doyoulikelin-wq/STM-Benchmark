@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "source": "setpoint_R07_scan_induction_S02_once.py",
+      "mode": "prepare",
+      "plan_only": true
+    },
+    {
+      "source": "setpoint_R07_scan_induction_S02_once.py",
+      "mode": "return",
+      "plan_only": true
+    },
+    {
+      "source": "configure_R07_scan_induction_S02_once.py",
+      "mode": "configure_gain",
+      "plan_only": true
+    },
+    {
+      "source": "configure_R07_scan_induction_S02_once.py",
+      "mode": "configure_speed",
+      "plan_only": true
+    },
+    {
+      "source": "configure_R07_scan_induction_S02_once.py",
+      "mode": "restore_gain",
+      "plan_only": true
+    },
+    {
+      "source": "configure_R07_scan_induction_S02_once.py",
+      "mode": "restore_speed",
+      "plan_only": true
+    }
+  ],
+  "passed": 6,
+  "network_calls": [],
+  "hardware_executed": false
+}

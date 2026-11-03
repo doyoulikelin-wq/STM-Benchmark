@@ -1,0 +1,32 @@
+{
+  "scope": "Pure local source preparation. Actual root-owned R07 identity is bound, with no stop, live archive or share access.",
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R07.py",
+    "sha256": "900254b1151ef698d054a86974ad3fa2526e0f207cd7af9989e11ec0e84abf71"
+  },
+  "parent": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R06.py",
+    "sha256": "9b43b40de4585c94777fad345eba314ed6f1a5da55e17edf62ef20d64e91b1ff"
+  },
+  "source_diff": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/archive_audit_terminal_R07.source.diff",
+    "sha256": "4d5a458bfaba829f99ba9a41b3776b760a88c4c1e1210b55af67b41e3c0ec215"
+  },
+  "all_function_AST_equal_after_R07_role_label_normalization": true,
+  "actual_immutable_logger_pins": {
+    "READY.json": "c1c50e68c637cba2e77e6292ab84d764aec7af0475caf7e4aa4c36ba13acc3b7",
+    "manifest.json": "3352882ed403b994728a8105553e424f65f26616d198ba88ee43e194dd368ecf",
+    "start.claim": "a5e32acb30c306329267c0a3a90fa169dbd7be92342cd6bd8a13baf4dba36df7"
+  },
+  "actual_source_sha256": "1e127682ad19e005660ff2d2d82ef132d468d2e3e786fd6afa15cbb4650967d0",
+  "root_reported_pid": 74698,
+  "pid_is_provenance_only": true,
+  "native_start": "2026/11/3 13:45:34",
+  "native_basename": "dl_goal30_FIVE1102_SESSION_02_R07",
+  "actual_launch": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_logger_launch.json",
+    "sha256": "2aae72407688f4cca4b91502aa7cb4dce2c54c0e2c26a6fbd708a3453d73692b"
+  },
+  "active_outcome_created": false,
+  "requires_actual_future_stop_snapshots": true
+}

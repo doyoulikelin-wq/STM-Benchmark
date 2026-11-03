@@ -1,0 +1,24 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-stage-review-v1",
+  "stage": "configure_gain",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_root_admission.json",
+    "sha256": "8e12a499e74e8e10e7a8f4f02da7cb26812d09b25a6914949ea63bcbcd8d3f62"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_prepare_native_review.json",
+    "sha256": "0b33f665db1be2964e01ce5bb9ab5befe120b7ee85b63ad7ee8d6f14b2f69b63"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1561271955874125,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    }
+  },
+  "reason": "Root reviewed four known ACK setpoint transitions and native final29.81s plus post31.95s at200pA, no400pA or Bias/endpoint events, late Z RMS2.434pm slope0.315pm/s. Select one same S01 gain change P unchanged T doubled I half, original speed, independently verify readback and native recovery before speed."
+}

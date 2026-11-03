@@ -1,0 +1,45 @@
+{
+  "recorded_utc": "2026-11-03T07:54:48.391294+00:00",
+  "reviewer": "root",
+  "manual_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/post_manual_review.json",
+    "sha256": "83dd77f555d544b7448980fcfaceb6b2bdc55a4e882fdcb3af6ded0d9d475c45"
+  },
+  "verified_reference_count": 26,
+  "independently_viewed": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/C1_expanded_context_raw_FB.png",
+      "sha256": "425a45b1985543a3b26d08fb7f7ebcf22566da3dd7294a16339f531d55c8ec79"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/objects_before_top_after_bottom.png",
+      "sha256": "17051af31265e3adff37475e088f8fbf9ced84b19ba627cb84cfd08fec5e2bfb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/frozen_210_contrast_marked_clipping.png",
+      "sha256": "def7ec186b3511b9641e32984bb8533a9a4e8b0467140fe043cc3f89ad7c5db5"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/restored_vs_215/full_raw_range.png",
+      "sha256": "f92211f30935fa45b36489703b7643f4abdb9edfc65ddd0f35f361501521642b"
+    }
+  ],
+  "agrees_full_task_usable": true,
+  "observations": [
+    "C1主体与上方点在正反扫均保持分离",
+    "C3主台阶连续，近边突起变弱已保留",
+    "S1紧凑可辨，216强条纹在217消退",
+    "旧丘体仍影响C2/D4，局部形貌变化保持单独标注"
+  ],
+  "new_bad_state_established": false,
+  "repair_attempt_increment": 0,
+  "strict_cycle_increment": 0,
+  "limitations": [
+    "217后独立无调理完整复扫待取得",
+    "多参数共同改变和恢复，单一参数效应尚未分离",
+    "材料转移、电子态与局部样品变化无法唯一归因",
+    "化学洁净及原子分辨未知"
+  ],
+  "next_stage": "await_experimenter_quantitative_induction_and_clipping_criteria",
+  "reason": "本次200pA/2T/2speed仍未建立持续任务坏态，216出现记录量程削顶，先核对下一组具体方法及量程边缘处置标准。已有自主探索授权仍有效。"
+}

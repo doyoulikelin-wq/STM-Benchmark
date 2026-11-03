@@ -1,0 +1,48 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-full02-stage-review-v1",
+  "stage": "validation",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_root_admission.json",
+    "sha256": "275c74545d169bfbc151dfd9fcf6f67273a7ff3eab52daef036fcefcd0ca5b3f"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_speed_native_review_root.json",
+    "sha256": "c0a287e1ea45aa9fc7b946d39b44844b6f27cb0566b4ab9af3f22fcf14e415d7"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1562905257848833,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    },
+    "induction": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+      "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+    },
+    "return": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_R07_S02/outcome.json",
+      "sha256": "b786af31426ff5f284989f7c1f526788ff7895419c45aeb3967b887a2ce1a97b"
+    },
+    "restore_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_R07_S02_gain/outcome.json",
+      "sha256": "2df9c63f8d0611ae9d11b5620d7327dafed83d5947d062e1b154a1af7baeb89c"
+    },
+    "restore_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/restore_R07_S02_speed/outcome.json",
+      "sha256": "1b1e77db4ac77fc9da84549f1f08c2dbb5633ae3c0a2e25a9204baeb8c0f42a0"
+    }
+  },
+  "reason": "Root reviewed knownSpeedSet ACK/exactoriginal readback, native4.88s innerconfirmation plus25.28s post all100pA20pct no400/floor/Bias/endpoint; postZ RMS2.314pm slope0.132pm/s. Rootbridge527-toentry fff3a328 also quiet100pA. Selectonefull matched50nm240squareDOWN437.76s atoriginal -1V100pA/0.912s/P-T-I after actual216 exposure andreturn. Frozen215 imagecriteria; counts remain2of5 strict0 pulse5of6 until evidence assessed."
+}

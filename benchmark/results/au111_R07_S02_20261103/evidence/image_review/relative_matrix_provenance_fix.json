@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-03T07:47:37.682913+00:00",
+  "scope": "Pure local provenance correction, before image render. Original v2 reject preserved.",
+  "old_comparator": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/compare_S02_full02_restored_vs215_v2.py",
+    "sha256": "4c60859bd306d265163b60898656c927cbf1549b97c2e46f595d5712b8d37b36"
+  },
+  "new_comparator": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/compare_S02_full02_restored_vs215_v3.py",
+    "sha256": "15354b8fe3c0533418b52cfbf1b6d765176af529f1877b1d65f70557775a0151"
+  },
+  "reason": "Six actual prior completed induction frame matrix refs are relative to their capture directory. Prior generic absolute-only walker refused them.",
+  "change": "Bind actual pinned induction outcome first, require equality of captured outcome, enumerate exact six channel/direction matrix names, accept only exact corresponding records, then verify SHA below that capture directory. All other relative refs rejected.",
+  "image_math_or_ROIs_changed": false,
+  "network_or_hardware": false
+}

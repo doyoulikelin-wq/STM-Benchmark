@@ -1,0 +1,128 @@
+{
+  "schema": "R07-S02-full02-restored-image-plan-v1",
+  "created_utc": "2026-11-03T07:25:22.255200+00:00",
+  "status": "Prospective before actual full02 exposure/post-image evidence. Earlier local-only rejected attempt remains immutable.",
+  "baseline_stage": "after_R07_S01_recovered_full",
+  "baseline_native_label": "215",
+  "baseline_native_sha256": "c596a3d1b63d096d4bd035ab9c2df618969ba2313dc764c4dd4195741114a2a6",
+  "baseline_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+    "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+  },
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+    "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+    "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+  },
+  "exposure_stage": "induction_R07_S02_full02",
+  "comparison_stage": "after_R07_S02_restored_full",
+  "comparison_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S02_full02_restored_once.py",
+    "sha256": "187c80bf513083aa0822e516fd6ce338e24c0b23b883d6f7d2f86455d2d90396"
+  },
+  "exposure_scan_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_induction_S02_full02_once.py",
+    "sha256": "fc4592c0b16257d0c6f1fab4a484681235dbcb99bbbed7be03108c4131448319"
+  },
+  "stage_binding": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/full02_binding.py",
+    "sha256": "8a67b3fce04b8e52b88a001b0433c4fa76b79a7f5efdc5fa9bf0fbd68b454aee"
+  },
+  "primary": [
+    "C1_upper_isolated",
+    "C3_diagonal_edge"
+  ],
+  "secondary": "S1_left_nonselected_I03_candidate",
+  "local_affected": [
+    "C2_right_upper",
+    "D4_lower_object"
+  ],
+  "frozen_ROIs": {
+    "C1": [
+      20,
+      44,
+      90,
+      115
+    ],
+    "C2": [
+      92,
+      112,
+      188,
+      213
+    ],
+    "C3": [
+      40,
+      72,
+      30,
+      90
+    ],
+    "D4": [
+      169,
+      194,
+      158,
+      184
+    ],
+    "S1": [
+      129,
+      150,
+      42,
+      63
+    ]
+  },
+  "C1_context_rc_half_open": [
+    12,
+    62,
+    80,
+    128
+  ],
+  "C1_context_established_before_S01": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_baseline02_image_review/baseline_vs_213/C1_expanded_context_record.json",
+    "sha256": "b9dbdf9fa1b2416c5a9d2ac58edbe749a1f1809d0cee1d2a576c0ecf16722b9f"
+  },
+  "task": "同一50nm场内分辨纳米突起、C1主体与上方点的分离，以及连续台阶。保留原任务标准。",
+  "functional_failure_evidence": "若恢复原参数后完整正反扫中，C1完整上下文、C3及分散对象共同出现影响对象分离或边缘辨识的持续拖尾、复制或展宽，记录具体对象、方向和范围。排查共同位移、固定ROI裁切、旧丘体和局部样品变化。单一异常不自动判坏。",
+  "usable_result": "若原参数完整图仍满足既定任务，标记诱导坏态未证实、strict cycle增量0；不为计数而修改任务标准。",
+  "exposure_only_scope": "200pA、双倍扫速与T双倍的诱导图显示采集参数和过程效应。只有恢复原100pA、原速度及增益后完整图用于匹配的针尖功能评价。",
+  "display": "原始全范围、继承210的冻结台阶对比度并显式显示截断、固定ROI及C1扩大原坐标窗口。主图无配准、平滑或逐行校正。",
+  "causal_scope": "S02若完成将包含四步电流准备、增益/速度配置、一次有限全场暴露及正常参数恢复。与实际215原参数基线比较描述这条复合暴露后的当前功能。若中断，保留实际失败并单独建立恢复证据，当前正常后扫入口拒绝。",
+  "scan_runtime_policy": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+    "sha256": "b324208ce29f2c72817f84dc67aee3150caf303ca78b51fa5556399a29c79aab"
+  },
+  "original_before_S01_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_image_review/prospective_S01_plan.json",
+    "sha256": "a09bf90ebbf50e201f4a3e316394bd5506ff319a682d117fd97975774edb3403"
+  },
+  "actual215_review_preserves_S01_incomplete_and_independent_recovery": true,
+  "original_S02_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_image_review/prospective_S02_plan.json",
+    "sha256": "d5ddc83292fdc673d9cde44bc55dd6d20613b3584646abcab07f7150ddd430ee"
+  },
+  "known_prior_prestart_rejection": {
+    "outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full/outcome.json",
+      "sha256": "3685f770960300f8cf9a0f358fd527f0eb92b170844b2b4a6bb2f6b42092772c"
+    },
+    "manifest": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full/manifest.json",
+      "sha256": "a89671b6d4aab1c3ed33c7a8983754078d183aaf598305f7bd8e431f472f18b0"
+    },
+    "attempt_binding": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full/attempt_binding.json",
+      "sha256": "e9ac830cab8b6106bf01460e4d587777f9fdfb1d3214403e7c80375bf8d277e4"
+    },
+    "reservation": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/claims/session_02__induction_R07_S02_full.claim",
+      "sha256": "f7426c050d1be55dcf88dc4eee905ebd1304d8bffdea5b06c6d990728eb16a94"
+    },
+    "known_no_Scan_Start_sent": true,
+    "known_no_TCP_events_or_wire_files": true,
+    "local_reservation_consumed": true,
+    "physical_scan_exposures_consumed": 0,
+    "monotonic_ns": 1561587022160125
+  },
+  "continuation_scope": "Only one new distinct full02 reservation follows the exact local-only rejected attempt. Original setup remains under its original admission. No repeated preparation/configuration. Future return/restoration/validation must bind the new continuation admission and actual full02 completion."
+}

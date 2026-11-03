@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-03T07:34:09.832551+00:00",
+  "scope": "Correction to human rationale only; frozen original sources and outcomes retained",
+  "root_reason_original": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_return_root_review.json",
+    "sha256": "5683ac8018f2f51f7a06d80929a97b263397742c8f15c162efd17d60a711b91f"
+  },
+  "root_reason_incorrect_written_pA": [
+    200,
+    160,
+    128,
+    102.4,
+    100
+  ],
+  "actual_frozen_driver_and_wire_targets_pA": [
+    200,
+    195.3125,
+    156.25,
+    125,
+    100
+  ],
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R07_S02_after_rejected_scan_once.py",
+    "sha256": "7176c38cb3a80c484beb8c0f839d9cd0fbf524c7a8db4fc5130da68e993fbaf7"
+  },
+  "manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/return_R07_S02/manifest.json",
+    "sha256": "a97b9324e2c55cd7ff6fbbea6b2879c92f3824e4c5407461392f011ac8a78244"
+  },
+  "cause": "Root rationale assumed repeated0.8 scaling instead of consulting the frozen reversed preparation sequence. Actual execution used exactly frozen source and recordedwire targets. FourknownACKs/native recovery complete. No extra setpoint commands or count change."
+}

@@ -1,0 +1,36 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-full02-stage-review-v1",
+  "stage": "return",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_root_admission.json",
+    "sha256": "275c74545d169bfbc151dfd9fcf6f67273a7ff3eab52daef036fcefcd0ca5b3f"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_full216_post_through499_native_review.json",
+    "sha256": "105cda6e58ae558838197434d7d3cb10807fdc32fefc9f1a57feb9611e01d3ef"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1562495866737333,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    },
+    "induction": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+      "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+    }
+  },
+  "reason": "Root reviewed actual full216 knownend plus native61.44s post, all200pA20pct no400pA/Bias/endpoint event, late30Z RMS2.052pm slope0.291. Earlier native exposure1856floorpoints0.928s retained, actual peaks censored. Select independently fourstep200->160->128->102.4->100pA, samegain/speed, complete30s observation. No additional exposure or repair until matched originalfull."
+}

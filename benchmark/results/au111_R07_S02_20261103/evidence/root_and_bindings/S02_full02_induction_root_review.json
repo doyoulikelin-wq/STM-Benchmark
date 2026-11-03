@@ -1,0 +1,32 @@
+{
+  "INACTIVE": false,
+  "schema": "local-au111-R07-S02-full02-stage-review-v1",
+  "stage": "induction",
+  "allow_stage": true,
+  "no_unresolved_writer": true,
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_root_admission.json",
+    "sha256": "275c74545d169bfbc151dfd9fcf6f67273a7ff3eab52daef036fcefcd0ca5b3f"
+  },
+  "native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_configured_idle_through451_native_review.json",
+    "sha256": "ba8d44b53be5cd9376435d1601c9299816d1b576f8b161e0c2a6ac06a438dfd9"
+  },
+  "native_review_passed": true,
+  "monotonic_ns": 1562120286693166,
+  "predecessor_outcomes": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_R07_S02/outcome.json",
+      "sha256": "f52507bed2e4f79bc108e42c26be3da09596c346f4413a2dd69c3748060b62d8"
+    },
+    "configure_gain": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_gain/outcome.json",
+      "sha256": "115a3bfd785f166c336a7b39c03fd3b80a6c0239bc1e0627536709e9af8f48e7"
+    },
+    "configure_speed": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    }
+  },
+  "reason": "Root reviewed375.93s actualconfiguredidle native through451, all200pA20pct, zero400pA/Bias/endpoint events, last30Z RMS2.171pm slope0.272pm/s. Known prior local rejection nohardwarewrites and originalclaim preserved. Independently selectone218.88s full02 exposure, then knownend review and separate restored originalcompletevalidation. Samephysicalbudget/counts, no pulse orShaper."
+}

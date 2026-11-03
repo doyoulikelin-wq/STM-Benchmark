@@ -1,0 +1,159 @@
+{
+  "created_utc": "2026-11-03T07:32:46.410653+00:00",
+  "reviewer": "offline image agent",
+  "scope": "Actual full216 S02 exposure under200pA/.456s per direction/2T, described against actual215 original-setting baseline. Persistent tip state awaits full restored original-setting validation.",
+  "actual_native_label": "216",
+  "exposure_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+    "sha256": "7a26dbe770a131fc463698fc6713a0352075696c895276ad753509c1d9b3dbcd"
+  },
+  "exposure_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/analysis/quality_report.json",
+    "sha256": "e222b3bda3b5b092e1c9066d851e2c663504d86dc2b0efba29e25c858c72224d"
+  },
+  "exposure_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/native/BM261029_00216.sxm",
+    "sha256": "529032028f5182e0685a24fc3e6d24e4ac22f5942940cd890a4adc448c56a774"
+  },
+  "native_TCP_matched_values": 345600,
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+    "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+    "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+  },
+  "baseline_manual_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+    "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+  },
+  "pre_S02_scientific_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_image_review/prospective_S02_plan.json",
+    "sha256": "d5ddc83292fdc673d9cde44bc55dd6d20613b3584646abcab07f7150ddd430ee"
+  },
+  "full02_binding_metadata": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/prospective_S02_full02_plan_v2.json",
+    "sha256": "7bba9d864f900079267b9cedc2a54555eef36483a88fe165d0db863b10780e98"
+  },
+  "actual_acquisition_parameters": {
+    "Bias_V": -1,
+    "setpoint_A": 2.000000026702864e-10,
+    "direction_line_s": 0.4560000002384186,
+    "gain_PTI": [
+      3.4123519981887895e-12,
+      8.59127176227048e-05,
+      3.9718823785506174e-08
+    ],
+    "range_nm": [
+      50,
+      50
+    ],
+    "pixels": [
+      240,
+      240
+    ],
+    "direction": "down"
+  },
+  "exposure_image_quality": "row_artifacts_impair_selected_regions_under_changed_acquisition_parameters",
+  "full_task_usable": null,
+  "persistent_functional_degradation": null,
+  "induced_bad_tip_verified": null,
+  "restored_original_setting_validation_required": true,
+  "trace_retrace_evidence": {
+    "C1_expanded_context": "两向主体与原上方小点仍分离。216相对215位置和细部形状有变化，主对象仍可辨。扩大窗口下端Y约+14/+13nm有亮横线，固定小框的边界限制继续保留。",
+    "C3": "两向主台阶可追踪，近边突起仍在。其附近出现向右延伸的亮横线与局部拖尾，扰动影响细节，准确形状比较受新速度和反馈条件限制。",
+    "S1": "Y约−2至−5nm的多行条带穿过固定ROI，两向均明显。原突起部分轮廓仍可见，条带降低该窗口的对象辨识质量。",
+    "C2_D4": "继续处于旧I03丘及边坡影响区，只作局部响应检查。",
+    "whole_frame": "条带集中在若干慢轴带，旧丘慢轴Y约−1至−5nm附近出现多行跨区扰动，另约+10至+14nm有短横线。约−15nm附近可见大范围行偏移。其他区域仍有可辨分散对象。F/B扰动幅度存在不对称。"
+  },
+  "relative_display_maxima_nm": {
+    "215": {
+      "F": 6.924192774704352,
+      "B": 6.9041661276969535
+    },
+    "216": {
+      "F": 10.560135876858112,
+      "B": 8.752824243174473
+    }
+  },
+  "relative_maxima_interpretation": "数值为原始Z减各帧中位数后的显示最大值。成像参数改变、行偏移和F/B不对称共同限制解释，尚不能归为局部物质体积或永久针尖结构变化。",
+  "pixel_current": {
+    "F": {
+      "minimum": -9999.476802136087,
+      "maximum": 4.848066826462771,
+      "median": -196.82429991396688,
+      "RMS_about_mean": 898.6733418167945,
+      "minimum_stored_rc": [
+        60,
+        99
+      ],
+      "minimum_nominal_XY_nm": [
+        -4.270833333333332,
+        12.395833333333334
+      ],
+      "abs_ge400pA_count": 4438,
+      "abs_ge1000pA_count": 1056,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    },
+    "B": {
+      "minimum": -9999.476802136087,
+      "maximum": 0.6045978062814428,
+      "median": -203.23774607700074,
+      "RMS_about_mean": 337.2927205119003,
+      "minimum_stored_rc": [
+        54,
+        177
+      ],
+      "minimum_nominal_XY_nm": [
+        11.979166666666664,
+        13.645833333333334
+      ],
+      "abs_ge400pA_count": 2858,
+      "abs_ge1000pA_count": 587,
+      "interpretation": "SXM pixel stream, not DataLog transient peak or clipping proof"
+    }
+  },
+  "native_electrical_scope": "这些是SXM像素流统计，实际原生2kHz事件由主控独立审查。像素极值不提供瞬态真实峰上界、同步命令边界或硬件损伤判定。",
+  "spatial_limits": "C1等对象有位置变化，当前未对215/216做配准或重新选框。保持原固定ROI及S01前冻结的C1上下文。",
+  "causal_alternatives": [
+    "更快扫描与较慢反馈可改变动态跟踪、方向差异和行条纹。",
+    "工作点设流升高及旧丘较陡局部地形可改变结响应。",
+    "样品或针尖状态变化仍待原参数恢复图及后续独立证据区分。"
+  ],
+  "criteria_for_next_frame": "使用已冻结原参数任务和相同ROI，优先C1扩大上下文、C3及补充S1；区分持续共同拖尾/复制/展宽与局部丘体和行偏移。若恢复图仍可用，诱导坏态未证实，strict cycle增量保持0。",
+  "display_record": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/exposure_display_record.json",
+    "sha256": "63841fe375834e5f1feef33d5cc80b2843eecaa2e5ab628680dff00a2c884601"
+  },
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/fixed_regions_and_C1_context.png",
+      "sha256": "04ecbda94fab1f4d38fea088040a2c23dd9f89e60219c223f0b1ce624b5f34a3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/frozen210_contrast.png",
+      "sha256": "3f9dfac617f088c9ec38f947a6325d245ce57565a218a217fc5268a3c50a60fb"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S02_full02_image_review/exposure216_vs215/full_raw_range.png",
+      "sha256": "2ec1d2e857d51cb2432fb349b4caad885b8e3412670e454fd0c868042b5462e6"
+    }
+  ],
+  "processing": {
+    "raw_arrays_unchanged": true,
+    "registration": false,
+    "smoothing": false,
+    "row_correction": false,
+    "offsets": "scalar frame or ROI perimeter median only",
+    "whole_range_and_frozen_contrast_both_preserved": true
+  },
+  "strict_cycle_increment": 0,
+  "repair_attempt_increment": 0,
+  "limitations": [
+    "完整216是改变参数的曝光图，缺少当前原参数恢复后完整证据。",
+    "曝光内部分行条纹影响功能，并不直接确立持续坏针。",
+    "C2与D4受旧丘体影响，化学状态、材料和接触深度未测。",
+    "多参数同时改变，各自因果贡献未分离。"
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "task": "Five complete tip-conditioning workflows with full-frame before/after scans and full process records",
+  "requested_workflows": 5,
+  "complete_workflows": 0,
+  "successful_closed_cycles": 0,
+  "start_manual_history": "User confirmed only scans, approach/retract, or movement since195; no tip/sample replacement; no pulse/shaper reported",
+  "sample": "Au(111)",
+  "tip_material": "unknown",
+  "temperature_current_K": null,
+  "temperature_note": "Neither currently visible remote monitor shows a fresh temperature; old scan comment2.916K is historical, not reused as measurement.",
+  "initial_read": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/read_001_initial/snapshot.json",
+  "skill_modification_authorized": true,
+  "practice_exceptions_log": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/skill_practice_log.md",
+  "initial_full_frame_plan": {
+    "center_m": [
+      0,
+      0
+    ],
+    "width_m": 5e-08,
+    "height_m": 5e-08,
+    "pixels": 240,
+    "lines": 240,
+    "bias_V": -1,
+    "setpoint_A": 1e-10,
+    "direction": "DOWN",
+    "nominal_duration_s": 437.76000022888184
+  },
+  "pulse_bounds": {
+    "bias_V": [
+      -7,
+      -4
+    ],
+    "width_s": [
+      0.02,
+      0.1
+    ],
+    "prepare_setpoint_A": 1e-09,
+    "hold": true,
+    "max_per_repair_session": 6,
+    "review_after_consecutive_no_improvement": 2
+  },
+  "safetip_requirement": "Off",
+  "induction_prior_authorization": "Earlier user explicitly authorized dirty-repair-clean benchmark and sample contact; any new induction must be a separately frozen bounded action with verified current state and bad-state full scan, not inferred success.",
+  "counter_rule": "Five requested workflows do not by themselves reset an unresolved repair pulse lineage. Preserve prior pulse1 if continuing same unresolved bad state; document a genuinely new induced state before resetting its separate session budget.",
+  "instrument_writer": "root_only_no_active_junction_writer",
+  "status": "S02_full217_complete_formal_image_review_pending",
+  "logger_exec_session": null,
+  "scanner_exec_session": null,
+  "logger_native_start": "2026/11/3 13:45:34",
+  "latest_recorded_utc": "2026-11-03T07:16:29.656222+00:00",
+  "preparation_exec_session": null,
+  "pulse_exec_session": null,
+  "updated_utc": "2026-11-03T07:49:26.982635+00:00",
+  "active_stage": "S02_validation_complete217",
+  "active_exec_session": null,
+  "new_pulses_completed": 2,
+  "episode_pulses_consumed": 5,
+  "completed_full_attempts": 2,
+  "successful_cycles": 0,
+  "remaining_requested": 3,
+  "logger_running": true,
+  "current_session": "session_02",
+  "resume_manual_history": "Only scans/approach/retract/movement; no pulse/shaper or tip/sample replacement since198",
+  "continuation_directory": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102",
+  "logger_process_pid": 74698,
+  "scanner_process_pid": null,
+  "latest_full_scan199": "completed slow diagnostic; six planes345600bitmatched",
+  "logger_pid": 74698,
+  "native_record_stop": null,
+  "latest_full_scan200": "completed fast diagnostic and prospectively selected pre-A01 full baseline; six planes345600bitmatched",
+  "latest_pulse": "P03 ordinal5 -6V20msHold knownACK13:16:21.356832, immediateOn2 accepted107.6ms later, completepost30passed at13:16:51.587312",
+  "latest_return": "P03 normal11/11ACK plus30s complete; native all steps and inter-stage records reviewed",
+  "last_fresh_junction": "read_104_S02_configure_speed is the exact pre-action full read; current recorded endpoint is configure_R07_S02_speed/after.json. Neither is an unexpired future-action admission.",
+  "R02_started": true,
+  "terminal_archive_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_terminal_native_review/review.json",
+    "sha256": "76e4693972ebc267e9379d5c0a04c1c6a29c96a272974d4d8757a4e1d9525700"
+  },
+  "skill_latest_step": "R07 S01 actual scans214/215, scan-runtime versus recovery gates, knownOffHome recovery practice. 3documents installed+repo,9others byteidentical.",
+  "skill_latest_install_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/skill_R07_S01_application.json"
+  },
+  "manual_intervention_2047_confirmed": true,
+  "manual_confirmation_ref": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+    "sha256": "2a4ed8ecf64b45ca7221d3045292f166671f8b1d8abd2d6371c0bba99a01a64d"
+  },
+  "resume_after_manual_decision": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/resume_after_manual_decision.json",
+    "sha256": "94206130a7366d5daba1de4238b5e64d670e96a221803f2332532420490469bc"
+  },
+  "live_state_updated_utc": "2026-11-03T07:13:16.344806+00:00",
+  "publication_commit": "57e318e4c13e5a654765996ca4495cc5be2c283a",
+  "recording_segment": "R07",
+  "recording_pid": 74698,
+  "current_junction": {
+    "source": "session_02/after_R07_S02_restored_full/after_frames.json",
+    "sha256": "83f6ed97e83b02e162466b3e090447ce550e7f9c2cc36c58968df6644568bdee",
+    "recorded_stage": "configure_R07_S02_speed",
+    "recorded_end_utc": "2026-11-03T07:13:16.344806+00:00",
+    "live_read_performed_by_this_update": false,
+    "setpoint_pA": 100,
+    "state": "On2",
+    "SafeTip": 0,
+    "bias_V": -1.0,
+    "XY_nm": [
+      -25.000000292152436,
+      -25.000000292152436
+    ],
+    "ZCtrl.GainGet": [
+      3.4123519981887895e-12,
+      8.59127176227048e-05,
+      3.9718823785506174e-08
+    ],
+    "Scan.SpeedGet": [
+      1.096491217822404e-07,
+      1.096491217822404e-07,
+      0.4560000002384186,
+      0.4560000002384186,
+      1,
+      1.0
+    ],
+    "gain_speed": "original"
+  },
+  "approach_attempts_this_R02": 2,
+  "additional_AA_candidate_max": 0,
+  "recording_segment_active": "R07",
+  "approach_attempts_completed": 3,
+  "coarse_history": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/coarse_positive_z_5to6_confirmation.json",
+    "sha256": "6670720d1d491d21a4fc8e65c8072a5055cf73d63282c8ce6d8123ed1da9b65c"
+  },
+  "active_logger": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_07",
+  "native_start_identity": "2026/11/3 13:45:34",
+  "latest_fresh_snapshot": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_110_S02_validation/snapshot.json",
+  "new_baseline_count": 2,
+  "new_induction_count": 2,
+  "new_repair_count": 1,
+  "count_semantics": {
+    "completed_full_attempts": "Two full before/action/after attempts, 196→197 and207→A05→208",
+    "complete_workflows": "Strict induced usable→bad→repair→usable cycles remain zero; independent repair functional result evaluated separately",
+    "remaining_requested": "Three of five requested complete repair attempts remain; confirmation-only frames and induction-only frames do not add a repair"
+  },
+  "historical_state_fields_before_recovery_update": {
+    "snapshot": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/recovery_R02_R03_through_fine02_20261103/state_before/batch_state.json",
+    "sha256": "bfe201d440f3113769a6ef8a1bebd37b095cebc8caa255e0e0eaf0d6f4799036",
+    "note": "Old live aliases and historical R01 stop preserved in this immutable snapshot; current aliases below now refer to R03."
+  },
+  "R02_completed": true,
+  "fine_recovery_attempts_completed": 2,
+  "new_baseline_running_count": 0,
+  "latest_recovery_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_03/outcome.json",
+    "sha256": "08ccd73c4699c155fb77bd41f76f0a90598cc4f5b4fe2f6ec7addab2aeb1b848"
+  },
+  "latest_recovery_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_fine03_native_review.json",
+    "sha256": "369c2a711e7b3b463b55478e5b7a911acd902af99498bbd5580ad6c8a0b732e0"
+  },
+  "latest_recovery_report": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_actual_induction_and_Home_recovery_summary_v2.md",
+  "current_baseline": {
+    "event_id": "after_R07_S01_recovered_full",
+    "actual_native_file": "BM261029_00215.sxm",
+    "outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/outcome.json",
+      "sha256": "6bba52bbcd957c4003995c2dc24562221004a007345675f8fa7105f0eb59e322"
+    },
+    "quality": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R07_S01_recovered_full/analysis/quality_report.json",
+      "sha256": "09d7d6380b26d09c3a2d4988236a340b7335bdda9c71871a26b4c1380c689f7d"
+    },
+    "manual_review": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/post_manual_review.json",
+      "sha256": "5c474d571e49a2d93df3e8cf719a5ebf804c6329b9dc835ecc509917ab4f5dd7"
+    },
+    "root_acceptance": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_S01_recovered_image_review/root_image_acceptance.json",
+      "sha256": "203eb5a5ed378ea480d2eb5f1eba9790ab1afb18592cb52f1088f22f718481e3"
+    },
+    "task_assessment": "Current defined nanoscale task usable after compound S01 exposure/recovery; no new bad state, repair increment or strict cycle.",
+    "selected_for": "S02 single finite scan induction",
+    "fresh_for_next_hardware_action": false,
+    "reason": "Preparation/configuration has intervened after215. Actual next action still needs its independent review and new complete readback; this alias is not control admission."
+  },
+  "runtime_update_utc": "2026-11-03T07:13:16.344806+00:00",
+  "current_runtime": {
+    "stage": "S02_validation_complete217",
+    "native_logger_pid": 74698,
+    "writer_pid": null,
+    "writer_exec_session": null
+  },
+  "localization203_outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_localization_I01_full/outcome.json",
+  "localization203_sxm_sha256": "975d29bb4d842297b641aaf94f3cca1a9d61d72a57ec9ed9d8bdc6c7ff7dae92",
+  "R03_completed": true,
+  "publication_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/github_receipt.json"
+  },
+  "publication_CI": {
+    "id": 41595622375,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "R04_expert_evidence": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R04_expert_continuation/fixed_and_scan_admission_review.json",
+    "sha256": "3a5da3f6b779b910521d4b0ad542463a8806a42837a0d8058b0d616467e2241b"
+  },
+  "R04_completed": true,
+  "R04_fixed_final": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R04_expert_continuation/fixed_native_final.json",
+    "sha256": "5563f48f1e3822208d84faa478811b0d25b5582c6fff25f75e6edcd6b98d5092"
+  },
+  "R05_expert": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R05_scan_expert_reply.json",
+    "sha256": "d43a3408b266d88eb52c421444cb90f1ce75fd961a67984ae6bd9b66a62ccbab"
+  },
+  "R05_scan_start": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment05_full/scan_start.claim",
+    "sha256": "c9acb500414d3aafe8634a84cac68ccee220bb2c6c7a8c8328a6a52c67bec2ec"
+  },
+  "R05_completed": true,
+  "R05_native_phases": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R05_diagnostic/scan_native_phases.json",
+    "sha256": "d44a72dc159df7e9db7ea0ed014c3024745b2ba4e473e4758f188e1241adf2ad"
+  },
+  "R06_request": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_repair_user_scope.json",
+  "R06_A05_actual_shaper_Start_count": 1,
+  "R06_A05_pulses_sent": 0,
+  "R06_full_before": 207,
+  "R06_A05_native_end": "2026-11-03T03:39:33.133579+00:00",
+  "R06_actual_start": "2026-11-03T03:39:30.625002+00:00",
+  "R06_presets_restored": true,
+  "R06_matched_after": 208,
+  "R06_confirmed_full207_208": true,
+  "R06_L2": "supported; spontaneous changes before conditioning limit sole causal attribution",
+  "R06_L3": "supported for nanoscale particle/terrace task through208+209",
+  "functional_repairs_with_independent_full_confirmation": 1,
+  "R06_A05_L3": "supported for nanoscale particle/terrace task through208+209",
+  "R06_I02_actual_Start_count": 1,
+  "R06_I03_actual_move_count": 1,
+  "R06_I03_actual_Start_count": 1,
+  "R06_P02_actual_pulse_count": 1,
+  "R06_P02_pulse_native_end_known": true,
+  "R06_P02_original_postguard_status": "uncertain_or_recovery_failed",
+  "recording_segment_previous_closed": "R06",
+  "R07_interrupted_baseline": {
+    "status": "incomplete_stop_withdraw_known",
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/baseline_segment07_full/outcome.json",
+    "current_snapshot": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_084_R07_after_baseline_withdraw/snapshot.json",
+    "new_induction_parameters_applied": false,
+    "next": "Independent fine-only recovery then fresh full baseline",
+    "native_logger_pid": 74698
+  },
+  "R07_fine01": {
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_01/outcome.json",
+    "status": "failed_after_known_On_ack",
+    "reason": "final5s_stability_timeout",
+    "withdraw_home_confirmed": true
+  },
+  "R07_home_move01": {
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R07_home01/outcome.json",
+    "status": "home_target_verified_5s_stationary"
+  },
+  "R07_fine02": {
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_02/outcome.json",
+    "status": "tunneling_reestablished",
+    "observation_elapsed_s": 30.208547750022262,
+    "sampled_stable_s": 26.60085133300163
+  },
+  "S01_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/S01_root_admission.json",
+    "sha256": "68f1e5981cef5046714d1098b23624985009fe6fe47d0b1ac3e3c74deffcdaa1"
+  },
+  "S01_settings": {
+    "setpoint_pA": 200,
+    "seconds_per_direction": 0.456,
+    "timeconst_s": 8.59127176227048e-05,
+    "P_unchanged": true,
+    "SafeTip": 0
+  },
+  "S01_induction_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S01_full/outcome.json",
+    "sha256": "2fa06f2bfb0553ca4fb50f1f41903318a72527e105be482c25be7a81008b0a42"
+  },
+  "prospective_scan_current_policy": "continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA_v2.json",
+  "S01_recovered_full_start_utc": "2026-11-03T06:51:43.194020+00:00",
+  "S01_recovered_full215": {
+    "native_sha256": "c596a3d1b63d096d4bd035ab9c2df618969ba2313dc764c4dd4195741114a2a6",
+    "end_utc": "2026-11-03T06:59:01.998136+00:00",
+    "matched_float32_values": 345600,
+    "quality": "task_usable_formal5c474d_root203eb"
+  },
+  "S02_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_root_admission.json",
+    "sha256": "8e12a499e74e8e10e7a8f4f02da7cb26812d09b25a6914949ea63bcbcd8d3f62"
+  },
+  "R07_fine03": {
+    "outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/engage_R07_03/outcome.json",
+      "sha256": "08ccd73c4699c155fb77bd41f76f0a90598cc4f5b4fe2f6ec7addab2aeb1b848"
+    },
+    "status": "tunneling_reestablished",
+    "later_drift_observation": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S01_fine03_post_through311_native_review.json",
+      "sha256": "0f57dab7bd6e8bf3374fb0ec598326f6fa3e437807d9cec0d0e5aeb6b7e9bc23"
+    }
+  },
+  "S02_last_completed_stage": {
+    "event": "configure_R07_S02_speed",
+    "outcome": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/outcome.json",
+      "sha256": "89c82565e9a7cf2eecf20a72b51b999cac5b057b2464c693b01632e4dada6f29"
+    },
+    "after": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/configure_R07_S02_speed/after.json",
+      "sha256": "83f6ed97e83b02e162466b3e090447ce550e7f9c2cc36c58968df6644568bdee"
+    },
+    "native_review": null,
+    "native_reviewed_by_root": false
+  },
+  "historical_current_aliases_before_S02_sync": {
+    "snapshot": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/batch_alias_sync_speed_candidate/batch_state.before.json",
+    "sha256": "d8482ff2dadc4ef900efd901a98dc695ecb6c3061042250caae3c85f01724cc1",
+    "scope": "Preserves all previous current aliases and all historical fields. New aliases are an explicitly dated completed-stage cut, not a live hardware read."
+  },
+  "S02_prestart_rejection": {
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full/outcome.json",
+    "sha256": "3685f770960300f8cf9a0f358fd527f0eb92b170844b2b4a6bb2f6b42092772c",
+    "cause": "Root supplied relative logger path, READY stores absolute path; no TCP exchange occurred; claim retained",
+    "physical_scan_started": false
+  },
+  "S02_full02_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction_S02/S02_full02_root_admission.json",
+    "sha256": "275c74545d169bfbc151dfd9fcf6f67273a7ff3eab52daef036fcefcd0ca5b3f"
+  },
+  "S02_full216": {
+    "outcome": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R07_S02_full02/outcome.json",
+    "native_sha256": "529032028f5182e0685a24fc3e6d24e4ac22f5942940cd890a4adc448c56a774",
+    "native_TCP_matching_values": 345600,
+    "end_utc": "2026-11-03T07:28:30.976024+00:00",
+    "physical_condition": "200pA,0.456s each direction,2xT/Punchanged,Ihalf",
+    "original_parameter_validation_pending": true
+  },
+  "S02_full217": {
+    "end_utc": "2026-11-03T07:45:12.463931+00:00",
+    "native_sha256": "e8e207f44c1704b5983672eadf41c6767386048e2fa955328a91893498f15895",
+    "native_TCP_matching_values": 345600,
+    "image_assessment": "Preliminary agent usable; root view and formalreviewpending",
+    "new_repair_count": 0
+  }
+}

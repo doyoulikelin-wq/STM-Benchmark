@@ -1,0 +1,124 @@
+{
+  "scope": "Minimal complete DAT block ranges covering each actual completed stage and its required observation from already frozen native audits. Interstage waits and extended postroll are separately audited and not all selected here.",
+  "stages": [
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_prepare_native_review.json",
+        "sha256": "0b33f665db1be2964e01ce5bb9ab5befe120b7ee85b63ad7ee8d6f14b2f69b63"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        9621980,
+        9736100
+      ],
+      "native_seconds": [
+        4810.99,
+        4868.05
+      ],
+      "minimal_closed_blocks_inclusive": [
+        385,
+        390
+      ],
+      "post_through_receipt_block": 392
+    },
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_gain_native_review.json",
+        "sha256": "a9d671b0808f3fc6ca85234d10cbe8e32cd53208380cdcbe7c1521cd3a937250"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        10212760,
+        10235900
+      ],
+      "native_seconds": [
+        5106.38,
+        5117.95
+      ],
+      "minimal_closed_blocks_inclusive": [
+        409,
+        410
+      ],
+      "post_through_receipt_block": 410
+    },
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_speed_native_review.json",
+        "sha256": "b60c664985bcdfb2d247a7871683824cf9f1e608392001f30cb0a63c7a80717a"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        10500480,
+        10523140
+      ],
+      "native_seconds": [
+        5250.24,
+        5261.57
+      ],
+      "minimal_closed_blocks_inclusive": [
+        421,
+        421
+      ],
+      "post_through_receipt_block": 421
+    },
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_return_native_review.json",
+        "sha256": "cd185bd63cd5056819eddf9d149932ec7bfc784f7634a7f526ffb4aa0609017f"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        12644680,
+        12760420
+      ],
+      "native_seconds": [
+        6322.34,
+        6380.21
+      ],
+      "minimal_closed_blocks_inclusive": [
+        506,
+        511
+      ],
+      "post_through_receipt_block": 513
+    },
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_gain_native_review.json",
+        "sha256": "e9a3e3a9d7b97fa1c7ebe366dc2d44ea28b7453c169f4c3e04d4fdea213bbf45"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        13006120,
+        13029320
+      ],
+      "native_seconds": [
+        6503.06,
+        6514.66
+      ],
+      "minimal_closed_blocks_inclusive": [
+        521,
+        522
+      ],
+      "post_through_receipt_block": 527
+    },
+    {
+      "audit": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_diagnostic/S02_restore_speed_native_review_root.json",
+        "sha256": "c0a287e1ea45aa9fc7b946d39b44844b6f27cb0566b4ab9af3f22fcf14e415d7"
+      },
+      "actual_action_and_required_observation_sample_half_open": [
+        13302620,
+        13324440
+      ],
+      "native_seconds": [
+        6651.31,
+        6662.22
+      ],
+      "minimal_closed_blocks_inclusive": [
+        533,
+        533
+      ],
+      "post_through_receipt_block": 535
+    }
+  ],
+  "full216_exposure_and_initial_recovery_blocks": [
+    477,
+    499
+  ],
+  "217_pending": true
+}

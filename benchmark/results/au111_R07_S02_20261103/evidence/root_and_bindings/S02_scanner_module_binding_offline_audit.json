@@ -1,0 +1,21 @@
+{
+  "offline_only": true,
+  "actual_execution": false,
+  "sources": [
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_induction_S02_once.py",
+      "sha256": "3f5fd5e0c1ab792b089952d82f45eab4d19ab44f5de927197c8e1b1108332aee",
+      "actual_import_and_plan": true,
+      "seven_argument_stage_binding_passthrough_mock": true,
+      "same_active_R07_readonly_metadata": true
+    },
+    {
+      "source": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/scan_full50nm_fast_R07_after_S02_restored_once.py",
+      "sha256": "4042cdd62461f0707dbd8015d06f321136022ec1ce2df123d1d59dc04d7b3a76",
+      "actual_import_and_plan": true,
+      "seven_argument_stage_binding_passthrough_mock": true,
+      "same_active_R07_readonly_metadata": true
+    }
+  ],
+  "scope": "Actual full modules imported with sockets blocked; realR07 metadata read. Future S02 stage prerequisite uses explicit mock, not an active admission."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "au111-scan-current-guidance-20261103-v2",
+  "recorded_utc": "2026-11-03T06:49:13.652094+00:00",
+  "recorded_monotonic_ns": 1559943300730541,
+  "timestamp_is": "local preservation time, not original message timestamp",
+  "source": "current user asynchronous reply questionItemId call_6194a12431b94edbba451208bb6dafd3 index0",
+  "question_verbatim": "需要实验员校准一个扫描停止条件。当前脚本沿用单次慢读 |I|≥400 pA 即停扫，本次在 −431 pA 停止，但完整可用图214的原生短峰也曾达约 −2.10 nA。这个门槛会阻碍完整坏态采集。普通100 pA诊断扫描、200 pA诱导扫描应采用什么电流幅度／持续时间或图像异常作为停扫依据？请给本机经验数值。我先继续恢复原参数和隧穿。",
+  "answer_verbatim": "1nA-5nA都可以的，因为可能有台阶",
+  "root_prospective_interpretation": {
+    "scope": "ordinary100pA diagnostic and200pA induction SCAN runtime current assessment only",
+    "current_get_absolute_A_max_inclusive": 5e-09,
+    "stop_if": "nonfinite or abs(Current.Get)>5e-9",
+    "reason": "User accepts scan current peaks through5nA because steps maycausefeedbackfollowing excursions. This replaces the earlier400pA scan runtime engineering gate prospectively.",
+    "duration_provided_by_user": null,
+    "not_physical_damage_limit": true,
+    "no_fast_transient_guarantee": true,
+    "entry_and_postrecovery_policies_unchanged": true,
+    "Z_endpoint_margin_m": 2e-09,
+    "feedback_state_guards_unchanged": true,
+    "fine03_and_other_actions_not_modified": true,
+    "past400pA_failure_outcomes_preserved": true,
+    "no_induction_or_pulse_budget_reset": true,
+    "diagnostic_100pA_entry": {
+      "individual_sample_pA": [
+        -150,
+        -50
+      ],
+      "whole_5s_window_mean_pA": [
+        -125,
+        -75
+      ],
+      "minimum_span_s": 5,
+      "maximum_total_s": 10,
+      "maximum_sample_gap_s": 1
+    },
+    "strict_idle_cleanup_signed_band_pA": [
+      -120,
+      -80
+    ],
+    "runtime_only_call_sites": [
+      "known_Start_running_observed",
+      "scan_guard"
+    ],
+    "post_end_frame_reads_retained_current_guard_A": 4e-10,
+    "original_entry_policy_source": "diagnostic_scan_entry_policy_review.json SHA57d717802af38762868489c2eb014e8c6637f48b7b34d069b9a17c0b50c67b88"
+  },
+  "supersedes_policy_label": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R07_scan_induction/user_scan_current_guidance_5nA.json",
+    "sha256": "29f479f47b5977502740e114775db13b41e0a1e3aa357fbff40a255b9d5dc58f",
+    "correction": "v1 entry_signed_band_pA field conflated strict cleanup/recovery with separately selected diagnostic scan admission. This v2 labels the existing implemented policies accurately. No actual admission guard change."
+  }
+}
