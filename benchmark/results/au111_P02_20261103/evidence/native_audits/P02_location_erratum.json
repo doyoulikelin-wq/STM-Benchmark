@@ -1,0 +1,72 @@
+{
+  "kind": "offline_locator_erratum",
+  "original": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_postroll.json",
+    "sha256": "e506a8ddd495e9a33c2d9407e4fff04cdaad79915b7bc106ce452833113ec581"
+  },
+  "corrected_v2": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_postroll_v2.json",
+    "sha256": "c4752901893dd76c189a2a8bb402f55530b3684039927d9c6c689f9f27dfdf39"
+  },
+  "corrected_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/review_P02_return_post_native_v2.py",
+    "sha256": "8081ddd9fbf9824304f295460b72903322ef9ff9cd6fc05597ae27f9ebdeee15"
+  },
+  "cause": "Local array begins at R06 block386. Original describe corrected time and Z positions but left minimum_I_location.block array-local. Add385 to that block coordinate. Actual row and all numeric statistics and time intervals are identical.",
+  "corrections": [
+    {
+      "field": "/post_after_known_complete/minimum_I_location",
+      "old": {
+        "block": 3,
+        "row_zero_based": 6095
+      },
+      "corrected": {
+        "block": 388,
+        "row_zero_based": 6095
+      }
+    },
+    {
+      "field": "/nonoverlapping10s/0/minimum_I_location",
+      "old": {
+        "block": 1,
+        "row_zero_based": 22125
+      },
+      "corrected": {
+        "block": 386,
+        "row_zero_based": 22125
+      }
+    },
+    {
+      "field": "/nonoverlapping10s/1/minimum_I_location",
+      "old": {
+        "block": 3,
+        "row_zero_based": 6095
+      },
+      "corrected": {
+        "block": 388,
+        "row_zero_based": 6095
+      }
+    },
+    {
+      "field": "/nonoverlapping10s/2/minimum_I_location",
+      "old": {
+        "block": 3,
+        "row_zero_based": 7317
+      },
+      "corrected": {
+        "block": 388,
+        "row_zero_based": 7317
+      }
+    }
+  ],
+  "exact_recursive_comparison_except_source_hash_and_listed_location_fields": true,
+  "other_P02_audits_checked": {
+    "review_P02_guard_failure_native.py": "Explicit absolute sample index correction at line68",
+    "review_P02_setpoint_native.py": "Explicit absolute sample index correction at line71",
+    "review_P02_independent_return_native.py": "Explicit absolute sample index correction at line77",
+    "review_P02_independent30_native.py": "h.describe receives absolute first sample lo",
+    "review_after_P02_recovery_native_phases.py": "Full-array base is sample0"
+  },
+  "original_artifacts_preserved": true,
+  "physical_state_interpretation_changed": false
+}

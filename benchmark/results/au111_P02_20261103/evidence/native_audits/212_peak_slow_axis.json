@@ -1,0 +1,2281 @@
+{
+  "abs_current_thresholds_pA": {
+    "400": {
+      "samples": 466,
+      "groups": 122,
+      "stored_sample_occupancy_ms": 233.0
+    },
+    "1000": {
+      "samples": 29,
+      "groups": 15,
+      "stored_sample_occupancy_ms": 14.5,
+      "events": [
+        {
+          "global_half_open": [
+            10359273,
+            10359274
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10359273,
+              "block": 415,
+              "zero_based_row_in_block": 9273,
+              "native_s": 5179.6365000000005,
+              "I_pA": -1051.1938,
+              "Bias_V": -1.0,
+              "Z_nm": -101.13813999999999
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10359271,
+                "block": 415,
+                "zero_based_row_in_block": 9271,
+                "native_s": 5179.6355,
+                "I_pA": -656.03895,
+                "Bias_V": -1.0,
+                "Z_nm": -101.30981999999999
+              },
+              {
+                "global_zero_based": 10359272,
+                "block": 415,
+                "zero_based_row_in_block": 9272,
+                "native_s": 5179.636,
+                "I_pA": -822.43568,
+                "Bias_V": -1.0,
+                "Z_nm": -101.22748
+              },
+              {
+                "global_zero_based": 10359273,
+                "block": 415,
+                "zero_based_row_in_block": 9273,
+                "native_s": 5179.6365000000005,
+                "I_pA": -1051.1938,
+                "Bias_V": -1.0,
+                "Z_nm": -101.13813999999999
+              },
+              {
+                "global_zero_based": 10359274,
+                "block": 415,
+                "zero_based_row_in_block": 9274,
+                "native_s": 5179.637,
+                "I_pA": -985.92634,
+                "Bias_V": -1.0,
+                "Z_nm": -101.04760999999999
+              },
+              {
+                "global_zero_based": 10359275,
+                "block": 415,
+                "zero_based_row_in_block": 9275,
+                "native_s": 5179.6375,
+                "I_pA": -994.3189600000001,
+                "Bias_V": -1.0,
+                "Z_nm": -100.9539
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553144153109625,
+                  "utc": "2026-11-03T04:54:59.790221+00:00",
+                  "block": 415,
+                  "points_counter": 8880,
+                  "sample": 10358880,
+                  "native_s": 5179.4400000000005,
+                  "elapsed_nominal_half_s": 5179.10000038147
+                },
+                {
+                  "monotonic_ns": 1553144696479125,
+                  "utc": "2026-11-03T04:55:00.333591+00:00",
+                  "block": 415,
+                  "points_counter": 9960,
+                  "sample": 10359960,
+                  "native_s": 5179.9800000000005,
+                  "elapsed_nominal_half_s": 5179.610000610352
+                }
+              ],
+              "host_bracket_s": 0.5433695000000001,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:54:59.611402+00:00",
+                  "monotonic_ns": 1553143974286500,
+                  "getter_group_s": 0.04714441602118313,
+                  "y_nm": -1.706349506136462
+                },
+                {
+                  "utc": "2026-11-03T04:54:59.964789+00:00",
+                  "monotonic_ns": 1553144327671291,
+                  "getter_group_s": 0.047913625137880445,
+                  "y_nm": -1.7463251955618375
+                },
+                {
+                  "utc": "2026-11-03T04:55:00.303715+00:00",
+                  "monotonic_ns": 1553144666597500,
+                  "getter_group_s": 0.03458612482063472,
+                  "y_nm": -1.7851533584689605
+                },
+                {
+                  "utc": "2026-11-03T04:55:00.664809+00:00",
+                  "monotonic_ns": 1553145027692000,
+                  "getter_group_s": 0.04882358410395682,
+                  "y_nm": -1.8251301581173607
+                }
+              ],
+              "Y_nm": [
+                -1.8251301581173607,
+                -1.706349506136462
+              ],
+              "zero_based_row_interval": [
+                128,
+                128
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10359276,
+            10359277
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10359276,
+              "block": 415,
+              "zero_based_row_in_block": 9276,
+              "native_s": 5179.638,
+              "I_pA": -1038.9807,
+              "Bias_V": -1.0,
+              "Z_nm": -100.86441
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10359274,
+                "block": 415,
+                "zero_based_row_in_block": 9274,
+                "native_s": 5179.637,
+                "I_pA": -985.92634,
+                "Bias_V": -1.0,
+                "Z_nm": -101.04760999999999
+              },
+              {
+                "global_zero_based": 10359275,
+                "block": 415,
+                "zero_based_row_in_block": 9275,
+                "native_s": 5179.6375,
+                "I_pA": -994.3189600000001,
+                "Bias_V": -1.0,
+                "Z_nm": -100.9539
+              },
+              {
+                "global_zero_based": 10359276,
+                "block": 415,
+                "zero_based_row_in_block": 9276,
+                "native_s": 5179.638,
+                "I_pA": -1038.9807,
+                "Bias_V": -1.0,
+                "Z_nm": -100.86441
+              },
+              {
+                "global_zero_based": 10359277,
+                "block": 415,
+                "zero_based_row_in_block": 9277,
+                "native_s": 5179.6385,
+                "I_pA": -751.75183,
+                "Bias_V": -1.0,
+                "Z_nm": -100.77883
+              },
+              {
+                "global_zero_based": 10359278,
+                "block": 415,
+                "zero_based_row_in_block": 9278,
+                "native_s": 5179.639,
+                "I_pA": -791.5783,
+                "Bias_V": -1.0,
+                "Z_nm": -100.69624999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553144153109625,
+                  "utc": "2026-11-03T04:54:59.790221+00:00",
+                  "block": 415,
+                  "points_counter": 8880,
+                  "sample": 10358880,
+                  "native_s": 5179.4400000000005,
+                  "elapsed_nominal_half_s": 5179.10000038147
+                },
+                {
+                  "monotonic_ns": 1553144696479125,
+                  "utc": "2026-11-03T04:55:00.333591+00:00",
+                  "block": 415,
+                  "points_counter": 9960,
+                  "sample": 10359960,
+                  "native_s": 5179.9800000000005,
+                  "elapsed_nominal_half_s": 5179.610000610352
+                }
+              ],
+              "host_bracket_s": 0.5433695000000001,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:54:59.611402+00:00",
+                  "monotonic_ns": 1553143974286500,
+                  "getter_group_s": 0.04714441602118313,
+                  "y_nm": -1.706349506136462
+                },
+                {
+                  "utc": "2026-11-03T04:54:59.964789+00:00",
+                  "monotonic_ns": 1553144327671291,
+                  "getter_group_s": 0.047913625137880445,
+                  "y_nm": -1.7463251955618375
+                },
+                {
+                  "utc": "2026-11-03T04:55:00.303715+00:00",
+                  "monotonic_ns": 1553144666597500,
+                  "getter_group_s": 0.03458612482063472,
+                  "y_nm": -1.7851533584689605
+                },
+                {
+                  "utc": "2026-11-03T04:55:00.664809+00:00",
+                  "monotonic_ns": 1553145027692000,
+                  "getter_group_s": 0.04882358410395682,
+                  "y_nm": -1.8251301581173607
+                }
+              ],
+              "Y_nm": [
+                -1.8251301581173607,
+                -1.706349506136462
+              ],
+              "zero_based_row_interval": [
+                128,
+                128
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10362921,
+            10362925
+          ],
+          "samples": 4,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10362923,
+              "block": 415,
+              "zero_based_row_in_block": 12923,
+              "native_s": 5181.4615,
+              "I_pA": -1238.0086,
+              "Bias_V": -1.0,
+              "Z_nm": -100.79437
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10362921,
+                "block": 415,
+                "zero_based_row_in_block": 12921,
+                "native_s": 5181.4605,
+                "I_pA": -1065.6416,
+                "Bias_V": -1.0,
+                "Z_nm": -100.99109
+              },
+              {
+                "global_zero_based": 10362922,
+                "block": 415,
+                "zero_based_row_in_block": 12922,
+                "native_s": 5181.461,
+                "I_pA": -1169.936,
+                "Bias_V": -1.0,
+                "Z_nm": -100.89491
+              },
+              {
+                "global_zero_based": 10362923,
+                "block": 415,
+                "zero_based_row_in_block": 12923,
+                "native_s": 5181.4615,
+                "I_pA": -1238.0086,
+                "Bias_V": -1.0,
+                "Z_nm": -100.79437
+              },
+              {
+                "global_zero_based": 10362924,
+                "block": 415,
+                "zero_based_row_in_block": 12924,
+                "native_s": 5181.462,
+                "I_pA": -1222.2012,
+                "Bias_V": -1.0,
+                "Z_nm": -100.69635000000001
+              },
+              {
+                "global_zero_based": 10362925,
+                "block": 415,
+                "zero_based_row_in_block": 12925,
+                "native_s": 5181.462500000001,
+                "I_pA": -937.85524,
+                "Bias_V": -1.0,
+                "Z_nm": -100.60294999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553145803990000,
+                  "utc": "2026-11-03T04:55:01.441107+00:00",
+                  "block": 415,
+                  "points_counter": 12180,
+                  "sample": 10362180,
+                  "native_s": 5181.09,
+                  "elapsed_nominal_half_s": 5181.020000457764
+                },
+                {
+                  "monotonic_ns": 1553146389457375,
+                  "utc": "2026-11-03T04:55:02.026578+00:00",
+                  "block": 415,
+                  "points_counter": 13360,
+                  "sample": 10363360,
+                  "native_s": 5181.68,
+                  "elapsed_nominal_half_s": 5181.5300006866455
+                }
+              ],
+              "host_bracket_s": 0.585467375,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:01.115488+00:00",
+                  "monotonic_ns": 1553145478367125,
+                  "getter_group_s": 0.14396345801651478,
+                  "y_nm": -1.8651069577657609
+                },
+                {
+                  "utc": "2026-11-03T04:55:01.515344+00:00",
+                  "monotonic_ns": 1553145878222125,
+                  "getter_group_s": 0.041458250023424625,
+                  "y_nm": -1.924493897575985
+                },
+                {
+                  "utc": "2026-11-03T04:55:01.864752+00:00",
+                  "monotonic_ns": 1553146227628041,
+                  "getter_group_s": 0.04159054113551974,
+                  "y_nm": -1.9633275005759288
+                },
+                {
+                  "utc": "2026-11-03T04:55:02.213899+00:00",
+                  "monotonic_ns": 1553146576775000,
+                  "getter_group_s": 0.044039875036105514,
+                  "y_nm": -2.002155774505354
+                }
+              ],
+              "Y_nm": [
+                -2.002155774505354,
+                -1.8651069577657609
+              ],
+              "zero_based_row_interval": [
+                128,
+                129
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10366570,
+            10366574
+          ],
+          "samples": 4,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10366571,
+              "block": 415,
+              "zero_based_row_in_block": 16571,
+              "native_s": 5183.2855,
+              "I_pA": -1163.9545999999998,
+              "Bias_V": -1.0,
+              "Z_nm": -100.69457
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10366569,
+                "block": 415,
+                "zero_based_row_in_block": 16569,
+                "native_s": 5183.2845,
+                "I_pA": -853.981,
+                "Bias_V": -1.0,
+                "Z_nm": -100.88061
+              },
+              {
+                "global_zero_based": 10366570,
+                "block": 415,
+                "zero_based_row_in_block": 16570,
+                "native_s": 5183.285,
+                "I_pA": -1032.326,
+                "Bias_V": -1.0,
+                "Z_nm": -100.78855
+              },
+              {
+                "global_zero_based": 10366571,
+                "block": 415,
+                "zero_based_row_in_block": 16571,
+                "native_s": 5183.2855,
+                "I_pA": -1163.9545999999998,
+                "Bias_V": -1.0,
+                "Z_nm": -100.69457
+              },
+              {
+                "global_zero_based": 10366572,
+                "block": 415,
+                "zero_based_row_in_block": 16572,
+                "native_s": 5183.286,
+                "I_pA": -1115.9486,
+                "Bias_V": -1.0,
+                "Z_nm": -100.59753
+              },
+              {
+                "global_zero_based": 10366573,
+                "block": 415,
+                "zero_based_row_in_block": 16573,
+                "native_s": 5183.2865,
+                "I_pA": -1005.6991999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.50367
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553147466838666,
+                  "utc": "2026-11-03T04:55:03.103960+00:00",
+                  "block": 415,
+                  "points_counter": 15500,
+                  "sample": 10365500,
+                  "native_s": 5182.75,
+                  "elapsed_nominal_half_s": 5182.549999237061
+                },
+                {
+                  "monotonic_ns": 1553148062226375,
+                  "utc": "2026-11-03T04:55:03.699355+00:00",
+                  "block": 415,
+                  "points_counter": 16680,
+                  "sample": 10366680,
+                  "native_s": 5183.34,
+                  "elapsed_nominal_half_s": 5183.069999694824
+                }
+              ],
+              "host_bracket_s": 0.595387709,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:02.903253+00:00",
+                  "monotonic_ns": 1553147266127625,
+                  "getter_group_s": 0.042489875108003616,
+                  "y_nm": -2.08096717635442
+                },
+                {
+                  "utc": "2026-11-03T04:55:03.329907+00:00",
+                  "monotonic_ns": 1553147692778375,
+                  "getter_group_s": 0.122993707889691,
+                  "y_nm": -2.119795006194636
+                },
+                {
+                  "utc": "2026-11-03T04:55:03.702470+00:00",
+                  "monotonic_ns": 1553148065341083,
+                  "getter_group_s": 0.03168037487193942,
+                  "y_nm": -2.172334534478182
+                },
+                {
+                  "utc": "2026-11-03T04:55:04.057960+00:00",
+                  "monotonic_ns": 1553148420829291,
+                  "getter_group_s": 0.04813125007785857,
+                  "y_nm": -2.2145894007508105
+                }
+              ],
+              "Y_nm": [
+                -2.2145894007508105,
+                -2.08096717635442
+              ],
+              "zero_based_row_interval": [
+                129,
+                130
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10369995,
+            10369996
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10369995,
+              "block": 415,
+              "zero_based_row_in_block": 19995,
+              "native_s": 5184.9975,
+              "I_pA": -1038.5718,
+              "Bias_V": -1.0,
+              "Z_nm": -102.30087
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10369993,
+                "block": 415,
+                "zero_based_row_in_block": 19993,
+                "native_s": 5184.9965,
+                "I_pA": -216.0281,
+                "Bias_V": -1.0,
+                "Z_nm": -102.32037
+              },
+              {
+                "global_zero_based": 10369994,
+                "block": 415,
+                "zero_based_row_in_block": 19994,
+                "native_s": 5184.997,
+                "I_pA": -67.39223799999999,
+                "Bias_V": -1.0,
+                "Z_nm": -102.34145
+              },
+              {
+                "global_zero_based": 10369995,
+                "block": 415,
+                "zero_based_row_in_block": 19995,
+                "native_s": 5184.9975,
+                "I_pA": -1038.5718,
+                "Bias_V": -1.0,
+                "Z_nm": -102.30087
+              },
+              {
+                "global_zero_based": 10369996,
+                "block": 415,
+                "zero_based_row_in_block": 19996,
+                "native_s": 5184.9980000000005,
+                "I_pA": -85.375339,
+                "Bias_V": -1.0,
+                "Z_nm": -102.27441
+              },
+              {
+                "global_zero_based": 10369997,
+                "block": 415,
+                "zero_based_row_in_block": 19997,
+                "native_s": 5184.9985,
+                "I_pA": -390.28622,
+                "Bias_V": -1.0,
+                "Z_nm": -102.27959
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553149716421625,
+                  "utc": "2026-11-03T04:55:05.353550+00:00",
+                  "block": 415,
+                  "points_counter": 19980,
+                  "sample": 10369980,
+                  "native_s": 5184.99,
+                  "elapsed_nominal_half_s": 5184.60000038147
+                },
+                {
+                  "monotonic_ns": 1553150261535125,
+                  "utc": "2026-11-03T04:55:05.898664+00:00",
+                  "block": 415,
+                  "points_counter": 21100,
+                  "sample": 10371100,
+                  "native_s": 5185.55,
+                  "elapsed_nominal_half_s": 5185.510000228882
+                }
+              ],
+              "host_bracket_s": 0.5451135,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:05.110252+00:00",
+                  "monotonic_ns": 1553149473119000,
+                  "getter_group_s": 0.044535834109410644,
+                  "y_nm": -2.3333706078432215
+                },
+                {
+                  "utc": "2026-11-03T04:55:05.632807+00:00",
+                  "monotonic_ns": 1553149995674208,
+                  "getter_group_s": 0.2173194580245763,
+                  "y_nm": -2.3733464082908995
+                },
+                {
+                  "utc": "2026-11-03T04:55:06.018346+00:00",
+                  "monotonic_ns": 1553150381214750,
+                  "getter_group_s": 0.03080037492327392,
+                  "y_nm": -2.437302804025876
+                }
+              ],
+              "Y_nm": [
+                -2.437302804025876,
+                -2.3333706078432215
+              ],
+              "zero_based_row_interval": [
+                131,
+                131
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10370213,
+            10370217
+          ],
+          "samples": 4,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10370215,
+              "block": 415,
+              "zero_based_row_in_block": 20215,
+              "native_s": 5185.1075,
+              "I_pA": -1184.14,
+              "Bias_V": -1.0,
+              "Z_nm": -100.92862
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10370213,
+                "block": 415,
+                "zero_based_row_in_block": 20213,
+                "native_s": 5185.1065,
+                "I_pA": -1015.6264,
+                "Bias_V": -1.0,
+                "Z_nm": -101.11894
+              },
+              {
+                "global_zero_based": 10370214,
+                "block": 415,
+                "zero_based_row_in_block": 20214,
+                "native_s": 5185.107,
+                "I_pA": -1042.64,
+                "Bias_V": -1.0,
+                "Z_nm": -101.02720000000001
+              },
+              {
+                "global_zero_based": 10370215,
+                "block": 415,
+                "zero_based_row_in_block": 20215,
+                "native_s": 5185.1075,
+                "I_pA": -1184.14,
+                "Bias_V": -1.0,
+                "Z_nm": -100.92862
+              },
+              {
+                "global_zero_based": 10370216,
+                "block": 415,
+                "zero_based_row_in_block": 20216,
+                "native_s": 5185.108,
+                "I_pA": -1129.5789,
+                "Bias_V": -1.0,
+                "Z_nm": -100.83557
+              },
+              {
+                "global_zero_based": 10370217,
+                "block": 415,
+                "zero_based_row_in_block": 20217,
+                "native_s": 5185.1085,
+                "I_pA": -787.10111,
+                "Bias_V": -1.0,
+                "Z_nm": -100.74658
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553149716421625,
+                  "utc": "2026-11-03T04:55:05.353550+00:00",
+                  "block": 415,
+                  "points_counter": 19980,
+                  "sample": 10369980,
+                  "native_s": 5184.99,
+                  "elapsed_nominal_half_s": 5184.60000038147
+                },
+                {
+                  "monotonic_ns": 1553150261535125,
+                  "utc": "2026-11-03T04:55:05.898664+00:00",
+                  "block": 415,
+                  "points_counter": 21100,
+                  "sample": 10371100,
+                  "native_s": 5185.55,
+                  "elapsed_nominal_half_s": 5185.510000228882
+                }
+              ],
+              "host_bracket_s": 0.5451135,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:05.110252+00:00",
+                  "monotonic_ns": 1553149473119000,
+                  "getter_group_s": 0.044535834109410644,
+                  "y_nm": -2.3333706078432215
+                },
+                {
+                  "utc": "2026-11-03T04:55:05.632807+00:00",
+                  "monotonic_ns": 1553149995674208,
+                  "getter_group_s": 0.2173194580245763,
+                  "y_nm": -2.3733464082908995
+                },
+                {
+                  "utc": "2026-11-03T04:55:06.018346+00:00",
+                  "monotonic_ns": 1553150381214750,
+                  "getter_group_s": 0.03080037492327392,
+                  "y_nm": -2.437302804025876
+                }
+              ],
+              "Y_nm": [
+                -2.437302804025876,
+                -2.3333706078432215
+              ],
+              "zero_based_row_interval": [
+                131,
+                131
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10373637,
+            10373638
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10373637,
+              "block": 415,
+              "zero_based_row_in_block": 23637,
+              "native_s": 5186.8185,
+              "I_pA": -1228.0112,
+              "Bias_V": -1.0,
+              "Z_nm": -102.46221
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10373635,
+                "block": 415,
+                "zero_based_row_in_block": 23635,
+                "native_s": 5186.8175,
+                "I_pA": -330.40479,
+                "Bias_V": -1.0,
+                "Z_nm": -102.50553
+              },
+              {
+                "global_zero_based": 10373636,
+                "block": 415,
+                "zero_based_row_in_block": 23636,
+                "native_s": 5186.818,
+                "I_pA": -72.493102,
+                "Bias_V": -1.0,
+                "Z_nm": -102.49822999999999
+              },
+              {
+                "global_zero_based": 10373637,
+                "block": 415,
+                "zero_based_row_in_block": 23637,
+                "native_s": 5186.8185,
+                "I_pA": -1228.0112,
+                "Bias_V": -1.0,
+                "Z_nm": -102.46221
+              },
+              {
+                "global_zero_based": 10373638,
+                "block": 415,
+                "zero_based_row_in_block": 23638,
+                "native_s": 5186.819,
+                "I_pA": -57.469449000000004,
+                "Bias_V": -1.0,
+                "Z_nm": -102.44993000000001
+              },
+              {
+                "global_zero_based": 10373639,
+                "block": 415,
+                "zero_based_row_in_block": 23639,
+                "native_s": 5186.8195000000005,
+                "I_pA": -312.82435,
+                "Bias_V": -1.0,
+                "Z_nm": -102.45045
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553151408459833,
+                  "utc": "2026-11-03T04:55:07.045598+00:00",
+                  "block": 415,
+                  "points_counter": 23380,
+                  "sample": 10373380,
+                  "native_s": 5186.6900000000005,
+                  "elapsed_nominal_half_s": 5186.540000915527
+                },
+                {
+                  "monotonic_ns": 1553151938497291,
+                  "utc": "2026-11-03T04:55:07.575628+00:00",
+                  "block": 415,
+                  "points_counter": 24420,
+                  "sample": 10374420,
+                  "native_s": 5187.21,
+                  "elapsed_nominal_half_s": 5187.049999237061
+                }
+              ],
+              "host_bracket_s": 0.530037458,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:06.707260+00:00",
+                  "monotonic_ns": 1553151070120041,
+                  "getter_group_s": 0.031156833050772548,
+                  "y_nm": -2.516107988626004
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.052775+00:00",
+                  "monotonic_ns": 1553151415633375,
+                  "getter_group_s": 0.03994633303955197,
+                  "y_nm": -2.5549413695813428
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.436998+00:00",
+                  "monotonic_ns": 1553151799864625,
+                  "getter_group_s": 0.07891070796176791,
+                  "y_nm": -2.598343540327619
+                },
+                {
+                  "utc": "2026-11-03T04:55:08.082341+00:00",
+                  "monotonic_ns": 1553152445197375,
+                  "getter_group_s": 0.33729037502780557,
+                  "y_nm": -2.6383144557939886
+                }
+              ],
+              "Y_nm": [
+                -2.6383144557939886,
+                -2.516107988626004
+              ],
+              "zero_based_row_interval": [
+                132,
+                132
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10373640,
+            10373641
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10373640,
+              "block": 415,
+              "zero_based_row_in_block": 23640,
+              "native_s": 5186.82,
+              "I_pA": -1792.5124,
+              "Bias_V": -1.0,
+              "Z_nm": -102.36118
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10373638,
+                "block": 415,
+                "zero_based_row_in_block": 23638,
+                "native_s": 5186.819,
+                "I_pA": -57.469449000000004,
+                "Bias_V": -1.0,
+                "Z_nm": -102.44993000000001
+              },
+              {
+                "global_zero_based": 10373639,
+                "block": 415,
+                "zero_based_row_in_block": 23639,
+                "native_s": 5186.8195000000005,
+                "I_pA": -312.82435,
+                "Bias_V": -1.0,
+                "Z_nm": -102.45045
+              },
+              {
+                "global_zero_based": 10373640,
+                "block": 415,
+                "zero_based_row_in_block": 23640,
+                "native_s": 5186.82,
+                "I_pA": -1792.5124,
+                "Bias_V": -1.0,
+                "Z_nm": -102.36118
+              },
+              {
+                "global_zero_based": 10373641,
+                "block": 415,
+                "zero_based_row_in_block": 23641,
+                "native_s": 5186.8205,
+                "I_pA": -43.554504,
+                "Bias_V": -1.0,
+                "Z_nm": -102.35122000000001
+              },
+              {
+                "global_zero_based": 10373642,
+                "block": 415,
+                "zero_based_row_in_block": 23642,
+                "native_s": 5186.821,
+                "I_pA": -197.32602,
+                "Bias_V": -1.0,
+                "Z_nm": -102.35589
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553151408459833,
+                  "utc": "2026-11-03T04:55:07.045598+00:00",
+                  "block": 415,
+                  "points_counter": 23380,
+                  "sample": 10373380,
+                  "native_s": 5186.6900000000005,
+                  "elapsed_nominal_half_s": 5186.540000915527
+                },
+                {
+                  "monotonic_ns": 1553151938497291,
+                  "utc": "2026-11-03T04:55:07.575628+00:00",
+                  "block": 415,
+                  "points_counter": 24420,
+                  "sample": 10374420,
+                  "native_s": 5187.21,
+                  "elapsed_nominal_half_s": 5187.049999237061
+                }
+              ],
+              "host_bracket_s": 0.530037458,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:06.707260+00:00",
+                  "monotonic_ns": 1553151070120041,
+                  "getter_group_s": 0.031156833050772548,
+                  "y_nm": -2.516107988626004
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.052775+00:00",
+                  "monotonic_ns": 1553151415633375,
+                  "getter_group_s": 0.03994633303955197,
+                  "y_nm": -2.5549413695813428
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.436998+00:00",
+                  "monotonic_ns": 1553151799864625,
+                  "getter_group_s": 0.07891070796176791,
+                  "y_nm": -2.598343540327619
+                },
+                {
+                  "utc": "2026-11-03T04:55:08.082341+00:00",
+                  "monotonic_ns": 1553152445197375,
+                  "getter_group_s": 0.33729037502780557,
+                  "y_nm": -2.6383144557939886
+                }
+              ],
+              "Y_nm": [
+                -2.6383144557939886,
+                -2.516107988626004
+              ],
+              "zero_based_row_interval": [
+                132,
+                132
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10373862,
+            10373865
+          ],
+          "samples": 3,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10373863,
+              "block": 415,
+              "zero_based_row_in_block": 23863,
+              "native_s": 5186.9315,
+              "I_pA": -1509.4425999999999,
+              "Bias_V": -1.0,
+              "Z_nm": -100.89121
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10373861,
+                "block": 415,
+                "zero_based_row_in_block": 23861,
+                "native_s": 5186.9305,
+                "I_pA": -903.39353,
+                "Bias_V": -1.0,
+                "Z_nm": -101.08642
+              },
+              {
+                "global_zero_based": 10373862,
+                "block": 415,
+                "zero_based_row_in_block": 23862,
+                "native_s": 5186.9310000000005,
+                "I_pA": -1004.7092999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.99435
+              },
+              {
+                "global_zero_based": 10373863,
+                "block": 415,
+                "zero_based_row_in_block": 23863,
+                "native_s": 5186.9315,
+                "I_pA": -1509.4425999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.89121
+              },
+              {
+                "global_zero_based": 10373864,
+                "block": 415,
+                "zero_based_row_in_block": 23864,
+                "native_s": 5186.932,
+                "I_pA": -1353.4578999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.79013
+              },
+              {
+                "global_zero_based": 10373865,
+                "block": 415,
+                "zero_based_row_in_block": 23865,
+                "native_s": 5186.9325,
+                "I_pA": -950.25177,
+                "Bias_V": -1.0,
+                "Z_nm": -100.69172999999999
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553151408459833,
+                  "utc": "2026-11-03T04:55:07.045598+00:00",
+                  "block": 415,
+                  "points_counter": 23380,
+                  "sample": 10373380,
+                  "native_s": 5186.6900000000005,
+                  "elapsed_nominal_half_s": 5186.540000915527
+                },
+                {
+                  "monotonic_ns": 1553151938497291,
+                  "utc": "2026-11-03T04:55:07.575628+00:00",
+                  "block": 415,
+                  "points_counter": 24420,
+                  "sample": 10374420,
+                  "native_s": 5187.21,
+                  "elapsed_nominal_half_s": 5187.049999237061
+                }
+              ],
+              "host_bracket_s": 0.530037458,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:06.707260+00:00",
+                  "monotonic_ns": 1553151070120041,
+                  "getter_group_s": 0.031156833050772548,
+                  "y_nm": -2.516107988626004
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.052775+00:00",
+                  "monotonic_ns": 1553151415633375,
+                  "getter_group_s": 0.03994633303955197,
+                  "y_nm": -2.5549413695813428
+                },
+                {
+                  "utc": "2026-11-03T04:55:07.436998+00:00",
+                  "monotonic_ns": 1553151799864625,
+                  "getter_group_s": 0.07891070796176791,
+                  "y_nm": -2.598343540327619
+                },
+                {
+                  "utc": "2026-11-03T04:55:08.082341+00:00",
+                  "monotonic_ns": 1553152445197375,
+                  "getter_group_s": 0.33729037502780557,
+                  "y_nm": -2.6383144557939886
+                }
+              ],
+              "Y_nm": [
+                -2.6383144557939886,
+                -2.516107988626004
+              ],
+              "zero_based_row_interval": [
+                132,
+                132
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10377511,
+            10377514
+          ],
+          "samples": 3,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10377511,
+              "block": 416,
+              "zero_based_row_in_block": 2511,
+              "native_s": 5188.7555,
+              "I_pA": -1184.625,
+              "Bias_V": -1.0,
+              "Z_nm": -100.90906
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10377509,
+                "block": 416,
+                "zero_based_row_in_block": 2509,
+                "native_s": 5188.7545,
+                "I_pA": -563.70464,
+                "Bias_V": -1.0,
+                "Z_nm": -101.07804
+              },
+              {
+                "global_zero_based": 10377510,
+                "block": 416,
+                "zero_based_row_in_block": 2510,
+                "native_s": 5188.755,
+                "I_pA": -766.62365,
+                "Bias_V": -1.0,
+                "Z_nm": -100.99865
+              },
+              {
+                "global_zero_based": 10377511,
+                "block": 416,
+                "zero_based_row_in_block": 2511,
+                "native_s": 5188.7555,
+                "I_pA": -1184.625,
+                "Bias_V": -1.0,
+                "Z_nm": -100.90906
+              },
+              {
+                "global_zero_based": 10377512,
+                "block": 416,
+                "zero_based_row_in_block": 2512,
+                "native_s": 5188.756,
+                "I_pA": -1069.8411,
+                "Bias_V": -1.0,
+                "Z_nm": -100.81340999999999
+              },
+              {
+                "global_zero_based": 10377513,
+                "block": 416,
+                "zero_based_row_in_block": 2513,
+                "native_s": 5188.7565,
+                "I_pA": -1016.2054999999999,
+                "Bias_V": -1.0,
+                "Z_nm": -100.7174
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553153066486500,
+                  "utc": "2026-11-03T04:55:08.703633+00:00",
+                  "block": 416,
+                  "points_counter": 1700,
+                  "sample": 10376700,
+                  "native_s": 5188.35,
+                  "elapsed_nominal_half_s": 5188.010000228882
+                },
+                {
+                  "monotonic_ns": 1553153599578375,
+                  "utc": "2026-11-03T04:55:09.236724+00:00",
+                  "block": 416,
+                  "points_counter": 2760,
+                  "sample": 10377760,
+                  "native_s": 5188.88,
+                  "elapsed_nominal_half_s": 5188.520000457764
+                }
+              ],
+              "host_bracket_s": 0.533091875,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:55:08.470010+00:00",
+                  "monotonic_ns": 1553152832864458,
+                  "getter_group_s": 0.047590750036761165,
+                  "y_nm": -2.7171198624387216
+                },
+                {
+                  "utc": "2026-11-03T04:55:08.868214+00:00",
+                  "monotonic_ns": 1553153231073666,
+                  "getter_group_s": 0.09388595796190202,
+                  "y_nm": -2.7628062060358616
+                },
+                {
+                  "utc": "2026-11-03T04:55:09.220617+00:00",
+                  "monotonic_ns": 1553153583467666,
+                  "getter_group_s": 0.045318708056584,
+                  "y_nm": -2.8027820064835396
+                },
+                {
+                  "utc": "2026-11-03T04:55:09.571335+00:00",
+                  "monotonic_ns": 1553153934193125,
+                  "getter_group_s": 0.045830834191292524,
+                  "y_nm": -2.8427526999053043
+                }
+              ],
+              "Y_nm": [
+                -2.8427526999053043,
+                -2.7171198624387216
+              ],
+              "zero_based_row_interval": [
+                133,
+                133
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10576390,
+            10576391
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10576390,
+              "block": 424,
+              "zero_based_row_in_block": 1390,
+              "native_s": 5288.195,
+              "I_pA": -1018.6469000000001,
+              "Bias_V": -1.0,
+              "Z_nm": -105.21494
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10576388,
+                "block": 424,
+                "zero_based_row_in_block": 1388,
+                "native_s": 5288.194,
+                "I_pA": -107.79019000000001,
+                "Bias_V": -1.0,
+                "Z_nm": -105.25478
+              },
+              {
+                "global_zero_based": 10576389,
+                "block": 424,
+                "zero_based_row_in_block": 1389,
+                "native_s": 5288.1945000000005,
+                "I_pA": -95.228082,
+                "Bias_V": -1.0,
+                "Z_nm": -105.25363
+              },
+              {
+                "global_zero_based": 10576390,
+                "block": 424,
+                "zero_based_row_in_block": 1390,
+                "native_s": 5288.195,
+                "I_pA": -1018.6469000000001,
+                "Bias_V": -1.0,
+                "Z_nm": -105.21494
+              },
+              {
+                "global_zero_based": 10576391,
+                "block": 424,
+                "zero_based_row_in_block": 1391,
+                "native_s": 5288.1955,
+                "I_pA": -395.51631,
+                "Bias_V": -1.0,
+                "Z_nm": -105.14137
+              },
+              {
+                "global_zero_based": 10576392,
+                "block": 424,
+                "zero_based_row_in_block": 1392,
+                "native_s": 5288.196,
+                "I_pA": -210.48474000000002,
+                "Bias_V": -1.0,
+                "Z_nm": -105.10411
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553252739729458,
+                  "utc": "2026-11-03T04:56:48.377222+00:00",
+                  "block": 424,
+                  "points_counter": 1060,
+                  "sample": 10576060,
+                  "native_s": 5288.03,
+                  "elapsed_nominal_half_s": 5288.010000228882
+                },
+                {
+                  "monotonic_ns": 1553253299947083,
+                  "utc": "2026-11-03T04:56:48.937439+00:00",
+                  "block": 424,
+                  "points_counter": 2180,
+                  "sample": 10577180,
+                  "native_s": 5288.59,
+                  "elapsed_nominal_half_s": 5288.520000457764
+                }
+              ],
+              "host_bracket_s": 0.560217625,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:56:48.126364+00:00",
+                  "monotonic_ns": 1553252488878416,
+                  "getter_group_s": 0.13503875001333654,
+                  "y_nm": -14.099446943305338
+                },
+                {
+                  "utc": "2026-11-03T04:56:48.564153+00:00",
+                  "monotonic_ns": 1553252926654666,
+                  "getter_group_s": 0.12670345907099545,
+                  "y_nm": -14.138281656528306
+                },
+                {
+                  "utc": "2026-11-03T04:56:48.943887+00:00",
+                  "monotonic_ns": 1553253306389375,
+                  "getter_group_s": 0.04399574990384281,
+                  "y_nm": -14.193100028592198
+                },
+                {
+                  "utc": "2026-11-03T04:56:49.287762+00:00",
+                  "monotonic_ns": 1553253650267041,
+                  "getter_group_s": 0.037924415897578,
+                  "y_nm": -14.231933853636747
+                }
+              ],
+              "Y_nm": [
+                -14.231933853636747,
+                -14.099446943305338
+              ],
+              "zero_based_row_interval": [
+                187,
+                188
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10592957,
+            10592958
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10592957,
+              "block": 424,
+              "zero_based_row_in_block": 17957,
+              "native_s": 5296.4785,
+              "I_pA": -1027.5877,
+              "Bias_V": -1.0,
+              "Z_nm": -104.95175
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10592955,
+                "block": 424,
+                "zero_based_row_in_block": 17955,
+                "native_s": 5296.4775,
+                "I_pA": -9.743012799999999,
+                "Bias_V": -1.0,
+                "Z_nm": -104.98209
+              },
+              {
+                "global_zero_based": 10592956,
+                "block": 424,
+                "zero_based_row_in_block": 17956,
+                "native_s": 5296.478,
+                "I_pA": -427.14520999999996,
+                "Bias_V": -1.0,
+                "Z_nm": -105.03098
+              },
+              {
+                "global_zero_based": 10592957,
+                "block": 424,
+                "zero_based_row_in_block": 17957,
+                "native_s": 5296.4785,
+                "I_pA": -1027.5877,
+                "Bias_V": -1.0,
+                "Z_nm": -104.95175
+              },
+              {
+                "global_zero_based": 10592958,
+                "block": 424,
+                "zero_based_row_in_block": 17958,
+                "native_s": 5296.479,
+                "I_pA": -84.99005,
+                "Bias_V": -1.0,
+                "Z_nm": -104.94585000000001
+              },
+              {
+                "global_zero_based": 10592959,
+                "block": 424,
+                "zero_based_row_in_block": 17959,
+                "native_s": 5296.4795,
+                "I_pA": -407.66995,
+                "Bias_V": -1.0,
+                "Z_nm": -104.98355000000001
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553260647094500,
+                  "utc": "2026-11-03T04:56:56.284590+00:00",
+                  "block": 424,
+                  "points_counter": 16860,
+                  "sample": 10591860,
+                  "native_s": 5295.93,
+                  "elapsed_nominal_half_s": 5295.579999923706
+                },
+                {
+                  "monotonic_ns": 1553261202531208,
+                  "utc": "2026-11-03T04:56:56.840025+00:00",
+                  "block": 424,
+                  "points_counter": 17960,
+                  "sample": 10592960,
+                  "native_s": 5296.4800000000005,
+                  "elapsed_nominal_half_s": 5296.090000152588
+                }
+              ],
+              "host_bracket_s": 0.555436708,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:56:56.039416+00:00",
+                  "monotonic_ns": 1553260401922833,
+                  "getter_group_s": 0.04330849996767938,
+                  "y_nm": -15.00285939926016
+                },
+                {
+                  "utc": "2026-11-03T04:56:56.408949+00:00",
+                  "monotonic_ns": 1553260771455750,
+                  "getter_group_s": 0.06204250012524426,
+                  "y_nm": -15.045118928469492
+                },
+                {
+                  "utc": "2026-11-03T04:56:56.767061+00:00",
+                  "monotonic_ns": 1553261129563250,
+                  "getter_group_s": 0.04569712490774691,
+                  "y_nm": -15.08623626023109
+                },
+                {
+                  "utc": "2026-11-03T04:56:57.140240+00:00",
+                  "monotonic_ns": 1553261502744625,
+                  "getter_group_s": 0.06556912488304079,
+                  "y_nm": -15.128490460369903
+                }
+              ],
+              "Y_nm": [
+                -15.128490460369903,
+                -15.00285939926016
+              ],
+              "zero_based_row_interval": [
+                192,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10593289,
+            10593290
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10593289,
+              "block": 424,
+              "zero_based_row_in_block": 18289,
+              "native_s": 5296.6445,
+              "I_pA": -1606.9838,
+              "Bias_V": -1.0,
+              "Z_nm": -105.04142
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10593287,
+                "block": 424,
+                "zero_based_row_in_block": 18287,
+                "native_s": 5296.6435,
+                "I_pA": -124.72089,
+                "Bias_V": -1.0,
+                "Z_nm": -105.15268
+              },
+              {
+                "global_zero_based": 10593288,
+                "block": 424,
+                "zero_based_row_in_block": 18288,
+                "native_s": 5296.644,
+                "I_pA": -480.10512,
+                "Bias_V": -1.0,
+                "Z_nm": -105.13611
+              },
+              {
+                "global_zero_based": 10593289,
+                "block": 424,
+                "zero_based_row_in_block": 18289,
+                "native_s": 5296.6445,
+                "I_pA": -1606.9838,
+                "Bias_V": -1.0,
+                "Z_nm": -105.04142
+              },
+              {
+                "global_zero_based": 10593290,
+                "block": 424,
+                "zero_based_row_in_block": 18290,
+                "native_s": 5296.645,
+                "I_pA": -427.87257,
+                "Bias_V": -1.0,
+                "Z_nm": -104.9691
+              },
+              {
+                "global_zero_based": 10593291,
+                "block": 424,
+                "zero_based_row_in_block": 18291,
+                "native_s": 5296.6455000000005,
+                "I_pA": -10.511446000000001,
+                "Bias_V": -1.0,
+                "Z_nm": -105.05000000000001
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553261202531208,
+                  "utc": "2026-11-03T04:56:56.840025+00:00",
+                  "block": 424,
+                  "points_counter": 17960,
+                  "sample": 10592960,
+                  "native_s": 5296.4800000000005,
+                  "elapsed_nominal_half_s": 5296.090000152588
+                },
+                {
+                  "monotonic_ns": 1553261767943500,
+                  "utc": "2026-11-03T04:56:57.405441+00:00",
+                  "block": 424,
+                  "points_counter": 19100,
+                  "sample": 10594100,
+                  "native_s": 5297.05,
+                  "elapsed_nominal_half_s": 5296.60000038147
+                }
+              ],
+              "host_bracket_s": 0.565412292,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:56:56.767061+00:00",
+                  "monotonic_ns": 1553261129563250,
+                  "getter_group_s": 0.04569712490774691,
+                  "y_nm": -15.08623626023109
+                },
+                {
+                  "utc": "2026-11-03T04:56:57.140240+00:00",
+                  "monotonic_ns": 1553261502744625,
+                  "getter_group_s": 0.06556912488304079,
+                  "y_nm": -15.128490460369903
+                },
+                {
+                  "utc": "2026-11-03T04:56:57.578401+00:00",
+                  "monotonic_ns": 1553261940899958,
+                  "getter_group_s": 0.13034241716377437,
+                  "y_nm": -15.167326949949711
+                }
+              ],
+              "Y_nm": [
+                -15.167326949949711,
+                -15.08623626023109
+              ],
+              "zero_based_row_interval": [
+                192,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10593293,
+            10593295
+          ],
+          "samples": 2,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10593294,
+              "block": 424,
+              "zero_based_row_in_block": 18294,
+              "native_s": 5296.647,
+              "I_pA": -1275.5010000000002,
+              "Bias_V": -1.0,
+              "Z_nm": -104.96429
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10593292,
+                "block": 424,
+                "zero_based_row_in_block": 18292,
+                "native_s": 5296.646,
+                "I_pA": -60.721712000000004,
+                "Bias_V": -1.0,
+                "Z_nm": -105.09517
+              },
+              {
+                "global_zero_based": 10593293,
+                "block": 424,
+                "zero_based_row_in_block": 18293,
+                "native_s": 5296.6465,
+                "I_pA": -1192.8784,
+                "Bias_V": -1.0,
+                "Z_nm": -105.07060000000001
+              },
+              {
+                "global_zero_based": 10593294,
+                "block": 424,
+                "zero_based_row_in_block": 18294,
+                "native_s": 5296.647,
+                "I_pA": -1275.5010000000002,
+                "Bias_V": -1.0,
+                "Z_nm": -104.96429
+              },
+              {
+                "global_zero_based": 10593295,
+                "block": 424,
+                "zero_based_row_in_block": 18295,
+                "native_s": 5296.6475,
+                "I_pA": -273.66284,
+                "Bias_V": -1.0,
+                "Z_nm": -104.90602000000001
+              },
+              {
+                "global_zero_based": 10593296,
+                "block": 424,
+                "zero_based_row_in_block": 18296,
+                "native_s": 5296.648,
+                "I_pA": -41.1427,
+                "Bias_V": -1.0,
+                "Z_nm": -104.93691
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553261202531208,
+                  "utc": "2026-11-03T04:56:56.840025+00:00",
+                  "block": 424,
+                  "points_counter": 17960,
+                  "sample": 10592960,
+                  "native_s": 5296.4800000000005,
+                  "elapsed_nominal_half_s": 5296.090000152588
+                },
+                {
+                  "monotonic_ns": 1553261767943500,
+                  "utc": "2026-11-03T04:56:57.405441+00:00",
+                  "block": 424,
+                  "points_counter": 19100,
+                  "sample": 10594100,
+                  "native_s": 5297.05,
+                  "elapsed_nominal_half_s": 5296.60000038147
+                }
+              ],
+              "host_bracket_s": 0.565412292,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:56:56.767061+00:00",
+                  "monotonic_ns": 1553261129563250,
+                  "getter_group_s": 0.04569712490774691,
+                  "y_nm": -15.08623626023109
+                },
+                {
+                  "utc": "2026-11-03T04:56:57.140240+00:00",
+                  "monotonic_ns": 1553261502744625,
+                  "getter_group_s": 0.06556912488304079,
+                  "y_nm": -15.128490460369903
+                },
+                {
+                  "utc": "2026-11-03T04:56:57.578401+00:00",
+                  "monotonic_ns": 1553261940899958,
+                  "getter_group_s": 0.13034241716377437,
+                  "y_nm": -15.167326949949711
+                }
+              ],
+              "Y_nm": [
+                -15.167326949949711,
+                -15.08623626023109
+              ],
+              "zero_based_row_interval": [
+                192,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "global_half_open": [
+            10596943,
+            10596944
+          ],
+          "samples": 1,
+          "peak": {
+            "peak": {
+              "global_zero_based": 10596943,
+              "block": 424,
+              "zero_based_row_in_block": 21943,
+              "native_s": 5298.471500000001,
+              "I_pA": -1792.5903,
+              "Bias_V": -1.0,
+              "Z_nm": -105.05897
+            },
+            "nearby_native_rows": [
+              {
+                "global_zero_based": 10596941,
+                "block": 424,
+                "zero_based_row_in_block": 21941,
+                "native_s": 5298.4705,
+                "I_pA": -135.50397,
+                "Bias_V": -1.0,
+                "Z_nm": -105.1669
+              },
+              {
+                "global_zero_based": 10596942,
+                "block": 424,
+                "zero_based_row_in_block": 21942,
+                "native_s": 5298.4710000000005,
+                "I_pA": -323.3534,
+                "Bias_V": -1.0,
+                "Z_nm": -105.15002000000001
+              },
+              {
+                "global_zero_based": 10596943,
+                "block": 424,
+                "zero_based_row_in_block": 21943,
+                "native_s": 5298.471500000001,
+                "I_pA": -1792.5903,
+                "Bias_V": -1.0,
+                "Z_nm": -105.05897
+              },
+              {
+                "global_zero_based": 10596944,
+                "block": 424,
+                "zero_based_row_in_block": 21944,
+                "native_s": 5298.472,
+                "I_pA": -195.03292,
+                "Bias_V": -1.0,
+                "Z_nm": -105.0063
+              },
+              {
+                "global_zero_based": 10596945,
+                "block": 424,
+                "zero_based_row_in_block": 21945,
+                "native_s": 5298.4725,
+                "I_pA": -86.10852299999999,
+                "Bias_V": -1.0,
+                "Z_nm": -105.01441
+              }
+            ],
+            "slow_axis": {
+              "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+              "native_counter_bracket": [
+                {
+                  "monotonic_ns": 1553262916935833,
+                  "utc": "2026-11-03T04:56:58.554425+00:00",
+                  "block": 424,
+                  "points_counter": 21400,
+                  "sample": 10596400,
+                  "native_s": 5298.2,
+                  "elapsed_nominal_half_s": 5298.010000228882
+                },
+                {
+                  "monotonic_ns": 1553263461074625,
+                  "utc": "2026-11-03T04:56:59.098574+00:00",
+                  "block": 424,
+                  "points_counter": 22500,
+                  "sample": 10597500,
+                  "native_s": 5298.75,
+                  "elapsed_nominal_half_s": 5298.520000457764
+                }
+              ],
+              "host_bracket_s": 0.544138792,
+              "enclosing_running_Y_reads": [
+                {
+                  "utc": "2026-11-03T04:56:58.350024+00:00",
+                  "monotonic_ns": 1553262712537750,
+                  "getter_group_s": 0.054207999957725406,
+                  "y_nm": -15.267833219922977
+                },
+                {
+                  "utc": "2026-11-03T04:56:58.700718+00:00",
+                  "monotonic_ns": 1553263063215791,
+                  "getter_group_s": 0.043439292116090655,
+                  "y_nm": -15.30780835423684
+                },
+                {
+                  "utc": "2026-11-03T04:56:59.066485+00:00",
+                  "monotonic_ns": 1553263428982000,
+                  "getter_group_s": 0.05916779092513025,
+                  "y_nm": -15.347778159480185
+                },
+                {
+                  "utc": "2026-11-03T04:56:59.425952+00:00",
+                  "monotonic_ns": 1553263788450625,
+                  "getter_group_s": 0.05157299991697073,
+                  "y_nm": -15.390039465046357
+                }
+              ],
+              "Y_nm": [
+                -15.390039465046357,
+                -15.267833219922977
+              ],
+              "zero_based_row_interval": [
+                193,
+                193
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "4000": {
+      "samples": 0,
+      "groups": 0,
+      "stored_sample_occupancy_ms": 0.0,
+      "events": []
+    }
+  },
+  "all_range_most_negative": {
+    "peak": {
+      "global_zero_based": 10596943,
+      "block": 424,
+      "zero_based_row_in_block": 21943,
+      "native_s": 5298.471500000001,
+      "I_pA": -1792.5903,
+      "Bias_V": -1.0,
+      "Z_nm": -105.05897
+    },
+    "nearby_native_rows": [
+      {
+        "global_zero_based": 10596941,
+        "block": 424,
+        "zero_based_row_in_block": 21941,
+        "native_s": 5298.4705,
+        "I_pA": -135.50397,
+        "Bias_V": -1.0,
+        "Z_nm": -105.1669
+      },
+      {
+        "global_zero_based": 10596942,
+        "block": 424,
+        "zero_based_row_in_block": 21942,
+        "native_s": 5298.4710000000005,
+        "I_pA": -323.3534,
+        "Bias_V": -1.0,
+        "Z_nm": -105.15002000000001
+      },
+      {
+        "global_zero_based": 10596943,
+        "block": 424,
+        "zero_based_row_in_block": 21943,
+        "native_s": 5298.471500000001,
+        "I_pA": -1792.5903,
+        "Bias_V": -1.0,
+        "Z_nm": -105.05897
+      },
+      {
+        "global_zero_based": 10596944,
+        "block": 424,
+        "zero_based_row_in_block": 21944,
+        "native_s": 5298.472,
+        "I_pA": -195.03292,
+        "Bias_V": -1.0,
+        "Z_nm": -105.0063
+      },
+      {
+        "global_zero_based": 10596945,
+        "block": 424,
+        "zero_based_row_in_block": 21945,
+        "native_s": 5298.4725,
+        "I_pA": -86.10852299999999,
+        "Bias_V": -1.0,
+        "Z_nm": -105.01441
+      }
+    ],
+    "slow_axis": {
+      "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+      "native_counter_bracket": [
+        {
+          "monotonic_ns": 1553262916935833,
+          "utc": "2026-11-03T04:56:58.554425+00:00",
+          "block": 424,
+          "points_counter": 21400,
+          "sample": 10596400,
+          "native_s": 5298.2,
+          "elapsed_nominal_half_s": 5298.010000228882
+        },
+        {
+          "monotonic_ns": 1553263461074625,
+          "utc": "2026-11-03T04:56:59.098574+00:00",
+          "block": 424,
+          "points_counter": 22500,
+          "sample": 10597500,
+          "native_s": 5298.75,
+          "elapsed_nominal_half_s": 5298.520000457764
+        }
+      ],
+      "host_bracket_s": 0.544138792,
+      "enclosing_running_Y_reads": [
+        {
+          "utc": "2026-11-03T04:56:58.350024+00:00",
+          "monotonic_ns": 1553262712537750,
+          "getter_group_s": 0.054207999957725406,
+          "y_nm": -15.267833219922977
+        },
+        {
+          "utc": "2026-11-03T04:56:58.700718+00:00",
+          "monotonic_ns": 1553263063215791,
+          "getter_group_s": 0.043439292116090655,
+          "y_nm": -15.30780835423684
+        },
+        {
+          "utc": "2026-11-03T04:56:59.066485+00:00",
+          "monotonic_ns": 1553263428982000,
+          "getter_group_s": 0.05916779092513025,
+          "y_nm": -15.347778159480185
+        },
+        {
+          "utc": "2026-11-03T04:56:59.425952+00:00",
+          "monotonic_ns": 1553263788450625,
+          "getter_group_s": 0.05157299991697073,
+          "y_nm": -15.390039465046357
+        }
+      ],
+      "Y_nm": [
+        -15.390039465046357,
+        -15.267833219922977
+      ],
+      "zero_based_row_interval": [
+        193,
+        193
+      ]
+    }
+  },
+  "all_range_most_positive": {
+    "peak": {
+      "global_zero_based": 10370969,
+      "block": 415,
+      "zero_based_row_in_block": 20969,
+      "native_s": 5185.4845000000005,
+      "I_pA": -7.3864456,
+      "Bias_V": -1.0,
+      "Z_nm": -101.17207
+    },
+    "nearby_native_rows": [
+      {
+        "global_zero_based": 10370967,
+        "block": 415,
+        "zero_based_row_in_block": 20967,
+        "native_s": 5185.4835,
+        "I_pA": -10.111666,
+        "Bias_V": -1.0,
+        "Z_nm": -100.96942
+      },
+      {
+        "global_zero_based": 10370968,
+        "block": 415,
+        "zero_based_row_in_block": 20968,
+        "native_s": 5185.484,
+        "I_pA": -9.6624462,
+        "Bias_V": -1.0,
+        "Z_nm": -101.06998999999999
+      },
+      {
+        "global_zero_based": 10370969,
+        "block": 415,
+        "zero_based_row_in_block": 20969,
+        "native_s": 5185.4845000000005,
+        "I_pA": -7.3864456,
+        "Bias_V": -1.0,
+        "Z_nm": -101.17207
+      },
+      {
+        "global_zero_based": 10370970,
+        "block": 415,
+        "zero_based_row_in_block": 20970,
+        "native_s": 5185.485,
+        "I_pA": -9.7674273,
+        "Bias_V": -1.0,
+        "Z_nm": -101.26573
+      },
+      {
+        "global_zero_based": 10370971,
+        "block": 415,
+        "zero_based_row_in_block": 20971,
+        "native_s": 5185.4855,
+        "I_pA": -13.896914,
+        "Bias_V": -1.0,
+        "Z_nm": -101.35619
+      }
+    ],
+    "slow_axis": {
+      "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+      "native_counter_bracket": [
+        {
+          "monotonic_ns": 1553149716421625,
+          "utc": "2026-11-03T04:55:05.353550+00:00",
+          "block": 415,
+          "points_counter": 19980,
+          "sample": 10369980,
+          "native_s": 5184.99,
+          "elapsed_nominal_half_s": 5184.60000038147
+        },
+        {
+          "monotonic_ns": 1553150261535125,
+          "utc": "2026-11-03T04:55:05.898664+00:00",
+          "block": 415,
+          "points_counter": 21100,
+          "sample": 10371100,
+          "native_s": 5185.55,
+          "elapsed_nominal_half_s": 5185.510000228882
+        }
+      ],
+      "host_bracket_s": 0.5451135,
+      "enclosing_running_Y_reads": [
+        {
+          "utc": "2026-11-03T04:55:05.110252+00:00",
+          "monotonic_ns": 1553149473119000,
+          "getter_group_s": 0.044535834109410644,
+          "y_nm": -2.3333706078432215
+        },
+        {
+          "utc": "2026-11-03T04:55:05.632807+00:00",
+          "monotonic_ns": 1553149995674208,
+          "getter_group_s": 0.2173194580245763,
+          "y_nm": -2.3733464082908995
+        },
+        {
+          "utc": "2026-11-03T04:55:06.018346+00:00",
+          "monotonic_ns": 1553150381214750,
+          "getter_group_s": 0.03080037492327392,
+          "y_nm": -2.437302804025876
+        }
+      ],
+      "Y_nm": [
+        -2.437302804025876,
+        -2.3333706078432215
+      ],
+      "zero_based_row_interval": [
+        131,
+        131
+      ]
+    }
+  },
+  "matches_historical_negative_digitizer_value_samples": 0,
+  "current_minmax_pA": [
+    -1792.5903,
+    -7.3864456
+  ],
+  "blocks": [
+    396,
+    431
+  ],
+  "rows": 900000,
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/post212_native_receipt.json",
+    "sha256": "fb9360bea7a582f30d39ee139331b9e1fda641f77a2c957e5881061736fd264b"
+  },
+  "blocks_sha256": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600396.dat",
+      "sha256": "92df17482b1162b700b300249c5c8cf62b0154063a824732b802db76a6ef71c7",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600397.dat",
+      "sha256": "3d5f33ce38ddd5b3a38578b5167d1b2b61534894ca1159726d8a94bb9df807f0",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600398.dat",
+      "sha256": "489a8c4d57fd0ca3313e2222fe57fc2de281e91fa57299ee2f24e4870b3721e9",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600399.dat",
+      "sha256": "a0b952c6d78f7fce7adbbdd76428456b2028b38d10af37c532477af8e74c1bdb",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600400.dat",
+      "sha256": "ae9f290ad96f1902ae647ba8d69efeb20a8869d5f3c7f6355fd42d79587f0e57",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600401.dat",
+      "sha256": "3b19e0ed8c959386475bf43a1c8e3240c54479c51424c1c5af77f343a2f207fb",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600402.dat",
+      "sha256": "be040064f9521461c15a9801df9c19e2eabb96115a7045bf7a76bdee6a47d9a0",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600403.dat",
+      "sha256": "d3d475b3680d0a7e9662c952e29ffa593757217d930b85d9e7588716ff3ed69a",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600404.dat",
+      "sha256": "06f33c0e070a12ea7cdb913016c49ec4777db14eda508f604cd80140544d54dc",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600405.dat",
+      "sha256": "4810a29359c81c8d986759e848e78cad8c30fded5de23bc2882d2d8f8fd7271b",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600406.dat",
+      "sha256": "784c9871317390573627631d2ffd428201b260cc2806cf2d9214da23b139fc35",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600407.dat",
+      "sha256": "0aaf99e6187cd3cab7c452c79bafdec676e8b7e49584a8bcb54fe17b816dd0c8",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600408.dat",
+      "sha256": "54166f296127f171ca651d949b6db9417be78c274c4b149e4419c840da0c0601",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600409.dat",
+      "sha256": "2c4a8976b6262173cacb1b7c612825f390239e27763958fce51dda4b28fa9a23",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600410.dat",
+      "sha256": "ed1faf3c662cc17d686c04fb964ae357625f52e33544de3d1a438cc1be79decc",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600411.dat",
+      "sha256": "dbde8d45f8d0269307968a7a60f43773ec90a8f3af495f5d3e08f4040421b667",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600412.dat",
+      "sha256": "eb5d8e6a5a18af159da63ac07c8b9d6db4451413318aa556ebcfe63211ddf56f",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600413.dat",
+      "sha256": "3222550c1e9688d7ab9c6ef35a2539d30281049587ad079792c56c297ffc4901",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600414.dat",
+      "sha256": "4b22f9ca0e7787e6871b488697f8836f7fe21324b44294a9df4948724d6aaa91",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600415.dat",
+      "sha256": "c49eebfe499503520e14009dbc1b37efd01d717bbc72d55f7672397efa87e582",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600416.dat",
+      "sha256": "ad066dcef31b83fcb975e1bc22440cf50316b6f6a82892e39c845bcf0e4d4f1e",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600417.dat",
+      "sha256": "766a84b7a443c9d22a1719a58a7c4b8edb0d8be05c09f9979aa7593578c65fb3",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600418.dat",
+      "sha256": "c268125a8029b41ece3b435482d8c9853c830d140b0552054d7e70ea730072d8",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600419.dat",
+      "sha256": "eb50f07bcfc4423b1c1860241e06f38f74c60ddb43cbaa1a4af2eeaabd692a56",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600420.dat",
+      "sha256": "51d916bf473c283e9deda5f8de8c4747c58f0e1c46584b9acc464fb74c11faaf",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600421.dat",
+      "sha256": "bae9403e77b9c0ded65e3470b7552d577783ea077d687e505b74daf6b9bc2d05",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600422.dat",
+      "sha256": "1ba474e1d6f0284b3ff8864d45b25a9c1cc1740142ef210da81d6f7581bf373f",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600423.dat",
+      "sha256": "879cf081c8dcfbc95a253ec4a4513e9c55a8eb7bf39e744e0cde2fd23a3149b9",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600424.dat",
+      "sha256": "d8a50c9b609cbab2e33663f9f6bc591b732588002ff7d0e8d30eac3f57cb1720",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600425.dat",
+      "sha256": "31211f2e549859ab2f02f22e520feb01e4a14b9957919b48a3997261dd6e727a",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600426.dat",
+      "sha256": "1a7b461f09e1dc2c10306dd57038f36c9a450f4a8d3006528f281be1a828d120",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600427.dat",
+      "sha256": "59e819a6acb96ef0966820729ba223ebf3dadca168e727edb28346cb75a41c3b",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600428.dat",
+      "sha256": "639895491e8fbc57e6906e8a432d984b3dac172916025a8b3a294c1ac5113ee2",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600429.dat",
+      "sha256": "f63381e50ac9b197b5d43ec8f1b4970f20325f2bfc792ead965cf257ebb76585",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600430.dat",
+      "sha256": "91017c8889ecf3690d69ed0dfc2296ca548f86fa219c547b33ca80a8d7524150",
+      "rows": 25000
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600431.dat",
+      "sha256": "0799a22129c2e868d4fa44717d7c552685866d10cbb5b36ae1a897a3ba89b05c",
+      "rows": 25000
+    }
+  ],
+  "manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/manifest.json",
+    "sha256": "b31e48d7c61e91599d1e2485fc57b32e96c2e276944ceb3e47714a184bdddea4"
+  },
+  "logger_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/events.jsonl",
+    "complete_prefix_bytes": 155081354,
+    "complete_prefix_sha256": "42345d87c405ebc136a9198d7f9b4a5531fee1bf2eb471e7b252bc084ed036b2"
+  },
+  "scan_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/events.jsonl",
+    "complete_prefix_bytes": 31540915,
+    "complete_prefix_sha256": "efa2b0d2e16cc5b8ec220a85717a36cd80f2286b4893fe349a87cc94631cd34a"
+  },
+  "script_sha256": "0d964680cc3b8d89890f67c8f5978d8821c37a6095c1f28e4dc2181939ca1cfd",
+  "scope": "Counter/host/slow-axis mapping only. Current thresholds are descriptive sample levels. The raw logger has no XY; output cannot assign exact pixels, pass direction, or simultaneous XY. Grouped readback and native buffering delays are uncalibrated."
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "local-au111-R06-P02-induction-pulse-v1",
+  "episode_id": "continuing_20261101_1939",
+  "case_id": "R06_usable211_induction_P02",
+  "session_id": "session_02",
+  "action_id": "P02",
+  "induction_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P02.admission.json",
+    "sha256": "8cc618848b743205903517d574a35b1b74f0b7d0cd4befec74596e719c3b4e86"
+  },
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "pulse_attempts_before": 3,
+  "pulse_ordinal": 4,
+  "consecutive_no_improvement_before": 1,
+  "action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -5.7,
+      1,
+      2
+    ],
+    "resting_bias_V": -1.0,
+    "preparation_current_A": 1e-09,
+    "imaging_current_A": 1e-10
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_id": "current_211_end_corner_minus25_minus25nm",
+  "origin": "task_usable_baseline_induction",
+  "max_pulses_total": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "preparation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+    "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+  },
+  "preparation_manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/manifest.json",
+    "sha256": "4f603a98439bbe2d10db0b53f13957c74b9e750c3ab3b204aa2c0b8f4126a733"
+  },
+  "preparation_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/root_prepare_native_and_pulse_choice.json",
+    "sha256": "7d8524befeacae1be452093142e8ab4f6d9d3577167ce1be2b36234777ac369e"
+  },
+  "utc": "2026-11-03T04:40:44.315976+00:00",
+  "monotonic_ns": 1552288681808000
+}

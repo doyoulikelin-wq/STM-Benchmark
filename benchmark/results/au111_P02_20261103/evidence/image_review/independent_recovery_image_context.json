@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-03T04:46:29.217266+00:00",
+  "scope": "Image-only independent-recovery version; instrument-free; original success-path candidate unchanged.",
+  "original_prospective_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_image_review/prospective_image_review_plan.json",
+    "sha256": "993009578a95d550b9a18b729306bec06c525c7ecd1f147f09336958b41679a3"
+  },
+  "expected_after_event": "after_R06_P02_recovery_full",
+  "caption_zh": "P02已执行、独立恢复后完整图",
+  "failed_pulse": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+    "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+  },
+  "readonly_recovery": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+    "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+  },
+  "separate_return_expected": "session_02/recovery_return_P02_01",
+  "original_pulse_post30_executed": false,
+  "original_failure_preserved": true,
+  "status_explanation": "原程序首次恢复读回未满足既定On2/allidle判据而停止；后续恢复由独立只读窗口和独立返回段证明。",
+  "criteria": "原P02前瞻图像判断不变，C1/C3为主，S1为补充，C2/D4和旧I03丘体只作局部变化检查。",
+  "display": "完整原始Z数值范围及既已冻结210台阶尺度都保留。新图注保留实际失败与独立恢复过程。",
+  "current_after_image_available": false
+}

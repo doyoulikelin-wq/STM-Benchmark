@@ -1,0 +1,75 @@
+{
+  "schema": "R06-P02-knownACK-recovery-return-v1",
+  "session_id": "session_02",
+  "action_id": "P02",
+  "event_id": "recovery_return_P02_01",
+  "recording_segment_id": "R06",
+  "source_sha256": "cc6c585ed54d5edef4c0a927648075ff7ded0b57d3db891f83354f00408033bd",
+  "root_reviewed_one_recovery": true,
+  "exclusive_root_writer": true,
+  "stop_requested": false,
+  "unresolved_previous_execution": false,
+  "no_unplanned_intervention_since_pulse": true,
+  "max_attempts": 1,
+  "no_automatic_retry": true,
+  "new_pulse_permitted": false,
+  "pulse_attempts_total": 4,
+  "pulse_count_reset": false,
+  "purpose": "independent_reduce_known_1nA_after_P02_to100pA",
+  "original_pulse_status_preserved": "uncertain_or_recovery_failed",
+  "original_post_guard_succeeded": false,
+  "starting_target_A": 9.999999717180685e-10,
+  "SetpntSet_targets_A": [
+    9.313225746154785e-10,
+    7.450580707946131e-10,
+    5.9604643443123e-10,
+    4.768371808516747e-10,
+    3.8146971692576415e-10,
+    3.051757735406113e-10,
+    2.441406243836042e-10,
+    1.953125022824409e-10,
+    1.5624999905039516e-10,
+    1.2499999646475857e-10,
+    1.000000013351432e-10
+  ],
+  "failed_pulse_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+    "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+  },
+  "proof_pins": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/setpoint_R06_induction_P02_once.py": "d0bdb34e6d44f946352b4111e8306568e2b3a1511b6f998f7cec9c6b831b5a65",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/pulse_R06_induction_P02_once.py": "e9ca1fd00da56dfc11c26b95d22e5f5ab6346a8bda3600c8f1e1fa46bb032998",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_P02.admission.json": "8cc618848b743205903517d574a35b1b74f0b7d0cd4befec74596e719c3b4e86",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_P02.ledger.json": "585533a6565c663d96b49805a9492f37f59d1075d10c106bd01522c8710c7fa5",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_04.claim": "cffc21a6480e6a16b05caafdd53f63de9e126b4dc75e147c8c38ebd88ea85167",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/manifest.json": "d6df4443895cb802fa94dfdd894e13c4b3e8e533543e4d549b8db92032ef161a",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/pulse.claim": "41f75fdd19253c9c8cd96be76e054831adb69563ec97287fe7cf7d00aad44ace",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/pulse_ack.json": "27ab8cb6b3b85777ed44d77f0aec3e2d43912b2e316dda0de79cdce0fa6c16c5",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/session_reservation.json": "d77383b2460c6ee0967926d0235a26f36b91c409e07dbcb02a5375b7f028b291",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/immediate_after.json": "e457bb9d1246a6b4deef009511f65d21983ddac2ea5484ac4bbb85f82dceaca8",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/exception_recheck_00.json": "831a8fa71e257d1208b20be68ed1493c8808d38bd3034a594f37ced48b25072d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/logger_ready_bound.json": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/manifest.json": "4f603a98439bbe2d10db0b53f13957c74b9e750c3ab3b204aa2c0b8f4126a733"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "readonly_recovery_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+    "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+  },
+  "readonly_recovery_samples": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/samples.json",
+    "sha256": "39942a5a2ad3a8fcb9dc87ef739742047cd2ddac46bf8f549cdf0b554caa0bb5"
+  },
+  "native_recovery_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/root_independent_recovery_return_native_choice.json",
+    "sha256": "2ea4529dc8f94f2d9905fa6a0f5b90efaeffda20386450c6a3fe2d3d9444b758"
+  },
+  "monotonic_ns": 1552655468646833,
+  "reason": "Known pulse completion, independent observed recovery established while original immediateHold rejection remains. One original11step reduce1nA→100pA at samecorner for matched completeoutcome image, sameR06 logger and 4 cumulativepulses. No retry ofpulse, independentrecovery stage atmostonce.",
+  "utc": "2026-11-03T04:46:51.104071+00:00"
+}

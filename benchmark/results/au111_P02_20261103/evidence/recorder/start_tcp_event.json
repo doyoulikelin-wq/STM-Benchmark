@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-03T03:28:40.362432+00:00",
+  "monotonic_ns": 1547964743130000,
+  "kind": "tcp_exchange",
+  "sequence": 200,
+  "request_id": "e5672b69a3b243a4b0030349d48ecbc9",
+  "command": "DataLog.Start",
+  "args": [],
+  "request_header": {
+    "path": "wire/0000200_request_header.bin",
+    "sha256": "ff0330dbd8d55fa1b9f4e59e312b145bb3a54fdf0f9454833e28874bd1ef1191",
+    "bytes": 40
+  },
+  "request_body": {
+    "path": "wire/0000200_request_body.bin",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "response_header": {
+    "path": "wire/0000200_response_header.bin",
+    "sha256": "cc54948f03c5bf366653dc76356dbfa9fa9844782d342d997eda7baf06c68d9b",
+    "bytes": 40
+  },
+  "response_body": {
+    "path": "wire/0000200_response_body.bin",
+    "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+    "bytes": 8
+  },
+  "start_utc": "2026-11-03T03:28:40.361356+00:00",
+  "start_perf": 1547964.742033541,
+  "end_utc": "2026-11-03T03:28:40.362018+00:00",
+  "end_perf": 1547964.742716333,
+  "status": "ok",
+  "error": null,
+  "warning": "",
+  "duration_s": 0.0006827919278293848
+}

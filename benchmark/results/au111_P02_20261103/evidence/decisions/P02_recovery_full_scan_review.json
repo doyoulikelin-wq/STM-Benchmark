@@ -1,0 +1,66 @@
+{
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/outcome.json",
+    "sha256": "40fdf15db406993d628e5d7f855183f1a83cc9f7793d4c405ed5ab2dceaeb55e"
+  },
+  "poststage_recovery_reviewed": true,
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "reason": "Actual originalpulse4knownACK andfirstHoldstatusfailure retained. Separate57read30s plusnative recoverythen11descendingSetACK knowncomplete100pA. All11stepinternalnativewindows in respective±20%band; final29.23snativeI−111.645..−89.372pA,Zresidual1.357pm. Subsequent28.91sI−109.344..−90.512pA,Z1.239pm,no400pAevents. No unresolvedstate ornewconditioning. Select one matchedcomplete50nm240squareDOWN−1V100pA. Compare functionalimage with211, no repaircount increment withoutactualvalidatedbadandrepair.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_native_phases.json",
+      "sha256": "46a707bfec1f707063c67b7c185d8d2e6634995c36fb3c823ab1ee5a0ffc48c2"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_postroll.json",
+      "sha256": "e506a8ddd495e9a33c2d9407e4fff04cdaad79915b7bc106ce452833113ec581"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/after.json",
+      "sha256": "3d2600c451d5ca3392b392a2a03f589240250b549db703158919ff4eccd5dd4b"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_status_transition_review.json",
+      "sha256": "01a1298e7cffbf68826bb3b03b6c5aa8cebc7b55f64ff9c3898ec67a1db26c1a"
+    }
+  ],
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_return_completed_native_receipt.json",
+    "sha256": "3bee6ff7de362a83e5e261bcc52891339d3888db2adcb896b84ff8d9cd4c6dfc"
+  },
+  "reviewed_through_monotonic_ns": 1552785401144166,
+  "monotonic_ns": 1552895629280833,
+  "allow_one_scan": true,
+  "event_id": "after_R06_P02_recovery_full",
+  "preparation_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+    "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+  },
+  "failed_pulse_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+    "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+  },
+  "readonly_recovery_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+    "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+  },
+  "recovery_admission": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01.admission.json",
+    "sha256": "aa85699125cd46af99ebc39f88626ddfd7d65e53cb765bd352ab6ef0534caabe"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "no_unplanned_intervention_since_baseline": true,
+  "original_pulse_status_preserved": "uncertain_or_recovery_failed",
+  "utc": "2026-11-03T04:50:51.265536+00:00"
+}

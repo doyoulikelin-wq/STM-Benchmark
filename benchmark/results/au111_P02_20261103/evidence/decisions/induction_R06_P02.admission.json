@@ -1,0 +1,109 @@
+{
+  "schema": "R06-P02-induction-admission-v1",
+  "case_id": "R06_usable211_induction_P02",
+  "episode_id": "continuing_20261101_1939",
+  "session_id": "session_02",
+  "action_id": "P02",
+  "recording_segment_id": "R06",
+  "root_reviewed_one_induction": true,
+  "exclusive_root_writer": true,
+  "stop_requested": false,
+  "unresolved_previous_execution": false,
+  "manual_intervention_since_baseline": false,
+  "no_unplanned_intervention_since_baseline": true,
+  "origin": "task_usable_baseline_induction",
+  "stage_intent": "induction_attempt",
+  "induction_effect": "not_assessed",
+  "repair_episode_active": false,
+  "induced_bad_state_confirmed": false,
+  "induced_cycle_complete": false,
+  "post_induction_full_required": true,
+  "post_induction_event": "after_R06_P02_full",
+  "no_automatic_repeat_or_escalation": true,
+  "max_pulses_total": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "pulse_attempts_before": 3,
+  "pulse_ordinal": 4,
+  "consecutive_no_improvement_before": 1,
+  "documented_repair_Starts": 1,
+  "documented_induction_Starts": 2,
+  "documented_induction_moves": 2,
+  "max_preparations_this_case": 1,
+  "max_pulses_this_case": 1,
+  "max_returns_this_case": 1,
+  "pulse_count_reset": false,
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "action": {
+    "command": "Bias.Pulse",
+    "args": [
+      1,
+      0.02,
+      -5.7,
+      1,
+      2
+    ],
+    "resting_bias_V": -1.0,
+    "preparation_current_A": 1e-09,
+    "imaging_current_A": 1e-10
+  },
+  "wire_encoding": {
+    "args_f32": [
+      1,
+      0.019999999552965164,
+      -5.699999809265137,
+      1,
+      2
+    ],
+    "duration_hex": "3ca3d70a",
+    "voltage_hex": "c0b66666"
+  },
+  "history_evidence": {
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_02.claim": "239de8300a9beb82d1cc6d8aacbdad73120c9a75bd82a4ebb3700ec8ed6487f6",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__pulse_03.claim": "d1bba497813b3e496d6172805f71e3c62963ace37158ce9f2cec8e81ae6706ec",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/continuing_20261101_1939__shaper_01.claim": "39aa2fd3b2c9dd8f11339fe964a6d4443b1d9cde08d5624145554726fde988bd",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/repair_A05/outcome.json": "f5bbfd836d56ae39457b2f4443886bf1a4ab6e17e2a28ed73e7035ff2905bbc9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I02__shaper_01.claim": "18764394fdf10475b5f2e6dd82d72850f0407a2ed5a601b17eb67bf30b83012d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/outcome.json": "631a9f0db89ccac28e08254db9099ea8d8942b877d5763f7f6d787b90b9d95ed",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R03_induction_I01_move.claim": "84dd5c60807d6efe44db989a19b028433f97224578d7c016a4556cdf550cc55c",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03__shaper_01.claim": "61c9446ab4a0947760165474f7fa66c0c24bdce1c35e99cb33480ce5d4b10e2b",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/globalclaims/session_02__R06_induction_I03_move.claim": "092a3be0a2d1f5fe23862076e8b9154a7890f34c490dbfaaa56aa871ce6c2237",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/outcome.json": "672350e12cde3629246939a33b1bfe1e69fce3df7a4f12942d1cd783d90aa0ce",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P01/outcome.json": "b67d4b160ef2dde97db01c7bc5aa8441faf2a73d3d4f0149e9f881c2778ec9d9",
+    "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recover_prepare_induction_P01_01/outcome.json": "122a3f9c36d66cad1392f44e95dbf0678c0c55bd906a3ea64b903253a022d938"
+  },
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_image_review/prospective_image_review_plan.json",
+    "sha256": "993009578a95d550b9a18b729306bec06c525c7ecd1f147f09336958b41679a3"
+  },
+  "baseline_frame_event": "after_R06_I03_full",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/outcome.json",
+    "sha256": "0ef5eadb0dc87d2914d563e7607e2593ec6bf5b8270e69ca8d3b535e8a52a789"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/analysis/quality_report.json",
+    "sha256": "9b66269447fe927ba2a206ede167ca38e354f3132dd33a3bf0bcc9a01aec8bec"
+  },
+  "baseline_functional_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/post_manual_review.json",
+    "sha256": "e8314818e93b3dec4bbe4d28e4a3cf963195f9ae9ea71e402a62aa9bcca71cd7"
+  },
+  "history_and_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/root_before_preparation_native_review.json",
+    "sha256": "d480efe378a7bd549f1e487da4110922dd5fe2b289a6a97993cb4153417c3199"
+  },
+  "legacy_counter_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R03_A02_legacy_counter_review.json",
+    "sha256": "ee7742d9e430188d0c34e2491abfecf0b2ba21926200db0fb8ad25be83a6cc8b"
+  },
+  "fixed_xy_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_id": "current_211_end_corner_minus25_minus25nm",
+  "reason": "211 remoteC1/C3 task usable after two mechanical induction attempts. I03 produced local~7nm mound and removed C2/D4 independence, without validated general bad tip. Test distinct researcher pulse-induction recipe once at the current corner, preserving this surface-change history. Original11step preparation conditions unchanged. Pulse remains separately selected only after complete preparation and native review, and return separately after known pulse and native recovery. No guaranteed induction; all effects evaluated by prospective full211/after images. Existing user −4..−7V/20..100ms/1nA/Hold scope covers candidate−5.7V20ms. Preserve3legacy pulses and2mechanicalinductionStarts; no reset.",
+  "monotonic_ns": 1552062629089666,
+  "utc": "2026-11-03T04:36:58.262429+00:00"
+}

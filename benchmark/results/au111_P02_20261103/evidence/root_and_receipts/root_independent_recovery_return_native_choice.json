@@ -1,0 +1,48 @@
+{
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+    "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+  },
+  "poststage_recovery_reviewed": true,
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "reason": "Original pulse4 completed with zero-error waitingACK. FirstgetterStatus3(Hold) atACK+3.94ms caused preservedfailure; readStatus2 atACK+116ms. Independent57fullreads span30.0416s all original1nA/On2/SafeOff/idle/5nmmarginguards; last10ZRMS1.301pm. Nativeenclosed observation plus entire186.26s post remains−1.25..−.75nA, Zresidual1.516pm. No unresolvedexecution/recovery. Choose one independent11descendingsteps to100pA with originalstep/totalZ/current/last30checks. Originalpost30failure remains; noadditionalpulse orOncommand.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent30_native_review.json",
+      "sha256": "1b78bdc0b6d175cea1072049d0e0990eaca011f99b9e80ce5a161bd94231bfbe"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_native_recovery_through364.json",
+      "sha256": "cd9989c147e4a8b2f80bc6caf3e9efd8dde6963ba0383c55e945cf607235c5d3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_status_transition_review.json",
+      "sha256": "01a1298e7cffbf68826bb3b03b6c5aa8cebc7b55f64ff9c3898ec67a1db26c1a"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+      "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+    }
+  ],
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_recovery30_native_receipt.json",
+    "sha256": "e77a75a9ce8e990b858cd4ebbc1830d7444dab0512e69a6ae433f58f02f61e54"
+  },
+  "reviewed_through_monotonic_ns": 1552483866355250,
+  "monotonic_ns": 1552655467514458,
+  "allow_one_independent_recovery_return": true,
+  "readonly_recovery_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+    "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+  },
+  "original_pulse_status_preserved": "uncertain_or_recovery_failed",
+  "utc": "2026-11-03T04:46:51.102940+00:00"
+}

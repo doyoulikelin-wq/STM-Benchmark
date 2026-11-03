@@ -1,0 +1,218 @@
+{
+  "recorded_utc": "2026-11-03T05:01:32.958888+00:00",
+  "scope": "Offline P02 electrical audit through full212 and29.11s closed native post. Preserve independently adjudicated image results separately.",
+  "sources": {
+    "preparation": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_prepare_native_phases.json",
+      "sha256": "066ba93be987029235fb0acf840c40948e573db047e65153e53ff9936d5ba84c"
+    },
+    "pulse_and_available_native_recovery": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_native_recovery_through364.json",
+      "sha256": "cd9989c147e4a8b2f80bc6caf3e9efd8dde6963ba0383c55e945cf607235c5d3"
+    },
+    "independent_readonly30": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent30_native_review.json",
+      "sha256": "1b78bdc0b6d175cea1072049d0e0990eaca011f99b9e80ce5a161bd94231bfbe"
+    },
+    "independent_return11steps": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_native_phases.json",
+      "sha256": "46a707bfec1f707063c67b7c185d8d2e6634995c36fb3c823ab1ee5a0ffc48c2"
+    },
+    "return_postroll": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_postroll.json",
+      "sha256": "e506a8ddd495e9a33c2d9407e4fff04cdaad79915b7bc106ce452833113ec581"
+    },
+    "after212": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/after_P02_recovery_scan_native_phases.json",
+      "sha256": "e40f89026e36e0e388e54c74338ffa90c86f13dde99a491b58fcbbfeffaa6766"
+    },
+    "before211": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/after_I03_scan_native_phases.json",
+      "sha256": "17a6e4b2561701c9c649d4fbd11a10af3ed9ff07cb64dc9640014ff945afca02"
+    },
+    "peak_slowaxis212": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/212_peak_slow_axis.json",
+      "sha256": "5ceaf0fa9fdc0f61d698994816a4ce5e1caf046112c6618e6f528dbc11cdf814"
+    },
+    "peak_neighbors212": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/peak_neighborhoods_212.json",
+      "sha256": "3f772c37559479064f263731a279c162ccec801822c3788e64832b29c65aa671"
+    }
+  },
+  "stages": [
+    {
+      "name": "prepare_100pA_to1nA",
+      "known_completed": true,
+      "acknowledged_setters": 11,
+      "all_11_settled_inner_current_bands_fraction": 1.0,
+      "final_Z_minus_entry_pm": -112.69000000000062,
+      "final_native_inner": [
+        4204.0,
+        4233.57
+      ]
+    },
+    {
+      "name": "single_pulse_ordinal4",
+      "request": {
+        "bias_V": -5.7,
+        "duration_ms": 20,
+        "hold": true
+      },
+      "waiting_ack_known": true,
+      "original_outcome": "uncertain_or_recovery_failed",
+      "original_post30_completed": false,
+      "actual_pulse_threshold_interval": [
+        4363.711,
+        4363.731
+      ],
+      "stored_current_min_pA": -9462.708,
+      "stored_Z_span_pm": 0.04,
+      "original_failure_preserved": true
+    },
+    {
+      "name": "independent_getter_only_recovery30",
+      "full_57_snapshot_checks_passed": true,
+      "native_inner_seconds": [
+        4489.37,
+        4518.49
+      ],
+      "native_Z_detrended_RMS_pm": 1.631927169355331,
+      "subsequent_writes_were_a_separate_decision": true
+    },
+    {
+      "name": "independent_return1nA_to100pA",
+      "known_completed": true,
+      "acknowledged_setters": 11,
+      "all_11_settled_inner_current_bands_fraction": 1.0,
+      "final_Z_minus_entry_pm": 99.41999999999496,
+      "final_native_inner": [
+        4790.78,
+        4820.01
+      ],
+      "additional_postroll_s": 28.91
+    },
+    {
+      "name": "matched_full_scan212",
+      "known_completed": true,
+      "full_core": [
+        4944.85,
+        5382.81
+      ],
+      "full_core_rows": 875920,
+      "post_windows": [
+        {
+          "seconds": [
+            5383.39,
+            5393.39
+          ],
+          "partial": false,
+          "current_min_pA": -114.64551,
+          "current_max_pA": -89.6365,
+          "Z_RMS_pm": 11.09587409550866,
+          "Z_slope_pm_s": 5.2737205392893225
+        },
+        {
+          "seconds": [
+            5393.39,
+            5403.39
+          ],
+          "partial": false,
+          "current_min_pA": -120.69898,
+          "current_max_pA": -84.646422,
+          "Z_RMS_pm": 4.950529435767499,
+          "Z_slope_pm_s": -0.17278010132695215
+        },
+        {
+          "seconds": [
+            5403.39,
+            5412.5
+          ],
+          "partial": true,
+          "current_min_pA": -115.75695,
+          "current_max_pA": -86.48662999999999,
+          "Z_RMS_pm": 5.174724996231312,
+          "Z_slope_pm_s": 0.32596637504985504
+        }
+      ]
+    }
+  ],
+  "matched_scan_electrical_comparison": [
+    {
+      "frame": "211_before_P02",
+      "seconds": 438.05,
+      "current_min_pA": -9998.263599999998,
+      "current_max_pA": -11.074648,
+      "thresholds_pA": {
+        "400": {
+          "sample_count": 362,
+          "groups": 138,
+          "longest_samples": 15,
+          "longest_native_seconds_half_open": [
+            3416.6055,
+            3416.6130000000003
+          ]
+        },
+        "1000": {
+          "sample_count": 20,
+          "groups": 11,
+          "longest_samples": 4,
+          "longest_native_seconds_half_open": [
+            3605.559,
+            3605.561
+          ]
+        },
+        "4000": {
+          "sample_count": 2,
+          "groups": 1,
+          "longest_samples": 2,
+          "longest_native_seconds_half_open": [
+            3609.188,
+            3609.189
+          ]
+        }
+      },
+      "exact_historical_negative_edge_samples": 0
+    },
+    {
+      "frame": "212_after_composite_P02",
+      "seconds": 437.96000000000004,
+      "current_min_pA": -1792.5903,
+      "current_max_pA": -7.3864456,
+      "thresholds_pA": {
+        "400": {
+          "sample_count": 466,
+          "groups": 122,
+          "longest_samples": 29,
+          "longest_native_seconds_half_open": [
+            5175.9895,
+            5176.004
+          ]
+        },
+        "1000": {
+          "sample_count": 29,
+          "groups": 15,
+          "longest_samples": 4,
+          "longest_native_seconds_half_open": [
+            5181.4605,
+            5181.462500000001
+          ]
+        },
+        "4000": {
+          "sample_count": 0,
+          "groups": 0,
+          "longest_samples": 0,
+          "longest_native_seconds_half_open": null
+        }
+      },
+      "exact_historical_negative_edge_samples": 0
+    }
+  ],
+  "interpretation_limits": [
+    "Preparation, one pulse, delayed separate read-only recovery and one independent eleven-step return form a composite intervention. Image differences cannot uniquely identify pulse-only mechanism.",
+    "Pulse waitingACK and native waveform support one known execution. Immediate program On2 guard failed on observedStatus3 and remains failed. Later independent recovery does not rewrite that outcome.",
+    "2kHz saved peaks are band-limited sampled evidence. Lack of a stored rail hit does not measure unrecorded faster peaks.",
+    "212 has no>=4nA stored samples, while lower-threshold event counts are slightly larger than211. These electrical descriptors do not independently decide task-level image quality.",
+    "Approximate slow-axis row128–133 events overlap the new moundYband, but fastaxis and forward/backwardpass are unresolved by grouped TCP/nativecounter alignment.",
+    "The prefix before212 includes earlier scans, shaping, preparation and pulse. Its whole-prefix statistics are not a fixed-point baseline."
+  ]
+}

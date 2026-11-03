@@ -1,0 +1,26 @@
+{
+  "status": "completed_readonly_30s_original_guards",
+  "readonly": true,
+  "writes": [],
+  "original_failure_preserved": true,
+  "original_pulse_source_sha256": "e9ca1fd00da56dfc11c26b95d22e5f5ab6346a8bda3600c8f1e1fa46bb032998",
+  "read_source_sha256": "5d766a7cf0b3e40852140922971c846d828b668f589cbc6b286df11c5928f842",
+  "duration_s": 30.04156787483953,
+  "samples": 57,
+  "last10s": {
+    "window_s": 10.277426665881649,
+    "samples": 20,
+    "Z_slope_m_per_s": -4.5492688073886416e-14,
+    "Z_detrended_RMS_m": 1.3011452876194847e-12,
+    "Z_span_m": 4.767741756950272e-12,
+    "I_mean_A": -1.0002077666104725e-09,
+    "I_std_A": 3.122129925462483e-13,
+    "I_min_A": -1.0009532092070117e-09,
+    "I_max_A": -9.997364047720225e-10,
+    "brackets_last10s": true
+  },
+  "last_snapshot": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/read_056/snapshot.json",
+  "last_snapshot_sha256": "233db4123c1d798d87ce3d13d776fc5e31500fc19e7075c028dd11221d3d00a8",
+  "utc": "2026-11-03T04:43:59.501066+00:00",
+  "monotonic_ns": 1552483866355250
+}

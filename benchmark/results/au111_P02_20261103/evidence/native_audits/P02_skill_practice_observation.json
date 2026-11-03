@@ -1,0 +1,116 @@
+{
+  "recorded_utc": "2026-11-03T04:52:54.787429+00:00",
+  "schema": "P02-practice-observation-v1",
+  "scope": "Offline facts for later skill refinement. Current installed skill and all current control sources are unchanged by this record.",
+  "sources": {
+    "P02_actual_pulse_and_native_recovery.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_actual_pulse_and_native_recovery.json",
+      "sha256": "73cbdb9462f24c764da42b7ad77203f653db7bbd012d8fd6447b40e2ecf598c4"
+    },
+    "P02_native_recovery_through364.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_native_recovery_through364.json",
+      "sha256": "cd9989c147e4a8b2f80bc6caf3e9efd8dde6963ba0383c55e945cf607235c5d3"
+    },
+    "P02_status_transition_review.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_status_transition_review.json",
+      "sha256": "01a1298e7cffbf68826bb3b03b6c5aa8cebc7b55f64ff9c3898ec67a1db26c1a"
+    },
+    "P02_independent30_native_review.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent30_native_review.json",
+      "sha256": "1b78bdc0b6d175cea1072049d0e0990eaca011f99b9e80ce5a161bd94231bfbe"
+    },
+    "P02_independent_return_native_phases.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_native_phases.json",
+      "sha256": "46a707bfec1f707063c67b7c185d8d2e6634995c36fb3c823ab1ee5a0ffc48c2"
+    },
+    "P02_independent_return_postroll.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_independent_return_postroll.json",
+      "sha256": "e506a8ddd495e9a33c2d9407e4fff04cdaad79915b7bc106ce452833113ec581"
+    },
+    "P02_native_waveform_provenance.json": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_native_waveform_provenance.json",
+      "sha256": "a5db708bb3dfea0914e0e89c25b6fb03ffcac9bb5c52de6b6d55b77d13cc5144"
+    }
+  },
+  "skill_references": [
+    {
+      "path": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/SKILL.md",
+      "sha256": "8278037996ead6706be9621899c4fc48fe491148c7a4f06f84afb9a8b84d466e"
+    },
+    {
+      "path": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/references/local-au111-protocol.md",
+      "sha256": "bd9e0c16cbdbe68972f5c02c433c2f68f88df2fe78fbe2f9dea26d0c6e9a95a1"
+    },
+    {
+      "path": "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/references/execution-and-acquisition.md",
+      "sha256": "27b28fa19cb2944fcafcd18157682178fb644ced3f2212ad1fa28a40c6ec2ae0"
+    }
+  ],
+  "enum_source": {
+    "catalog": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_control_test_20261028/catalog.json",
+      "sha256": "f7637754438751ca52253f0884632d499202111140e945efaeaedbbb38a184ac"
+    },
+    "command": "ZCtrl.StatusGet",
+    "manual_page": 75,
+    "states": {
+      "1": "Off",
+      "2": "On",
+      "3": "on Hold",
+      "4": "switching Off",
+      "5": "SafeTip event",
+      "6": "withdrawing"
+    },
+    "manual": {
+      "path": "/Users/maxlin/Desktop/Nanonis/TCPProtocol_Mimea_V5e.pdf",
+      "sha256": "f7133dbbca86524fb0ab63dc5c2d4e190aeecfd276d833ae35f67518a8465f7c"
+    }
+  },
+  "observed_sequence": [
+    "A single exact -5.7 V/20 ms/Hold waiting Bias.Pulse ordinal4 had a zero-error ACK. Native Bias<-4V interval is40 stored samples/20ms. Z span0.04pm. Stored minimumI=-9.462708nA, no stored range-edge hit.",
+    "Immediate asynchronous StatusGet3 at ACK+3.94ms triggered the frozen On2 guard. Original program post30s did not execute. original outcome remains uncertain_or_recovery_failed.",
+    "A later StatusGet2 at ACK+116.33ms and separate fresh full state were observed. Sequential current/status groups and native sample clock are retained separately.",
+    "Root then explicitly selected an independent getter-only30.0416s/57snapshot observation. original full guards and last10s RMS/slope recomputed. Native internal29.12s plus extended186.26s post history were reviewed.",
+    "After a distinct root recovery decision, an independent single11-step1nA-to100pA return completed. All11 exact float32 claims/ACKs/readbacks, final30s and28.91s native postroll were verified.",
+    "An independent matched full scan has been separately selected. its image outcome is pending in this record."
+  ],
+  "practice_table": [
+    {
+      "skill_item": "Known command end, resting Bias, feedback restoration and I/Z stability are separate checks",
+      "use": "used",
+      "actual": "The waiting ACK supported execution. immediate Status3 prevented original successful recovery. Native voltage and later full-read recovery evidence were audited separately."
+    },
+    {
+      "skill_item": "Hold release and configured bounded stability observation",
+      "use": "partially used. initial automatic path not reached",
+      "actual": "Original immediate On2 gate terminated before its post30s. Later independent30s observation required new root review and used the original unchanged physical guards. No originally configured settling timeout was retrospectively extended."
+    },
+    {
+      "skill_item": "Do not replay unknown operation or automatically restore feedback",
+      "use": "used",
+      "actual": "No extra pulse, feedbackOn or automatic replay followed the failure. Known original ACK did not change preserved failed postguard status."
+    },
+    {
+      "skill_item": "Existing native2kHz and waveform evidence",
+      "use": "used",
+      "actual": "40-sample pulse and transitions are resolved in saved native samples. Finite bandwidth/sampling still bounds only observed values. Status3-to2 asynchronous delay cannot be identified with exact physical hold-release time."
+    },
+    {
+      "skill_item": "Experimental -4..-7V and20..100ms options. larger pulses, alternative shaping, automatic wait/retry",
+      "use": "referenced but not exercised in this P02 sequence",
+      "actual": "Only one -5.7V20ms pulse and independent setpoint preparation/return occurred. Remaining recipes and general timing limits stay unvalidated here."
+    },
+    {
+      "skill_item": "Matched image quality determines functional response",
+      "use": "awaiting complete image",
+      "actual": "Electrical recovery and approximately-174pm early Z shift do not establish contamination, repair success or chemical material transfer."
+    }
+  ],
+  "prospective_question_for_later_refinement": "Could a known successful waitingACK plus explicitly identified transient status3 enter a finite getter-only settling state before final recovery classification? This one case supports investigating that state model. A duration, allowed transitional states, other fault handling, freshness and test requirements must be selected prospectively. no universal116ms or1s grace period is inferred.",
+  "unchanged_artifacts": [
+    "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/SKILL.md",
+    "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/references/local-au111-protocol.md",
+    "/Users/maxlin/.codex/skills/stm-au111-tip-conditioning/assets/local-au111.profile.json"
+  ],
+  "cause_limits": "The record supports observed Hold then On readbacks with subsequent electrical recovery. It does not decide whether the read timing reflects native scheduling, cached states or feedback dynamics. it does not prove material pickup/deposition or pulse-only image causation."
+}

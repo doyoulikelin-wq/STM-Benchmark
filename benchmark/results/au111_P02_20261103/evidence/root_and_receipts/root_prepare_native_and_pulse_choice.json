@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-03T04:40:44.314799+00:00",
+  "monotonic_ns": 1552288680738958,
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+    "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+  },
+  "preparation_manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/manifest.json",
+    "sha256": "4f603a98439bbe2d10db0b53f13957c74b9e750c3ab3b204aa2c0b8f4126a733"
+  },
+  "poststage_recovery_reviewed": true,
+  "reviewed_through_monotonic_ns": 1552198664339250,
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "allow_one_pulse": true,
+  "reason": "All11 native request/ACK/readback steps matched. Whole94.24s enclosed, no4nA events or rail. Eachstep post inner points in its±20% band. Final29.57s nativeI median−1001.03pA range−1132.44..−884.88pA, Zresidual1.59pm/slope−.03pm/s. TotalmedianZ−112.69pm, >20.53nmendpoint margin. Originalslow30s gatespassed. Select one bounded−5.7V20msHold induction at currentcorner, previousfunctional211 andcompoundpreparationeffects retained. Noautomaticrepeat and outcomeimage required.",
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/prepare_completed_native_receipt.json",
+    "sha256": "cdbf7f0354a0f616d18268db5a6de654fcad88a0a6c31a230677522923994a44"
+  },
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/P02_prepare_native_phases.json",
+      "sha256": "066ba93be987029235fb0acf840c40948e573db047e65153e53ff9936d5ba84c"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+      "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/final30_statistics.json",
+      "sha256": "44bddc612b8723e7915882f08697ba2aef3e226ecaa8c15e2748042092aa1352"
+    }
+  ]
+}

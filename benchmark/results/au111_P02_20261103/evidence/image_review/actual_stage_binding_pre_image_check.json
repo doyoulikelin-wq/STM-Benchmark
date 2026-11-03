@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-03T04:52:14.846174+00:00",
+  "phase_contract": true,
+  "actual_pulse_status_preserved": "uncertain_or_recovery_failed",
+  "actual_original_post30_executed": false,
+  "source_sha256": "01420b5dd5b184a00709597147e6925847d6ea6dffe285ef774fa5161990f205",
+  "inputs": {
+    "prepare": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/prepare_induction_P02/outcome.json",
+      "sha256": "48a86da8e9ebc8e7bdaacf13b22ff0fa56fe1502ff42d6385e470f8cada571e0"
+    },
+    "pulse": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/outcome.json",
+      "sha256": "61d379cd5d78590392b64b81273ab10fa4643e16c25cb6503a9008e4458d4bc9"
+    },
+    "readonly_recovery": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02/independent_readonly_recovery30/outcome.json",
+      "sha256": "cd6a6bd89200d99a972dc649adae5132b0da0e9aad314f61147de6be9ceb2871"
+    },
+    "return": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/recovery_return_P02_01/outcome.json",
+      "sha256": "40fdf15db406993d628e5d7f855183f1a83cc9f7793d4c405ed5ab2dceaeb55e"
+    }
+  },
+  "scan_start": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_P02_recovery_full/scan_start.claim",
+    "sha256": "1d37583e21889ca0ccce21c3de173d39f123dde1562b57d38ed7b7dd90e1b66e"
+  },
+  "full_image_not_yet_reviewed": true
+}

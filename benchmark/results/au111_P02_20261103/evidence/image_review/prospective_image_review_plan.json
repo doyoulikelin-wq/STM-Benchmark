@@ -1,0 +1,214 @@
+{
+  "schema": "P02-prospective-image-only-plan-v1",
+  "created_utc": "2026-11-03T04:34:01.577563+00:00",
+  "scope": "仅离线图像比较计划；不构成动作授权，不写仪器，不选择脉冲位置。",
+  "candidate_recipe_from_root": {
+    "pulse_V": -5.7,
+    "duration_s": 0.02,
+    "Z_Ctrl_hold": true,
+    "preparation_current_A": 1e-09,
+    "status": "planned_only_actual_command_and_readback_must_be_recorded_by_root"
+  },
+  "before_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/outcome.json",
+    "sha256": "0ef5eadb0dc87d2914d563e7607e2593ec6bf5b8270e69ca8d3b535e8a52a789"
+  },
+  "before_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/analysis/quality_report.json",
+    "sha256": "9b66269447fe927ba2a206ede167ca38e354f3132dd33a3bf0bcc9a01aec8bec"
+  },
+  "before_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/native/BM261029_00211.sxm",
+    "sha256": "736d255572999e5cc6c82fbf86d644a152c20e214abab2cfe804e733b72649bc",
+    "bytes": 1383336
+  },
+  "before_image_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/post_manual_review.json",
+    "sha256": "e8314818e93b3dec4bbe4d28e4a3cf963195f9ae9ea71e402a62aa9bcca71cd7"
+  },
+  "actual_after_identity": "仅使用后续真实完整扫描outcome和原生SXM名称，不预设编号。",
+  "match_requirements": [
+    "完整240×240正反扫及全部6通道面，345600个原生/TCPfloat32值一致。",
+    "与211保持50nm方场、同中心/角度/DOWN方向、−1V/100pA成像、0.912s/方向行时间与原反馈配置；如实际不同，明确不构成严格匹配比较。",
+    "完整后扫是评估P02作用的必要结果，不以先看到变坏或变好才开始。",
+    "1nA预备、脉冲和恢复若在同段均发生，以复合暴露记录；无仅预备后完整图时不能唯一分离脉冲贡献。"
+  ],
+  "primary_remote_references": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      }
+    }
+  ],
+  "secondary_remote_reference": {
+    "id": "S1_left_nonselected_I03_candidate",
+    "rc_half_open": [
+      129,
+      150,
+      42,
+      63
+    ],
+    "source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/candidate_coordinates_210.json",
+      "sha256": "8b4154b7f05c96054eeccfc364018350e00a6b8e1a65c924d48685f737443bfd"
+    },
+    "reason": "先前已定位的左侧未选目标，211中仍可辨；在P02之前登记为补充远端检查，不追溯改写I03成功判据。"
+  },
+  "local_affected_regions": [
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          14.166666666666671,
+          19.375
+        ],
+        "y": [
+          1.6666666666666643,
+          5.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    },
+    {
+      "id": "I03_mound_target",
+      "rc_half_open": [
+        119,
+        141,
+        195,
+        221
+      ],
+      "role": "追踪局部丘体变化，不能单独决定全局针尖质量。"
+    }
+  ],
+  "judgment": [
+    "先看C1/C3及S1等分散远端对象的F/B可辨性、连续性和台阶轮廓；不要求图案完全一样。",
+    "远端对象共同出现持续复制、严重拖尾/刮痕或不可辨性，且不能由共同行位移、漂移/反馈方向差解释时，才支持成像退化。需要逐对象具体证据，不用单阈值自动标坏。",
+    "丘体缩小、出现新物体或原局部颗粒消失可能是局部表面变化。没有远端功能退化时，不把这些变化自动判成脏尖。",
+    "C1局部短横线以及211末端行偏移是基线已有局限，要与新现象区分。",
+    "如变化不足以区分针尖效应与表面改变，结论记uncertain，不补造successful cycle。"
+  ],
+  "display_plan": {
+    "full_range": "原始Z各方向减一个全帧中位数，前后四图共用包含全部像素的完整范围；保存原始绝对最小/最大与标量。",
+    "fixed_terrace_range_nm": [
+      -0.2886687155978507,
+      0.40538459700201085
+    ],
+    "fixed_range_source": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/after_vs_210/dynamic_range_display_record.json",
+      "sha256": "ef9f6eaa74c057671411ae93c390cc788e148addb3a55c433809a31841b39f66"
+    },
+    "fixed_range_label": "沿用先前冻结的210台阶尺度，211为本次修前；洋红标超上限、青色标超下限，逐图记像素数。",
+    "local_crops": "每个固定ROI以前后F/B共同范围显示原像素，仅减外围标量。禁止逐行校正、平滑或静默配准。",
+    "displacement": "只作单独次要检查；若固定窗口变化，联合C1/C3/S1及其他地标判断共同行位移，原图仍作主要证据。"
+  },
+  "outcome_fields": [
+    "actual_before_outcome",
+    "actual_after_outcome",
+    "actual_before_quality",
+    "actual_after_quality",
+    "task_usable",
+    "induction_or_conditioning_effect",
+    "trace_retrace_evidence",
+    "local_vs_global",
+    "limitations",
+    "cycle_increment"
+  ],
+  "count_rule": "未验证坏态→修复→完整可用后图，不把一次脉冲后仍可用计为新的完整修复cycle。"
+}

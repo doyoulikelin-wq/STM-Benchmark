@@ -1,0 +1,94 @@
+{
+  "pulse_ack": {
+    "utc": "2026-11-03T04:41:24.083508+00:00",
+    "monotonic_ns": 1552328449193666,
+    "command": "Bias.Pulse",
+    "values": [],
+    "warning": ""
+  },
+  "native_response_status_wire": [
+    {
+      "command": "ZCtrl.OnOffGet",
+      "utc": "2026-11-03T04:41:24.086493+00:00",
+      "end_monotonic_ns": 1552328452175916,
+      "roundtrip_s": 0.0004892079159617424,
+      "decoded_unsigned": 1,
+      "width_bytes": 4,
+      "response_body": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/wire/0003502_response_body.bin",
+        "sha256": "9cbc73d18d70c94fe366e696035c4f2cffdbab7ea6d6c2c039ca185f9c9f2746"
+      }
+    },
+    {
+      "command": "ZCtrl.StatusGet",
+      "utc": "2026-11-03T04:41:24.087444+00:00",
+      "end_monotonic_ns": 1552328453129833,
+      "roundtrip_s": 0.0004585001152008772,
+      "decoded_unsigned": 3,
+      "width_bytes": 2,
+      "response_body": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/wire/0003503_response_body.bin",
+        "sha256": "5eb417f9f1d4bf5b7f1c293cbf4d244cff25b2c2221b90f8be3ad99ff0d4106d"
+      }
+    },
+    {
+      "command": "ZCtrl.OnOffGet",
+      "utc": "2026-11-03T04:41:24.199095+00:00",
+      "end_monotonic_ns": 1552328564777833,
+      "roundtrip_s": 0.00047329184599220753,
+      "decoded_unsigned": 1,
+      "width_bytes": 4,
+      "response_body": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/wire/0003555_response_body.bin",
+        "sha256": "9cbc73d18d70c94fe366e696035c4f2cffdbab7ea6d6c2c039ca185f9c9f2746"
+      }
+    },
+    {
+      "command": "ZCtrl.StatusGet",
+      "utc": "2026-11-03T04:41:24.199835+00:00",
+      "end_monotonic_ns": 1552328565517583,
+      "roundtrip_s": 0.00036266702227294445,
+      "decoded_unsigned": 2,
+      "width_bytes": 2,
+      "response_body": {
+        "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/pulse_induction_P02/wire/0003556_response_body.bin",
+        "sha256": "b6cf1362c9401324b401d2bbd3c9389343c69958ca577c5c267d72fd3bbbcb1a"
+      }
+    }
+  ],
+  "preserved_outcome": {
+    "utc": "2026-11-03T04:41:24.292935+00:00",
+    "monotonic_ns": 1552328658617250,
+    "status": "uncertain_or_recovery_failed",
+    "session_id": "session_02",
+    "action_id": "P02",
+    "pulse_ordinal": 4,
+    "automatic_On": false,
+    "automatic_retry": false,
+    "return_to100pA_performed": false,
+    "effect": "unknown",
+    "pre_metrics": {
+      "window_s": 10.057536874897778,
+      "samples": 65,
+      "Z_slope_m_per_s": 9.11131396559594e-14,
+      "Z_detrended_RMS_m": 1.711398433540226e-12,
+      "Z_span_m": 8.448353128187591e-12,
+      "I_mean_A": -1.0017759903664552e-09,
+      "I_std_A": 1.454055223077494e-12,
+      "I_min_A": -1.005742822357547e-09,
+      "I_max_A": -9.999250316639063e-10,
+      "brackets_last10s": true,
+      "elapsed_s": 30.06840925011784,
+      "final_band_s": 29.88231645897031
+    },
+    "error": "Not known On2/allidle",
+    "fault_not_persistent": true,
+    "pulse_attempted": true,
+    "native_end_confirmed": true,
+    "writer_outcome_unknown": false,
+    "session_claim_exists": true,
+    "requires_root_review": true
+  },
+  "conclusion": "StatusGet returns3 about3.94ms after pulse wait ACK, then2 about116.33ms after ACK. Both OnOff reads return1. The original guard failure and absent program post30s remain part of history.",
+  "limitations": "Host-time-separated readbacks may expose different native update/caching timing. Current -1.598nA in the exception group is not asserted to be simultaneous with the Status2 or any exact native row. Native voltage/time and grouped state readback timelines remain separate."
+}

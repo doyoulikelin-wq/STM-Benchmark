@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-03T04:36:06.164669+00:00",
+  "monotonic_ns": 1552010531190083,
+  "recording_segment_id": "R06",
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/outcome.json",
+    "sha256": "0ef5eadb0dc87d2914d563e7607e2593ec6bf5b8270e69ca8d3b535e8a52a789"
+  },
+  "poststage_recovery_reviewed": true,
+  "reviewed_through_monotonic_ns": 1551814600307166,
+  "reviewed_through_time_semantics": "Conservative exact slow-read067 endpoint enclosed inside archived post211 count interval through3950s; native review continues beyond this timestamp. No high-frequency feedback or XY in DAT.",
+  "unresolved_recording_gap": false,
+  "unresolved_native_execution": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "reason": "Full211 complete. Largest transient near bottom rows236–237, local task still usable remoteC1/C3. Post335.11s current−114.36..−88.21pA, no400pAevents, fixed10s Zresidual0.596..1.230pm. Independentread067 idleOn2−1V100pASafeOff atcorner. Original live pre-entry checks remain unchanged for separate preparation.",
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_pulse_P02_image_review/preparation_history_native_receipt.json",
+    "sha256": "75b98dd8d715abd92395929958cf8740020c4ce6504e7170dfeb0de03ebe4e60"
+  },
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/after_I03_scan_native_phases.json",
+      "sha256": "17a6e4b2561701c9c649d4fbd11a10af3ed9ff07cb64dc9640014ff945afca02"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/211_peak_slow_axis.json",
+      "sha256": "dc22d30bd6f0a092c0fb440a641fbd1fe147ecf72177ffb8171e353b6f609d48"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/post211_before_P02_native_review.json",
+      "sha256": "f2b3e69694814594da5b92bc22f3a0781eda7f5d7061f543c1850d44c50d629e"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/211_through316_native_phases.json",
+      "sha256": "7a97f2deabdd19b58521ec8c2490217a821c61596cef70a49e27c67756d29c5f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/read_067_R06_before_P02/snapshot.json",
+      "sha256": "2efcfb9e717924c68acf1a8b6802ca3e88b4e807b75a089497cb3b442517a23e"
+    }
+  ]
+}
