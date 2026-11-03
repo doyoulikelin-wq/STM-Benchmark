@@ -1,0 +1,170 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_native_pre_action_post.json",
+    "sha256": "065a76cfbdf205ec22d10297ba7d47686abb2b42901633e7c43405041428e6b9"
+  },
+  "bias_positive_to_negative_boundary": [
+    {
+      "sample": 6000389,
+      "native_s": 3000.1945,
+      "I_pA": 10000.447,
+      "Bias_V": 2.0,
+      "Z_relative_pre_nm": 4.058800000000005
+    },
+    {
+      "sample": 6000390,
+      "native_s": 3000.195,
+      "I_pA": 7802.4174,
+      "Bias_V": 0.5,
+      "Z_relative_pre_nm": 4.096299999999999
+    }
+  ],
+  "maximum_Z": {
+    "sample": 6000653,
+    "native_s": 3000.3265,
+    "I_pA": -3147.2065000000002,
+    "Bias_V": -1.0,
+    "Z_relative_pre_nm": 14.087004000000007
+  },
+  "maxZ_time_since_bias_return_s": 0.1315,
+  "windows": [
+    {
+      "time_from_end_positive_bias_ms": [
+        -50,
+        0
+      ],
+      "n": 100,
+      "I_min_med_max_pA": [
+        10000.447,
+        10000.447,
+        10000.447
+      ],
+      "Z_min_med_max_relative_nm": [
+        3.996300000000005,
+        3.996300000000005,
+        4.058800000000005
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        0,
+        50
+      ],
+      "n": 100,
+      "I_min_med_max_pA": [
+        -9999.4768,
+        -9999.4768,
+        7802.4174
+      ],
+      "Z_min_med_max_relative_nm": [
+        4.096299999999999,
+        4.096299999999999,
+        4.096299999999999
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        50,
+        100
+      ],
+      "n": 100,
+      "I_min_med_max_pA": [
+        -9999.4768,
+        -9999.4768,
+        -9999.4768
+      ],
+      "Z_min_med_max_relative_nm": [
+        4.096299999999999,
+        4.096299999999999,
+        4.096299999999999
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        100,
+        200
+      ],
+      "n": 200,
+      "I_min_med_max_pA": [
+        -9999.4768,
+        -103.86410000000001,
+        11.059598000000001
+      ],
+      "Z_min_med_max_relative_nm": [
+        4.096299999999999,
+        8.309492000000006,
+        14.087004000000007
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        200,
+        400
+      ],
+      "n": 400,
+      "I_min_med_max_pA": [
+        -120.04926,
+        -99.4599575,
+        -81.795772
+      ],
+      "Z_min_med_max_relative_nm": [
+        8.283546000000001,
+        8.300368500000005,
+        8.318803000000003
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        400,
+        800
+      ],
+      "n": 800,
+      "I_min_med_max_pA": [
+        -123.37002,
+        -100.500605,
+        -83.74737
+      ],
+      "Z_min_med_max_relative_nm": [
+        8.272739000000001,
+        8.284790000000001,
+        8.299946000000006
+      ]
+    },
+    {
+      "time_from_end_positive_bias_ms": [
+        800,
+        1500
+      ],
+      "n": 1400,
+      "I_min_med_max_pA": [
+        -125.60560000000001,
+        -101.83872500000001,
+        -83.6105
+      ],
+      "Z_min_med_max_relative_nm": [
+        8.272611000000012,
+        8.288662000000016,
+        8.300727000000009
+      ]
+    }
+  ],
+  "first_post_Start_snapshot": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/immediate_after.json",
+    "sha256": "6335722655ccd8ad8e4983b740761f20e8a2ef7fc1cd7c3b0c24b706304a930b"
+  },
+  "first_post_Start_flags": {
+    "Bias.Get": [
+      -1.0
+    ],
+    "ZCtrl.OnOffGet": [
+      1
+    ],
+    "ZCtrl.StatusGet": [
+      2
+    ],
+    "ZCtrl.SetpntGet": [
+      1.000000013351432e-10
+    ]
+  },
+  "limitation": "DAT has Bias and Z but no high-rate feedback-enable flag. Link to feedback re-engagement is an inference from the recorded command sequence and first later On/status2 readback; no contact depth inferred."
+}

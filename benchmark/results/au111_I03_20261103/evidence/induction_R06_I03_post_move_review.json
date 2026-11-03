@@ -1,0 +1,49 @@
+{
+  "_status": "Root reviewed known completed move and actual native interval; one independent shaper may perform original live precheck",
+  "allow_one_shaper": true,
+  "root_reviewed_current_target": true,
+  "no_unplanned_intervention": true,
+  "unresolved_native_execution": false,
+  "unresolved_recording_gap": false,
+  "unresolved_recovery": false,
+  "range_events_reviewed": true,
+  "recording_segment_id": "R06",
+  "move_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/outcome.json",
+    "sha256": "672350e12cde3629246939a33b1bfe1e69fce3df7a4f12942d1cd783d90aa0ce"
+  },
+  "actual_target_m": [
+    1.799999971296984e-08,
+    -2.099999951710174e-09
+  ],
+  "move_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/move_R06_induction_I03_once.py",
+    "sha256": "6ce4fb1c56fa27281e9fb57dcb8c26002ebafd67c91fe09c2f38ada503cf436d"
+  },
+  "logger_ready": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/READY.json",
+    "sha256": "463890eb80aae4f6889e35d1c5c8db72c96f5a74fba28b01180b56f956cc7b10"
+  },
+  "reason": "Actual move25.42s native outerwindow I−196.03..−57.93pA and no>=400pA. Posttarget4.95s internally bracketed I−111.89..−89.57pA, ZRMS1.27pm,slope+.17pm/s. Three actualwriterwire/ACKs andcustom0restore verified. Current-target single contact tests material-interaction hypothesis under originalpre30s limits.",
+  "limitations": "The full210 is precombined move+contact evidence; movement may change apex without persistent electrical event. High-frequency XY path unverified. Actual proximity to step-adjacent target limited by pixel/registration/drift. No dirty-state or chemical result inferred.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_move_native_phases.json",
+      "sha256": "e853c43f9703fb76b46ee77cde5e7d3767a396fedc69eecb31f4a38f894b8ae4"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/move_R06_I03/after.json",
+      "sha256": "8399f0bea72f6b0dd1d786bdd637eb9b96f3cd0281ffc0f5bb19e9c4b281dd39"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03_target_mapping.json",
+      "sha256": "69af3b81aa2efa628a7de8af806048fc6a590b0f43e30cc5b2b0b26a1e62dfe8"
+    }
+  ],
+  "native_receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/post_move_native_receipt.json",
+    "sha256": "fc0c50cf1f19d406d219ee67349267b8dfcc9860a91fc80d2511799f7c41ca80"
+  },
+  "reviewed_through_monotonic_ns": 1550932358841125,
+  "monotonic_ns": 1550932358845083
+}

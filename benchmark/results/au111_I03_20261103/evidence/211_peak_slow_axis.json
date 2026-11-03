@@ -1,0 +1,144 @@
+{
+  "checked_single_row": {
+    "peak": {
+      "global_zero_based": 7218376,
+      "block": 289,
+      "zero_based_row_in_block": 18376,
+      "native_s": 3609.188,
+      "I_pA": -7245.8759,
+      "Bias_V": -1.0,
+      "Z_nm": -104.66821
+    },
+    "nearby_native_rows": [
+      {
+        "global_zero_based": 7218374,
+        "block": 289,
+        "zero_based_row_in_block": 18374,
+        "native_s": 3609.187,
+        "I_pA": -112.81369,
+        "Bias_V": -1.0,
+        "Z_nm": -104.75923
+      },
+      {
+        "global_zero_based": 7218375,
+        "block": 289,
+        "zero_based_row_in_block": 18375,
+        "native_s": 3609.1875,
+        "I_pA": -133.58853,
+        "Bias_V": -1.0,
+        "Z_nm": -104.74947
+      },
+      {
+        "global_zero_based": 7218376,
+        "block": 289,
+        "zero_based_row_in_block": 18376,
+        "native_s": 3609.188,
+        "I_pA": -7245.8759,
+        "Bias_V": -1.0,
+        "Z_nm": -104.66821
+      },
+      {
+        "global_zero_based": 7218377,
+        "block": 289,
+        "zero_based_row_in_block": 18377,
+        "native_s": 3609.1885,
+        "I_pA": -9998.263599999998,
+        "Bias_V": -1.0,
+        "Z_nm": -104.48508
+      },
+      {
+        "global_zero_based": 7218378,
+        "block": 289,
+        "zero_based_row_in_block": 18378,
+        "native_s": 3609.189,
+        "I_pA": -1057.0352,
+        "Bias_V": -1.0,
+        "Z_nm": -104.39975
+      }
+    ],
+    "slow_axis": {
+      "mapping": "nominal slow-axis band from enclosing grouped XY readbacks",
+      "native_counter_bracket": [
+        {
+          "monotonic_ns": 1551573374361666,
+          "utc": "2026-11-03T04:28:49.006634+00:00",
+          "block": 289,
+          "points_counter": 17300,
+          "sample": 7217300,
+          "native_s": 3608.65,
+          "elapsed_nominal_half_s": 3608.579999923706
+        },
+        {
+          "monotonic_ns": 1551573921982291,
+          "utc": "2026-11-03T04:28:49.554257+00:00",
+          "block": 289,
+          "points_counter": 18400,
+          "sample": 7218400,
+          "native_s": 3609.2000000000003,
+          "elapsed_nominal_half_s": 3609.1000003814697
+        }
+      ],
+      "host_bracket_s": 0.5476206250000001,
+      "enclosing_running_Y_reads": [
+        {
+          "utc": "2026-11-03T04:28:48.917085+00:00",
+          "monotonic_ns": 1551573284816541,
+          "getter_group_s": 0.05017312499694526,
+          "y_nm": -24.29705503459445
+        },
+        {
+          "utc": "2026-11-03T04:28:49.273963+00:00",
+          "monotonic_ns": 1551573641696375,
+          "getter_group_s": 0.04710266715846956,
+          "y_nm": -24.337031945265153
+        },
+        {
+          "utc": "2026-11-03T04:28:49.619921+00:00",
+          "monotonic_ns": 1551573987641916,
+          "getter_group_s": 0.039337625028565526,
+          "y_nm": -24.377003526865337
+        }
+      ],
+      "Y_nm": [
+        -24.377003526865337,
+        -24.29705503459445
+      ],
+      "zero_based_row_interval": [
+        236,
+        237
+      ]
+    }
+  },
+  "blocks": [
+    289,
+    289
+  ],
+  "rows": 25000,
+  "receipt": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/post211_native_receipt.json",
+    "sha256": "ae76c046785e0aba8db2f9daf5ecdbeaf0ed8dca4c4821e0dbd2c248326659ff"
+  },
+  "blocks_sha256": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/native_R06/dl_goal30_FIVE1102_SESSION_02_R0600289.dat",
+      "sha256": "79bd7936734a66c26bcc27480e1a5a6182949223b7a14b8c5bc9bbc9c9b0fde3",
+      "rows": 25000
+    }
+  ],
+  "manifest": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/manifest.json",
+    "sha256": "2d7a71c6579d3265af978d9b0922416333d9727c2d508b79be81eb751853a24f"
+  },
+  "logger_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/logger_06/events.jsonl",
+    "complete_prefix_bytes": 109811118,
+    "complete_prefix_sha256": "e0fca1b920cc185518860cd9af4772cacc52ca617408acfce2782839dc485dba"
+  },
+  "scan_events": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I03_full/events.jsonl",
+    "complete_prefix_bytes": 31615309,
+    "complete_prefix_sha256": "2f914440181b2adf1b526bb70a834b9ea1a0179164ac8707a72e3e329d95da61"
+  },
+  "script_sha256": "6863c547a6c7291a9de08262176c45a89ebe8c0a8ce517b67f30e4dcd92d3921",
+  "scope": "Counter/host/slow-axis mapping only. Current thresholds are descriptive sample levels. The raw logger has no XY; output cannot assign exact pixels, pass direction, or simultaneous XY. Grouped readback and native buffering delays are uncalibrated."
+}

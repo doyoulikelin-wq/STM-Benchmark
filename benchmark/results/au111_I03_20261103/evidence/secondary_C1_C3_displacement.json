@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-11-03T04:31:14.944657+00:00",
+  "scope": "Posthoc secondary check only. Prospectively D4 was independent, but completed211 mound now overlaps it. Original three-reference score and original plan retained unchanged.",
+  "refs": [
+    "C1",
+    "C3"
+  ],
+  "reason_for_D4_exclusion": "Actual211 broad mound visibly extends into D4; D4 cannot isolate tip-imaging function or rigid drift. C2 was already local-only.",
+  "best_shared": {
+    "dy_rows": -1,
+    "dx_cols": 2,
+    "mean_corr": 0.9275864441445625,
+    "four_C1FBC3FB_corrs": [
+      0.8697127398927367,
+      0.8758013944844708,
+      0.9824795878532201,
+      0.9823520543478224
+    ],
+    "nominal_XY_shift_nm": [
+      0.4166666666666667,
+      0.20833333333333334
+    ]
+  },
+  "zero": {
+    "dy_rows": 0,
+    "dx_cols": 0,
+    "mean_corr": 0.7528952225308736,
+    "four_C1FBC3FB_corrs": [
+      0.6224447368847188,
+      0.6216879114645005,
+      0.8841611745705458,
+      0.8832870672037293
+    ]
+  },
+  "not_registered": true,
+  "limits": "C1 changes shape and has short line artifacts. C3 and separate left-lower terrace edge support about +0.4..0.6nm X/+0.2..0.4nm Y apparent displacement. Not a calibrated drift correction.",
+  "inputs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/after_vs_210/image_measurements.json",
+      "sha256": "e150044561cc57594a4880d664ff9e695240aeb5819babaa362e5ec8d93931b3"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/after_vs_210/landmark_displacement.json",
+      "sha256": "368e0e020d132d1a02ed876d234acb78b67c7d7c2d755e889ccb8670753e1226"
+    }
+  ]
+}

@@ -34,6 +34,7 @@ Python 3 标准库离线工具：`scripts/action_record.py`，模板 `assets/act
 
 `draft → validated → claim_persisted → sent → acknowledged → native_end_known → recovery_checked → imaged → assessed`
 
+- 阶段内循环计数会重新从零开始。观察文件名同时包含阶段与索引，例如 `pre_0000`、`motion_0000`、`target_0000`；保留独占创建，重复目标路径仍应拒绝。改动适配器时用真实文件写入检验跨阶段不重名。若移动已经 ACK，之后发生本地日志异常，分别核查物理到位和记录故障，不能据日志失败自动重发移动。
 - `claim_persisted`：唯一事件 ID、精确命令、参数、授权范围、预读回和源码 SHA 已原子落盘。已有 claim 不重放；发送失败也不能仅因没 ACK 就复用 ID。
 - `acknowledged`：收到完整回包，记录错误码、内容和时间。仅在协议明确 wait-flag 的返回语义且无错误时，才能用 ACK 支持 `native_end_known`。
 - `unknown`：发送结果、命令结束、连接状态任一不明时分支到人工核查，不继续正常状态链，不发送自动 On 或第二次动作。

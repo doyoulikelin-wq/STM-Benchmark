@@ -1,0 +1,102 @@
+{
+  "schema": "R06-I03-target-induction-admission-v1",
+  "case_id": "R06_I03_induction_after_usable210",
+  "episode_id": "continuing_20261101_1939",
+  "session_id": "session_02",
+  "action_id": "I03",
+  "recording_segment_id": "R06",
+  "exclusive_root_writer": true,
+  "stop_requested": false,
+  "unresolved_previous_writer": false,
+  "manual_intervention_since_baseline": false,
+  "stage_intent": "induction_attempt",
+  "induction_effect": "not_assessed",
+  "repair_episode_active": false,
+  "automatic_strategy_chain": false,
+  "post_induction_full_required": true,
+  "profile": "local-au111",
+  "required_safetip": "off",
+  "documented_legacy_pulse_count": 3,
+  "pulse_count_reset": false,
+  "max_pulses_per_episode": 6,
+  "review_after_consecutive_no_improvement": 2,
+  "max_shapers_this_induction": 1,
+  "shaper_attempts_before": 0,
+  "shaper_ordinal": 1,
+  "max_moves_this_induction": 1,
+  "shaper": {
+    "props_set": [
+      0.05,
+      2,
+      2.0,
+      -9e-10,
+      0.2,
+      2.0,
+      0.1,
+      5e-09,
+      1.0,
+      0.1,
+      1
+    ],
+    "start": [
+      1,
+      5000
+    ]
+  },
+  "imaging_setpoint_A": 1e-10,
+  "preparation_to1nA_permitted": false,
+  "Pulse_permitted": false,
+  "target_m": [
+    1.8e-08,
+    -2.1e-09
+  ],
+  "target_id": "T_I03_right_step_adjacent_protrusion",
+  "reason": "I02cornercontact preserved function. Test one interaction with a currently locatable protrusion within samefield/rightside while retaining distant references. Rounded coordinate is a commandchoice, not atomically precise centroid. One move at2nm/s within50nm, independently reviewed move history before one900pmshaper. Preserve old3pulses/A05repair1/I02induction1/oldI01move1, no newrepairbudget.",
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R02_functional_image_plan.json",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+    "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/analysis/quality_report.json",
+    "sha256": "781cd400bb4fa3e2a5efb8cacc466fcc53bfff1d29f313a118d40e7cc3617ec5"
+  },
+  "baseline_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/root_210_image_review.json",
+    "sha256": "52362255208e902ce014542e33960e09318f3f90a85ea81540bdcca6722bd0da"
+  },
+  "baseline_reviewed_usable": true,
+  "baseline_completed_monotonic_ns": 1550367554080750,
+  "baseline_native_review": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/root_210_native_review.json",
+    "sha256": "423d4c46dda153580a129d239697325708c0293daad53d6535fc34bf7c6462c4"
+  },
+  "documented_prior_repair_Starts": 1,
+  "new_repair_episode_declared": false,
+  "monotonic_ns": 1550823088423583,
+  "user_guidance": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/new_user_guidance/user_guidance_and_manual_confirmation.json",
+    "sha256": "2a4ed8ecf64b45ca7221d3045292f166671f8b1d8abd2d6371c0bba99a01a64d"
+  },
+  "_status": "Root exact one move+one separately admitted shaping, no chain or execution claimed",
+  "documented_prior_induction_Starts": 1,
+  "documented_prior_induction_moves": 1,
+  "move_attempts_before": 0,
+  "root_reviewed_one_move_and_one_shaper": true,
+  "no_unplanned_intervention_since_baseline": true,
+  "source_m": [
+    -2.5000000292152436e-08,
+    -2.5000000292152436e-08
+  ],
+  "target_mapping": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03_target_mapping.json",
+    "sha256": "69af3b81aa2efa628a7de8af806048fc6a590b0f43e30cc5b2b0b26a1e62dfe8"
+  },
+  "move": {
+    "speed_m_s": 2e-09,
+    "max_distance_m": 5e-08
+  }
+}

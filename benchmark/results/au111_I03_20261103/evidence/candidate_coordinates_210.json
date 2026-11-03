@@ -1,0 +1,316 @@
+{
+  "created_utc": "2026-11-03T04:13:58.611761+00:00",
+  "scope": "local-only candidate localization; no selection/admission/device/SMB access",
+  "sources": {
+    "native": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/native/BM261029_00210.sxm",
+      "sha256": "403443d78994fbf1618ff9d4e6d41b1e9d7e91ad9d8f2aa823c07deb57727df8",
+      "bytes": 1383336
+    },
+    "quality": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/analysis/quality_report.json",
+      "sha256": "781cd400bb4fa3e2a5efb8cacc466fcc53bfff1d29f313a118d40e7cc3617ec5"
+    },
+    "planes": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/analysis/analysis_planes.npz",
+      "sha256": "96247da95818f693c05e1723411ea1ff8ca4b91b55bbccd2e62090adb93f03ca"
+    },
+    "after_frames": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/after_frames.json",
+      "sha256": "f18fa829ee4c8b3edc267362d0882fad6ea6c747d312f7097398ae64fcd2d4dc"
+    },
+    "frozen_reference_rois": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/compare201_202_offline/measurements.json",
+      "sha256": "ef3a3fb7b4fb0cf966163999ae4cc4a21716101c3518f56c068f4d480e16bc6c"
+    },
+    "script": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/map_210_candidates_local.py",
+      "sha256": "53380113d95a4a1a7bfc2c93e4de911bcf29c56a87a43f2c66a9e955e8c7bcbd"
+    }
+  },
+  "mapping": {
+    "shape": [
+      240,
+      240
+    ],
+    "pitch_nm": 0.20833333333333334,
+    "angle_deg": 0,
+    "offset_nm": [
+      0,
+      0
+    ],
+    "X": "-25+(column+0.5)*50/240",
+    "Y": "25-(row+0.5)*50/240",
+    "direction": "DOWN; display row 0 at +Y; F/B arrays already on same physical left-to-right X orientation"
+  },
+  "candidates": [
+    {
+      "id": "left",
+      "rc_half_open": [
+        129,
+        150,
+        42,
+        63
+      ],
+      "directions": [
+        {
+          "direction": "F",
+          "raw_peak_rc": [
+            141,
+            54
+          ],
+          "peak_rc": [
+            141,
+            54
+          ],
+          "peak_xy_nm": [
+            -13.645833333333332,
+            -4.479166666666668
+          ],
+          "centroid_rc": [
+            140.80430313064048,
+            54.08256230548139
+          ],
+          "centroid_xy_nm": [
+            -13.62863285302471,
+            -4.438396485550101
+          ],
+          "perimeter_plane_height_pm": 328.6928714431525,
+          "halfheight_component_bbox_rc": [
+            139,
+            144,
+            51,
+            57
+          ],
+          "component_touches_crop_edge": false
+        },
+        {
+          "direction": "B",
+          "raw_peak_rc": [
+            140,
+            53
+          ],
+          "peak_rc": [
+            140,
+            53
+          ],
+          "peak_xy_nm": [
+            -13.854166666666666,
+            -4.270833333333336
+          ],
+          "centroid_rc": [
+            139.98069761369678,
+            52.80874848074579
+          ],
+          "centroid_xy_nm": [
+            -13.894010733177959,
+            -4.266812002853495
+          ],
+          "perimeter_plane_height_pm": 332.4248694281806,
+          "halfheight_component_bbox_rc": [
+            138,
+            143,
+            50,
+            56
+          ],
+          "component_touches_crop_edge": false
+        }
+      ],
+      "mean_centroid_xy_nm": [
+        -13.761321793101335,
+        -4.352604244201798
+      ],
+      "centroid_FB_separation_nm": 0.31601685710875277,
+      "descriptive_centroid_plus_halfpixel_envelope_xy_nm": [
+        [
+          -13.998177399844625,
+          -13.524466186358044
+        ],
+        [
+          -4.5425631522167675,
+          -4.162645336186828
+        ]
+      ],
+      "reference_separations": [
+        {
+          "id": "C1_upper_isolated",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 21.538152914390405
+        },
+        {
+          "id": "C2_right_upper",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 28.56928703533503
+        },
+        {
+          "id": "C3_diagonal_edge",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 14.352604244201798
+        },
+        {
+          "id": "D4_lower_object",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 22.454949272424024
+        }
+      ],
+      "straight_path": {
+        "start_xy_nm": [
+          -25.000000292152436,
+          -25.000000292152436
+        ],
+        "end_xy_nm": [
+          -13.761321793101335,
+          -4.352604244201798
+        ],
+        "length_nm": 23.50793180962462,
+        "speed_nm_s": 2.0,
+        "ideal_seconds": 11.75396590481231,
+        "within_50nm": true,
+        "within_original_frame": true
+      }
+    },
+    {
+      "id": "right",
+      "rc_half_open": [
+        119,
+        141,
+        195,
+        221
+      ],
+      "directions": [
+        {
+          "direction": "F",
+          "raw_peak_rc": [
+            129,
+            205
+          ],
+          "peak_rc": [
+            129,
+            205
+          ],
+          "peak_xy_nm": [
+            17.8125,
+            -1.9791666666666679
+          ],
+          "centroid_rc": [
+            129.63340272776765,
+            206.5273363290077
+          ],
+          "centroid_xy_nm": [
+            18.130695068543275,
+            -2.111125568284926
+          ],
+          "perimeter_plane_height_pm": 296.7844252504648,
+          "halfheight_component_bbox_rc": [
+            126,
+            135,
+            198,
+            213
+          ],
+          "component_touches_crop_edge": false
+        },
+        {
+          "direction": "B",
+          "raw_peak_rc": [
+            129,
+            204
+          ],
+          "peak_rc": [
+            129,
+            204
+          ],
+          "peak_xy_nm": [
+            17.60416666666667,
+            -1.9791666666666679
+          ],
+          "centroid_rc": [
+            129.43975856472525,
+            205.6957627000595
+          ],
+          "centroid_xy_nm": [
+            17.9574505625124,
+            -2.0707830343177633
+          ],
+          "perimeter_plane_height_pm": 297.434737741483,
+          "halfheight_component_bbox_rc": [
+            126,
+            135,
+            197,
+            212
+          ],
+          "component_touches_crop_edge": false
+        }
+      ],
+      "mean_centroid_xy_nm": [
+        18.044072815527837,
+        -2.0909543013013447
+      ],
+      "centroid_FB_separation_nm": 0.17787967538978142,
+      "descriptive_centroid_plus_halfpixel_envelope_xy_nm": [
+        [
+          17.85328389584573,
+          18.234861735209943
+        ],
+        [
+          -2.2152922349515927,
+          -1.9666163676510966
+        ]
+      ],
+      "reference_separations": [
+        {
+          "id": "C1_upper_isolated",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 26.182924565283297
+        },
+        {
+          "id": "C2_right_upper",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 3.757620967968009
+        },
+        {
+          "id": "C3_diagonal_edge",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 27.136564813592862
+        },
+        {
+          "id": "D4_lower_object",
+          "candidate_crop_intersects_reference": false,
+          "target_to_nominal_reference_rectangle_nm": 9.385249534177488
+        }
+      ],
+      "straight_path": {
+        "start_xy_nm": [
+          -25.000000292152436,
+          -25.000000292152436
+        ],
+        "end_xy_nm": [
+          18.044072815527837,
+          -2.0909543013013447
+        ],
+        "length_nm": 48.76081026716286,
+        "speed_nm_s": 2.0,
+        "ideal_seconds": 24.38040513358143,
+        "within_50nm": true,
+        "within_original_frame": true
+      }
+    }
+  ],
+  "selected": null,
+  "not_an_action_admission": true,
+  "method": "2-pixel perimeter plane; maximum positive residual; 4-connected >=half-peak component; residual-weighted centroid. Displays only subtract scalar perimeter median.",
+  "limits": [
+    "Coordinates are nominal scan coordinates, not calibrated atom positions. Pixel quantization is half-pitch per axis; F/B discrepancy and unknown drift remain.",
+    "Right candidate is wider/asymmetric; centroid and maximum differ. Its proximity to C2 must be recorded prospectively if selected: C2 becomes a local affected check, with C1/C3/D4 retained as independent locations.",
+    "Straight path length does not establish safe clearance; local live readback and root decision remain separate. No move performed."
+  ],
+  "figures": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/candidate_crops_210_FB.png",
+      "sha256": "da5db29e1ac1b0674ed07c3a2f416001a658fc7375673e536c9aece6ee74a10f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/candidate_routes_210_FB.png",
+      "sha256": "98956cd7cf70a9b9322cd0c808e80299f7ecacf71cef7c43da5bdbf8d0d94bad"
+    }
+  ]
+}

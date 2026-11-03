@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-11-03T04:14:31.655845+00:00",
+  "scope": "Offline mapping summary for root-selected candidate. Not an admission and no action performed.",
+  "selection_source": "Root message selected right candidate and rounded command target (+18.0,-2.1) nm; raw derived centroids remain in separate immutable candidate file.",
+  "candidate_ref": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/candidate_coordinates_210.json",
+    "sha256": "8b4154b7f05c96054eeccfc364018350e00a6b8e1a65c924d48685f737443bfd"
+  },
+  "target_m": [
+    1.8e-08,
+    -2.1e-09
+  ],
+  "target_nm": [
+    18.0,
+    -2.1
+  ],
+  "candidate_rc_half_open": [
+    119,
+    141,
+    195,
+    221
+  ],
+  "candidate_bounds_m": {
+    "x": [
+      1.5625e-08,
+      2.1041666666666668e-08
+    ],
+    "y": [
+      -4.375e-09,
+      2.0833333333333334e-10
+    ]
+  },
+  "mean_centroid_nm": [
+    18.044072815527837,
+    -2.0909543013013447
+  ],
+  "descriptive_uncalibrated_centroid_envelope_nm": [
+    [
+      17.85328389584573,
+      18.234861735209943
+    ],
+    [
+      -2.2152922349515927,
+      -1.9666163676510966
+    ]
+  ],
+  "start_xy_nm": [
+    -25.000000292152436,
+    -25.000000292152436
+  ],
+  "straight_distance_nm": 48.71765633223433,
+  "seconds_at_2nm_per_s": 24.358828166117164,
+  "within_original_50nm_cap": true,
+  "C2_role": "Nearby local affected check; do not treat as sole independent reference after this intervention.",
+  "independent_reference_ids": [
+    "C1_upper_isolated",
+    "C3_diagonal_edge",
+    "D4_lower_object"
+  ],
+  "visual_description": "Right candidate is a broad asymmetric protrusion next to a terrace boundary; F/B locate it consistently. It is not an isolated circular particle.",
+  "uncertainty": "Finite 0.20833 nm pixels, F/B offsets, surface boundary shape and unknown post-image drift; numerical centroid envelope is descriptive, not a physical confidence interval. Nominal route geometry cannot establish actual clearance.",
+  "no_target_auto_selection": true,
+  "no_device_operation": true
+}

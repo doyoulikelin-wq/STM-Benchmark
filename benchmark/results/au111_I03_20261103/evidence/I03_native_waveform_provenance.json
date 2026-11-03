@@ -1,0 +1,164 @@
+{
+  "source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_native_pre_action_post.json",
+    "sha256": "065a76cfbdf205ec22d10297ba7d47686abb2b42901633e7c43405041428e6b9"
+  },
+  "plot_origin_native_s": 2998.32,
+  "boundaries": {
+    "pre30s_first": {
+      "before": {
+        "monotonic_ns": 1550932889357041,
+        "utc": "2026-11-03T04:18:08.519501+00:00",
+        "block": 238,
+        "points_counter": 11320,
+        "sample": 5936320,
+        "native_s": 2968.16,
+        "elapsed_nominal_half_s": 2968.010000228882
+      },
+      "after": {
+        "monotonic_ns": 1550933438971583,
+        "utc": "2026-11-03T04:18:09.069110+00:00",
+        "block": 238,
+        "points_counter": 12400,
+        "sample": 5937400,
+        "native_s": 2968.7000000000003,
+        "elapsed_nominal_half_s": 2968.5300006866455
+      },
+      "host_before_ns": 1550932979798083,
+      "host_after_ns": 1550932979798083
+    },
+    "pre30s_last": {
+      "before": {
+        "monotonic_ns": 1550962503458291,
+        "utc": "2026-11-03T04:18:38.133662+00:00",
+        "block": 240,
+        "points_counter": 20540,
+        "sample": 5995540,
+        "native_s": 2997.77,
+        "elapsed_nominal_half_s": 2997.5
+      },
+      "after": {
+        "monotonic_ns": 1550963042594041,
+        "utc": "2026-11-03T04:18:38.672801+00:00",
+        "block": 240,
+        "points_counter": 21640,
+        "sample": 5996640,
+        "native_s": 2998.32,
+        "elapsed_nominal_half_s": 2998.010000228882
+      },
+      "host_before_ns": 1550962883156000,
+      "host_after_ns": 1550962883156000
+    },
+    "post30s_first": {
+      "before": {
+        "monotonic_ns": 1550965999631833,
+        "utc": "2026-11-03T04:18:41.629841+00:00",
+        "block": 241,
+        "points_counter": 2520,
+        "sample": 6002520,
+        "native_s": 3001.26,
+        "elapsed_nominal_half_s": 3001.0199999809265
+      },
+      "after": {
+        "monotonic_ns": 1550966567593000,
+        "utc": "2026-11-03T04:18:42.197811+00:00",
+        "block": 241,
+        "points_counter": 3680,
+        "sample": 6003680,
+        "native_s": 3001.84,
+        "elapsed_nominal_half_s": 3001.5299999713898
+      },
+      "host_before_ns": 1550966264290333,
+      "host_after_ns": 1550966264290333
+    },
+    "post30s_last": {
+      "before": {
+        "monotonic_ns": 1550995671012833,
+        "utc": "2026-11-03T04:19:11.301320+00:00",
+        "block": 243,
+        "points_counter": 11880,
+        "sample": 6061880,
+        "native_s": 3030.94,
+        "elapsed_nominal_half_s": 3030.5
+      },
+      "after": {
+        "monotonic_ns": 1550996214083083,
+        "utc": "2026-11-03T04:19:11.844400+00:00",
+        "block": 243,
+        "points_counter": 12980,
+        "sample": 6062980,
+        "native_s": 3031.4900000000002,
+        "elapsed_nominal_half_s": 3031.0199999809265
+      },
+      "host_before_ns": 1550996048709916,
+      "host_after_ns": 1550996048709916
+    },
+    "start_claim": {
+      "before": {
+        "monotonic_ns": 1550963042594041,
+        "utc": "2026-11-03T04:18:38.672801+00:00",
+        "block": 240,
+        "points_counter": 21640,
+        "sample": 5996640,
+        "native_s": 2998.32,
+        "elapsed_nominal_half_s": 2998.010000228882
+      },
+      "after": {
+        "monotonic_ns": 1550963600026500,
+        "utc": "2026-11-03T04:18:39.230231+00:00",
+        "block": 240,
+        "points_counter": 22720,
+        "sample": 5997720,
+        "native_s": 2998.86,
+        "elapsed_nominal_half_s": 2998.5300006866455
+      },
+      "host_before_ns": 1550963398123333,
+      "host_after_ns": 1550963398123333
+    },
+    "waiting_ack": {
+      "before": {
+        "monotonic_ns": 1550965999631833,
+        "utc": "2026-11-03T04:18:41.629841+00:00",
+        "block": 241,
+        "points_counter": 2520,
+        "sample": 6002520,
+        "native_s": 3001.26,
+        "elapsed_nominal_half_s": 3001.0199999809265
+      },
+      "after": {
+        "monotonic_ns": 1550966567593000,
+        "utc": "2026-11-03T04:18:42.197811+00:00",
+        "block": 241,
+        "points_counter": 3680,
+        "sample": 6003680,
+        "native_s": 3001.84,
+        "elapsed_nominal_half_s": 3001.5299999713898
+      },
+      "host_before_ns": 1550966016277750,
+      "host_after_ns": 1550966016277750
+    }
+  },
+  "binning": [
+    {
+      "samples_per_bin": 100,
+      "native_sample_half_open": [
+        5936320,
+        6062980
+      ],
+      "all_samples_included": 126660
+    },
+    {
+      "samples_per_bin": 2,
+      "native_sample_half_open": [
+        5996640,
+        6003680
+      ],
+      "all_samples_included": 7040
+    }
+  ],
+  "image": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_native_waveform.png",
+    "sha256": "410f8aa83afd39ff9cb4b473fb9788ffbbb9a6dac21df8505691882fd0e2363e"
+  },
+  "script_sha256": "685d8c1c852cd57dec1d682e648c2046da3045c41db90352a03d657cc779d5c0"
+}

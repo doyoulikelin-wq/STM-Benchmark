@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-11-03T04:36:20.335006+00:00",
+  "record_type": "retrospective packaging note; final archived mapping itself predates actual move",
+  "change": "Provisional isolated_protrusion_supported wording was rejected during F/B review because the right candidate adjoins a terrace edge. The unused template was corrected to resolved_protrusion_supported before execution. This does not claim an old isolated-target action was performed.",
+  "final_mapping_source_sha256": "69af3b81aa2efa628a7de8af806048fc6a590b0f43e30cc5b2b0b26a1e62dfe8",
+  "final_mapping_monotonic_ns": 1550823087934708,
+  "first_actual_move_claim_monotonic_ns": 1550829153607666,
+  "mapping_predates_move": true,
+  "final_action_source_sha256": "465279904ae8f26b13b128ab765e8751fd084453d15e298445f234f38e7a3fe8",
+  "final_move_source_sha256": "6ce4fb1c56fa27281e9fb57dcb8c26002ebafd67c91fe09c2f38ada503cf436d",
+  "final_target_nm": [
+    18,
+    -2.1
+  ],
+  "material_identity": "unknown",
+  "reference_roles_before_action": {
+    "independent": [
+      "C1",
+      "C3",
+      "D4"
+    ],
+    "local_affected_check": [
+      "C2"
+    ]
+  },
+  "reference_roles_after_completed211": {
+    "remaining_remote": [
+      "C1",
+      "C3"
+    ],
+    "D4": "Actual mound intrudes. Original prospective independent designation retained in original plan; D4 no longer provides an independent tip-effect check. No replacement is silently substituted."
+  }
+}

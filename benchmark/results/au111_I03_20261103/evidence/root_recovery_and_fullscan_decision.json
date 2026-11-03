@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-03T04:21:30.767340+00:00",
+  "monotonic_ns": 1551135136701625,
+  "action_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json",
+    "sha256": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d"
+  },
+  "known_native_end": true,
+  "post30s_restored_preset": true,
+  "allow_one_matched_full_scan": true,
+  "reason": "Original30s shaper postchecks passed. Native29.10s postI−132.59..−81.15pA/no>=400pA andZstable+8.240nm; actionoverrange and transient+14.087nm peak fullyrecorded. Return−1V then100msplateau andrapidZmotionfitknownfeedbackrestore sequence; actualswitchtime unmeasured. Working pointshiftcauseunknown butcurrent/feedback/end/margins recovered. One current same-setting complete image now tests functional outcome.",
+  "sources": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_native_pre_action_post.json",
+      "sha256": "065a76cfbdf205ec22d10297ba7d47686abb2b42901633e7c43405041428e6b9"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_diagnostic/I03_return_timeline.json",
+      "sha256": "a14d00a1f8add125ad58ee3db7b42793468d433d7208430dd6b966b1a10682ff"
+    }
+  ],
+  "interpretation": "Workpoint shift is not contact depth; no physical-composition or badstate label before fullimage"
+}

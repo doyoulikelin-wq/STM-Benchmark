@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-11-03T04:22:12.297866+00:00",
+  "scope": "Local-only prospective image review plan; written before post-I03 native image archive/analysis. Not an instrument instruction.",
+  "before": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+    "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+  },
+  "before_native": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/native/BM261029_00210.sxm",
+    "sha256": "403443d78994fbf1618ff9d4e6d41b1e9d7e91ad9d8f2aa823c07deb57727df8"
+  },
+  "action": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I03/outcome.json",
+    "sha256": "c9d1bf159647440ad03884055ef7b8de0098efe7cf3fac99096e90036bc53e7d"
+  },
+  "actual_post_label": "Read from archived native SXM source; not assumed",
+  "expected_post_event": "after_R06_I03_full",
+  "functional_task": "Resolve dispersed nanoscale protrusions and terrace edge across full 50 nm frame; atomic resolution and chemical identity are outside this verdict.",
+  "independent_regions": [
+    {
+      "id": "C1_upper_isolated",
+      "rc_half_open": [
+        20,
+        44,
+        90,
+        115
+      ],
+      "role": "upper isolated protrusion plus nearby background",
+      "nominal_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666679
+        ],
+        "y": [
+          15.833333333333334,
+          20.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -6.25,
+          -1.0416666666666643
+        ],
+        "y": [
+          15.833333333333332,
+          20.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "rc_half_open": [
+        40,
+        72,
+        30,
+        90
+      ],
+      "role": "upper diagonal terrace-edge segment; real edge is not itself a quality failure",
+      "nominal_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          -18.75,
+          -6.25
+        ],
+        "y": [
+          10.0,
+          16.666666666666664
+        ]
+      }
+    },
+    {
+      "id": "D4_lower_object",
+      "rc_half_open": [
+        169,
+        194,
+        158,
+        184
+      ],
+      "role": "additional descriptive diagnostic after seeing202; not a preregistered pass ROI",
+      "physical_edges_nm": {
+        "x": [
+          7.916666666666671,
+          13.333333333333336
+        ],
+        "y": [
+          -15.416666666666671,
+          -10.208333333333336
+        ]
+      }
+    }
+  ],
+  "local_regions": [
+    {
+      "id": "C2_right_upper",
+      "rc_half_open": [
+        92,
+        112,
+        188,
+        213
+      ],
+      "role": "separate protrusion at roughly (+17,+3)nm; near edge, inspect boundary separately",
+      "nominal_edges_nm": {
+        "x": [
+          14.166666666666664,
+          19.375
+        ],
+        "y": [
+          1.6666666666666679,
+          5.833333333333332
+        ]
+      },
+      "status": "candidate for same-settings independent confirmation only; not frozen clean/control identity",
+      "localization_note": "nominal pixel edges; one-pixel 0.2083nm sampling plus drift/feature localization uncertainty; no claim of old200 object identity",
+      "physical_edges_nm": {
+        "x": [
+          14.166666666666671,
+          19.375
+        ],
+        "y": [
+          1.6666666666666643,
+          5.833333333333332
+        ]
+      }
+    },
+    {
+      "id": "I03_target_near_edge",
+      "rc_half_open": [
+        119,
+        141,
+        195,
+        221
+      ],
+      "target_nm": [
+        18.0,
+        -2.1
+      ],
+      "role": "Local physical intervention and sample modification expected possible; not independent reference."
+    }
+  ],
+  "assessment_order": [
+    "Verify completed native/TCP match for all six 240x240 planes, same header settings and actual action/end provenance.",
+    "Inspect raw F/B full fields and corresponding fixed C1/C3/D4 regions for recognizable targets, continuity, repeated directional distortion and broad impairment.",
+    "Inspect target region and C2 independently; record local morphology change without treating it as global tip failure.",
+    "If fixed-region features move, inspect independent landmarks and terrace edge together to distinguish displacement from disappearance. Preserve raw pair; any shifted view is separate secondary evidence.",
+    "Report induction effect as usable, degraded, or uncertain with concrete trace/retrace evidence and limits. Degraded requires functional impairment beyond an expected local surface modification; no successful dirty-repair-clean cycle is inferred."
+  ],
+  "interpretation_limits": [
+    "Root observed large post-action Z workpoint shift; raw global offsets are retained. A change in absolute Z or a single peak does not by itself determine imaging function.",
+    "I03 includes mapped lateral movement and one shaper operation; imaging change is associated with this composite exposure and cannot uniquely separate movement versus shaper contributions.",
+    "Height/width and F/B error metrics are descriptors, not automatic pass/fail thresholds. Tip contamination chemistry or atom transfer cannot be identified from these images alone."
+  ],
+  "script_refs": [
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/compare_after_I03.py",
+      "sha256": "78063d9c3b9a242806c2e5741afab46183834ce09237abb821db9c542c6eac5f"
+    },
+    {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/render_pair_by_stage.py",
+      "sha256": "4488330b8d4c34b2f0fd4196dcc703662b22ac8e97af45224d140eb958ef5e25"
+    }
+  ],
+  "partition": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/root_selected_right_mapping_summary.json",
+    "sha256": "3e264d25fab78e39a66e4133a5eccfac00841b3251266b4d940cfb2af7e02eef"
+  }
+}

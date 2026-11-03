@@ -1,0 +1,88 @@
+{
+  "_status": "Root reviewed actual210 mapping, no execution yet",
+  "schema": "R06-I03-target-mapping-v1",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+    "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/analysis/quality_report.json",
+    "sha256": "781cd400bb4fa3e2a5efb8cacc466fcc53bfff1d29f313a118d40e7cc3617ec5"
+  },
+  "native_SXM": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/native/BM261029_00210.sxm",
+    "sha256": "403443d78994fbf1618ff9d4e6d41b1e9d7e91ad9d8f2aa823c07deb57727df8",
+    "bytes": 1383336
+  },
+  "target_m": [
+    1.8e-08,
+    -2.1e-09
+  ],
+  "target_id": "T_I03_right_step_adjacent_protrusion",
+  "selected_region_bounds_m": [
+    [
+      1.5625e-08,
+      2.1041666666666668e-08
+    ],
+    [
+      -4.375e-09,
+      2.0833333333333334e-10
+    ]
+  ],
+  "resolved_protrusion_supported": true,
+  "target_is_independent_reference": false,
+  "material_identity": "unknown",
+  "trace_retrace_evidence": "Root personally inspected F/B candidate crop; localized asymmetric rise around(+18,-2.1)nm follows consistent contour in both scans, adjoining step.",
+  "reason": "I02cornercontact preserved function. Test one interaction with a currently locatable protrusion within samefield/rightside while retaining distant references. Rounded coordinate is a commandchoice, not atomically precise centroid.",
+  "limitations": "Finite 0.20833 nm pixels, F/B offsets, surface boundary shape and unknown post-image drift; numerical centroid envelope is descriptive, not a physical confidence interval. Nominal route geometry cannot establish actual clearance.; step-adjacent unknown material. NearbyC2 is local affectedcheck only. Straight nominalroute crosses real terrain; actual clearance and interpolatedpath not independently proven.",
+  "independent_references": [
+    {
+      "id": "C1_upper_isolated",
+      "bounds_m": [
+        [
+          -6.2500000000000005e-09,
+          -1.0416666666666644e-09
+        ],
+        [
+          1.5833333333333333e-08,
+          2.0833333333333335e-08
+        ]
+      ],
+      "reason": "Prospectively retained distant nanoscale object/edge function reference. Direct action target excluded."
+    },
+    {
+      "id": "C3_diagonal_edge",
+      "bounds_m": [
+        [
+          -1.8750000000000002e-08,
+          -6.2500000000000005e-09
+        ],
+        [
+          1e-08,
+          1.6666666666666664e-08
+        ]
+      ],
+      "reason": "Prospectively retained distant nanoscale object/edge function reference. Direct action target excluded."
+    },
+    {
+      "id": "D4_lower_object",
+      "bounds_m": [
+        [
+          7.916666666666671e-09,
+          1.3333333333333337e-08
+        ],
+        [
+          -1.5416666666666672e-08,
+          -1.0208333333333337e-08
+        ]
+      ],
+      "reason": "Prospectively retained distant nanoscale object/edge function reference. Direct action target excluded."
+    }
+  ],
+  "monotonic_ns": 1550823087934708,
+  "candidate_mapping_source": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I03/root_selected_right_mapping_summary.json",
+    "sha256": "3e264d25fab78e39a66e4133a5eccfac00841b3251266b4d940cfb2af7e02eef"
+  },
+  "C2_role": "local_affected_check"
+}
