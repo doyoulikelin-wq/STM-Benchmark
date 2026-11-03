@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-11-03T04:10:42.227518+00:00",
+  "baseline_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/outcome.json",
+    "sha256": "2959c3eff80422d26daf580915c6407c60aaebacc6be8341901f2315a6904b1d"
+  },
+  "baseline_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/analysis/quality_report.json",
+    "sha256": "781cd400bb4fa3e2a5efb8cacc466fcc53bfff1d29f313a118d40e7cc3617ec5"
+  },
+  "native_SXM": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/after_R06_I02_full/native/BM261029_00210.sxm",
+    "sha256": "403443d78994fbf1618ff9d4e6d41b1e9d7e91ad9d8f2aa823c07deb57727df8",
+    "bytes": 1383336
+  },
+  "pre_induction_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/outcome.json",
+    "sha256": "ebb2276b0b20a219f065d3140e71c514f0eada6dc91a8f9337675da46b6583ec"
+  },
+  "pre_induction_quality": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/confirm_A05_full/analysis/quality_report.json",
+    "sha256": "a12a60eea1920f22ad6f2f340d7de1ed25e08ddf9dbdac632c2f27559185bf43"
+  },
+  "I02_outcome": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/session_02/induction_R06_I02/outcome.json",
+    "sha256": "631a9f0db89ccac28e08254db9099ea8d8942b877d5763f7f6d787b90b9d95ed"
+  },
+  "functional_image_plan": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R02_functional_image_plan.json",
+    "sha256": "9ccb1dc1507bb640ae9a6969f75b7f777b5558d454f94b682202168e219e5a0c"
+  },
+  "induction_effect": "usable",
+  "task_usable": true,
+  "full_task_usable": true,
+  "verified_induced_functional_degradation": false,
+  "task_scope": "完整50nm图中分散纳米突起、台阶及边缘邻近目标的辨识。",
+  "reason": "210正反扫仍能辨认C1/C2/C3/D4和场内其他目标，普遍较209紧凑，台阶方向明确。个别单行突刺、短横尾和一处背景阶跃存在，但没有破坏全幅任务。",
+  "trace_retrace_evidence": {
+    "C1": "210两向主体可辨，正扫上缘多出一条窄亮线，反扫主体轮廓连续。半高连接体横向包围宽约1.875nm，两方向相同；209约3.542nm。",
+    "C2": "210两向主体均紧凑，附近小隆起可分；固定名义窗口保留，不据主峰变化判坏。",
+    "C3": "210两向可追踪斜台阶及其近边突起。局部平面宽度受台阶影响，只作描述；目标轮廓仍与背景可分。",
+    "D4": "210两向主体可辨，正扫有短横尾；未出现跨分散区域的不可辨识情况。",
+    "full_frame": "零基193→194行两向均有背景阶跃，约名义Y−15.4nm。其上下仍可辨物体与台阶，不将这一条线自动升级为坏尖。"
+  },
+  "local_versus_global": "改变包括多数目标更紧凑及个别短尾/背景台阶。保留全幅物体辨识功能，未证实本次I02制造了需要修复的状态。",
+  "comparison_limits": [
+    "形状收窄可能涉及尖端投影变化、局部表面或成像响应，未证明吸附/脱附机制、实际接触深度或化学洁净。",
+    "209和210全图F/B去均值差RMS分别14.57、19.21pm。该描述上升不覆盖逐目标仍可辨这一主要事实。",
+    "共同位移检查仅约列+1、行−1，可解释少量坐标差，形状变化不能由简单平移完全解释。"
+  ],
+  "limitations": "本轮为诱导尝试且动作有记录，效果仍可用。不能计入已成功弄脏或完整弄脏—修—干净循环。局部形状变化并不等于全局针尖失效。",
+  "successful_induced_cycle_increment": 0,
+  "measured_descriptors": {
+    "raw_Z_FB_offset_removed_RMS_pm": 19.2148098917701,
+    "flags_F_B": [
+      [
+        193,
+        194
+      ],
+      [
+        193,
+        194
+      ]
+    ],
+    "shared_displacement_pixels_dy_dx": [
+      -1,
+      1
+    ]
+  },
+  "comparison": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I02/after_vs_209/image_measurements.json",
+    "sha256": "a2cfa5f3cf328c6c96b473d6635444e2502437fe048714fbe902811d5e972c25"
+  },
+  "secondary_displacement": {
+    "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I02/after_vs_209/landmark_displacement.json",
+    "sha256": "4a2c8e4cfc8e0c6a9c68a4880dd9dd71e80e781228191af1826c696335d12b88"
+  },
+  "figures": {
+    "full_shared_contrast.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I02/after_vs_209/full_shared_contrast.png",
+      "sha256": "aa3beb384e67365b373e3480136ff884b22d9ac8220bfb2ed862e37293c82519"
+    },
+    "objects_before_top_after_bottom.png": {
+      "path": "/Users/maxlin/Desktop/Nanonis/work/stm_tip_five_sessions_20261102/continuation_slow_20261102/R06_induction_I02/after_vs_209/objects_before_top_after_bottom.png",
+      "sha256": "1d7da63cf2522403f1d3407e9455e8971c874ab5565d980844da25bf9ea73178"
+    }
+  }
+}
